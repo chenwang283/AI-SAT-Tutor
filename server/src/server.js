@@ -2,7 +2,7 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 const express = require("express");
 const dotenv = require("dotenv");
-const { getTutorReply } = require("./anthropicClient");
+const { getTutorReply } = require("./openaiClient");
 const { buildTutorPrompt } = require("./promptBuilder");
 
 dotenv.config();

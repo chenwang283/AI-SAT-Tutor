@@ -4,7 +4,7 @@ Sprint 0 proves the basic pipe works:
 
 1. Chrome can load an empty extension with a side panel.
 2. A local server can accept a request at /teach.
-3. The server can call Anthropic with a hardcoded SAT question and return the tutor reply.
+3. The server can call OpenAI with a hardcoded SAT question and return the tutor reply.
 
 Reference material lives in ../reference files and should be treated as read-only.
 
@@ -24,8 +24,8 @@ Copy-Item .env.example .env
 
 Edit .env and set:
 
-ANTHROPIC_API_KEY=your_key_here
-ANTHROPIC_MODEL=claude-3-5-sonnet-latest
+OPENAI_API_KEY=your_key_here
+OPENAI_MODEL=gpt-5.5
 
 Then start the server:
 
