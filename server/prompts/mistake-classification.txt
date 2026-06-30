@@ -1,0 +1,29 @@
+Vocab/transition
+Issue 1: vocab knowledge - does not know what a word means
+Issue 2: interpretation - misunderstands the relationship between sections of text
+
+Reading
+Issue 1: vocab knowledge - does not know what a significant word means
+Issue 2: did not pick an answer that satisfies what the question asks for
+Issue 3: picked an answer that satisfies the question but is not backed by the text
+
+Grammar
+Issue 1: zero grammar knowledge - does not know a grammar rule
+Issue 2: partial knowledge - knows part of a grammar concept but needs a related missing piece
+Issue 3: incorrect knowledge - has an incorrect understanding of a grammar rule
+
+Rhetorical synthesis
+Issue 1: did not pick an answer that satisfies what the question asks for
+Issue 2: picked an answer that satisfies the question but is not backed by the notes/text
+
+Math
+Issue 1: zero math knowledge - does not know where to begin
+Issue 2: partial knowledge - can do some parts but needs to learn something new related to the topic
+Issue 3: incorrect knowledge - something they know about the concept is wrong
+Issue 4: inaccurate method knowledge - can do some parts but needs a more efficient method, not a new concept
+
+Time management
+Issue 1: did not have time to solve the problem
+
+Misreading
+Misread part of the text, question, or answer

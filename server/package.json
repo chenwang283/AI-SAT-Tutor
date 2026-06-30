@@ -1,0 +1,19 @@
+{
+  "name": "ai-sat-tutor-server",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Sprint 0 server for the AI SAT Tutor.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/anthropicClient.js && node --check src/promptBuilder.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

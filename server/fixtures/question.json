@@ -1,0 +1,40 @@
+{
+  "questionId": "61ab9590-65a5-4fd5-912a-bb985c8e3d25",
+  "phase": "EMPTY",
+  "questionType": "free_response",
+  "stem": "Triangle \\(ABC\\) is equilateral, and its perimeter is \\(27\\) inches. The height of this triangle is \\(j\\sqrt{3}\\) inches, where \\(j\\) is a constant. What is the value of \\(j\\)?",
+  "figures": [],
+  "hasFigure": false,
+  "options": null,
+  "selectedLetter": null,
+  "correctLetter": null,
+  "freeResponse": {
+    "studentAnswer": "9",
+    "correctAnswer": "4.5",
+    "isCorrect": false
+  },
+  "tags": [
+    {
+      "label": "SAT Math",
+      "level": "section"
+    },
+    {
+      "label": "Geometry and Trigonometry",
+      "level": "domain"
+    },
+    {
+      "label": "Right triangles and trigonometry",
+      "level": "subskill"
+    },
+    {
+      "label": "special right triangles",
+      "level": "topic"
+    },
+    {
+      "label": "Medium",
+      "level": "difficulty"
+    }
+  ],
+  "explanation": null,
+  "submitButtonLabel": null
+}

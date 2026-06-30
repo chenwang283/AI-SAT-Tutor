@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "AI SAT Tutor",
+  "description": "Sprint 0 shell for the AI SAT Tutor side panel.",
+  "version": "0.0.1",
+  "permissions": [
+    "sidePanel"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "AI SAT Tutor"
+  }
+}
