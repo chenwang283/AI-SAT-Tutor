@@ -9,6 +9,9 @@
   "side_panel": {
     "default_path": "sidepanel.html"
   },
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_title": "AI SAT Tutor"
   }
