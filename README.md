@@ -1,18 +1,19 @@
 # AI SAT Tutor Codebase
 
-Sprint 0 proves the basic pipe works:
+Week 1 proves the first real tutoring loop works:
 
-1. Chrome can load an empty extension with a side panel.
-2. A local server can accept a request at /teach.
-3. The server can call OpenAI with a hardcoded SAT question and return the tutor reply.
+1. Chrome can load the extension side panel.
+2. The panel can read a StudySpaces multiple-choice question.
+3. The panel can send the captured question and typed student thinking to /teach.
+4. The server can call OpenAI and return the tutor reply.
 
 Reference material lives in ../reference files and should be treated as read-only.
 
 ## Project Layout
 
-extension/              Chrome Manifest V3 side-panel shell
+extension/              Chrome Manifest V3 side-panel chat UI
 server/                 Node/Express API for AI calls
-studyspaces_extractor.js Existing StudySpaces extractor, saved for Week 1 wiring
+studyspaces_extractor.js Existing StudySpaces extractor reference
 
 ## Server Setup
 
@@ -35,13 +36,14 @@ Health check:
 
 Invoke-RestMethod -Method Get -Uri http://localhost:3000/health
 
-AI pipe check:
+AI pipe check with the sample fixture question:
 
-Invoke-RestMethod -Method Post -Uri http://localhost:3000/teach -ContentType "application/json" -Body "{}"
-
-Optional custom student thinking:
-
-Invoke-RestMethod -Method Post -Uri http://localhost:3000/teach -ContentType "application/json" -Body '{"studentThinking":"I divided the perimeter by 3 and used 9, but I was not sure what the height meant."}'
+$question = Get-Content -Raw -LiteralPath ".\fixtures\question.json" | ConvertFrom-Json
+$body = @{
+  question = $question
+  studentThinking = "I divided the perimeter by 3 and used 9, but I was not sure what the height meant."
+} | ConvertTo-Json -Depth 20
+Invoke-RestMethod -Method Post -Uri http://localhost:3000/teach -ContentType "application/json" -Body $body
 
 ## Extension Setup
 
@@ -50,6 +52,8 @@ Invoke-RestMethod -Method Post -Uri http://localhost:3000/teach -ContentType "ap
 3. Turn on Developer mode.
 4. Click Load unpacked.
 5. Select C:\Users\Chen\Documents\AI SAT Tutor Project\AI tutor codebase\extension.
-6. Open the extension side panel and confirm the Sprint 0 shell appears.
+6. Open a StudySpaces multiple-choice question.
+7. Click the extension toolbar icon to open the side panel.
+8. Type your thinking and click Explain my mistake.
 
-The side panel is intentionally static in Sprint 0. StudySpaces extraction and panel-to-server messaging are Week 1 work.
+Keep the local server running while using the extension.

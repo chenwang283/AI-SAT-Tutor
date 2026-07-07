@@ -178,11 +178,7 @@ function extractQuestion() {
 }
 
 /*
-ONE THING STILL UNCONFIRMED:
-  reviewMarker 'incorrect' assumes a wrong MCQ pick shows svg.lucide-x.text-red-500.
-  Your review sample was a CORRECT answer (green check only), so grab ONE more sample:
-  an MCQ you answered WRONG, in review state, and check the marker on your wrong pick
-  and on the right answer. Adjust the 'lucide-x' selector if it differs.
+
 
 REMEMBER:
   - math-field values are live-only; if you test by pasting saved HTML they'll look empty.

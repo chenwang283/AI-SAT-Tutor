@@ -2,7 +2,7 @@
   "name": "ai-sat-tutor-server",
   "version": "0.0.1",
   "private": true,
-  "description": "Sprint 0 server for the AI SAT Tutor.",
+  "description": "Week 1 server for the AI SAT Tutor.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

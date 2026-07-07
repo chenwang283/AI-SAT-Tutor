@@ -17,8 +17,34 @@ async function readTextFixture(fileName) {
   return fs.readFile(path.join(fixturesDir, fileName), "utf8");
 }
 
-async function readJsonFixture(fileName) {
-  return JSON.parse(await readTextFixture(fileName));
+function requestError(statusCode, code, message) {
+  const error = new Error(message);
+  error.statusCode = statusCode;
+  error.code = code;
+  return error;
+}
+
+function getRequestQuestion(body) {
+  const question = body?.question;
+  if (!question || typeof question !== "object" || Array.isArray(question)) {
+    throw requestError(
+      400,
+      "INVALID_REQUEST",
+      "Request body must include a captured question object."
+    );
+  }
+  return question;
+}
+
+function getRequestStudentThinking(body) {
+  if (typeof body?.studentThinking !== "string") {
+    throw requestError(
+      400,
+      "INVALID_REQUEST",
+      "Request body must include studentThinking as a string."
+    );
+  }
+  return body.studentThinking.trim();
 }
 
 app.get("/health", (req, res) => {
@@ -27,20 +53,14 @@ app.get("/health", (req, res) => {
 
 app.post("/teach", async (req, res) => {
   try {
-    const [question, defaultStudentThinking, teachingMethod] = await Promise.all([
-      readJsonFixture("question.json"),
-      readTextFixture("student-thinking.txt"),
-      readTextFixture("teaching-method.txt"),
-    ]);
-
-    const providedThinking = typeof req.body?.studentThinking === "string"
-      ? req.body.studentThinking.trim()
-      : "";
+    const question = getRequestQuestion(req.body);
+    const studentThinking = getRequestStudentThinking(req.body);
+    const teachingMethod = await readTextFixture("teaching-method.txt");
 
     const prompt = await buildTutorPrompt({
       question,
       teachingMethod,
-      studentThinking: providedThinking || defaultStudentThinking,
+      studentThinking,
     });
 
     const reply = await getTutorReply(prompt);

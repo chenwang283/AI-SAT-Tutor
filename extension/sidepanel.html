@@ -8,18 +8,29 @@
   </head>
   <body>
     <main class="panel">
-      <section class="header" aria-labelledby="panel-title">
-        <p class="eyebrow">Sprint 0</p>
+      <header class="header" aria-labelledby="panel-title">
+        <p class="eyebrow">Week 1</p>
         <h1 id="panel-title">AI SAT Tutor</h1>
-        <p class="status" id="load-status">Side panel loaded.</p>
+        <p class="status" id="status">Ready.</p>
+      </header>
+
+      <section class="messages" id="messages" aria-live="polite" aria-label="Tutor chat">
+        <article class="message assistant">
+          <span class="label">Tutor</span>
+          <p>Ready when you are.</p>
+        </article>
       </section>
 
-      <section class="placeholder" aria-label="Next sprint preview">
-        <div class="message assistant">
-          <span class="label">Tutor</span>
-          <p>The extension shell is ready. In Week 1, this panel will read the current StudySpaces question and send it to the server.</p>
-        </div>
-      </section>
+      <form class="composer" id="tutor-form">
+        <label for="student-thinking">Your thinking</label>
+        <textarea
+          id="student-thinking"
+          name="studentThinking"
+          rows="5"
+          placeholder="I divided 27 by 3 and got 9..."
+        ></textarea>
+        <button type="submit" id="explain-button">Explain my mistake</button>
+      </form>
     </main>
 
     <script src="sidepanel.js"></script>

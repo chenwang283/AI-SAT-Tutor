@@ -23,7 +23,7 @@ async function buildTutorPrompt({ question, teachingMethod, studentThinking }) {
     "OUR TEACHING METHOD for this concept (use this):",
     teachingMethod.trim() || "(No method provided.)",
     "",
-    "WHAT THE STUDENT SAID OUT LOUD (raw transcript):",
+    "WHAT THE STUDENT TYPED ABOUT THEIR THINKING:",
     studentThinking.trim() || "(The student did not explain their thinking.)",
     "",
     "Do this, grounded in the student's own words:",
