@@ -1,11 +1,12 @@
 # AI SAT Tutor Codebase
 
-Week 1 proves the first real tutoring loop works:
+Week 2 supports the first real tutoring conversation loop:
 
 1. Chrome can load the extension side panel.
-2. The panel can read a StudySpaces multiple-choice question.
-3. The panel can send the captured question and typed student thinking to /teach.
-4. The server can call OpenAI and return the tutor reply.
+2. The panel can read a StudySpaces multiple-choice or free-response question.
+3. The panel keeps the current chat in extension session storage.
+4. The panel sends the captured question and conversation history to /teach.
+5. The server looks up the current teaching method and returns the tutor reply.
 
 Reference material lives in ../reference files and should be treated as read-only.
 
@@ -13,6 +14,7 @@ Reference material lives in ../reference files and should be treated as read-onl
 
 extension/              Chrome Manifest V3 side-panel chat UI
 server/                 Node/Express API for AI calls
+server/methods/         Teaching method files used by method lookup
 studyspaces_extractor.js Existing StudySpaces extractor reference
 
 ## Server Setup
@@ -41,7 +43,12 @@ AI pipe check with the sample fixture question:
 $question = Get-Content -Raw -LiteralPath ".\fixtures\question.json" | ConvertFrom-Json
 $body = @{
   question = $question
-  studentThinking = "I divided the perimeter by 3 and used 9, but I was not sure what the height meant."
+  conversation = @(
+    @{
+      role = "student"
+      content = "I divided the perimeter by 3 and used 9, but I was not sure what the height meant."
+    }
+  )
 } | ConvertTo-Json -Depth 20
 Invoke-RestMethod -Method Post -Uri http://localhost:3000/teach -ContentType "application/json" -Body $body
 
@@ -52,8 +59,9 @@ Invoke-RestMethod -Method Post -Uri http://localhost:3000/teach -ContentType "ap
 3. Turn on Developer mode.
 4. Click Load unpacked.
 5. Select C:\Users\Chen\Documents\AI SAT Tutor Project\AI tutor codebase\extension.
-6. Open a StudySpaces multiple-choice question.
+6. Open a StudySpaces multiple-choice or free-response question.
 7. Click the extension toolbar icon to open the side panel.
 8. Type your thinking and click Explain my mistake.
+9. Ask 2-3 follow-up questions in the same panel.
 
-Keep the local server running while using the extension.
+Keep the local server running while using the extension. Use New question to clear the current chat state.

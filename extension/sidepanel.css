@@ -28,6 +28,13 @@ body {
   padding-bottom: 14px;
 }
 
+.header-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .eyebrow {
   margin: 0 0 8px;
   color: #5c6f82;
@@ -152,4 +159,18 @@ button:hover:not(:disabled) {
 button:disabled {
   cursor: not-allowed;
   opacity: 0.58;
+}
+
+.secondary-button {
+  min-height: 34px;
+  flex: 0 0 auto;
+  border: 1px solid #cbd5e1;
+  padding: 7px 10px;
+  color: #24475a;
+  background: #ffffff;
+  font-size: 13px;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background: #eef4f6;
 }

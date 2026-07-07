@@ -9,25 +9,25 @@
   <body>
     <main class="panel">
       <header class="header" aria-labelledby="panel-title">
-        <p class="eyebrow">Week 1</p>
-        <h1 id="panel-title">AI SAT Tutor</h1>
+        <div class="header-main">
+          <div>
+            <p class="eyebrow">Week 2</p>
+            <h1 id="panel-title">AI SAT Tutor</h1>
+          </div>
+          <button type="button" class="secondary-button" id="reset-button">New question</button>
+        </div>
         <p class="status" id="status">Ready.</p>
       </header>
 
-      <section class="messages" id="messages" aria-live="polite" aria-label="Tutor chat">
-        <article class="message assistant">
-          <span class="label">Tutor</span>
-          <p>Ready when you are.</p>
-        </article>
-      </section>
+      <section class="messages" id="messages" aria-live="polite" aria-label="Tutor chat"></section>
 
       <form class="composer" id="tutor-form">
-        <label for="student-thinking">Your thinking</label>
+        <label for="student-message">Message</label>
         <textarea
-          id="student-thinking"
-          name="studentThinking"
+          id="student-message"
+          name="studentMessage"
           rows="5"
-          placeholder="I divided 27 by 3 and got 9..."
+          placeholder="Explain what you tried, or ask a follow-up question..."
         ></textarea>
         <button type="submit" id="explain-button">Explain my mistake</button>
       </form>

@@ -2,11 +2,11 @@
   "name": "ai-sat-tutor-server",
   "version": "0.0.1",
   "private": true,
-  "description": "Week 1 server for the AI SAT Tutor.",
+  "description": "Week 2 server for the AI SAT Tutor.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "check": "node --check src/server.js && node --check src/openaiClient.js && node --check src/promptBuilder.js"
+    "check": "node --check src/server.js && node --check src/openaiClient.js && node --check src/promptBuilder.js && node --check src/methodLookup.js"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
