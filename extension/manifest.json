@@ -10,7 +10,11 @@
   ],
   "host_permissions": [
     "http://localhost/*",
-    "http://127.0.0.1/*"
+    "http://127.0.0.1/*",
+    "https://studyspaces.com/*",
+    "https://*.studyspaces.com/*",
+    "https://portal.nextstepsatcoaching.com/*",
+    "https://*.portal.nextstepsatcoaching.com/*"
   ],
   "side_panel": {
     "default_path": "sidepanel.html"
@@ -22,4 +26,3 @@
     "default_title": "AI SAT Tutor"
   }
 }
-
