@@ -1,0 +1,231 @@
+Let's talk about linear equations in one variable. So what's really important you know for linear
+equations in one variable is the order of operations. And when you're solving or isolating
+for x, use the reverse order of operations. So you start with adding and subtracting,
+then you go to multiply and dividing, then evaluate exponents, and then grouping symbols.
+So when you solve for x with reverse order operations, add and subtract, multiply and divide,
+and then exponents, and then grouping symbols. So for example, for a really, really, really simple
+example, x plus 7 equals 12. If you want to isolate for x, you have to use the reverse order. In order
+to isolate, we need to subtract 7 from both sides, and then we get x equals 5. And if the question
+needs you to use the value of x after you solve for it, use the value of x if needed. We'll see what
+this looks like in an actual question. So first, let's try this really simple problem. It's an easy
+difficulty level question. What value of p satisfies the equation 7p plus 120 equals 260? So again,
+let's do the reverse order of operations. Normally, we start with g for gemdash. But because we're using
+reverse order operations, we're going to start right here. So first, let's see if we can subtract. In this case,
+we can. So minus 120 on both sides and then we get 7p equals 260 minus 120. If we simplify this right
+side this gives us 140 and we get 7p equals 140 and the next we want to do addition. There is no
+addition we need to like reverse so now let's do divide. So now in order to isolate p we need to
+divide by 7. So let's divide 7 on both sides and we get p equals 20. So now that we've finished
+isolating for p we don't need to go to the rest of the reverse order of operations. Now because the
+question is asking for what is the value of p our correct answer is going to be answer to a. Now I'm
+going to show you how to do this question even faster using Desmos. So looking at the actual equation we
+see that we have an equation with only one variable. So if we see that we all we need to do is just plug
+it into Desmos and graph it. So let's just type it in as it is. What we notice is that we actually get
+an error and Desmos doesn't graph anything. All we need to do is change the p to an x because again
+Desmos treats any letters aside from x and y as constants and constants cannot be graphed. So we're
+going to change p to x and as we zoom out we should see a vertical line and as soon as it touches the x
+axis that is going to be the solution. Now let's try this next easy difficulty level question. If 3x minus 4
+equals 5 what is the value of 9x plus 2? So this is exactly what I was talking about in terms of we have
+to first solve for the value of x and then plug it into this equation right here to get our final answer.
+So let's solve first. So again let's do the reverse order of operations. So we start with addition. So we have
+3x that we add 4 to both sides and we get 3x equals 9 and now we move on to dividing. So let's do x equals 3.
+Now that we get x equals 3 remember the question is asking what is the value of 9x plus 2. So let's plug in 3 for the value of x and let's use the order of operations to simplify. So because we're not isolating for the variable now we're not going to use the reverse order. So it's going to be 9 times 3 plus 2. That gives us 27 plus 2 and we get a final answer of 29. Now let me show you how to do this question even faster in Desmos. So they gave us an equation with one variable and all we need to do is just graph it and then see exactly what we need to do.
+exactly where the x intercept is. And now we get that x is equal to 3. So all we need to do is set a variable equal to 3 and then do 9 and the same variable and then plus 2. And boom Desmos solves it for us. 9x plus 2 equals 29 which is the correct answer.
+Now we move on to if an equation has variables on both sides. So what you need to do is first move all the variable terms to one side of the equation and move all constants to the other side of the equation. So for example if we have 5x plus 3 equals 2x plus 12. We need to move all the variable terms to one side and all the constants to another side. So let's do just that. So remember we need to use the reverse order of operations and let's move all the variable terms. So 5x and 2x are
+from one side and all constants to the other side. So 3 and 12. And we do this again with the reverse order of operations. So let's do just that. Let's subtract 2x from this side. Subtract 2x from this side and we simplify. 5x minus 2x plus 3 equals 12. And now let's move the constants to the other side. So minus 3 and minus 3. Now if we simplify both sides we have 5x minus 2x equals 12 minus 3. Simplifying even more.
+So we get 3x equals 9 and x equals 3 once we divide both sides by 3. And for multi-step equations. Distribute first, combine like terms, and then isolate for x. And remember, the order of operations works in reverse when we are solving or isolating for x. Now let's see what that looks like for a hard difficulty level question. So what value of t is the solution to the given equation? So looking up at the actual equation, we see there's only one variable we need to solve for, which is t.
+So first, let's distribute the terms because we see that we have grouping symbols. And then let's isolate. So we have 0.9t minus 0.52 equals 7t. So again, we're distributing. So it's 7 times t and 7 times 0.002. Minus 0.014 plus 1.4. Now before we combine like terms, let's move this constant over to the other side. So we get 0.9t equals 0.9t.
+equals 7t minus 0.014 plus 1.4 plus 0.52. And because we have a bunch of decibels, let's just do this calculation in Desmos, which is the graphing calculator that you're allowed to use on the actual SAT. So I just went ahead and cleared everything else and just left the equation that we had. So let's add up the constants right here. So negative 0.014 plus 1.4 plus 0.52. And we get the value 1.906.
+So let's write that in right here. And now because we still have 7t on this side, and again, we need to combine all terms with a variable in it on one side, let's subtract 7t from the right side and subtract it from the left side.
+And that gives us negative 6.1t equals positive 1.906. Now we need to divide both sides by negative 6.1 and we should get the value of t. Let's see what that is on Desmos.
+And we get the answer is equivalent to approximately negative 0.312459 and all the rest of the decimals. And if we round our answer, we get approximately negative 0.3125. And this is going to be the correct answer.
+Now let me show you how to do this question even faster in Desmos. So because we take a glance at the equation and see, again, it only has one variable. Let's just straight up graph it into Desmos as it is.
+And again, nothing graphs, but this is because we have t. And again, Desmos treats any variables aside from x and y as constants and it will not graph. So let's change all the t's to x and boom, we get an actual line.
+This should approximately be equal to our answer. And if we round it, we get negative 0.3125, which is the correct answer for this question.
+So often on the SAT, it actually often creates shortcuts for us. For example, what is 3 parentheses x minus 4 plus 12 equals 4 parentheses x minus 4 plus 2.
+It's asking for the value of x. In this case, x minus 4 is the same on both sides. So all we can do is we can just replace x minus 4 with any variable, for example, like z.
+So 3x minus 4 could just be written as 3z and 4x minus 4 could be rewritten as 4z. The equation now becomes 3z plus 12 equals 4z plus 2.
+And we can easily solve that z equals 10. And since we set z equals x minus 4 earlier, x minus 4 is literally just equal to 10.
+Because the question is asking for x minus 4 and we set z equal to x minus 4 and we solve z equal to 10. Therefore, 10 is the correct answer.
+So let's try that in an actual question. If 4 parentheses x minus 3 plus 6 parentheses x minus 3 equals 20, what is the value of x minus 3?
+So because they're asking for x minus 3 and we have two terms with x minus 3 in it, let's just set it equal to z.
+So we have 4z plus 6z equals 20. If we just combine like terms, we get 10z equals 20 and we get that z equals to 2. Again, remember, we set z equal to x minus 3. Therefore, the correct answer is going to be the value of z.
+So does z equals 2 or x minus 3 equals 2? Now let me show you how to do this question on Desmos. So again, because there's only one variable, let's just go ahead and graph it.
+And boom, once we graph it, Desmos gives us that x equals 5. So they're asking for the value of x minus 3. So it's just going to be 5 minus 3. And the correct answer is A.
+So now let's try a hard difficulty level question. If 3 minus 5 parentheses 1 minus 6x equals 12 minus 6 parentheses 1 minus 6x, what is the value of 1 minus 6x?
+So again, they have the exact same term as exactly what we're looking for. So let's just replace all this with z and set z equal to 1 minus 6x.
+So 3 minus 5z equals 12 minus 6z. And now this just looks like one of those easy or medium questions we had just earlier.
+So let's flip everything around, make sure all the variables are on one side and all the constants are on another. So let's subtract 3 from both sides.
+So we get equals 12 minus 3. And then let's go ahead and add a 6z to the other side. 6z minus 5z is just z. So we know that z is equal to 9.
+And again, because we set z equals to 1 minus 6x, we know that the value of 1 minus 6x is just equal to z. And z is 9. So 9 is our correct answer.
+Now let me show you how to do this one with Desmos. Again, looking at the equation, we see there's only one variable. So let's just put it into Desmos as it is.
+And boom, as soon as we graph it into Desmos, we get the x equals negative 1.33333. So they're asking for the value of 1 minus 6x.
+Let's do 1 minus 6 times. Now let's export the point negative 1.333 and just copy this over.
+So now Desmos gives us that 1 minus 6x is equal to approximately 8.99998, which is approximately equal to 9, which is the correct answer.
+So now let's talk about fractions and parentheses. You can clear fractions by multiplying both sides by the least common denominator.
+Let's first define a least common denominator. And all it is is the smallest number that can serve as a common denominator for a set of fractions. So for example, for 1/4 and 1/6, all you need to do is list out multiples for each of the denominators. So for 4, you have 4, 8, 12, 16. For 6, you have 6, 12, 18. We know we can stop here because as soon as they have a common one, so we have 12 and 12, this is the least common denominator.
+common denominator. And what we can do with it is just take 1 over 4, multiply it by the least
+common denominator in the numerator, and then take 1 over 6 and also multiply it by its least
+common denominator in the numerator, and we can simplify. So 12 divided by 6 equals 2.
+And 12 divided by 4 equals 3. So for example, if you have 2 over 5x equals 3 over 2,
+you can multiply both sides by 10, which is the least common denominator. So let's multiply both
+sides by 10, make sure 10 is in the numerator, and with that you can cancel them out. 10 becomes 2,
+and 5 becomes 1. Now the 10 becomes 5, and the 2 becomes 1. So now what you just get is 2 times 2,
+which is 4x equals 3 times 5, which is just 15. And now you can just simplify x equals 15 over 4.
+So let's try that with the practice question. If x over 6 equals 4, what is the value of 6 over x?
+So again, let's write this out. x over 6 equals, and if there's just a whole number,
+it's just over 1, because 4 divided by 1 is still equal to 4. So now we just need to get rid of this
+6 in the denominator. And now the least common denominator between 6 and 1 is going to be 6.
+So let's multiply both sides by 6. And now the 6 is cancelled out, and the 6 remains over here. So we get x equals 24.
+But keep in mind, the question is asking for the value of 6 over x. So let's just do 6 over 24. And we simplify this, and we get 1 over 4. So now let me show you how to do this question on Desmos.
+Again, because there's only one variable, let's just straight up graph it. x over 6 equals 4. And it should automatically graph the value of x, which we get as 24. So if we just do 6 over 24, we get the answer. 0.25, or with the magic fraction button, we get 1 over 4.
+Now let's try out this medium level question. What value of x is the solution to the given equation? So because they're not actually asking for x plus 4, let's not replace x plus 4 equal to z like what we did earlier.
+Let's just combine like terms and then simplify. So there is actually two ways to do this. Number one, you can distribute everything. So right here, you can distribute. And then you can combine like terms and then isolate for x. Or what we can actually do is find the least common denominator between 1/3 and 1/2 and change this all into whole numbers. Because for example, if we had 3x plus 4 minus, for example, 2x plus 4, we could solve that much easier than versus using x.
+So let's find the least common denominator. So if we list out multiples for 3, we get 3, 6, 9. Let's stop here and let's go to 2. 2, 4, 6. Boom. We find the least common denominator. So let's multiply the entire equation. What's really important is that you multiply the entire equation by 6. And when you do this, you must put it in parentheses because of the distributive property. We need to multiply it here. We also need to multiply it here. And then we must do the same to the opposite.
+side. So now let's simplify. We have 6 times 1 over 3, which gives us 2. And then we have to make sure we use x plus 4. Make sure we do not forget this part. And then 6 times negative 1 half, which gives us negative 3. Again, don't forget the x plus 4.
+And then don't forget what we do to the opposite side. We also must multiply it by 6. So we get negative 36. And now we can more easily solve x. So now we can actually combine these two in a way that makes it much easier for us. So because the two have the exact same base, we can just set something like z equals x plus 4.
+And with that, what we can do is just do 2z minus 3z equals negative 36. After doing this simple subtraction, we get negative z equals negative 36. And again, because z is equal to x minus 4, let's plug that in now because we're solving for x. And in this case, not z.
+So I'm going to move over here because there's more space. So what's important now is that we plug in x plus 4. But make sure we do it in parentheses because this negative sign applies to the entire thing. And then say it equal to negative 36. So we get negative x minus 4 equals negative 36.
+And to simplify, we add 4 to both sides, get negative x equals negative 32. And x equals 32. Which is answer choice c. Now let's try solving this question with Desmos. Again, because there's only one variable, let's just go ahead and graph it.
+As you can see, Desmos, as we keep zooming out, we can see that it's solved for the value of x. So x equals 32. And it actually eliminates a lot more steps compared to if we solve by hand.
+What's really important is that you just make sure you input the equation exactly how it is into Desmos. And we get immediately that x equals 32. Desmos definitely makes this question a lot easier, saves you a bunch of manual work as well as brain power.
+Now pause the video and try this hard difficulty level question. So let's start. If x minus 4 over 5 equals x minus 4 over 11, the value of x minus 4 is between which of the following pairs of values. So we know that we definitely need to solve x minus 4. So let's do that first.
+Because both of them have different denominators, let's find the least common denominator and then multiply both sides by the least common denominator. So let's start by listing out the multiples of 5. So we have 5, 10, 15, 20, 25, 30, 35.
+And we could keep going, but let me show you a faster trick for finding the least common denominator. So let's erase all of this. What we could actually do is just multiply the 2. So 5 times 11 and that's 55. We know this is for sure going to be a common denominator. So now let's use it for both.
+So we have x minus 4 over 5 times 55. And this eliminates and it turns just into 11. So we have 11 times x minus 4 equals, and if we multiply the other side by 55, we get x minus 4 times 5.
+And now because we can't just move this over to the other side or else we're left with zero, let's distribute. So we get 11x minus 44 equals 5x minus 20. And let's move over all the ones with variables to one side. So we get 11x minus 5x because we just have to subtract 5x. We have 6x and then let's move over to 44. So this equals negative 20 plus 44. And then we get 6x equals, so combining like terms, we get 24.
+And then if we isolate x by dividing both sides by 6, we get x equals 4. So now the question is asking the value of x minus 4 is between which of the following pairs of values. So first let's plug in x equals 4. We get 4 minus 4 equals 0. So now we just need to find which pairs of values is 0 in between. So 0 is not between negative 8 and negative 6, but it is between negative 2 and 2. So the correct answer is going to be B. And it's not between 3.5 and 4.5, and it's not between 7 and 10.
+So the correct answer is going to be answer choice B. Now let's do this question on Desmos. So all we need to do, because again we see that there's only one variable, which is x, let's just straight up graph it.
+And we know the solution for x is going to be the x-intercept. So we see that x equals 4. So we get that 4 minus 4 is equal to 0. Now all we need to do is find which of the following pairs is in between, and we get answer choice B.
+
+---
+
+Now let's talk about determining the number of solutions. So for one solution, there's going to
+be intersecting lines. So the rule is that the variables do not cancel out. You can isolate the
+variable to find a very specific value. And the result is x equals an unspecific number, although
+this can be any other variable or constant. So an example, 2x plus 3 equals 11. You would simplify
+this by subtracting 3 from both sides, get 2x equals 8, and then finally x equals 4. And this
+is for again, one solution. For no solution, and on a graph, this means they are parallel lines. The rule
+is that the variables canceled out entirely, leaving a false mathematical statement. And the result is
+usually a equals b, where the numbers do not match. So for example, if we have 3x plus 4 equals 3x plus
+7, what we do normally is move all the like terms to one side. So we subtract 3x, and then this turns
+into 0. So it's 4 equals 7. And 4 equals 7 is false. Therefore, there is no solution. And on a graph,
+if you graph these two equations, you see that they're just two parallel lines. And for infinitely
+many solutions, there should be two identical lines. So the rule is that the variables actually canceled out
+entirely, leaving a true mathematical statement. So this makes it very different compared to the no solution.
+Although both variables cancel out entirely for both, no solutions, and infinitely many solutions,
+for infinitely many solutions, there leaves a true mathematical statement. So both sides of the
+equation are identical. And the result, instead of a equals b, where they're different, it's going to be
+a equals a, where the numbers match perfectly. So for example, two parentheses x plus 3 equals 2x plus 6.
+When you distribute, you get 2x plus 6 equals 2x plus 6. And after you cancel out the variables,
+you get 6 equals 6, which is true. So now let's try this question. Pause the video and try it out
+yourself. In the given equation, a is a constant. If the equation is infinitely many solutions, what is
+the value of a? So what I noticed immediately after seeing this question is that in order for it to be
+infinite solutions, the coefficient in front of the x needs to cancel out on both sides. So we need to
+somehow get these two in the same format. And we can do that first by getting rid of this denominator.
+And we can do that by multiplying the right side and the left side by 3, making sure we put it in
+parentheses. So we distribute, and this gives us 18x plus 54 equals ax plus a3. Again, distributing what
+they gave us just earlier. So now, again, because we need these two variables over here, these two terms to
+cancel out, therefore must be equal to 18 because we want to subtract 18x minus 18x and therefore get 54
+equals, and then again, because we used 18 for a, it's going to be 18 times 3. And this equals 54
+equals 54, which is equivalent, therefore making them infinitely many solutions. So the answer is c.
+So now let's try this with Desmos. We know that there are infinitely many solutions, so therefore we need to
+separate it in two different lines if we want the two lines to perfectly overlap. So let's do 6x plus 18 on
+the first line. And on the second line, let's do a times x plus 3 and put this all over 3. And now we
+need to create a slider for a. And then we can plug in answer choices to see at what number do these two
+lines perfectly overlap. Let's try a equals 0. Obviously the two lines do not overlap, so this is incorrect.
+Now let's try 6. Now let's try 18. And boom, we see that they perfectly overlap. And we can double check that
+by turning off and on the equations. And we can see even if we zoom in all the way, they still overlap.
+So answer choice c is going to be the correct answer. Now let's try a hard difficulty level question. Pause the video and try this question yourself. In the given equation, s and r are constants, and s is greater than 0.
+difficulty level question. Pause the video and try this question yourself. In the given equation,
+S and R are constants and S is greater than zero. If the equation has infinitely many solutions,
+what is the value of S? So just taking a quick glance at the equation right now,
+it looks pretty complicated. So let's do this step by step. First thing I notice here is that
+we want to try to simplify this as much as possible. The first thing I notice that this
+can actually be simplified. If we divide both terms by five, we get 2x plus 4 minus S over 11
+equals R parentheses X minus 4. And now the next step is we see that we can distribute the right
+side. So let's distribute the right side. We get Rx minus 4R. Remember, in order for these to have
+infinitely many solutions, the left side and the right side must be equal, and therefore, the term
+with an x needs to be able to cancel out. So we know that 2x, this portion right here, must be equal
+to Rx. And in order for it to be equal, R must be equal to 2. So let's plug in R for the entire second
+equation and then see what the equation looks like. So we have 2x plus 4 minus S over 11 equals 2x,
+remember, I'm just plugging in 2 for R, minus 8. And now we can definitely cancel out 2x and all the
+terms with x in it. And then we should be able to solve for S. So now if we subtract 2x from both sides,
+we get 4 minus S over 11 equals negative 8. Now subtracting 4 from both sides, we get negative S over
+11 equals negative 12. Now multiplying both sides by negative 11 to get rid of the 11 and the negative
+sign, we get S equals 132. And the question is asking for what is the value of S? So S equals 132.
+So now let's try this question on Desmos. This question on Desmos is definitely going to be a
+little bit more complicated. And that's because we have an equation with x and then two constants,
+S and R. So we're definitely going to have to use regression. So let's put this into Desmos in the
+regression format. So replacing the x variable with x1 and then replace the equal sign with a tilde.
+And remember, x cannot be in the regression parameters because it's a variable. So let's set x1 equal to a list. Now I'm going to use random, but you can also use a list and then do 1 dot dot dot 10. And now we just have to make sure we're taking into account all of the constraints given.
+So now that S must be greater than zero, but we see that S is already greater than zero. But just in case, we're going to type S is greater than zero. And then a closed curly bracket. Now Desmos literally gives us that S equals 132 and R equals 2. Now you could use this and plug it in and just verify if this is true. But because I know we did it correctly, S equals 132.
+So as you can see here, Desmos makes this entire question a lot easier. And I didn't even have to touch my paper even once. Now give this hard question a try. So pause the video and try this question out yourself. In the given equation, k and n are constants and n is greater than two. The equation has no solution. What is the value of k? So now we know that because there is no solution and we see only two terms total with x, we know that these two must be equal to each other.
+Because remember, for an equation to have no solution, all the terms with x need to cancel out and what is left must be a false equation. So for example, two equals four, which is false. So we need to somehow make the terms with x's equal to each other.
+So what we definitely need to do with this question is simplify. What I'm noticing here is we have a two and we can either distribute it, but I'm also thinking what we can also do is divide the other side by two to get rid of this two. And what that does is this will change the 24
+to 12 and then there's 36 to 18. And I think this works easier. So let's do it this way. So let's divide both sides by two and I'm gonna rewrite what we get right here. So kx minus n equals negative 12 over 13x minus 18 over 17.
+So now again, because we need kx and negative 12 over 13x to cancel out, we know that k must be equal to negative 12 over 13. And this is because as soon as we add negative 12 over 13x from this side to move it over to the other one, these two terms now cancel out. All that we're left with is negative n equals negative 18 over 7. So now going back to the question, we need to verify if this portion is false.
+is false. And we see that n has to be greater than 2. And we know that 18 over, this should be 17,
+because that's what the question is. We know that 18 over 17 is less than 2. So therefore, if n is 2
+or even anything greater, this is false. Therefore, we know that the value we got for k is the correct
+answer in k equals negative 12 over 13. So unfortunately, this question cannot be done with
+Desmos. And that's because the equation has no solution. In order for you to use regression for
+this question, the two sides must be equal to each other, which when you put it into Desmos,
+you put the original left side, tilt up, right side. But because there are no solutions, these two
+things are not equal to each other. So you cannot use regression. So you would have to solve this
+question by hand.
+
+--- 
+
+So now let's talk about building an equation from a word scenario or word problem.
+What's important about this and what I want to highlight before we get started is that the best
+way to get good at translating word problems to equations is practice. So we're going to do a
+ton of practice right now. But first, before we do that, I'm going to give you some quick tips.
+First, translate key phrases. So for example, more than, this is a plus sign. Times is usually a
+multiplication sign. Is means an equal sign. And less than is equal to a negative sign. So let's do an
+example with this. Five more than twice a number is 17. So let's break this down literally step by step.
+What I notice first is they have the word is. Is is equal to an equal sign. So we know that something
+is equal to 17. Now we need to figure out exactly what is equal to 17. And they give us five more,
+so five more than twice a number. So we have twice and we don't know what this number is. So we're going
+to assign a variable. And that gives us two x plus five equals 17. So we have twice a number and five
+more than that number equals 17. And what's really important is that you assign variables to categories
+slash names and keep track of which variable is which. So for example, if you assign l equal to length,
+keep in mind what l represents. So in this case, it's going to be length. If you set number equal to n,
+you must remember that n equals a number. And pay special attention to the variable the question is
+asking for. So for example, which expresses the perimeter in terms of l. Therefore, you need to do
+perimeter equals and then the rest in terms of l. So now let's practice that with the easy question.
+Pause this video and try this question yourself. Maya paid a total of $248 for a laptop by making a down payment
+of $58 plus P monthly payments of $19 each. Which of the following equations represents this scenario?
+So for these questions where you have to make your own equation, what I highly recommend is even before
+glancing at the answer choices, make this equation yourself and then compare your equation to what the
+actual answer choices are. So let's do that. We know she paid a total of $248. So you know, this is the total. And then we know that she made a down payment because this is singular. She made one down payment of $58 plus P monthly. So a number P. Now we're wondering how much she paid per month. When she paid $19. So when we get here, is that she paid a total of $248 by making one down payment and every month paying $19. Now let's look at the actual answer choices.
+So you know this is the total. And then we know that she made a down payment because this is singular. She made one down payment of $58 plus P monthly. So a number P. Now we're wondering how much she paid per month when she paid $19. So what we get here is that she paid a total of $248 by making one down payment and every month paying $19. Now let's look at the actual answer choices and see which one matches our actual equation.
+And we can easily see that answer choice C matches our equation. They just rearrange it the other way. So it's the exact same thing. 19 P plus 58 equals 248. Either way, these two are being added together and it doesn't matter which way they are. Either way, they're just being added. And then they equal 248. Now let's try a medium question. So pause the video and try this question yourself. The width of a rectangular yard is W feet. The length of the yard is 9 feet
+longer than its width. Which of the following expresses the perimeter in feet of the yard in terms of W? So we know that from the question stem, which of the following expresses the perimeter? We know that we need to need everything else equal to the perimeter. And because they say we have a rectangle, let's draw a picture. So let's draw a rectangle.
+And we know that there is a width and there's a length for a rectangle. Usually if we're trying to find the perimeter, it would be 2W plus 2L. So I'm going to write that over here. 2W plus 2L. But taking a glance at the answer choices, we see there is no variable for L. Therefore, they most likely give us information in the passage so that we can get W in terms of L. So let's see what that means.
+The length of the length of the yard is 9 feet longer than its width. So if we take this literally, we have 9 feet longer, so it's plus its width. So the length is 9 feet longer than the width, which this makes sense right here.
+They're asking which of the following expresses the perimeter of the yard in terms of W. So now that we have L, we can just plug it in for L. So we have 2W plus 2, and then again, we plug in 9 plus W, because that is equal to L. We get 9 plus W.
+Now as we simplify, we get 2W equals 18 plus 2W. Sorry, this right here should be a plus sign. So let's make it a plus sign. 2W plus 18 plus 2W. And now simplifying, we get 4W plus 18 equals, and this is equal to the perimeter.
+So answer choice B is the best answer because it matches exactly the equation we got. So now let's try this hard difficulty level question. And I will warn you, this is quite a step up from the previous question. So pause the video and try this question out yourself.
+Sarah drives an average of 120 miles each week. Her car can travel an average of 30 miles per gallon of gasoline. Sarah would like to reduce her weekly expenditures, so we want to reduce, I notice that this is a change, on gasoline by $6. Assuming gasoline costs $5 per gallon, which equation can Sarah use to determine how many fewer average miles M she should drive each week?
+So taking a quick glance at the answer choices, I see that they have some sort of fraction times M equals a number. What I'm noticing here immediately is that we're asking which equation could Sarah use to determine how many fewer average miles she should drive each week?
+So what it should be equal to on the right side should be equal to 6, not 114. So we can immediately eliminate those. So now let's actually start doing the question. Her car can travel an average of 30 miles per gallon.
+So let's write this 30 MI per gallon. And then we know that she wants to reduce it by $6. So we'll put $6 over here. And assuming that gasoline costs $5 per gallon, let's put $5 per gallon.
+So we can figure out how many fewer average miles she should drive each week. So what I'm noticing here is that we have a lot of units and we can work with that. Because all the answer choices have M, what we know is that we need to somehow multiply this by M to only end up with dollars because the units on the right side is only $6. So what I notice is we have two Gs at the bottom. And if we just multiply this out, we would get 30 miles squared.
+So let me put MI right here. There's two miles times $1 over gallon squared, which is definitely incorrect. So because we need miles to cancel out, let's just flip this conversion factor. So we get G over 30 miles times $5 over each gallon times MI, which is for miles, equals $6.
+And now what we get after we start canceling out units is $5 over 30 equals $6. We now know this is going to be correct. So S towards D is the correct answer. So now if that didn't make sense, let me try explaining it this way.
+So what we did is we knew that it takes $5 to purchase one gallon of gasoline. And then for each gallon of gasoline, she can travel 30 miles. So this is her cost per mile, as we can see right here. If we simplify this, we know that $1 allows her to drive six miles.
+And with that, all they're asking is how many fuel miles. So we multiply that miles to get a total savings of $6. And now if we were to solve this out, we can easily calculate the amount of fuel miles she would have to drive because this is her cost per mile to save $6. Then we get this equation right here. 5 over 30 times M equals six.
+six. So now pause the video and try this hard difficulty level question. A manufacturing plant
+makes 12 inch, 8 inch, and 6 inch frying pans. During a certain day, the number of 12 inch frying
+pans that the manufacturing makes is three times the number n of 8 inch frying pans it makes. So
+let's go ahead and just write out what we think this means. So 12 inch frying pans equals three
+times the number n of 8 inch ones. So we have 3n, and n is the 8 inch frying pans it makes. So let's
+continue. And the number of 6 inch frying pans, so 6 inch frying pans, it makes is 12. So we know this
+is directly equal to 12. During this day, the manufacturing plant makes 84 frying pans total,
+which equation represents this situation. So because they told us that n is the number of 8 inch
+frying pans, we know that the 8 inch ones is equal to n. So all we need to do, because we know that the
+total is 84, is just add these all together. So 84, which is the total amount of frying pans, equals,
+and we just add all these together. 3n, which is the number of 12 inch frying pans, plus 12, which is the
+number of 6 inch frying pans, and plus n, because that is the number of 8 inch frying pans. Now to simplifying,
+we get 4n plus 12 equals 84. So now let's see if there's an answer choice that says the exact same thing.
+That is going to be answer choice D.

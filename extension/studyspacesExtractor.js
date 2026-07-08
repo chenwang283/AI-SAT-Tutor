@@ -26,6 +26,58 @@
     return el.textContent?.trim() || null;
   }
 
+  function isVisibleControl(el) {
+    if (!el) return false;
+    if (el.hidden || el.getAttribute("aria-hidden") === "true") return false;
+    const type = el.getAttribute("type")?.toLowerCase();
+    if (["button", "submit", "reset", "hidden", "checkbox", "radio"].includes(type)) return false;
+    return true;
+  }
+
+  function getControlSearchText(el) {
+    return [
+      el.id,
+      el.name,
+      el.getAttribute("aria-label"),
+      el.getAttribute("placeholder"),
+      el.getAttribute("data-testid"),
+      el.getAttribute("data-test-id"),
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+  }
+
+  function isStudentAnswerControl(control) {
+    const searchText = getControlSearchText(control);
+    return /\b(your\s+answer|answer|response|gridin|grid-in|student)\b/.test(searchText) &&
+      !/\b(correct|explanation|search)\b/.test(searchText);
+  }
+
+  function readAnswerControl(el) {
+    if (!el) return null;
+    if (typeof el.value === "string") return el.value.trim() || null;
+    return el.getAttribute("aria-valuetext")?.trim() || el.textContent?.trim() || null;
+  }
+
+  function getAnswerControls(root = document) {
+    const searchRoot = root || document;
+    return [
+      ...searchRoot.querySelectorAll(
+        'input, textarea, [contenteditable="true"], [role="textbox"], [role="spinbutton"], math-field'
+      ),
+    ].filter(isVisibleControl);
+  }
+
+  function findStudentAnswerControl() {
+    const controls = getAnswerControls();
+    const matchingControl = controls.find(isStudentAnswerControl);
+    if (matchingControl) return matchingControl;
+
+    const nonMathControls = controls.filter((control) => !control.matches("math-field"));
+    return nonMathControls.length === 1 ? nonMathControls[0] : null;
+  }
+
   function getQuestionId() {
     const question = document.querySelector('[id^="question_text"]');
     if (question) {
@@ -36,6 +88,53 @@
     const gridIn = document.querySelector('[id^="gridin_correct_"], [id^="gridin_student_"]');
     if (gridIn) return gridIn.id.replace(/^gridin_(correct|student)_/, "");
     return null;
+  }
+
+  function findHeading(pattern) {
+    return [...document.querySelectorAll("h1, h2, h3, h4, h5, h6")].find((heading) =>
+      pattern.test(heading.textContent || "")
+    );
+  }
+
+  function closestAnswerSection(heading) {
+    if (!heading) return null;
+
+    const directBlock = heading.parentElement;
+    if (
+      directBlock?.querySelector(
+        'main, .editor-content, math-field, input, textarea, [contenteditable], [role="textbox"], [role="spinbutton"]'
+      )
+    ) {
+      return directBlock;
+    }
+
+    return heading.closest("article") || directBlock || null;
+  }
+
+  function findControlInSection(section) {
+    if (!section) return null;
+    return getAnswerControls(section).find((control) => !/\bbutton\b/.test(getControlSearchText(control))) || null;
+  }
+
+  function readTextFromAnswerSection(section, heading) {
+    if (!section) return null;
+
+    const mathFieldValues = [...section.querySelectorAll("math-field")].map(readMathField);
+    const clone = section.cloneNode(true);
+    clone.querySelectorAll("button, svg, .sr-only").forEach((node) => node.remove());
+    clone.querySelectorAll("math-field").forEach((node, index) => {
+      const value = mathFieldValues[index];
+      if (value) node.replaceWith(document.createTextNode(`\\(${value}\\)`));
+    });
+
+    const headingText = heading?.textContent?.trim();
+    if (headingText) {
+      [...clone.querySelectorAll("h1, h2, h3, h4, h5, h6")].forEach((node) => {
+        if (node.textContent?.trim() === headingText) node.remove();
+      });
+    }
+
+    return mathAwareText(clone);
   }
 
   const TAG_LEVEL_BY_COLOR = {
@@ -95,21 +194,50 @@
   }
 
   function extractFreeResponse() {
-    const input = document.querySelector('input[aria-label="Your answer"]');
-    const studentField = document.querySelector('[id^="gridin_student_"] math-field');
-    const correctField = document.querySelector('[id^="gridin_correct_"] math-field');
-    if (!input && !studentField && !correctField) return null;
+    const answerControls = getAnswerControls();
+    const input = document.querySelector('input[aria-label="Your answer"]') || findStudentAnswerControl();
+    const studentField =
+      document.querySelector('[id^="gridin_student_"] math-field') ||
+      answerControls.find((control) => control.matches("math-field") && isStudentAnswerControl(control));
+    const correctField =
+      document.querySelector('[id^="gridin_correct_"] math-field') ||
+      answerControls.find((control) =>
+        control.matches("math-field") && /\b(correct|correct\s+answer|correct\s+response)\b/.test(getControlSearchText(control))
+      );
 
-    const yourAnswerHeader = [...document.querySelectorAll("h2")].find((h) =>
-      h.textContent.includes("Your Answer")
-    );
+    const yourAnswerHeader = findHeading(/Your Answer/i);
+    const correctAnswerHeader = findHeading(/Correct Answer|Correct Response/i);
+    const studentSection = closestAnswerSection(yourAnswerHeader);
+    const correctSection = closestAnswerSection(correctAnswerHeader);
+    const sectionStudentControl = findControlInSection(studentSection);
+    const sectionCorrectControl = findControlInSection(correctSection);
+
+    if (
+      !input &&
+      !studentField &&
+      !correctField &&
+      !sectionStudentControl &&
+      !sectionCorrectControl &&
+      !studentSection &&
+      !correctSection
+    ) {
+      return null;
+    }
+
     let isCorrect = null;
     if (yourAnswerHeader?.querySelector(".text-red-500")) isCorrect = false;
     else if (yourAnswerHeader?.querySelector(".text-green-500")) isCorrect = true;
 
     return {
-      studentAnswer: input ? input.value : readMathField(studentField),
-      correctAnswer: readMathField(correctField),
+      studentAnswer:
+        readAnswerControl(input) ||
+        readTextFromAnswerSection(studentSection, yourAnswerHeader) ||
+        readMathField(studentField) ||
+        readAnswerControl(sectionStudentControl),
+      correctAnswer:
+        readTextFromAnswerSection(correctSection, correctAnswerHeader) ||
+        readMathField(correctField) ||
+        readAnswerControl(sectionCorrectControl),
       isCorrect,
     };
   }
@@ -119,7 +247,7 @@
     const answered =
       document.querySelector('[id^="options_"] ~ * .rounded-full.bg-primary') ||
       document.querySelector(".rounded-full.bg-primary") ||
-      document.querySelector('input[aria-label="Your answer"]')?.value;
+      readAnswerControl(findStudentAnswerControl());
     return answered ? "ATTEMPTED" : "EMPTY";
   }
 
