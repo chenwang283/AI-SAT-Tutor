@@ -1,0 +1,511 @@
+Let's talk about system of linear equations with two variables.
+So our goal is to understand what a system of equation actually represents visually and conceptually.
+So first of all, what is a system of equations?
+All it is is a set of two or more equations containing the same variables for which a common solution is sought.
+So the solution to a system of equations is the specific point xy, of course, if the variable is xy, with the graphs of the equations intersect.
+And the SAT loves to use the slope intersect form, standard form, and other arrangements of the two forms.
+So to be a solution, a point must lie on both lines and satisfy every equation in the system.
+So visually, if two lines cross at , then the solution is exactly .
+So this is what that looks like with a different example.
+If we have two lines, so line 1 and line 2, where they intersect at , this is going to be their solution.
+And additionally, you can verify a solution by substituting the x and y values into both equations to see if they remain true.
+What's really, really important here, and I really want to emphasize, is that both equations, again, both equations, must be satisfied.
+So plugging in , so plugging in for this one, we get 18, so remember y, we plugged in y equals 18, equals -3 times 2 plus 24.
+And we get 18 equals 18, which is true. Plugging into the second equation, we get 18 equals 4 times 2 plus 10.
+And this again simplifies to 18 equals 18, which is also true. Therefore, this point is the solution to the system of linear equations, aka the solution to all the equations in the system.
+So now, if a point does not satisfy even one equation in the system, it is not a solution for the whole system.
+So let's see an example. For example, is the point a solution to the system of equations? Well, let's plug it into the first equation.
+So plugging it in, we get 12, so remember we plug in 1, 12, we get 12 equals -3 times 1 plus 24. And simplifying, we get that 18 equals 21, which is not true.
+So if we get that plugging in one point to even one equation isn't true, it cannot work for the entire system. So even if we get that it's wrong for just one equation, we don't even need to try plugging into the second one.
+Even if it is true for the second one, it's not true for the first one. Therefore, it is not a solution to the entire system.
+So now with that, look at this graph and identify which of the following points right here is the solution to the actual system. I'll give you three seconds.
+So the point you should have gotten is 2, 4. And again, this is literally because the two graphs intersect at this one point.
+So now let's talk about the two ways to solve a system of linear equations by hand. So on a graph, it's actually really, really easy.
+With the Desmos calculator, all you need to do is just type in both equations onto two separate lines and find the intersection point.
+But let's talk about solving it by hand. The first method is called substitution. The second method is called substitution.
+The second method is called elimination. And math doesn't like to be very fancy with your names. So it's literally as it sounds.
+For substitution, you substitute one variable and solve for the other. So let's do that real quick. We know that y equals 2x plus 4.
+And we'd seen the second equation, there's also a value of y. So if we just substitute y and plug in 2x plus 4, we now only have one variable, which is x, and we can solve for it.
+So let's plug it in. y equals 2x plus 4. So let's just plug it in. 2x plus 4 plus 2.
+equals x. Remember, when you plug something in, you want to keep it in parentheses.
+So now let's combine like terms. We get 2x plus 6 equals x. Isolating for x, so let's subtract 2x from both sides, we have 6 equals negative x. Therefore, x equals negative 6.
+And now we need to solve for y. So because we know that x equals negative 6 and we have an equation for y, let's just straight up plug in negative 6 and solve for y.
+So we get that y equals 2 times negative 6 plus 4, which simplifies to negative 12 plus 4, which again simplifies to negative 8.
+So the solution is going to be negative 6, which is x comma negative 8. And boom, we just solve for the solution using the substitution method.
+Now let's show you how elimination works. So now you might be wondering why do we even have two methods to begin with.
+As I showed you just now, and as you will definitely see with the practice problems, is that usually there is one method that just works a lot easier for the specific question.
+First, just stick with me. The first thing we want to do is actually set the equal signs on top of each other.
+And I'll explain exactly why this is super important in a second. But now let's just write in exactly the equations as they gave it to us.
+So y equals 2x plus 4 and y plus 2 equals x. So again, math isn't very fancy with the actual names.
+Therefore, for elimination, all we need to do is somehow eliminate a variable in order to solve for the other one.
+And the reason why I said just earlier, we're going to put the equal signs on top of each other,
+is we're actually going to treat this question as two separate equations that we're kind of going to solve.
+What I notice here with the left side is that y and y are in the exact same format.
+So if we literally just did y minus y, both the y's would cancel out. So let's just do just that.
+If we subtract the entirety of the bottom equation from the top one, we can cancel out y.
+So let's focus on the left side and then do the right side.
+Let's just go top down. It's going to be y minus y minus 2. Remember to distribute the negative signs for every single thing in the equation.
+So it's just y minus y, which just turns into 0 minus 2. That's all that's left from the left side.
+Now let's move on to the right side. We have 2x plus 4 minus x, which just turns into x plus 4.
+Because again, we're just subtracting x. So it'd be 2x plus 4 minus x, which just turns into x plus 4.
+Simplifying this, subtracting negative 4 from both sides, we just get the x equals negative 6, which is the exact same thing as we got from using substitution.
+And now that we get the x equals negative 6, again, we plug it in the exact same way and we still get the y equals negative 8.
+So no matter which way you do, you still get the exact same solution. Negative 6 comma negative 8.
+So now let's try this easy question. Pause the video and try it yourself.
+What is the solution x, y to the given system of equations? So we see two systems of equations.
+For this question specifically, because it looks really simple, let's just do the substitution method.
+We know that y equals 15, so let's just plug in 15. 15 equals 5x minus 10.
+Because there's only one variable, we can just solve for it. So we get that 25 equals 5x and that x equals 5.
+Taking a glance at the answer choices, we see that there's only one answer choice in which x equals 5.
+So we don't even actually need to solve for y. Because x is the only one in this one that equals 5, answer choice A is going to be the correct answer.
+And funny enough for this question, they straight up give us that y equals 15.
+So out of the bat, we could have actually eliminated D and B and it's just between A and C.
+Even if you had like 5 seconds for this question and you needed to take a 50-50, you still would have had a 50% chance of getting this question right instead of just straight up 25.
+Now let me show you how to do this question in Desmos.
+So for any system of linear equations, all we need to do is just graph it and then find the intersection point.
+So if we just graph it and find the intersection point, we immediately get the answer A, 5, 15.
+Now let's try this medium question.
+Pause this video and try this question yourself.
+If x, y is the solution to the given system of equations, what is the value of y?
+So they're only asking for y.
+For this question, what I see is that it actually looks pretty complicated.
+With that, we could isolate for y or isolate for x and then plug it in.
+But what I notice here is that this equation is going to be extremely long.
+So I'm going to use the elimination method for this question.
+So what I notice immediately is that in order to get this and eliminate 3 parentheses x plus y, we can multiply the first equation by 3.
+So let's do that.
+And we get 3x plus y equals, and remember, what we do to the left side, we must also do the right side.
+So this equals 45.
+And now we can actually use elimination because the second one is x, 3x plus y plus 2y equals 65.
+Remember, we can treat these as the left side and the right side.
+So I actually forgot to put these exactly over each other.
+That's okay.
+All we need to do now is subtract.
+So now all we get is 3 parentheses x plus y minus 3 parentheses x plus y.
+So these two cancel out.
+And we're left with, remember, we distribute the negative sign, negative 2y equals, and we do 45 minus 65.
+And we get negative 20.
+Now we just isolate that y equals 10.
+And the correct answer is answer choice b.
+Now I'm going to show you how to do this question really fast on Desmos.
+So again, two equations.
+Let's just straight up graph it because we're looking for the y value of the solution.
+Let's graph it and find the intersection.
+And zooming out and find the intersection, we get that the x, y solution is 5 comma 10 and the value of y is 10 and the answer is b.
+So now let's try this hard difficulty level question.
+The solution to the given system of equations is x, y.
+What is the value of 7x plus 6y?
+So pause the video and try this question yourself.
+So your first instinct might have been to use substitution or elimination, which is exactly correct.
+And you could do that because of course that is what I showed you.
+But let me show you a cool trick that might work for some questions.
+For this question, what I noticed is that using elimination would be a little bit difficult.
+And that's because we're going to have to multiply this by maybe something like 11 and then multiply the first one by 3.
+In order to make x equal and then we could only then do elimination.
+But it would make everything a little more complicated.
+So let me show you a cool trick we can do to make this question even quicker.
+So I notice here is that they're asking for the value of 7x plus 6y.
+If I just add up these two equations, I get 14x plus 12y equals 356.
+With that, 14x plus 12y is literally just double 7x plus 6y.
+Therefore, this portion right here is also just double what this would be.
+So if we do 356 divided by 2, that is just straight up going to give us our answer.
+And the correct answer is going to be 178.
+What's really neat is that if you are able to identify this trick you can use,
+it ends up saving you minutes of work.
+So now let me show you how to do this question on Desmos.
+So because we have two equations, let's just straight up graph it.
+Now zooming out, let's find the intersection.
+We get that the intersection is 16 comma 11.
+So let's export this point.
+Now we want 7x, so 7 times 16 plus 6 times 11.
+And it just straight up gives us that the answer is 178.
+So now let's talk about determining the number of solutions.
+So if there's one solution, that means the two lines are intersecting lines.
+And the rule is that the lines intersect at one point,
+leaving one solution to the system of equations.
+And by the way, all the questions we've worked on in this topic have been one solution system of linear equations.
+So this is an example of what that looks like.
+When you grab the two equations, there are going to be two lines and they intersect at exactly one point.
+And if there are no solutions, that means you're going to have two parallel lines or multiple parallel lines.
+And the rule is that this occurs when lines have the exact same slope, but different y intercepts.
+So in slope intercept form, if your slope m is the exact same, but the y intercept b is different, the lines are parallel and have no solution.
+And again, they never intersect.
+So this is what that looks like on a graph.
+Two different equations and look, they never intersect.
+Even if you kept zooming out of this graph and zooming in, even at like, for example, y equals 1000, you would find that the two lines never intersect.
+And what you notice here is that they have the exact same slope.
+So both of them has m equals two, but different b values.
+This makes them have no solutions.
+And now let's talk about infinite solutions.
+So this means the two lines are the exact same line.
+And the rule is that this occurs when two equations are completely equal, but the SAT kind of loves to disguise them.
+So to check, see if you can multiply or divide every term in one equation by a single number to get the other equation.
+So for example, x plus 3y equals 21 and 12x plus 36y equals 252, or the same line because every term was just multiplied by 12.
+So x times 12 equals 12x, 3y times 12 equals 36y, and 21 times 12 equals 252.
+And if you were to graph it, you see that there's only one line.
+The first equation, which is going to be in purple, is actually covered by the second equation that is black.
+And a note is that the black line is drawn over the purple line.
+So graphically, the lines will literally completely overlap.
+If you want to double check, what you can do is click this button right here, and it will hide the black line.
+What you should see is the purple line in place of the black line.
+That's how you can double check on Desmos that the two lines perfectly overlap, and there are infinite solutions.
+So now pause the video and try this question.
+In the given system of equations, k is a constant.
+If the system has infinitely many solutions, what is the value of k?
+So here, because we know that there are infinite solutions, we know that the two equations must be perfectly equal.
+And to do that, to get from 3x to 12x and 5y to 20y, all we need to do is multiply the first equation by 4.
+And if we do that, all we're being asked for is k.
+So all we need to do is just 7 times 4, and we get 28, which is answer choice c.
+Now I'm going to show you how to do this question real quick, or even double check your work on Desmos.
+So because we have two equations, let's just straight up graph it into Desmos.
+Now we can add a slider for k and just try out each of the answer choices.
+So we can see here that there are no solutions because they never intersect, but we want infinite solutions.
+So 20, there's still parallel lines, so there's no solutions.
+Let's try c, k equals 28, and boom, we see that there's only one line.
+So double checking by turning off the second graph, we can see that they perfectly overlap.
+So that's why c makes it that they have infinite solutions, and c is the correct answer.
+But let's just try d, 35.
+What we find is that they again are still parallel, so there are no solutions in this case.
+So that's why c is the correct answer.
+So now, pause the video and try this medium question.
+Which of the following systems of linear equations has no solution?
+So again, by definition, for them to have no solutions, they need to have the exact same slope.
+So y equals mx plus b.
+We need them to have the exact same slope, so parallel lines, but different y intercepts.
+And looking at the answer choices, we see there's only one question with that as the case.
+Answer choice a.
+They have the exact same slope, but different y intercepts.
+So answer choice a is the correct answer.
+If you want to double check or even do this question on Desmos, we can just graph every single answer choice.
+Graphing answer choice a, we get 3 over 4x plus 5.
+And then the second equation, y equals 3 over 4x minus 2.
+What we see is that they are perfectly parallel, and there is no solution.
+There is no intersection.
+Therefore, answer choice a is the correct answer.
+If you plugged in the other equations in Desmos, you would find that each of them only have one intersection.
+But having one intersection meaning that there is one solution, not no solutions.
+So the correct answer is going to be A.
+Now pause the video and try this hard question.
+One of the equations in a system of two linear equations is given.
+The system has no solution.
+Which of the following could be the second equation in the system?
+So right here we're given the first equation.
+And what we can see is that this is in slope intercept form.
+Y equals mx plus b.
+And we know that for there to be no solutions, they must have the exact same slope but a different y intercept.
+That way they are perfectly parallel.
+So now let's look at the answer choices, just calculate the slopes.
+So the slope from standard form is negative a over b.
+So let's just use that shortcut.
+So we have negative six over negative four.
+And this gives us three over two.
+So answer choices a and b have the correct slope.
+So now let's go to answer choices c and d.
+c we get negative three over two.
+Which is obviously not the same as three over two.
+So it's not going to answer choice c.
+d is negative two over negative three.
+Which is going to be two over three.
+So we know it's not either c or d.
+Now all we need to make sure is that answer choice a or answer choice b has a different y intercept.
+So let's rearrange both of these into slope intercept form.
+So this one goes to negative four y.
+So we're subtracting six x from both sides.
+Equals negative six x minus 16.
+If we divide both sides by negative four, we get y equals three over two x plus four.
+So what we can see from answer choice a is that it has the exact same equation as the one given in the first equation.
+Therefore, these are the exact same line and therefore have infinite solutions.
+So it cannot be answer choice a.
+So we already know the correct answer is answer choice b just from process of elimination.
+But let's test it out as well.
+So let's subtract six x from both sides and we get negative four y equals negative six x plus twelve.
+Now we divide both sides by negative four.
+So negative four counts this out.
+And then we get y equals three over two.
+So we simplify negative six over negative four to three over two x minus three.
+And now what we can see is that we have the exact same slope, but a different y intercept.
+So these two lines are going to be perfectly parallel, but with different y intercepts, they're never going to touch.
+So answer choice b is the correct answer.
+Now let me show you how to do this question even faster using Desmos.
+So we have two lines.
+So let's go ahead and graph the first line.
+Y equals three over two x plus four.
+And we know that the system equation has no solutions.
+So all we need to do is graph all the answer choices until we find one that has no solution.
+So it's perfectly parallel, but just with a different y intercept.
+So let's go ahead and type them all in.
+So we see immediately graphing answer choice a that it's the exact same line.
+So therefore, they are infinite solutions.
+So it's not going to be answer choice a.
+So now let's check answer choice b.
+Six x minus four y equals 12.
+What we can immediately see is that it's perfectly parallel with the first line.
+And what we can see is they have the exact same slope, but just different y intercepts.
+Therefore, there is no solution.
+And the correct answer is answer choice b.
+Now let's try another hard question.
+Pause the video and try this question yourself.
+The system of two linear equations shown below is graphed in the xy plane.
+If a third equation, so well, this is really new.
+If a third equation 4x plus 3y equals one is added to create a system of three equations.
+How many solutions will the resulting system have?
+So before we even try to attempt this question, let me first break down what each answer choice implies.
+First of all, if there are zero solutions, what this implies is that there is no point in which these lines intersect.
+So all the lines would have to pretty much look like this.
+Of course, they could be parallel this way too, and they can just be parallel anyway.
+Either way, they would never have one point in which they all cross.
+So it is possible that two of the lines intersect at one point.
+But the third one does not intersect at this point.
+Therefore, there is zero solutions.
+Because all three equations need to have the exact same solution.
+So now, B. What it means for there to be exactly one is that there is one point in which every single equation crosses.
+So this might be what it looks like when there is exactly one solution.
+It could also look at something like this.
+As long as all three lines cross one point, and there is one intersection that all three lines have in common.
+And for C, there is exactly two.
+There would have to be two points in which every single one of the lines have to cross.
+So it could look something like this.
+You have three lines that cross at the exact same place.
+But if there are linear equations, keep in mind you won't have any quadratics.
+So it is impossible that there is two solutions.
+So straight up, we can just eliminate C.
+Infinitely many.
+All that means is that every single one of the lines is the exact same line.
+So it would just be three lines perfectly overlapping.
+So now with that in mind, let's go to the actual question.
+But we know that it cannot be C, again, because we have three linear equations.
+And three linear equations cannot intersect at two points.
+So now, let's answer the question.
+In order to do this, first we need to find the exact intersection or solution for these two equations.
+And then plug it into the third equation to see if it is also valid for that one.
+So what I mean by this is these two lines, for example, what I'm going to draw is not the actual lines.
+But if we find that they intersect at this point, all we need to do is plug it into this equation right here and see if it is true.
+If it is true, that means the third line does, in fact, go through the point.
+If it is untrue, that means the line, some way, somehow, does not go through the point.
+So with that in mind, now let's actually solve.
+And looking at the two equations, let's use substitution because they straight up give us y.
+So 2x plus, and then we plug in 3x minus 9, so 3x minus 9 equals 1.
+Now let's simplify.
+5x minus 9 equals 1.
+5x equals 10.
+And we get that x is equivalent to 2.
+Now, plugging in 2 for x, we can actually solve for y.
+So we're going to have y equals 3, plug in 2, minus 9.
+Simplify, we get 6 minus 9.
+And y equals 2, negative 3.
+So y equals negative 3.
+So you know that the intersection of the solution to these two equations is going to be 2, negative 3.
+So let's plug this into the third equation and see if this holds up.
+If it is true, that means there's exactly one solution.
+If it is untrue, there's zero solutions.
+And it cannot be infinitely many because these two equations only have one answer.
+So now let's plug it in.
+So we have 4 times 2, which I'm going to simplify right now.
+It's 8 plus 3 times negative 3 equals 1.
+So this turns into minus 9 equals 1.
+8 minus 9 is negative 1.
+And negative 1 is not equal to 1.
+Therefore, there's not going to be exactly one solution
+because the solution we found for these two equations do not work for the third one.
+So the answer choice that is correct is going to be answer choice A.
+Now let me show you how to do this question even faster using Desmos.
+First things first, they give us two equations.
+So let's just straight up graph it.
+Now from the graph where we click the intersection,
+we see that the intersection of the solution to the system of these two equations is 2, negative 3,
+which is the exact same thing we saw for earlier.
+Now what we want to see is after adding the third equation, how many solutions are there still?
+So when we add the third equation, we see that there is no solution in which all three equations should be.
+So there is no solution for all three equations.
+Therefore, there's going to be zero solutions.
+Answer choice A.
+Now pause the video and try this hard difficulty level question.
+For each real number r, which of the following points lies on the graph of each equation in the xy plane for the given system?
+So what this means is just asking which of the following points is the solution to both systems.
+So first taking a glance, normally we'd have to solve for the actual solution x comma y.
+What I noticed here is that in order to get the second equation from the first one, all we do is multiply the first one by three.
+Therefore, these two equations are the exact same thing and they are infinite solutions for this system of equations.
+So it's asking which of the following points lies in the graph of each equation.
+So we only need to verify if it lies on one.
+We actually don't need to verify if it lies on the second one because they are infinite solutions.
+And again, by definition, if it lies on one of them, it should lie on both because again, infinite solutions.
+So now taking a quick glance of the answer choices, what we can see is they replace x with r for some of these answer choices.
+And then y is actually expressed in terms of r.
+So all they're doing is like replacing x with r.
+And then they're changing y in terms of r.
+So what we can literally do is just isolate for r and see what y is in terms of r.
+So let's do that.
+First, let's subtract 5r from both sides.
+Negative 3y equals 11 minus 5r.
+Next, we divide by negative 3.
+So we get y equals negative 11 over 3 plus 5r over 3.
+So rearranging this just so we have the same format as the actual answer choices,
+we get that y equals 5r minus 11 over 3.
+So we know that the actual coordinate point that satisfies the actual equation is going to be r comma and then 5r minus 11 over 3.
+Which looking at the answer choices, we see that that's answer choice A.
+So answer choice A is the correct answer.
+Now pause the video and try this hard difficulty level question.
+In the given system of equations, C is a constant.
+The graphs of the two equations in the xy plane intersect at the point AB where A equals B.
+It's asking for the value of B.
+So because it tells us there's a solution AB with A equals B, what we can conclude is again that the solution is going to be A which is equal to x and B which is equal to y.
+So we can just do A equals x and also equals y.
+So let's just plug in A for both of them.
+So we get C A plus A equals 14.
+And the second one if we plug in we get 2A plus C A equals 20.
+Now what we notice here is that we have C A on both equations.
+So let's use elimination.
+If we subtract the second one from the first equation, what we get is C A plus A minus 2A minus C A.
+So the C A's cancel out.
+And we have A minus 2A equals 14 minus 20 which is going to give us negative 6.
+Now we get that negative A equals negative 6.
+Therefore A equals 6.
+And because we know that A equals B, we know that B equals 6 as well.
+So B equals 6.
+This question at first might have seemed a little challenging and you might not even have figured out what exactly you should do.
+If that is the case, just always look at exactly what you're given and see if you can do anything or even plug anything you were given into the actual equations.
+And from there, you should be able to figure it out.
+So now let's talk about word problems.
+Here's an example question.
+A bakery sells muffins and cookies.
+Each muffin costs $2 and each cookie costs $4.
+Maya purchased a total of 7 muffins and cookies with a combined cost of $20.
+Now it's asking how many muffins did she purchase?
+So the first step for word problems is to define the variables.
+So identify the two unique quantities or items the problem is asking about.
+Assign a specific letter to represent each item.
+So for example, in the previous question, we can use M for muffins and C for cookies.
+Use whichever letter you want that is very easy for you to remember.
+So if X and Y are easy for you to remember, you can set muffins equal to X and cookies equal to Y if you prefer that way.
+Step two is to create a quantity or total equation.
+So identify the total number of items or the total length, whatever total they mention in the actual question and set the sum of your two variables equal to this total amount.
+So for example, in the previous question, the total amount of muffins plus cookies is seven items.
+Step three, create a value or relationship equation.
+So for example, multiply each variable by its specific price, weight or rate and set the sum of these valued items equal to the total revenue or total cost provided.
+So for example, they told us that each muffin costs $2 and each cookie costs $4 and the total cost is $20.
+In a different context for comparison or relative context, translate descriptive English keywords into mathematical operators.
+So for example, twice as many or twice indicates multiplication.
+More than or increase by indicates addition.
+So for example, 3P equals C or C equals P plus 10.
+And the final step is now you've actually created the system of linear equations and you can solve them just like how we did earlier.
+So with that being said, now let's try an easy question.
+Pause the video and try this question out yourself.
+A craft store sells paint brushes and canvases.
+Each paint brush costs $3 and each canvas costs $6.
+Lena purchased a total of eight paint brushes and canvases with the combined cost of 33.
+The question is asking how many paint brushes did she purchase?
+So we can create two equations.
+Number one, we know that each paint brush, let's put a P for paint brushes.
+Each paint brush costs $3 and each canvas costs $6.
+And we know the total that she paid is $33.
+And now for the second equation, we know she purchased a total of eight paint brushes and canvases.
+She knows that P plus C equals eight.
+We don't know how many she paid individually, but we know that in total she purchased eight.
+So now we would just solve this with substitution or elimination.
+For this question, I'm going to use substitution.
+So I'm going to isolate for one variable.
+I'm going to do P. P equals eight minus C.
+Now I'm going to plug this into the first equation.
+So three, parentheses, eight minus C.
+Again, I'm just plugging in P for the first equation.
+Then plus six C equals 33.
+Simplifying, I get 24 minus three C plus six C equals 33.
+So now just combining terms, we get 24 plus three C equals 33.
+Subtracting 24 from both sides, we get three C equals nine.
+And we get the C equals three.
+So now obviously three is an answer choice, but if we pick this, we would get this question wrong because they're asking about the amount of paint brushes.
+And remember, we set the amount of paint brushes equal to P, not C.
+C is the amount of canvases.
+So it's not going to be answer choice B because that again is the amount of canvases.
+So now we know that P plus C equals eight.
+So P plus three, plug in C for three equals eight.
+And we get that P equals five.
+So the correct answer is answer choice C.
+So for this question, unfortunately, Desmos cannot create the equations for you, but it can do all the calculation for you.
+So we got that three, but for Desmos, we can't use P and C because again, Desmos treats any letters aside from X and X.
+Y as constants.
+So in order to graph it, we must use X and Y.
+So let's do three X plus six Y equals 33.
+Now we do X plus Y equals eight.
+And now we get the solution is five comma three.
+What's important is that we keep track which one we set to which one.
+So the X is equal to the number of paint brushes and Y equals the amount of canvases.
+So our solution is going to be five, which is the amount of paint brushes as a choice C.
+Now pause the video and try this question.
+Students at a school voted on whether to adopt a new uniform policy.
+A morning announcement stated that four times as many students voted in favor of the policy as voted against.
+A class blog reported that 630 more students voted in favor than voted against.
+Based on these data, how many students voted against the policy?
+So now this sounds a little confusing.
+So let's just do our best to make two equations.
+So a morning announcement say that four times as many students voted in favor as voted against.
+Let's do I equals in favor.
+So in and then A equals against.
+So they tell us that four times as many students voted in favor.
+So four times A equals I.
+Because again, four times as many students voted in favor.
+So more students voted in favor.
+Therefore we have to multiply four times the amount of students that voted against to get the amount of students that voted in favor.
+Now for the second equation.
+A class blog reported that 630 more students voted in favor than voted against.
+So for the second one, we know that 630 voted more in favor.
+So we have to take the amount that voted against A plus 630 in order to get I.
+And now we can actually solve for the students that voted against.
+So we know that I equals four A.
+So let's just plug that in over here.
+So we get A plus 630 equals four A.
+Subtracting A from both sides, we get three A equals 630.
+And we get that A equals 210.
+So actually shows A is the correct answer.
+So again, Desmos can't set up the equations for you, but it can solve the actual question for you.
+So let's switch everything from A and I to X and Y.
+So we had originally that 4X equals Y.
+Second equation is X plus 630 equals Y.
+And we get, if we scroll out and find the intersection, we find that the intersection occurs at 210, 840.
+Now we need to remember which one we set as against and which one we set as in favor.
+So we set X as against.
+Therefore 210 is going to be the correct answer.
+Answer choice A.
+Now pause this video and try this hard difficulty question.
+A garden hose with a length of 76 feet is cut into two sections.
+One section has a length of P feet and the other has a length of Q feet.
+So they immediately give us an equation.
+So let's just write it out.
+We know that P plus Q, so the two sections equals 76.
+Now let's keep reading.
+The value of P is 5/3 times the value of Q, increased by 4.
+What is the value of Q?
+So they give us a second equation.
+They tell us the value of P.
+So let's put P equals 5/3 times the value of Q.
+So this can be 5/3 Q and then increased by 4.
+So we add 4.
+Now if you have trouble remembering or even figuring out what the order is for these equations
+where they use multiplication, just think to yourself, which value is larger?
+In this case, they tell us P is 5/3 times the value of Q.
+So P is larger than Q.
+Therefore Q would need to be multiplied by 5/3 in order to get P.
+So now that we have the two equations, we need to isolate and solve for the value of Q.
+So in order to save us some steps, let's go ahead and isolate for P so that, so let's do that first, 76 minus Q.
+So that when we plug this portion in for P, we can just straight up solve for Q instead of solving with P and then having to solve for Q.
+So let's plug it in.
+76 minus Q equals 5/3 Q plus 4.
+So I don't really want to be working with any of the fractions.
+So I'm going to multiply this entire thing by 3.
+What's really important is that you remember to multiply every single term in this equation by 3.
+So 76 times 3 is going to be equal to 228 minus again, multiply everything by 3 equals 5Q plus 12.
+Now let's rearrange.
+So we're going to add 3A to this side and subtract 12 from this side.
+So we're going to get 216 equals 8Q.
+Isolating for Q, we're going to get Q equals 27.
+So this is our final answer.
+So now let me show you how to do this question in Desmos.
+Again, unfortunately, Desmos cannot create the actual equations for us, but it can help us solve it.
+So let's just type it in replacing P and Q with X and Y.
+So X plus Y equals 76.
+And then X equals 5 over 3, Y plus 4.
+And zooming out, you can find the intersection.
+It's going to be at 49 comma 27.
+And they're asking for the value of Q.
+In this case, we replaced Q with Y.
+So we're going to be looking at the Y value, which is Y equals 27.

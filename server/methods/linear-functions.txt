@@ -1,0 +1,1000 @@
+ALGEBRA STITCHED TRANSCRIPTIONS
+SKILL: Linear Functions
+Generated: 2026-07-08
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra Linear Functions.txt
+--------------------------------------------------------------------------------
+
+Let's talk about linear functions. So first, what is a linear function? A linear function is a
+mathematical function that graphs as a straight line, so what's important is this linear portion
+right here. And it represents a constant rate of change between two variables. And this is usually
+represented with the slope intercept form y equals mx plus b. It's important to note that linear
+functions is not the same as just a function. What's different about this one is literally the
+portion right here, linear. Because it says linear, you know it must be in the form y equals mx plus b,
+where the input is the x value and the output is equivalent to f of x or the y value. So let's
+talk about what this f of x portion means. So the f of x is simply a naming convention for naming
+functions. So basically just a fancy way of writing y, but you can name different graphs. So you can say
+f of x equals, and then let's say randomly we can take 4x plus 2. What we also do is define a second
+graph, which I'll show you how to do later. Whenever you see f of x, you can basically mentally substitute
+y. That's what f of x is equal to. So what do I mean by this? So in the expression f of 3 equals 10,
+the input is the x value. So the portion in the parentheses is the x value that is inputted into the
+function. And this portion right here is the y value. So the output is y. So this directly corresponds to
+the coordinate point 3 comma 10 on a graph. So let's apply this to evaluating linear functions. So just
+applying the basics. So now let's talk about plugging in x. So finding the value of a function, giving a
+specific input. So for example, if f of x equals 4x minus 2, and we're asked to find f of 3. Remember,
+whatever's in the parentheses is the x value. So if we plug in 3 right here, we get f of 3 equals,
+and then we plug in 3. So 4 parentheses 3 minus 2. This should be an equal sign. It kind of looks like a z,
+but this is an equal sign. And now we can simplify and solve for y. Because again, remember f of 3 literally
+means the value of y, when 3 is plugged in for x. So if we simplify this, we get 12 minus 2, which just
+gives us 10. So solving for x. So this is slightly different than plugging for x. So this is finding
+the input when given the final output. All this means is, let's take a look at this actual practice
+question. If f of x equals 4x minus 2, and f of x equals 18, find x. So remember, f of x is equivalent to y.
+So we know that 18 equals 4x minus 2. So if we plug that in and solve, we get x equals 5. So what you can
+also do is evaluate a function from graphs and tables. So all this means is locating f of x values, again,
+y values, by finding the corresponding x value on a given table or coordinate plane, rather than
+calculating it algebraically. And we'll definitely see practice problems with this. Let's start by doing this
+easy question. So pause the video and try this question. The function f is defined by f of x equals 40x plus 15.
+What is the value of f of x when x equals 3? So all we need to do is plug in 3 for x. So let's do f of 3
+equals 40. And again, we're plugging in x equals 3. So 40 times 3 plus 15. And after simplifying, we get that 120 plus 15 equals 135. So now f of 3 or f of x when you plug in 3 is equal to 135, which is answer choice C. Now let me show you how to do this question on Desmos. On Desmos, it is really simple. All you need to do is define the function. So f of x equals 40x plus 15. And the answer is really simple.
+So f of x equals 40x plus 15. And the asking for the value of f of x when you plug in x equals 3. So we just type in f parentheses 3, Desmos calculates it for us. And the answer is C. So this is what I was referring to earlier, but now I'm going to expand upon it more. So now we're going to talk about the differences between f of x, g of x, and h of x. They're basically the exact same thing. But what you notice is that they just changed the very
+what I was referring to earlier, but now I'm going to expand upon it more. So now we're going to talk
+about the differences between f of x, g of x, and h of x. They're basically the exact same thing,
+but what you notice is that they just changed the very first letter. So let's see what it means.
+It's the same logic, but just different name. So just as humans have different names, for example,
+maybe John, Sarah, or Alex, to tell them apart, functions use different letters so we know which
+rule to follow. So f of x, g of x, and h of x all represent output, which is again the y value,
+but they just stand for slightly different rules. So for example, f of x could be equal to 4x plus 2,
+but g of x, if they say g of x is another function, they could define it as another separate rule. So
+it could be 12x plus 36. All this means is that it's two different ways of naming an actual linear
+equation. Because if you just had y equals, and then this first portion, and then y equals the second
+equation, you wouldn't be able to tell someone or communicate to someone that they're different
+equations. That's why we use f of x, g of x, or even any other letter in front of the x.
+And sometimes they're all context clues. So sometimes the letter hints at what the function measures.
+For example, h of t often stands for height at time t. And additionally, something I forgot to mention
+is that the value inside of the parentheses can also defer, as long as whatever's in the parentheses
+is on the x axis. So for example, you might have a function that is height as a function of time.
+This is the same as y as a function of x, but just different variables. Additionally, c parentheses p
+often stands for, for example, cost for p number of people. And what I want to emphasize is that there is
+no need to memorize, for example, h of t, or c parentheses p, or any variation. They can always change, and they probably will change.
+So the key takeaway? The substitution is identical. Whether the function is named f, g, or t, the math remains the same.
+So if g of x equals x squared, then g3 simply means plug 3 as x into the g function. And if h of t equals 2x squared, then h of 4 simply means plug 4 as t into the h function.
+So one thing I want to highlight with these two examples is neither of these are actual linear functions. These are quadratic functions, because there is an exponent.
+But the exact same rule applies to them in terms of the naming conventions. So now pause the video and try this question.
+The function g is defined by g of x equals 6x. For what value of x, do g of x equal 54? So g of x must equal 54, and we're solving for the value of x. So all we need to do is plug in 54 as g of x, and then solve for x. 54 divided by 6 is going to give you x equals 9. And the correct answer is answer choice B.
+Now let me show you how to do this question on Desmos. So they give us g of x is equal to 6x. Let's give that into Desmos.
+And now they're asking for what value of x does g of x equal 54? And again, g of x is the exact same thing as y. So if we graph y equals 54, all we need to do is zoom out and find the intersection. And we see that x is equal to 9. And B is the correct answer.
+Pause the video and try this question as well.
+For the linear function h of t, B is a constant. And h of 6 equals 30. If h of t equals 5x plus B, what is the value of B? So what they give us here is that the function of h when we plug in 6 equals 30.
+So let's set that into the equation. So 30 equals 5. And then we plug in 6 for x. So we get 6 plus B. Now if we simplify and solve for B, we get 30 equals 30 plus B. Subtracting 30 on both sides, we get 0 equals B. Therefore, B is equal to 0. And answer choice A is the correct answer.
+So now let me show you how to do this question on Desmos. So they give us a function h. So let's just straight up plug it into Desmos. They give us 5x plus B. And now they're telling us that h of 6 equals 30. So if we just plug in 6 and 30, so 6 as x, and then 30 as y, we can just change the equal sign to a regression. And now it calculates for us that B equals 0.
+What you can also do if you don't want to use regression is put it to an equal sign and you can change B to x so it just solves for one singular variable or one singular constant. And you get that B equals 0 because we changed B to x just to graph it.
+Now pause the video and try this question. The function f is defined by f of x equals 3x plus 42. What is the value of f of 30? All we need to do because they give us an x value is just plug it in and solve for the value of y.
+So we have 3 over 5 times 30 plus 42. And if we simplify, we get this is equal to 6 and it's 6 times 3. So that's 18 plus 42 equals f of 30, which is what we're solving for.
+And if we combine this and add it together, we get that 60 equals f of 30. So our correct answer is going to be 60.
+Now let me show you how to do this question on Desmos. So they should have given us a function. So let's graph this f of x equals 3 over 5x plus 42. They're asking for the value of f of 30. So we just need to put f of 30 on Desmos. And boom, f of 30 equals 60.
+Now pause this video and try this medium difficulty level question. For the function f defined by f of x equals x plus 5 over 3. What is the value of f of 10 minus f of 1? So I notice immediately is that they give us two different values of x. They want us to solve for the y values and then subtract them from each other.
+So let's do just that. Let's plug in 10 first. 10 plus 5 over 3. And then they want us to plug in 1. So minus, let's put all this in parentheses because we need to simplify these first. We need to plug in 1 plus 5 over 3. Now let's simplify each of these first before subtracting. So we get 15 over 3 minus 6 over 3. And simplifying each side, we get 5 minus 6 over 3.
+And simplifying each side, we get 5 minus 2. And this equals 3. So 3 is equivalent to f of 10 minus f of 1. Answer to C is the correct answer. Now I'm going to show you how to do this question on Desmos. So they give us another function. So let's just give it to Desmos. f of x equals x plus 5 over 3. And now they ask you for the value of f of 10 minus f of 1. So you could do f of 10 on one line and f of 1 on another line.
+And then subtract the 2 manually. And you get 3. Or what's even cooler about Desmos is that you can actually do the calculation on a single line. And it straight up gives you that y is equal to 3. Which is answer choice C.
+So now let's talk a little bit more specifically about slope. So slope, what I mentioned earlier, is the rate of change. And the formula to calculate slope is y2 minus y1 over x2 minus x1.
+So I'll show you an example of this on the next slide. And it's also equal to rise over run. Again, if you don't know what this means, I'll show you in just a minute. So what this means is you need two coordinate points on a graph, or if they just give it to you, you just need two coordinate points to solve for slope.
+And on the SAT, the slope m tells you the rate. So this can be for example, the cost per item, the speed in miles per hour, the population growth per year. So a positive slope means the line is going up. So the line is going to look slanted towards the right and increasing as it moves to the right. A negative slope means that the line is going to go down. So it's going to start high and then keep decreasing lower. And a zero slope means that the line is perfectly
+horizontal. So now this is what it looks like on a graph. For example, if we have two coordinate points, using point slope formula means that you can choose any one as y2 and x2 and any point as y1 and x1. It works the same way either way. So let's just choose this one to use as coordinate point number one, and this one as coordinate point number two. So let's start. We take y2. So in this case, we're going to take two minus y1, which is going to be five.
+And we put this over x2. So this is going to be three minus x1, which is going to be seven. And this simplifies to negative three over negative four. And this simplifies to three over four. And now just to prove the other way around, let's pretend now this is point number two, and this is point number one. So let's start. We have five minus and then two over, let's take x2. So that's going to be seven minus x1, which is going to be three.
+And this still gives us three over four. So matter which one you set as x2 and which one you set as x1 or point one and point two, you're going to get the slope right as long as you use the formula correctly, which is again, y2 minus y1 over x2 minus x1.
+What's even cooler is that if you have a graph, you can just count on the graph visually how much of the graph rows and put it over how much the graph ran. So what this means is from here, we can count that to get from three to two, we go up three units. So we take three, again, the rise over, and then we count the run.
+So run one, two, three, four units, that's going to be four. So if, for example, the point is going down, it's going to be negative for the rise. And then if, for example, the point is going to the left, this way, it's going to be a negative on the bottom. So just keep that in mind.
+And then in y equals mx plus b, we just covered what exactly the slope means and how to calculate it. Now let's talk about b. So b is equivalent to the y-intercept or the starting value. So this is the value of y when x is equal to zero. Let me show you what that means.
+If we plug in x right here equal to zero, it doesn't matter what y is. Either way, this entire term right here is going to be equal to zero. Therefore, we get y equals zero plus b. Therefore, b is always going to be the starting value.
+So in context of questions, this is usually a flat fee, a down payment, an initial quantity, the baseline value before any change occurs. There's a lot more context that it could actually mean.
+Now let's talk about the x-intercept. This is what value of x when y equals zero. So the y-intercept again is the value of y when x equals zero. The x-intercept is the value of x when y equals zero.
+And this is also known as the root or solution to an equation. So on a graph, this is what it looks like. The y-intercept is when the linear equation or any equation intersects the y-axis. So right here at 0, 6.
+The x-intercept is going to be where the function intercepts the x-axis. So right here at .
+So now I might have a little bit of bad news. There are three forms of a linear equation. What we covered so far is slope-intercept form.
+So fortunately, I have a bit of good news as well. The one you're most familiar with is the slope-intercept form is the most tested on the SAT. And even better news, you can get the slope-intercept form by manipulating or rearranging the other two forms with the reverse order of operations.
+So just a quick review of slope-intercept form. Slope-intercept form is y equals mx plus b. m is the slope. So for example, as x increases by 1, y increases by m. And b is the y-intercept. So y value when x equals zero. And this is an example of that.
+Now let's talk about solving for unknown constants. So our goal is to handle problems where the SAT gives the form of the equation but hides a number.
+So the SAT can give you an equation, for example, like f of x equals mx plus 4 and tell you that f of 2 equals 28.
+So what we do is we treat 2 comma 28 as a coordinate. And then we can replace x with 2 and f of x with 28 and solve for any missing letter m of b using basic algebra.
+In this specific question, we would be solving for m. And with that, we can set again y equal to 28 equals m plug in 2 for x plus 4.
+And now we can simplify this as 24 equals 2m by moving 4 over and then we can get the m equals 12.
+So now let's try a medium difficulty practice question. Pause the video and try this question yourself.
+There is a linear relationship between x and f defined by f of x equals mx minus 15, where m is a constant.
+Given that f of 8 equals 57, what is the value of m? So again, we can treat this as a coordinate. So we get 8 comma 57.
+And with that, we plug in 8 for x and then plug in f of x equals 57. So we get 57 equals m and then plug in 8 for x minus 15.
+So all we need to do is simplify this and then isolate for m. So let's do just that.
+We add 15 to the left side and this gives us 72 equals 8m. Solving for m, we need to divide both sides by 8 and we get the m equals 9.
+So now let me show you how to do this question on Desmos. They give us a function. So let's just straight up put it into Desmos.
+f of x equals mx minus 15. And they gave us a point that f of 8 equals 57. So let's plug in 8 for x. So let's change this to 8.
+So let's change this to 8. And then it gives us this equal 57. So let's change this equal to 57.
+And now because Desmos can't graph this, we can just change this to a tilde to use regression.
+And Desmos gives us that m equals 9. Pause the video and try this question.
+For the linear function g, b is a constant and g of 0 equals 72. If g of x equals x plus b, what is the value of b?
+So they give us a function and they give us an x value and a y value. So let's go ahead and just plug it in.
+So we get 72 equals 0 plus b. Now we can just get that b equals 72. So now we get to finding an equation from two coordinates.
+So now we're definitely going to have to calculate the slope. So pause the video and try this question.
+In the xy plane, the graph of the linear function f contains the point 1 comma 6 and 6 comma 26. Which equation defines f where y equals f of x?
+So using the slope formula, I'm going to set this as point 2 and this as point 1.
+So I'm going to do y2, so 26 minus y1 minus 6, over x of 2 minus x of 1. So this can be 1.
+And this simplifies to 20 over 5, which gives the slope 4 for m.
+So now looking at the answer choices, I don't even need to solve for b because there's only one answer choice with 4 as a slope.
+So answer choice d is going to be the correct answer.
+So now let me show you how to solve this question really quickly with Desmos.
+So for this, because they give us two points, let's go ahead and create a table.
+And let's enter the points. So 1 comma 6 and 6 comma 26.
+Because we can take a quick glance at the answer choices and see that it's in slope intercept form, as well as they tell us the fact it's a linear function,
+what we can use is the auto-aggression button and boom, Desmos immediately tells us that the function is equal to y equals 4x plus 2.
+So now we finally get a graph type question. So pause the video and try this question.
+The table gives the average time t in minutes. It takes Diego to cycle a certain distance d in kilometers.
+Which equation could represent this linear relationship?
+So we see they give us a table and this is the exact same as giving us two points.
+So let's calculate the slope first. Taking a quick glance at the answer choices, we see that it's still in y equals mx plus b format,
+but it's just that b is equal to 0. So b is equal to 0. Therefore, we don't need to worry about calculating b.
+All we need is the slope and then we can get the correct answer. So let's calculate that.
+I'm going to set this point right here equal to the second point and this one equal to the first point.
+And t is going to be y. So let's do 14, which is y2 minus 8 over 0.7 minus 0.4.
+And what we get is 6 over 0.3. And this is equivalent to 20. So the slope, the m is going to be equal to 20.
+And we know that the correct answer is answer choice C.
+So now let me show you how to do this question really quickly on decimals.
+So exact same as the previous question, they give us two coordinates points.
+So let's straight up put it into a table. So 0.4 comma 8 and 0.7 comma 14.
+And with that, they're asking for the linear equation. So let's just add regression.
+And they immediately give us that y equals 20x plus 0, which is answer choice C.
+So now we get to a hard difficulty level question. So pause the video and try out this question.
+The table shows the linear relationship between the number of buses, C, on a transit route,
+and the maximum number of passengers and crew, P, that the route can carry.
+Which equation represents the linear relationship between C and P?
+So we see here that although none of these are in slope intercept form,
+what we are given is three coordinate points. So we are going to be able to solve for m as well as b.
+So y equals mx plus b. What it looks like they're doing here is they're just rearranging the equation.
+So in this specific question, P is going to be equal to y.
+So I'm going to just put P instead of y equals m.
+And then they say the number of buses, C plus b.
+So now let's calculate for this equation and see if we can rearrange it to get the form of the answer choices.
+So I'm going to erase all of this so we can have some more space.
+I'm going to leave this up right here so that we know exactly what form it would be.
+So I'm going to set this one as point number two and this one as point number one.
+The reason why I just didn't choose this one is because the number is larger and rather not work with a larger number.
+Because remember, in order to get the slope, we only need two points.
+So I'd much rather just pick the simpler points.
+So let's do 387, which is y2 minus 225, which is y1, over and then 7 minus 4, which is going to be 3.
+And this is going to be equal to 162 over 3, which simplifies to 54.
+But keep in mind we're solving for m right now.
+So our equation right now is going to be p equals 54 c plus b.
+But we're still missing b.
+Good thing is that they give us actual coordinates.
+So let's just plug one of these in for p and c and then we can solve for b because it's going to be the only constant left.
+So let's do 225 equals 54 times 4 plus b.
+And this simplifies to 216.
+And if we subtract 216 from both sides, we get 9 equals b.
+And now our full equation after plugging it in right here, we're going to get that p equals 54 c plus 9.
+So now taking a glance at the answer choices, we just need to somehow manipulate this equation right here in order to get one of the answer choices.
+So let's try to get answer choice a right now.
+So what they did is they have a negative 9.
+Let's go ahead and subtract 9 to make it negative.
+So we have negative 9 plus p equals 54 c.
+Now what we can do to isolate for negative 9 is subtract p.
+So we have negative 9.
+Again, we subtract p.
+So equals 54 c minus p.
+So what we see now, comparing what we just got with what the question has, answer choice a is the correct answer.
+If you try the other answer choices, you will find that they are wrong.
+So now let me show you how to do this question in Desmos.
+Again, because they give us data points, let's just straight up put it into Desmos.
+So 4, 2, 2, 5, 7, 3, 87, 12, and 6, 57.
+Now, because we know it's linear, we can just go ahead and make the linear regression.
+And we immediately get that y equals 54x plus 9.
+So all Desmos did was just eliminate a lot of the mental math or all the work we showed on paper.
+Now, rearranging this, we can still get answer choice a, which is the correct answer.
+So let's go on to another hard question.
+This part is blurred out just because this portion of the question was actually incorrect.
+So just ignore it because the question can be solved without it.
+So pause the video and try this question.
+For the linear function f, function f is defined by f of x equals ax plus b.
+So from this alone, we get that it's a linear function, where a and b are constants.
+Given that f of 3 equals 0, f of 2 equals negative 80, what is the value of a minus b?
+So again, we can treat these as coordinate points.
+So we get 3, 0, and then 2, negative 80.
+And from here, we can use the slope formula to find the slope and then solve for b.
+So let's do that first.
+I'm going to set this equal to the second coordinate and this equal to the first coordinate.
+So negative 80, which is y2, minus 0, over x2, which is 2, minus x1.
+So what I get is negative 80 over negative 1.
+This equals 80.
+So we know that a, in this equation, and name it a instead of m, we know that a equals 80.
+And with that, we can just plug it in and use one of the coordinate points they gave us to solve for b.
+So let's do just that.
+f of x, which is equal to this right here.
+We're going to set y equals, and we just solve that a equals 80, times 3, which they give us in the coordinate point right here, plus b.
+And now we can actually solve for b.
+We get 0 equals 240 plus b.
+And we get that b equals negative 240.
+But now let's make sure we're actually answering the question correctly.
+They're asking what is the value of a minus b.
+So we do 80 minus and then negative 240.
+So then we get the final answer as 320, which is answer choice d.
+Now, let me show you how to do this question in Desmos.
+Again, they give us two coordinate points.
+Let's put it into a table.
+3 comma 0 and 2 comma negative 80.
+Now they give us the equation as y equals mx plus b.
+And we know the regression gives us in that same format as well.
+So now we get that a is equal to 80 and that b is equal to negative 240.
+So with that, we can just do 80 minus negative 240.
+And now you get the answer is 320, which is answer choice d.
+So now let's do yet another hard question.
+Pause the video and try this yourself.
+The table below shows some values of x and the corresponding values f of x for the linear function f.
+What is the x-intercept of the graph of y equals f of x in the xy plane?
+So recall, the x-intercept is what x equals to when y equals 0.
+And because we know this is a linear function, we're going to have y equals mx plus b.
+So we definitely need to solve for m.
+We definitely need to solve for b.
+And then we need to set y equal to 0 and then solve for what x equals to.
+So that's what we need to do.
+So first, let's solve for m because we have multiple points.
+So I'm going to use this point as point number 2.
+And then this point right here is point number 1.
+So I have 5 minus 10 over and then negative 2 minus a negative 3.
+And simplifying, I get negative 5 over 1.
+So I get m is equal to negative 5.
+And with that, I'm going to plug in a point and then solve for the value of b.
+So I'm going to get 5 equals, and then we plug in negative 5 for m.
+And then the x value, so negative 2 plus b.
+Simplifying, we can get 10 equals 5 plus b.
+And subtracting, we get b equals negative 5.
+And now that we have m as well as b, we can plug these in and then set y equals 0 and solve for the x-intercept.
+So let's do just that up here.
+So we have 0 for y equals negative 5x minus 5.
+Simplifying, we get 5 equals negative 5x.
+And x equals negative 1.
+So we know that the x-intercept is going to have negative 1 and then we set y equals 0.
+Because remember, the x-intercept is what x equals to when it crosses the x-axis.
+So when it crosses the x-axis over here.
+So at this point at the x-axis, y is equivalent to 0.
+So y is 0.
+Negative 1, 0 is our answer.
+Answer choice b.
+Now I'll show you how to do this question with Desmos.
+So we can create a table because we're given points and we really only need to put two of these points into Desmos.
+So let's just do that.
+Negative 3, 10.
+And then we can have Desmos solve for the linear function.
+With that, all we need to do again, because conceptually, the x-intercept is when the graph intercepts the actual x-axis.
+So we can just click on it and immediately gives us that the x-intercept is negative 1 comma 0.
+Desmos ends up saving us a ton of work on this question.
+So now let's talk about transformations.
+And let's start with input substitution.
+So if the problem says f of 2x equals x plus 5 and asks for f of 4, do not just plug in 4 for x.
+This is because the input is an expression.
+So this right here is 2x.
+So it's not just a single variable.
+And in the notation f of 2x, the input slot is occupied by the entire expression 2 of x, not just the letter x.
+So what this means is that it's targeting the total value.
+So when the SAT asks for f of 4, it is mandating that the entire value inside the parentheses must equal 4.
+So with that, typically if you're given f of x equals 4x plus 5 and you want to find f of 4, you would plug in 4 for x.
+But in our question that we had just earlier, f of 2x equals 4x plus 5, taking a step back, what f of 2x means is that f of 2x is the function of f of x if we multiplied x by 2.
+Thus, we need to set f of 2x equal to f of 4.
+More specifically, 2 equals 4.
+Now we can actually solve for x.
+And if we solve for x, in this case we get that x equals 2.
+So now we can plug this into the right side of the equation.
+So we get 4 times 2 plus 5.
+And this is going to be equal to 13.
+So now let's try this hard question.
+Pause the video and try it yourself.
+For the function f, if f parentheses 4 of x equals x minus 3, for all values of x, what is the value of f of 8?
+So remember, this right here, 8, must be equivalent to the exact same thing here.
+So we must set them equal to each other first.
+4x equals 8.
+We solve that x equals 2.
+And now we can plug it in 4x.
+And we get the f of 4x equals 2 minus 3.
+And that equals to negative 1.
+And b is the correct answer.
+Unfortunately for Desmos, you're not able to do this on Desmos.
+So if we defined f equals 4x equals x minus 3, we would not be able to just straight up put it f of 8.
+So for this question specifically, make sure you know how to do it conceptually.
+So now pause the video and try this hard difficulty level question.
+This question for sure is going to be more difficult than the previous one.
+But do your best.
+For the function f, f of c of x equals x minus 5 for all values of x, where c is a positive constant.
+If f of 3 equals 40, what is the value of c?
+So immediately we see that the input is 3 and the input expression right here is c of x.
+So we know they must be equivalent.
+C x equals 3.
+And in order for us to plug in x right here, we need to isolate for x.
+So the next logical step is to isolate for x.
+x equals 3 over c.
+And now we can actually plug it in.
+So we get f of 3 equals 3 over c minus 5.
+But we get that f of 3 equals 40.
+So let me erase this and change it into 40.
+equals 40.
+And now let's solve for c.
+So we get 45 equals 3 over c.
+Multiplying both sides by c, we get c on this side.
+And now we can divide 3 over 45.
+So c equals 3 over 45.
+This simplifies to 1 over 15, which is the correct answer.
+So unfortunately, this is also another question you cannot do on Desmos.
+So you need to know how to do it algebraically.
+So next, we're going to move on to understanding y equals mx plus b in the context of word problems.
+So we talked about this briefly earlier, but I'm going to repeat it again because it's incredibly important.
+So b is always going to be equivalent to the y-intercept when we're talking about y equals mx plus b and linear functions.
+So look for the starting amount, the initial value, the flat v, or at time 0 in the context of the question.
+m is always going to be the slope.
+So look for the rate at which the unit changes and really pay attention to whether it's positive or negative.
+And keywords they're going to use is per, each, every, or even just straight up the word rate.
+And for the harder questions, sometimes a number represents the difference between two totals.
+So for example, purchased eight more yards than used.
+So now pause the video and try this question.
+Jordan used smoothie mix to make drinks.
+The function f of x equals negative 4x plus 48 approximates the volume in fluid ounces of mix Jordan had remaining after making x drinks.
+Which statement is best interpretation of the y-intercept of the graph of y equals f of x in the xy-plane in this context?
+What's important here is that we must go back to the actual equation and identify exactly what they're talking about.
+And they want us to interpret the y-intercept.
+So looking at the actual equation, we know the y-intercept is equal to 48 because it's in the form of y equals mx plus b.
+And b is always equal to the initial amount, which in this question is equivalent to the y-intercept.
+So let's go to the actual answer choices.
+Number one, answer choices a and b are going to be wrong because they say 4.
+And we're not worried about 4 because we know that the y-intercept is going to be 48.
+So it must be answer choices c or d.
+Remember, the y-intercept is the initial amount.
+So in the context of this question, we have a negative slope.
+And what that means is he starts with the initial amount and he uses 4 fluid ounces for x drinks.
+So 48 is going to be the initial amount.
+And in this case, answer choice c is going to be correct because he had approximately 48 fluid ounces of mix when he began.
+Again, initial amount.
+For answer choice d, they were talking about the slopes.
+So they said, "Jordan used approximately 48 fluid ounces of mix for each drink."
+But that's not true either because the slope is actually negative 4.
+So they actually used approximately 4 fluid ounces for each drink.
+Now we go on to a hard difficulty level question.
+So pause this video and try it yourself.
+A bungee cord stretches when weight is attached.
+So let's just draw a quick picture.
+A bungee cord is stretched when weight is attached.
+Let's put a little weight.
+The formula L equals 50 plus 3W relates the length L in centimeters of the cord to the weight W in kilograms of the attached weight.
+Which of the following best describes the meaning of 3 in this context?
+So now let's look at the actual equation.
+I'm going to rewrite it here just so we can have it larger.
+So I notice is that they have y equals mx plus b, but it's just written slightly different.
+So let's move it into the format we're used to.
+y equals 3W plus 50.
+So 50 is going to be the initial amount.
+And they're asking about what 3 means in this context.
+We know that W is the amount of weight added to the bungee cord.
+Therefore, 3 must be for every weight they add, it stretches an additional centimeter.
+So 3 is going to be the length increase of the bungee cord when another weight is attached.
+So let's go to the ancestors to see if we can find that.
+And we see that C is talking about increase. D is also talking about increase.
+The ancestors A is talking about the length of the cord with no weight attached.
+So that's going to be the meaning of the y-intercept or B, which is not going to be A.
+So the ancestors B, the weight in kilograms of an object that stretches the cord 50 meters.
+So that's not going to be right for sure because we know weight is represented by W.
+C, the increase in weight in kilograms for each one centimeter increase in length.
+So we know it's definitely not going to be C because it's not the increase in weight.
+It's going to be the increase in length as we add another weight.
+So that's going to answer D.
+The increase in length looks perfect so far in centimeters looks great as well of the cord for each one kilogram increase in weight.
+Answer D is going to be the correct answer.
+So now pause the video and try this question as well.
+Priya used fabric measuring three yards in length to make each scarf.
+The relationship between the number of scars priya made x and the total length of fabric she purchased y in yards is represented by the equation y minus 3x equals 8.
+What is the best interpretation of 8 in this context?
+So what I first noticed is that this equation is not in y equals mx plus b format.
+So we definitely need to interpret this question differently.
+So given that she used fabric measuring three yards in length for each scarf.
+So therefore 3 in this context means the amount of yards used for every single scarf.
+And then they tell us that the total length of fabric she purchased y is in yards.
+So y in this case is actually the initial amount.
+It's slightly different in this question.
+Y is the initial amount.
+Then we have y minus 3x equals 8.
+So 8 is what's left after using 3 yards for every single scarf.
+So therefore 8 must be the amount she has remaining after making the scarves.
+Now let's go to the answer choices and see if we can find that.
+Priya made 8 scarves.
+Not right.
+Priya purchased a total of 8 yards of fabric.
+Again, not true because y is the total amount she purchased.
+So it's not b.
+c. Priya used a total of 8 yards of fabric to make the scarves.
+Again, not true because 8 is the remaining number.
+So it's not going to be c.
+d. Priya purchased 8 yards more fabric than she used to make the scarves.
+So this is going to be correct because this is what she has left over after making the scarves.
+So now let's apply the exact same concept to another practice question.
+But these now require calculations.
+So pause the video and try it yourself.
+Marcus deposits $50 in the savings account at the end of each week.
+At the beginning of the first week of the year, there was $800 in that savings account.
+How much money in dollars will be in the account at the end of the fifth week of that year?
+So what I'm saying here is that because they're adding $50 every single week and we have an initial amount,
+we know that the equation for this question is going to be in y = mx + b format,
+where there's a rate of increase and an initial amount.
+So let's first start with the initial amount since it's easier.
+We know that at the beginning of the first week, there was $800 in the savings account.
+So $800 is going to be the value of b.
+So let's just plug that in.
+And then we know now that the rate of increase is $50 at the end of each week.
+So after every week, they increase by $50 in the account.
+And x is going to be the amount of weeks.
+So the full equation is y = 50x + 800.
+And we know that y represents the total amount of money in the savings account after x weeks.
+So now they're asking for how much money in dollars will be in the account at the end of the fifth week of that year.
+So all we need to do is plug in 5x.
+So let's do that and simplify our equation.
+We know this is equal to the total amount.
+We get $250 + 800.
+If we add them together, we get $1,050.
+So y = $1,050.
+So d is going to be our final answer.
+So now we move on to a medium difficulty level question.
+So pause the video and try this question yourself.
+A company's total cost, C, x, and dollars, to produce x jerseys is given by the equation Cx = mx + 400.
+So what we notice here is they already give us the equation, but they didn't give us the slope.
+Most likely we might have to solve for it.
+But let's keep reading.
+Where m is a constant and x is greater than 0.
+The total cost to produce 50 jerseys is 650.
+What is the total cost in dollars to produce 500 jerseys?
+So first of all, let's just start with the equation that they gave us and plug in the additional information they gave us.
+So let's start with the equation first of all.
+C of x, which is the total cost to produce x jerseys, equals mx + 400.
+This is nothing new. I'm just rewriting the equation.
+They told us the total cost to produce 50 jerseys is $650.
+So again, 650 is the total cost.
+So it's C of x.
+So let's plug in 650, equals, and we don't know the cost for each jersey.
+But we do know that they produce 50 jerseys.
+And the initial amount is 400.
+And with this, we can just isolate and solve for m, which is going to be the cost of each jersey.
+So let's subtract 400 from both sides and we get 250 equals 50m.
+And now, dividing by 50, we get m equals 50.
+So the cost to produce each jersey is $50.
+Now the question is asking us, what is the total cost in dollars to produce 500 jerseys?
+Remember, once you solve for any calculation, always make sure that that is actually what the question is asking for.
+In this case, we solve that each jersey costs $50.
+But if we were to have just entered $50 into the question, it would have been wrong.
+Because again, they're asking for the total cost to produce 500 jerseys, not the cost of each jersey.
+So now let's actually solve for what the question is asking for.
+All we need to do, because we now have m, we just need to plug in x equals 500.
+Because that x represents the number of jerseys.
+So let's do just that and solve for the total cost.
+So we have total cost, c of x equals 50 times 500 plus 400.
+So now technically, c of x would have to be c of 50.
+But you can choose whether or not you want to actually form it that way.
+So now let's simplify.
+50 times 500 is 2500.
+And you add 400.
+Now you get that c of 50 equals 2900.
+And this is our final answer and the correct answer.
+Now try this hard difficulty level question.
+The cost of renting a party tent for up to eight days is $360 for the first day and $180 for each additional day.
+Which of the following equations give the cost y in dollars of renting the tent for x days?
+Where x is a positive integer and x is less than or equal to 8.
+So first for this question, what I want to show you is the incorrect way of doing this question and why that is wrong.
+And then I'll show you the correct version.
+Because this is a very commonly tested question on the SAT and a lot of students end up missing it.
+What students immediately think when they see this type of question is, oh, for the first day it's 360.
+And then for each additional day it's going to be 180.
+So it's just y equals 180x plus 360.
+Therefore, this is the answer that they would pick.
+For this question specifically, that's not actually not an answer choice.
+But on the actual SAT, the majority of the times they're going to include this as an answer choice because most students get this.
+But let's talk about why this is wrong.
+For example, if x equaled 1, if it was only 1 day of renting it, from this equation it would tell us that the total amount of renting it would be 360 plus 180, which gives you 540.
+But how do we know that this is wrong?
+This is because they tell us literally that the cost of renting a part of 10 for up to 8 days is 360 for the first day.
+So for the first day, it costs 300 and $180 for each additional day.
+So therefore on day one, it's only going to cost 360.
+It should not cost $540 because again, 360 is the initial cost for renting it for one day.
+While $180 is the additional cost for each additional day.
+So not for the first day.
+So now let me show you what the correct equation should look like.
+So for this question, we have y equals, which is the total cost.
+Normally we have y equals mx plus b.
+But for this question, let's first start with the initial cost, the b, because that's the easiest to start with.
+We know it's going to be 360.
+What's different is this portion right here, which is mx.
+For this equation specifically, it's going to be y equals, and then let's first add the initial amount, plus, and then our first instinct originally was to add 100x.
+But again, like I just showed you, this is actually going to be incorrect.
+What we actually need to do is actually subtract from x one day.
+Because on the first day, the cost is $360.
+So now if we plugged in x equals 1, this would actually turn into 360 plus 0, which is correct for the first day.
+And if it was the second day, if we rented it for two days, it would cost $360 plus $180 instead of 360 if we did it this way.
+Now 360 plus 180 equals 540.
+And this is for renting it for two days, which is correct.
+Because again, according to the passage, it says that $180 for each additional day.
+After this, we noticed that although we got the correct equation, there is no answer choice with the exact same form.
+That's because all we need to do now is simplify this equation we have right here.
+So let's do that by distributing the 180.
+So if we distribute, we get 360 plus 180x minus 180.
+And because both of these terms now have x, we can simplify it to just 180x plus 180.
+So now looking at the answer choices, we see that the correct answer is answer choice A.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra - Linear Functions - Notation and Basics.txt
+--------------------------------------------------------------------------------
+
+Let's talk about linear functions. So first, what is a linear function? A linear function is a
+mathematical function that graphs as a straight line, so what's important is this linear portion
+right here. And it represents a constant rate of change between two variables. And this is usually
+represented with the slope intercept form y equals mx plus b. It's important to note that linear
+functions is not the same as just a function. What's different about this one is literally the
+portion right here, linear. Because it says linear, you know it must be in the form y equals mx plus b,
+where the input is the x value and the output is equivalent to f of x or the y value. So let's
+talk about what this f of x portion means. So the f of x is simply a naming convention for naming
+functions. So basically just a fancy way of writing y, but you can name different graphs. So you can say
+f of x equals, and then let's say randomly we can take 4x plus 2. What we also do is define a second
+graph, which I'll show you how to do later. Whenever you see f of x, you can basically mentally substitute
+y. That's what f of x is equal to. So what do I mean by this? So in the expression f of 3 equals 10,
+the input is the x value. So the portion in the parentheses is the x value that is inputted into the
+function. And this portion right here is the y value. So the output is y. So this directly corresponds to
+the coordinate point 3 comma 10 on a graph. So let's apply this to evaluating linear functions. So just
+applying the basics. So now let's talk about plugging in x. So finding the value of a function, giving a
+specific input. So for example, if f of x equals 4x minus 2, and we're asked to find f of 3. Remember,
+whatever's in the parentheses is the x value. So if we plug in 3 right here, we get f of 3 equals,
+and then we plug in 3. So 4 parentheses 3 minus 2. This should be an equal sign. That kind of looks like a z,
+but this is an equal sign. And now we can simplify and solve for y. Because again, remember f of 3 literally
+means the value of y when 3 is plugged in for x. So if we simplify this, we get 12 minus 2, which just
+gives us 10. So solving for x. So this is slightly different than plugging for x. So this is finding
+the input when given the final output. All this means is, let's take a look at this actual practice
+question. If f of x equals 4x minus 2, and f of x equals 18, find x. So remember, f of x is equivalent to y.
+So we know that 18 equals 4x minus 2. So if we plug that in and solve, we get x equals 5. So what you can
+also do is evaluate a function from graphs and tables. So all this means is locating f of x values, again,
+y values, by finding the corresponding x value on a given table or coordinate plane, rather than
+calculating it algebraically. And we'll definitely see practice problems with this. Let's start by doing this
+easy question. So pause the video and try this question. The function f is defined by f of x equals 40x plus 15.
+What is the value of f of x when x equals 3? So all we need to do is plug in 3 for x. So let's do f of 3
+equals 40. And again, we're plugging in x equals 3. So 40 times 3 plus 15. And after simplifying, we get that 120 plus 15 equals 135. So now f of 3 or f of x when you plug in 3 is equal to 135, which is answer choice C.
+Now let me show you how to do this question. On Desmos, it is really simple because all you need to do is define the function.
+So f of x equals 40x plus 15. And you're asking for the value of f of x when you plug in x equals 3. So if we just type in f
+parentheses 3, Desmos calculates it for us. And the answer is C. So this is what I was referring to earlier, but now I'm going to expand upon it more.
+So now we're going to talk about the differences between f of x, g of x, and h of x. They're basically the exact same thing. But what you notice is that they just changed the very first letter.
+So let's see what it means. It's the same logic, but just different name. So just as humans have different names, for example, maybe John, Sarah, Alex, to tell them apart, functions use different letters, so we know which rule to follow.
+So f of x, g of x, and h of x all represent output, which is again the y value, but they just stand for slightly different rules. So for example, f of x could be equal to 4x plus 2.
+But g of x, if they say g of x is another function, they could define it as another separate rule. So it could be 12x plus 36. All this means is that it's two different ways of naming an actual linear equation.
+Because if you just had y equals, and then this first portion, and then y equals the second equation, you wouldn't be able to tell someone or communicate to someone that they're different equations.
+That's why we use f of x, g of x, or even any other letter in front of the x. And sometimes they are context clues. So sometimes the letter hints at what the function measures.
+For example, h of t often stands for height at time t. And additionally, something I forgot to mention, is that the value inside of the parentheses can also defer, as long as whatever is in the parentheses is on the x axis.
+So for example, you might have a function that is height as a function of time. This is the same as y as a function of x, but just different variables.
+Additionally, c parentheses p often stands for, for example, cost for p number of people.
+And what I want to emphasize is that there is no need to memorize, for example, h of t, or c parentheses p, or any variation. They can always change. And they probably will change.
+So the key takeaway, the substitution is identical. Whether the function is named f, g, or t, the math remains the same. So if g of x equals x squared, then g3 simply means plug 3 as x into the g function.
+And if h of t equals 2x squared, then h of 4 simply means plug 4 as t into the h function.
+So one thing I want to highlight with these two examples is neither of these are actual linear functions. These are quadratic functions, because there is an exponent.
+But the exact same rule applies to them in terms of the naming conventions. So now pause the video and try this question.
+The function g is defined by g of x equals 6x. For what value of x, do g of x equal 54?
+So remember that g of x must equal 54, and we're solving for the value of x. So all we need to do is plug in 54 as g of x, and then solve for x.
+54 divided by 6 is going to give you x equals 9. And the correct answer is answer choice b.
+Now let me show you how to do this question on Desmos. So they give us g of x is equal to 6x. Let's give that into Desmos.
+And now they ask for what value of x does g of x equal 54? And again, g of x is the exact same thing as y.
+So if we graph y equals 54, all we need to do is zoom out and find the intersection. And we see that x is equal to 9. And b is the correct answer.
+Pause the video and try this question as well. For the linear function h of t, b is a constant. And h of 6 equals 30. If h of t equals 5x plus b, what is the value of b?
+So what they give us here is that the function of h when we plug in 6 equals 30. So let's set that into the equation. So 30 equals 5.
+And then we plug in 6 for x, so we get 6 plus b. Now if we simplify and solve for b, we get 30 equals 30 plus b.
+Subtracting 30 on both sides, we get 0 equals b. Therefore, b is equal to 0. And answer choice a is the correct answer.
+So now let me show you how to do this question on Desmos. So they give us a function h. So let's just straight up plug it into Desmos.
+They give us 5x plus b. And now they're telling us that h of 6 equals 30. So if we just plug in 6 and 30, so 6 as x, and then 30 as y, we can just change the equal sign to a regression.
+And now it calculates for us that b equals 0. What you can also do if you don't want to use regression is put it to an equal sign and you can change b to x so it just solves for one single variable or one single constant.
+And you get that b equals 0 because we changed b to x just to graph it. Now pause the video and try this question.
+The function f is defined by f of x equals 3x plus 42. What is the value of f of 30?
+All we need to do because they give us an x value is just plug it in and solve for the value of y.
+So we have 3 over 5 times 30 plus 42. And if we simplify, we get this is equal to 6 and it's 6 times 3.
+So that's 18 plus 42 equals f of 30, which is what we're solving for. And if we combine this and add it together, we get that 60 equals f of 30.
+So our correct answer is going to be 60. Now let me show you how to do this question on Desmos.
+So they should have given us a function. So let's graph this f of x equals 3 over 5x plus 42. They're asking for the value of f of 30. So we just need to put f of 30 on Desmos. And boom, f of 30 equals 60.
+So now pause this video and try this medium difficulty level question. For the function f defined by f of x equals x plus 5 over 3. What is the value of f of 10 minus f of 1?
+So I noticed immediately is that they give us two different values of x. They want us to solve for the y values and then subtract them from each other. So let's do just that. Let's plug in 10 first. 10 plus 5 over 3.
+And then they want us to plug in 1. So minus, let's put all this in parentheses because we need to simplify these first. We need to plug in 1 plus 5 over 3. Now let's simplify each of these first before subtracting.
+So we get 15 over 3 minus 6 over 3. And simplifying each side, we get 5 minus 2. And this equals 3. So 3 is equivalent to f of 10 minus f of 1. Answer to c is the correct answer.
+Now I'm going to show you how to do this question on Desmos. So they give us another function. So let's just give it to Desmos. f of x equals x plus 5 over 3.
+And now they ask you for the value of f of 10 minus f of 1. So you could do f of 10 on one line and f of 1 on another line and then subtract the 2 manually. And you get 3. Or what's even cooler about Desmos is that you can actually do the calculation on a single line. And it straight up gives you that y is equal to 3. Which is answer choice c.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra - Linear Functions - Slope Intercept Form.txt
+--------------------------------------------------------------------------------
+
+So now let's talk a little bit more specifically about slope. So slope, what I mentioned earlier,
+is the rate of change. And the formula to calculate slope is y2 minus y1 over x2 minus x1.
+So I'll show you an example of this on the next slide. And it's also equal to rise over run. Again,
+if you don't know what this means, I'll show you in just a minute. So what this means is you need
+two coordinate points on a graph, or if they just give it to you, you just need two coordinate points
+to solve for slope. And on the SAT, the slope m tells you the rate. So this can be, for example,
+the cost per item, the speed in miles per hour, the population growth per year. So a positive slope
+means the line is going up. So the line is going to look slanted towards the right and increasing
+as it moves to the right. A negative slope means that the line is going to go down. So it's going
+to start high and then keep decreasing lower. And a zero slope means that the line is perfectly
+horizontal. So now this is what it looks like on a graph. For example, if we have two coordinate
+points, using point slope formula means that you can choose any one as y2 and x2 and any point as y1
+and x1. It works the same way either way. So let's just choose this one to use as coordinate point number
+one. And this one as coordinate point number two. So let's start. We take y2. So in this case,
+we're going to take two minus y1, which is going to be five. And we put this over x2. So this is going
+to be three minus x1, which is going to be seven. And this simplifies to negative three over negative
+four. And this simplifies to three over four. And now just to prove the other way around, let's pretend
+now this is point number two, and this is point number one. So let's start. We have five minus and
+then two over, let's take x2. So that's going to be seven minus x1, which is going to be three. And
+this still gives us three over four. So matter which one you set as x2 and which one you set as x1 or
+point one and point two, you're going to get the slope right as long as you use the formula correctly,
+which is again, y2 minus y1 over x2 minus x1. What's even cooler is that if you have a graph, you can just
+count on the graph visually how much of the graph rose and put it over how much the graph ran. So what this
+means is from here, we can count that to get from three to two, we go up three units. So we take three, again,
+the rise over and then we count the run. So run one, two, three, four units, that's going to be four. So if for example, the point is going down, it's going to be negative for the rise. And if for example, the point is going to the left, this way, it's going to be a negative on the bottom. So just keep that in mind. And then in y equals mx plus b, we just covered what exactly the slope means and how to calculate it. Now let's talk about b.
+So b is equivalent to the y-intercept or the starting value. So this is the value of y when x is equal to zero. Let me show you what that means. If we plug in x right here equal to zero, it doesn't matter what y is. Either way, this entire term right here is going to be equal to zero. Therefore, we get y equals zero plus b. Therefore, b is always going to be the starting value.
+So in context of questions, this is usually a flat fee, a down payment, an initial quantity, the baseline value before any change occurs. And there's a lot more context that it could actually mean. Now let's talk about the x-intercept. This is what value of x when y equals zero. So the y-intercept, again, is the value of y when x equals zero. The x-intercept is the value of x when y equals zero. And this is also known as the root or solution to an error. So the y-intercept is the value of x when y equals zero. And this is also known as the root or solution to an error.
+So on a graph, this is what it looks like. The y-intercept is when the linear equation or any equation intersects the y-axis. So right here at 0,6. The x-intercept is going to be where the function intercepts the x-axis. So right here at negative 4,0.
+So now I might have a little bit of bad news. There are three forms of a linear equation. What we covered so far is slope intercept form.
+So fortunately, I have a bit of good news as well. The one you're most familiar with, the slope intercept form, is the most tested on the SAT.
+And even better news, you can get the slope intercept form by manipulating or rearranging the other two forms with the reverse order of operations.
+So just a quick review of slope intercept form. Slope intercept form is y equals mx plus b. m is the slope. So for example, as x increases by 1, y increases by m. And b is the y intercept. So y value when x equals 0. And this is an example of that.
+Now let's talk about solving for unknown constants. So our goal is to handle problems where the SAT gives the form of the equation but hides a number.
+So the SAT can give you an equation, for example, like f of x equals mx plus 4 and tell you that f of 2 equals 28.
+So what we do is we treat 2 comma 28 as a coordinate. And then we can replace x with 2 and f of x with 28 and solve for any missing letter m of b using basic algebra.
+So in this specific question, we would be solving for m. And with that, we can set again, y equal to 28 equals m plug in 2 for x plus 4. And now we can simplify this as 24 equals 2m by moving 4 over and then we can get the m equals 12.
+So now let's try a medium difficulty practice question. Pause the video and try this question yourself.
+There is a linear relationship between x and f defined by f of x equals mx minus 15, where m is a constant. Given that f of 8 equals 57, what is the value of m?
+So again, we can treat this as a coordinate. So we get 8 comma 57. And with that, we plug in 8 for x and then plug in f of x equals 57.
+So we get 57 equals m and then plug in 8 for x minus 15. So all we need to do is simplify this and then isolate for m.
+So let's do just that. We add 15 to the left side and this gives us 72 equals 8m.
+Solving for m, we need to divide both sides by 8 and we get the m equals 9.
+So now let me show you how to do this question on Desmos. They give us a function. So let's just straight up put it into Desmos.
+f of x equals mx minus 15. And they gave us a point that f of 8 equals 57. So let's plug in 8 for x. So let's change this to 8.
+And then it gives us this equal 57. So let's change this equal to 57.
+And now, because Desmos can't graph this, we can just change this to a tilde to use regression. And Desmos gives us that m equals 9.
+Pause the video and try this question.
+For the linear function g, b is a constant and g of 0 equals 72. If g of x equals x plus b, what is the value of b?
+So they give us a function and they give us an x value and a y value.
+So let's go ahead and just plug it in. So we get 72 equals 0 plus b.
+Now we can just get that b equals 72. So now we get to finding an equation from two coordinates.
+So now we're definitely going to have to calculate the slope. So pause the video and try this question.
+In the xy plane, the graph of the linear function f contains the point 1 comma 6 and 6 comma 26, which equation defines f where y equals f of x.
+So using the slope formula, I'm going to set this as 0.2 and this as 0.1. So I'm going to do y2, so 26 minus y1 minus 6, over x of 2 minus x of 1.
+So this can be 1. And this simplifies to 20 over 5, which gives the slope 4 for m.
+So now looking at the answer choices, I don't even need to solve for b because there's only one answer choice with 4 as a slope.
+So answer choice d is going to be the correct answer.
+So now let me show you how to solve this question really quickly with Desmos.
+So for this, because they give us two points, let's go ahead and create a table.
+And let's enter the points. So 1 comma 6 and 6 comma 26.
+Because we can take a quick glance at the answer choices and see that it's in slope intercept form, as well as they tell us the fact it's a linear function,
+what we can use is the outer regression button and boom, Desmos immediately tells us that the function is equal to y equals 4x plus 2.
+So now we finally get a graph type question. So pause the video and try this question.
+The table gives the average time t in minutes. It takes Diego to cycle a certain distance d in kilometers.
+Which equation could represent this linear relationship?
+So we see they give us a table and this is the exact same as giving us two points.
+So let's calculate the slope first.
+Taking a quick glance at the answer choices, we see that it's still in y equals mx plus b format, but it's just that b is equal to 0.
+So b is equal to 0. Therefore, we don't need to worry about calculating for b.
+All we need is the slope and then we can get the correct answer.
+So let's calculate that. I'm going to set this point right here equal to the second point and this one equal to the first point.
+And t is going to be y.
+So let's do 14, which is y2 minus 8 over 0.7 minus 0.4.
+And what we get is 6 over 0.3.
+And this is equivalent to 20.
+So the slope, the m, is going to be equal to 20.
+And we know that the correct answer is answer choice C.
+So now let me show you how to do this question really quickly on decimals.
+So exact same as the previous question, they give us two coordinates points.
+So let's straight up put it into a table.
+So 0.4, 8 and 0.7, 14.
+And with that, they're asking for the linear equation.
+So let's just add regression.
+And they immediately give us that y equals 20x plus 0, which is answer choice C.
+So now we get to a hard difficulty level question.
+So pause the video and try out this question.
+The table shows the linear relationship between the number of buses, C, on a transit route,
+and the maximum number of passengers and crew, P, that the route can carry,
+which equation represents the linear relationship between C and P.
+So we see here that although none of these are in slope intercept form,
+what we are given is three coordinate points.
+So we are going to be able to solve for m as well as b.
+So y equals mx plus b.
+What it looks like they're doing here is they're just rearranging the equation.
+So in this specific question, P is going to be equal to y.
+So I'm going to just put P instead of y.
+Equals m, and then they say the number of buses, C plus b.
+So now let's calculate for this equation and see if we can rearrange it
+to get the form of the answer choices.
+So I'm going to erase all of this so we can have some more space.
+I'm going to leave this up right here so that we know exactly what form we want to get it into.
+So I'm going to set this one as point number two and this one as point number one.
+The reason why I just didn't choose this one is because the number is larger,
+and rather not work with a larger number.
+Because remember, in order to get the slope, we only need two points.
+So I'd much rather just pick the simpler points.
+So let's do 387, which is y2 minus 225, which is y1, over and then 7 minus 4, which is going to be 3.
+And this is going to be equal to 162, over 3, which simplifies to 54.
+But keep in mind, we're solving for m right now.
+So our equation right now is going to be P equals 54, C plus B.
+But we're still missing B.
+Good thing is that they give us actual coordinates.
+So let's just plug one of these in for P and C, and then we can solve for B because it's going to be the only constant left.
+So let's do 225 equals 54 times 4 plus B.
+And this simplifies to 216.
+And if we subtract 216 from both sides, we get 9 equals B.
+And now our full equation, after plugging it in right here, we're going to get that P equals 54, C plus 9.
+So now taking a glance at the answer choices, we just need to somehow manipulate this equation right here in order to get one of the answer choices.
+So let's try to get answer choice A right now.
+So what they did is they have a negative 9.
+Let's go ahead and subtract 9 to make it negative.
+So we have negative 9 plus P equals 54, C.
+Now what we can do to isolate for negative 9 is subtract P.
+So we have negative 9.
+Again, we subtract P.
+So it equals 54, C minus P.
+So what we see now, comparing what we just got with what the question has, answer choice A is the correct answer.
+If you try the other answer choices, you will find that they are wrong.
+So now let me show you how to do this question in Desmos.
+Again, because they give us data points, let's just straight up put it into Desmos.
+So 4, 2, 2, 5, 7, 3, 87, 12, and 6, 57.
+Now, because we know it's linear, we can just go ahead and make the linear regression.
+And we immediately get that y equals 54x plus 9.
+So all Desmos did was just eliminate a lot of the mental math or all the work we showed on paper.
+Now, rearranging this, we can still get answer choice A, which is the correct answer.
+So let's go on to another hard question.
+This part is blurred out just because this portion of the question was actually incorrect.
+So just ignore it because the question can be solved without it.
+So pause the video and try this question.
+For the linear function f, function f is defined by f of x equals ax plus b.
+So from this alone, we get that it's a linear function.
+Where a and b are constants.
+Given that f of 3 equals 0, f of 2 equals negative 80, what is the value of a minus b?
+So again, we can treat these as coordinate points.
+So we get 3, 0, and then 2, negative 80.
+And from here, we can use the slope formula to find the slope and then solve for b.
+So let's do that first.
+I'm going to set this equal to the second coordinate and this equal to the first coordinate.
+So negative 80, which is y2, minus 0, over x2, which is 2, minus x1.
+So what I get is negative 80 over negative 1.
+This equals 80.
+So we know that a, in this equation, we name it a instead of m, we know that a equals 80.
+And with that, we can just plug it in and use one of the coordinate points they gave us to solve for b.
+So let's do just that.
+f of x, which is equal to this right here.
+We're going to set y equals, and we just solve that a equals 80, times 3, which they give us in the coordinate point right here, plus b.
+And now we can actually solve for b.
+We get 0 equals 240 plus b.
+And we get that b equals negative 240.
+But now, let's make sure we're actually answering the question correctly.
+They're asking, what is the value of a minus b?
+So we do 80 minus, and then negative 240.
+So then we get the final answer as 320, which is answer choice d.
+Now, let me show you how to do this question in Desmos.
+Again, they give us two coordinate points.
+Let's put it into a table.
+3, 0, and 2, negative 80.
+Now, they give us the equation as y equals mx plus b.
+And we know the regression gives us in that same format as well.
+So now we get that a is equal to 80, and that b is equal to negative 240.
+So with that, we can just do 80 minus negative 240.
+And now you get the answer is 320, which is answer choice d.
+So now let's do yet another hard question.
+Pause the video and try this yourself.
+The table below shows some values of x and the corresponding values f of x for the linear function f.
+What is the x-intercept of the graph of y equals f of x in the xy-plane?
+So recall, the x-intercept is what x equals to when y equals 0.
+And because we know this is a linear function, we're going to have y equals mx plus b.
+So we definitely need to solve for m.
+We definitely need to solve for b.
+And then we need to set y equal to 0 and then solve for what x equals to.
+So that's what we need to do.
+So first, let's solve for m because we have multiple points.
+So I'm going to use this point as point number 2.
+And then this point right here is point number 1.
+So I have 5 minus 10 over and then negative 2 minus a negative 3.
+And simplifying, I get negative 5 over 1.
+So I get m is equal to negative 5.
+And with that, I'm going to plug in a point and then solve for the value of b.
+So I'm going to get 5 equals, and then we plug in negative 5 for m.
+And then the x value is negative 2 plus b.
+Simplifying, we can get 10 equals 5 plus b.
+And subtracting, we get b equals negative 5.
+And now that we have m as well as b, we can plug these in and then set y equals 0 and solve for the x-intercept.
+So let's do just that up here.
+0 for y equals negative 5x minus 5.
+Simplifying, we get 5 equals negative 5x.
+And x equals negative 1.
+So we know that the x-intercept is going to have negative 1 and then we set y equals 0.
+Because remember, the x-intercept is what x equals 2 when it crosses the x-axis.
+So when it crosses the x-axis over here.
+So at this point, at the x-axis, y is equivalent to 0.
+So y is 0.
+Negative 1, 0 is our answer.
+Answer choice b.
+Now I'll show you how to do this question with Desmos.
+So we can create a table because we're given points and we really only need to put two of these points into Desmos.
+So let's just do that.
+Negative 3, 10.
+And then we can have Desmos solve for the linear function.
+With that, all we need to do, again, because conceptually, the x-intercept is when the graph intercepts the actual x-axis.
+So we can just click on it and immediately gives us that the x-intercept is negative 1 comma 0.
+Desmos ends up saving us a ton of work on this question.
+So now let's talk about transformations.
+And let's start with input substitution.
+So if the problem says f of 2x equals x plus 5 and asks for f of 4, do not just plug in 4 for x.
+This is because the input is an expression.
+So this right here is 2x.
+So it's not just a single variable.
+And in the notation f of 2x, the input slot is occupied by the entire expression 2 of x, not just the letter x.
+So what this means is that it's targeting the total value.
+So when the SAT asks for f of 4, it is mandating that the entire value inside the parentheses must equal 4.
+So with that, typically, if you're given f of x equals 4x plus 5 and you want to find f of 4, you would plug in 4 for x.
+But in our question that we had just earlier, f of 2x equals 4x plus 5, taking a step back, what f of 2x means is that f of 2x is the function of f of x if we multiplied x by 2.
+Thus, we need to set f of 2x equal to f of 4.
+More specifically, 2 equals 4.
+Now we can actually solve for x.
+And if we solve for x, in this case, we get that x equals 2.
+So now we can plug this into the right side of the equation.
+So we get 4 times 2 plus 5.
+And this is going to be equal to 13.
+So now let's try this hard question.
+Pause the video and try it yourself.
+For the function f, if f parentheses 4 of x equals x minus 3, for all values of x, what is the value of f of 8?
+So remember, this right here, 8, must be equivalent to the exact same thing here.
+So we must set them equal to each other first.
+4x equals 8.
+We solve that x equals 2.
+And now we can plug it in for x.
+And we get the f of 4x equals 2 minus 3.
+And that equals to negative 1.
+And b is the correct answer.
+Unfortunately for Desmos, you're not able to do this on Desmos.
+So if we defined f equals 4x equals x minus 3, we would not be able to just straight up put it.
+f of 8.
+So for this question specifically, make sure you know how to do it conceptually.
+So now pause the video and try this hard difficulty level question.
+This question for sure is going to be more difficult than the previous one.
+But do your best.
+For the function f, f of c of x equals x minus 5 for all values of x, where c is a positive constant.
+If f of 3 equals 40, what is the value of c?
+So immediately we see that the input is 3 and the input expression right here is c of x.
+So we know they must be equivalent.
+cx equals 3.
+And in order for us to plug in x right here, we need to isolate for x.
+So the next logical step is to isolate for x. x equals 3 over c.
+And now we can actually plug it in.
+So we get f of 3 equals 3 over c minus 5.
+But we get that f of 3 equals 40.
+So let me erase this and change it into 40.
+Equals 40.
+And now let's solve for c.
+So we get 45 equals 3 over c.
+Multiplying both sides by c.
+We get c on this side.
+And now we can divide 3 over 45.
+So c equals 3 over 45.
+This simplifies to 1 over 15, which is the correct answer.
+So unfortunately, this is also another question you cannot do on Desmos.
+So you need to know how to do it algebraically.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra - Linear Functions - Word Problems.txt
+--------------------------------------------------------------------------------
+
+So next, we're going to move on to understanding y = mx + b in the context of word problems. So we
+talked about this briefly earlier, but I'm going to repeat it again because it's incredibly important.
+So b is always going to be equivalent to the y-intercept when we're talking about y = mx + b
+and linear functions. So look for the starting amount, the initial value, the flat v, or at time
+zero in the context of the question. m is always going to be the slope, so look for the rate at
+which the unit changes. And really pay attention to whether it's positive or negative, and keywords
+they're going to use is per, each, every, or even just straight up the word rate. And for the harder
+questions, sometimes a number represents the difference between two totals. So for example,
+purchase 8 more yards than used. So now pause the video and try this question.
+Jordan used smoothie mix to make drinks. The function f = -4x + 48 approximates the volume in fluid
+ounces of mix Jordan had remaining after making x drinks. Which statement is best interpretation of
+the y-intercept of the graph of y = f in the xy-plane in this context? What's important here is that we
+must go back to the actual equation and identify exactly what they're talking about. And they want
+us to interpret the y-intercept. So looking at the actual equation, we know the y-intercept is equal to 48,
+because it's in the form of y = mx + b. And b is always equal to the initial amount, which in this
+question is equivalent to the y-intercept. So let's go to the actual answer choices. Number one, answer choices
+a and b are going to be wrong because they say 4. And we're not worried about 4 because we know that the
+y-intercept is going to be 48. So it must be answer choices c or d. Remember, the y-intercept is the initial
+amount. So in the context of this question, we have a negative slope. And what that means is he starts
+with the initial amount and he uses 4 fluid ounces for x drinks. So 48 is going to be the initial
+amount. And in this case, answer choice c is going to be correct because he had approximately 48 fluid
+ounces of mix when he began. Again, initial amount. For answer choice d, they were talking about the slopes. So they
+said, Jordan used approximately 48 fluid ounces of mix for each drink. But that's not true either,
+because the slope is actually negative 4. So they actually used approximately 4 fluid ounces for each
+drink. Now we go on to a hard difficulty level question. So pause this video and try it yourself.
+A bungee cord stretches when weight is attached. So let's just draw a quick picture. A bungee cord is
+stretched when weight is attached. Let's put a little weight. The formula L equals 50 plus 3W and relates the length L in
+centimeters of the cord to the weight W in kilograms of the attached weight. Which of the following best
+describes the meaning of 3 in this context. So now let's look at the actual equation. I'm going to rewrite
+it here just so we can have it larger. So I noticed is that they have y equals mx plus b, but it's just
+written slightly different. So let's move it into the format we're used to. Y equals 3W plus 50. So 50 is
+going to be the initial amount. And you're asking about what 3 means in this context. We know that W
+is the amount of weight added to the bungee cord. Therefore, 3 must be for every weight they add,
+it stretches an additional centimeter. So 3 is going to be the length increase of the bungee cord when
+another weight is attached. So let's go to the answer choices and see if we can find that. And we see
+that C is talking about increase. D is also talking about increase. And so A is talking about the length of the
+the cord with no weight attached. So that's going to be the meaning of the y-intercept or B, which is not
+going to be A. So that's what it is B. The weight in kilograms of an object that stretches the cord 50 meters.
+So that's not going to be right for sure because we know weight is represented by W. C. The increase in
+weight in kilograms for each one centimeter increase in length. So we know it's definitely not going to be C,
+because it's not the increase in weight. It's going to be the increase in length as we add another weight.
+So that's going to answer D. The increase in length looks perfect so far. In centimeters looks great as
+well. Of the cord for each one kilogram increase in weight. Answer D is going to be the correct answer.
+So now pause the video and try this question as well. Priya used fabric measuring three yards in length to
+make each scarf. The relationship between the number of scarves Priya made x and the total length of fabric
+she purchased y in yards is represented by the equation y-3x equals 8. What is the best interpretation of 8 in
+this context? So I first noticed is that this equation is not in y=mx+b format. So we definitely need to
+interpret this question differently. So given that she used fabric measuring three yards in length for each
+scarf. So therefore three in this context means the amount of yards used for every single scarf. And then they
+tell us that the total length of fabric she purchased y is in yards. So y in this case is actually the
+initial amount. It's slightly different in this question. Y is the initial amount. Then we have y-3x equals 8. So 8 is what's left after using 3 yards for every single scarf. So therefore 8 must be the amount she has remaining after making the scarves. Now let's go to the answer choices and see if we can find that. A. Priya made 8 scarves.
+Not right. B. Priya purchased a total of 8 yards of fabric. Again not true because y is the total amount she purchased. So it's not B. C. Priya used a total of 8 yards of fabric to make the scarves. Again not true because 8 is the remaining number. So it's not going to be C. D. Priya purchased 8 yards more fabric than she used to make the scarves. So this is going to be correct because this is what she has left over after making the scarves. So this is going to be correct because this is what she has left over after making the scarves.
+to making the scars. So now let's apply the exact same concept to another practice question, but these
+now require calculations. So pause the video and try it yourself. Marcus deposits $50 in a savings
+account at the end of each week. At the beginning of the first week of the year, there was $800 in
+that savings account. How much money in dollars will be in the account at the end of the fifth
+week of that year? So I'm saying here is that because they're adding $50 every single week,
+and we have an initial amount, we know that the equation for this question is going to be in y
+equals mx plus b format, where there's a rate of increase and an initial amount. So let's first
+start with the initial amount since it's easier. We know that at the beginning of the first week,
+there was $800 in the savings account. So $800 is going to be the value of b. So let's just plug that
+in. And then we know now that the rate of increase is $50 at the end of each week. So after every week,
+we know that y represents the total amount of money in the savings account after x weeks. So now they're asking for how much money in dollars will be in the account at the end of the fifth week of that year. So all we need to do is plug in 5x. So let's do that and simplify our equation. We know this is equal to the total amount. We get $200.00.
+the account at the end of the fifth week of that year. So all we need to do is plug in 5x.
+So let's do that and simplify our equation. We know this is equal to the total amount.
+We get 250 plus 800. If we add them together we get 1050. So y equals 1050. So d is going to be
+our final answer. So now we move on to a medium difficulty level question. So pause the video
+and try this question yourself. A company's total cost Cx in dollars to produce x jerseys is given by the
+equation Cx equals mx plus 400. So what we notice here is they already give us the equation but they
+didn't give us a slope. Most likely we might have to solve for it but let's keep reading. Where m is a
+constant and x is greater than 0. The total cost to produce 50 jerseys is 650. What is the total cost in
+to produce 500 jerseys? So first of all let's just start with the equation that they gave us and plug in the
+additional information they gave us. So let's start with the equation first of all. C of x which is the
+total cost to produce x jerseys equals mx plus 400. This is nothing new. I'm just rewriting the equation.
+They told us the total cost to produce 50 jerseys is 650 dollars. So again 650 is the total cost. So it's C of x. So let's plug in 650 equals,
+and we don't know the cost for each jersey. But we do know that they produce 50 jerseys and the initial
+amount is 400. And with this we can just isolate and solve for m which is going to be the cost of each
+jersey. So let's subtract 400 from both sides and we get 250 equals 50 m. And now dividing by 50 we get m equals
+50. So the cost to produce each jersey is 50 dollars. Now the question is asking us what is the total cost in dollars to produce 500 jerseys?
+Remember, once you solve for any calculation, always make sure that that is actually what the question is asking for.
+In this case we solve that each jersey costs 50 dollars. But if we were to have just entered 50 dollars into the question, it would have been wrong.
+Because again, they're asking for the total cost to produce 500 jerseys, not the cost of each jersey. So now let's actually solve for what the question is asking for.
+All we need to do, because we now have m, we just need to plug in x equals 500 because that x represents the number of jerseys.
+So let's do just that and solve for the total cost. So we have total cost C of x equals 50 times 500 plus 400.
+So now technically C of x would have to be C of 50, but you can choose whether or not you want to actually form it that way.
+So now let's simplify. 50 times 500 is 2500. You add 400. Now you get that C of 50 equals 2900.
+And this is our final answer and the correct answer. Now try this hard difficulty level question.
+The cost of renting a party tent for up to eight days is 360 dollars for the first day and 180 dollars for each additional day.
+Which of the following equations give the cost y in dollars of renting the tent for x days?
+Where x is a positive integer and x is less than or equal to 8.
+So first for this question, what I want to show you is the incorrect way of doing this question and why that is wrong.
+And then I'll show you the correct version because this is a very commonly tested question on the SAT.
+And a lot of students end up missing it. What students immediately think when they see this type of question is,
+Oh, for the first day it's 360. And then for each additional day, it's going to be 180.
+So it's just y equals 180x plus 360. Therefore, this is the answer that they would pick.
+For this question specifically, that's not actually not an answer choice.
+But on the actual SAT, the majority of the times they're going to include this as an answer choice because most students get this.
+But let's talk about why this is wrong. For example,
+If x equaled 1, if it was only 1 day of renting it, from this equation,
+it would tell us that the total amount of renting it would be 360 plus 180, which gives you 540.
+But how do we know that this is wrong?
+This is because they tell us literally that the cost of renting a part of 10 for up to 8 days is 360 for the first day.
+So for the first day, it costs 300 and 180 dollars for each additional day. So therefore on day one, it's only going to cost 360. It should not cost 540 dollars.
+Because again, 360 is the initial cost for renting it for one day.
+While 180 dollars is the additional cost for each additional day. So not for the first day.
+So now let me show you what the correct equation should look like.
+So for this question, we have y equals, which is the total cost.
+Normally we have y equals mx plus b. But for this question, let's first start with the initial cost, the b, because that's the easiest to start with.
+We know it's going to be 360. What's different is this portion right here, which is mx.
+For this equation specifically, it's going to be y equals, and then let's first add the initial amount, plus, and then our first instinct originally was to add 100x.
+But again, like I just showed you, this is actually going to be incorrect.
+What we actually need to do is actually subtract from x one day, because on the first day, this cost is 360 dollars.
+So now if we plugged in x equals one, this would actually turn into 360 plus zero, which is correct for the first day.
+And if it was the second day, if we rented it for two days, it would cost 360 dollars plus 180 dollars, instead of 360, if we did it this way.
+Now 360 plus 180 equals 540. And this is for renting it for two days, which is correct.
+Because again, according to the passage, it says that 180 dollars for each additional day.
+After this, we noticed that although we got the correct equation, there is no answer choice with the exact same form.
+That's because all we need to do now is simplify this equation we have right here.
+So let's do that by distributing the 180. So if we distribute, we get 360 plus 180x minus 180.
+And because both of these terms now have x, we can simplify it to just 180x plus 180.
+So now looking at the answer choices, we see that the correct answer is answer choice A.
+

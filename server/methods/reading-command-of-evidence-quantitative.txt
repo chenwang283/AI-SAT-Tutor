@@ -1,0 +1,222 @@
+Let's talk about the command of evidence quantitative questions. In other words, the SAT graph questions. These are usually one of the more daunting or more time consuming and difficult questions on the SAT, but I'm glad to tell you there are special tricks and hacks to solve them much quicker and more efficiently.
+So first of all, there are two types of questions stems with the graph questions. Type one is which choice best describes data from the graph that we can support slash undermine the team's hypothesis, conclusion, or underlines claim. So this noun right here could be almost anything, but this portion remains the same. We can support undermine hypothesis, conclusion, or underlying claim.
+The second type is which choice most effectively uses data from the graph to complete the example, text, or statement. Or which choice most effectively uses data from the graph to complete the student's slash team slash researchers hypothesis slash conclusion.
+Either way, the process that you're going to take while solving these questions are going to remain the exact same. Let's go over them right now.
+The first step is always going to remain the exact same. Always read the full question first for key words. So most importantly, look for whether or not you want to weaken or support a claim and then whatever you're looking forward to is support or weaken. So it could be a claim, conclusion, or hypothesis.
+Step two, and usually this is the most surprising part, what you're actually going to do is ignore the graph. So don't look at it initially and then skip the passage and read the last sentence of the passage.
+Sometimes you're going to need to read the second to last sentence as well as the last sentence. But your goal is to find the line that contains the claim, conclusion, or hypothesis that you are looking for. And 70% of the times it's going to be in the last sentence. 90% of the times it's going to be in the last two sentences. And 10% of the times, which is the fewest and usually for the harder questions, the claim or hypothesis or conclusion is not going to be in the last two sentences. So we're going to cover these exceptions in the next slide.
+Once you identify what the claim or conclusion is, and you find that you understand what you actually need to look for, then and only then will you go and analyze the graph and make a prediction for your answer.
+For this question type, making these predictions are incredibly helpful for choosing the correct answer faster and being able to identify which distractor is actually a distractor.
+And the final step is to match the claim with the graph. So you should be asking yourself, does the graph have evidence that really supports that statement?
+Now for the exceptions, 10% of the times, often the hard difficulty level questions, you will find that when you read the last two sentences of the passage, you will find that either one, you didn't find the author's claim, hypothesis, or conclusion, or number two, you have no idea what you just read slash there might be too many undefined terms.
+So you literally need to read the entire passage to understand what the question is asking you. If this is the case, read the entire passage before moving on to the graph. And we will have examples of this when we get to the higher difficulty level questions.
+And a really important note for easy and some medium difficulty level questions is that you often only have to find an answer choice that is supported by the data. For medium to hard level questions, not only will you have to find an answer choice that is supported by the data, but also that you need to make sure the answer choice you pick also supports or weakens the conclusion.
+Multiple answers for the medium to hard level questions will often be supported by the data. So it's going to be correct with the graph, but not actually support the thing that the question is asking about.
+So let's see what this looks like on an easy difficulty level question. And remember, the first step is to always read the question. Which choice most effectively uses data from the graph to complete the sentence?
+See right here, we can see the last sentence is the sentence we're looking for. Remember, the second step is actually to read the last sentence. So let's completely black out this graph right here, just so you don't look at it. And then we're also going to for now, take out the entirety of the passage.
+And let's just read the last sentence. The team found that the species with the highest estimated global population is the blank. So just from this alone, we know that we need to find the highest estimated global population and we want to find the species.
+So now, after reading this last sentence, we want to ask ourselves, do we think we can answer the question just with this last sentence? And can we understand what they're asking us?
+For this question specifically, the answer should be yes. If you find that the answer is no, the next step you would do is actually go back into the passage and read the second to last sentence and basically work backwards in the passage instead of going top down.
+But for this question, we should be able to understand everything from just that sentence. I'll keep this part blacked out.
+Now we want to go to the graph and then we want to briefly analyze the graph and try to understand exactly and identify what we're actually looking for in order to make our prediction.
+So always start with the title. It gives the most context and makes it less difficult for you to understand the actual graph. So we have the top four species of wild freshwater fish by global population.
+And again, we're looking for the highest. So all we see is we want to see where we measure global population.
+We see this is global population and increases as we go right. Therefore, the one with the highest is going to be rainbow trout.
+So our prediction is we want to find an answer choice where the answer is saying that rainbow trout has the highest estimated global population.
+And looking at the answer choices, we know that is answer choice D. So we know A, B, and C are wrong just simply because they're not answer choice D that says rainbow trout.
+Let's see if this answer is correct. Yes, the correct answer is answer choice D.
+As demonstrated from this easy question, let me reiterate the process. First, always read the question. Then read the last sentence of the passage. And if we can understand what to look for, we want to immediately go to the graph and make a prediction.
+If we cannot understand what they're asking for, we want to read the second to last sentence and work backwards if necessary, and then make a prediction from the graph and then directly go into the answer choices.
+Now let's see what this process looks like for a medium question that looks a little bit more difficult. So again, when we immediately see the graph, we already know it's a graph question. But for now, let's ignore the graph and let's ignore the passage and go to the question.
+Which choice most effectively uses data from the graph to complete the assertion? So we know that there's an assertion we need to complete.
+Now let's read the last sentence. So we see a period right here. So let's start right here.
+The main contributors to the world's internet expansion since 2000 have been countries like Morocco, whose population went from blah, blah, blah, blah, blah, blah.
+So we know just from the last sentence alone, we want to be focusing just on Morocco.
+And then we want to see that they contributed to the world's internet expansion since the year 2000.
+And then we want to see an example. We want to fill this in with an example of the actual increase.
+So now with that in mind, I don't think we need to read the rest of the passage.
+So for now, let's just block that off.
+Now let's go to the actual graph and briefly analyze it.
+So again, start with the title.
+Internet usage as a percentage of population for Brazil, Germany, South Korea and Morocco.
+So we know that we only need to focus on Morocco based on the passage.
+So let's just let's just straight up ignore everything else.
+We see that Morocco is represented by this rhombus right here.
+And we can see from the graph that the rhombus is right here.
+So it goes from percent of population using the Internet.
+It goes from approximately 0% all the way to this is around 74% by 2020, which is 20 years.
+So now our prediction is what we're looking for is Morocco's whose population went from around 0% to 74% in around 20 years.
+That's our prediction.
+Now let's go to the answer choices.
+A, around 15% usage in 2000, which we can see right here, it's around 0.
+So it's not going to be A.
+Less than 20% usage in 2000, this part is correct so far, to more than 90%.
+Ooh, this person is incorrect.
+Therefore, this is an example of a part right, part wrong.
+First portion is correct, but second part is wrong.
+For answer choice A, it's actually the exact same case.
+Around 15% usage in 2000, this portion is incorrect.
+But the 74% in 2020, that portion is correct.
+But as mentioned in the introduction general strategies, if something is part right but part wrong, the whole answer choice is wrong.
+Now let's check answer choice C.
+Around 35% internet usage in 2000 to around 74% in 2020.
+So this first portion is again wrong, just like answer choice A.
+So answer choice C is going to be wrong.
+Answer choice D.
+Around 1% usage in 2000 to around 74% in 2020.
+That's exactly what we are looking for.
+So we're going to pick answer choice D.
+Let's see if that is correct.
+And answer choice D is the correct answer.
+As you can see just earlier, we did not need to start with the graph, nor did we actually need to read the entirety of the passage.
+All we read was the last sentence for a medium difficulty level question.
+Now let's try this with another medium difficulty level question.
+So now pause the video and try this question yourself first.
+Step 1.
+Let's read the question.
+Which choice most effectively uses data from the table to complete the statement?
+Now we know this is a graph question because we can see a graph.
+So let's ignore the rest of the passage and only focus on the last sentence.
+In this case, the last sentence ends up being a decent amount of the passage.
+But oh well.
+Let's start.
+Although the volume of venom delivered per strike increases with a snake's body length,
+so venom increases with body length, the cross-sectional area of the venom delivery channel,
+which affects how quickly venom can be expelled, does not.
+So this is really important.
+It does not increase with body length to the same degree, which help explain why.
+So just from this alone, what I should be looking for when I'm analyzing the graph is something to do with the venom's delivery time,
+not increasing with body length to the same degree as the amount of venom delivered per strike.
+So now let's go to the actual graph.
+Body length, venom injection time, and strike attempts per encounter for four snake species.
+So what I immediately notice here is the talking about average strike attempts per encounter.
+But the last sentence of the actual passage never mentioned that, and this is not something we care about.
+So I'm going to straight up ignore this.
+Chances are the answer choices are also going to contain some distractors that talk about the number of strikes or the average number of strikes per encounter.
+Usually those are going to be wrong just because the passage, again, never talked about the average strike attempts.
+Instead, we're looking for the average venom injection time, not correlating with the body length of the snakes to the same degree as that of the volume of venom delivered per strike.
+So now let's analyze this. We see a corn snake has around this body length and this amount of time.
+King cobra has a much larger body length, also a much larger average injection time.
+We see that this snake right here has a body length that is between these two, but the average injection time is also between these two.
+And finally, we see that a Burmese python has a longer body length and a longer injection time.
+And what we can notice from here is as the body length actually increases, the average venom injection time becomes slower.
+So now let's make our prediction.
+What they're saying in the last sentence right here is that the volume of venom delivered per strike increases with body length.
+But for the cross-section area of the venom delivery channel, which affects how quickly it can be expelled, this channel does not increase with body length to the same degree.
+Therefore, it normally would be expected that if the body length increases, this channel would also increase in area, therefore causing the venom to be injected quicker.
+But the passage states that it does not increase with body length to the same degree. Therefore, it would make the average injection time slower.
+So all we need to find is an answer choice that displays that exact same thing.
+That as the body length increases, the average injection time actually takes longer as well.
+So let's go through answer choices. Answer choice A, corn snakes and eastern diamondback rattlesnakes show similar average venom injection times.
+So let's find the two on the actual graph. We see corn snakes and eastern blah, blah, blah, blah, blah, blah.
+So straight up, this is false because they don't show similar average injection times. So answer choice A is definitely not going to be right.
+Answer choice B, king cobra show an average 3.7 strike attempts. Ooh, again, this is not important at all. It's just a distractor. So it's not going to be answer choice.
+So it's not going to be answer choice B. C, king cobras show a longer average venom injection time than corn snakes do. So we go to king cobra. And yes, it does take longer for king cobras to inject venom compared to corn snakes.
+So for now, extra choice C seems the most correct. Let's check D. Burmese pythons show the longest average venom injection time and the highest average number of strike attempts per encounter.
+First of all, this portion is not important. So this could indicate that it's wrong. But first, let's verify this first portion.
+Burmese pythons show the longest average venom injection time. This portion is true. But again, now we need to go to the exact wording of the question stem and what they're actually talking about.
+We're looking for data that completes the statement. And the statement is saying that although the volume of venom delivered per strike increases with the snake's body length, the cross-sectional area of the venom delivery channel, which affects how quickly venom can be expelled, does not increase with body length to the same degree, which helps explain why.
+So what follows here must be a comparison. That even though two snakes, for example, have very different body lengths, the one with a bigger body length will have a longer injection time.
+So answer choice C finishes this statement much better. D does not make a comparison. And it also talks about the average strike attempts per encounter, which we do not care about.
+So I believe the best answer should be C. And let's double check that. The correct answer is C. Pause the video and try this medium question.
+Which choice most effectively uses data from the table to illustrate the claim? So looking above, we can see that this is a graph question.
+So let's ignore the graph and first go to the last sentence. This can be seen by comparing blank. Wow. So we don't get that much information from the last sentence.
+And we also, most importantly, don't know what this is. So therefore, we cannot provide an example if we don't even know what this is. Therefore, we have to go to the second to last sentence.
+So let's find that sentence. And we can see right here because we see a period right here. For genres whose audiences are more accustomed to listening to full albums in sequence, like classical and jazz genres, streaming was significantly less commercially successful.
+So we know that from this alone that we're looking for audiences more accustomed to listening to full albums in sequence. So classical and jazz, just briefly glancing above, we can see that's two out of four of the categories.
+And we want to find an example that shows that streaming was significantly less commercially successful for the ones in full albums versus those that you might have to listen for not full albums.
+Now, the question is asking for this can be seen by comparing blank. So we're just literally looking for an example of this right here. So now let's analyze the graph. Streaming revenue as a percentage of total revenue for large US music label by genre.
+So we know that we want to see that classical and jazz were significantly less commercially successful. So we have classical and then we have jazz and we can see that they started as zero and only increased to 11 and 19 while the other two genres increased to 61 and 72%. So that's all we need to be looking for when filling in the statement. We want to find an answer choice that compares the two categories. Classical and jazz with pop and hip hop.
+And shows they were much less commercially successful. So let's look for that. Let's go to answer choice A. The percentage of 2018 classical music revenue from streaming with the percentage of 2018 hip hop revenue from streaming. So again, this needs to complete this blank. So let's read it with the entire blank. This can be seen as a result of the percentage of 2018.
+the percentage of 2018 classical music revenue from streaming with the percentage of 2018 hip-hop revenue from streaming.
+So again, this needs to complete this blank, so let's read it with the entire blank. This can be seen by comparing, okay,
+I'm just comparing two of them. So comparing 2018 classical music, which is what we want to compare, with the percentage of hip-hop.
+And looking at the graph, we see two different categories. Answer A seems correct so far, but let's continue. Now it's comparing
+2008 hip-hop with that of 2018 hip-hop. So first of all, they're comparing the exact same category, which is hip-hop, which is incorrect.
+What they're also comparing is 2008 with 2018 of the same category. So now let's go to answer C. The percentage of 2008 hip-hop revenue from streaming with the percentage of 2008 pop revenue from streaming.
+So in this case, they're comparing two of the same category, pop and hip-hop.
+Because these you don't have to listen to with the full album versus the classical and jazz. You have to listen to the full album in sequence.
+So they're comparing the wrong thing.
+So it's not going to be answer choice C. Answer choice D. The percentage of 2013 jazz revenue from streaming with the percentage of 2018 jazz revenue from streaming.
+Again, they're comparing the same category. While what we want to be comparing is classical and jazz to that of pop and hip-hop. So answer choice A is going to be the best answer.
+Let's see if that is correct. And answer choice A is the correct answer.
+Now we get to a hard question. Pause the video and try the exact same process we've been using for this hard question.
+Which choice most effectively uses data from the table to complete the example?
+Now let's go to the last sentence and read it. For example, whereas the average absorption rate for carbon from CME particles is 22%, the average rate for blank.
+So immediately from this, we're providing an example for something, but we don't know what we're providing example for.
+So now let's go to the previous sentence. Physicist E. We'll call it E.
+Let a team that calculated average absorption rates for elements in these particles, such as carbon and oxygen, and demonstrated that material in slower-moving CME or SAP particles has a lower absorption rate than the same material in faster-moving CIR or flare particles.
+So because we're providing an example that the CIR or flare ones are faster than CME, we want to see that the absorption rate for carbon for CME is lower than that of the one for CIR or flare particles.
+With that, let's go to the graph and make a prediction before we go to the actual answer choices. So now moving on to the graph, let's start with the title. We see the absorption rates for three elements in solar energetic particles by particle source. So we see there's three different elements and we have the CME, SAP, CIR, and flare for each of them.
+So now I see that because they are multiple, I want to go back to the passage and see if there's something I missed. Oh, it says right here, there's low absorption than the same material. So because we're providing an example of this statement right here, we want to make sure we're looking for the exact same material. So let's just completely ignore the same material.
+absorption than the same material. So because we're providing an example of this statement right here,
+we want to make sure we're looking for the exact same material. So let's just completely ignore the
+neon and oxygen. All we care about is comparing the CME and SEP with that of these two right here,
+the CIR and flare. So what we can logically conclude is that we're comparing again these two
+with these two over here. So we need an answer to those that's talking about the carbon absorption
+rate for CIR or flare being greater than that of the CME. So now let's go to the answer choices.
+Answer choice A, carbon from SEP particles is 31%. So we're talking about SEP and again we want to be
+comparing the CME with that of CIR or flare. So it's not answer choice A. B, they're talking about neon,
+which is a different material. So it's not going to be B. Answer choice C, carbon from CIR particles is
+88%. That is what we're looking for. D, oxygen from SEP particles is 68%. Again, they're talking about a
+different material. So that does not matter. And they're talking about the wrong thing right here.
+So answer choice C is going to be the best answer. Let's see if that is correct. And answer choice C is
+the correct answer. So just a quick recap. Remember, always start with the question first, read the last
+sentence. And if you don't understand something, read the sentence before that. If you believe you understand
+everything, you know what to look for, go to the graph. Just make sure you are very literal with
+exactly what the passage says. In this case, they're comparing these two different types, but also for
+the exact same material. If you miss this portion right here, it might've been really easy to pick
+answer choice B the second you read it because answer choice B and C are essentially saying the exact same
+thing. But the point that they're missing with answer choice B is that we must be comparing with the same
+material. So be very literal with what the passage says. And then after analyzing the graph, make a really
+quick prediction and then go and eliminate and choose the best answer choice. That makes this entire
+question much more manageable versus if we read all of this and then looked at the graph and then we'd be
+really confused because then we'd have to go back, read exactly what we're looking for. And by then, we would have
+taken far too much time for this question and you might not even get the correct answer just because
+you read too much of the passage. And now brain fog makes us that you don't really understood everything
+you just read. Let's try another hard question. Pause this video and try this question yourself.
+Which choice best describes data from the table that support the researchers argument? So now because we
+know this is a graph question, let's start with the last sentence. However, using data from this study,
+a researcher wishes to argue that the presence of C does not entirely explain a corpse fry's preference
+for certain algae over others. So from this alone, I think I have enough information. All we need to see
+or what I'm predicting just from reading the passage alone is that the presence of C does not entirely explain
+why this certain species or this fish maybe prefers a certain algae over others. So now with this,
+I'm gonna go to the table and if I find that there's something I don't understand or I can't find an
+answer or even make a prediction, I will go back to the passage and read. But for now, I'm gonna go to
+the graph. Percentage of available algae consumed by Asian carp fry. And what I see is this important part
+right here produces this C. What the passage did not talk about is whether or not it was native to North America.
+So I'm gonna completely ignore this portion right here. So we see that when this species of algae does
+produce C, the carp fry consumed a ton more of it. But what's more important is this no portion. For
+these four species of algae, although there were no presence of C, the carp fry consumed the rest of
+the algae in disproportionate amounts. This one 3%, this one 9%, this one 12%, and this one 3%. Going back to the passage,
+however, using data from the study, a researcher wishes to argue that the presence of C does not
+entirely explain the carp fry's preference for certain algae over others. So although these four
+have no presence of C, it does not explain why they prefer, for example, chara over let's say S or D.
+So that's what we're going to be looking for in the actual answer choice. That is my prediction. So let's go to answer choices.
+A. The fry consumed a higher percentage of chara than they did of S. And that's exactly what I just mentioned earlier. Even though both of these don't have C, they consumed way more of C rather than S. So for now, I'm going to put a question mark or check mark around answer choice A and I'm going to keep reading.
+B. The fry left a certain percentage of each of the five algae species unconsumed. So this is a really big generalization and it does not actually support what we're actually looking for. So it's not going to be answer choice B. C. The fry consumed a lower percentage of C than they did of A. So what we notice here is this is supported. They consumed less of C than they did of A. What these differ in is their presence of C. One of them has C, one of them doesn't.
+So therefore, we cannot argue that the presence of C does not entirely explain the carb's preference. So it's not going to be answer choice C. Answer choice D. The fry consumed the same percentage of S as they did of D. Although again, this is true based on the actual graph and the graph supports the statement, it does not actually support the researcher's argument, which is again that the presence of C does not entirely explain the preference of one algae over another or over others. So D is going to be incorrect.
+So what it does correctly is that it compares two different algae that although both do not contain C, they have different varying percentage consumed, which shows the different preferences. So the correct answer should be answer choice A. And let's check that.
+And answer choice A is the correct answer.
+Let's try the exact same process with yet another hard question. So pause the video and try this question yourself.
+Let's start with reading the question. Which choice best describes data from the table that support the researcher's conclusion? So we know we must find the researcher's conclusion. So let's read the last sentence first. The researchers concluded. So here's the researcher's conclusion. That the effect of frost damage on time spent per flower varied by both floral morph and genus of the bee.
+So from this alone, I think I have enough information. So I'm going to straight up go to the graph. The mean time in seconds spent per flower for four bee genera. So we know from the passage that we should be looking for the effect of frost damage on time spent per flower. So let's see where that is.
+So what we can see here also seeing bee genera. We have the four different bee genera. And then we have two different categories of flowers. So this would be the floral morph. So now with that, what should we, what we should be looking for is that the effect of frost damage on time spent per flower varied by the flower.
+By both the floral morph and the genus of the bee. So let's see if we can find an example of that. One thing in common with all of these is that they were impacted by the actual frost damage. So with that, we can see for the bombus bee genus and for a disc flower, it increased and around doubled. For this one, it increased even more than doubled. And then for this one increased around three. For this one, it increased only about one. For coleus increased about 1.4. For this one, it actually increased about 1.4.
+For this one, it actually decreased. For this one, it barely increased. And then for x, the last one, for this one, it actually slightly decreased. So what I'm seeing here is that every single one of them varied. That's my prediction. Now I'll go to the answer choices and see if I can see anything with that. Again, for the predictions, you don't need to spend that much time on it or spending a long time making one that you believe is 100% correct. But what's really important is just have a general idea of what you're looking for before you actually go to the answer choices. So now let's go to the answer choices.
+For disc flowers, frost damage led to longer times per flower in all bee genera. This portion is true so far. Whereas for ray flowers, frost damage led to longer times per flower only in bombus and adrena. So let's see if this is true. This first portion we know is true because that's exactly what we observed. Second part, whereas for ray flowers, frost damage led to longer times per flower only in bombus and adrena.
+So A. And that is true. For these two, it decreased. So this really shows the effects of the frost damage on time spent per flower really varied by both the floromorph and the genus of the bee. It shows how different they are.
+So for now, answer choice A seems really correct for me, but let's keep going. Answer choice B. Compared with bees belonging to the genus and adrena, bees belonging to the genus X spent less time on frost damaged disc flowers, but more time on frost damaged ray flowers.
+So first, first of all, first of all, first of all, first of all, first of all, first of all, first of all, this doesn't show as much of the actual effects being varied because it only compares two of them.
+So for now, I'm not liking bees so far, but let's first verify if these are even true. Compared with bees belonging to the genus and adrena right here, bees belonging to the genus X spent less time on frost damaged disc flowers, but more time on frost damaged ray flowers.
+So this is actually straight up incorrect because it says they spent less time on frost damaged disc flowers, which this says 2.7 by the way, because it's blocked out, but more time on frost damaged ray flowers. This is just straight up incorrect. So answer choice B is going to be wrong.
+See, frost damage led to shorter times per ray flower in three bee genera, whereas it led to longer times per ray flower in one genus.
+What we notice here is that they only talking about one floral morph, but what we want to demonstrate is that it varied for both floral morphs and the genus of the bee.
+So C is going to be incorrect because they only talk about one floral morph.
+Enter choice D. Bees belonging to the genus B spent 2.5 seconds on intact disc flowers and 3.9 seconds on intact ray flowers.
+Again, this isn't talking about how they varied by both the floral morph and the genus of the bee.
+And again, we'll talk about the effect of the frost damage.
+So answer choice D that only talks about one genus is going to be incorrect.
+And the best answer and the correct answer should be answer choice A.
+Let's see if that is correct.
+And the correct answer is, in fact, answer choice A.

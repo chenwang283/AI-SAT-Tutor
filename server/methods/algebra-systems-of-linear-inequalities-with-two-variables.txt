@@ -1,0 +1,472 @@
+Let's talk about systems of linear inequalities with two variables.
+So our goal right now is to understand what an inequality represents and how to read the symbols.
+So first of all, what is an inequality?
+An inequality is a mathematical statement that compares two values or two expressions that are not necessarily equal.
+And unlike an equation which uses an equal sign, an inequality describes a range or a region of possible answers.
+For strict inequalities, this is the greater than symbol or less than symbol.
+These represent a cutoff where the boundary itself is not included in the solution.
+Versus we have non-strict or inclusive inequalities.
+The greater than or equal to sign, so literally just the greater than sign but with an underline.
+Or less than or equal to, so literally a less than sign but with a line under it, represents a limit where the boundary itself is part of the solution.
+So let's visualize what these inequalities look on the graph.
+So for dashed lines, these are used for strict inequalities.
+So the greater than or less than sign to show that points exactly on the line are not solutions.
+So if we have a random inequality, y is less than x plus 2, and we graph it, we can see that a dashed line appears.
+What this means is that on the graph, all the solutions are going to be in this blue section over here.
+Anywhere in this blue section.
+But any points on the actual dashed line are not solutions.
+Versus if we have solid lines, these are used for inclusive inequalities.
+So the greater than or equal to sign and the less than or equal to sign to show that points on the line are solutions.
+So if we graph the exact same thing but change the less than sign to a less than or equal to sign, we can see that the exact same graph is graphed.
+But instead of there being a dashed line, there is now a solid line.
+What this means now is that there is a point on the actual solid line.
+This is a solution.
+Now let's talk about shading above.
+So this is used when y is greater than the expression.
+So for example, y is greater than or y is greater than or equal to, representing all points higher than the boundary.
+So if we have y is greater than x plus 2, we see that now the solutions are above the graph.
+And for shading below, so this is used when y is less than the expression, so y is less than or y is less than or equal to, it represents all points lower than the boundary.
+So similar to our example we just saw previously, now the solutions are below the graph.
+Now let's understand what a system of inequality represents visually and how to verify solutions.
+Now earlier we were talking about what an inequality is.
+Now let's define what a system of inequalities is.
+So what is a system of inequalities?
+A system of linear inequalities consists of two or more inequalities that share the same variables.
+So a solution to the system is any ordered pair x, y that makes every, so this is really important, that makes every inequality in the system true at the exact same time.
+So if a point makes one inequality true but the other false, it is not a solution to the system.
+So visually, the solution is the region where the shaded areas of all individual inequalities overlap.
+So let's see what this actually looks like on a graph.
+On a graph, the solution is the region where the shaded areas of all individual inequalities overlap.
+So we can see with this blue graph over here that all the solutions for the blue graph is going to be this section in blue.
+For the red graph, we see that all solutions is going to be the area in red and the overlap is going to be this portion in purple right here.
+Therefore, all the solutions for this system of linear inequalities can only lie in this double shaded region.
+And keep in mind, because both of these are less than equal to sign and greater than or equal to sign, the whole point I'm trying to say here is because both of them are inclusive, any solution on these lines, so on right here, on the line right here, on the line right here, these are all going to be valid solutions.
+If, on the other hand, these lines were dashed lines, then any point on this line would not be a solution, because again, dashed lines means it's not inclusive.
+So now let's move on to a practice question. Pause the video and try this question.
+The shaded region shown represents the solutions to which inequality?
+So now looking at the graph, we can see that all the solutions are above the graph and we have a solid line.
+Therefore, it's going to be y is greater than or equal to some equation.
+Looking at a quick glance at the answer choices, we see all of them are greater than or equal to.
+So all we need to worry about now is the actual equation.
+We see that all the slopes are the exact same, so all we need to look at is the b value.
+And we see that the y-intercept is negative 4.
+Therefore, answer as a can be correct, because remember, in y=mx+b format, the b value is the exact same thing as the y-intercept.
+Now pause the video and try this medium question.
+The shaded region shown represents the solutions to an inequality.
+Which ordered pair is the solution to this inequality?
+So looking at the graph, we see that all the solutions are going to be in this shaded region right here.
+So all we need to do is look at the points and see whether or not they actually fall into the shaded region.
+So we have negative 5, negative 6.
+So negative 5 is right here.
+We go down to negative 6 and we see it's not in the shaded region.
+So it's not going to be answer choice a.
+B, negative 2 comma 5.
+That's all the way up here and it's not in the shaded region.
+So it's not going to be answer choice b.
+C, 1 comma 4.
+We see that's over here and it's not in the shaded region.
+So it's not going to be answer choice c.
+D, 6 comma negative 2.
+We see 6 right here and negative 2.
+And what we can see is that answer choice d lies in the shaded region.
+Therefore, the correct answer is going to be answer choice d.
+Now let's talk about verifying solutions.
+So to check if a point is a solution, substitute its x and y coordinates into every inequality in the system.
+If the resulting mathematical statements, for example, 8 is greater than 0, are true for all parts of the system, the point is a valid solution.
+So it must be true for every inequality in the system, not just one.
+Now if a point makes one inequality true but the other false, it is not a solution to the system.
+With that in mind, let's try this question.
+The point in the xy plane is a solution to which of the following systems of inequalities.
+Now let's just plug these points into each of these systems of inequalities and see which one remains true for both inequalities.
+Let's do A first.
+5 is greater than 0.
+That is true.
+3 is greater than 0.
+That is also true.
+So answer choice A is going to be the right answer.
+Let's check the other ones.
+5 is greater than 0.
+That's true.
+3 is less than 0.
+That's not true.
+5 is less than 0.
+That's not true.
+5 is less than 0.
+Again, not true.
+So the correct answer is going to be answer choice A.
+Now let me show you how to do this question on Desmos if you really wanted to.
+What you can do is just graph the point and for any inequality, as long as there's x and y as variables, you can just straight up graph it.
+So x is greater than 0 and y is greater than 0.
+And what we can see, what's really important is that we need to make sure the point is in the double shaded region.
+And we can see that right here.
+So answer choice A is going to be the correct answer.
+If we were to try answer choice B, so y is less than 0, we see that the double shaded region is this region right here.
+What's important is that you don't get mixed up by the colors.
+We see that blue, so if we turn off the green one, we see that blue is this shaded region right here.
+And then we can see the green one is this shaded region right here.
+We see the double shaded region is going to be this quadrant right here.
+Now pause the video and try this question as well.
+Which of the following ordered pairs x, y satisfies the inequality 4x minus 2y is greater than 6?
+So looking below, we see they give us three different coordinate points.
+Let's just go ahead and plug it in right here and see whether or not it is true.
+So 4 times 3 minus 2 times 1 is greater than 6.
+This gives us 12 minus 2 is greater than 6.
+And 10 is indeed greater than 6.
+So option 1 is going to be correct.
+So now let's try the second option.
+So let's plug this into the inequality.
+4 times 1 minus 2 times 4 is going to be greater than 6.
+So we get 4 minus 8 is greater than 6.
+This gives us negative 4 is greater than 6, which is not true.
+So it can't be the second option.
+So now let's check the third one.
+4 times 2 minus 2 times 1 is greater than 6.
+And we get that 8 minus 2 is greater than 6.
+6 is greater than 6.
+This is going to be not true.
+This is because remember, this greater than sign is not inclusive.
+Therefore, in order for something to be greater than 6,
+the minimum value must be 7.
+It must be 7 is greater than 6.
+So the third option is not true either, leaving only the first option, which is answer choice A.
+Now pause the video and try this medium question.
+For which of the following tables are all the values of x and the corresponding values of y solutions to the given inequality?
+So now we see, just taking a quick glance at the answer choices, that they have x equals 2, x equals 4, and x equals 7.
+And that's the exact same for every single answer choice.
+Therefore, let's just plug in 2, 4, and 7 and see what y must be equal to, or the minimum value for y.
+And then we can choose an answer choice much easier.
+So let's just plug in x equals 2 first.
+So y is greater than 5 times 2 minus 3.
+You know that y must be greater than 7.
+Therefore, looking at the answer choices, we see the only one that doesn't work is 7.
+Because again, this is not inclusive.
+Therefore, it cannot be 7.
+8 is greater than 7.
+But you can't say that 7 is greater than 7 because they're actually equal.
+So, answer choice A is going to be wrong.
+Let's keep going.
+Let's plug in 4 for x.
+y is greater than 5 times 4 minus 3.
+You get that y must be greater than 17.
+And now with that, looking at the answer choices, we see that answer choice C is going to be incorrect.
+Because 17 is not greater than 17.
+So now let's try x equals 7.
+So we have y is greater than 5 times 7 minus 3.
+We get y is greater than 35 minus 3, which gives us that y is greater than 32.
+Now looking at the answer choices, we see that answer choice B is saying that 32 is greater than 32, which is not true.
+So answer choice D is going to be the correct answer.
+Now let's talk about translating key phrases slash word problems into inequalities.
+So at most or cannot exceed translates to less than or equal to.
+Because whatever amount we have cannot exceed blank value.
+So if 100 is the max, we know that whatever value we're talking about must be less than or equal to.
+So at most 100.
+So it can be 100, but it just cannot exceed it.
+Now at least or must carry at least translates to greater than or equal to.
+Because there must be a minimum amount of a certain number.
+Now quantity inequalities sets a limit on the number of items.
+So for example, ordering at least 20 items.
+x plus y is greater than or equal to 20.
+Requiring you to order at least, which again, at least means greater than or equal to.
+Now we have less than.
+So this doesn't translate directly to the greater than or equal to sign or any inequalities.
+But it's just used for subtraction.
+So when used as 17 less than 5y, it means you subtract 17 at the end.
+So you have 5y minus 17.
+Again, 17 less than 5y.
+And the same applies for more than.
+For value inequalities, this sets a limit on the total cost or weight.
+And this is just an example of what it can do.
+The total weight is at most 1100.
+So for example, the inequality might be 120A plus 100B is less than or equal to 1100.
+So now the last thing I want to talk about is consecutive odd or even integers.
+Usually this trips up students a ton when it comes to inequalities as well as word problems.
+So for example, if the question tells you that there are consecutive odd integers or consecutive even integers,
+the first value in this list is always going to be x.
+The next one's always going to be x plus 2.
+Because again, if we put in random number 2, let's do consecutive odd integers.
+If x is 1, the next one must be 3, which is just x plus 2.
+And then it's going to be x plus 4.
+Because again, they're going to be consecutive odd integers.
+The next one's going to be 5.
+This exact same thing works with consecutive even integers.
+Because if we have x, it's going to start at 2.
+And then we have x plus 2, which translates to 4.
+So the point is, it's going to work the exact same for consecutive odd and consecutive even integers.
+It's just going to be x, x plus 2, x plus 4.
+And you keep adding 2 to the entire list.
+So now pause the video and try this question.
+A PE teacher is ordering PE footballs and Q jump ropes for the school gym.
+The teacher must order at least 15 items, but the total cost must not exceed $70.
+Football's PE costs $5 each, and jump ropes Q costs $3 each.
+Which system of inequalities models this situation?
+So let's start first with the first equation.
+It's saying that they're ordering PE footballs and Q jump ropes.
+And the teacher must order at least, so greater than or equal to, because they need at least 15 items.
+And we know that we need P plus Q.
+So ordering PE footballs and Q jump ropes, they need greater than or equal to 15 items total.
+What they also tell us is the total cost.
+We must not exceed 70.
+What this implies is that we can spend exactly 70, but we just cannot exceed it.
+Therefore, we're going to put a less than or equal to 70.
+Now we're wondering how much each item costs.
+So we know that footballs cost $5 each.
+So it's going to be 5P.
+And then they tell us jump ropes are $3 each plus 3Q is less than $70.
+Because $5 per football and $3 per jump rope.
+So now let's look at the actual answer choices and see which one matches up perfectly with our two equations.
+And looking at the answer choices, we see that's going to be answer choice A.
+Now pause the video and try this hard question.
+A number X is at most 5 less than 3 times the value of Y.
+So this already sounds a little confusing, but good thing is that this is an entire equation.
+So let's already just straight up write this out.
+We know that a number X is.
+So you know we have X on one side and that it is at most.
+Therefore, it's going to be less than or equal to 5 less than 3 times the value of Y.
+So 3 times the value of Y and then 5 less.
+Now let's keep reading.
+If the value of Y is negative 4, what is the greatest possible value of X?
+Show that Y is negative 4.
+So let's just go ahead and plug this in and solve for the greatest possible value of X.
+So X is less than or equal to 3 times negative 4 minus 5.
+And we get that X is less than or equal to negative 12 minus 5.
+So X is less than or equal to negative 17.
+So we know that because X is less than or equal to negative 17, the highest value can be is negative 17.
+Anything less would just go negative 18, negative 19, and so on.
+It's asking for the greatest possible value of X.
+So that's going to be negative 17.
+So because this less than or equal to sign is inclusive, negative 17 is going to be the greatest value.
+If this said X is less than instead of less than or equal to, then the greatest value would have to be negative 18.
+So now let's move on to solving systems algebraically.
+So you can solve a system of inequalities by subtracting one expression into the other, similar to as if we were working with equations.
+And if you multiply, so this is a little bit different.
+If you multiply or divide both sides by a negative number, you must flip the inequality sign.
+So what do I mean by this?
+If there was originally a greater than sign and you multiply or divide both sides by a negative number, you must flip the sign.
+Same applies for like a greater than equal to sign, but you must make sure you keep the inclusive or non-inclusive property.
+So you must keep it as an equal to.
+So for real world results, if you get a decimal, for example, like n is less than 20.83, the greatest possible whole number of items, for example, would be 20.
+Because in real life, you can't have 20.83 of, for example, like 20.83, like footballs.
+You can't have a decimal of them.
+You must round it.
+Now let's talk about optimizing.
+So to find a maximum value for one variable, you must use the minimum possible value for the other variable.
+So if you think about it conceptually, if we have p plus q is less than 15.
+So pretty much like the previous example that we had just earlier.
+In order to maximize the amount of p, theoretically, we need to minimize the amount of q.
+So theoretically, if we could have 14 of the p, and then we had zero of the q, we just maximized the amount for p.
+So therefore, if we want to find a maximum value for one variable, we must use the minimum possible value for the other variable.
+So now let's continue.
+To find a minimum value for one variable, you must use the maximum value for the other variable.
+And we'll show an example of this later.
+For now, let's try this question.
+So pause the video and try it yourself.
+A delivery van carries only 80 pound boxes and 100 pound boxes.
+For each trip, the van must carry at least eight boxes.
+And the total weight must be at most 700 pounds.
+What is the maximum number of 100 pound boxes the van can carry per trip?
+So let's create the two equations.
+So we know that for each trip, the van must carry at least eight boxes.
+So I'm going to use x and y for the two boxes just because I would want to.
+You could use a or b or just any combination you wish.
+But I'm going to use x or y.
+I'm going to do x equals 80 pound boxes and y equals the 100 pound boxes.
+Now we know that the van must carry at least eight boxes.
+So we have x plus y is going to be at least eight boxes.
+So we need more than or equal to eight.
+And the total weight must be at most.
+So now we get a less than or equal to sign 700 pounds.
+And we know that each 80 pound box is going to be 80 pounds.
+So it's going to be 80 times the amount of boxes.
+And this is going to be weight 80 pounds times each box plus 100 times y.
+Now it's asking what is the maximum number of 100 pound boxes the van can carry per trip.
+So we know that in order to find the maximum number of 100 pound boxes,
+we need to minimize the amount of 80 pound boxes.
+So let's do just that.
+Let's isolate for the amount of 80 pound boxes.
+We get the a and let's subtract y from both sides equals eight minus y.
+Now let's go ahead and plug this into the second equation and solve for the value of y.
+So we get 80 times eight minus y plus 100 y is less than or equal to 700.
+And now we can see here that by solving this equation,
+we get a value of y that's going to be as high as possible.
+Let's solve it first to see that.
+640 minus 80 y plus 100 y is less than or equal to 700.
+So now combining like terms and subtracting 640 from both sides,
+we get that 20 y is less than or equal to 60.
+And we get that y is less than or equal to 3.
+So it's asking for the maximum number of 100 pound boxes.
+And y is the amount of 100 pound boxes.
+So you know from here that y has to be 3.
+Because 3 is the maximum number.
+2 would be smaller than 3.
+And then 4 would just make this statement untrue.
+4 is not less than or equal to 3.
+So the correct answer is going to be answer to B.
+Now let me show you how to do this question in Desmos.
+But it can help you solve the question faster once you come up with the equations yourself.
+So we know that x plus y has to be greater than or equal to 8 boxes.
+And then we get that 80 x plus 100 y has to be less than or equal to 700 pounds.
+So now scrolling out, it's asking what is the maximum number of 100 boxes the band can carry per trip.
+So what we notice here is that we can't have negative of the 80 pound boxes.
+So our solution is going to be the value in which y is the highest and is still contained within the double shaded region.
+And we can see that that occurs at the vertex right here.
+The maximum number is going to be 3 for the 100 pound boxes.
+Which is answer choice B.
+Now pause the video and try out this medium difficulty question.
+In North America, the standard width of a parking space is at least 7.5 feet and no more than 9 feet.
+So what we see here is slightly different.
+They're saying that 7.5, it must be at least.
+Therefore, it must be less than or equal to.
+And if we put it right here, we see that the answer choice is use n.
+So let's just go ahead and use n.
+7.5 is less than or equal to n.
+Because again, n must be greater than because this is at least 7.5.
+And no more than.
+So we know that there's a maximum as well.
+Maximum of 9.
+So now let's keep reading.
+What I notice is that B actually says the exact equation we just wrote out.
+But what's important is that we haven't even read the rest of the question.
+So it's most likely actually not going to be B.
+Because I suspect they're going to make us do something else with this inequality.
+But let's keep reading.
+A shopping mall manager wants to determine the number of parking spaces n.
+So now this is what we're actually doing n.
+That can be placed perpendicular to a 180 foot curve.
+Which of the following describes all possible values of n.
+So now let's draw out a picture real quick.
+So they say we have a curve that's 180 feet.
+And what they're saying is that each parking space, the width, is going to be at least 7.5 to 9 feet.
+So what we can get here is that we actually need to divide 180 divided by 7.5 and 9 in order to get the actual amount of curves that they can have.
+So to draw this out, this could be 7.5 and each of these could be 7.5.
+And with that we might be able to, I'll just throw a random number with it for now.
+We might be able to put 10 parking spots.
+But if we do 9 feet parking spots, obviously if each parking spot takes up more space, we would have less parking spots.
+So with that we might only be able to have like 8 parking spots.
+And with that we can actually get the range of the number of parking spots they can have.
+So now let's do that.
+Let's do 180 divided by 7.5, which gives us 24.
+And then we do 180 divided by 9, we get 20.
+So now we know that it must be the amount of parking spots we can have, parking spots N, must be between these two values.
+So 20 less than or equal to N less than or equal to 24.
+So the correct answer is going to be answer choice D.
+Now pause the video and try this hard question.
+A shipping company restricts box dimensions.
+For rectangular prism shaped boxes, the sum of the perimeter of the base and the height cannot exceed 120 inches.
+So the sum of the perimeter of the base and the height cannot exceed 120.
+If a box has a height of 40 inches and its length is 3 times the width, which inequality shows the allowable width W in inches?
+So now let's write out everything the question gives us.
+It's saying that it has a height of 40.
+So we're going to do H equals 40.
+Simple enough.
+And its length is 3 times the width.
+So length equals 3 width.
+Now it's saying that the sum of the perimeter of the base and the height cannot exceed 20 inches.
+So we know that the perimeter is going to be 2L, so 2 times the length plus 2 times the width.
+So we have 2L plus 2W.
+And we know that length is equal to 3W.
+So we can plug that in.
+2 times 3W plus 2 width.
+And this is all going to be equal to the perimeter.
+So I'm going to put P.
+This is going to be 6W plus 2W equals P, which simplifies to 8W equals P.
+And it's telling us that the sum of the perimeter of the base and the height cannot exceed 120 inches.
+So I'm going to write out the third equation over here.
+So we get that 8W plus 40 cannot exceed.
+Therefore it must be less than or equal to 120.
+So now it's saying which inequality shows the allowable width W in inches.
+So now let's simplify this and isolate for W.
+We get 8W is less than or equal to 80.
+Dividing by 8, we get A is less than or equal to 10.
+So we know for sure that the greatest value of W has to be less than or equal to 10.
+So again, greatest value is 10.
+With that, the only answer choice that shows that is going to be answer choice A.
+Answer choices B, C, and D all show a value greater than 10 for this.
+So all this portion right here is incorrect.
+So answer choice A is going to be the correct answer.
+So now pause the video and try this hard difficulty question.
+The formula above is Ohm's law for electric circuit with current I amperors, potential difference V volts, and resistance O in Ohms.
+A circuit has a resistance of 400 Ohms and its potential difference will be generated by N 9 volt batteries producing a total of 9 N volts.
+If the circuit must have a current of no more than 0.5 ampere, what is the greatest number N of batteries that can be used?
+Okay, so for sure for this question, they definitely define a lot of things that normal people don't see in daily life.
+It's talking about some sort of electricity.
+So now what's important here is that we just plug in exactly what they gave us.
+So I is ampere, V is volts, and R is ohms.
+So they say that a circuit has a resistance of 400 Ohms.
+See that ohms is equal to R. So I'm going to just start plugging things in.
+We get 400 for R and its potential difference will be generated by 9 blah blah blah batteries producing a total of 9 N volts.
+So we know that volts is equal to V. So it's going to be, let's just plug in 9 N.
+If the circuit must have a current of no more than 0.5 ampere, what is the greatest number N of batteries that can be used?
+So we know that it's no more than. So therefore 0.5 is the maximum.
+So 0.5 must be greater than or equal to 9 N divided by 400.
+So this portion right here must be smaller than 0.5.
+Now it's asking what is the greatest number N of batteries that can be used?
+All we need to do is isolate for N and figure out the greatest number.
+So let's multiply both sides by 400 and we get that 200 is greater than or equal to 9 N.
+So dividing both sides by 9, we get that 22.22 is greater than or equal to N.
+If we want to flip this round and get N's relation to 22.22, what we have to do is flip the sign.
+So N is less than or equal to 22.22.
+So originally it was opening to the 22.22.
+So as long as it's still opening to the 22.22, this is going to be correct.
+So N must be less than or equal to 22.22.
+It's asking for what is the greatest number N of batteries.
+So I notice here is that batteries, you cannot have 22.22 batteries.
+I couldn't give you 0.22 of a battery.
+Therefore N must be a whole number.
+And the next whole number is going to be 22.
+Because I can give you 22 batteries.
+So the correct answer is going to be N equals 22.
+So now pause this video and try this hard question.
+In a set of four consecutive odd numbers listed from least to greatest, the first integer is represented by X.
+So let's just write it out, X.
+And we know the second one is going to be X plus 2.
+So remember this is consecutive odd integers.
+And then X plus 4 and then X plus 6.
+Now let's keep reading.
+The product of 10 and the fourth odd integer is at most 18 less than the sum of the first and third odd integers.
+Okay, this sounds confusing.
+So let's just straight up make the actual inequality.
+The product of 10.
+So we have 10 times the fourth integer.
+So let's do X plus 6 because this is going to be the fourth integer is at most.
+So this is going to be less than or equal to because it's at most.
+And we have 18 less than the sum of the first and third.
+So let's do the sum of the first and third.
+X plus X plus 4.
+So the first and the third.
+And it's going to be 18 less than.
+So this is minus 18.
+So looking at this, let's straight up look at the answer choices and see if there is one that already matches.
+Just so that if possible, we can save out on time and we don't actually have to like simplify this whole thing.
+So we can see that C and D are wrong because they used the third odd integer instead of the fourth.
+So it's not going to be C or D.
+Now we have this is going to be less than or equal to less than equal to X plus X plus 4 minus 18.
+So I'm sure A is going to be the correct answer.
+So now pause the video and try this hard difficulty level question.
+A company plans to purchase the same model of desk for each of its 64 employees.
+The total budget for the desks is $12,000, which includes a 6% sales tax, which of the following is closest to the maximum possible price per desk before sales tax that the company could pay.
+So I'm seeing here is we need to set up an equation.
+The total budget is $12,000.
+This also includes a 6% sales tax.
+So we know that we must pay something that is less than or equal to $12,000.
+Now let's make the actual equation.
+We know that they want to buy 64 of the desks.
+So we need 64 X.
+Then we know that this also includes a 6% sales tax.
+So this must be multiplied by 1.06 before we get to the total price.
+And now we can solve for the value of X.
+So let's do this on a calculator.
+First, what we can do is multiply 64 times 1.06.
+And that gives us 67.84 X is less than or equal to $12,000.
+Now dividing both sides by 67.84, we get that X must be less than or equal to $176.89, which is extra speed.
+Because it's asking for the maximum possible price, we see that the maximum for this inequality is going to be this number right here, because it is inclusive.
+So the correct answer is answer choice B.
+Now the SAT can be tricky.
+With that being said, always write down what you are given and what you are trying to find.
+This may help you remember which skill to use.
+And this way you can focus in lengthy word problems.
+And definitely brute force if you have to.
+Plug in answer choices, see if you can work backwards.
+Or look for patterns of the answers for a clue of what it is asking.
+And always prioritize easier questions first and come back for the hard ones.
+And now it's time to practice.
+And now it's time to practice.

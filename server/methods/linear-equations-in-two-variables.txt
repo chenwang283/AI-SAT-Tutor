@@ -1,0 +1,794 @@
+ALGEBRA STITCHED TRANSCRIPTIONS
+SKILL: Linear Equations in 2 Variables
+Generated: 2026-07-08
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra Linear Equations in 2 Variables.txt
+--------------------------------------------------------------------------------
+
+Let's talk about linear equations in two variables. So now let's introduce standard form. Standard form is going to be used a ton with linear equations with two variables. So let's see what this actually is. Standard form is going to be ax plus by equals c. Where a, b, and c are constants. So now standard form represents all possible combinations of two different things. For example, like pens and notebooks that equal a total. If this sounds confusing right now, that is totally okay.
+This will make a ton more sense once we get to the actual practice problem. So unlike y equals m x sub b, which is slope intercept form, the slope and the intercept aren't always obvious in this format.
+And this is because looking at standard form, we don't see m, which is equal to the slope or rate of change. And we definitely don't see b. Although you might argue b is right here.
+What I want to note, this is a very important distinction. Capital B is not the same. And I will repeat this again. It is not the same as lowercase b. The capital B does not represent the initial amount.
+But good news is that you can get from standard form to slope intercept form if necessary. I'll show you how to do that right now. So we notice the slope intercept form is that all this on the right side, m x plus b is equal to y.
+And we have y in standard form. So let's try to rearrange it. So we know that we need to isolate y on the left side. So let's do that first. First step, let's subtract ax from both sides.
+So we get b y equals c minus ax. And now all we need to do to isolate y is to divide both sides by b. So b cancels out and then we get b on the left side. So over b.
+It's also, key thing to note, it's also the exact same if you have c minus ax and you have the whole thing over b. Both of these forms right here are the exact same.
+And now if we just slightly rearrange this form right here, we can get y equals and we see this term. So negative ax over b has the actual x term in it, which m x has the actual x term in it.
+So we get that y equals negative ax over b plus c over b. So we know from here that negative a over b is the exact same as y. And this is a very important rule that you could remember. If even if you don't want to remember this, you can easily solve from this equation from rearranging standard form. So negative a over b equals m and then c over b equals the initial amount.
+So now we get to an actual practice question. Do not worry about pause the video and try it out yourself because first I'm going to walk you through exactly how to do this question. First of all, let's completely ignore the answer choices. Instead, what I want us to focus on right now is understanding the context of the question and understanding standard form. So let's start reading. An aquarium has six tank freshwater section and a 10 tank saltwater section. So they have six tanks that's freshwater and 10 tanks that are saltwater. And the telling of this is,
+thus the total number of fish in the aquarium is 180. The equation 6x plus 10y equals 180 represents this situation. Which of the following is the best interpretation of x in this context? So first, before we even start trying to interpret x, let's try to interpret the entire equation. So we get, I'm going to just rewrite it right here, larger. So 6x plus 10y equals 180. With that, we know that the total number of fish in the aquarium is
+180. So this is total number of fish. So I'm going to write 180 fish. So now looking at 6x plus 10y, what our first instinct should always be is to look at the equation and see if any of the numbers match up. So here they do. We see that 6 corresponds with 6 and 10 corresponds with 10. So that 6 is the amount of freshwater sections. So there's 6 tanks and there's 10 tanks for the saltwater section. So x and y must be the amount of fish. Let me explain what that means. Remember, the total
+needs to be a number of fish. If we only have 6 tanks, we must multiply by the amount of fish in each tank in order to get the total amount of fish in each section. So 6x in this context represents the total amount of fish in all six tanks of the freshwater section. Let me explain. So 6 tanks multiplied by a random amount of fish in each tank. Let's say it's 5. This gives us 30. So what this means is in each of the
+freshwater tanks, there's 5 fish. If we multiply 5 fish in one tank times the amount of tanks, which is 6 freshwater tanks, we know that there are 30 fish total in the freshwater section with 6 tanks. Now if we do the same for the 10y portion, again, there's 10 saltwater tanks. And now we want to multiply by the amount of actual fish in each tank. So if we just move this plus sign over over here, we get 10 tanks times
+15 fish per section. And now we get 15 fish per section. And now we get in total in the saltwater section, there is 150 fish. And now added together, there's a total of 180 fish. And by the way, if you're wondering, I just made these numbers up just so that it could equal just for the sake of this demonstration.
+In this question, you would not be able to assume that x equals 5 or that y equals 15. It could be the scenario that x is actually equal to 10, and then y would be equal to 12, as long as it equals 180. So now the question is asking for the best interpretation of x in this context. So x, which is right here, would be the amount of fish in the freshwater section per tank. So remember, x, if it was just 1x, this is the amount of fish in one freshwater tank. But if it's going to be
+6x, this is the amount of fish in six tanks, therefore x is going to be average number of fish in one freshwater tank. So now let's go to the answer choices. Let's uncover them and see if that is an answer choice. A, the average number of fish per tank in the freshwater section. And boom, that's exactly what we were looking for. Let's keep reading just to prove the other ones are wrong. B, the average number of fish per tank in the saltwater section. So we know that that's going to be y. So it's
+not going to be b. C, the total number of fish, the saltwater section. So we know that is actually going to be equal to 6x, not just x itself. So it's not going to be c. D, the total number of fish in the saltwater section. So we know that based on our example that we did just earlier, this is going to be equal to 10y, which is again, not the interpretation of x. So answer as a is going to be our final answer. Now pause the video and try this question.
+In quadrilateral ABCD, sides AB and CD each have a length of m centimeters. And sides BC and DA each have a length of n centimeters. So because they mentioned some sort of quadrilateral, so this is slightly geometry related, let's draw a picture just to illustrate it for us.
+So we know that ABCD is the quadrilateral. So now they're telling us that sides AB, so let's label this right here, length of m. CD also has a length of m. BC and DA, so BC right here, each have a length of n and n.
+So now the equation 2m plus 2n equals p represents this situation. The question is asked for which of the following is the best interpretation of p in this context. So what we notice is that m plus m plus n plus n is the exact same as 2m plus 2n.
+All that is, is just adding up for the perimeter. And so with that in mind, now let's go to the actual answer choices and see which one matches up with our interpretation.
+A, the difference in centimeters between the lengths of AB and side BC. So that's not the case. Because this is just going to be m minus BC. M minus n, which is obviously not this equation.
+So it's not going to be A. B, the difference in centimeters between the lengths of AB, so again M, and DA, which is again going to be n. So it's not going to be an answer choice B either.
+Now it's going to be an answer choice C. The sum of the lengths in centimeters of the four sides of the quadrilateral. So that's perfectly correct.
+So we said just earlier that the perimeter is going to be m plus m plus n plus n, which simplifies to 2m plus 2n.
+Therefore, answer choice C is going to be the best answer. So D is going to be wrong just because it's saying the length in centimeters of one of the equal side length.
+So it's literally just saying m or n, which is not the correct interpretation.
+And P represents the perimeter, which is adding up all the sides. So C is going to be the correct answer.
+Now let's try this hard difficulty question. Pause the video and try it out yourself.
+Mio is packing boxes for shipping delivery. He filled X small boxes and Y large boxes with a total of 60 pounds of equipment.
+So know there's going to be a total of 60. And wow, they actually give us the equation. It makes our life even easier.
+The equation 4x plus 12y equals 60 represents this situation, which is the best interpretation of 12y in this context.
+So I'm going to write it here just so I can have it a little bit larger.
+And now again, let's focus on the actual total. The total is 60 pounds of equipment.
+And then we know that they filled X small boxes and Y large boxes.
+So for example, if they filled four small boxes and let's say they filled six Y boxes.
+So this might not even equal to 60, but I'm just throwing a random example here.
+We need somehow the end result to be in pounds. And we see here that X is the number of small boxes and Y, which we plug in for six, is the number of large boxes.
+So now we can interpret that four is equal to the weight of each small box. So each small box, if we do four small boxes, each one is going to be four pounds.
+So when we multiply it, we get that four times four equals 16 pounds. And then for the other side, if we do 12 times six, we get 72 pounds.
+So again, these numbers that I chose right here, they didn't obviously work for this question, but we only used random numbers just to illustrate and really understand this question.
+So now it's asking for the best interpretation of 12 Y. So I'm getting here is that 12 Y is the total amount of weight for the large boxes.
+Every single one of the large boxes added together. So now let's go to the answer choices.
+A, the number of large boxes Leo filled. So looking back at the question, Y, just Y alone, it's not 12 Y.
+Y is equal to the number of large boxes. Therefore, this is going to be equal to Y, which is not 12 Y. So it's not going to be A.
+B, the number of small boxes Leo filled. Again, small boxes is equal to X. So it's not going to be B.
+C, the total weight in pounds of the equipment in the large boxes. So now that sounds exactly right with our prediction right here.
+D, the total weight in pounds of the equipment in the small boxes. So this is going to be represented by 4X.
+So it's not going to be an answer to D. And C is our final answer. So now if the SAT gives you the value for one variable,
+all you need to do is just plug it in to find the other. So for example, replace the known letter with its number.
+Simplify that term and then use basic algebra to isolate for the remaining letter. Let's see what that looks like. In 4C plus 9D equals 108.
+If you know that D equals 4, you substitute to get 4C plus 36 equals 108. Because there's only one variable, you can just straight up solve the equation.
+So again, 4C. So if we just solve this equals 108 minus 36. And this gives 4C equals 72. And we get that C equals 18. Now let's try that with an actual question. Pause the video and try this question yourself.
+A podcast editor is producing an episode with a total length of 45 minutes.
+So let's just straight up set the equation equal to 45.
+The episode will consist of segments that are 3 minutes long and segments that are 7 minutes long.
+Which equation represents the situation where S represents the number of 3 minute segments and R represents the number of 7 minute segments?
+So that the total must be equal to 45 minutes.
+What I recommend for these questions, especially when you have to build out your own equation, is to, of course, build out your own equation before looking at the answer choices.
+Because it is pretty easy to get thrown off by the answer choices.
+So we have equals 45 minutes and we know they are 3 minute long and 7 minute long segments.
+S represents the number of 3 minute segments.
+So it's going to be 3S plus and then R represents the 7 minute segments.
+So 3S plus 7R equals 45 minutes.
+So just to double check, let's just plug in numbers for S and R just to make sure that our end units is the exact same as the one in the total.
+So we get 3, if we just plug in the round numbers, let's just do 3 for S.
+So 3 3 minute long segments plus 7 minute segments and we do, let's say, one of them.
+Let's see if this gives us minutes.
+So we get 9 minutes plus 7 minutes.
+What's really important is just making sure the units is actually equal to the units of the final answer.
+If when you multiply it out, you somehow get, let's say, a number.
+So the number of 7 minute segments.
+Obviously, a number of 3 minute segments plus a number of 4 minute segments gives you a total of the number of segments.
+Which obviously is not the right unit.
+So just do this extra step to make sure you did it correctly.
+So now we know that the correct answer, just taking a glance, is going to be answer choice D.
+Make sure you be very specific with what exactly you're looking for.
+So obviously, if you'd only spent like one second, you might have chosen answer choice C just because they flip-flopped the two coefficients.
+It's obviously not going to be A or B.
+It's not going to be C.
+And the answer is going to be D.
+Now pause the video and try this question.
+The equation 15J plus 25N equals 350 represents the number of journals, J, and the number of notebooks, N, that Marcus purchased for $350.
+If Marcus purchased 8 notebooks, how many journals did he purchase?
+So let's just plug in exactly what they gave us.
+They said he purchased 8 notebooks.
+So let's plug that in.
+You know that notebooks is N.
+So make sure you do not plug it in for J.
+So plus 25 times 8 notebooks equals 350.
+Now if we expand this, so seeing that we only have one variable, which is J, we can actually solve for it now.
+So if we actually expand this, we get plus 200 equals 350.
+And 15J remains the same.
+Subtracting 200 from each side, we have 15J equals 150.
+Dividing both sides by 15, we get that J equals 10.
+And the correct answer is going to be answer to a C.
+Now let's talk about finding slope from AX plus BY equals C.
+So to find the slope M, you must rewrite the equation into slope intercept form, which is exactly what I showed you at the start of this unit.
+So here's a reminder of how you should rewrite it.
+Move the X term to the other side by adding or subtracting and then divide every term by the coefficient in front of Y.
+So for example, 4X minus 3Y equals 12 becomes... so let's do this.
+Let's just ignore this and I'll show you how to do it just normally.
+So we have 4X minus 3Y equals 12. The first step is we see that because there's something else in front of negative 3Y, we first remember using the reverse order of operations, we subtract 4Y to actually get rid of it.
+So we do 4X minus 4X minus 4X. Now these two cancel out. Now we're left with 3, negative 3Y equals 12 minus 4X. And now we just need to divide both sides by negative 3 and then we get this right here.
+And after we simplify and rearrange, we get Y equals... remember because slope intercept form is Y equals MX plus B, let's put this term in front.
+So simplifying, we have negative 4 over negative 3, which just turns to positive 4 over 3X. And then we have 12 over negative 3, which is minus 4. So if we get rid of everything right here, we got the exact same thing. Y equals 4 over 3X minus 4. So what we just did right here was rearrange standard form right here into slope intercept form. Great job. Now just a quick reminder about parallel lines.
+Parallel lines are lines that never intersect because they move at the exact same rate. So the rule is that parallel lines have the exact same slope. And again, they never intersect because they have the same slope. Now let's talk about perpendicular lines. Perpendicular lines cross at a perpendicular line. So the rule is that parallel lines have the exact same slope. And again, they never intersect because they have the same slope.
+So let's talk about perpendicular lines. Perpendicular lines cross at a perfect 90 degree angle. So the rule is that their slopes are negative reciprocals. What this means is you need to flip the fraction and change the sign. So for example, if line one has a slope of 3 over 5, let's do the process I just said, 3 over 5, we want to flip the fraction. So this turns into 5 over 3 and change the sign.
+So if it was originally positive, we want to flip the fraction. So if it was originally positive, we just add a negative sign. If it was originally negative, so let's say for example, it was 3 or negative 3 over 5, this becomes 5 over 3. But now we get rid of the negative sign because again, we want to just change the sign.
+So now these two slopes are going to be perfectly perpendicular. And to check your work, if you multiply the two slopes together, they should always equal negative 1. So if we multiply negative 3 over 5 times 5 over 3, the 3s cancel out and the 5 cancel out.
+Now if we do our example from just earlier, so I'm going to rewrite it here just so we can see it. Negative 3 over 5 and 5 over 3. Again, the 3 cancels out over here and the 5 cancels out over here. All we're left with is negative 1.
+So now let's try this question. Pause the video and try it yourself. Line P is defined by y equals negative 11 over 4x plus 2. Line Q is perpendicular to line P in the xy plane. What is the slope of line Q?
+So because they're only asking for the slope of line Q, we don't need to actually solve for b for line Q in any way. So let's just do it. We have negative 11 over 4 and we know that in order for them to be perpendicular, it just needs to be the negative reciprocal.
+So we're just going to take 4 over 11, again flipping the fraction, and because this was originally a negative, we just changed the sign. So now we make it positive. So this is going to be the final answer.
+So now pause this video and try this medium difficulty question. Line R is defined by 4x minus 3y equals 12. Line S is perpendicular to line R in the xy plane. What is the slope of line S?
+So what we need to do is first, immediately after taking a look at this equation, we see that it is in standard form. So we need to somehow get the slope. So let's rearrange this equation.
+Subtracting 4 from both sides, we get negative 3y equals 12 minus 4x. Now dividing both sides by negative 3, we get y equals 12 over negative 3 minus 4x over negative 3.
+And simplifying both sides, we get y equals negative 4 plus 4 over 3x. And rearranging this just so we have it in slope intercept form, we get y equals 4 over 3x minus 4.
+So all we did was just flip the order of these two. Because remember, addition, it doesn't matter the order in which they're in. Just make sure you keep the sign of each individual term. So now we get that the slope of line R is 4 over 3.
+Because line S is perpendicular to line R, we must take the negative reciprocal. So let's add, because this one's positive, let's add a negative sign, and then simply flip the fraction. So you get that line S slope is negative 3 over 4.
+Now pause the video and try this question as well. Line F is defined by the equation 5x plus 3y equals 21. Line G is parallel to line F in the xy plane. What is the slope of line G?
+So because they are parallel, that means they have the exact same slope. So let's just get the slope for this equation, and then we'll know the slope for the second equation, or second line, line G.
+So let's rearrange. So first we want to subtract 5x from both sides. So you get 3y equals 21 minus 5x. And dividing both sides by 3, we get y equals 7 minus 5 over 3x.
+All we need really for this question is the actual slope, because they're asking for the slope of line G. And we know the slopes are going to be equal for line F and line G. So the slope is just going to be negative 5 over 3. So answer choice B.
+Now let's try this hard question. Pause the video and try it out yourself. In the given pair of equations, A and B are constants. The graph of this pair of equations in the xy plane is a pair of perpendicular lines.
+Which of the following pairs of equations also represents a pair of perpendicular lines. So we see, just glancing up above, that there's A and B, and they told us that they're both constants. Now these two must be perpendicular. Therefore, their slope must be negative reciprocals.
+But because we have them in standard form, it's going to be a little bit harder to work with. So what I'm getting at here is we need to convert this into slope intercept form. So y equals mx plus b. And then we can convert the second one also into y equals mx plus b.
+And then we can actually calculate the slope because once we convert the forms, we know what the slope is. Remember, m is just going to be the negative reciprocal. And from there, we're going to be able to get the values for a and b and then plug them in for every single answer choice.
+We can actually see which one is going to be perpendicular. So now let's do that. First, let's get the first equation into slope intercept form. So let's subtract 5x from both sides. We get 7y equals 1 minus 5x.
+Dividing both sides by 7, we get y equals 1 over 7 minus 5 over 7x. Now from here, we get that m equals negative 5 over 7. So for this question, m must be equal to, or the slope must be equal to 7 over 5.
+So let's rearrange this equation first and then see what we can get for A and B. So we get that by, so subtracting ax from both sides, we get by equals 7 over 5.
+So we get by equals 1 minus ax. And then dividing both sides by b, we get y equals 1 over b minus ax over b. And now we know that negative ax over b must be equal to 7 over 5x.
+And this is because, again, remember, these two lines must be perpendicular. So the slope must be the negative reciprocal, which is 7 over 5, because the original is negative 5 over 7. So now we can get that A might be equal to negative 7, because negative 7 times negative 1 equals positive 7. So A equals negative 7. And B equals 5. So looking at the original equation, what we can see is that the original equation,
+In the original equation, a is equal to 5, and b is equal to 7. In the second equation, a equals negative 7, and b equals 5.
+So let's rewrite the entire equation, plugging in values for a and b. We get negative 7x plus 5y equals 1.
+And what we notice here is that the only difference is number one, the positions of a and b are switched.
+So 5 and 7 got switched, and one of them became negative. That's what actually makes it perpendicular.
+So what we can actually conclude is going to the answer choices, we just have to look for the exact same thing.
+So let's see. Answer is a, 10x plus 7y. So what we should expect is that in order for it to be perpendicular,
+number one, these two have to switch places. 7x plus 10y. And additionally, one of them must be negative.
+So this could be the case. Or 10 could be negative. So let's plug in our values for a and b and see if that is the case.
+So what we get is negative 7x minus 10by equals 1. If we plug in values for a and b.
+What we notice here is that two values actually became negative. So n-stress a is not going to be correct.
+Now let's go to n-stress b. So we again want these two to switch places.
+So a equals negative 7. Negative 7x plus 10y equals 1. And from the example earlier, by the way, this b should not be here.
+Because this was actually plugged in for b equals 5. So ignore this b right here.
+So looking at this equation, this looks perfectly correct. Again, in order for these two to be perpendicular,
+what we noticed was that the 5 and the 7 switched places. So at first it was 5x plus 7y. Then it became 7x plus 5y.
+And then one of them, one of the coefficients became negative. What we see here with n-stress b is the exact same trend.
+10x plus 7y equals 1. And negative 7x plus 10y equals 1. So n-stress b is going to be the correct answer.
+Let's go through the other ones as well. n-stress c, if we plug in, we get negative 14x plus 5y equals 1.
+As we notice here, the format is not even nearly as consistent with what we said just earlier.
+The places did not flip-flop, although one of them is negative, but it's going to be different slope.
+So it's not going to be c. d. So just plugging in the exact same thing, we get negative 7x plus 5y equals 1.
+So we notice here is that the positions did switch, but the sign did not change on either one of them.
+They remain the exact same. It's not going to be an answer to us d.
+If you really wanted to, what you could also do is also convert each of these into slope intercept form.
+And what you will find is that the slopes of the two equations are going to be negative reciprocals.
+Additionally, after going through this, I'm sure you probably noticed a pattern.
+The slope of the actual equation, and I mentioned this earlier, in standard form is actually going to be negative a over b.
+So with this shortcut, this shortcut actually makes the question a lot quicker.
+But I wanted to show you the way to do it, even if you didn't know the shortcut.
+So from this equation, what we can immediately get is again, that this is a.
+So the normal form is ax plus by equals 1.
+So if we take negative a, we get negative 5 over b.
+And again, this is the exact same slope as the one we just got earlier.
+This is the exact same thing.
+So with that, in order to be negative reciprocals, we need it to be 7 over 5 in order to make the two lines perpendicular.
+With this in mind, with this trick, it would actually make this question a whole lot easier.
+What we can see is that the slope for this equation is going to be negative 10 over 7.
+And then the slope for this equation is going to be negative negative 7, which is positive 7 over 10.
+And as you can see, these two are going to be negative reciprocals, which makes the two lines perpendicular.
+So just a quick recap.
+There's two ways you can do this question.
+Number one, you can solve for the slopes by rearranging the two equations, and then solving for a, and solving for the value of b, and then plugging those in and checking all the answer choices.
+Number two, if you know the shortcut, the slope in standard form is negative a over b, you can just calculate the slope of this equation, and you get the slope is 7 over 5.
+And from this, you can determine that a equals negative 7, and b equals 5.
+Once you plug it in for all the answer choices with the shortcut, you will still find the exact same thing, that b results in two perpendicular lines.
+Now let's talk about constructing a new line.
+So to build a new line parallel to another, you can use the same slope and one new point.
+This is where point slope formula comes.
+This is the third form of a linear equation.
+So point slope formula is as listed here.
+y minus y1 equals m times x minus x1.
+And you can use this to quickly plug in your coordinate and the slope and solve for the equation.
+So let's show what this looks like.
+In order to find a line parallel to y equals 3x plus 2, passing through, for example, the point 2, 4.
+So this is going to be a separate line.
+You just plug everything into point slope formula.
+So y remains the same.
+You plug in y minus, and because they say y1, y1 is going to be the point.
+And they give you a value for y1.
+So you do y minus 4 equals, and again, remember, because the lines are parallel, the slope is going to remain the exact same.
+Therefore, you use 3 and x minus the point.
+They give you x minus 2.
+And now, simplifying, you get y minus 4 equals 3x minus 6.
+That gives you y equals 3x minus 2.
+So now, this is the equation of the line that's parallel to the original line, y equals 3x plus 2.
+But it passes through the coordinate point .
+So now, pause the video and try this medium difficulty question.
+What is the equation of the line that passes through the point and is parallel to the graph of y equals 2x plus 7 in the xy plane?
+So, because they gave us an equation, they said that there's another line that's parallel, and they give us one point.
+Let's use point slope formula.
+That is going to be y minus y1 equals m times x minus x1.
+So now, let's plug in everything we're given.
+y minus, and we're given a point, negative 3, so let's put negative 3 in parentheses, equals, and because they're parallel, we're going to grab the exact same slope from the original line.
+x minus, and then the x coordinate, minus 4.
+Now, simplifying, we get y plus 3 equals 2x minus 8.
+Subtracting 3 from both sides, we get y equals 2x minus 11, which is going to give us answer choice 8, which is the correct answer.
+If we wanted to double check if this is correct, we know that this point right here must be passed through by the equation that we solve for.
+So, what we can do is plug in x and y and see if the equation is true.
+So, plug in negative 3 equals 2 parentheses 4 minus 11.
+And simplifying, we get negative 3 equals 8 minus 11, which gives us negative 3 equals negative 3, which is true.
+If you find that plug-in in the points, you get an equation that is false, then you can conclude that you probably solved the equation incorrectly.
+So, now let me show you how to do this question on Desmos.
+So, we know that the original equation is y equals 2x plus 7, and that the second equation is parallel and passes through the point .
+So, let's plug this into Desmos.
+And now, all we need to do is plug in answer choices to see which one is parallel to this original equation, also passes through this coordinate point right here.
+So, let's just start plugging in starting with answer choice A.
+y equals 2x minus 11.
+And boom, we see immediately it passes through the point and it is parallel.
+Let's try the other answer choices.
+But right now, just from A alone, we know that it's the correct answer.
+Let's do minus 5.
+Boom.
+Although we see that it is parallel, it does not pass through the point.
+So, it's not going to be the correct answer.
+Now, let's do answer choice C.
+y equals negative 2x plus 5.
+Obviously, definitely not right.
+Even though it passes through the point, it is most definitely not parallel.
+So, let's try answer choice D.
+y equals 2x plus 11.
+So, we see again that it's parallel, but it does not pass through the point.
+So, it's not going to be answer choice D.
+And the correct answer is going to be answer choice A.
+So, now pause the video and try this question.
+In the xy plane, line u is defined by 3x plus y equals 0.
+Line v is perpendicular to line u.
+And the y intercept of line v is 0, -5.
+Which is the following equation for line b.
+So, we know that in slope intercept form, line v has a negative reciprocal slope of line u.
+So, first, let's get the slope for line u.
+So, remembering the shortcut, the slope of a linear equation from standard form is just negative a over b.
+And a in this case is 3.
+So, we get negative 3 over 1.
+So, the slope is just going to be negative 3.
+So, the negative reciprocal of this, again, is just flip the fraction and get rid of the negative sign.
+So, the slope of the perpendicular line is just going to be 1 over 3.
+And we get rid of the negative sign.
+So, now, because we're given a point, we must plug it into slope intercept form.
+So, let's do y minus, and then the point they gave us equals 1 over 3 times x minus 0.
+And simplifying, we get y plus 5 equals 1 over 3 x.
+Subtracting 5 from both sides, we get y equals, let me just black this out, y equals 1 over 3 x minus 5.
+Looking at the answer choices, what we can see is that they don't actually give us the equation in standard form.
+They actually give us the equation.
+So, looking at the answer choices, what we can see is that they don't actually have it in the format of slope intercept form.
+This is why it's important that after reading the question, you first take a glance just so you have an idea of exactly what they're asking for.
+So, now let's convert from slope intercept form into standard form.
+First things first, I see we have a fraction in front of the x.
+So, let's multiply everything by 3 to get rid of this fraction.
+So, we get 3y equals x minus 15.
+And we know that in slope intercept form, we need ax plus by equals c.
+So, we have c right here.
+We have x on the right side.
+So, let's subtract x from both sides and we get that negative x plus 3y equals negative 15.
+Looking at the answer choices, we only see that one of them equals positive 15.
+But what I do notice is that their signs are different for every single number.
+Therefore, multiplying everything by negative 1, we get x minus 3y equals 15, which is answer choice d.
+As you can see here, you kind of have to think a little bit more out of the box because this is a hard difficulty level question.
+But it is entirely possible.
+Now, I'm going to show you how to do this question in Desmos.
+So, if we just graph 3x plus y equals 0, we know that line v must be perpendicular.
+So, know that whatever we graph, it must be perfectly 90 degrees with line u.
+And it must also pass through the y intercept of 0, negative 5.
+So, let's grab that 0, negative 5.
+All we need to do with Desmos is just try every single answer choice until we find one that is both perpendicular and passes through the point 0, negative 5.
+So, let's try that.
+So, plugging answer choice a, we see that they are parallel, not perpendicular.
+So, even though it passes through the point 0, negative 5, it's not perpendicular.
+So, A is not going to be correct.
+Let's try B.
+3x plus y equals 5.
+So, again, it's parallel, not perpendicular.
+So, again, not the right answer.
+Let's try answer choice C.
+x minus 3y equals 5.
+So, we see that this one appears to be perpendicular.
+So, now let's just zoom in and see where the y intercept is at.
+And, boom, it's not the same one that is required.
+So, it's not going to be answer choice C.
+Let's try D.
+x minus 3y equals 15.
+And, boom, it passes through 0, negative 5 and it is the only one that appears to be perpendicular and passes through the point.
+So, answer choice D is going to be the correct answer.
+So, just a reminder, y intercept, or B, is the starting value.
+And, this is the value of y when x is equal to 0.
+And, this is because on a graph, imagine this.
+This is going to be a y intercept, where it intercepts the y axis.
+And, with this, this is when x is equal to 0, if you want to remember it this way.
+For the x intercept, this is the value of x when y equals 0.
+Because, remember, this is when it intersects the x axis.
+So, y at this point is going to be y equals 0.
+So, this is also known as roots, or solutions, to an equation.
+So, now, pause the video and try out this hard difficulty question.
+The graph of 6x plus 5y equals 30 in the xy plane has an x intercept at a comma 0 and y intercept at 0 comma b, where a and b are constants.
+What is the value of a plus b?
+First of all, this question would be really, really fast doing decimals.
+But, first, I'm going to show you how to do it by hand.
+So, for sure, in order to get the x intercept, all we need to do is plug in y equals 0.
+So, let's do that.
+So, 6x plus 5 times 0 equals 30.
+What we get after simplifying is that 6x equals 30 and x equals 5.
+And that x equals 5.
+So, we know that a equals 5 because this is going to be the x intercept.
+Now, let's solve for the y intercept.
+Now, all we need to do is plug in 0 for x and solve for y.
+So, we get 6 times 0 plus 5 times y equals 30.
+And simplifying, we get 5y equals 30 and that y equals 6.
+So, we know that b equals 6.
+And it's asking for the value of a plus b.
+So, 5 plus 6 equals 11.
+And what I notice here is that d is actually 11 as well, funny enough.
+So, just completely ignore this answer choice.
+The answer should be b.
+Now, let me show you how to do this question on Desmos.
+So, because they give us an equation, all we need to do is just type it in.
+6x plus 5y equals 30.
+And it automatically graphs it for us.
+Now, all we need to do is just click on the x intercept right here, the y intercept right here, and Desmos gives us the points.
+And we know that a, which is the x intercept, equals 5.
+And y equals 6.
+And 6 plus 5 is answer choice b.
+By the way, as a side note, d should have been equal to 30.
+I don't know why I said 11 just earlier.
+But let's continue.
+Now, pause the video and try this hard difficulty question.
+How many liters of a 40% juice concentrate must be added to 5 liters of a 10% juice concentrate to attain a 20% juice concentrate?
+So, let's start writing out this equation.
+This question is definitely a little bit of a step up compared to the previous one.
+But don't worry, we got this.
+How many liters of 40% juice concentrate must be added to 5 liters of a 10%.
+So, we know that we have 5 liters of a 10%.
+So, let's do 5 times 0.1.
+Because 0.1 is the same as 10%.
+And then it's asking of a 40% juice concentrate, we're adding x liters.
+We don't know how many liters.
+We don't know how many liters.
+So, x liters times 0.4.
+And we know that we must obtain a 20% juice concentrate.
+So, this must be equal to some sort of liters times the actual concentration.
+And we know that originally we had 5 liters.
+So, we had 5 liters and we're adding x amount of liters.
+So, this is the final equation we get.
+5 liters of a 10% concentrate plus x liters of a 0.4.
+So, 40% juice concentrate equals and we get a 20% concentrate.
+Because we want to again obtain a total 20% juice concentrate.
+But we started with 5 liters and we're adding x liters.
+So, all we need to do is simplify this.
+And solving for x gives us the amount of liters we need to add.
+So, let's start.
+0.5 plus 0.4x equals and let's just distribute.
+So, we get 1 plus 0.2x.
+And now, just simplifying and subtracting from all sides.
+We subtract 0.2x, we get 0.2x equals.
+And now, let's subtract 0.5x.
+So, this goes away.
+This subtracts 0.5x, we get 0.5x.
+Solving for x, we get x equals 0.5x over 0.2x.
+Which is the exact same as 5x over 2x.
+Exact same as 2.5x as a decimal.
+And this is our final answer.
+We need to add 2.5 liters of 40% juice concentrate.
+So, now let me show you how to do this question on decimals.
+Fortunately, you still have to set up the entire equation by hand.
+All decimals can help you solve is actually just solving for x.
+So, again, we have 5 times 0.1 plus x times 0.4 equals.
+So, with Desmos, what we can do is just type all of this in.
+And because this entire equation is a single variable equation.
+So, it only has one variable, which is x.
+Desmos can automatically just solve for x for you.
+And immediately spits back that x equals 2.5.
+2.5, saving you a bunch of math.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra - Linear Equations in Two Variables - Parallel and Perpendicular Lines.txt
+--------------------------------------------------------------------------------
+
+Now let's talk about finding slope from ax plus by equals c. So to find the slope m, you must rewrite the equation into slope intercept form, which is exactly what I showed you at the start of this unit.
+So here's a reminder of how you should rewrite it. Move the x term to the other side by adding or subtracting, and then divide every term by the coefficient in front of y.
+So for example, 4x minus 3y equals 12 becomes, so let's do this, let's just ignore this, and I'll show you how to do it just normally.
+So we have 4x minus 3y equals 12. The first step is we see that because there's something else in front of negative 3y, we first remember using the reverse order of operations, we subtract 4y to actually get rid of it.
+So we do 4x minus 4x minus 4x. Now, these two cancel out. Now we're left with 3, negative 3y equals 12 minus 4x.
+And now we just need to divide both sides by negative 3, and then we get this right here.
+And after we simplify and rearrange, we get y equals, remember, because slope intercept form is y equals mx plus b, let's put this term in front.
+So simplifying, we have negative 4 over negative 3, which just turns to positive 4 over 3x, and then we have 12 over negative 3, which is minus 4.
+So if we get rid of everything right here, we got the exact same thing. Y equals 4 over 3x minus 4.
+So what we just did right here was rearrange standard form right here into slope intercept form. Great job.
+Now just a quick reminder about parallel lines. Parallel lines are lines that never intersect because they move at the exact same rate.
+So the rule is that parallel lines have the exact same slope. And again, they never intersect because they have the same slope.
+Now let's talk about perpendicular lines. Perpendicular lines cross at a perfect 90 degree angle.
+So the rule is that their slopes are negative reciprocals. What this means is you need to flip the fraction and change the sign.
+So for example, if line 1 has a slope of 3 over 5, let's do the process I just said, 3 over 5.
+We want to flip the fraction, so this turns into 5 over 3, and change the sign.
+So if it was originally positive, we just add a negative sign.
+If it was originally negative, so let's say for example it was 3 or negative 3 over 5, this becomes 5 over 3.
+But now we get rid of the negative sign because again, we want to just change the sign.
+So now, these two slopes are going to be perfectly perpendicular.
+And to check your work, if you multiply the two slopes together, they should always equal negative 1.
+So if we multiply negative 3 over 5 times 5 over 3, the 3s cancel out and the 5 cancel out.
+And all you're left with is negative 1.
+And if we do our example from just earlier, so I'm going to rewrite it here just so we can see it.
+Negative 3 over 5 and 5 over 3.
+Again, the 3 cancels out over here and the 5 cancels out over here.
+All we're left with is negative 1.
+So now let's try this question.
+Pause the video and try it yourself.
+Line P is defined by y equals negative 11 over 4x plus 2.
+Line Q is perpendicular to line P in the xy plane.
+What is the slope of line Q?
+So because they're only asking for the slope of line Q, we don't need to actually solve for B for line Q in any way.
+So let's just do it.
+We have negative 11 over 4 and we know that in order for them to be perpendicular, it just needs to be the negative reciprocal.
+So we're just going to take 4 over 11, again flipping the fraction.
+And because this was originally a negative, we just changed the sign.
+So now we make it positive.
+So this is going to be the final answer.
+So now I'll pause this video and try this medium difficulty question.
+Line R is defined by 4x minus 3y equals 12.
+Line S is perpendicular to line R in the xy plane.
+What is the slope of line S?
+So what we need to do is first, immediately after taking a look at this equation, we see that it is in standard form.
+So we need to somehow get the slope.
+So let's rearrange this equation.
+Subtracting 4 from both sides, we get negative 3y equals 12 minus 4x.
+Now dividing both sides by negative 3, we get y equals 12 over negative 3 minus 4x over negative 3.
+And simplifying both sides, we get y equals negative 4 plus 4 over 3x.
+And rearranging this just so we have it in slope-intercept form, we get y equals 4 over 3x minus 4.
+So all we did was just flip the order of these two.
+Because remember, addition, it doesn't matter the order in which they're in.
+Just make sure you keep the sign of each individual term.
+So now we get that the slope of line R is 4 over 3.
+Because line S is perpendicular to line R, we must take the negative reciprocal.
+So let's add, because this one's positive, let's add a negative sign and then simply flip the fraction.
+So you get that line S slope is negative 3 over 4.
+Now pause the video and try this question as well.
+Line F is defined by the equation 5x plus 3y equals 21.
+Line G is parallel to line F in the xy plane.
+What is the slope of line G?
+So because they are parallel, that means they have the exact same slope.
+So let's just get the slope for this equation and then we'll know the slope for the second equation or second line, line G.
+So let's rearrange.
+So first we want to subtract 5x from both sides.
+So we get 3y equals 21 minus 5x.
+And dividing both sides by 3, we get y equals 7 minus 5 over 3x.
+All we need really for this question is the actual slope.
+Because they're asking for the slope of line G.
+And we know the slopes are going to be equal for line F and line G.
+So the slope is just going to be negative 5 over 3.
+So answer choice B.
+Now let's try this hard question.
+Pause the video and try it out yourself.
+In the given pair of equations, A and B are constants.
+The graph of this pair of equations in the xy plane is a pair of perpendicular lines.
+Which of the following pairs of equations also represents a pair of perpendicular lines?
+So we see, just glancing up above, that there's A and B and they told us that they're both constants.
+Now these two must be perpendicular.
+Therefore, their slope must be negative reciprocals.
+But because we have them in standard form, it's going to be a little bit harder to work with.
+So what I'm getting at here is we need to convert this into slope intercept forms of y equals mx plus b.
+And then we can convert the second one also into y equals mx plus b.
+And then we can actually calculate the slope because once we convert the forms, we know what the slope is.
+Remember, m is just going to be the negative reciprocal.
+And from there, we're going to be able to get the values for A and B and then plug them in for every single answer choice.
+We can actually see which one is going to be perpendicular.
+So now let's do that.
+First, let's get the first equation into slope intercept form.
+So let's subtract 5x from both sides.
+We get 7y equals 1 minus 5x.
+Dividing both sides by 7, we get y equals 1 over 7 minus 5 over 7x.
+Now from here, we get that m equals negative 5 over 7.
+So for this question, m must be equal to, or the slope must be equal to, 7 over 5.
+So let's rearrange this equation first and then see what we can get for A and B.
+So we get that by, so subtracting ax from both sides, we get by equals 1 minus ax.
+And then dividing both sides by b, we get y equals 1 over b minus ax over b.
+And now we know that negative ax over b must be equal to 7 over 5x.
+This is because, again, remember, these two lines must be perpendicular.
+So the slope must be the negative reciprocal, which is 7 over 5, because the original is negative 5 over 7.
+So now we can get that A might be equal to negative 7, because negative 7 times negative 1 equals positive 7.
+So A equals negative 7, and b equals 5.
+So looking at the original equation, what we can see is that the original equation, A, is equal to 5, and b is equal to 7.
+In the second equation, A equals negative 7, and b equals 5.
+So let's rewrite the entire equation, plugging in values for A and B.
+We get negative 7x plus 5y equals 1.
+And what we notice here is that the only difference is, number 1, the positions of A and B are switched.
+So 5 and 7 got switched, and one of them became negative.
+That's what actually makes it perpendicular.
+So what we can actually conclude is going to the answer choices, we just have to look for the exact same thing.
+So let's see. Answer is A. 10x plus 7y. So what we should expect is that in order for it to be perpendicular, number 1, these two have to switch places. 7x plus 10y. And additionally, one of them must be negative. So this could be the case. Or 10 could be negative. So let's plug in our values for A and B, and see if that is the case. So what we get is negative 7x minus 10by equals 1.
+If we plug in values for A and B. What we notice here is that two values actually became negative. So answer is A is not going to be correct. Now let's go to answer is B. So we again want these two to switch places. So A equals negative 7. Negative 7x plus 10y equals 1. And from the example earlier, by the way, this B should not be here because this was actually plugged in for B equals 5. So ignore this B right here. So looking at this equation, this looks perfectly correct. Again,
+In order for these two to be perpendicular, what we noticed was that the 5 and the 7 switched places. So at first it was 5x plus 7y. Then it became 7x plus 5y. And then one of them, one of the coefficients became negative. What we see here with answer is B is the exact same trend.
+10x plus 7y equals 1.
+And negative 7x plus 10y equals 1.
+So n-stros b is going to be the correct answer.
+Let's go through the other ones as well.
+n-stros c, if we plug in, we get negative 14x plus 5y equals 1.
+And as we notice here, the format is not even nearly as consistent with what we said just earlier.
+The places did not flip-flop, although one of them is negative.
+But it's going to be different slopes, so it's not going to be c.
+d. So just plug in the exact same thing, we get negative 7x plus 5y equals 1.
+So we notice here is that the positions did switch, but the sign did not change on either one of them.
+They remain the exact same.
+So I'm going to be an-stros d.
+If you really wanted to, what you could also do is also convert each of these into slope-intercept form.
+And what you will find is that the slopes of the two equations are going to be negative reciprocals.
+Additionally, after going through this, I'm sure you probably noticed a pattern.
+The slope of the actual equation, and I mentioned this earlier, in standard form, is actually going to be negative a over b.
+So with this shortcut, this shortcut actually makes the question a lot quicker.
+But I wanted to show you the way to do it, even if you didn't know the shortcut.
+So from this equation, what we can immediately get is, again, that this is a, so the normal form is ax plus by equals 1.
+So if we take negative a, we get negative 5 over b.
+And again, this is the exact same slope as the one we just got earlier.
+This is the exact same thing.
+So with that, in order to be negative reciprocals, we need it to be 7 over 5 in order to make the two lines perpendicular.
+With this in mind, with this trick, it would actually make this question a whole lot easier.
+What we can see is that the slope for this equation is going to be negative 10 over 7.
+And then the slope for this equation is going to be negative negative 7, which is positive 7 over 10.
+And as you can see, these two are going to be negative reciprocals, which makes the two lines perpendicular.
+So just a quick recap.
+There's two ways you can do this question.
+Number one, you can solve for the slopes by rearranging the two equations and then solving for a and solving for the value of b,
+and then plugging those in and checking all the answer choices.
+Number two, if you know the shortcut, the slope in standard form is negative a over b,
+you can just calculate the slope of this equation, and you get that the slope is 7 over 5.
+And from this, you can determine that a equals negative 7 and b equals 5.
+Once you plug it in for all the answer choices with the shortcut, you will still find the exact same thing,
+that b results in two perpendicular lines.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra - Linear Equations in Two Variables - Point Slope Formula.txt
+--------------------------------------------------------------------------------
+
+Now let's talk about constructing a new line. So to build a new line parallel to another,
+you can use the same slope and one new point. This is where point-slope formula comes. This is the
+third form of a linear equation. So point-slope formula is as listed here. y minus y1 equals m
+times x minus x1. And you can use this to quickly plug in your coordinate and the slope and solve
+for the equation. So let's show what this looks like. In order to find a line parallel to y equals 3x
+plus 2, passing through, for example, the point 2, 4. So this is going to be a separate line. You just
+plug everything into point-slope formula. So y remains the same. You plug in y minus, and because
+they say y1, y1 is going to be the point. And they give you a value for y1. So you do y minus 4 equals,
+and again, remember that because the lines are parallel, the slope is going to remain the exact
+same. Therefore use 3 and x minus the point they give you, x minus 2. And now, simplifying, you get
+y minus 4 equals 3x minus 6. That gives you y equals 3x minus 2. So now this is the equation of the line
+that's parallel to the original line, y equals 3x plus 2, but it passes through the coordinate point
+2 comma 4. So now pause the video and try this medium difficulty question. What is the equation of the line that passes through the point
+4 comma negative 3 and is parallel to the graph of y equals 2x plus 7 in the xy plane? So because they gave us an equation, they said that there's another line that's parallel, and they give us one point, let's use point-slope formula. That is going to be y minus y1 equals m times x minus x1.
+So now let's plug in everything we're given. Y minus, and we're given a point, negative 3, so let's put negative 3 in parentheses, equals, and because they're parallel, we're going to grab the exact same slope from the original line, x minus, and then the x coordinate, minus 4.
+Now simplifying, we get y plus 3 equals 2x minus 8. Subtracting 3 from both sides, we get y equals 2x minus 11, which is going to give us answer choice 8, which is the correct answer.
+If we wanted to double check if this is correct, we know that this point right here must be passed through by the equation that we solve for. So what we can do is plug in x and y and see if the equation is true.
+So plug in negative 3 equals 2 parentheses 4 minus 11. Simplifying, we get negative 3 equals 8 minus 11, which gives us negative 3 equals negative 3, which is true.
+If you find that plug in the points, you get an equation that is false, then you can conclude that you probably solved the equation incorrectly.
+So now let me show you how to do this question on Desmos. So we know that the original equation is y equals 2x plus 7, and that the second equation is parallel and passes through the point 4 comma negative 3.
+So let's plug this into Desmos. And now all we need to do is plug in answer choices to see which one is parallel to this original equation, also passes through this coordinate point right here.
+So let's just start plugging in starting with answer choice A. Y equals 2x minus 11. And boom, we see immediately it passes through the point and it is parallel.
+Let's try the other answer choices. But right now, just from A alone, we know that it's the correct answer. Let's do minus 5. Boom.
+Although we see that it is parallel, it does not pass through the point. So it's not going to be the correct answer.
+Now let's do answer choice C. Y equals negative 2x plus 5. Obviously, definitely not right. Even though it passes through the point, it is most definitely not parallel.
+So let's try answer choice D. Y equals 2x plus 11. So we see again that it's parallel, but it does not pass through the point.
+So it's not going to be answer choice D. And the correct answer is going to be answer choice A.
+So now pause the video and try this question. In the xy plane, line u is defined by 3x plus y equals 0.
+Line v is perpendicular to line u. And the y-intercept of line v is 0 comma negative 5, which is the following is the equation for line v.
+So we know that in slope-intercept form, line v has a negative reciprocal slope of line u.
+So first, let's get the slope for line u.
+So remembering the shortcut, the slope of a linear equation from standard form is just negative a over b.
+And a in this case is 3. So we get negative 3 over 1.
+So the slope is just going to be negative 3.
+So the negative reciprocal of this, again, is just flip the fraction and get rid of the negative sign.
+So the slope of the perpendicular line is just going to be 1 over 3 and we get rid of the negative sign.
+So now, because we're given a point, we must plug it into slope-intercept form.
+So let's do y minus, and then the point they gave us, equals 1 over 3 times x minus 0.
+And simplifying, we get y plus 5 equals 1 over 3x.
+Subtracting 5 from both sides, we get y equals, let me just black this out, y equals 1 over 3x minus 5.
+Looking at the answer choices, what we can see is that they don't actually give us the equation in standard form.
+They actually give us the equation.
+So looking at the answer choices, what we can see is that they don't actually have it in the format of slope-intercept form.
+This is why it's important that after reading the question, you first take a glance, just so you have an idea of exactly what they're asking for.
+So let's convert from slope-intercept form into standard form.
+First things first, I see we have a fraction in front of the x.
+So let's multiply everything by 3 to get rid of this fraction.
+So we get 3y equals x minus 15.
+And we know that in slope-intercept form, we need ax plus by equals c.
+So we have c right here.
+We have x on the right side.
+So let's subtract x from both sides.
+And we get that negative x plus 3y equals negative 15.
+Looking at the answer choices, we only see that one of them equals positive 15.
+But what I do notice is that the signs are different for every single number.
+Therefore, multiplying everything by negative 1, we get x minus 3y equals 15, which is answer choice D.
+As you can see here, you kind of have to think a little bit more out of the box because this is a hard difficulty level question.
+But it is entirely possible.
+Now I'm going to show you how to do this question in Desmos.
+So if we just graph 3x plus y equals 0, we know that line v must be perpendicular.
+So know that whatever we graph, it must be perfectly 90 degrees with line u.
+And it must also pass through the y-intercept of 0, negative 5.
+So let's graph that 0, negative 5.
+All we need to do with Desmos is just try every single answer choice until we find that it's both perpendicular and passes through the point 0, negative 5.
+So let's try that.
+So plug in answer choice A, we see that they are parallel, not perpendicular.
+So even though it passes through the point 0, negative 5, it's not perpendicular.
+So A is not going to be correct.
+Let's try B.
+x plus y equals 5.
+So again, it's parallel, not perpendicular.
+So again, not the right answer.
+Let's try answer choice D.
+x minus 3y equals 5.
+So we see that this one appears to be perpendicular.
+So now let's just zoom in and see where the y-intercept is at.
+And boom, it's not the same one that is required.
+So it's not going to be answer choice C.
+Let's try D.
+x minus 3y equals 15.
+And boom, it passes through 0, negative 5.
+And it is the only one that appears to be perpendicular and passes through the point.
+So answer choice D is going to be the correct answer.
+So just a reminder, y-intercept, or B, is the starting value.
+And this is the value of y when x is equal to 0.
+And this is because on a graph, imagine this.
+This is going to be a y-intercept where it intercepts the y-axis.
+And with this, this is when x is equal to 0, if you want to remember it this way.
+For the x-intercept, this is the value of x when y equals 0.
+Because remember, this is when it intersects the x-axis.
+So y at this point is going to be y equals 0.
+So this is also known as roots or solutions to an equation.
+So now pause the video and try out this hard difficulty question.
+The graph of 6x plus 5y equals 30 in the x-y plane has an x-intercept at a, 0, and y-intercept at 0, b, where a and b are constants.
+What is the value of a plus b?
+First of all, this question would be really, really fast to do in decimals.
+But first, I'm going to show you how to do it by hand.
+So for sure, in order to get the x-intercept, all we need to do is plug in y equals 0.
+So let's do that.
+So 6x plus 5 times 0 equals 30.
+What we get after simplifying is that 6x equals 30 and that x equals 5.
+So we know that a equals 5 because this is going to be the x-intercept.
+Now let's solve for the y-intercept.
+Now all we need to do is plug in 0 for x and solve for y.
+So we get 6 times 0 plus 5 times y equals 30.
+And simplifying, we get 5y equals 30 and that y equals 6.
+So we know that b equals 6.
+And it's asking for the value of a plus b.
+So 5 plus 6 equals 11.
+And what I notice here is that d is actually 11 as well, funny enough.
+So just completely ignore this answer choice.
+Answer should be b.
+Now let me show you how to do this question on Desmos.
+So because they give us an equation, all we need to do is just type it in.
+6x plus 5y equals 30.
+And it automatically graphs it for us.
+Now all we need to do is just click on the x-intercept right here,
+the y-intercept right here, and Desmos gives us the points.
+And we know that a, which is the x-intercept, equals 5, and y equals 6.
+And 6 plus 5 is answer choice b.
+By the way, as a side note, d should have been equal to 30.
+I don't know why I said 11 just earlier.
+But let's continue.
+Now pause the video and try this hard difficulty question.
+How many liters of a 40% juice concentrate must be added to 5 liters of a 10% juice concentrate
+to attain a 20% juice concentrate?
+So let's start writing out this equation.
+This question is definitely a little bit of a step up compared to the previous one.
+But don't worry, we got this.
+How many liters of a 40% juice concentrate must be added to 5 liters of a 10%.
+So we know that we have 5 liters of a 10%.
+So let's do 5 times 0.1.
+Because 0.1 is the same as 10%.
+And then it's asking, of a 40% juice concentrate, we're adding x liters.
+We don't know how many liters.
+So x liters times 0.4.
+And we know that we must obtain a 20% juice concentrate.
+So this must be equal to some sort of liters times the actual concentration.
+And we know that originally we had 5 liters.
+So we had 5 liters and we're adding x amount of liters.
+So this is the final equation we get.
+5 liters of a 10% concentrate plus x liters of a 0.4.
+So 40% juice concentrate equals and we get a 20% concentrate.
+Because we want to, again, obtain a total 20% juice concentrate.
+But we started with 5 liters and we're adding x liters.
+So now all we need to do is simplify this.
+And solving for x gives us the amount of liters we need to add.
+So let's start 0.5 plus 0.4x equals, and let's just distribute.
+So we get 1 plus 0.2x.
+And now, just simplify and subtracting from both sides.
+We subtract 0.2x, we get 0.2x equals, and then now let's subtract 0.5.
+So this goes away.
+This subtracts 0.5, we get 0.5.
+Solving for x, we get x equals 0.5 over 0.2, which is the exact same as 5 over 2.
+Exact same as 2.5 as a decimal.
+And this is our final answer.
+We need to add 2.5 liters of 40% juice concentrate.
+So now let me show you how to do this question on desmos.
+Unfortunately, you still have to set up the entire equation by hand.
+All desmos can help you solve is actually just solving for x.
+So again, we have 5 times 0.1 plus x times 0.4 equals parentheses 5 plus x times 0.2.
+So with desmos, what we can do is just type all of this in.
+And because this entire equation is a single variable equation, so only has one variable, which is x,
+desmos can automatically just solve for x for you and immediately spits back the x equals 2.5,
+saving you a bunch of math.
+
+--------------------------------------------------------------------------------
+SOURCE: Algebra - Linear Equations in Two Variables - Standard Form.txt
+--------------------------------------------------------------------------------
+
+Let's talk about linear equations in two variables. So now let's introduce standard form. Standard form is going to be used a ton with linear equations with two variables. So let's see what this actually is. Standard form is going to be ax plus by equals c. Where a, b, and c are constants. So now standard form represents all possible combinations of two different things. For example, like pens and notebooks that equal a total. If this sounds confusing right now, that is totally okay.
+This will make a ton more sense once we get to the actual practice problem. So unlike y equals mx plus b, which is slope intercept form, the slope and the intercept aren't always obvious in this format.
+And this is because looking at standard form, we don't see m, which is equal to the slope or rate of change. And we definitely don't see b. Although you might argue b is right here.
+What I want to note, this is a very important distinction. Capital B is not the same. And I will repeat this again. It is not the same as lowercase b. The capital B does not represent the initial amount.
+But good news is that you can get from standard form to slope intercept form if necessary. I'll show you how to do that right now. So we notice the slope intercept form is that all this on the right side, mx plus b, is equal to y. And we have y in standard form.
+So let's try to rearrange it. So we know that we need to isolate y on the left side. So let's do that first. First step, let's subtract ax from both sides. So we get b, y equals c minus ax.
+And now all we need to do to isolate y is to divide both sides by b. So b cancels out and then we get b on the left side. So over b. It's also, key thing to note, it's also the exact same if you have c minus ax and you have the whole thing over b. Both of these forms right here are the exact same.
+And now if we just slightly rearrange this form right here, we can get y equals and we see this term. So negative ax over b has the actual x term in it, which mx has the actual x term in it. So we get that y equals negative ax over b plus c over b. So we know from here that negative a over b is the exact same as y. And this is a very important rule that you could remember.
+If even if you don't want to remember this, you can easily solve from this equation from rearranging standard form. So negative a over b equals m and then c over b equals the initial amount. So now we get to an actual practice question. Do not worry about pause the video and try it out yourself because first I'm going to walk you through exactly how to do this question. First of all, let's completely ignore the answer choices. Instead, what I want us to focus on right now is understanding the context of the question and understanding standard
+So let's start reading. An aquarium has six tank freshwater section and a 10 tank saltwater section. So they have six tanks that's freshwater and 10 tanks that are saltwater. And they're telling us the total number of fish in the aquarium is 180.
+The equation 6x plus 10y equals 180 represents this situation. Which of the following is the best interpretation of x in this context? So first, before we even start trying to interpret x, let's try to interpret the entire equation. So we get, I'm going to just rewrite it right here, larger. So 6x plus 10y equals 180. With that, we know that the total number of fish in the aquarium is 180. So this is total number of fish. So I'm going to write 180 fish.
+So now looking at 6x plus 10y, what our first instinct should always be is to look at the equation and see if any of the numbers match up. So here they do. We see that 6 corresponds with 6 and 10 corresponds with 10. So that 6 is the amount of freshwater sections. So there's 6 tanks and there's 10 tanks for the saltwater section. So x and y must be the amount of fish. Let me explain what that means. Remember, the total needs to be a number of fish. If we only have 6 tanks,
+we must multiply by the amount of fish in each tank in order to get the total amount of fish in each section. So 6x in this context represents the total amount of fish in all six tanks of the freshwater section. Let me explain. So 6 tanks multiplied by a random amount of fish in each tank. Let's say it's 5. This gives us 30. So what this means is in each of the freshwater tanks, there is 5 fish. If we multiply 5
+fish in one tank times the amount of tanks, which is six freshwater tanks, we know that there are 30
+fish total in the freshwater section with six tanks. Now if we do the same for the 10Y portion,
+again, there's 10 saltwater tanks. And now we want to multiply by the amount of actual fish in each
+tank. So if we just move this plus sign over here, we get 10 tanks times 15 fish per section.
+And now we get in total in the saltwater section, there is 150 fish. And now added together,
+there's a total of 180 fish. And by the way, if you're wondering, I just made these numbers up
+just so that it could equal just for the sake of this demonstration. In this question, you would
+not be able to assume that X equals five or that Y equals 15. It could be the scenario that X is
+actually equal to 10, and then Y would be equal to 12, as long as it equals 180. So now the question
+is asking for the best interpretation of X in this context. So X, which is right here, would be the
+amount of fish in the freshwater section per tank. Because remember, X, if it was just one X, this is the amount of fish in one freshwater tank. But if it's going to be 6X, this is the amount of fish in six tanks. Therefore, X is going to be average number of fish in one freshwater tank. So now let's go to the answer choices. Let's uncover them and see if that is an answer choice.
+A, the average number of fish per tank in the freshwater section. And boom, that's exactly what we were looking for. Let's keep reading just to prove the other ones are wrong. B, the average number of fish per tank in the saltwater section. So we know that that's going to be Y. So it's not going to be B. C, the total number of fish, the saltwater sea total, in the freshwater section. So we know that is actually going to be equal to 6X, not just X itself. So it's not going to be B.
+D, the total number of fish in the saltwater section. So we know that based on our example that we did just earlier, this is going to be equal to 10Y, which is again, not the interpretation of X. So answer as A is going to be our final answer. Now pause the video and try this question.
+So in quadrilateral A, B, C, D, sides A, B, and C, D each have a length of M centimeters. And sides B, C, and D, A each have a length of N centimeters. So because they mentioned some sort of quadrilateral, so this is slightly geometry related, let's draw a picture just to illustrate it for us.
+So we know that A, B, C, D is the quadrilateral. So now they're telling us that sides A, B, so let's label this right here, length of M. C, D also has a length of M. B, C, and D, A, so B, C right here, each have a length of N and N.
+So now the equation 2M plus 2N equals P represents this situation. The question is asked for which of the following is the best interpretation of P in this context.
+So what we notice is that M plus M plus N plus N is the exact same as 2M plus 2N. Now all that is is just adding up for the perimeter.
+And so with that in mind, now let's go to the actual answer choices and see which one matches up with our interpretation.
+The difference in centimeters between the lengths of AB and side BC. So that's not the case.
+Because this is just going to be M minus BC. M minus N, which is obviously not this equation. So it's not going to be A.
+B, the difference in centimeters between the lengths of AB, so again M, and DA, which is again going to be N.
+So it's not going to be an answer choice B either. Now let's go to an answer choice C.
+The sum of the lengths in centimeters of the four sides of the quadrilateral. So that's perfectly correct.
+So we said just earlier that the perimeter is going to be M plus M plus N plus N, which simplifies to 2M plus 2N.
+Therefore answer choice C is going to be the best answer. So D is going to be wrong just because it's saying the length in centimeters of one of the equal side length.
+So it's literally just saying M or N, which is not the correct interpretation. And P represents the perimeter, which is adding up all the sides.
+So C is going to be the correct answer. Now let's try this hard difficulty question. Pause the video and try it out yourself.
+Mio is packing boxes for shipping delivery. He filled X small boxes and Y large boxes with a total of 60 pounds of equipment. So know there's going to be a total of 60.
+And wow, they actually give us the equation. It makes our life even easier. The equation 4X plus 12Y equals 60 represents this situation, which is the best interpretation of 12Y in this context.
+So I'm going to write it here just so I can have it a little bit larger. And now again, let's focus on the actual total. The total is 60 pounds of equipment.
+And then we know that they filled X small boxes and Y large boxes. So for example, if they filled four small boxes and let's say they filled six Y boxes.
+So this might not even equal to 60, but I'm just throwing a random example here. We need somehow the end result to be in pounds.
+And we see here that X is the number of small boxes and Y, which we plug in for six, is the number of large boxes.
+So now we can interpret that four is equal to the weight of each small box. So each small box, if we do four small boxes, each one is going to be four pounds.
+So when we multiply it, we get that four times four equals 16 pounds. And then for the other side, if we do 12 times six, we get 72 pounds.
+So again, these numbers that I chose right here, they didn't obviously work for this question, but we only used random numbers just to illustrate and really understand this question.
+So now it's asking for the best interpretation of 12 Y. So I'm getting here is that 12 Y is the total amount of weight for the large boxes.
+Every single one of the large boxes added together. So now let's go to the answer choices. A, the number of large boxes Leo filled. So looking back at the question,
+Y, just Y alone, it's not 12 Y, Y is equal to the number of large boxes. Therefore, this is going to be equal to Y, which is not 12 Y. So it's not going to be A.
+B, the number of small boxes Leo filled. Again, small boxes is equal to X. So it's not going to be B.
+So now that sounds exactly right with our prediction right here. D, the total weight in pounds of the equipment in the small boxes. So this is going to be represented by 4X. So it's not going to be answer choices D. And C is our final answer.
+So now if the SAT gives you the value for one variable, all you need to do is just plug it in to find the other. So for example, replace the known letter with its number, simplify that term, and then use basic algebra to isolate for the remaining letter. Let's see what that looks like.
+In 4C plus 9D equals 108. If you know that D equals 4, you substitute to get 4C plus 36 equals 108. Because there's only one variable, you can just straight up solve the equation.
+So again, 4C equals 108 minus 36. And this gives 4C equals 72. And we get that C equals 18. Now let's try that with an actual question. Pause the video and try this question yourself.
+A podcast editor is producing an episode with a total length of 45 minutes. So let's just straight up set the equation equal to 45. The episode will consist of segments that are three minutes long and segments that are seven minutes long.
+Which equation represents the situation where S represents the number of three-minute segments and R represents the number of seven-minute segments? So that the total must be equal to 45 minutes.
+What I recommend for these questions, especially when you have to build out your own equation, is to, of course, build out your own equation before looking at the answer choices.
+Because it is pretty easy to get thrown off by the answer choices. So we have equals 45 minutes. And we know they are three-minute long and seven-minute long.
+And seven-minute long segments. S represents the number of three-minute segments. So it's going to be 3S plus and then R represents the seven-minute segments. So 3S plus 7R equals 45 minutes.
+So just to double-check, let's just plug in numbers for S and R just to make sure that our end units is the exact same as the one in the total. So we get three. If we just plug in the round numbers, let's just do 3 for S. So 3, 3-minute long segments plus 7-minute segments. And we do, let's say, one of them. Let's see if this gives us minutes. So we get 9 minutes plus 7 minutes. What's really important is just making sure the units is actually equal to the units of the final answer.
+If when you multiply it out, you somehow get, let's say, a number. So the number of seven-minute segments. Obviously, a number of three-minute segments plus a number of four-minute segments gives you a total of the number of segments, which obviously is not the right unit.
+So just do this extra step to make sure you did it correctly. So now we know that the correct answer, just taking a glance, is going to be answer choice D. Make sure you be very specific with what exactly you're looking for.
+So obviously, if you'd only spent like one second, you might have chosen answer choice C just because they flip-flopped the two coefficients. It's obviously not going to be A or B. It's not going to be C. And the answer is going to be D.
+Now pause the video and try this question. The equation 15J plus 25N equals 350 represents the number of journals, J, and the number of notebooks, N, that Marcus purchased for $350.
+If Marcus purchased eight notebooks, how many journals did he purchase? So let's just plug in exactly what they gave us. They said he purchased eight notebooks. So let's plug that in. You know that notebooks is N. So make sure you do not plug it in for J.
+So plus 25 times 8 notebooks equals 350. Now if we expand this, so seeing that we only have one variable, which is J, we can actually solve for it now. So if we actually expand this, we get plus 200 equals 350.
+And 15J remains the same. Subtracting 200 from each side, we have 15J equals 150. Dividing both sides by 15, we get that J equals 10. And the correct answer is going to be answer choice C.
+

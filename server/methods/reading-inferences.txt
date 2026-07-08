@@ -1,0 +1,121 @@
+Let's talk about inferences. So for inferences, there's only going to be one question step: which
+choice logically completes the text? For the steps to solving inference questions, number one, always
+read the question first. Number two, first read the last sentence containing the blank to identify
+what to pay attention to while reading the passage, and then read the passage. What's really important
+for inference questions is you must have a strong understanding of the text and its argument
+so simplify or dumb down the text as you read it. And number four, make sure your inference is supported
+by details found in the text. So you're going to see a bunch of evidence-backed conclusions with the
+inference category. And what really helps you logically complete the text is to pay special attention to
+transitions, usually contrast or agreeance in the passage. So it's transitions words such as however,
+therefore, hence, but, etc. Pause the video and try this question: which choice most logically completes
+the text? So now let's read the last sentence. The researchers want the robot's conversation to feel
+authentic because blank. From this last sentence alone, we know that they're talking about researchers,
+and they're talking about robots' conversation abilities to feel more authentic, or to feel authentic.
+And we're looking for the reason why. So now, with that in mind, let's read the passage. In many workplaces,
+brief, casual conversation, sometimes called small talk, can strengthen relationships between colleagues.
+Psychologists, Elle, and a research team are developing a social robot designed to initiate small talk with office workers to improve workplace morale.
+So just a quick summary, they're seeing that small talk is really good for building relationships between colleagues. And these psychologists are developing a robot designed to initiate this small talk to improve workplace morale. We continue. The robot uses natural language processing to tailor its topics and tone to match the
+conversational style of the conversational style of each individual employee. Now we want to reread this last sentence. So the researchers want the robot's conversation to feel authentic because people will be more likely to maybe interact with it, and therefore they can actually improve workplace morale. So let's go to the answer choices.
+A. Natural sounding conversation may help employees feel more at ease around the robot. So if it's already, this one sounds great. If they feel more at ease, they might actually talk into it more, and
+therefore improve workplace morale. So A sounds good so far. B. It is simpler to program a robot to make small talk than to program it to complete complex tasks. And so choice B is going to be incorrect because it's comparing small talk, the difficulty of small talk, to program it to complete complex tasks. Never once in the passage do they mention complex tasks, nor does that even logically complete the actual text. The researchers want the robot's conversation to feel authentic because it is simply to program a
+robot to make small talk than to program it to complete complex tasks. This portion right here is not relevant to what they were talking about just earlier. Answer choice C. Employees are less willing to work alongside robots that are physically dissimilar to humans. Answer choice C is going to be wrong because they never once talked about the physical characteristics of these robots. Let's go to answer choice D. The robot in the researchers study may eventually be used in settings outside the workplace. Answer choice D is going to be wrong.
+wrong because they never once mentioned any use for outside the workplace. Instead, they're just
+talking about it feeling authentic so they could improve the workplace morale in the actual workplace,
+not outside. Therefore, answer choice A is going to be the best answer. And answer choice A is
+correct. Now pause the video and try out this medium question. Which choice most logically
+completes the text? So we know this is an inference question. First, let's read the last sentence,
+the one containing the blank. It does seem that from this passage, it actually doesn't give us that much
+information. So let's just read it top down. Sourdough bread has long been prized by bakers,
+but the origins of the sourdough starter used in the oldest known recipes are disputed. A bakery in
+San Francisco claims it has maintained a continuously active starter since the establishment opened in
+1880s. A Swiss cheese making cooperative asserts that it developed an identical fermentation culture
+in the 1890s for use in dairy production before later adopting it for bread. Two separate artisan bakers,
+one in rural France and one in Bavaria, have also publicly insisted that sourdough starters
+used in their family's bakeries in the 1890s predate all other known cultures. No definitive evidence has
+emerged to confirm any one of these claims. However, it thus seems that blank. What I'm getting here,
+what probably most logically completes the text after reading all this is that it does seems that there is no agreed upon
+origin of who actually started the sourdough bread. So with that in mind, let's go to the answer choices. A. Sourdough bread was first made sometime before the 1880s. Again, it's saying that everything is heavily disputed and there is no known origin with complete certainty. So answer choice A is going to be incorrect. B. We cannot say at present whose started culture is truly the oldest. That sounds perfectly correct. Let's go to answer choice C.
+None of the groups claiming to possess an original starter culture actually do so. Again, C is not supported either because all of them claim to actually have started it.
+But we don't know for a fact that none of them actually do so. So C is going to be incorrect.
+Answer choice D. The San Francisco bakery most likely maintains the oldest sourdough starter. Again, they're saying it is disputed and there is no certainty on who actually started it. Therefore, answer choice D is going to be wrong as well.
+And the best answer is answer choice B. Now pause the video and try this hard difficulty level question.
+Which choice most logically completes the text? Let's read the last sentence.
+But H did not simply borrow from the N. He also added new elements including a subplot in which S widow seeks magical counsel.
+Which suggests that, wow, immediately we see that there are already a bunch of names. We're talking about this H. We're also talking about N. We're also talking about S. So what's really important just from reading that last sentence alone is that we really have to pay attention to the names.
+So for this question, normally we always abbreviate the names just to greet over them because it doesn't really matter. For this question, it might be really important. So let's not abbreviate the names and just read it as is.
+The mythology surrounding the hero Sigurd derives from numerous sources including the Vosunga saga compiled in Iceland in the 13th century. And the earlier Edic poem, I'm not going to even try to read this one, but I might just call this one F because it's in a different language. F composed around the late 10th century.
+One of the most influential later treatments, the middle high German, I'm going to call this one N because this is also very complicated, N was composed around 1200. So this one was 10th century, this one was 1200. Certain episodes from it were subsequently incorporated by the poet Henrich von Demme Terlin into his romance Dukrone around 1220.
+But Henrich did not simply borrow from this N, but also added new elements including a subplot in which Sigurd's widow seeks magical counsel, which suggests that...
+So what I'm getting here is going to be incredibly difficult to make a prediction. So for this question, I'm not going to try to make one because it might just confuse me more and might take a longer time to only produce a prediction that would be incorrect.
+So what we're getting from here, just to do a quick summary, the mythology surrounding the hero Sigurd comes from numerous sources, including VS, which compiled in 13th. One was compiled in the 10th. One was compiled in the 12th. So F was in the 10th.
+So let's just write this out. F equals 10, N equals 1200. So we'll put 12. And finally we have VS that was in the 13th. So it's saying that the one written in 1220, which is called Dukrone,
+Dukrone, did not simply borrow from N, but he also added new elements including a subplot, which suggests that.
+So now let's go into the actual answer choices and see if we can find one that makes sense. Dukrone is more historically reliable than the N because F had not yet been written when the N was composed.
+So answer choice A is going to be incorrect because they never once talked about which one was more reliable. They're just saying that this story was derived from multiple sources or numerous sources.
+Therefore, we're not actually focusing on the validity of these sources. A is going to be incorrect. B, the author of the N was unaware of the subplot involving S's widow, though historians know that the text containing such a subplot were available to them.
+So straight up, this one is incorrect with the timeline they mentioned in the actual passage. We know that N was written in the 1200.
+But we know that Dukrone, which is the one that added a subplot, was written in 1220, which is after N. Therefore, going back to answer choice B, the author of N was unaware of the subplot involving S's widow.
+This portion is true because again, N was written in 1220, while the Duke crown was written in 1220. So it's written after and the subplot was only added in 1220. So he wasn't aware of the subplot.
+Second part, though, historians know that texts containing such a subplot were available to him. This portion is false because again, the subplot was only introduced after N had already been written. So B is incorrect.
+C, the portrayal of S's widow in the N is more similar overall to her portrayal in the V's S than to her portrayal in Duke Crown.
+So C is going to be incorrect because we have no idea how similar they were across texts. The passage was only given us actual context about each of the sources, but it never once talked about how similar they were. All we know is that Duke Crown added a subplot.
+Now let's go to answer choice D. The version of the Sigurd myth that the author of F drew on would not have featured the subplot in which Sigurd's widow seeks magical counsel.
+So this is true because going back to the passage, the version of Sigurd's myth that the author this one wrote, let's go back and find out where that was.
+So F, he wrote the early one composed around the 10th century. So in the 10th century, it would not have featured the subplot, which is correct.
+Because again, the subplot was added in 1220. So D is going to be the correct answer.
+Pause the video and try this hard difficulty level question.
+Which choice most logically completes the text?
+So normally we would read the last sentence containing the blank, but I see that that's literally just half the passage.
+So for this question, I'm going to just read the full thing.
+As global demand for same day grocery delivery has surged, supermarket chains continue to struggle with micro-fulfillment logistics, the rapid picking and packing of individual customer orders within local fulfillment centers.
+So what I immediately noticed is that they find all these logistics. There's a lot that goes into it.
+So due to obstacles such as inconsistent inventory data and high labor turnover.
+So I'm going to just quickly summarize this since this is already half the passage.
+So we know that global demand for same day grocery delivery has surged and supermarket chains struggle with micro-fulfillment logistics.
+Let's continue.
+Technological solutions to address these challenges have been emerging.
+Okay, cool.
+So there might be solutions.
+For example, the deployment of autonomous shelf scanning robots.
+For example, but these solutions.
+Ooh, look what we have right here.
+A very important transition word.
+But these solutions tend to generate their own difficulties.
+Example, the robot's inability to operate reliably in narrow aisles during peak shopping hours.
+Leading industry analysts to conclude that blank.
+So here's what I'm getting at so far.
+Just to summarize everything.
+Global demand for same day grocery delivery has been increasing.
+But supermarkets struggle with micro-fulfillment logistics.
+There might be solutions, but these solutions tend to generate their own difficulties.
+Leading industry analysts to conclude that.
+Now let's go to the actual answer choices.
+A. Same day delivery is the most important factor driving customer loyalty to supermarkets.
+So they never once mentioned customer loyalty.
+But let's continue.
+And change should therefore prioritize investment in fulfillment speed.
+So what I noticed about answer choice A is that they do say the global demand for same day delivery has surged.
+But they never once said that it was the most important factor.
+Nor was this conclusion right here related to the actual conclusion they wanted us to conclude about the actual robots.
+So answer choice A is not going to be right.
+Answer choice B.
+A deep analysis of customer ordering habits is needed so that supermarket chains can better anticipate fluctuations in order volume.
+So answer choice B is going to be incorrect.
+And this is because they are focusing on customer ordering habits.
+When this is not what the passage was talking about.
+Nor was the passage trying to conclude anything about the customer's ordering habits.
+Instead, they would only talk about the complications with the logistics.
+So answer choice B is wrong.
+Answer choice C.
+Customer's expectations for same day grocery delivery may be surpassing what supermarket chains can realistically deliver.
+So answer choice C sounds exactly like what we were looking for.
+They were saying that global demand for same day grocery delivery has surged, but they struggled with all the logistics.
+And that's pretty much exactly what answer choice C is saying.
+So for now, I'm going to put a question mark at C and then continue to D.
+There may be insufficient motivation for supermarket chains to continue attempting to resolve micro-fulfillment logistics problems.
+So answer choice D is definitely going to be wrong because the stores literally mentioned in the passage,
+they already tried to find solutions to these supermarket problems.
+So we cannot conclude that as they already find the problems, they don't have enough motivation.
+So answer choice D is wrong and answer choice C is our best answer.
+Let's check if that is correct.
+And answer choice C is the correct answer.
