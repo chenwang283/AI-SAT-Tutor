@@ -1,4 +1,6 @@
 (function () {
+  const MAX_FIGURE_CAPTURE_DIMENSION = 1600;
+
   function normalizeMathUnicode(s) {
     return s.replace(/[\u{1D434}-\u{1D467}]/gu, (ch) => {
       const cp = ch.codePointAt(0);
@@ -8,6 +10,40 @@
     });
   }
 
+  function imageToDataUrl(img) {
+    if (!img?.complete || !img.naturalWidth || !img.naturalHeight) return null;
+
+    try {
+      const scale = Math.min(
+        1,
+        MAX_FIGURE_CAPTURE_DIMENSION / Math.max(img.naturalWidth, img.naturalHeight)
+      );
+      const width = Math.max(1, Math.round(img.naturalWidth * scale));
+      const height = Math.max(1, Math.round(img.naturalHeight * scale));
+      const canvas = document.createElement("canvas");
+      const context = canvas.getContext("2d");
+      if (!context) return null;
+
+      canvas.width = width;
+      canvas.height = height;
+      context.fillStyle = "#ffffff";
+      context.fillRect(0, 0, width, height);
+      context.drawImage(img, 0, 0, width, height);
+      return canvas.toDataURL("image/jpeg", 0.9);
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function extractFigure(img) {
+    return {
+      src: img.currentSrc || img.src || null,
+      alt: img.getAttribute("alt") || null,
+      width: img.naturalWidth || null,
+      height: img.naturalHeight || null,
+      dataUrl: imageToDataUrl(img),
+    };
+  }
   function mathAwareText(root, { normalizeUnicode = true } = {}) {
     if (!root) return null;
     const clone = root.cloneNode(true);
@@ -253,7 +289,7 @@
 
   function extractQuestion() {
     const stemEl = document.querySelector('[id^="question_text"]');
-    const figures = stemEl ? [...stemEl.querySelectorAll("img")].map((img) => ({ src: img.src })) : [];
+    const figures = stemEl ? [...stemEl.querySelectorAll("img")].map(extractFigure) : [];
     const mcq = extractMCQ();
     const freeResponse = mcq ? null : extractFreeResponse();
     const submitButton = document.querySelector('button[type="submit"] span');

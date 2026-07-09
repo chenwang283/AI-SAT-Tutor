@@ -17,6 +17,25 @@ function formatConversation(conversation) {
     .join("\n\n");
 }
 
+function getLatestStudentMessage(conversation) {
+  return [...conversation].reverse().find((message) => message.role === "student")?.content || "";
+}
+
+function hasThinStudentThinking(message) {
+  const normalized = message
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+  const wordCount = normalized ? normalized.split(/\s+/).length : 0;
+
+  return (
+    wordCount <= 3 ||
+    /^(idk|i don t know|i do not know|not sure|no idea|help|please help|i guessed|guessed|stuck|i m stuck|im stuck)\b/.test(
+      normalized
+    )
+  );
+}
+
 async function buildTutorPrompt({ question, teachingMethod, conversation, method }) {
   const [baseInstructions, mistakeClassification] = await Promise.all([
     readPromptFile("base-instructions.txt"),
@@ -25,6 +44,8 @@ async function buildTutorPrompt({ question, teachingMethod, conversation, method
 
   const studentTurns = conversation.filter((message) => message.role === "student").length;
   const isFirstTurn = studentTurns === 1;
+  const latestStudentMessage = getLatestStudentMessage(conversation);
+  const thinStudentThinking = isFirstTurn && hasThinStudentThinking(latestStudentMessage);
 
   return [
     baseInstructions.trim(),
@@ -34,11 +55,16 @@ async function buildTutorPrompt({ question, teachingMethod, conversation, method
     "",
     "OUR TEACHING METHOD for this concept (use this):",
     method?.title ? `Method title: ${method.title}` : "",
-    teachingMethod.trim() || "(No method provided.)",
+    teachingMethod.trim() ||
+      "(No method provided. Tell the student we do not have a saved method for this topic yet, then give conservative help from the captured question without pretending it is OUR method.)",
     "",
     "CONVERSATION SO FAR:",
     formatConversation(conversation),
     "",
+    thinStudentThinking
+      ? "The student's explanation is very limited. Do not pretend to know their reasoning; briefly orient them, then ask one concrete diagnostic question or explain the first decision they should make."
+      : "",
+    thinStudentThinking ? "" : "",
     isFirstTurn
       ? "This is the first tutor turn. Do this, grounded in the student's own words:"
       : "This is a follow-up turn. Answer the student's latest message directly, using the original question, prior conversation, and OUR method as context.",

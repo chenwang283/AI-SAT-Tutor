@@ -1,12 +1,14 @@
 # AI SAT Tutor Codebase
 
-Week 2 supports the first real tutoring conversation loop:
+Week 3 supports the first rounded-out tutoring loop:
 
 1. Chrome can load the extension side panel.
-2. The panel can read a StudySpaces multiple-choice or free-response question.
-3. The panel keeps the current chat in extension session storage.
-4. The panel sends the captured question and conversation history to /teach.
-5. The server looks up the current teaching method and returns the tutor reply.
+2. The panel can read a StudySpaces multiple-choice, free-response, or image-bearing question.
+3. Loaded question images are captured as data URLs when possible, with image URLs as fallback.
+4. The panel keeps the current chat in extension session storage without persisting captured image data.
+5. The panel sends the captured question and conversation history to /teach.
+6. The server looks up the current teaching method, sends text plus any captured images to OpenAI, and returns the tutor reply.
+7. The server logs each /teach exchange to server/logs/exchanges.jsonl for prompt and method review.
 
 Reference material lives in ../reference files and should be treated as read-only.
 
@@ -14,6 +16,7 @@ Reference material lives in ../reference files and should be treated as read-onl
 
 extension/              Chrome Manifest V3 side-panel chat UI
 server/                 Node/Express API for AI calls
+server/logs/            Local JSONL exchange logs, ignored by git
 server/methods/         Teaching method files used by method lookup
 studyspaces_extractor.js Existing StudySpaces extractor reference
 
@@ -59,7 +62,7 @@ Invoke-RestMethod -Method Post -Uri http://localhost:3000/teach -ContentType "ap
 3. Turn on Developer mode.
 4. Click Load unpacked.
 5. Select C:\Users\Chen\Documents\AI SAT Tutor Project\AI tutor codebase\extension.
-6. Open a StudySpaces multiple-choice or free-response question.
+6. Open a StudySpaces multiple-choice, free-response, or picture/graph question.
 7. Click the extension toolbar icon to open the side panel.
 8. Type your thinking and click Explain my mistake.
 9. Ask 2-3 follow-up questions in the same panel.

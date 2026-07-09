@@ -150,10 +150,14 @@ const METHOD_REGISTRY = [
       "command of evidence textual",
       "command of evidence text",
       "command of textual evidence",
+      "textual command of evidence",
       "textual evidence",
       "reading command of evidence textual",
       "reading - command of evidence textual",
+      "reading textual command of evidence",
+      "sat reading textual command of evidence",
       "information and ideas command of evidence textual",
+      "information and ideas textual command of evidence",
     ],
   },
   {
@@ -182,18 +186,7 @@ const METHOD_REGISTRY = [
       "information and ideas central ideas and details",
     ],
   },
-  {
-    key: "reading-introduction",
-    title: "SAT Reading Introduction",
-    fileName: "reading-introduction.txt",
-    tagAliases: [
-      "reading introduction",
-      "reading - introduction",
-      "sat reading introduction",
-      "introduction to sat reading",
-      "sat reading section introduction",
-    ],
-  },];
+];
 
 function normalizeTag(value) {
   return value

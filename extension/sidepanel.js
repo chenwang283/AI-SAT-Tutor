@@ -46,7 +46,9 @@ function setBusy(busy) {
 }
 
 function readyStatus() {
-  return chatState.method?.title ? `Ready. Method: ${chatState.method.title}.` : "Ready.";
+  if (!chatState.method) return "Ready.";
+  if (chatState.method.title) return `Ready. Method: ${chatState.method.title}.`;
+  return "Ready. No saved method for this topic yet.";
 }
 
 function cleanStoredMessages(storedMessages) {
@@ -73,10 +75,12 @@ async function loadState() {
 
   chatState = {
     questionKey: typeof storedState.questionKey === "string" ? storedState.questionKey : null,
-    question: storedState.question && typeof storedState.question === "object" ? storedState.question : null,
+    question: storedState.question && typeof storedState.question === "object" ? stripCapturedFigureData(storedState.question) : null,
     messages: cleanStoredMessages(storedState.messages),
     method: storedState.method && typeof storedState.method === "object" ? storedState.method : null,
   };
+
+  await saveState();
 }
 
 async function saveState() {
@@ -134,11 +138,63 @@ async function getActiveTab() {
   return tab;
 }
 
+function isSupportedQuestionHost(url) {
+  if (!url) return true;
+
+  try {
+    const hostname = new URL(url).hostname.toLowerCase();
+    return (
+      hostname === "studyspaces.com" ||
+      hostname.endsWith(".studyspaces.com") ||
+      hostname === "portal.nextstepsatcoaching.com" ||
+      hostname.endsWith(".portal.nextstepsatcoaching.com")
+    );
+  } catch (error) {
+    return false;
+  }
+}
+
+function unsupportedQuestionTabError() {
+  return new Error("Open a StudySpaces question tab first. This extension only has access to StudySpaces pages.");
+}
+
+function isPageAccessError(error) {
+  const message = error?.message || String(error || "");
+  return /Cannot access contents of the page|Extension manifest must request permission|Cannot access a chrome:|Cannot access a chrome-extension:/i.test(
+    message
+  );
+}
+
 function getQuestionKey(question) {
   if (question.questionId) return String(question.questionId);
   return [question.questionType, question.stem].filter(Boolean).join(":");
 }
 
+function isImageDataUrl(value) {
+  return typeof value === "string" && /^data:image\/(?:png|jpe?g|webp|gif);base64,/i.test(value.trim());
+}
+
+function getStoredFigureSrc(figure) {
+  const src = typeof figure?.src === "string" ? figure.src.trim() : "";
+  return src && !isImageDataUrl(src) ? src : null;
+}
+
+function stripCapturedFigureData(question) {
+  if (!question || typeof question !== "object") return question;
+
+  return {
+    ...question,
+    figures: Array.isArray(question.figures)
+      ? question.figures.map((figure) => ({
+          src: getStoredFigureSrc(figure),
+          alt: figure?.alt || null,
+          width: figure?.width || null,
+          height: figure?.height || null,
+          capturedImage: Boolean(figure?.dataUrl || figure?.src),
+        }))
+      : question.figures,
+  };
+}
 function validateExtractedQuestion(question) {
   if (!question?.stem) {
     throw new Error("I could not find a StudySpaces question on the active tab.");
@@ -157,15 +213,27 @@ async function extractQuestionFromActiveTab() {
   }
 
   const tab = await getActiveTab();
-  await chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    files: ["studyspacesExtractor.js"],
-  });
+  if (!isSupportedQuestionHost(tab.url)) {
+    throw unsupportedQuestionTabError();
+  }
 
-  const [result] = await chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: () => globalThis.aiSatTutorExtractQuestion?.(),
-  });
+  let result;
+  try {
+    await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      files: ["studyspacesExtractor.js"],
+    });
+
+    [result] = await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: () => globalThis.aiSatTutorExtractQuestion?.(),
+    });
+  } catch (error) {
+    if (isPageAccessError(error)) {
+      throw unsupportedQuestionTabError();
+    }
+    throw error;
+  }
 
   const question = result?.result;
   validateExtractedQuestion(question);
@@ -223,7 +291,7 @@ form?.addEventListener("submit", async (event) => {
     }
 
     chatState.questionKey = questionKey;
-    chatState.question = question;
+    chatState.question = stripCapturedFigureData(question);
     chatState.messages = [...chatState.messages, { role: "student", content: studentMessage }];
     await saveState();
     renderMessages();
