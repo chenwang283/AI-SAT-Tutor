@@ -1,6 +1,36 @@
 const API_URL = "http://localhost:3000/teach";
 const STORAGE_KEY = "aiSatTutorChat";
 const SUPPORTED_QUESTION_TYPES = new Set(["multiple_choice", "free_response"]);
+const ALLOWED_MARKDOWN_TAGS = new Set([
+  "a",
+  "blockquote",
+  "br",
+  "code",
+  "del",
+  "em",
+  "h1",
+  "h2",
+  "h3",
+  "h4",
+  "h5",
+  "h6",
+  "hr",
+  "li",
+  "ol",
+  "p",
+  "pre",
+  "s",
+  "strong",
+  "table",
+  "tbody",
+  "td",
+  "th",
+  "thead",
+  "tr",
+  "ul",
+]);
+const DANGEROUS_MARKDOWN_TAGS = new Set(["embed", "iframe", "object", "script", "style"]);
+const MATH_TOKEN_PATTERN = /(AISATTUTORMATH\d+TOKEN)/g;
 
 const form = document.querySelector("#tutor-form");
 const messages = document.querySelector("#messages");
@@ -92,6 +122,147 @@ async function clearState() {
   await chrome.storage.session.remove(STORAGE_KEY);
 }
 
+function isSafeLinkUrl(value) {
+  try {
+    const url = new URL(value, "https://extension.invalid");
+    return url.protocol === "http:" || url.protocol === "https:" || url.protocol === "mailto:";
+  } catch (error) {
+    return false;
+  }
+}
+
+function sanitizeMarkdownHtml(template) {
+  template.content.querySelectorAll("*").forEach((element) => {
+    const tagName = element.tagName.toLowerCase();
+
+    if (!ALLOWED_MARKDOWN_TAGS.has(tagName)) {
+      if (DANGEROUS_MARKDOWN_TAGS.has(tagName)) {
+        element.remove();
+      } else {
+        element.replaceWith(...element.childNodes);
+      }
+      return;
+    }
+
+    for (const attribute of [...element.attributes]) {
+      if (tagName === "a" && attribute.name === "href" && isSafeLinkUrl(attribute.value)) continue;
+      element.removeAttribute(attribute.name);
+    }
+
+    if (tagName === "a" && element.hasAttribute("href")) {
+      element.target = "_blank";
+      element.rel = "noopener noreferrer";
+    }
+  });
+}
+
+function protectMath(markdown) {
+  const expressions = [];
+  const addExpression = (expression, displayMode) => {
+    const token = `AISATTUTORMATH${expressions.length}TOKEN`;
+    expressions.push({ expression: expression.trim(), displayMode, token });
+    return token;
+  };
+
+  let protectedMarkdown = markdown
+    .replace(/\\\[([\s\S]+?)\\\]/g, (_, expression) => addExpression(expression, true))
+    .replace(/\$\$([\s\S]+?)\$\$/g, (_, expression) => addExpression(expression, true))
+    .replace(
+      /(^|\n)[ \t]*\[\s*\n([\s\S]*?)\n[ \t]*\](?=\n|$)/g,
+      (_, prefix, expression) => `${prefix}${addExpression(expression, true)}`
+    )
+    .replace(/\\\(([\s\S]+?)\\\)/g, (_, expression) => addExpression(expression, false))
+    .replace(
+      /\(([^()\n]*(?:\\[a-zA-Z]+|[=_^])[^()\n]*)\)/g,
+      (_, expression) => addExpression(expression, false)
+    )
+    .replace(
+      /\(([A-Z]{1,2}|[a-z](?:\d+)?|\d+[a-zA-Z]?)\)/g,
+      (_, expression) => addExpression(expression, false)
+    )
+    .replace(/(?<!\\)\$([^\n$]+?)\$/g, (_, expression) => addExpression(expression, false));
+
+  return { expressions, markdown: protectedMarkdown };
+}
+
+function createMathElement(expression, displayMode) {
+  const math = document.createElement("span");
+  math.className = displayMode ? "math-display" : "math-inline";
+  globalThis.katex.render(expression, math, {
+    displayMode,
+    strict: "ignore",
+    throwOnError: false,
+    trust: false,
+  });
+  return math;
+}
+
+function renderMath(container, expressions) {
+  if (!expressions.length || typeof globalThis.katex?.render !== "function") return;
+
+  const expressionsByToken = new Map(expressions.map((expression) => [expression.token, expression]));
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      return node.parentElement?.closest("code, pre, a")
+        ? NodeFilter.FILTER_REJECT
+        : NodeFilter.FILTER_ACCEPT;
+    },
+  });
+  const textNodes = [];
+  let textNode;
+
+  while ((textNode = walker.nextNode())) {
+    if (MATH_TOKEN_PATTERN.test(textNode.nodeValue)) textNodes.push(textNode);
+    MATH_TOKEN_PATTERN.lastIndex = 0;
+  }
+
+  textNodes.forEach((node) => {
+    const fragment = document.createDocumentFragment();
+
+    node.nodeValue.split(MATH_TOKEN_PATTERN).forEach((part) => {
+      const expression = expressionsByToken.get(part);
+      fragment.append(expression ? createMathElement(expression.expression, expression.displayMode) : part);
+    });
+
+    node.replaceWith(fragment);
+  });
+}
+function renderTutorMessage(body, markdown) {
+  if (typeof globalThis.marked?.parse !== "function") {
+    body.textContent = markdown;
+    return;
+  }
+
+  const { expressions, markdown: markdownWithMathTokens } = protectMath(markdown);
+  const template = document.createElement("template");
+  template.innerHTML = globalThis.marked.parse(markdownWithMathTokens, { breaks: true, gfm: true });
+  sanitizeMarkdownHtml(template);
+  body.replaceChildren(template.content);
+  renderMath(body, expressions);
+}
+
+function setMessageContent(body, role, text) {
+  if (role === "assistant") {
+    renderTutorMessage(body, text);
+  } else {
+    body.textContent = text;
+  }
+}
+
+function getScrollPosition() {
+  return {
+    documentTop: document.scrollingElement?.scrollTop || 0,
+    messagesTop: messages.scrollTop,
+  };
+}
+
+function restoreScrollPosition(position) {
+  messages.scrollTop = position.messagesTop;
+  if (document.scrollingElement) {
+    document.scrollingElement.scrollTop = position.documentTop;
+  }
+}
+
 function addMessage(role, text, extraClass = "") {
   const message = document.createElement("article");
   message.className = ["message", role, extraClass].filter(Boolean).join(" ");
@@ -100,23 +271,23 @@ function addMessage(role, text, extraClass = "") {
   label.className = "label";
   label.textContent = role === "student" ? "You" : "Tutor";
 
-  const body = document.createElement("p");
-  body.textContent = text;
+  const body = document.createElement(role === "assistant" ? "div" : "p");
+  body.className = "message-body";
+  setMessageContent(body, role, text);
 
   message.append(label, body);
   messages.append(message);
-  messages.scrollTop = messages.scrollHeight;
   return message;
 }
 
 function updateMessage(message, text, extraClass = "") {
-  const body = message.querySelector("p");
-  if (body) body.textContent = text;
+  const body = message.querySelector(".message-body");
+  if (body) setMessageContent(body, "assistant", text);
   message.className = ["message", "assistant", extraClass].filter(Boolean).join(" ");
-  messages.scrollTop = messages.scrollHeight;
 }
 
 function renderMessages() {
+  const scrollPosition = getScrollPosition();
   messages.textContent = "";
 
   if (!chatState.messages.length) {
@@ -128,6 +299,9 @@ function renderMessages() {
   if (explainButton && !isSubmitting) {
     explainButton.textContent = getSubmitLabel();
   }
+
+  restoreScrollPosition(scrollPosition);
+  requestAnimationFrame(() => restoreScrollPosition(scrollPosition));
 }
 
 async function getActiveTab() {

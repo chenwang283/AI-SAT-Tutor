@@ -85,7 +85,7 @@ h1 {
   background: #fbfdf8;
 }
 
-.message.pending p {
+.message.pending .message-body {
   color: #64748b;
 }
 
@@ -97,12 +97,11 @@ h1 {
   font-weight: 700;
 }
 
-.message p {
+.message-body {
   margin: 0;
   color: #263447;
   font-size: 14px;
   line-height: 1.5;
-  white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
 
@@ -173,4 +172,102 @@ button:disabled {
 
 .secondary-button:hover:not(:disabled) {
   background: #eef4f6;
+}
+
+.message.student .message-body {
+}
+
+.message.assistant .message-body > :first-child {
+  margin-top: 0;
+}
+
+.message.assistant .message-body > :last-child {
+  margin-bottom: 0;
+}
+
+.message.assistant .message-body p,
+.message.assistant .message-body ul,
+.message.assistant .message-body ol,
+.message.assistant .message-body blockquote,
+.message.assistant .message-body pre,
+.message.assistant .message-body table {
+  margin: 0 0 10px;
+}
+
+.message.assistant .message-body h1,
+.message.assistant .message-body h2,
+.message.assistant .message-body h3,
+.message.assistant .message-body h4,
+.message.assistant .message-body h5,
+.message.assistant .message-body h6 {
+  margin: 14px 0 7px;
+  color: #172033;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.message.assistant .message-body ul,
+.message.assistant .message-body ol {
+  padding-left: 22px;
+}
+
+.message.assistant .message-body li + li {
+  margin-top: 4px;
+}
+
+.message.assistant .message-body blockquote {
+  border-left: 3px solid #8eb8c1;
+  padding-left: 10px;
+  color: #52657a;
+}
+
+.message.assistant .message-body code {
+  border-radius: 3px;
+  padding: 1px 4px;
+  background: #edf2f7;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.9em;
+}
+
+.message.assistant .message-body pre {
+  overflow-x: auto;
+  border-radius: 4px;
+  padding: 10px;
+  background: #edf2f7;
+}
+
+.message.assistant .message-body pre code {
+  padding: 0;
+  background: transparent;
+}
+
+.message.assistant .message-body a {
+  color: #185b69;
+}
+
+.message.assistant .message-body table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.message.assistant .message-body th,
+.message.assistant .message-body td {
+  border: 1px solid #d7dde8;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.math-display {
+  display: block;
+  margin: 10px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.math-inline .katex,
+.math-display .katex {
+  font-size: 1.05em;
 }
