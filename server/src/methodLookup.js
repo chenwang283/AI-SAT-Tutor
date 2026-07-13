@@ -79,6 +79,7 @@ const METHOD_REGISTRY = [
       "algebra systems of linear inequalities with two variables",
       "algebra - systems of linear inequalities with 2 variables",
       "algebra - systems of linear inequalities with two variables",
+      "linear inequalities in one or two variables",
     ],
   },
   {
@@ -98,6 +99,7 @@ const METHOD_REGISTRY = [
       "algebra systems of linear equations with two variables",
       "algebra - systems of linear equations with 2 variables",
       "algebra - systems of linear equations with two variables",
+      "systems of two linear equations in two variables",
     ],
   },
   {
@@ -181,6 +183,7 @@ const METHOD_REGISTRY = [
       "reading command of evidence quantitative",
       "reading - command of evidence quantitative",
       "information and ideas command of evidence quantitative",
+      "quantitative command of evidence",
     ],
   },
   {
@@ -253,6 +256,7 @@ const METHOD_REGISTRY = [
     tagAliases: [
       "nonlinear equations in 1 variable",
       "nonlinear equations in one variable",
+      "nonlinear equations in one variable and systems of equations in two variables",
       "quadratic discriminant",
       "discriminant",
       "solutions with 1 equation",
@@ -268,6 +272,7 @@ const METHOD_REGISTRY = [
     tagAliases: [
       "nonlinear equations in 2 variables",
       "nonlinear equations in two variables",
+      "nonlinear equations in one variable and systems of equations in two variables",
       "solutions with 2 equations",
       "solutions with two equations",
       "expressing one variable in terms of another",
@@ -360,6 +365,8 @@ const METHOD_REGISTRY = [
       "frequency",
       "standard deviation",
       "one variable data substitution strategy",
+      "One-variable data: Distributions and measures of center and spread",
+      "one-variable data: analyzing distributions using measures of center and spread",
     ],
   },
   {
@@ -374,6 +381,8 @@ const METHOD_REGISTRY = [
       "linear equations and graphs",
       "quadratic equations and graphs",
       "rate of change",
+      "two-variable data - models and scatterplots",
+      "sat_two-variable data - models and scatterplots",
     ],
   },
   {
@@ -386,13 +395,21 @@ const METHOD_REGISTRY = [
       "random samples",
       "sample generalization conceptual",
       "generalizing from a sample",
+      "evaluating statistical claims - observational studies and experiments",
     ],
   },
   {
     key: "psda-inference",
     title: "Statistical Inference",
     fileName: "psda-inference.txt",
-    tagAliases: ["statistical inference", "inference", "margin of error", "moe", "sample generalization calculations"],
+    tagAliases: [
+      "statistical inference",
+      "inference",
+      "margin of error",
+      "moe",
+      "sample generalization calculations",
+      "inference from sample statistics and margin of error",
+    ],
   },
   {
     key: "psda-probability",
@@ -401,6 +418,8 @@ const METHOD_REGISTRY = [
     tagAliases: [
       "probability",
       "probability and percentages",
+      "percentages",
+      "probability and conditional probability",
       "arithmetic with percentages",
       "basic percentages",
       "basic probability",
@@ -425,6 +444,7 @@ const METHOD_REGISTRY = [
       "ratios",
       "units",
       "unit conversion",
+      "ratios, rates, proportional relationships, and units",
     ],
   },
   {
