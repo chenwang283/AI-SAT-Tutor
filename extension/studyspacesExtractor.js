@@ -10,6 +10,85 @@
     });
   }
 
+  const MATH_SOURCE_ATTRIBUTES = [
+    "data-latex",
+    "data-tex",
+    "data-math",
+    "data-formula",
+    "data-expression",
+    "data-value",
+    "value",
+  ];
+
+  function firstTextValue(values) {
+    for (const value of values) {
+      if (typeof value !== "string") continue;
+      const trimmed = value.trim();
+      if (trimmed) return trimmed;
+    }
+    return "";
+  }
+
+  function readMathAttribute(el) {
+    if (!el?.getAttribute) return "";
+    return firstTextValue(MATH_SOURCE_ATTRIBUTES.map((name) => el.getAttribute(name)));
+  }
+
+  function findSiblingMathEditor(el) {
+    const directSibling = [...(el?.parentElement?.children || [])].find((sibling) =>
+      sibling.classList?.contains("Tiptap-mathematics-editor")
+    );
+    if (directSibling) return directSibling;
+
+    const container = el?.parentElement;
+    const renderers = container?.querySelectorAll?.(".Tiptap-mathematics-render") || [];
+    const editors = container?.querySelectorAll?.(".Tiptap-mathematics-editor") || [];
+    return renderers.length === 1 && editors.length === 1 ? editors[0] : undefined;
+  }
+
+  function readRenderedMath(el) {
+    if (!el) return "";
+
+    const annotation =
+      el.querySelector?.('annotation[encoding="application/x-tex"]') ||
+      el.querySelector?.("annotation");
+    const editor = findSiblingMathEditor(el);
+    const mathMl = el.querySelector?.("math");
+    const katexMathMl = el.querySelector?.(".katex-mathml");
+
+    return firstTextValue([
+      annotation?.textContent,
+      readMathAttribute(el),
+      readMathAttribute(el.parentElement),
+      typeof el.value === "string" ? el.value : "",
+      readMathAttribute(editor),
+      typeof editor?.value === "string" ? editor.value : "",
+      editor?.textContent,
+      mathMl?.getAttribute?.("aria-label"),
+      mathMl?.textContent,
+      katexMathMl?.getAttribute?.("aria-label"),
+      katexMathMl?.textContent,
+      el.getAttribute?.("aria-label"),
+      el.textContent,
+    ]);
+  }
+
+  function formatMathForText(value, normalizeUnicode) {
+    let math = value.trim();
+    if (normalizeUnicode) math = normalizeMathUnicode(math);
+    if (!math) return "[math expression unavailable]";
+    if (/^\\\([\s\S]*\\\)$/.test(math) || /^\\\[[\s\S]*\\\]$/.test(math)) return math;
+    return `\\(${math}\\)`;
+  }
+
+  function replaceMathNodes(clone, selector, originalValues, normalizeUnicode) {
+    clone.querySelectorAll(selector).forEach((node, index) => {
+      if (!clone.contains(node)) return;
+      const math = originalValues?.[index] || readRenderedMath(node);
+      node.replaceWith(document.createTextNode(formatMathForText(math, normalizeUnicode)));
+    });
+  }
+
   function imageToDataUrl(img) {
     if (!img?.complete || !img.naturalWidth || !img.naturalHeight) return null;
 
@@ -46,13 +125,24 @@
   }
   function mathAwareText(root, { normalizeUnicode = true } = {}) {
     if (!root) return null;
+    const originalTiptapMath = [...root.querySelectorAll(".Tiptap-mathematics-render")].map(
+      readRenderedMath
+    );
+    const originalMathFields = [...root.querySelectorAll("math-field")].map(readRenderedMath);
     const clone = root.cloneNode(true);
+    replaceMathNodes(
+      clone,
+      ".Tiptap-mathematics-render",
+      originalTiptapMath,
+      normalizeUnicode
+    );
     clone.querySelectorAll(".Tiptap-mathematics-editor").forEach((node) => node.remove());
-    clone.querySelectorAll(".Tiptap-mathematics-render").forEach((span) => {
-      let tex = span.querySelector('annotation[encoding="application/x-tex"]')?.textContent?.trim() || "";
-      if (normalizeUnicode) tex = normalizeMathUnicode(tex);
-      span.replaceWith(document.createTextNode(tex ? `\\(${tex}\\)` : ""));
+    replaceMathNodes(clone, "math-field", originalMathFields, normalizeUnicode);
+
+    [".katex", "mjx-container", "math"].forEach((selector) => {
+      replaceMathNodes(clone, selector, null, normalizeUnicode);
     });
+
     return clone.textContent.replace(/\s+/g, " ").trim() || null;
   }
 

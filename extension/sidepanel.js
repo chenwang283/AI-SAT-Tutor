@@ -395,12 +395,21 @@ async function extractQuestionFromActiveTab() {
   try {
     await chrome.scripting.executeScript({
       target: { tabId: tab.id },
+      world: "MAIN",
       files: ["studyspacesExtractor.js"],
     });
 
     [result] = await chrome.scripting.executeScript({
       target: { tabId: tab.id },
-      func: () => globalThis.aiSatTutorExtractQuestion?.(),
+      world: "MAIN",
+      func: () => {
+        const extractQuestion = globalThis.aiSatTutorExtractQuestion;
+        try {
+          return extractQuestion?.();
+        } finally {
+          delete globalThis.aiSatTutorExtractQuestion;
+        }
+      },
     });
   } catch (error) {
     if (isPageAccessError(error)) {

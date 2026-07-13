@@ -6,7 +6,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "check": "node --check src/server.js && node --check src/openaiClient.js && node --check src/promptBuilder.js && node --check src/methodLookup.js && node --check src/exchangeLogger.js"
+    "check": "node --check src/server.js && node --check src/openaiClient.js && node --check src/promptBuilder.js && node --check src/methodLookup.js && node --check src/exchangeLogger.js && node --check ../extension/sidepanel.js && node --check ../extension/studyspacesExtractor.js && node ../extension/studyspacesExtractor.test.js"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
