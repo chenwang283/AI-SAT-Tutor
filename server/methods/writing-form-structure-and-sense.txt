@@ -1,0 +1,714 @@
+STITCHED TRANSCRIPT
+SECTION: Writing
+TOPIC: Standard english conventions
+SKILL: Form, Structure, and Sense
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Form, Structure, and Sense - Subject-Verb Agreement-E.txt
+--------------------------------------------------------------------------------
+Let's talk about form structure and sense. Specifically in form structure and sense, today we will be going over subject verb agreement. And this is exactly what it sounds like. The subject and the verb in a sentence must agree. Now let's go into specifics on what exactly is a subject. Well, a subject is a person, place, thing, or idea performing the action being described in a sentence, right? How do we find this? Well, we can ask who or what is performing the action being described in a sentence.
+Or who or what is this sentence about? What is the sentence or who is the sentence focusing on? That is the subject. Now, what is a verb? Well, a verb shows what the subject does and is usually an action or what the subject is, right? Is a state of being. So it's just elaborating on what the subject does, which could be an action, or what the subject is, which is a state of being. Now, how do we find this? We look for a word that
+that tells what the subject is doing or being. Note is, are, was, were, be, being, been are all verbs. And these are all state of being verbs. Now, if we had an action verb, we would have something like she is running, or she is singing, running and singing are both the verbs in those scenarios. And those are both action verbs. Now let's actually talk about this grammatical rule. Singular subjects must be paired with a singular verb. So
+she runs fast. She is the singular subject. Runs is the singular verb. These are being paired together. So this is right and this satisfies subject verb agreement. Plural subjects must be paired with the plural verb. They run fast. They is the plural subject. Run is the plural verb. Since these are matched together, they are satisfying subject verb agreement. For example, if we have said, they runs fast. First of all, that doesn't even sound right.
+And that's because it's grammatically incorrect. We need to match they, which is a plural subject with run, which is a plural verb. In the present tense, singular verbs usually end with s. He runs. While plural verbs do not. They run. So this is just a way, if you can't remember which one's singular and which one's plural, then you can use this rule to remember that. Now, we need to identify the subject. But we need to watch out for traps. Prepositional phrases. Words like of, in between, and along.
+are never part of the subject. Sometimes we have intervening phrases. Sometimes we have intervening phrases which are extra words or phrases that come between the subject and the verb. This happens a lot on the SAT because they are trying to trick you into losing sight of what the actual subject of the sentence is. Prepositional phrases between the subject and verb. First, we need to identify the subject and verb. The group of students by the lake is ready. Notice, where do we have subject verb agreement?
+Well, the subject is the group of students. Well, the subject is the group of students. And this agrees with, well, we'll learn this later, but this is a collective noun. A singular group of people is a singular subject. And that agrees with the singular verb is. Now, this by the lake is a prepositional phrase and it's just sandwiched in between it and has nothing to do with the subject verb agreement. The box of heavy books is on the floor. Again, this is a prepositional phrase.
+of heavy books of heavy books. The box, this right here, the box is the subject and this agrees with the singular verb is. So the box is a singular subject which agrees with the singular verb is. And heavy books has nothing to do with the subject verb agreement. Now, let's go into specific cases of subject verb agreement that are a little bit trickier. Indefinite pronouns. Pronouns that refer to non-specific people or things such as anybody,
+and everything are grammatically singular. A crucial SAT note is that each and
+neither are the most common trap words. If they are followed by a plural phrase
+each of the scientists, the verbs still stay singular. So you would say each of
+the scientists is, right? Each of the scientists is cool, not each of the
+scientists are cool. Even though the second one, well that sounds right because
+it matches with scientists, but of the scientists is a preposition. Each is the
+actual subject and each is singular which means that it matches with is, which is
+also singular. We have a few examples of this. Each of the 19 galaxies is expanding.
+Singular, singular. Neither of the volcanic eruptions was predicted. Singular, singular.
+Everyone in the crowded theater applauds. Singular, singular. One of the most famous
+paintings has vanished singular one singular has so all of these are showing indefinite pronouns
+and how they match with singular verbs now let's talk about compound subjects when two subjects are
+joined by and they become plural here are some examples the tutor and the student work not works
+they work together because the tutor and the student this has become a plural subject and this
+needs to be matched with the plural verb work both the sunlight and the rain are necessary so both the
+sunlight and the rain this is plural because two subjects are joined by and so there's multiple
+so now it's a compound subject and now it needs a plural verb to match with it so r is the plural
+verb the sat will try to trick you by using phrases that look like and and do not change the subject
+to plural these are called additive phrases and remain singular trap words along with as well as in
+addition to accompany by together with so the tutor along with his students is working even though
+well oh look it's the tutor along with his students so aren't these two things together so wouldn't this
+be compound and wouldn't this be plural plural no it's only when two subjects are joined by and when it
+uses along with his students this is a side tangent it is an additive phrase right what we set up here an
+additive phrase so the actual subject is the tutor and this is a singular tutor so it needs a singular verb
+which is is same thing with this the actor as well as the directors was nervous so we ignore that as
+well as the directors this is additive and we just focus on the actor which is singular and we focus on
+matching that with a singular verb was collective nouns these are words that represent a group for example a
+team jury audience or company and these are always singular the party even though probably there are
+many people in the party if you address them as a group it stays singular in grammar so the party is here
+is is a singular verb and this matches with the singular subject which is the party the question bank will
+you will almost always follow a collective noun with a phrase starting with of that contains a plural noun
+however it stays singular what does this mean right a series of difficult scientific experiments was conducted
+right the trap experiments right we see experiments and that seems like it should be plural but that's not the subject
+right if we see of that means this of is describing the series right so the actual subject here is a
+series so a series however is a group is a group which means that this should stay singular a series
+of difficult scientific experiments was conducted not a series of difficult scientific experiments
+were conducted that's wrong was is a singular verb a series is a group that's singular and these match
+and the of difficult scientific experiments this is just filler and you need to ignore this here's
+another example the set of rules governs how the game is played the set is the subject is is the verb
+now of rules right rules looks like it's plural but it is actually describing the set and the set
+is the real subject so set is the subject and so set governs sorry correction this isn't a singular
+verb this matches with governs do we notice a pattern across all these subject verb agreements
+yes there is a common subject verb agreement trap from the last three slides regardless of the type
+of subject verb agreement a commonality was the trap that the sat used for each and what is that trap
+a singular subject will often be followed by plural filler words in order to confuse you and make you pick a
+plural verb the actor as well as the director's was nervous you want to say the director's were nervous because well directors that's plural so this needs to be work but pay attention because this phrase is additive our actual subject is the actor and the actor was nervous so this is singular the singular actor needs to match up with the singular was remember focus on identifying the subject first this is heavily tested remember this trap the singular actor needs to match up with the singular was remember focus on identifying the subject first this is heavily tested remember this trap the singular actor needs to match up with the singular was
+actor needs to match up with the singular was. Remember, focus on identifying the subject first.
+This is heavily tested. Remember this trap. Now that we've learned about subject-verb agreement,
+let's go ahead and try on a problem. Let's go ahead and read the question first. Which choice
+completes the text so that it conforms to the conventions of standard English? So now I know
+that this is a grammar question, which could be testing many different things, but once we read
+the question, we'll know the specific rule it's testing. In recent decades, urban planners across
+the globe have developed innovative frameworks to assess the livability of major cities.
+Architects in Japan, for example, rely on a walkability and wellness score. This tool blank
+pedestrian access, green space ability, and residents' overall health outcomes. So which one of these
+answer choices will be best? Well, we have this tool measures, this tool had measured, this tool would
+have measured, this tool will have been measuring. So I'm automatically noticing that this is subject-verb
+agreement because tools is a subject and we need to know the verb. And the verb needs to match in singular or plurality. So this tool, well, tool is one tool, so it's singular. So it needs to have a singular verb, which is measures. Measures is the singular form of the word measure. Had, would have, and will have been are all plural. So we know that these are all wrong. So answer choice A would be best.
+Let's see if that's right. And it is. Before I do this question, go ahead and try it for yourself.
+The Central Library of Maplewood County in Vermont blank one of the rare public buildings in the
+region that remain open seven days a week throughout the entire year. So now we got to see
+which one conforms to the conventions of standard English. So when I go to the answer choices and I
+see are, have is in are, I'm immediately noticing that these are differences between singular and plural words.
+So knowing that I'm going to try to identify the subject. The Central Library of Maplewood County in
+Vermont. Well, this of, right, Maplewood County in Vermont is describing the subject, which is
+actually the Central Library. So the Central Library is a singular subject. So we need a singular verb
+that matches with it. Are being, that's plural. Have, that's plural. Is, that's singular. Are,
+that's plural. So the only one that could work here is is. That is the only singular verb. And let's see
+if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+Because a sequence of tidal patterns along the coast blank roughly 24 hours and 50 minutes to
+complete. It's impossible to experience two high tides in a single day, one in the morning and one
+in the evening. So which choice conforms to the conventions of standard English? In my answer
+choices, I'm noticing are, have, take, and takes, which are differences between singularity and
+plurality. So I know that this could be a subject verb agreement. So knowing that I'm going to try to
+identify the subject because a sequence of tidal patterns along the coast, well, of tidal patterns
+along the coast, this is filler. And it's also just describing the sequence. So the sequence is singular.
+So we need a singular verb for a singular subject. Are is plural. Have is plural. Take, takes is plural.
+Oh, sorry. Take is plural. However, takes is singular. So we know that answer choice D would work best in this context. And notice that this is tricky because a sequence of title patterns, when it ends in patterns, patterns looks like it's plural. So you might want to pick a plural verb that matches with this. However, you really need to distinguish what is the subject. In this sentence, the real subject is the sequence. Of title patterns is just describing the sequence. And we know sequence is the sequence.
+So we know sequence. So we know sequence. So we know that our verb takes has to be singular. And let's see if that's right. And it is. Before we do this question, go ahead and try it for yourself. In the catalog of Victorian travel writing, Scottish explorer Isabella Bird's 1879 collection, Unbeaten Tracks in Japan Stands Apart, a vivid chronicle, a celebration of solitude and a sharp critique of Western assumptions about Asian culture. Bird's journals of her journey through rural Japan blank
+So we're looking for what conforms to standard English. So when I see these answer choices fascinate, has fascinated, fascinates is I'm noticing that this is a difference between singularity and plurality. So this is testing subject verb agreement. Now let's go ahead and identify the subject. In this one, we see a vivid chronicle, a celebration of solitude and a sharp critique of Western assumptions. Bird's journals. So all of this beforehand was describing Bird's journals.
+And so the journals. And so the journals is the subject of her journey through rural Japan. That is also describing the journals. But all this clutter around the subject is showing that this journal is the most important or is what the sentence is talking about. So now that we know that journals is the subject, we need to identify the verb. And since journals is plural, we need to identify the plural verb that matches with it. So Bird's journals of her journey.
+Through rural Japan. So we can go ahead and keep that for now. Has fascinated. So we can go ahead and keep that for now. Has fascinated. That's singular. Fascinates. Singular. Is fascinating. Singular. So the only one that works in this scenario is fascinate, which is plural and matches with Bird's journals, which is also plural. And let's go ahead and see if that's right.
+And it is. Before we do this question, go ahead and try it yourself. Eight of the Chimamanda Ngozi Adichie's published works are classified as fiction.
+Although each one of these works, which include purple hibiscus and half of a yellow sun blank on a single formative error in Nigerian history. Some feature overlapping characters and recurring themes drawn from the same historical period, which one conforms to standard English.
+So looking at these answers choices, I see focuses, focus, are focused, were focused. I'm noticing a difference between singularity and plurality, which means that this is testing subject verb agreement.
+Now let's go ahead and try to find the subject. So looking in the first half, we see, although each one of these works. So I'm noticing that this is the subject and this text right here, which include purple hibiscus and half of a yellow sun.
+This is all describing each one of these works. However, works looks like plural. So we might be tempted to pick a plural verb that matches with this plural word, which is works.
+But you really need to focus in the beginning, although each one. So when it uses the word each, remember what we learned earlier, each is singular.
+So each one of these works, when it uses the word each, it's separating them in a singular manner, which is why we need to match each with a singular verb.
+So looking at the answer choices, we see focuses, which is singular. So that's okay. Focus, that's plural. So that's wrong. Are, that's plural. That's wrong. Were, that's plural. That's also wrong.
+So the only answer choice we're left with is answer choice A. Also, when we're doing these questions, I want you to notice something else.
+Every time we find the right answer choice, it tends to be the only one that works singularly. For example, focus is plural, are is plural, and were is plural.
+If you just noticed that this is the only one that's singular and everything else is plural, you can often also find the answer choice through that way. Use the answer choices to your advantage.
+So now that we've chosen answer choice A, let's see if that's correct. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Form, Structure, and Sense - Verb Tenses-E.txt
+--------------------------------------------------------------------------------
+Let's talk about form, structure, and sense. More specifically, let's talk about verb tenses.
+Now, what are verb tenses? They indicate the time at which an action takes place. For example,
+if you have a sentence, you always have a verb, right? And this verb is going to be placed in
+either past, present, or future. That is when the action takes place. It is important to put your
+verb tense in the correct time frame. Now, let's go over specific examples of verb tenses. First,
+we have simple past. This is used for actions that were completed at a specific point in the past.
+For example, in 1922, Howard Carter discovered the tomb of Tutankhamen. In this sentence, we see that
+it is in 1922, so we know that it's in the past. Therefore, we're going to change our verb to the
+past tense version of the verb. In this case, we have the verb discover, and the past tense version
+is discovered. You add an ed to the end. Usually, most past tense verbs are in this form,
+with an ed added to the end. There are exceptions, but a majority of the time, you want to be looking
+out for verbs that end in ed when dealing with simple past. Now, let's talk about present. Present is used
+for facts, habits, or things that are generally true. For example, the earth rotates on its axis every 24
+hours. This is not happening in the past. This is not happening in the future. This is happening
+currently, and it is a fact that is generally true. Another example would be, I brush my teeth every day.
+This is not happening in the past or the future. It is happening now, and it's a habit that is true
+right now. Now, let's talk about the simple future. These are used for actions that have not happened
+yet. Therefore, they are happening in the future. For example, the NASA rover will land on the Martian
+surface next year. Now, how do we know whether the passage is talking about the future? Well, usually,
+there will be a word before the verb. In this case, it's the word will. This is showing that the NASA rover
+has not landed on the Martian surface, but it will soon, which means that it is talking about the future.
+And this is also how we can identify future tense. We will see words placed before verbs that indicate
+a future action. Now, let's go over some common traps. Make sure to not mix past and present in the
+same sentence. We want the sentence to be the same tense throughout. And make sure to also not shift tenses
+without a time clue. Now, what does time clue mean? Well, in a sentence, time clues are words that give
+hints to where this tense is, whether it's in past, present, or future. For example, if the passage said
+in 1922, we know that the passage most likely will be situated in the past because in 1922 is in the past.
+Now, let's go over some strategy. Make sure to look at the verbs before and after the blank and match the
+timeline and make sure to also match plurality and tense. We will be going in more detail on strategy
+in a later slide. Now, let's go ahead and get into the specifics of different types of verb tenses.
+First, we have past perfect, and this is the past of the past. It's used to show which of two past actions
+happen first. The structure of past perfect is had plus a past participle. For example, had finished.
+By the time the restoration crew arrived, the weather had already damaged the exterior of the historic
+monument. In this sentence, what do you notice? Well, there's actually two verbs, right? We have arrived
+and damaged, except one happens before the other. The weather damaging the monument happens before the
+restoration accrue arrives. And these are two verbs, but one happens before the other. That is why this is
+called past of the past, because everything's in the past, but it is ordering past actions based off of what
+happens first. Here are some SAT time markers. If you see the words by the time before paired with a simple
+past verb or until then, those could be indicators that we are dealing with past perfect. Now let's talk about
+present perfect. These are actions that happened at an unspecified time in the past or have a direct result in the present.
+The structure of present perfect is has/have plus a past participle. For example, has studied/have shown. Over the last decade,
+researchers have discovered several new species of deep sea fungi that thrive near hydrothermal events. This is happening at an
+unspecified time in the past. It just says over the last decade, but it doesn't specify when exactly it happened. So this is the present perfect.
+Some time markers would be over the last x years, since, already, yet, and recently. If you see any of these words, it could be an indicator that we are dealing with present perfect.
+Now let's get into the strategy on how to answer these verb tense questions. Our first step is we're going to read the question and take a glance at the answer choices. Once we do that, if we identify verb tense as answer choices,
+the question is testing verb tenses. Then we're going to read the passage and focus on identifying verb tenses of other words and time clues before and after the blank. Once we do that, and we understand what tense the passage is in, we can match the tense to the passage. Now that we've gone over how to actually do the strategy, let's go ahead and try on a real question. My first step is I'm going to read the question. Which choice completes a text so that conforms to the conventions of standard English? Now I
+I know I'm dealing with grammar. Now I'm going to read the answer choices. To have suspended, suspending, to suspend, and suspend it. These are all dealing with tenses. So I know that this is a verb tense question. Now I'm going to read the question, keeping in mind time clues and the verb tenses of other verbs. In the early 1920s, I can already stop there. This is in the past. Inspired partly by the geometric patterns of traditional Navajo blankets. American muralist, Gerald Neller began, okay, this
+is a past tense verb crafting his celebrated ceremonial panels. He blanked intricate symbols into smooth wooden boards and painted, okay, that's also past tense, them with mineral pigments, layering meaning into each piece with striking precision. So understanding these time clues and these past tense verbs, I'm understanding that this entire passage is in past tense. Therefore, we need a verb that matches that. Let's go to the answer choices. To have suspended. This is in past tense, but it's the infinitive version.
+So this is wrong. Suspending is not past tense. To suspend. That is not past tense. And suspended. This would be perfect here because it is showing the past tense of the verb suspend. So that would be the perfect answer. And let's go ahead and see if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question. Which choice completes the text so that it conforms to the conventions of standard English? I know it's testing grammar. Now let me read the answer choices. Is, will be, has been, was. This is a difference between tense. So I know it's testing verb tense. Now I'm going to the passage and identifying time clues and verbs.
+Stretching across much of Southeast Asia, the Khmer Empire was one of the most powerful civilizations in the region between the 9th and 15th centuries.
+Well, this is the 9th and 15th century.
+Right now, it is not the 9th and 15th century, so we know that this is dealing with the past.
+It blank, led, okay, I know that led is that past tense version of lead, so I know that this is dealing with past tense.
+By King Suryavarman II from 1113 to 1150, this is also past tense.
+The monarchy commissioned, commissioned is past tense, the construction of Angkor Wat.
+So now, based off of the time clues and the verb tenses, I am immediately recognizing that this passage is in past tense.
+Therefore, I need a verb that is also in past tense.
+Is is not past tense.
+Will be is not past tense.
+Has been is also not past tense.
+Simple past.
+But de was is past tense.
+This would be the perfect verb to go into the blank.
+Now, let's see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question.
+Which choice completes the text so that it conforms to the conventions of standard English?
+Now, I need to read the answer choices to see what it's testing.
+Are, were, have been, was.
+Based off of this, I see a difference in verb tense, so I know that this is testing for verb tenses.
+Now, I'm going to read the passage, making sure to identify time clues and verbs.
+In the 1930s, this is in the past, Thor Heyerdahl, a bold Norwegian explorer, emerged, this is a past tense verb, as a compelling voice in debates about ancient Pacific migration routes.
+His meticulous documentation of plant specimens across the Galapagos Islands, a remote volcanic archipelago in the Pacific Ocean that is home to nearly 700 species of native plants.
+Many of which are found nowhere else on earth, blank, pivotal in reshaping scientific theories about early human settlement patterns.
+So, now I know, based off of these time clues, that this passage is in past tense.
+Now, I'm going to look at my answer choices.
+Are is not simple past, so we can eliminate that.
+Were is simple past.
+However, it's plural, so we'll come back to that.
+Have been is not simple past, so we can eliminate that.
+Was is simple past, so these both work for this blank.
+However, this question is a little bit more tricky because it adds an extra layer.
+Now, we need to know whether this blank needs to be plural or singular.
+So, it's actually testing another SAT concept, which is subject verb agreement.
+Now, let's go ahead and go back and identify the subject.
+If we go back to the beginning, we see that it's talking about Thor Hairedal, an explorer who wrote about Pacific migration routes.
+And then we see that his meticulous documentation, this documentation right here is the subject of the sentence.
+So, knowing this, we can see that we need to match documentation, which is singular, to the verb in this blank, which also needs to be singular.
+So, if we look at the answer choices were and was, we know that were is a plural verb.
+So, we can eliminate that was is singular and it's simple past.
+Therefore, it would be the best answer choice to fit in this blank.
+Now, let's go ahead and see if that's right.
+And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Form, Structure, and Sense - Word Pairs-E.txt
+--------------------------------------------------------------------------------
+Let's talk about form, structure, and sense.
+More specifically, let's talk about word pairs.
+Now, word pairs are commonly confused words.
+So what does this mean?
+Well, we have actually a few examples laid out
+to understand conceptually.
+So if we can look, we can see except as our first example
+with also except.
+Now, they sound similar,
+but they actually mean completely different things.
+Except is to agree, right?
+And except is to exclude, right?
+We have other word pairs like this,
+affect, which is to influence,
+and effect, which is a result.
+Compliment, which means that something
+that completes another thing,
+or compliment, which means giving praise.
+Elicit is to draw out something,
+and then elicit is forbidden by law.
+Now, let's focus on its and its,
+which is more heavily tested on the SAT,
+which is why it's outlined in green.
+It's is the possessive form of it.
+For example, if I said, I like its color.
+Its color is showing that whatever thing it is,
+it possesses that color,
+and that's what I like about it.
+So there's a difference between it's with an apostrophe,
+which is a contraction of it is,
+which basically means that if you were to put it is
+in a sentence, you could substitute it there.
+So it is good, right?
+If I said it is good, I could say it's good,
+because it's a contraction of it is,
+but you can't use this form.
+You can't use ITS without the apostrophe.
+You have to use IT apostrophe S.
+Okay, now let's go ahead and look at more word pairs.
+Principle, which means main,
+and Principle, which means a fundamental belief.
+Stationary, which is not moving.
+Stationary, which is writing materials.
+Then, which is used in comparison,
+and then, which is at that time.
+Now let's go over there,
+which is also heavily tested on the SAT.
+There are three different theirs.
+There's the possessive there,
+which is the possessive form of they.
+And basically this is used
+whenever we're indicating possession.
+If I said, I like their shoes.
+Well, their shoes, they own those shoes,
+which is why we use T-H-E-I-R.
+Now, if we said T-H-E-R-E, there,
+this is referring to a place.
+I'm going to put that staple there.
+If I put that staple there,
+that is a place,
+which is why I use T-H-E-R-E.
+There's also T-H-E-Y apostrophe R-E,
+which is a contraction of they are.
+This is the same thing as the contraction of it is.
+We can use these interchangeably
+in a place where we would have put they are, right?
+They are going to the store.
+We would use T-H-E-Y apostrophe R-E.
+Now, we also have the difference between twos.
+T-O is a preposition, right?
+I go to the store.
+T-O, O is excessively, right?
+It means too much.
+I don't like that color.
+It's too bright.
+This is excessive.
+And two is just referring to the number two.
+Your and your,
+there's also a difference between this.
+Your is the possessive form of you
+and your is a contraction of you are.
+Now, let's delve into a little bit more
+about the strategy of word pairs.
+First, what we're going to do
+is read the question and answer choices
+to see what the question is testing.
+If you see word pairs as answer choices,
+it is testing word pairs.
+Now, we need to read the passage
+and focus on identifying the subject of the word pair.
+Then, we're going to go ahead
+and match the subject with the word pair.
+Now that we understand a little bit more
+about the strategy,
+let's go ahead and try it on a problem.
+Our first step is to read the question.
+Which choice completes the test
+so that it conforms to the conventions
+of standard English?
+I know that this is talking about grammar.
+When I read these answer choices,
+there, it's, they are, and it's.
+I know that this is testing word pairs.
+So, I can go ahead and go into the paragraph
+looking out for the subject.
+Chicana artist Carmen Lomas Garza's
+folk art narrative panels
+offer an unusually immersive viewing experience
+with blank dozens of meticulously painted scenes
+arranged in the format of a traditional Mexican retablo altar.
+The panels present viewers with an abundance
+of personal stories drawn from everyday life
+in a South Texas community.
+So, I'm automatically noticing
+that this is describing painted scenes of the panels.
+These folk art narrative panels
+offer an unusually immersive viewing experience.
+So, I know that the subject of this sentence is panels.
+Now, we need to match the subject
+with the correct word pair.
+With blank dozens.
+Now, with its dozens or with their dozens.
+The first question to ask is
+whether this is plural or whether this is singular.
+Well, we know that panels is plural.
+Therefore, we are going to be looking for one of these answer choices that's plural.
+It's apostrophe s and its are both not plural.
+So, we can go ahead and eliminate those as answer choices.
+Now, the decision is between their and they are, right?
+They are is just a contraction of they are.
+And their is showing possession.
+So, when we read this,
+with blank dozens of meticulously painted scenes.
+Well, these panels,
+they own these meticulously painted scenes.
+The panels possess the meticulously painted scenes.
+So, we know that we need to use their in this scenario.
+And not they are.
+Let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question.
+Which choice completes the text so that it conforms to the conventions of standard English?
+I know that this is talking about grammar.
+Now, I'm going to read the answer choices.
+I see they are, they're, it's, and it is.
+Now, I'm noticing that these are all word pairs.
+So, this is a word pair question.
+Now, I'm going to go ahead and read the passage to identify the subject.
+When it was first cataloged in the Pacific Ocean in 1877,
+the blue ringed octopus so defied expectations
+that one naturalist named it Octopus maculisus paradoxus,
+the paradoxical spotted one.
+The creature, which displays vibrant, iridescent rings,
+but conceals blank, lethal venom within specialized salivary glands,
+has since been classified as one of the most exotic animals on earth.
+So, what is this passage's subject?
+Well, it's the creature, which is the blue ringed octopus,
+which displays vibrant, iridescent rings, but conceals what?
+So, the creature is singular.
+First, we know that we need to be dealing with a singular word pair.
+So, they are and there is both wrong.
+Now, it's down to it's and it is.
+Remember, it's right here is showing possession.
+It is is just a contraction of it is.
+Now, let's go ahead and fit each into the answer choice.
+But conceals its possessive, lethal venom.
+The creature owns this lethal venom.
+So, it would work in this scenario.
+But what about it is?
+Which displays vibrant, iridescent rings, but conceals it is lethal venom.
+That makes no grammatical sense and it doesn't sound right.
+So, we know that this is trying to indicate possession.
+So, we know that answer choice C would be the best answer for this.
+Now, let's go ahead and see if that's right.
+And it is.
+And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Form, Structure, and Sense -Pronoun Usage-E.txt
+--------------------------------------------------------------------------------
+Let's talk about form, structure, and sense. More specifically, let's go over pronoun usage.
+Now, what is a pronoun? A pronoun is a word that replaces a noun to avoid repetition. In other
+words, it's a stand-in word. Here are some examples of pronouns. He, she, it, they, and the list goes
+on. Now, what is an antecedent? An antecedent is a specific noun that a pronoun refers back to.
+And maybe this is a little confusing right now, but it'll make sense once I give an example.
+What is the purpose of pronouns? Well, pronouns prevent repetitive writing by allowing you to
+refer to a person or thing without saying their name every time. Now, let me give an example. Let's
+say that Bob goes to the store. Bob buys some milk. Bob buys some apples. Okay, notice what I did there.
+I said Bob every single time, and that usually gets repetitive in writing. That is why we have
+pronouns so that we don't have to be repetitive while we say things. So if instead I said Bob goes to the
+store, he bought some milk, he bought some apples, then we wouldn't have as much repetition. And this
+is the point of a pronoun in grammar. The antecedent in that case would be Bob. Bob is a specific noun
+that the pronoun refers to. And the pronoun in that case would be he. The rule is that a pronoun has no
+meaning without a clear identifiable antecedent. Pronouns must match their antecedent in number and gender.
+Let's go over number first. Number means that if the antecedent is singular, then the pronoun must be
+singular. For example, the girls lost their books. In this case, girls is the antecedent. There is the
+pronoun. Both of these are plurals. Therefore, they are matching in number. Let's go over gender. They must be
+matching in either masculine or feminine gender. For example, John finished his work. John is the antecedent.
+His is the pronoun. His must be matching with John in gender. You cannot say John finished her work.
+John is a male. Therefore, it needs to be matched with his. Now let's go over ambiguous pronouns. These
+are words like he, it, or they that are unclear because it could refer to more than one possible noun in the
+sentence. For example, when Jake met Tom, he was nervous. In this case, he is an ambiguous pronoun
+because is he referring to Jake or is he referring to Tom? We actually cannot tell from the sentence.
+A correct way to write the sentence would be when Jake met Tom, Jake was nervous. So that we know that
+it's Jake that's actually nervous. Jake was nervous when he met Tom. That's another correct way to write
+this sentence. Now let's go over the difference between who versus whom. Who is used when the pronoun is the
+subject or the one doing the action. For example, Dr. Harris is a scientist who discovered the nebula.
+Who is doing the action? Dr. Harris is. So in this case, we used who. Whom is used when the pronoun is
+the object or basically the one receiving the action. For example, Dr. Harris is a scientist whom the
+committee honored. Well, Dr. Harris is not doing an action. He is receiving the action of the committee
+honoring him. Therefore, we use whom. Here's a trick. If you can replace it with he,
+use who. If you can replace it with him, use whom. Now what does that mean? Let's go ahead and try to
+implement that into the example. Dr. Harris is a scientist, period. He discovered the nebula. Okay,
+that makes sense. Dr. Harris is the scientist, period. Him discovered the nebula. That does not make
+sense. In this case, he would make more sense. Therefore, we compare that with who. What about in
+this example? Dr. Harris is the scientist, period. Him the committee honored. Okay, that makes sense.
+Dr. Harris is the scientist, period. He the committee honored. That doesn't make as much grammatical sense,
+so we know that we need to be able to use whom. This is a way you can easily remember which one to use in a sentence. Who versus whom. Now let's go over which versus that. Which is used for non-essential information. This means that this information could be taken out of the sentence, and it's usually surrounded by commas. It adds bonus facts. For example, the telescope, which was built in 1998, needs repairs. This phrase, which was built in 1998, is not necessary to the main meaning of the sentence, which is that the telescope needs repairs.
+It's just adding extra information. That is used for essential information. There are no commas. It defines what specific things you mean. For example, the telescope that sits on the mountain needs repairs. This is essential information. Because if we removed that sits on the mountain, we wouldn't be able to distinguish which telescope needs repairs. Is it the one that's sitting on the mountain, or is it the one somewhere else? Therefore, when we remove this, we change the entire meaning of the sentence, and that's why this is essential information. And for essential information, we need to use that. Now let's go over where versus
+in which. SAT is strict about where. It can only refer to a physical place. If you're talking about a book, a study, or a situation, you must use in which. The study where scientists track bird migrations, this is wrong because the study, you cannot go to this place. It is not a physical place.
+So this is wrong.
+The study in which scientists tracked bird migrations,
+this is more grammatically correct.
+Now let's go over the actual strategy
+of how to answer pronoun uses questions.
+After reading the question,
+take a glance at the answer choices.
+So we first have to read the question
+and we have to look at the answer choices.
+Once we do that, if we see pronouns as answer choices,
+we know that we are dealing with pronoun antecedent agreement.
+Once we do that, we read the passage
+and we focus on identifying the antecedent.
+So in this case, we will be looking for that in the passage.
+Once we do that, we match the pronoun with the antecedent
+and we make sure they're aligning in gender and number.
+Meaning if one's singular, the other needs to be singular.
+If one is masculine, the other needs to be masculine.
+Now that we understand a little bit more
+about pronoun usage strategy,
+let's try to apply it to an actual question.
+First, what we're gonna do is we are going to read the question.
+Which choice completes the text so that it conforms
+to the conventions of standard English?
+I now know that this is a grammar question.
+Now I'm going to look at the answer choices to see what it's testing.
+Them, this, that, and it.
+This is a difference between pronouns.
+So I know that this is testing pronoun antecedent agreement.
+Now I'm going to read the passage in order to identify what the antecedent is.
+American jazz composer Duke Ellington wrote many of his compositions on Hotel Stationery while touring,
+but he also took steps to reserve these works.
+From 1940 to around 1946, for example, he arranged more than 200 of blank into full orchestral scores for his big band ensemble.
+Okay. Well, what is he arranging? He's arranging more than 200 of his works. He took steps to preserve these works and he's arranging more than 200 of those works. So the antecedent here would be works.
+Now we need a pronoun that matches this antecedent in gender and number. First, let's go over gender. Since this is not explicitly masculine or feminine, we can use a neutral pronoun. Them, this, that, and it all work. So these would all satisfy that category.
+However, we also need it to be plural. When we look at these answer choices, them is plural. However, this, that, and it are all singular. So we can rule those out. So our best answer choice for this question would be A. And let's see if that's right. And it is. Before we do this question, go ahead and try it for yourself. Our first step is to read the question. Which choice completes the text so that it conforms to the conventions of standard English? Now I know I'm dealing with this.
+with the grammar question. Our next step is to read the answer choices to see what exactly it's testing. She, they, it, and those. These are differences in pronouns. So I know that this is testing pronoun antecedent agreement. Now I'm going to go ahead and go to the passage to try to identify the antecedent. The honeybee colony is wired to respond to environmental threats. So much so that through a coordinated defense mechanism called alarm recruitment, blank will mobilize thousands of workers in minutes in response to a single perceived danger. Researcher Thomas Seeley has focused his
+work on better understanding this collective behavior. Now, what is the antecedent in this
+passage? Well, it's talking about the honeybee colony. So, we know that we need to match our
+pronoun with this honeybee colony. This honeybee colony, although there are many bees in the colony,
+it is treated as a single unit. Therefore, it's a collective noun and it should be treated as
+singular. Therefore, in our blank, we need a pronoun that is also singular. If we look at
+these questions, we see she, they, it, and those. We can immediately cross out they and those because
+we know that those are both plural. However, when we look at she and it, we need to distinguish the
+gender. Since the honeybee colony is not explicitly masculine or feminine, it's going to take on a
+neutral pronoun. And in this case, it wouldn't be she, it would be it. So, it would be the best pronoun
+that satisfies this question. Now, let's go ahead and see if this is right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Form, Structure, and Sense -Subject-Mod Placement-E.txt
+--------------------------------------------------------------------------------
+Let's talk about form, structure, and sense.
+More specifically, let's talk about subject modifier placement.
+Now, what is a modifier?
+A modifier is a word or phrase that provides extra detail about a noun.
+What is the proximity rule?
+It is to avoid confusion, a modifier must be placed next to the noun it is describing.
+The relationship.
+Subject modifiers must be placed right next to the subject to ensure clarity.
+Walking to the store, Leo recognized that he had forgotten his wallet.
+In this case, we have a modifier.
+The modifier is walking to the store.
+This is describing the subject, which is Leo.
+And in order to avoid confusion, these two things, the modifier and the subject,
+they must be placed right next to each other in a sentence.
+Now, what is a dangling modifier?
+If the noun after the comma isn't the one doing the action or possessing the quality,
+then the modifier is dangling.
+Walking to the library, the rain started to fall.
+Now, this is the modifier.
+Walking to the library.
+Now, what was walking to the library?
+Probably a person, right?
+But if I say the rain started to fall, then I'm saying that the rain was walking to the library,
+which makes no sense.
+That is why this is called a dangling modifier, because this modifier has no subject to latch
+onto, or it's latching onto the wrong subject.
+In this case, the rain.
+This sentence written correctly would be more like,
+walking to the library, Alex felt the rain start to fall.
+In this case, our modifier is paired correctly with the subject, Alex.
+Let's look at another wrong and right example.
+After conducting a thorough review of the data, this is the modifier.
+The hypothesis was finally proven correct by the team of physicists.
+Did the hypothesis review the data?
+No, it didn't.
+After conducting a thorough review of the data, the team of physicists finally proved the hypothesis
+correct.
+Now, this modifier, right, which is describing how something did a thorough review of the
+data, is connected to the right subject, which is the team of physicists.
+Because in the first example, the hypothesis cannot conduct a thorough review of the data.
+It has to be the team of physicists.
+And so now these are paired correctly.
+So the subject and the modifier.
+Now, there is a possessive dangling modifier trap.
+The SAT will often place a possessive name, such as Marcos, the teams, Marias, immediately
+after the comma.
+They want you to think that the person is the subject, but the actual noun is the thing that
+they own.
+Now, this may seem a little confusing at first, but with examples, it will become easier to
+understand.
+Spanning more than three decades and consisting of several fundamental discoveries in astrobiology,
+Dr. Arisa Katsura's career has established her as a leading figure in the search for life.
+So in this case, the modifier is spanning more than three decades, consisting of several fundamental
+discoveries.
+Now, what is this modifier describing?
+It's describing Dr. Arisa Katsura's career.
+But sometimes in answer choices, you're going to see Dr. Arisa Katsura and you're going to
+think to yourself, well, this modifier isn't describing Dr. Arisa, it's describing her career.
+So this must obviously be wrong.
+But notice how Dr. Arisa Katsura's, this is a possessive name.
+So it means it's owning the career.
+So the actual subject here is still a career.
+It's just owned by Dr. Arisa Katsura's.
+So make sure to always connect the subject to the modifier and to not get tripped up by
+possessive names.
+Comparisons must be made between the same things during subject modifier placement.
+For example, people must be compared to people.
+Objects must be compared to objects.
+What does this mean?
+Well, identify what the subject of comparison actually is.
+The apples in my bag are bigger than your bag.
+Well, that sounds kind of off, right?
+The apples in my bag are bigger than your apples.
+You cannot compare the apples to a bag.
+You compare apples to apples.
+Now, what's a misplaced modifier?
+This is a word, phrase or clause separated from the word that it describes causing ambiguity.
+For example, I saw a house on fire walking to school today.
+It sounds like the house was walking.
+The correct way to say the sentence is, while walking to school today, I saw a house on fire.
+Notice how when you misplace the modifier, it creates a lot of ambiguity and also humor.
+The house was not walking.
+Now let's go over the actual strategy on how to answer these questions.
+The first step is after reading the question, you need to take a glance at the answer choices.
+Once you look at the answer choices, if you see modifiers as answer choices, the question is testing subject modifier placement.
+Now you need to read the passage and focus on identifying the subject or modifier.
+Match the subject with the modifier and vice versa.
+What this means is that sometimes the question will give you the modifier and sometimes the question will give you the subject.
+So it can happen either way.
+Now that we understand a little bit more about the strategy, let's go ahead and try to implement it on a question.
+My first step is to read the question.
+Which choice completes the text so that it conforms to the conventions of standard English?
+Now I know I'm dealing with a grammar question.
+I'm going to read the answer choices to see what it's testing.
+Places, placed, place, to place.
+Now I'm noticing that there's a distinguishment between modifiers.
+So I know that this is testing subject modifier placement.
+Now I'm going to read the question.
+While researching ancient manuscripts in Cairo's National Archive in 1952, French Egyptologist Etienne Dratan made his most celebrated discovery.
+A papyrus fragment bearing a cartouche of Queen Hatshepsut along administrative records.
+Drayotan's remarkable finding was the first blank, the unbroken chain of royal authority in Egypt back to the early 18th dynasty.
+Well, what am I noticing?
+I'm noticing that this entire line right here is a modifier.
+It is saying the finding was the first and notice how immediately I'm stopping there and I'm wondering more.
+The first to what?
+So in this answer choice, I need to find something that matches the modifier.
+So places, this would not be a modifying statement and this would not be a correct use of places.
+So this is wrong.
+Placed, this is also not modifying the sentence.
+So this is wrong.
+Placed is not modifying the sentence.
+But to place, right?
+The first to what?
+To place the unbroken chain of royal authority.
+This is correctly using a modifier to explain first.
+So this would be the correct use of subject modifier placement.
+Now let's go ahead and see if answer choice D is right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+My first step is to look at the question.
+Which choice completes the text so that it conforms to the conventions of standard English?
+Now I'm going to look at the answer choices to see what type of question this grammar question is.
+Researcher Maria Hoffman has argued that permanent agriculture, researcher Maria Hoffman's argument,
+and then this one starts with permanent agriculture.
+This one starts with the argument researcher.
+I'm automatically noticing that these are all differences in subjects, right?
+The subject starts differently.
+In answer choice A, subject is researcher Maria Hoffman.
+Answer choice B, it's the argument.
+In answer choice C, it's permanent agriculture.
+And in answer choice D, it's the argument researcher.
+So from that, I know that this is testing subject modifier placement.
+Now let's go ahead and read the question and identify what the modifier is.
+Based on soil analysis, geologists have long believed that the first permanent farming settlements
+in the Fertile Crescent appeared around 10,000 BCE.
+However, since unearthing a cluster of 12,500 year old grain storage pits in southern Turkey,
+blank may have begun several millennia earlier.
+So now I'm noticing, however, since unearthing a cluster of 12,500 year old grain storage pits
+in southern Turkey, now I need to understand what is this modifier describing?
+Well, this modifier is describing something or someone that unearthed a cluster of 10,500 year old grain.
+Can a something do that?
+No.
+A human, however, could unearth this.
+So we know that our subject needs to be immediately connected to this modifier.
+It needs to come first in the sentence and it needs to be related to the modifier.
+So answer choice A, researcher Maria Hoffman.
+Can researcher Maria Hoffman unearthed grain storage pits?
+Yes, she can.
+Okay, so let's go ahead and go back to that one.
+Researcher Maria Hoffman's argument.
+Can an argument unearthed storage pits?
+No, it can't.
+So this is wrong.
+Permanent agriculture.
+Can permanent agriculture unearthed storage pits?
+It cannot.
+So that's wrong.
+The argument researcher.
+Can the argument unearthed storage pits?
+No, it can't.
+That's wrong.
+And we're left with the only correct answer choice, which is A, which correctly matches the subject and the modifier.
+Now let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question.
+Which choice completes the text so that it conforms to the conventions of standard English?
+Okay, now I know I'm dealing with the grammar question.
+I'm going to read the answer choices to see what this grammar question is testing.
+I see a grid that relies on more renewables.
+Okay.
+And then I see the CIR score of a renewable heavy grid.
+Okay.
+And then I see when a grid and I see a renewable heavy grid.
+So these are differing in subjects.
+So I know that this is testing subject modifier placement.
+Now I'm going to read the passage and focus on what the modifier is and correctly match that with the subject.
+The carbon intensity rating CIR, a commonly used measure of greenhouse gases, gas emissions produced per unit of energy generated ranges from near zero to over 800 grams per
+kilowatt hour compared with that of a heavy fossil fuel dependent grid.
+That is an energy system powered primarily by coal and oil.
+Well, what is this modifier talking about?
+Right.
+We can see that compared with that of a heavy fossil fuel dependent grid.
+Well, what is it being compared?
+Well, this entire passage is talking about the CIR, which is the carbon intensity rating.
+So the carbon intensity rating compared with that of a heavy fossil fuel dependent one is different.
+So we know that the subject is still the carbon intensity rating.
+So we need an answer choice that starts with the subject, which is CIR.
+Now, which answer choice does that?
+I'm looking at answer choice A, which starts with a grid.
+B, that starts with CIR score.
+C, when a grid, that is wrong.
+And then D, a renewable heavy grid.
+These are all grids.
+But only answer choice B starts with CIR score, which correctly connects the subject, which is the CIR, to the modifier.
+So this would be our best answer choice.
+Now let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Which choice completes the text so that it conforms to the conventions of standard English?
+So my first step is to read the question.
+And now I've identified its grammar.
+Looking at the answer choices, I'm noticing a difference between subjects.
+I'm noticing Martinique for answer choice A, Glisten's debut novel for answer choice B, Glisten for answer choice C, and Publish for answer choice D.
+So there's a difference between subjects.
+So I know that there's a subject modifier placement.
+And I know that when I read the passage, I need to identify the modifier.
+Now let me read the passage.
+In the canon of Caribbean literature, Martinique author Edouard Glissant's 1958 novel, La Lizarde, holds an enduring place.
+A coming-of-age story, a meditation on colonial resistance, and an unflinching portrait of political awakening in the tropics.
+Blank confronts questions of identity and freedom with rare lyrical power.
+Okay, so I'm noticing the modifier here.
+A coming-of-age story, a meditation on colonial resistance, and an unflinching portrait of political awakening in the tropics.
+So this is talking about a book, right?
+It's a coming-of-age story.
+So we need to find an answer choice that matches this modifier that's talking about a book with a subject of a book.
+So answer choice A, Martinique, that is not a book.
+Glissant's debut novel, that is a book.
+So let's go ahead and leave that answer choice there for now.
+Glissant, that is not a book.
+So we can ignore that.
+Published the same year, published is not a book.
+So we can ignore that.
+So our best answer choice for this question would be answer choice B.
+Now let's go ahead and see if that's right.
+And it is.
+

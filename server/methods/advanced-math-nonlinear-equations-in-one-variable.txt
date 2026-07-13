@@ -1,0 +1,335 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Advanced Math
+SKILL: Nonlinear Equations in 1 Variable
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math - Nonlinear Equations in 1 Variable - Sum and Product of Roots - Vieta_s Formula - Video.txt
+--------------------------------------------------------------------------------
+Let's talk about Vieira's formula, or the sum and product of roots. For any quadratic in the standard form of ax squared plus bx plus c, the sum of the roots is always strictly equal to negative b over a. Meanwhile, the product of the roots is always equal to c divided by a. If you want a more in-depth review, please refer back to the foundations unit over the sum and product of the roots, or Vieira's formula. So, let's practice. So in this question, what is the sum of the solutions to the given equation?
+Okay, so there are two ways to do it. Obviously we could factor it, or use a quadratic formula and add the solutions, or we could use Vieira's formula. So what is the sum of the solutions? The sum of the roots, or the solutions, is always strictly equal to negative b over a. So, let's identify b and a. b equals negative 8, a equals 1. So, let's just do it. Negative negative 8 over 1 equals 8. So, very easily identify the solution as d.
+Let's solve this question using Desmos. To solve this question using Desmos, all we need to do is grab this equation and then find the solutions which are the x-intercepts. With that, we can then add the x-intercepts. So, let's graph it.
+Now, as we can see, the x-intercepts occur at these two points right here. So, adding these two together, we get 8. Now, let's try a harder question. What is the sum of the solutions to the given equation? So, this equation, as we can tell, is much more complex. It gives us two factored forms and they're both equal to each other. Well, what we should do is just distribute these out and then combine everything onto one side so that we get something in the form of AX-intercepts.
+AX-intercepts. So, we can use AX-intercepts. So, let's do that. Let's distribute this out. So, this first one, let's use FOIL. 2X-intercepts.
+So, let's combine like terms. So, let's combine like terms. So, let's put these out and then combine everything onto one side so that we get something in the form of AX-intercepts.
+Because then, we can use Vieta's formula very easily. So, let's do that. Let's distribute this out. So, this first one, let's use FOIL.
+2X-intercepts. So, let's combine like terms. 2X-intercepts. So, let's combine like terms. 2X-intercepts. So, let's combine like terms.
+2X-intercepts. So, let's combine like terms. 2X-intercepts. So, let's combine like terms. 2X-intercepts. So, let's combine like terms.
+So, we move everything on the right side over to the left side. So, we subtract everything. So, X-squared and then 1-4 is negative 3. So, negative 3X.
+And then, negative 6 plus 5 is negative 1 equals 0. Now, the sum of the solutions once again is strictly equal to negative B over A.
+So, in this case, B is negative 3. A is 1. So, negative negative 3 over 1 equals 3.
+So, the answer is 3. Let's solve this question using Desmos. To solve this question using Desmos, all we need to do is graph this equation and then find the X-intercepts.
+Then, add those two intercepts together. So, let's graph it. Now, looking at the X-intercepts, we have negative this right here and positive 3 point this right here.
+As you can see when we add these two together we get positive 3.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Equations in 1 Variable - Quadratic Discriminant.txt
+--------------------------------------------------------------------------------
+Let's talk about how many distinct real solutions does an equation have. In order to get this, we must use the discriminant.
+Now, in order to use the discriminant, we must first convert the quadratic to standard form, ax squared plus bx plus c equals zero.
+Keep in mind that this equation must be equal to zero.
+Now, let's take this for example. Given the quadratic 3x squared minus 15x plus 18 equals zero, we know that a equals 3, b equals negative 15, and c equals 18.
+Now, the quadratic discriminant is as such. The discriminant is b squared minus 4ac.
+If this value is greater than zero, the quadratic has two real solutions.
+If it is equal to zero, the quadratic only has one real solution, and if the discriminant is less than zero, the quadratic has no real solutions.
+If you want a more in-depth review of this concept, please refer to the foundations unit to either learn or review it.
+Let's practice. How many distinct real solutions does the equation 3x squared plus 5x minus 2 equals zero have?
+So, let's use the discriminant.
+b squared minus 4ac.
+So, b in this case is 5, a equals 3, and c equals negative 2.
+So, let's plug everything in.
+So, 5 squared is 25, minus 4 times a is 3, times c, which is negative 2.
+We get 25, minus 4 times 3, or negative 4 times 3 is 12.
+Negative 12 times negative 2 is 24.
+So, we get a positive number, which gives us 49.
+So, this equation has two real solutions because the discriminant is greater than zero.
+Let's solve this question using Desmos.
+To solve this question using Desmos, we must first understand what a solution is.
+A solution is just how many times this function overlaps the x-axis, or crosses the x-axis.
+So, all we would need to do is graph the function in Desmos, and then see how many times this function crossed the x-axis.
+So, as we can see, this function crosses it two times.
+So, the answer is exactly two.
+Now, let's practice a harder question.
+How many distinct real solutions does the equation x plus 4 squared equals negative 16 have?
+Okay, well first we need to convert it into standard form and move everything onto one side.
+So, let's do that.
+So, x plus 4 squared can be distributed out to get us x squared plus 8x plus 16.
+You can review perfect square trinomials in order to review how to do this quicker.
+Equals negative 16.
+So, moving this 16 to the other side, we get x squared plus 8x plus 32.
+So, once again, the discriminant is b squared minus 4ac.
+And then, we know in this case that b is equal to 8, c equal to 32, and a is equal to 1.
+So, let's plug everything in.
+So, 8 squared is 64 minus 4 times a is 1 times 32.
+So, in this case, 64 minus this is negative 128.
+So, this is actually a negative 64, meaning that there's no real solutions.
+So, 0.
+So, let's solve this question using desmos.
+To solve this question using desmos, all we have to do is graph this equation.
+Now, looking at the graph, we see that there are 0 x-intercepts because there is no line crossing the x-intercept.
+So, therefore, the answer is d.
+Now, let's try this hard question.
+In the given equation, b is a constant.
+The equation has exactly one solution.
+What is the value of b?
+So, what does this mean?
+If the equation has exactly one solution, we know that the discriminant must be equal to 0.
+So, let's solve this.
+So, the discriminant is b squared minus 4ac.
+And we know that this must be equal to 0 in order for us to have exactly one solution.
+So, let's solve and get what we know.
+So, b squared, because we don't know it, minus 4 times a, which is 1, times c, which is 16, equals 0.
+So, now we're solving for b.
+So, b squared minus 4 times 1 is 4 times 16 is 64.
+So, equals 0.
+So, b squared equals 64.
+So, b equals 8.
+Plus and minus 8.
+So, in the answer choices, there's only c, 8.
+Let's solve this hard question using Desmos.
+To solve this hard question using Desmos, we must first understand what it means for an equation to have exactly one solution.
+If an equation has exactly one solution, this means that this equation crosses the x-axis exactly one time.
+So, let's go ahead and graph this equation.
+Now, as we can see, there's actually no equation being graphed.
+This is because we haven't assigned a value to b.
+So, let's set b equals 2 and let's test the answer choices.
+So, 4.
+As we can see, when we put b equals 4, there's actually no equation graphed.
+So, therefore, there's not exactly one solution.
+So, a is incorrect.
+Now, let's test answer choice b.
+So, b equals 6.
+As we can tell once again, there is no line on this graph.
+Therefore, when b equals 6, there's also not exactly one solution.
+So, b is incorrect.
+Testing answer choice c, as we can see, there is now exactly one line or one x-intercept being graphed on this line.
+So, therefore, c indeed has exactly one solution because it crosses the x-axis one time.
+Now, let's test d just for good measures.
+d, as we can see, has two x-intercepts.
+Therefore, it has exactly two solutions.
+So, d is incorrect.
+So, correct answer is c.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Equations in 1 Variable - Solutions with 1 Equation.txt
+--------------------------------------------------------------------------------
+Let's talk about solutions with one equation. So what is a solution? A solution is simply a value that makes an equation mathematically true.
+For example, given 2x plus 4 equals 10, the solution is x equals 3, because 2 times 3 plus 4 equals 10, which is a true mathematical statement.
+So the solution is simply a value that makes an equation mathematically true.
+Now, if you don't know how to actually solve something, let's say you're given a complex quadratic and you don't know how to factor it, for example, what you could do is always just test solutions.
+So if you are stuck on an SAT question, you could just take the answer choices and plug those into the equation and find which one creates a mathematical true statement.
+Whichever one that does is the correct answer.
+So let's practice. Which of the following is a solution to the equation 3x squared minus 9 equals 2x squared?
+Taking a look at the answer choices, we know we are just solving for x. So let's do so.
+So in this case, we want to move this to the other side.
+So 3x squared minus 2x squared is just x squared minus 9 equals 0.
+Now move the 9 to the other side. x squared equals 9.
+And lastly, x equals plus or minus 3.
+So 3 and negative 3 are solutions to this equation.
+That gives us answer choice B.
+Let's solve this question using Desmos.
+So the question asks us, what is a solution to the equation 3x squared minus 9 equals 2x squared?
+So there are actually two ways to solve this question.
+The first way is to simply graph this and look at the x-intercepts.
+And the second way is to use regression.
+So let's do both of the methods.
+So the first one, we graph 3x squared minus 9 equals 2x squared.
+And now looking at the x-intercepts, we see that the two solutions must be negative 3 and 3.
+So the answer is B.
+Now the second way to do this question would be to use regression.
+So I'm going to do it as such.
+3x1 squared minus 9 tilde instead of the equal sign 2x1 squared.
+And so therefore, one of the solutions is x1 equals 3.
+Now let's do another one.
+What is the solution to the equation below?
+So this is a more complex equation.
+We see that in the denominator, we have x plus 8.
+But over here, we don't with this 1.
+So the first thing we need to do is make sure that everything has the same denominator.
+That way, we can combine numerators and then end up solving for x.
+So let's do it.
+So 1 over 1 is just the same as x plus 8 over x plus 8.
+So if we were to pretend this 1 is x plus 8 over x plus 8, we can now combine the numerators,
+which gives us 2x plus 3 over x plus 8 equals...
+So x plus 8 plus or minus 3 is x plus 5 over x plus 8.
+All I did was combine this numerator right here and this numerator right here
+because now the denominators are the same.
+If we were to pretend this 1 is now x plus 8 over x plus 8.
+And now, given that both of these are equal,
+what we can do is actually set the numerators equal to each other
+and not worry about the denominators.
+So let's do that.
+So let's distribute this left side.
+2x plus 6 equals x plus 5.
+So let's move the x to the other side.
+So x plus 6 equals 5.
+So x equals negative 1.
+And that gives us n to choice b.
+Now let's solve this question using Desmos.
+To do this question using Desmos, there are once again two ways.
+The first is to simply graph this on the graph and find the x-intercepts.
+The second way is to use regression.
+So let's do the two methods.
+First, let's graph it.
+Now looking at the graph, one of the y-intercepts is x equals negative 1.
+So therefore, the answer is b.
+Now the second way to do this question is to use regression.
+So to do regression, we need to change all the x's to x1 and then change this equal sign to a tilde.
+And therefore, here we can see that x1 equals negative 1.
+Let's talk about how to find solutions given one equation that is a quadratic.
+Now there are two methods to do this.
+Firstly, you can factor.
+And secondly, you can use the quadratic formula.
+You should use factoring when it's easy to identify the different factors to get a, b, and c in a standard quadratic.
+You should use the quadratic formula when either factoring is not possible or when the numbers are far too big.
+So you don't want to do a ton of big multiplication in your head or in the calculator.
+So the quadratic formula is negative b plus or minus the square root of b squared minus 4ac all over 2a.
+If you need help memorizing this, you can simply look up on YouTube and find a way to memorize this.
+There are some songs that can help you with this.
+So let's practice.
+What values of x satisfy the equation x squared minus 3x minus 1 equals 0?
+So if we try to factor this, which you should always try to do that first,
+you'll actually find that it is impossible for you to do this with normal means.
+Obviously, to get negative 1, we must take negative 1 times 1,
+but there's no possible combination in order for us to multiply along the cross and then add the product and get negative 3.
+So we must use the quadratic formula.
+The quadratic formula, just a reminder, is negative b plus or minus the square root of b squared minus 4ac all over 2a.
+So let's identify a, b, and c.
+a in our problem is 1, b equals negative 3, which is right here, right here, and then c equals negative 1.
+So let's plug in everything that we know.
+So negative negative 3 is just 3, so I'm going to skip a few steps just so we can write a little bit less.
+The square root of b squared, in this case, is negative 3.
+So negative 3 squared is 9 minus 4a is 1, c is negative 1 over 2a.
+a is just 1, so 2 times 1 is 2.
+So now simplifying this down, 3 plus and minus, and then adding the inside, we get 9 plus 4 over 2.
+So 3 plus and minus square root of 13 over 2.
+So let's check the answer choices.
+a is incorrect because these are not even close, and then there should not be a 5 in the middle, so b is incorrect.
+Now, as it shows d has a negative 3 in front.
+Well, that's a trick to people who identify b as possibly 3, and then so they do negative b, they put negative 3.
+But we know that it is negative negative 3, because b itself is equal to negative 3.
+So the answer is c.
+Let's solve this question using Desmos.
+To solve this question using Desmos, all we need to do is graph this equation, and then test the answer choices as well,
+and see which one of the answer choices overlaps with our equation.
+So as we can see here, the two solutions that satisfy this equation are as follows.
+Now let's test the answer choices.
+Well, clearly we know that x is not equal to 1 and negative 3, because as we can see, x is equal to these numbers right here.
+Now let's test answer choice b.
+So x equals 3 plus square root 5 over 2.
+And as we can see, this also does not overlap with any of our answers for our equation.
+Therefore, b is incorrect.
+Now let's test c.
+So this first one does indeed overlap with one of the lines in our equation, as we can see right here.
+Now let's test this second part.
+As we can see here, indeed, these two are the two solutions for this equation,
+because they perfectly overlap with the x-intercepts.
+So the answer is c.
+However, let's just test d just in case.
+As we can see, this first part is not a solution,
+because it does not overlap with the original equation.
+Therefore, a, b, and d are all incorrect, and the correct answer is c.
+Let's try a harder question.
+Which of the following are solutions to the given equation where k is a constant and k does not equal 0?
+So for this question, let's see what we need to do.
+So first instinct, why don't we try combining like terms?
+So x squared plus kx, and then let's move this to the other side, minus kx minus k squared equals 0.
+And then combining like terms, we get x squared minus k squared equals 0.
+Now, if we look at this and we recognize, we actually see that this is actually just the difference of squares.
+So to factor this out, it is x plus k and x minus k equals 0.
+So getting the solutions to these, we get x could equal negative k and positive k.
+So here are our solutions.
+So let's check the different statements.
+So x equals 0.
+Well, this is not true at all.
+We know that x must equal negative k or k for this to be true, because these are the solutions right here.
+So statement one is not true.
+Statement two says x equals k.
+That's correct.
+Statement three says x equals negative k.
+That is also correct.
+So the answer is c.
+But in this question, if you didn't know the difference of squares, you could also try just simply plugging in k into this equation right here,
+and then seeing whether this equation is mathematically true.
+That is called brute forcing, and it works.
+Either way, you would get c.
+Let's solve this hard question using Desmos.
+So to solve this question using Desmos, all we need to do is write in the exact equation and then match the constraints,
+and then test which one of these statements must be true, given the scenario, and we follow all the constraints in the question.
+So let's just write in the equation first.
+And now it tells us that k is a constant and k does not equal to 0.
+So as long as we set k equal to some constant that is not equal to 0, like for example 4,
+then we can now test which one of these statements must be true.
+So as we can see here, what are the solutions?
+We see that the solutions are simply k itself, which is 4, and negative k.
+So therefore, statement 2 and 3 are correct.
+However, statement 1 is not correct, because if it was, we would see a line, a vertical line right here,
+saying that there is an x-intercept at x equals 0.
+So the answer is c.
+Now let's do this harder question.
+One solution to the given equation can be written as 3 plus square root of k over 2, where k is a constant.
+What is the value of k?
+So normally when we see a question like this, giving a quadratic in standard form, and we see one solution,
+our first instinct is to factor, using the s-cross method.
+However, in this question, we actually see that the solution looks awful familiar.
+This actually looks a little bit like the quadratic formula.
+Negative b plus and minus the square root of b squared minus 4ac over 2a.
+So why don't we try that to get an answer that looks more in the form of what the question is giving us.
+So in this case, a equals 2, b equals negative 6, and c equals negative 1.
+So let's plug in everything and let's solve.
+So negative b, so negative negative 6 is just 6, plus and minus the square root b squared, which is negative 6.
+Negative 6 taking the whole thing squared is just 36, minus 4a is 2, and c is negative 1.
+Divided by 2a.
+a is 2, so 2 times 2 equals 4.
+Now let's simplify this.
+This goes down to 6, plus and minus the square root of 44, all over 4.
+And now with this, we can actually take out a 2.
+Because this square root of 44 is equal to square root of 4 times 11,
+we can actually take the square root of 4 and move that to the outside.
+So square root of 44 is equal to 2 times the square root of 11.
+So by doing so, we get 6 plus and minus 2 square root of 11 over 4.
+And now because the 6 and the 2 can both be divided by 2, we can simplify this down to 3 plus and minus square root of 11 over 2.
+And now look at this.
+Our simplified solution looks a lot like what the question is giving us and what the question is asking.
+So we know that one of those solutions is plus square root of 11.
+Therefore, k must equal to 11.
+Now let's solve this hard question using Desmos.
+To solve this question using Desmos, we must first graph the equation.
+That way we can identify the x-intercepts, which are these solutions.
+Then we can graph this equation and set this equal to 0.
+That way we set this as a vertical line.
+Then we can test values of k so that we can find whenever this vertical line right here overlaps with one of the x-intercepts of this equation,
+we know that we have the correct value of k because now this becomes one of the solutions.
+So let's graph this equation.
+So as we can see, we have two vertical lines that are now on this screen.
+And now we can see because of these x-intercepts, these are the two solutions.
+This negative 0.15831 and then this one right here.
+Now let's graph this solution that the question gives us and set it equal to x.
+That way it becomes a vertical line.
+However, what we notice is that this line actually is not a vertical line, although it should be.
+Because when x is set equal to a constant, meaning just a number without any variables,
+such as 5, such as 1, such as 2, then it should actually just be a vertical line.
+The reason why this line currently is not a vertical line is because k is being treated as a variable.
+So what we need to do is set k equal to something.
+So now we see that this line is vertical.
+Well, in order for us to find out at what point will this line overlap this line right here in the equation,
+all we need to do is create this into a slider, which you do so by clicking this on the left side,
+and then sliding right here until this green line overlaps with the blue line.
+However, as we see, when k equals 10, we're getting very close, but it's not exactly right.
+So let's test 11.
+As we can see, now these two vertical lines do indeed overlap.
+So therefore, 3 plus square root of 11 over 2 is one of the solutions.
+Now let's solve this hard question using Desmos.
+To solve this hard question using Desmos, once again, there are two methods.
+Firstly, we can simply graph the equation, and the second way, we can use regression.
+So let's do both of the methods.
+First, let's graph.
+And now, looking at the x-intercepts, we can see that this line intersects the x-intercept at x equals 1 half.
+So the answer is C.
+Now let's solve this question using regression.
+To solve it using regression, all we need to do is change the x into x1,
+and then change the equal sign to a tilde.
+And with this, we get that x1 equals 0.5.
+

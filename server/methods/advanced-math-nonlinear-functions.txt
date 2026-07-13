@@ -1,0 +1,1731 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Advanced Math
+SKILL: Nonlinear Functions
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Axis of Symm.txt
+--------------------------------------------------------------------------------
+Let's talk about the axis of symmetry within vertex form. In the vertex y equals a times x minus h squared plus k, the value of h, the x-coordinate of the vertex, is your reflection point, or think about it as a mirror line.
+So given a parabola that looks like this, the vertex is the point in which this parabola reflects. So if we were to draw this on a piece of paper, and then we were to fold the paper along this center crease line, this reflection line, these two sides would perfectly overlap, meaning that the two sides are simply a reflection of one another.
+For example, given h of x equals x minus 4 squared minus 4, our h value is 4, remember the switch and keep. The value inside the parentheses, we need to switch the sign in order to find the h value. So the vertex of this equation is, remember switch and keep, 4 comma negative 4.
+With that being said, this means that the line x equals 4 is the exact middle of the parabola.
+The big rule to remember here is that everything on the left side of the vertex, or of the mirror line, is a perfect mirror image of everything on the right side.
+When we are to graph this equation, we can see exactly this. We see that this is the function I hear in red, and then x equals 4 is the perfect middle of this parabola.
+So we folded this onto itself, it would be the same. Notice how one of the points that shows here is 2 comma 0. This is 2 units left of the vertex. If we strictly look at the x value of the vertex. So 2 to 4, right here, this is 2 units.
+And then we see on the opposite side, when the y value stays the same, so 0, we see that this side, it's also 2 units to the right. So 2 units to the left, 2 units to the right.
+And if we already see over here, and over here as well, we see that actually, from here to here is the same as here to here. And from here to here is the same from here to here.
+So, what does this mean? This means that if you know that the parabola passes through the point of something, in this case, 2 comma 0, then we know the parabola will cross that y value again at another point.
+This point is equal distance, which means equal distance to the distance from the vertex, the reflection point, but just on the opposite side. So 2 comma 0 is 2 units left of the vertex.
+Meaning that on the other direction, if we ought to go the other direction from the vertex, 2 units, this point will also exist on the parabola. And this is illustrated right here.
+Let's practice. The function f is defined by f of x equals x plus 5 times x plus 9. For what value of x does f reach its minimum?
+Okay, so this question is asking us for the minimum. And in this case, we know that the minimum means it's asking us for the vertex.
+So in order to find the vertex, there are a couple of ways. Firstly, we can try converting this to vertex form. To do so, we first factor this out to get it to standard form.
+And then with standard form in ax squared plus bx plus c, we can then complete the square. So that is method number one. Method number two is to use that cheat code that we know about.
+We can get standard form and then use negative b over 2a. This automatically gives us the h value or the x value of the vertex. And lastly, now an even quicker trick now that we know about the axis of symmetry,
+we know that the vertex simply sits between two of the zeros because these zeros are equidistant from the vertex. So if the graph looks like this, these would be the two zeros. We know that the vertex is equidistant from these two zeros.
+Well, two values are reflected on each other or have the same y value. So in this case, how can we find two values with the same y value? Well, that would be the x intercept. The x intercept occurs when y equals zero. So let's set y equal to zero.
+Zero equals x plus five times x plus nine. Now the x intercepts occur when x equals negative five and x equals negative nine. And because we know the vertex sits in between, let's just draw this real quick to visualize this. This would be the function right here. This would be negative nine and this would be negative five. Because we know these two values are equidistant to the vertex, we know that the vertex's x value must sit perfectly in the middle between negative five and negative seven. So let's set y equal to zero.
+So the value in between is negative seven. And that is b. So the value in between is negative seven. And that is b.
+Let's practice this hard question. The quadratic function h is defined as shown. In the xy plane, the graph is negative seven. And that is b.
+So the quadratic function h is defined as shown. In the xy plane, the graph of y equals h of x intersects the x axis at the points zero comma zero and t comma zero. And t is a constant.
+What is the value of t? Okay, so we notice in this question how it gives us two points on the x axis. This means that both of these points are negative seven. And the value must sit perfectly in the middle between negative five and negative seven. So the value in between is negative seven. And that is b.
+And that is b. Let's practice this hard question. The quadratic function h is defined as shown. In the xy plane, the graph of y equals h of x intersects the x axis at the points zero comma zero and t comma zero, where t is a constant. What is the value of t?
+Okay, so we notice in this question how it gives us two points on the x axis. This means that both of these points are x intersects. Now, what do we know about the axis of symmetry? We know that two values with the same y value must be equal distance from the vertex because the vertex is the point in which the parabola reflects onto itself. So let's figure out the vertex first. So remember to find out the vertex, we look at vertex form and we perform switch and keep. So we switch the sign of this x value. So 5x, which is the value of t.
+So we switch the sign of this x value. So 5 comma negative 75. Now, knowing this, we can graph this to show a little visual. So 5 comma negative 75 is down here. And this parabola opens upwards. We know that one of the x intercepts is 0 comma 0. So that is right here. And the other one is t comma 0. We don't know for sure where that is at. So let's draw the side that we do know. So draw from the vertex over to 0 comma 0.
+0 comma 0. Now what we do know here is that in order to get from 0 to 5, we must move to the right 5 units. So to get to the next x intercept, or when y equals 0, we must move 5 units to the right again. So the next intercept must be right here. And this is 5 units. So therefore, this is 10 comma 0. Therefore, t equals 10.
+Therefore, t equals 10. And that is correct. Let's do this question on Desmos. To do this question on Desmos, all we need to do is graph the function and see where it intersects the y value of 0, which is the x intercept. So let's graph the equation.
+y equals 3 times x minus 5 squared minus 75. And look at this graph, we see that this function does indeed intersect the x axis at the points 0, 0, but also at 10 comma 0. Therefore, t is equal to 10. So the answer is d.
+That is correct. Let's do another practice question. In the given quadratic function, a, b, and c are constants. The graph of y equals f of x in the xy plane is a parabola that opens upwards and has a vertex at the point h comma k, where h and k are constants.
+If f of p equals f of q and p is less than q, which of the following must be true?
+Okay, so we need to test these two to find which one of these is true or if neither of them are true.
+Okay, so what are we given in this question? We're first given that this is a parabola that opens upwards. So that is very important. So let's make note of that.
+Let's draw an example graph for this. Because there's no exact values given us for a, b, and c, let's just draw a random graph as long as it opens upwards.
+Now it also tells us that f of p equals f of q. This means that at these values p and q, the y coordinate of these are exactly the same.
+And because it's a standard quadratic, we know that these two points must be equal distant to the vertex.
+In this case, p being less than q. So we can imagine that this value is p comma f of p, and we can imagine this point right here being q comma f of p.
+So which of the following must be true? Okay, so because we know that the vertex sits exactly in the middle of these two values, let's look at statement number one.
+Now let's evaluate statement number two. This statement says that k must be greater than zero. Well, in this case, the k value would depend on the exact values of a, b, and c.
+Because once we complete the square, as long as k is negative, that would completely make this equation not true. So to actually prove this one wrong, all we would need to do is show a certain scenario in which a, b, and c after completing the square would give us a negative k value.
+Which is very possible and very real. So statement two is also incorrect. Because if a, b, and c simply lead to a negative k value, then k doesn't necessarily have to be greater than zero. So the answer is d, neither one or two. And that is correct right here.
+Let's do this question on Desmos. So to do this question on Desmos, all we need to do is graph the function f of x equals ax squared plus bx plus c, and then assign some random values to a, b, and c. Now, because we know that f of p is equal to f of q, we know that if we have a line y equals something, this will be a line.
+This will satisfy this condition. So now with that, we can identify some example values of p and q. So in this case, at y equals 5, we get that the p value could be negative 1, and the q value could be 2. The big idea with solving this question is to create an example scenario.
+And then with this example scenario, test whether statement one and statement two must be true, so are true in all cases. So in this case, we see that the vertex is 0.5, 0.5. Well, it tells us statement one that h is less than p. Well, this is not true.
+Because look here, our p is the value that's less than q. So negative one is our p value. q is 2. So in this case, h is 0.5, which should be less than p, according to statement one, but this is not true.
+p is actually less than h. So statement one is not true. For statement two, k must be greater than zero. We see that with this example scenario, that is true.
+However, we must try to prove whether or not there is a scenario in which this is not true. So if we change c to, for example, negative 45, or a negative value like negative 5, we now see that k is actually less than zero now.
+And it still satisfies the conditions for this question, that the parabola opens upwards and has an f of p equal to f of q. So therefore, statement two is also incorrect. So the answer is d.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Factor to Stand.txt
+--------------------------------------------------------------------------------
+Let's talk about how to expand from factored form to standard form. To expand from factored
+form to standard form we need to use FOIL. If you're unfamiliar with the FOIL method, please
+refer to the foundations unit to either review it or to relearn the concept. So given the original
+function in standard form x plus 3 times x minus 5, after we expand it taking first, outer, inner,
+last, and combining like terms, then we get this equation in the standard form x squared minus 2x
+minus 15. So let's practice. Which of the following is equivalent to the expression x plus 2 times x plus 4?
+Once again in order to do this we need to follow the FOIL method. So let's do it. First we need to
+multiply the first terms, so x times x equals x squared. Then we need to multiply the outer terms,
+so x times 4x which gives us 4x. Then we multiply the inner terms, 2 times x which gives us 2x. And then we
+multiply the last terms, 2 times 4 equals 8. So after combining like terms, we get x squared plus 6x plus
+8. This is our final solution. x squared plus 6x plus 8. And the answer is c. And c is indeed correct.
+In order to do this question with Desmos, we first need to see that this question is actually asking
+which of the following expressions or which of the following answer choices is equivalent to this
+expression here. Meaning that when we graph them, these two must overlap because they must equal each
+other. So we first graph the original function x plus 2 times x plus 4. Then we test the different answer
+choices to see which one of these functions is exactly the same and overlaps with the exact same graph. So let's test
+them one at a time. x squared plus 8 does not overlap and it is a completely different function. Now let's
+test the next one. x squared plus 6x plus 6. Now this function right here is close but once again is not
+correct with the original function that we are looking for. So let's test c. x squared plus 6x plus 8. Now we
+notice that these two functions do indeed overlap as you can tell by the changing colors when you turn
+off and on the function c. So c is correct. But now let's test d just in case. So x squared plus 6. We see
+that these two functions do not overlap at the same spot. Therefore d is not correct and is not an
+equivalent expression. So c is the correct answer and that is correct. Let's do a harder question. The
+quadratic equation x squared plus bx plus c equals 0 has solutions x equals negative 4 and x equals 7
+where b and c are constants. What is the value of b plus c? Okay so we are given some information that
+tells us about factored form. So in this case we know that x equals negative 4 the factor is x plus 4.
+And then x equals 7 the factor is x minus 7. This is because when we are given solutions this is the x
+intercept. So this is when the function or this portion is equal to 0. So in order for this to be
+equal to 0 x plus 4 equals 0 therefore x equals negative 4. So this is the factor that leads to this
+being true. So with these two existing all we need to do is write it out in factored form. So in factored
+form we get this function equals this right here. So to get it to standard form which looks like this we
+just need to FOIL it out. So first plus 4x minus 7x minus 28. Then after combining like terms we get x squared
+minus 3x minus 28. So this is our equation right here. So what is the value of b plus c? Well we know that b
+equals negative 3 and we know that c equals negative 28. So b plus c equals negative 31.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Factored Form.txt
+--------------------------------------------------------------------------------
+Let's talk about factored form. In factored form, the number of x-intercepts, or zeros, is determined by the number of unique factors containing x.
+Key note is the number of unique factors that must contain x. So what does this actually mean?
+This means that every distinct factor in the equation corresponds to exactly one zero on the graph.
+So let's take this example. x plus 3 times x plus 2 has two unique factors and therefore has two distinct solutions, or x-intercepts or zeros.
+These terms are all synonymous right here.
+This is because as we see here, x plus 3 is our first unique factor that contains an x, and x plus 2 is our second unique factor that contains an x, giving it two x-intercepts or zeros or solutions.
+In this second example, a times x plus 2 squared times x minus 55 times x plus 3 cubed has three unique factors.
+These three factors are x plus 2, x minus 55, and x plus 3.
+Even though we see that this is being squared, all this means is that there is x plus 2 times x plus 2.
+So it happens twice.
+But we only count one of these because, once again referring here, is the number of unique factors.
+So we only count one of them.
+Therefore, this function right here has three zeros.
+So, let's practice.
+The graph of y equals f of x is shown where f is defined by f of x equals a times x minus b squared, x minus c, times x minus d, with a, b, c, d as constants.
+For how many values of x does f of x equal zero?
+So what is this question asking?
+Okay, how many values of f of x equals zero?
+This means how many x-intercepts are there, which also means how many solutions are there.
+So how many times is it across the x-axis, which also means solutions.
+So, let's take a look at this.
+Remember, we are looking for the number of unique factors containing an x.
+So, we have one here, x minus b, we have x minus c, and we have x minus d.
+And a, although you may think that it is a factor, it does not contain a x.
+So therefore, this is not correct.
+So there's one, two, three.
+So that gives us c.
+Now, let's solve this problem using Desmos.
+So, in this question, because it is asking for how many values is x equal f of x equals zero?
+What does this mean again?
+This means how many values exist to where y equals zero, or where the function is crossing the x-intercept.
+So, for this question, all we need to do is graph this function right here.
+So, let's graph it.
+When we graph it, however, we initially see no function actually appear on this graph.
+Why is that?
+That's because we haven't assigned any values to a, b, c, or d.
+So, Desmos has no clue what the function actually is.
+So, let's assign some values.
+When we assign sliders and assign all the values equal to one, we see, oh, there's only one instance in which it crosses the x-axis.
+So, we're tempted to think, okay, the answer is one.
+So, this is where actually most students mess up, is where they just pick one because they see one cross.
+However, in this question, it is saying that a, b, c, and d are different constants.
+Because, once again, they are different variables.
+They're not all a.
+In this case right now, we have them all assigned to one.
+So, we must actually change the values a little bit so that the values are not all the same.
+Now, we notice here, when we zoom in a little bit more, that this actually now crosses the x-axis three times.
+Once right here, once right here, and once right here.
+So, now that a, b, c, and d are different values, we actually see that this function right here has three times in which f of x equals zero.
+So, the answer is three.
+Let's dive even deeper into factored form.
+Factored form doesn't just tell us the amount of unique x-intercepts or zeros of a function.
+It also easily shows us the x-intercepts and the exact values of the zeros of a function.
+So, let's take this basic quadratic for example, x squared plus 5x plus 6.
+After we factor it using the x-cross method, we get these two factors.
+Then, in order to find the x-intercepts, we know that the x-intercepts occur on a graph when the value of y right here is equal to zero.
+So, this occurs when y equals zero.
+So, plugging in zero for y actually allows us to solve for the x-intercepts.
+This is because, look at this right here.
+Based on the property of the zero property, anything multiplied by zero equals zero.
+So, if x plus 3 equals zero, then this whole thing would be equal to zero.
+At the same time, if x plus 2 equals zero, then this whole thing would also equal to zero.
+So, in order to find the x-intercepts, all we need to do is set x plus 3 equal to zero,
+and also x plus 2 equal to zero in order to define the zeros.
+So, let's do it.
+x plus 3 equals zero, therefore x equals negative 3.
+At the same time, if x plus 2 equals zero, then x must equal negative 2.
+So, we find that the x-intercepts occur when x equals negative 3 and x equals negative 2.
+I'll stay here.
+We can also just easily graph this, either this or this,
+because remember, these two forms just express the same thing in a different way.
+After graphing either this in standard form or this in factored form,
+we look in the graph and we see that the x-intercepts indeed occur at x equals negative 3 and x equals negative 2.
+The big thing to remember here is to set both of these factors or all the factors present
+if we want to find all the x-intercepts equal to zero and then solve for x.
+So, let's practice.
+f of x equals 2x squared plus 5x plus or minus 3.
+The function f is defined by the given equation.
+For which of the following values of x does f of x equals zero?
+So, what does this mean again?
+When f of x equals zero, this simply means when it crosses on the x-intercept.
+Why?
+Because when it crosses the x-intercept, y equals zero.
+Okay, so let's solve it.
+So, we know that y must equal zero.
+So, let's set this equal to zero.
+2x squared plus 5x minus 3.
+Okay, so in order for us to convert this standard form into factored form, we must factor.
+So, let's use the x cross method.
+So, we know that these numbers on the left side must multiply to give us 2.
+So, let's do 2 and 1 and we now know that on the right side, we must get two factors that
+multiply to negative 3 and add to 5.
+So, let's think about the different factors.
+Well, 3 is prime.
+So, we know that it must be either this or negative 1 times 3.
+So, let's try to figure out the combination that actually yields us positive 5.
+So, think about it like this.
+When we put the 3 right here and the negative 1 right here and then we follow the crosses,
+we actually get 2 times 3 equals 6 and then 1 times negative 1 which equals negative 1.
+Adding this together gives us 5.
+So, this combination is correct.
+These two multiply to give us 2.
+These two multiply to give us negative 3 and then multiplying diagonally and adding the products gives us 5.
+So, this is correct.
+Now, let's write the factored form.
+So, 2x minus 1 times 1 plus 3.
+Now, in order for us to find which of the values of x does fx equals 0,
+remember we're setting this equal to 0.
+Now, what this means is that in order for this whole thing to equal 0,
+either this one or this one must equal to 0.
+So, let's set both of them equal to 0 and then solve.
+So, 2x minus 1 equals 0 and this should say x.
+So, x plus 3 equals 0.
+So, after adding 1 to both sides, 2x equals 1 and then x equals 1/2.
+And on this side, x plus 3 equals 0.
+So, x equals negative 3.
+So, we know that when x equals 1/2 and when x equals negative 3,
+these are the two values of x in which y equals 0.
+And if you ever want to test it,
+all you need to do is plug these x values back into this equation and just solve to make sure it equals 0.
+So, when x equals negative 3, negative 3 plus 3 equals 0.
+0 times any number whatsoever gives us 0.
+So, that is correct.
+And you can test the same here.
+2 times 1/2 equals 1.
+1 minus 1 equals 0.
+So, that gives us 0.
+So, these two are correct factors.
+Now, let's look over here and see which answer choice is present.
+So, not x equals 2.
+Not x equals 1/3.
+We got 1/2, not negative 1/2.
+And we got x equals negative 3.
+So, a is correct.
+Now, let's solve this question on Desmos.
+So, to solve this question on Desmos, because we are looking for the x intercepts,
+all we need to do is graph the function and then find where this function intersects the x-axis.
+So, let's graph it.
+2x squared plus 5x minus 3.
+Now, let's find the x intercepts.
+And very easily we can see that the x intercepts is when x equals negative 3 and when x equals 1/2.
+And this is the exact same thing as we solved earlier.
+So, very easily we see x equals negative 3, negative 3.
+So, a is the correct answer.
+answer.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Increasing or Decre.txt
+--------------------------------------------------------------------------------
+Let's talk about increasing or decreasing on x interval. The big rule to keep in mind here is to
+always read the graph from left to right, just like you would read a sentence. So we want to
+think about this increasing and decreasing kind of like a roller coaster. When we're increasing,
+the roller coaster is climbing up. Think about it like this. As we're increasing, imagine that
+roller coaster. As x increases, meaning on xy plane we're moving to the right, y also increases.
+As we can see, that is the case. As we move to the right, this y value also increases. Now let's look
+at decreasing. Think about this like a roller coaster dropping down. As x increases, which as we can see
+here, we're still moving to the right, the y value is actually decreasing now. That is decreasing. Now
+for any parabola, the direction of the roller coaster, or think about this in math terms, as the increasing
+or decreasing changes at the vertex. This is super, super, super important to note. Changes at the vertex.
+So step one, find the x coordinate of the vertex, h. So in this case, this is the vertex. Let's just
+assign this to the value of 10. At x equals zero, this is zero. This is let's just say 20. So step two,
+draw a vertical line through that x value. This is the changing point in which increasing could change to
+decreasing. Or decreasing could change to increasing. Step three, determine that the graph is opening up
+or down to see which side of the function is climbing or falling. So let's take the first example. Let's
+say that the function is opening upwards. In this case, left side of the vertex is decreasing. The right
+side, so decreasing, the right side is increasing. Now if our parabola is opening downwards, this
+looks at it actually flipped. On the left side, we are actually increasing. On the right side, we are
+decreasing. These are super important to note because depending on whether the parabola is opening
+upwards or downwards, the increasing and decreasing intervals may change. Let's practice. An object
+launched from a rooftop rises until t equals 5 seconds, then falls until it hits the ground at t equals 11
+seconds. For which interval was the height of the object increasing for the entire interval? Okay, let's actually
+draw this out. So an object launched from a rooftop rises until t equals 5 seconds. So it is being launched,
+so of course we know that this is the trajectory of a ball that's being launched. It rises until t equals 5.
+Because we know that the vertex is the point in which it changes, we know that t equals 5 is the vertex.
+So this should be t and this is 5 comma something. We don't care about what height. Then it falls until it hits the ground at t equals 11. So this is 11.
+This is 5 and this must be 0 because that's when it's first launched. For which interval was the height of the object increasing for the entire interval?
+So now as we can see here because this is the vertex and the parabola is opening downwards, the left side of this
+parabola is increasing. This is increasing, this is decreasing. And when it's increasing? It is increasing from 0 to 5. So the answer is a. And a is indeed correct.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Interpret Vertex.txt
+--------------------------------------------------------------------------------
+Let's talk about how to interpret vertex form. In order to interpret vertex form, we must use the context of the question. If the question is asked about launching a ball, we know that the trajectory roughly looks like this:
+The vertex is the time it takes for the ball to reach the maximum height. If the question is asked about diving, the vertex might be the time it takes for the diver to reach the lowest depth and how deep the lowest depth is. So in this case, it would look like this.
+So let's practice. A science class models a model rocket's height with the height h equals -5t-4+80, where h is the height in feet and t is seconds after launch. Which of the following is the best interpretation of the vertex of the graph?
+So in this case, we know that we are launching a rocket. We know that the vertex is the maximum point. So in this case, it is 4,80.
+This is because this -4 switch and keep, this is 4 for h, and this is 80 for k.
+So with that being said, what does this represent? Well, given the context of the question, we know that this maximum point must be the time in which the maximum height of the rocket occurs.
+So let's take a look at the answer choices. The rocket reaches a maximum height - okay, we notice that all of these say maximum height, so cool, we can't eliminate anything.
+Reaches a maximum height of 5 feet, 4 seconds after launch. Well, that is absolutely not correct at all, because we know it reaches a maximum height of 80 feet.
+So A is incorrect. The rocket reaches a maximum height of 80 feet, 4 seconds after launch. That sounds right so far.
+The rocket reaches a maximum height of 4 feet, that is incorrect. The rocket reaches a maximum height of 80 feet, 5 seconds after launch.
+This is slightly wrong. It took the A value instead of using the H value. So that is incorrect. So B is the correct answer. And that is correct.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Quadratics Word Prob.txt
+--------------------------------------------------------------------------------
+Let's talk about quadratic word problems within non-linear functions. The key thing to remember here is to always pick the second item or the second thing mentioned and set that equal to your anchor variable x. This makes translation from a word problem to an algebraic function much, much smoother.
+So what does this look like? If the problem says something like the length is 5 more than the width, we want to make the width equal to x. Remember, this is the second item mentioned. So width equals x. Now we can easily identify what the length is equal to. We know that the length is simply 5 more than the width. So since the width is equal to x, length is equal to x plus 5. This makes translation much, much smoother.
+Now let's practice. The product of two positive integers is 119. If the first integer is 3 more than twice the second integer, what is the smaller of the two integers? Okay, so now let's find the relationship. So remember, we want to set the second item mentioned equal to the anchor variable x. In this case, if the first integer is 3 more than twice the second integer, we need to set the second integer.
+So let's do that. Second integer equals x. Now let's find what the first integer is equal to. Well, here it says the first integer is 3 more than twice the second integer. Okay, so twice the second integer is simply 2x. And then 3 more than that, we just need to add 3.
+So these are the second integer. Now what is the smaller of the two integers? Now we need to solve for the smaller of the two integers. In this case, obviously this is 2 times x plus 3. So we know that the smaller integer is simply the second integer right here. So let's solve it. So given these two equations, let's substitute in this f and this s. So x times 2x plus 3 equals 119. So equals 119.
+Now let's distribute and let's solve. 2x squared plus 3x minus 119 equals 0. All I did here was distribute through and then subtract this 119 to the opposite side. Now let's factor this using the x cross method. So what is pretty apparent with this left side is the factors must be 2 and 1. Now on this right side, you can test the different factors and you will find that the factors is going to be 17 and 7.
+because these two numbers multiplied together give us 119. Now the question is
+which one is negative and which one is positive? So we can go through the process
+and guess and check. In this case we see that we need a positive 3 and once we
+multiply along the diagonals and then add the products we must get positive 3.
+So in this case we need a negative 7 here and we need the negative 7 down here
+and 17 right here. This is because 2 times negative 7 equals negative 14 and
+then 1 times 17 equals 17. Adding these two together we get positive 3. So that is
+correct. So let's now write this out from left to right. So this is this factors out
+to be 2x plus 17 times x minus 7. Now we notice here when we set both of these
+equal to x in order to solve for the value of x, 2x plus 17 equals 0 and x minus 7
+equals 0. We will notice that this gives us a value of x equals 7 just by adding to the other side and this one
+subtracting 17, 2x equals negative 17 divided by 2. So x equals negative 17 over 2. We will notice that this is positive, this one's negative. The question tells us the product of two positive integers is 119. So obviously x cannot
+equal to equal a negative number. So this solution is not fitting for this problem. We can't have a negative integer
+as a negative number. So x equals 7. So x equals 7. This means that the second integer also as we identified earlier, the smaller integer is equal to 7 and the first integer or the bigger integer is 2 times 7 which is 14 plus 3 which is 17. So for this question the answer is a, the smaller of the two integers. And that is correct. Now let's try an even harder question. The area of a rectangular banner is 91 square inches. So we know area is of a rectangle.
+So length times width equals 91. So length times width equals 91. The banner's length L in inches is 6 inches longer than its width in inches. Which equation represents the solution? Okay. So once again we want to use a second item mentioned as our anchor variable. So we want to set width equal to x. Then let's take a look at the other one. So the banner's length L in inches is 6 inches longer than its width. Okay. So length simply equals to x plus 6.
+Now let's take a look at the answer choices real quick. Now let's take a look at the answer choices real quick. We notice that in this question the answer choices are in terms of L. So we cannot directly just plug in length and width into this equation because then this would be in terms, the equation would be in terms of x. We want to do in terms of L. Therefore L must stay the same here but width must be said in terms of L. How do we find width in terms of L? Well actually we see here that width is equal to x. So actually
+length equals width plus 6. Length equals width plus 6. And now we can isolate for width on one side. So after subtracting 6 we get that width equals L minus 6. Okay. So now we have width and now we also have length which is just obviously length is equal to length.
+So let's solve this question. Let's plug these both in.
+So length times, and what is w equal to? Width is equal to length minus 6.
+So length minus 6 equals 91.
+Now let's distribute out L squared minus 6L equals 91.
+After moving 91 to the opposite side, L squared minus 6L minus 91 equals 0.
+So in this case, that gives us answer choice A.
+The key thing to note here is that obviously we first follow the steps,
+set the anchor variable equal to the second item mentioned,
+and then find the relationship between the two.
+Then remember to glance over at the answer choices and see exactly what the question is looking for.
+In this case, it was looking for the answer in terms of L, not in terms of some arbitrary,
+like in this case, if we were to directly plug them in,
+we'd actually be setting the equation in terms of w, because w equals x.
+So in this case, we had to isolate and solve for w in terms of L,
+and then we could do this question.
+Now let's try this question.
+A Park Ranger hung bird houses, each in the shape of a right rectangular prism.
+Each house has a height of 10 inches.
+The length of each house's base is x inches, which is 2 inches more than the width of the house's base.
+Which function v gives the volume of each house in cubic inches in terms of the length of the house's base?
+Okay, so to solve this question, this is a little bit different,
+because we actually are given three measurements,
+so we can't just use the second one as the anchor.
+Matter of fact, the question actually gives us the anchor variable.
+In this case, it does happen to align with the second variable given,
+or the second item given is the anchor variable,
+but in this case, we just need to find relationships between the three.
+Well, first of all, this question is asking us about the function v,
+which is the volume of the house.
+So we need to know how to actually find volume.
+Well, volume of a right rectangular prism is simply length times width times height.
+Now we just need to substitute these three in,
+and find the relationships in order for us to get these answer choices.
+Taking a look at the answer choices, we see that these are all in terms of x.
+So we know that everything in here needs to be plugged in in terms of x.
+Okay, let's figure out what all of these are equal to.
+We know that h equals 10, as stated right here.
+We know that the length of each house is x inches.
+Okay, beautiful, we already have two.
+Makes our job easier.
+And it says that the length is x, which is two inches more than the width of the house.
+So what does this mean?
+This means that the width is equal to something,
+but the length is two inches more than the width of the house.
+So if the width, for example, equal to 8,
+the length would be two inches more.
+So length would be equal to 10.
+Well, the relationship between these two is simply width equals to x minus 2.
+And now we have the three variables.
+All we need to do is plug in to the volume equation and solve for volume.
+So let's do it.
+Volume equals, and I'm going to put it in an order
+that makes it make the most sense algebraically.
+So put the 10 in front to get a coefficient,
+and then we need x times x minus 2.
+So let's distribute this one at a time.
+So let's move this side first.
+So because all this multiplication really doesn't matter,
+we could use straight up 10x and then multiply by these two.
+Actually, let's just do that.
+Volume equals 10x squared minus 20x.
+That gives us a.
+And that is correct.
+Let's do another question.
+A rectangle has a length that is five times its width.
+The function a of x equals 5x squared represents the situation,
+where a is the area and square meters of the rectangle and x is greater than zero.
+Which of the following is the best interpretation of 5x in this context?
+Okay.
+So once again, remember that the second item that we are given is our inco variable.
+So let's set width equal to x.
+And now we know that the length is five times of its width.
+So length equals 5x.
+Or remember, because these two are equal, we could also say 5w.
+It tells us that a is the area.
+Well, we know the area of a rectangle equals length times width.
+So let's actually see if these are the same.
+If what we wrote is the same as what it gave us.
+Area equals, and let's substitute it in, 5x times x.
+So we actually do get that area equals 5x squared.
+Awesome.
+So now it's asking us,
+what is the best interpretation of 5x in this context?
+Well, we know that 5x is simply equal to the length.
+So let's find an answer choice.
+5x is equal to the length of the rectangle.
+That is correct.
+The area of a rectangle, incorrect.
+That is a of x.
+The difference between the length and the width in meters,
+that would simply be maybe 5x minus x, or l minus w.
+So that's incorrect.
+And the width of the rectangle in meters.
+That is incorrect because we know that the width is equal to x.
+So the answer is a.
+And a is correct.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Stand,Vertex, Facto.txt
+--------------------------------------------------------------------------------
+Let's talk about quadratics, specifically standard form, vertex form, and factored form.
+Standard form is in the form of ax squared plus bx plus c. This form is very useful for factoring,
+using the quadratic formula, and converting between the different forms.
+Vertex form is in the form a times x minus h squared plus k. This form is super useful to help
+us find and easily locate the vertex of a parabola. This vertex is clearly shown at h comma k. This is
+useful for graphing and also doing transformations. More on that later. Lastly, factored form is in the
+form x minus q times x minus p. Note that there can also be a coefficient in front of these x's. This
+form is easily used to identify the zeros, roots, and solutions. All these mean the same thing by the
+way, which are all just the x-intercepts when a quadratic is graphed. The roots being q and p.
+Note that the sine of the zeros, or the sine of the roots, zeros, or solutions, or the x-intercepts
+all are interchangeable. The sine of the zeros is opposite of what is in factored form because of
+the negative before the p and the q.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Standard to Factored Form - X Cross.txt
+--------------------------------------------------------------------------------
+Let's talk about how to convert from standard form to factored form. In order to do this, all we need to do is simply factor.
+Now refer to the foundations unit if you want a review or want to relearn how to factor.
+But here's a basic rundown. A quadratic is given in the standard form ax squared plus bx plus c.
+In order to factor a basic quadratic, all we need to do is look for two sets of numbers that pass two tests at the same time.
+They must multiply to give you a and multiply to give you c and then they must add to give you b.
+We do this using the cross method.
+So let's practice. Which of the following expressions is equivalent to x squared minus 7x plus 10?
+Okay, so we know looking at the answer choices that all of these are in factored form. Therefore we know that we must factor.
+So let's do it using the x cross method. So firstly we draw an x. Then we find that the a term is equal to 1.
+So on the left side, both numbers are 1 because 1 times 1 gives us 1.
+Now we must come up with factors over on this side that multiply together to give us 10 but add together to give us -7.
+So what is this? This has to be -5 and -2 because these multiply together to give us 10 and add together to give us -7.
+So we get -5 over here and -2 over here. So after having our factors, we now move from left to right in order to write out factored form.
+And we throw an x in front of these terms right here. So x minus 5 times x minus 2. Here are answers right here. So x minus 5, x minus 2. So our answer is a. And a is correct.
+Now let's practice another question. Which of the following is an equivalent form of the function f of x equals 3x squared plus 13x plus 4?
+In this case we notice how this function in front of the x squared, the value of a is actually greater than 1.
+So we must do a little bit of extra steps on the left side of this x cross. So two numbers that multiply to get 3 must be 3 and 1.
+Now two numbers that multiply together to give us 4 and then add once after following the cross must add to 13.
+Okay, so in order for us to get 4, it's either 4 times 1 or 2 times 2.
+Now the question is, which one of these work together with this? So let's just test them. So let's do 2 times 2 first.
+So let's test it. So after moving across, 3 times 2 equals 6. So 3 times 2 equals 6. And 1 times 2. 1 times 2 equals 2.
+6 plus 2 equals 8, which does not equal 13. So this does not work. Now let's try again with different numbers.
+So instead of using 2 and 2 this time, let's try using 4 and 1.
+So because we are moving along the diagonal, we know that, okay, if we put a 1 here, 1 times 3 just equals 3.
+4 times 1 equals 4. That will only add together to give us 7. So let's switch it. Let's put the 4 on the bottom.
+Let's put the 1 on top. Now let's go along the crosses. 3 times 4 equals 12. And 1 times 1 equals 1.
+So adding these together, 12 plus 1 equals 13. This is correct because it aligns with the b term.
+So big thing with this method is as you do it over time, you begin to get quicker.
+Because as you come up with these factors for the c term, in your head you will be able to see,
+okay, 3 times 2 plus 1 times 2 is obviously too small. It's way too small for 13.
+Which is the step that I did over here in my head or I said out loud was I first tested 4 above and it made no sense because the number was too small.
+So now I'm going to put 4 on the bottom because now 3 times 4 is 12. 1 times 1 is 1.
+So as you do this method, you will get even quicker.
+So now that we know that this is the correct way on the x cross and it satisfies all of the tests, now let's move from left to right to get our answer.
+3x plus 1 times x plus 4. And this is answer choice A. And that is correct.
+Now let's try these problems with decimals. So whenever a question asks for an equivalent expression, so this is equal to one of the answer choices,
+all we need to do is graph the original expression and then find which one of the answer choices is the exact same graph.
+So let's do it. So I have graphed the first, the original expression, and now we need to graph the answer choices.
+So let's test one at a time. x minus 5 times x minus 2. This clearly overlaps with the original function.
+You can tell by turning off and on the two different ones and seeing that they actually do overlap at the exact same time.
+So we know that A is correct. And I'm just going to show you what one wrong answer choice looks like.
+When you put in a wrong answer choice, you actually find that this graph does not overlap the same spot.
+So it's just going to appear somewhere else. As you tell right here, the second answer choice B appears elsewhere.
+And the same is going to happen for C and D. So the answer here is A. And that is correct.
+Now moving on to the second question, it is the exact same process because the question is once again asking for an equivalent form.
+For an equivalent form of this function. So let's graph the original function, 3x squared plus 13x plus 4.
+And let's test the answer choices one at a time once again. So 3x plus 1 times x plus 4.
+And we find here that these two functions actually do overlap. So A is correct once again.
+And once you graph the other answer choices, you will find that they do not overlap. When you are going through the questions on the SAT, you should always test the other answer choices just to make sure that you didn't maybe input this question wrong or you maybe didn't input this one wrong.
+You should always check through all of them to just confirm that one of them absolutely right. But for the sake of this demonstration, I'm only going to test one of them to show you what it looks like when answer choice is wrong.
+So let's test B. 3x plus 4 times x plus 1. We find that these two do not overlap because they clearly graph to do different places. So the answer is once again A. And that is correct.
+That's correct.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - Vertex Form.txt
+--------------------------------------------------------------------------------
+Let's talk about the vertex. The vertex is the turning point of a parabola. This can be thought of as either a peak or a valley. If the parabola opens downwards, the vertex occurs at the top, at the peak. If the parabola opens upwards, then the vertex can be thought of as the valley.
+So what is the real world meaning? The real world meaning of the vertex could be either the maximum height or the minimum cost, if it's a valley, or the optimum point in which something occurs. The x-coordinate, h, is when the peak or the valley actually occurs. The y-coordinate, or k, is the actual value, either the maximum or minimum value that occurs at this x-coordinate.
+So in this example, at the vertex 3,80, given the situation of a rocket ship being launched, with x being time and y being the height, given this vertex, we know that the rocket reached a maximum height at 3 seconds, and this height was 80 feet, or 80-something.
+Now let's talk about the vertex form. If you look at this and you think this looks somewhat familiar, you would be correct. This looks awful similar to when we complete the square, and you would be right. And that's why we learned how to complete the square.
+In this scenario, h, k are the coordinates that represent the vertex, or the tip, or the turning point of the parabola. Notice how in this case, h is right here, but in this equation, there's a negative in front. This will be important a little bit later.
+So let's break this down. A tells us the direction and the scale of the parabola. So for example, if A is positive, we know that the parabola is opening upwards.
+If A is negative, we know that the parabola is opening downwards. If A is something like 100, we know that the rate of change is super great.
+So the parabola may look like this. If A is, for example, 1 tenth, it could be opening like this, because the rate of change is not as great.
+Same can be said for if it's opening downwards. If it was negative 10, it would look like this, but flip downwards, opening downwards.
+And if it was negative 1 tenth, it could be like this, but just flipped the opposite way.
+So if A is positive, it opens up like a smiley face. That's an easy way to think about it. Remember, positive, we're happy. Negative, we are sad.
+Now, how do we find the vertex? Thing you want to keep in mind is switch and keep. What does this mean?
+Because the formula has a minus sign inside the parentheses in front of the K, but a plus sign outside of the parentheses, so plus K, finding the vertex requires just one quick mental flip.
+So all we need to do to find the vertex is switch the sign inside the parentheses. So right here, if it's negative 5, so x minus 5, we know that the vertex is just 5, comma, and then whatever the K is, we just keep the sign outside.
+Hence, switch and keep. So K, whatever that value is.
+So, let's do an example. For the function y equals 3 times x minus 4 squared plus 7, we want to find the vertex.
+Okay, so remember, switch and keep. Inside, we see it's negative 4, so we want to switch the sign, so that gives us 4.
+Then on the outside, it is 7. Remember, switch and keep, so we keep the 7.
+So the vertex is simply 4, comma, 7. On a graph, if we were to graph it, we would see that this vertex occurs at the turning point.
+So in this case, at the valley, which is still 4, comma, 7.
+So if you easily want to find the vertex of any quadratic, all you need to do is graph it.
+So let's practice. The equation y minus 5 equals x plus 2 squared relates x and y for function f.
+Cool. What is the minimum value of y? Looking at answer choices, we see a couple of values.
+Okay, so we know that we are looking for the minimum value.
+So, because there's a minimum value, we also know that this parabola must be opening upwards.
+Does this agree with what we learned just earlier?
+When we rewrite this equation to be in vertex form, we get y equals x plus 2 squared, and then moving this 5 to the other side, which is plus k, we get plus 5.
+So, remember, vertex form is h, k. And remember, standard vertex form has a negative sign in front of the h, so we always must switch and keep.
+So, it's asking us for the minimum.
+Remember, in this case, a is equal to 1 right here.
+Even though there's nothing there, we know that there's a 1 here.
+Otherwise, this 1 makes sense.
+So, the parabola does indeed open upwards.
+Now, let's find the vertex.
+So, first thing we do is switch and keep.
+So, the inside, we switch it.
+So, instead of 2, it's negative 2.
+And then the outside, we keep it.
+So, it's 5.
+So, let's ask us, what is the minimum value of y?
+Because we know the vertex occurs at negative 2 comma 5, we know that the minimum value of y must occur at 5, because all these other points only start increasing.
+So, the answer is b.
+And that is correct.
+Let's do this question on Desmos.
+So, given the equation, we need to find the minimum value of y.
+All we need to do here is type in the equation and then find the point in which the minimum occurs.
+In this case, we see the vertex is negative 2 comma 5, so the minimum value of y simply occurs at 5.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Nonlinear Functions - y-inter & x-inter.txt
+--------------------------------------------------------------------------------
+Let's talk about properties of a quadratic. The first property that we must know is the y-intercept.
+The y-intercept occurs when the function crosses the y-axis at x equals zero. So imagine an xy-plane.
+Given a random function, it could be a linear line or it could be a quadratic. This is when the
+function crosses this y-axis right here and this occurs when x equals zero. So in order to find the
+y-intercept in any function or any equation, all we must do is plug in zero for x in the function
+and then solve. For example, if h of t equals negative 16t squared plus 50, if that models
+a ball's height at t seconds, 50 is the y-intercept. This is because when we plug in zero for t,
+we get this equal to zero and then we just get that y or h of zero equals 50. This means that the ball
+started at a height of 50 feet at zero seconds. The next thing we must know is the x-intercept.
+The x-intercept is when the function crosses the x-axis and this occurs when y equals zero.
+To find it, we must set the entire equation equal to zero. So we must set y equals zero and then solve
+for x, the values in which this occurs. For example, if p of x represents the profit and the x-intercept is
+100, y equals zero when x equals 100. It means that you must sell 100 units to break even to get zero
+dollars profit. Let's practice. The x-intercept of a graph is k, 0. The graph crosses the x-axis at x
+equals 11. What is the value of k? Okay, so the x-intercept, so when the graph crosses the x-axis, is
+something comma zero. It also tells us that the graph crosses the x-axis at x
+equals 11. So we know the x-intercept is something comma zero, but we know that it
+crosses it somewhere at x equals 11. So since both of these actually are just
+talking about the exact same thing, the x-intercept is actually 11 comma zero. And
+that is correct. Now let's practice another question. A function gives the
+estimated resale value in dollars of a laptop as a function of the number of
+weeks since it was purchased. What is the best interpretation of the y-intercept
+of the graph in this context? So remember, what is the y-intercept? The y-intercept
+occurs when the graph crosses the y-axis, but this also occurs when x equals zero. So
+what does this mean in this question? Well let's look at the question as a function
+of the number of weeks since it was purchased. So x represents the number of
+weeks since it was purchased. So the y-intercept represents zero weeks since it was purchased. So
+literally at the purchase date. So let's look through the answer choices. The estimated value of the laptop when it was purchased. That is correct because it is saying when it was purchased. So zero weeks since it was purchased. And remember, this is zero comma the y-value which occurs. And in this case, our y-value represents the estimated resale value. Okay, let's look at the y-value.
+The estimated value of the laptop one week after it was purchased. That is incorrect because one week
+of the purchase would mean that x equals one, not x equals zero. But we're talking about the y-intercept. The estimated value of the laptop had decreased by a fixed number of weeks in the weeks after it was purchased. That has nothing to do with this. The estimated value of the laptop decreased by approximately the same amount each year after it purchased. We don't know that either because we don't know the function. So the answer is A. And that is correct. Now let's practice another question. The function f is defined by f of x equals 5x minus 4 times x plus 3 to the power of negative 1.
+Now what is the y-intercept of the graph of f in the xy plane? Okay, so once again we're being asked the y-intercept. Well first let's turn this equation into something a little bit more friendly. What does this to the exponent of negative 1 mean? This just means we need to move it to the opposite side and change this exponent to a positive 1. So let's do it.
+5x minus 4 divided by x plus 3. And this technically has to the power of 1 but because it's power of 1 we could just write it as normal. So now let's do the y-intercept.
+Well what does y-intercept mean again? This just means when x equals 0. So let's plug x equals 0 into this. 5 times 0 is 0 so it's just negative 4 over and then 0 here will just be 3.
+So the y-intercept must be 0 comma negative 4 over 3. 0 comma negative 4 over 3. To do this problem in Desmos, what we need to do is graph the equation and then see where it intersects the y-axis.
+Which is very simple. So 5x minus 4 times x plus 3 is the power of negative 1.
+So what is the y-intercept? So let's check. We can see that's right here. 0 comma negative 1.33333. And if we are unsure which one of these answer choices is exactly that, we can actually just test them.
+Negative 4 over 3. And we see negative 4 over 3 is indeed negative 1.3 repeating. So the answer is A.
+Now let's do another question. The function f is defined by f of x equals x minus A times x minus B, where A and B are positive constants and A does not equal B.
+The functions G and H are equivalent to function f, where G of x equals this long thing and H of x equals this long thing.
+So here's the following equations displays the y-coordinate of the y-intercept of the graph y equals f of x in the xy-plane as a constant or coefficient.
+Okay. This question is very, very loaded. So let's break this down one thing at a time.
+So we see that the question is obviously asking about the y-coordinate of the y-intercept of the graph y equals f of x. So first let's actually figure out what that is.
+So looking at this equation, in order to find the y-intercept, all we need to do is plug in x equals 0. So let's do that in this equation.
+When we plug in x equals 0, all we get is f of 0, which is this y-intercept, we will be solving for the y-intercept, equals negative A times negative B.
+While we're supplying these two together, we get AB. So AB is the y-intercept.
+Now, because the question tells us that functions g and h are equivalent to function f, we must now see which of the following equations, g of x or h of x, displays the y-intercept, which is right here, the y-coordinate of the y-intercept, AB, as a constant or coefficient.
+Okay. So in order to do this question, let's also plug in 0 for each of these equations. That way we can see what the y-coordinate of the y-intercepts for these equations are.
+So plug in 0, we just get rid of this x, and we get rid of this x. And the same for here, we just get rid of the x, get rid of the x, because it's just 0.
+So, let's test whether this y-intercept is equivalent to any of the constants or coefficients in these two functions.
+So, obviously looking here, negative A squared ends up giving us a constant. Negative A squared gives us A squared.
+Well, A squared cannot possibly be equal to AB. So, this is not correct. At least this constant does not satisfy that the y-coordinate of the y-intercept is not shown here as a constant.
+Now, let's look at here. This is a coefficient. Well, negative B minus A also cannot be equal to AB. It's just not possible. Now, looking here, negative A also cannot possibly equal AB. So, this coefficient does not satisfy.
+Does not satisfy the conditions. And negative A also does not satisfy the condition. It is not equal to the y-coordinate of the y-intercept of f of x.
+Looking here, this actually gives us a similar scenario. B squared cannot possibly equal AB. Negative A minus B also cannot possibly equal AB. And negative B also cannot possibly equal AB. So, the answer is D.
+The big idea here is to recognize what the question is actually asking for. It is asking us to check all the constants and coefficients in G of x and H of x to see if in either of these equations, these constants or coefficients are actually equal to or represent or displays the y-coordinate of the y-intercept of the graph.
+Obviously, with that being said, we must actually know the y-intercept of the equation f of x, which we solved initially.
+Now, let's do this question. The profit f of x in dollars that a food truck earns is given by the function above, where x is the unit price in dollars of each lunchbox.
+The graph of y equals f of x in the xy-plane intersects the x-axis at 0 and A. What does A represent?
+Okay, in this question, we are actually being asked about the x-intercept. So let's take a look at what this question means.
+So f of x, the y-value, represents profit in dollars, and x is the unit price of each lunchbox.
+Okay, so at the x-axis, what does this mean? This means that y must equal 0. So this means that profit must equal 0. Profit equals 0.
+Now, when we know that at the x-intercept, the profit must equal 0, but what we do not know is the value of x.
+Well, the value of x represents the unit price in dollars of each lunchbox. So at some value of the lunchbox, the profit equals 0.
+Well, obviously, when the value of each lunchbox is 0, of course the profit is 0, because we are not selling the lunchboxes for any price at all.
+Well, apparently, when the value of x equals A as well, the profit also equals 0, because this is when the function f of x intersects the x-y-plane at the x-axis.
+So, this means that at the lunchbox being valued at 0, the profit is also 0, and when the lunchbox is valued at A, the profit is also equal to 0.
+So let's check the answer choices. What does A represent? Remember, A represents the dollar amount of lunchbox that leads to 0 dollars in profit.
+So let's check the answer choices. A represents the profit in dollars where the unit price of the lunchbox is 0. No, this is actually flipping profit in lunchbox. So that's incorrect.
+The unit price in dollars that results in a maximum profit. That would be something related to the vertex. But this is the x-intercept. That is not correct.
+The unit price in dollars that results in a profit of 0. This is exactly what we said and we identified the definition of the x-intercept means in this context. So C is possibly correct.
+The maximum profit in dollars is no, that is incorrect. Maximum profit has to do with vertex. Answer is C. And that is correct.
+That is correct.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Functions - Exponential Growth.txt
+--------------------------------------------------------------------------------
+Let's talk about exponential function formula, also known as exponential growth or exponential decay.
+The standard formula looks like this: f = a*b^t, or f = a*b^n. These are both the same thing.
+As you can see, the only difference is the exponent, either represented as t or n,
+but it could also be represented as almost anything, such as r. The main thing to know
+is not to memorize what the exponent is, but to know what each of them mean.
+a represents the starting value. This is where you start, or the initial value.
+On a graph, it is the y-intercept, when t or when this exponent, or whatever this function is a function of, equals 0.
+b is the multiplier, so this tells you how much the value is changing.
+It could either be decreasing or it could be increasing over time.
+And t, or the exponent, usually represents time, but it could also represent other things such as cycles.
+So, here's the multiply rule. In exponential growth, b = 1+r. In exponential decay, b = 1-r. R simply represents the rate at which something is happening.
+So for example, if the question says that the initial amount is increasing by 10%, then our b value would be 1+ this rate.
+This rate converted into a decimal, 10% is equal to 0.1. So b would be equal to 1.10.
+In exponential decay, if the question says that the initial value is decreasing by 10%, then this would be equal to 1-0.1, which equals 0.9.
+So, the key thing to remember here, and to note, is that b will never, never, never, never be negative.
+If b is greater than 1, it is growing. If b is in between 0 to 1, it is decaying.
+Now look here. R is the rate at which there is a decrease or increase. If a is increasing by 8%, then r will be 0.08.
+So it is simply the percentage converted into a decimal. That's how you get r.
+Now let's practice. There are 256 players in a tennis tournament. Each round, every player competes against
+one opponent. The loser is eliminated. Which equation gives the number of players p eliminated at the end of each round?
+So in this case, we're actually looking for p, the amount of players remaining, as a function of how many rounds there are.
+Once again, everything stays the same. Most things. The initial value stays the same. This multiplier is still
+represented by b. In this case, we use r as the exponent. Okay, so let's find what these
+values are equal to. So the initial amount in this case is 256 because that's how many players we start
+with to begin with. Then what is b? Well in this case, I mean, and also in tournaments, we know that
+every player competes against one opponent. The opponent is eliminated. So if person 1 goes against person 2,
+one of them is bound to lose. So how many players are going to remain? It's going to be 1/2. So b equals 1/2 or 0.5.
+Lastly, r is the amount of rounds that has happened. So let's see which one of our answer choices matches with the
+equation that we just wrote. p of r equals 256 times 1/2 and to the power of how many rounds there are.
+So in this case, let's check. Let's see, 256, that gives us c. And c is indeed correct.
+Let's do another problem. A tech startup's value is modeled by the function v of t equals 5,000 times
+1.08 to the power of t, where v of t is the value in dollars and t is the number of years since the
+company has started. What does 1.08 represent? So the first thing we should see here is that this is the
+a value and this is the multiplier value. Well, now let's look at the answer choices. a, the company's value
+increases by exactly $1.08 each year. Well, that is not correct because every time for every year that
+happens, for example, one year since the company started, this exponent would be 1. And 5,000 times
+1.08 is 4 greater than just an increase of $1.08 per year that moves on. This is absolutely incorrect
+because this is multiplication, not addition. The company's value increases by 8% per year. Right,
+so what does b equal again? b equals 1 plus r. In this case, because the company is increasing in value,
+we see that b is positive, 1.08. So r must equal 0.08, which converted into a percentage. This is an 8%
+growth per year because once again, this is greater than 1. It is not in between 0 to 1. So this could
+be correct. The company started with the value of $1.08. That is absolutely false because we know that a is
+the initial value and that is $5,000. And lastly, the company's value increases by 108% each year.
+That is incorrect because 1.08 multiplying by something is not a 108% increase. A 108% increase
+per year would be like a company doubling its money every single year and then a little bit extra. But in
+this case, we're not doubling at all. We're only increasing by 8% as we stated earlier. So the answer is b.
+Next question. Marcus opened a savings account. The table shows an exponential relationship t equals 0
+gives d equals 800. t equals 3 gives d approximately 875. Which equation best represents the relationship
+between t years and d dollars? So we look at these answer choices and we see, okay, this is once again,
+this is in the form of exponential decay or exponential growth. So let's solve this equation. So, d of t equals a
+times b to the power of t. So let's put in the numbers that we already know. Well, we know that a has to
+equal 800 because that is the initial value when t equals 0. So a equals 800. Now let's plug in what we
+already have. So d of t equals 800 b to the t. Now, which equation best represents the relationship?
+Okay, so now we know this right here, but what we don't know is the value of b. Well, what do we
+know? It actually gives us another ordered pair. It gives us 3 comma 875. So if we plug in 3 right
+here and 875 here, we can solve for b. So let's do it. Anger 75 equals 800 b to the power of 3.
+Okay, so let's divide both sides by 800. 875 divided by 800 equals b cubed. Well, b equals
+the cube root of 875 over 800. So this is how we solve for b. So after we plug this into the calculator,
+into Desmos, we get that b equals 1.03 approximately. So rewriting our equation with the correct value of b,
+we know that a equals 800, b equals 1.03, and we know that it is to the power of t. So the correct answer is c.
+And that is right. Let's solve this question using Desmos. So to solve this question using Desmos,
+we first need to create a table. Because this question actually gives us two data points. It
+gives us 0 comma 800 and 3 comma 875. Now the question tells us which equation best represents
+the relationship between t years and d dollars. What we'll notice here is that all of these answer choices
+are standard exponential form. So therefore we can create a regression and find exponential regression.
+And so we're given the equation. So the answer is c. Now let's talk about a more complex example.
+This is understanding time intervals, also known as more of like the fractional exponent. So the rule is
+to divide the exponent by the cycle length. This seems a little bit arbitrary, so let's see an example.
+If a population doubles every three years, then the function would look like this.
+f of t equals a times 2 to the power of t divided by 3. Why is this? This is because, let's say we didn't
+have this divided by 3, the fractional exponent on top. By u1, t would equal 1. Therefore, the initial
+value would already be multiplying by 2 in the first year, and therefore the population would be doubling
+every single year. By dividing by 3, every three years this exponent actually becomes, it increases by 1. So after 3 years the exponent will be
+equal to 1. After 6 years the exponent will be equal to 2. Therefore it doubles once every 3 years. If a value triples every
+12 hours, and t was represented in hours, then f of t would equal to initial value times 3 to the power of t divided by 12.
+Because then, after 12 hours, this t, the exponent would actually be equal to 1. And so after 12 hours, then the initial value would triple.
+Now let's practice. The function f of t equals 500 times 2 to the power of t divided by 3 gives the number of
+bacteria in a culture t minutes after initial observation. How much time in minutes does it take for the number of
+bacteria to double? Okay, let's look at this. Our whole goal here is to figure out when it's going to double. So there's two ways to solve this.
+Either we could set over here equal to 1000, aka the double of the initial value, and then solve for t. Or we can just simply set this equal to 2, because we know that 500 multiplied by 2 would mean that the amount of bacteria has doubled. So let's do both methods.
+1000 equals 500 times 2 to the power of t divided by 3. So in this case, first divide that over. 2 equals 2 to the power of t divided by 3. Funny enough, these even end up at the same thing, the two methods, because they go hand in hand.
+So solving this, we can see that the exponent in front of the two is just a 1 right here. So actually, we can just set these two equal to each other. So 1 equals t divided by 3.
+Let's find it by 3. T equals 3. And same over here. We know that there's just an exponent up here of 1. In order to get these the same, we just need to set these exponents the same. 1 equals t divided by 3. T equals 3. Both of these methods both give us that it takes
+3 minutes in order for the bacteria to double. Now let's solve this question using decimals. So it gives us the equation and asks us how much time in minutes does it take for the number of bacteria to double? So solve this question using decimals.
+So to solve this question, all we need to do is set up a regression to solve for t. Well, the question tells us how long does it take for the number of bacteria to double? Doubling this initial amount, which is 500, would be 1,000. So we can set up the regression like this.
+1,000 tilde 500 times 2 to the power of t divided by 3. So therefore, it is now solving for t and we get that t equals 3. So it takes 3 minutes.
+Now let's do another question. A scientist initially observes 4,000 bacteria in a growth medium. Five hours later, 12,000 bacteria are observed. Assuming exponential growth,
+the formula n equals a b to the power of t gives bacteria count t hours through the initial measurement. What is the value of b?
+Okay, so let's plug in what we already know. We know that a equals 4,000. We know that after 5 hours, so t equals 5, we know that there is 12,000 bacteria.
+So let's plug all of this in. So 12,000 equals 4,000. We don't know b yet. To the power of 5. And now with this, we can solve for b. So let's do it. 12,000 divided by 4,000 gives us 3 equals b to the power of 5. So b equals the fifth root of 3.
+And after putting that into the calculator, we get that b is approximately equal to 1.25. And that's answer to your speed.
+Now let's solve this question using Desmos. Well, this question actually gives us two data points. One in which the scientist observes 4,000 bacteria initially, and the second in which 5 hours later, they observe 12,000 bacteria.
+So the table is as follows: 0, 4000 because of time 0, we have 4,000 bacteria. And then 5 hours in, we have 12,000 bacteria.
+Now with this, because the question tells us that the formula is in standard form, we can create a regression and find exponential regression. Therefore, the equation is approximately this. So the best answer, and the value of b, must be 1.245, which is closest to 1.25.
+Let's talk about tricky exponents in exponential growth and exponential decay. Most students only look for the correct a value and the correct b value, and they often overlook the exponent.
+The SAT knows this, and they will set up a trap using that. This is called the power of 0. In exponential sequences, the first term often shouldn't be multiplied by the growth factor yet.
+The rule is that any number raised to the power of 0 equals 1. So 5 to the power of 0 equals 1. 2 to the power of 0 equals 1. So the first term that happens, the exponent should actually be equal to 1.
+The goal is that if the first term is at n equals 1, we need the exponent to be 0, so that the multiplier doesn't actually exist for that first term.
+If you are unsure whether the exponent is n or n minus 1, this may be a little bit confusing right now, but it will make sense once we go through the practice problems, make sure to never pick an answer just because the numbers look right or look familiar, aka it looks like this.
+Exponential growth and exponential decay could also look like this.
+The SAT does not care what you recognize. They don't care if you just see the standard form and pick A, because A is not necessarily correct. Sometimes B, with enzitroids looking like this, is actually correct.
+The SAT cares about what you actually understand, so you should always test the first term to verify the starting value.
+So here's an example to see what this looks like. If the example case tells you that the first term is equal to 5, and the multiplier is 1.5, also known as a 50% growth,
+then enzitroids A may say that the equation looks like this: 5, which is the starting value, 1.5, which is the multiplier, to the power of n.
+However, if you actually test this and set n equals to 1, you will actually find that this actually equates to 7.5 as the first term.
+However, the first term should be equal to 5. So this answer choice isn't actually correct.
+Now if answer choice D, for example, told you that this was the equation, given the same scenario, if you were to test n equals 1 as the first term here,
+5 times 1.5 to the power of n minus 1, 1 minus 1 plugging in actually raises it to the exponent of 0.
+So now, because anything raised to the 0 exponent is equal to 1, 5 times 1 indeed does equal 5.
+So now, this equation actually matches up with the question that we were given.
+Let's do an example. The first term of a sequence is 5. Each term after the first is 3.5 times the preceding term.
+If f represents the nth term of the sequence, which equation gives f in terms of n?
+Okay, so remember, standard exponential growth exponential of k is written a times b to the power of n.
+So now let's plug in these values that we know and then solve for which one of the answer choices best represents the scenario.
+Well, let's first take a quick glance at the answer choices. We see that some of them are just to the power of n and some of them are to the power of n minus 1.
+By doing this to start with, we actually already recognize that there's a chance that this question is testing n to the power of n minus 1.
+So, we need to be wary of that. So it tells us the first term is 5. Okay, perfect. So we know a equals 5.
+It tells us each term afterwards is 3.5 times the preceding. So we now know b equals 3.5.
+And this is what I mentioned earlier is that most students after seeing this would realize, "Oh, it's got to be a,"
+because I just plug in a as 5, I plug in b as 3 over 2, and so a is my answer.
+However, that is wrong because as you continue doing this question, you realize something is wrong.
+Let's say that you did think that a was the correct answer, and now you follow the steps I told you just earlier,
+and you try to check whether or not that is actually the case, whether this equation actually follows the rules.
+So, remember to test the answer choices as I said earlier.
+So let's test it. So if n equals 1, this should give us the first term of the sequence.
+But, 5 times 3.5 to the power of 1 actually gives us 7.5.
+So, a is actually not correct. So what must we do?
+Well, we know that for the first term to actually be 5, this exponent right here must be raised to the 0th power,
+because a times something to the 0th power equals just 1.
+So, let's test answer choices b and c are obviously wrong, because there's not even a 5 in front.
+So let's test d. So, 5, which is the a value, times b to the power of n minus 1.
+So let's test the first term, 1 minus 1, this equals to 0, open the exponent.
+So, 5 times 1 equals 5.
+So, the answer choice d correctly satisfies the conditions that are given to us in the question.
+And that is correct.
+Now, let's solve this question.
+The question tells us that the first term of a sequence is 5,
+and that each term afterwards is 2 over 3 times the preceding term.
+Which equation gives f of n in terms of n?
+So, what we could do with this question is, we'd actually have to guess and check.
+Because what we notice about these answer choices is that all of them are not in standard form.
+We actually see that 2 of them have to the power of n minus 1.
+So, therefore, creating the table and then doing a regression will only give us the equation in y equals a times b to the t,
+which doesn't account for t minus 1.
+So, therefore, this wouldn't work.
+So, what we could do is graph each of these functions and then test if the first term is indeed equal to 5.
+So, let's do this.
+f of x equals.
+So, now, since we know that the first term is equal to 5, let's set x equal to 1.
+Let's see where this shows.
+As we can see here in this first answer choice a, when x is equal to 1, so the first term, we get 7.5, which is not 5.
+So, therefore, a must be incorrect.
+Now, let's test b.
+With b, as we can see, the y value is simply equal to 1.5, which is not equal to 5.
+So, therefore, b is incorrect as well.
+Now, let's test c.
+With answer choice c, we once again see that the first term is equal to 7.5.
+So, therefore, c is incorrect as well.
+Now, let's test d.
+And as we can see with d, when x is equal to 1, or the first term, we can see that indeed the first term is equal to 5.
+Therefore, d must be correct.
+Now, let's do this question.
+This question is a little bit more tricky.
+A culture of bacteria is growing at an exponential rate, as shown in the table above.
+At this rate, on which day would the number of bacteria per millimeter reach 1.04 times 10 to the power of 8?
+Okay, so because this question tells us that the culture of bacteria is growing at its exponential rate,
+we know that this is modeling exponential growth.
+So, let's use b to represent the number of bacteria, and let's use t to model time.
+So, b of t equals a times b to the power of t.
+This is standard form exponential growth.
+So, let's find the values that we can figure out.
+So, the starting value is 1.0 times 10 to the power of 5.
+So, this is equal to a.
+Now, as we look as the days increase, we actually notice the number of bacteria per millimeter is just doubling.
+It goes from 1.0 times 10 to the power of 5 to 2.0 times 10 to the power of 5, and then 4.0.
+So, b simply equals 2.0.
+So, plugging that in so far, we get that 1.0 times 10 to the power of 5 times b, which is 2 to the power of t.
+This is our function so far.
+So, let's just test this to make sure this is the case.
+When the day equals 1, let's plug in 1 here, we actually see that this would actually lead to day 1 already doubling.
+So, 2.0 times 10 to the power of 5.
+So, after plugging in 1 here, we would get that b of t equals 2.0 times 10 to the power of 5, which is not correct.
+So, in order to make it make sense, we have to subtract 1 from the exponent.
+That way, on day 1, the exponent would actually be 0.
+So, all of this right here would be equal to 1.
+So, then b of t would be equal just to 1.0 times 10 to the power of 5.
+So, this is our equation right here.
+Now, in order to get how many days it would take for our cultural bacteria to reach this much, let's just plug in this and solve for t.
+So, let's do it.
+1.024 times 10 to the power of 8 equals 1.0 times 10 to the power of 5 times 2 to the power of t minus 1.
+Now, we must divide both sides by 1.0 times 10 to the power of 5.
+After we take this and divide it by this, we actually get 1024.
+You should do this in Desmos or in the calculator that you have.
+And this should equal to 2 to the power of t minus 1.
+Now, to solve this, we actually see that 1024 is simply 2 to the power of 10 equals to 2 to the power of t minus 1.
+Now, because these roots are the same, we're able to just set the exponents equal to each other and then solve for t.
+So, 10 equals t minus 1. So, t equals 11.
+Therefore, it takes 11 days for our culture of bacteria to double from here all the way until this number that the question gives us.
+So, the answer is c.
+Now, let's solve this question with Desmos.
+As we can see here, this question gives us a table.
+So, let's first put this into a table.
+Then, what we can do is create a regression and find the exponential regression.
+Now, with this equation, all we need to do is set this equal to this number right here and then solve for x.
+So, we do this by setting up a regression.
+But notice here, if I put x1, there are no constants for us to solve for because x1 is already defined here.
+So, therefore, we must put some random other variable as this constant that is not x or y since that is used for graphing.
+So, let's just use a random letter like j.
+So, therefore, we get that it takes 11 days for the number of bacteria to reach this number right here.
+Now, let's talk about unit conversion.
+This is a hard difficulty trap.
+The SAT will often also give you a rate in one unit but ask for the function in another.
+So, this is the denominator rule.
+We're turning that a times b to the t into a fraction with a denominator of some sort.
+So, to keep your math consistent, the denominator of your exponent must match the unit used for t in the equation.
+Here are the steps.
+Step 1: Convert the given cycle time to the requested unit.
+So, for example, if the cycle is 4 hours, for example, it takes something 4 hours to double and t is in minutes.
+The question gives you t in minutes.
+You must convert and you must do, in this case, because the cycle time takes 4 hours, 4 times 60 minutes gives us 240 minutes.
+So, it takes 240 minutes for one cycle to be completed.
+Then, place that converted number in the denominator of the exponent.
+So, what does this actually look like and how does this work?
+Well, the multiplier should only activate when the exponent is equal to 1.
+This is a universal constant rule, as stated earlier too, with the tricky exponents as well.
+When we had to subtract 1 from the exponent.
+So, here's an example.
+The initial amount of an isotope is 100 grams and it decays at a rate of 20% every 2 hours.
+Which of the following equations represents the amount of isotope left after t minutes?
+So, we know that it decays at 20% every 2 hours.
+So, a equals 100 because that's what it starts as.
+And b equals 0.8 because this is 1 minus r with r equaling 20%, which is simply 0.2.
+And now, we need to figure out the exponent.
+So, in this case, t is in minutes.
+So, if we were to write the equation as we normally would, 100 times 0.8 to the power of t, t would be in hours.
+So, every 2 hours, it would double.
+But this doesn't make sense because the question is asked if it's all minutes.
+Because if we said there's 2 hours already and we plugged in 2 right here, we would actually already have decayed it twice.
+When after 1 hour, it shouldn't have even completed 1 cycle.
+So, how do we make this make sense?
+Well, let's follow the steps that we said earlier.
+So, if the cycle is whatever, we must convert that into the requested unit.
+So, 2 hours, we must convert that into t minutes.
+So, 2 times 60 equals 120.
+And then, we must place that in the denominator of the exponent.
+So, 120.
+So, what does this now mean?
+This means that when 120 minutes passed, 120 divided by 120 now equals 1.
+So, after 2 hours has passed, which is equivalent to 120 minutes, we will actually only multiply by the multiplier one time, which is correct.
+Because it decays at 20% every 2 hours.
+So, let's practice.
+A certain radioactive substance has a mass that decays at a rate of 15% every 4 hours.
+If the initial mass of the substance is 200, so A equals 200, which of the following functions M represents the mass in grams of the substance after t minutes?
+So, this is awful similar to our example.
+So, it tells us that it decays at a rate of 15% every 4 hours.
+So, we know that B equals 0.75.
+Because 1 minus R, R equals 0.15.
+Now, this happens every 4 hours.
+So, let's write out the equation that we would normally write out.
+So, first instinct, we write 200 times 0.75 to the power of t.
+Okay.
+Well, because it tells us that the k happens every 4 hours, and then it wants us to write it in t minutes, 4 hours converted to minutes is 4 times 60, which gives us 240.
+And now, with that, all we do is put that number in the denominator.
+So, let's just test it to make sure.
+After 4 hours, this is indeed 240 minutes.
+So, 240 minutes will be plugged into t.
+So, 240 divided by 240 is equal to 1.
+And so, after 4 hours, we would use the multiplier one time.
+So, 200 times 0.75, which matches what the question gives us.
+Because the cycle is every 4 hours.
+So, let's look at the answer choices.
+And the answer is C.
+And that is right.
+And so, whenever you approach a question like this,
+if you're unsure whether you need to convert something to minutes, take a look at the answer choices.
+If you notice the x1 is doing some funny business, that is when you should try and test to make sure that, oh,
+reread the question to make sure that t and what the question gives you, whether or not they're in the same unit or in different units.
+Let's do another question.
+The function f models the population in thousands of a certain city t years after 2010.
+According to the model, the population is predicted to increase by 6% every k months.
+What is the value of k?
+So, in this case, it tells us it is t is in years.
+So, we look over here.
+This starting value is 150.
+The exponential growth is 1.0606.
+So, this is 6% every certain years.
+And then we take a look at here.
+This is 6t.
+Okay.
+So, in order for this to increase just one time, so for the first time it gets multiplied by this growth, we would have to have this exponent equal to 1.
+Because then this 150 gets multiplied by this 1.06 one time.
+So, 6t equals 1.
+And let's solve for t.
+t equals 1/6.
+So, every 1/6 of a year, this growth happens one time.
+Okay.
+So, the question tells us, according to the model, population predicted 6% every k months.
+If we just identified it takes 1/6 of a year for it to increase by 6%, so increase by 6%, well, how many months is 1/6 of a year?
+Well, in one year there's 12 months, multiplied by 1/6, we get 2 months.
+So, it takes us 2 months for the population to increase by 6%.
+So, the value of k is 2.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Functions - Polynomial Propert.txt
+--------------------------------------------------------------------------------
+Let's talk about factored form. Factored form is written in the form A times x minus p times x minus q.
+You can also have more factors here, like x minus r, and you can also have exponents sitting on top of each of these factors.
+So, when you see a graph with clear points on the x-axis, also known as x-intercepts, and answer choices that are full of parentheses, the SAT is testing your knowledge of factored form.
+When this happens, you should absolutely not try to expand into standard form to make something look like this, because this is much more complicated, and standard form doesn't tell us too much about the properties of a graph, while factored form tells us all about the x-intercepts.
+Instead, you should match the properties of the graph to the pieces of the equation.
+So, match what the question is giving to you to the information and the properties of factored form.
+There are a couple of key properties that we must go over for this all to make sense.
+So, let's begin.
+So, the first property you must keep in mind is that every time the graph touches or crosses the x-axis, it creates a factor in the equation.
+And to move from the graph to the equation, all you must do is flip the sign of the number.
+So, for example, given a graph that looks like this, every time the graph touches the x-axis and crosses it, like right here, right here, right here, right here, let's say for example here is x equals negative 5, in order to find the factor, all we do is flip the sign, so it becomes x plus 5.
+And then right here, let's say this is positive 1, so this is positive 1, x equals positive 1, this factor must be x minus 1.
+All we do is flip the sign, and then same for all of these right here. So, this is written right here. If the x-intercept is at x equals 0, then the factor is simply x.
+If an x-intercept is at x equals 4, then the factor becomes x minus 4, all we do is flip the sign. And lastly, if there's an intercept at x equals negative 5, all we do is flip the factor to become x plus 5.
+Now, the second property you must know is that if you multiply two things together and the answer is 0, one of those things must be 0.
+So, this works hand in hand with factor form. But first, let's explain this. In order for this left side to equal 0, if a equals 0, it doesn't matter what b is.
+Either way, this left side, 0 times any number equals 0. The same applies to b. If b is equal to 0, it doesn't matter what a is. No matter what, this left side will be equal to 0.
+Therefore, to solve this equation, setting a equal to 0 or b equal to 0 creates this equation to be true. So, let's look at what this means in factored form.
+The solutions of a standard quadratic is at the x-intercepts, and this is when y equals 0. That's why we set factored form equal to 0.
+Now, to find those solutions, all we need to do is split up each of these factors and set them equal to 0.
+Because once again, if either of these equal to 0, multiplying anything else by 0, doesn't matter what this other stuff is, still gives us 0.
+So, x minus 4 equals 0, we get x equals 4. x plus 2 equals 0, we get x equals negative 2. And x minus 1 equals 0, we get x equals 1.
+Now, this is what it looks like on a graph. So, if we have this function that crosses the x-axis at 4, 0, one of the factors would be x minus 4.
+Because when we set this equal to 0, we get x equals 4. The third property that you must know is the crossing versus the bouncing.
+The way the graph behaves at the x-axis tells you about the x1 for that specific factor. This is super, super, super crucial, and you must remember this.
+So, what does this actually mean? Well, if the function crosses the graph at a said factor, then the exponent for that factor is odd.
+So, in this case, the previous graph, we saw that this function crossed the x-axis at 4, 0. That means that at this point, that factor, x minus 4, must have an odd exponent.
+Now, the second scenario is that the graph bounces off the x-axis. So, let's pretend this function came here, came to the x-axis, and bounced off.
+And never actually crossed it, all it did was bounce. If the graph touches the x-axis and turns back around, the exponent must be even for that factor.
+So, let's just pretend right here, we have x equals negative 5. So, this factor would be x plus 5. And because it bounced off it, we know that this exponent must be even.
+We're not sure exactly if it is 2 or 4 or 6, but we just know that it is even. So, this first factor, x minus 3, we see that the exponent is odd.
+So, therefore, it is going to cross through the x-axis. Versus the second one, we see that this exponent is even. So, this function must bounce at this point, x equals negative 2.
+The fourth factor you must know is the total degree and the end behaviors of the left side of the polynomial and the right side of the polynomial, or the quadratic.
+The total exponent determines the symmetry of the graph's endpoints. The SAT frequently likes to test this rule to see how quickly you can eliminate answer choices.
+So, what does this actually mean? Well, there are two cases. The first case is that the total degrees after adding all the exponents of all the factors is even.
+When the total degree is an even number, the tails, or the endpoints of the graph, point in the same direction.
+So, if there is a positive a value in front, both of the tails point up. Think about this like a basic parabola of y equals x squared. In y equals x squared, our parabola is opening upwards, so both the tails are pointing positive direction.
+If we had y equals negative x squared, with there being a negative a in front, so right here, then both of the tails would be pointing downwards.
+Pro tip, please do not memorize this. If you try to memorize these exact things, you'd get really tripped up. Literally just take the simplest example you'd think of, because math follows math. The rules follow each other.
+So, as I just showed you with x squared, because it has the exponent of 2, you know that both of the endpoints, or the end behaviors, are going to be pointing in the same direction.
+So, if it's y equals x squared, the function opens up like a u. So, both things point in the same direction, and they point in the positive direction.
+If it's y equals negative x squared, which has a negative a, then the function opens downwards.
+This is a shown in the graph in a more complicated example. So, see here, the total degrees of the exponents is 2 and 2. So, 2 plus 2 equals 4.
+4 is even. So, therefore, the endpoints we know are going to be pointing in the same direction, but we don't know if it's going up or down yet.
+So, we have to look at this a value. Because this a value is positive, just like y equals x squared, which points upwards, this case, because it is even, and the a value is also positive, this function must also open upwards at the endpoints.
+So, this is the endpoint, and this is the endpoint. As we can see, they are indeed opening upwards, and they are opening in the same direction.
+Now, in the second scenario, we see that we now have a negative value in front. First, we look at the exponents, though. We see that 2 plus 2 still equals 4.
+So, we have an even amount of total exponents. So, we know both of the endpoints open in the same direction.
+But this time, because there's a negative in front, we now know that they open in the same direction, but they open downwards, as illustrated right here. Opening downwards, opening downwards. Only two endpoints.
+Now, let's talk about case number 2. This is where the total degrees is odd. When the total degree is an odd number, the tails of the graph pull in opposite directions. They are not symmetric.
+So, with the positive a, the graph starts at negative infinity and ends at positive infinity, the top right. It's a general uptrend. Think of y equals x to the 3.
+Now, what does all this mean? Let's put this in simple terms. If the total degree is odd, that means that the function starts at negative infinity, so it starts on here, and somehow, by the end, it's increasing towards positive infinity on the right side.
+If we have a negative a, the graph starts at positive infinity, so it's just reversed. The graph starts here, and then ends here.
+Now, this may be kind of confusing to memorize, because like, oh my gosh, positive a, does it start on the left side? Does it start up here? Does it end down here? Does it start there? And then, oh my gosh, negative a, where does it?
+Because it gets awful confusing if you just try to remember the exact rule. But, as I said earlier, do not try to memorize exactly what it is. All you have to do is think about something you're familiar with, such as x to the power 3, or y equals x.
+We know that y equals x just looks like this. And at this point, the value of a is simply positive. So, because it's positive, and we know what it looks like, we know that when there is an odd exponent, but a positive a, we know that it starts on the bottom left and ends on the bottom right, or ends on the top right.
+If the equation is y equals negative x with a negative a, we also know that this equation now looks like this. I missed the x, the center, but you get the point.
+The graph looks like this, with a slope starting at positive infinity and ending at negative infinity. So this is the best way you can use to memorize these two properties.
+Now, let's look at an example. So in this case, we first look at the degrees. We see that 3 plus 2, 3 plus 2 equals 5. So in this case, we know that the two endpoints end at different places.
+They start on different sides and end on different sides. Now let's look at the a value. We see that a is positive. So we know that the graph is going to somehow, we don't know the in-between, but we know it starts here, and we know it ends here.
+And that is the case. It starts at negative infinity, ends at positive. Now in this case, we see that now we have a negative a, but still odd exponents.
+So once again, the odd exponents tells us it opens and ends, the endpoints are different places, but now because we know it's negative 2, following y equals x, we know that it's going to look something like this.
+So it starts positive infinity, ends negative infinity. Now let's practice. Which of the following could be equation of the graph shown in the xy plane?
+Okay, so let's take a look at this real quick. The first thing we want to do is take a look at the ancestrosis and see what structure it wants us to have.
+Oh, okay, we see this looks like factored form. We see a whole bunch of parentheses and a whole bunch of couple of exponents.
+So let's first figure out what the factors are. We see an intersection at negative 4, 1, and 5. So the factors are x plus 4.
+Remember we flip the sign, so negative 4 switches to positive 4. This is positive 1, so this switches to negative 1.
+And then this one, positive 5, so this switches to negative 5. So these are the three factors that we are even concerned with.
+So looking at answer choices, which ones can we already eliminate? We can eliminate this one.
+And yeah, that's all we can eliminate so far. Now let's look at the end behaviors.
+So we see that this end behavior is opening upwards, and this one is also opening upwards.
+So we know that the total degree is even because they open in the same direction.
+Okay, so look at the answer choices once again. This one has an exponent of 1, 1, 1. So this total is an exponent of 3.
+So that cannot be correct. And then these, the rest of them have a total degree of 4. So cool. Everything is looking fine so far.
+Now let's check the a value. So because both of the endpoints are opening upwards, we realize that the a value must be positive.
+Because if it's positive, it looks like y equals x squared, in which both of them are opening upwards.
+Now looking at the answer choices, we can eliminate d because there's a negative value in front.
+So the answer must be b. Because this satisfies all the properties that we discussed earlier and aligns with the graph that we are given.
+And b is correct. Let's solve this question on Desmos. So to solve this question on Desmos, all we need to do is graph each of the functions in the answer choices and see which one of these graphed functions matches exactly what the question is giving us. So let's graph it.
+So as we can see with answer choice a, our function does not look identical to the one that the question gives us. Therefore, a is incorrect. So now let's test b.
+As we can see with answer choice b, this graph perfectly matches what the question gives us. The x intercepts are exactly the same places as this graph, and the function looks exactly the same, just at a different scale. So the answer is b.
+Now normally you should test all the answer choices, but what you'll notice is that the other answer choices when you graph c and when you graph answer choice d, these graph functions do not look identical to this one given in the question.
+Now let's see another problem. Which of the following could be the equation of a graph in the xy plane with x intercepts only at x equals negative 1, x equals 2, and x equals 5?
+Will all values of x less than negative 1 or greater than 5 correspond to negative y values?
+Okay, so we know the x intercepts. Okay, so we know the x intercepts, so we can write those out. x, it occurs at negative 1, so we flip the sign, x plus 1, and then 2, so x minus 2, and then 5, so x minus 5.
+Now it says that all the values of x less than 1 or greater than 5 correspond to negative y values. So although we don't know exactly what this graph looks like, we do know that it starts negative and ends negative.
+So what does this tell us? This tells us that because the end points are in the same direction, first of all the total degree must be even.
+Because they both end in the same places, just like y equals x squared, or negative x squared in this case.
+And because we see that both of them are also opening in the negative direction, we know that a value must be negative.
+So let's check the answer choices. So first let's check for these factors right here. And this one is an incorrect factor, and then the rest of them have correct factors.
+Okay, let's move on to the total degrees. We know that total degrees must be even. So this one is 1 plus 1 plus 1, which is 3. That is odd, so that is wrong.
+This one has 4, which is correct, and this one also has 4. Awesome. So lastly, let's check the property of a. We know that a must be negative because it opens downwards, so the answer is b.
+And b is correct. Now let's solve this question with Desmos. So to solve this question with Desmos, we need to graph each of these answer choices and check which one of these functions matches the exact constraints that the question gives us.
+So let's test answer choice A first. Now all we need to do is check for the constraints. So firstly, the question tells us x equals negative 1, 2, and 5. So let's check if that's true over here.
+x equals negative 1, 2, and 5. And these are the x-intercepts. So this is correct. However, the second constraint says where all the values of x less than 1 or greater than 5 correspond to negative y values.
+So checking this part out, we can see the values less than negative 1 are indeed negative x values. However, the x values greater than 5 correspond not to negative y values, but instead to positive y values. Therefore, A is incorrect.
+Now let's check answer choice B. So as we can see with answer choice B, we satisfy the constraints of the x-intercepts, negative 1, 2, and 5. And then as we can tell, the values of x less than negative 1 or greater than 5, so here and here, are indeed corresponding to negative y values. Therefore, the correct answer is B. Now make sure you check all the answer choices.
+But as you check them, you'll notice that they do not fit the exact constraints of the question.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Functions - Quadratic Discrimi.txt
+--------------------------------------------------------------------------------
+Let's talk about the quadratic formula. When you're given a quadratic in the standard form, ax squared plus bx plus c, you can always find the roots with the quadratic formula.
+However, you only want to use the quadratic formula when either factoring is not possible or the terms b and c are far too large, because normally using the x cross method is much quicker once you get the hang of using the x cross method.
+However, you could be given a case in which the a, b, or c terms are just far too big. For example, if you have something like 55x squared plus 1000 something something x plus some ridiculous 765 as the c term.
+Now finding the factors will be rather difficult because you don't want to identify all the ways you can get 765, all the ways you multiply to 55, and all the possible ways to add to 1000 whatever this number is.
+That's when you use the quadratic formula.
+Now, an additional property that comes with the quadratic formula is the quadratic discriminates.
+So the discriminant is equal to b squared minus 4ac.
+Now how is this used?
+If b squared minus 4ac is greater than zero, the quadratic has two real solutions.
+If b squared minus 4ac equals to zero, the quadratic only has one real solution.
+Now why is this?
+Well, why don't we take a look at the quadratic formula and get used to this.
+This quadratic formula you should 100% memorize.
+That way you can use it on the test because it is not on the formula sheet.
+So let's go over it real quick.
+Negative b plus and minus the square root of b squared minus 4ac all over 2a.
+That is the best way I would tell you to memorize it.
+Once again, negative b plus and minus the square root of b squared minus 4ac all over 2a.
+So let's actually prove how this discriminant even works.
+If b squared minus 4ac is a positive number, we would get the instance of negative b plus whatever this is over 2a.
+We would also get the solution of negative b minus the square root of whatever this is all over 2a.
+This gives us these two different solutions, one with a plus in between and one with a minus in between.
+And note that with the quadratic formula, you might not get a clean number in these square roots.
+It could be the square root of 72, which is not a clean thing to take the square root of.
+Now let's go through the other different scenario.
+If inside this quadratic, inside this square root, the b squared minus 4ac, we get it equal to 0,
+we'd actually just get x equals to negative b over 2a.
+So that would be your one solution.
+That is where we get one solution from.
+Now, in the other case, if we get that this square root is less than 0, this now becomes an imaginary number.
+We cannot take the square root of a negative number.
+Therefore, negative b plus or minus an imaginary number right here does not yield us any real solutions,
+because the solution is imaginary.
+So therefore, that is where this property comes to be, and this is where the quadratic formula is super useful.
+So, let's practice.
+In this question, how many distinct real solutions does the equation 2x squared minus 7x plus 3 have?
+So let's ask us how many distinct real solutions.
+So this is a key indicator that we need to use the quadratic discriminant.
+So let's do it.
+Remember, it is b squared minus 4ac.
+This is just the inside of the quadratic formula.
+So let's apply everything.
+So negative 7 squared minus 4, 2, and then c is 3.
+So now let's solve this.
+So negative 7 squared gives us 49 minus 4 times 2 gives us 8.
+8 times 3 gives us 24.
+So minus 24.
+So clearly, this gives us a positive number.
+Therefore, remember, when it is greater than 0, the quadratic has two real solutions.
+Therefore, the answer is exactly 2.
+That gives us a.
+And a is correct.
+Let's solve this question on Desmos.
+To solve this question on Desmos, we must first understand what real solutions mean.
+On a graph, real solutions simply mean how many times does this graph cross the x-axis, or when y equals 0.
+So all we need to do to solve this question is graph the function 2x squared minus 7x plus 3 and see how many times does this function cross the x-axis.
+the x-axis. And this happens two times, so the answer is A.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Functions - Solving Nonlinear Functions Order of Operations - Video.txt
+--------------------------------------------------------------------------------
+Let's do some practice questions on the order of operations.
+To either relearn or to review the order of operations,
+please refer to the order of operations foundations unit.
+Let's do some practice.
+The function g is defined by g of x equals square root of x plus 16.
+What is the value of g of 20?
+OK, well to solve this question, all we need to do is plug in x equals 20.
+So g of 20 equals square root of 20 plus 16.
+Solving this right side gives us square root of 36.
+So g of 20 equals 6.
+And that is correct.
+Let's solve this question.
+So in order to solve this question, first we need to define the function g of x in Desmos,
+and then just plug in 20 for g of x.
+And to plug in g of 20, all we need to do is write g of 20.
+Because all that Desmos outputs to us is the function g of x with 20 plugged in this x, and
+then solve.
+So g of 20 equals 6.
+Let's do another practice problem.
+The function f is defined by f of x equals 3x squared minus 2x plus 4.
+What is the value of f of negative 3?
+So all we need to do here is plug in x equals negative 3.
+So let's do it.
+f of negative 3 equals 3x squared minus 2x plus 4.
+Now solving all this, we want to follow GEMDAS.
+So do the groupings first.
+3 times 9 minus and then 2 negative 3 plus 4.
+Now we do multiplication and division.
+So 27 plus 6 plus 4.
+Adding this together, we get 31 plus 6, 37.
+That is c.
+And that is correct.
+So to solve this question in Desmos, we just need to follow the same procedure.
+All we need to do is define the function of x.
+And next, simply just plug in negative 3 for x.
+And so the answer is 37.
+Now, harder questions often require multiple steps and require you to plug in both x and
+y values to find the value of a constant.
+For example, f of x equals x squared plus b.
+And the question may tell you that ordered pair 24 comma 0 lies in the function f of x.
+So what is the value of b?
+So in order to solve this question, we must plug in all the given values, solve for the unknown,
+find relationships, and then solve.
+Then follow the order of operations.
+So let's practice.
+The function f is defined by f of x equals a times x plus 12 times x minus 4, where a is a constant.
+In the xy plane, the graph of f has a y-intercept at 0 comma negative 6.
+What is the value of ab, where b equals a times negative 48?
+Okay.
+So what are we given in this question?
+We're given a point on the line 0 comma negative 6.
+It asks us what is ab, where b equals something.
+Okay, beautiful.
+So because we're given x and y, if we are to plug in this y value here and the x value here, we can actually solve for a.
+And then once we know a, we can directly plug in right here and solve for b, and then we can get ab.
+Okay, let's do it.
+So let's plug in negative 6 over here.
+Negative 6 equals a times, remember we're plugging in 0 so we can just be getting rid of these x's.
+So it's 12 times negative 4.
+This gives us negative 6 equals 12 times negative 4 equals negative 48 a.
+And so divided by 48, 48, 48, negative 48, a equals 1 over 8.
+Okay, now we can solve for b.
+So b equals a times negative 48.
+b equals 1/8, negative 48.
+b actually equals negative 6.
+So ab must be, ab equals 1/8 times negative 6.
+So ab equals negative 6 over 8, which simplifies down to negative 3 over 4.
+And that is correct.
+So to solve this hard question, Desmos, we need to create a table because we are given one data point,
+and then we are also given an equation with one concept that we need to look for.
+So in this table, we have 0, negative 6.
+Then, for this function, we can create a regression because we are solving for the value of a,
+and we are given b.
+So let's do this.
+So y1 equals, and remember because it's regression, we want to use tilde.
+And now we get that a equals 0.125.
+So we can define what b is equal to.
+So b equals to a times negative 48.
+And now all we need to do is multiply a times b to get the answer.
+So our answer is negative 0.75.
+So let's do another practice problem.
+The function f is defined by f of x equals 4x cubed plus b, where b is a constant.
+The xy plane, the graph of y equals f of x, has a x-intercept at 5, 0, and a y-intercept at 0, c.
+What is the value of c?
+So what are we given in this question?
+So we are given a function.
+We are given two points that lie in this function.
+So by plugging in y here as 0, and x here, we can solve for b.
+Then knowing that, then we can plug in 0 into this equation because everything is known,
+and solve for what that c value would be equal to.
+Okay, let's do it.
+So 0 equals 4 times negative 5 cubed plus b.
+Remember to put parentheses around this because we know that only x is being cubed, not 4x.
+4x is not being cubed, only x is being cubed.
+So let's evaluate this exponent.
+Negative 5 times negative 5 times negative 5 equals negative 125 plus b.
+4 times this equals negative 500 plus b equals 0.
+So b actually equals 500.
+So our equation, our function f of x, we know now that equals to 4x cubed plus 500.
+And so what is the value of c?
+So to get the value of c, all we need to do is plug in 0 for x.
+So f of 0 equals 4 times 0 cubed, which this just equals 0, plus 500.
+So the value of c must equal 500.
+Because this is when the function of f of x equals 0.
+Now let's solve this question in Desmos.
+We are also given a function and we are given one data point.
+In this function, we are solving for b.
+So we can once again create a table and then create a regression.
+So we have negative 5 comma 0, and then let's create a regression for this function.
+So therefore, we get that b is equal to 500.
+Well the question tells us that the y-intercept is at 0 comma c.
+Well if we plug in 0 for this function, what we actually notice is that the y-intercept is simply equal to b itself.
+And since b is equal to 500, the answer is b.
+Let's do another question.
+The function h is defined by h of x equals absolute value of x over b minus 9, where b is less than 0.
+What is the product of h of 12b and h of 4b?
+Okay, so we know this question is asking for h of 12b times h of 4b.
+Okay, so why don't we just start this problem directly by plugging this in and see if we can solve what h of 12b is equal to.
+Okay, so h of 12b equals 12b inside absolute values over b minus 9.
+So how can we actually solve this?
+Well this question, if we look back, it actually tells us that b is less than 0.
+What does this mean?
+This means that b is negative.
+And looking at this, the absolute value of 12 is just equal to 12.
+So we can actually take that out first.
+Well, the absolute value of a negative number just leads us to a positive number.
+And dividing a positive number by that same negative number just equals negative 1.
+What I mean by this is let's just say that, you know, b is less than 0.
+So we can just assign an arbitrary example.
+Let's say b equals to negative 5.
+So absolute value of negative 5 over negative 5.
+This just equals to 5 over negative 5, which equals to negative 1.
+So in this case, these two cancel out just equal negative 1.
+So negative 1 times 12 gives us negative 12 minus 9.
+This gives us that.
+h of 12b simply equals to negative 21.
+Now let's solve for h of 4b.
+So h of 4b follows a very similar pattern.
+So let's plug it in.
+h of 4b equals 4b, the absolute value over b minus 9.
+Let's take out the 4.
+And we know that the absolute value of b divided by b gives us negative 1 minus 9.
+Now this gives us negative 4 minus 9.
+And this gives us negative 13.
+So now that we know both the h of 12b and also h of 4b, we can multiply these two together.
+Negative 21 times negative 13.
+Putting this into Desmos or into any calculator gives us 273.
+Now let's solve this hard question in Desmos.
+So to solve this question, all we need to do is define h of x in Desmos.
+Then what we'll notice is that we have to assign a value to b.
+Well, all we need to do in Desmos is make sure that the value that we assign to b corresponds to the conditions that are given to us in the question.
+And this question tells us that b is less than 0.
+So as long as our value of b is less than 0, then we know that this equation follows the constraints.
+So now all we have to do is input h of 12b and h of 4b and multiply them together.
+So our answer is 273.
+Let's practice another problem.
+The table shows three values of x and their corresponding values of h of x.
+Where h of x equals x minus 3 times g of x and g is the linear function.
+What is the y-intercept of the graph of y equals g of x in the xy plane?
+Okay, this question is very, very loaded.
+Well, it tells us that g is a linear function.
+And we know that linear functions are written in the form y equals mx plus b,
+with b being the y-intercept that we are solving for.
+So we are solving for b.
+Well, in order to get b, we also must know the slope.
+Okay, so how do we figure that out?
+Well, what we do know is that we know that h of x is a function of g of x.
+So, if we are to plug in these values into this equation, we would be able to know this x value.
+Then we would also be able to solve for what this g of x is equal to.
+In order to solve for slope, we must get two points falling onto this graph.
+So, x and the corresponding g of x, and we must get x2 and its corresponding g of x.
+And with this, we are able to calculate slope using y1 minus y2 over y or x1 minus x2.
+Keep in mind that this can be flipped, so it can be y2 minus y1,
+as long as you are just keeping it consistent with the ones and the twos.
+With this, we solve for the slope.
+But first, we must get this.
+So, let's solve that.
+Let's get these two values that fall within g of x.
+So, let's just plug in values.
+So, 8, let's use this one first.
+8 equals 1 minus 3 g of, and this is g of x, but what is the x value?
+It's actually 1.
+So, g of 1.
+So, 1 minus 3 gives us negative 2.
+So, negative 2 g of 1 equals 8.
+So, g of 1, after dividing, equals to negative 4.
+Now, let's solve for--let's use the second one.
+So, 8 equals 4 minus 3 g of 4, because this time the x value is 4.
+So, we are looking for g of 4.
+So, 4 minus 3 is 1.
+So, g of 4 directly equals to 8.
+Okay.
+Now, we know two different points.
+We know 1, negative 4, and we know 4, 8.
+And we know that these fall on g of x.
+Okay.
+So, now we can actually solve for slope.
+So, let's take this one minus this one.
+So, 8 minus negative 4, which is just plus 4, divided by 4 minus 1, which is 3.
+This equals to 12 over 3, which equals to 4.
+So, we know that the slope is equal to 4.
+Now, we're going to clear up some space so we can continue working through this problem.
+Actually, we're just going to work on this left side.
+So, now that we know the slope, all we need to look for is b.
+Well, in order to solve for b, we just need to plug in some values for y and x, and then we can solve for b.
+Well, lucky for us, we actually have some values.
+So, let's plug them in.
+Let's plug this one into here, knowing that m is now equal to 4.
+So, 8 equals 4 times 4 plus b.
+8 equals 16 plus b.
+So, b equals negative 8.
+So, what is the y-intercept of the graph?
+Since we know that b equals negative 8, and we know that b equals the y-intercept,
+we know that the y-intercept also occurs when x equals 0.
+We know that the y-intercept must be 0, negative 8.
+That is a.
+And that is correct.
+Let's solve this hard question.
+Now, this hard question is a lot more tricky because the hardest part about this question is starting the question.
+So, because we're given a table, let's start by inputting this table.
+Now, we are told that this table is x and h of x.
+So, we know that these inputs and outputs correspond to the function h of x.
+Well, we are given h of x.
+So, let's actually put h of x into desmos.
+Now, what we'll notice is that inputting this function h of x doesn't help us at all.
+Because the question asks us what is the y-intercept of the graph of g of x.
+So, we are looking for the y-intercept of g of x.
+Well, this question tells us that g of x is a linear function.
+Therefore, we know it must be in the form mx plus b.
+So, we should replace g of x with mx plus b.
+Well, now, remember how in this question we are trying to look for the value of b.
+Therefore, we can turn this into regression.
+Well, h of x doesn't work in regression because it is a variable.
+We need to turn it into a constant.
+Well, lucky for us, we already have y of 1, which corresponds to h of x.
+So, let's change this to y of 1 and let's change the x's to x1's.
+And lastly, for the regression, let's change this equal sign to a tilde.
+Now, we are told that m equals 4 and b equals negative 8.
+And because b is the y-intercept of g of x, we know that the y-intercept must be negative 8.
+Let's solve this question.
+If f of x equals x minus 7 times x plus 3 and g of x equals x squared minus 9 over x minus 6,
+the functions f and g are defined by the given inequalities.
+If f of c equals 0, when c is a positive constant, what is the value of g of c?
+Okay, so let's solve for this first.
+So, let's figure out what c actually equals to because then we can plug that into g of x.
+So, let's set this equal to 0.
+0 equals x minus 7 times x plus 3.
+And so, because if either of these are equal to 0, multiplying by 0 just equals 0.
+So, if x minus 7 equals 0, then this whole thing would be equal to 0.
+If x plus 3 equals 0, this whole thing would also be equal to 0.
+Therefore, x equals 7 and x equals negative 3.
+Okay, and it says c is a positive constant.
+So, in this case, we solved for a positive c and we also solved for a negative c.
+Well, we're not going to be using a negative one because it tells us the question that we are using the positive constant.
+So, x equals 7.
+So, 7 would satisfy this.
+So, c equals 7.
+Now, it asks us what is g of c?
+So, g of 7.
+So, let's just plug in 7 for g of x.
+7 squared minus 4 minus 9 over 7 minus 6.
+This equals to 49 minus 9 which is just 40 over 1.
+This gives us 40.
+So, g of c or g of 7 equals 40.
+And that is correct.
+Let's solve this hard question in Desmos.
+So, this question tells us if f of c equals 0 where c is a positive constant, what is the value of g of c?
+Okay, so all we need to do to solve this is set this equal to 0 and then solve for the value of x.
+To do this, all we need to do is set up a regression.
+Now, what we'll notice is that the x value that makes this equation true and equal to 0 is x equals negative 3.
+However, the question tells us that c is a positive constant.
+So, therefore, this solution tells us the negative one.
+So, we must make constraints.
+So, let's set the constraint.
+So, x1 must be greater than 0.
+And so, now it tells us the value is 7.
+And this makes sense.
+It's just the other 0 on this function.
+So, now we know when the x value is equal to 7, this function f of x is equal to 0, which satisfies these conditions in the question.
+So, the question asks us what is the value of g of c?
+So, all we need to do is plug in g of 7.
+So, let's first define the function g of x.
+Now, let's plug in g of 7.
+And so, the answer is 40.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Functions - Standard to Vertex.txt
+--------------------------------------------------------------------------------
+Let's talk about finding the vertex given standard form. In order to convert from standard form into vertex form, we must complete the square. If you're unfamiliar with completing the square or need a review, please refer to the foundations unit.
+There's also another method to find the vertex. This is known as the negative b over 2a method. If you're given standard quadratic in standard form, and you just need to find the vertex, and you don't need the specific vertex form of the equation, you can use this as a faster route.
+In order to find h, you can use the formula x equals negative b over 2a. Then to find k, all we need to do is plug in that solved x value, or that h value, into the standard form equation, and then solve for y, and that gives us k.
+So, let's practice this. This is the example equation right here. y equals x squared minus 6x plus 10. This is standard form. We need to, let's say the question is asking us for the vertex.
+To find the x coordinate, all we need to do is negative b over 2a. b equals negative 6, and c equals 10, and a equals 1. So let's plug it in.
+x equals negative, remember negative b, so negative negative 6 divided by 2a, which is 1. So after solving this, 6 divided by 2 equals 3.
+Now, we know that this 3 is the h value of the vertex. So now let's solve for y.
+All we need to do is plug in the x value, or the h value, back into the original equation and solve for k.
+So let's do it. y equals 3 squared minus 6 times 3 plus 10. After solving this, we get that the vertex is equal to 3, 1. So at the value of 3, the y value equals 1. So 3, 1.
+Let's practice. The function f is defined by f of x equals x plus 5 times x minus 9. For what value of x does f reach its minimum?
+Well, keeping here we see that it is asking us for the f value of its minimum. Because this is a standard parabola, a standard quadratic that opens upwards, because there's no negative sign in front, we know that the minimum is simply this function's vertex.
+So let's first expand this using FOIL. If you need to review a FOIL, please refer to the foundations unit to either relearn it or review it.
+So FOIL is first, outer, inner, last. So this is x squared plus 5x minus 9x minus 45.
+And now, let's combine like terms. x squared minus 4x minus 45. Now, in order to just get the x value of the vertex, we actually don't need to complete this square and get the whole equation.
+It actually takes more work for this question. For this question, we can take negative b over 2a, which gives us the x value of our vertex.
+So let's do it. Negative b, so b in this case, b equals negative 4a equals 1. So negative negative 4 over 2 times 1 equals 4 over 2, which gives us 2.
+So the answer to this question is simply 2. And 2 is indeed correct. Let's solve this question using Desmos.
+So to solve this question using Desmos, all we need to do is graph this function and see the x value in which this function reaches its minimum.
+So now that we have the function graphed, let's find the minimum. So the minimum occurs down here, and the x value in which this function reaches its minimum is 2.
+So the answer is 2. Which of the following is the equivalent form of the function f of x equals x squared plus 10x plus 15 that displays the vertex of the graph as constants in the equation?
+Okay, awesome. So looking at the answer choices, we see that all the answer choices are in vertex form. So our natural reaction is to turn this into vertex form.
+Let's complete the square in order to do that. So first let's move this constant to the right side. So x squared plus 10x plus something, this is where we need to complete the square, plus 15 equals f of x.
+So we'll just write y in place here for now. Actually we don't even need to worry about this, but let's continue moving forward. So plus 15.
+So now let's complete the square. Remember to complete the square, we take b divided by 2 and then square that. So let's do it.
+x squared plus 10x plus 10 divided by 2 is 5. Squaring that is 25. So plus 25. And then on the outside, remember because we're adding 25 on the inside, we must subtract on the outside to keep it balanced.
+So plus 15 minus 25. This gives us that y equals, and in order to solve this, this is a perfect square trinomial.
+All this is equal to is x plus 5 squared. And then combining like terms gives us negative 10. So the correct answer is b.
+Using the second method to do this, we need to take negative b over 2a to solve for the x value. So let's try the second method.
+So with the second method, we know that b equals 10, and we know that a equals 1. So let's solve it. So the x value, or in this case, actually the h value, because that is of the vertex, is equal to negative 10 over 2.
+So h equals negative 5. So to plug this in, write that a little bit clearer, h equals negative 5. Now plugging this in to solve for the y value or the k value when this is true, let's do it.
+So negative 5 squared plus 10 times negative 5 plus 15. This is 25 minus 50 plus 15. After combining like terms, 25 minus 50 is negative 25 plus 15 equals negative 10.
+So we know that the vertex occurs at negative 5 comma negative 10. And then after putting this into vertex form, we know that vertex form looks like this.
+And because all the answer choices has a equals 1, we can assume that a indeed equals 1 in this question. So once again, we get the answer choice b.
+Now let's solve this question using Desmos. To solve this question using Desmos, all we need to do is graph this function that we are given, and then test the answer choices and see which one of these functions right here in the answer choices matches the exact same function that the question gives us. So let's do this.
+Now that we have all functions graphed, let's check them one at a time. So let's first check the original function with answer choice a. As we can tell, answer choice a's function is way different than the original function. So therefore, these two functions cannot be equal to each other.
+Now let's test b. So as you can tell, b perfectly overlaps with the original function. So therefore, these two functions must be exactly the same.
+Now let's test c. As we can see, c is different. And we see that d is also different. So the answer must be b.
+Now let's solve this hard question on Desmos. Normally, to solve this hard question, we would need to complete the square with a not equaling to 1.
+So this just means completing the square, but a little bit more difficult. But to do this question on Desmos, it's much easier.
+All we need to do is graph the function and then find where the minimum occurs.
+Now that we have this function graphed, let's find the minimum value.
+So the minimum value refers to the y value. Because if it was referring to the x value, this question would ask, what is the x value of the minimum?
+So in this case, it is negative 130.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Functions - Vertex Form Word Problems.txt
+--------------------------------------------------------------------------------
+Let's talk even further about vertex form, specifically how to transfer information as word problems into vertex form given different facts.
+First, you must look for key points that convey key information such as the vertex of an equation.
+Then plug those vertex into vertex form that corresponds with given information.
+Next, you will find that if any variable besides x is still missing, such as a in vertex form,
+the equation or the question will give you more information like an ordered pair x, y that fits the equation.
+This allows you to plug in everything besides maybe a and then solve for the missing variable or test the answer choices.
+So what does this actually look like?
+Well, let's practice.
+A machine launches a softball from ground level.
+The softball reaches a maximum height of 45 meters above the ground at 3 seconds and hits the ground at 6 seconds.
+Which equation represents the height above ground in meters of the softball t seconds after it is launched?
+Okay.
+This question is clear about launching a softball from ground level.
+So we know launching a softball looks like this.
+We know that we are writing it in terms of the height, so we know that y equals the height.
+And we know that x, or t in this case, is in terms of the seconds.
+So let's write our vertex form to begin with.
+So, vertex form is y equals ax minus h squared plus k.
+So what information do we know?
+The question tells us it reaches a maximum height of 45 meters above the ground at 3 seconds.
+This clearly tells us, okay, this question is talking about vertex form because it gives us the vertex.
+So, given that information, let's plug in what we already know.
+y equals a x minus 3 seconds, because that is the x value in which the vertex occurs, squared plus maximum height of 45.
+So 45.
+And now we know it also hits the ground at 6 seconds.
+Well, the question is asking us which equation represents the entire situation.
+So in this case, we look at the answer choices just to take a look real quick.
+And we see that what we must solve for and we want to know is we must know the a value.
+We must know h and we must know k.
+So in this case, what are we missing?
+We're missing a value.
+So how do we find that?
+Well, in order for us to solve for one missing variable,
+we know that in one equation, we must only have that one missing variable.
+So we need an x value and a y value to plug in.
+Do we have that in this question?
+We do.
+It says that the ball hits the ground at 6 seconds.
+So at 6 seconds, we know that the height is 0 because the ground is a height of 0, ground level.
+So we can plug that in.
+At a height of 0, we get that the time is 6 seconds.
+And then we plug in or we keep everything else that we do know.
+So now we can solve for a.
+So let's do it.
+0 equals 6 minus 3 gives us 3.
+3 squared equals 9a plus 45.
+Moving 45 to this side, we get negative 45 equals 9a.
+So negative 45 equals 9a.
+So we get that a equals negative 5.
+So now we can write out the full equation because we know a, we know h, and we know k.
+So let's do it.
+y equals negative 5x minus 3 squared plus 45.
+And this is going to be our answer.
+So let's check.
+Negative 3 plus 45.
+And that is d.
+And d is correct.
+Let's do this question on Desmos.
+In order to do this question on Desmos, we must have a foundational understanding of what a vertex even is.
+Because if we don't, we can't even do this question.
+So we must be able to identify that the vertex is this maximum height, which in this case is 3,45.
+We must also be able to find a second point.
+The second point in this case is when the ball, the softball, hits the ground at 6 seconds.
+This means that x value is 6.
+And when x is 6, y is 0.
+Now in order to do this question, we must graph each of these answer choices and see which one of these functions actually align and intercept both of these points.
+So let's test it.
+First, I graph the different points.
+So these two points that we identified.
+Next, we need to test all the answer choices.
+So let's test this first one.
+We see that no, it does not intercept with any of the points.
+Let's test b.
+b does not intercept with any of the points either.
+c also does not.
+While d perfectly overlaps with the two points.
+Therefore, the equation of d is the vertex form that satisfied these two conditions.
+Let's do another question.
+A quadratic function models a projectile's height in meters above the ground in terms of the time in seconds after it was launched.
+The model estimates that the projectile was launched from initial height of 5 meters above the ground and reached a maximum height of 85 meters above the ground 4 seconds after the launch.
+How many seconds after the launch does the model estimate that the projectile returned to a height of 5 meters?
+Okay, let's do this question.
+So obviously this question gives us a maximum height.
+So once again, this is talking about parabola in vertex form because it gives us the vertex.
+So maximum height occurs at 4 seconds and a height of 85 meters.
+So with this being said, let's plug it into vertex form what we already know.
+y equals a x, remember minus h, so minus 4, squared, plus 85.
+Now the question is asking us how many seconds after the launch does the model estimate that the projectile will return to a height of 5 meters?
+In order for us to solve this, we must set y equal to 5 and then solve for x.
+But we can't do that yet because we don't know a.
+So we need to solve for a.
+Well, how do we do that?
+We need to, once again, similar to the previous question, we need to plug in another value, y and x, and then we can solve for a first.
+We are given another x and y value.
+We know that at the initial time when the projectile was launched, the initial height was 5.
+This means that at this point, the height, the starting point, was at time 0 and there was a height of 5.
+So let's plug everything in.
+5 equals a 0 minus 4 squared plus 85.
+So let's solve.
+5 equals 16a plus 85.
+Let's move the 85 to the other side.
+So negative 80 equals 16a.
+We get that a equals negative 5.
+So now that we know a, let's plug everything in that we already know and let's solve for time in which the projectile will return to a height of 5 meters.
+So y equals negative 5 x minus 4 squared plus 85.
+So let's do this question.
+Let's plug in 5 for y and then solve for the time in which this occurs.
+So 5 equals negative 5 x minus 4 squared plus 85.
+So let's solve.
+So first we move the 85 to the left side.
+So we subtract by 85.
+So we get negative 80 equals negative 5 x minus 4 squared.
+Now let's divide by negative 5.
+So negative 80 divided by negative 5 equals 16.
+So 16 equals x minus 4 squared.
+So taking the square root of both sides, we get that 4 equals x minus 4.
+Now solving for x or after taking the square root, this should be plus or minus.
+Because after squaring negative 4 we get 16 and also squaring 4 gives us 16.
+So plus or minus 4 equals x minus 4.
+So let's solve for x.
+So there's two scenarios.
+4 equals x minus 4 and negative 4 equals x minus 4.
+In this scenario, x equals 8.
+And in this scenario, x equals 0.
+So as you can clearly see, this actually makes sense.
+This is actually the data point that we already had.
+But we see on this one, when x equals 8, the height also equals 5.
+So therefore, our answer to this question is 8.
+Something very cool to point out is that after doing all this work, we got the answer of 8.
+There's actually a much quicker way to do this question.
+Because if you know the property that the vertex is simply like a reflection point.
+So think about it like this.
+This parabola, if we would have put this and draw this on a piece of paper,
+and we would have folded this parabola in half,
+this line on the right side will actually directly overlap with the line on the left side.
+So with that being said, if it took from 0 to 4 to get us to this vertex part,
+and at time 0, the height was equal to 5.
+In order for us to return to a height of 5, it would take the same amount of time.
+So from 0 to 4 was 4 seconds.
+That means that in order to return to 5, the reflection point,
+it would just take 4 more seconds.
+So to do this question very quickly, we would just see,
+okay, it took 4 seconds to get here, it would take another 4 seconds to get back.
+So we would very easily know that the answer is 8.
+And that is indeed correct.
+Let's solve this question in Desmos.
+So the question tells us that the projectile was launched from initial height of 5 meters above the ground,
+and reached a maximum height of 85 meters above the ground 4 seconds after the launch.
+So we're given two data points.
+So let's make a table with these data points.
+The first one is 0,5 because at time 0, the height is 5,
+and at time 4, the projectile reaches a maximum height of 85.
+Now let's run a regression.
+We first instinct may be to click this button right here to add a quadratic regression.
+However, what we notice is that this graph actually opens upwards.
+The problem with this is that this question is projectile motion.
+So know that the graph looks like this,
+and it's upside down with the vertex being the maximum at 4, 85.
+So clearly, this graph is not correct.
+So let's actually delete this regression,
+and use a quadratic form that includes information that the question is giving us.
+In this case, the question gives us the vertex.
+So let's write vertex form.
+y equals a times x minus h squared plus k.
+And now because we're doing regression,
+we need to change the equal sign to a tilde,
+and then we need to change the x and y's into x1, y1,
+since those are constants,
+and we have the information right here.
+So now, all this regression is solving for
+is the remaining constants that we have that are not defined yet,
+and that is a, h, and k.
+But notice here how in the graph,
+this function is still opening upwards.
+So clearly, something is still wrong about what we have right here.
+Well, what do we notice?
+We notice how we actually have three constants in our regression,
+but we only have two data points.
+We learned earlier in the Desmos Foundations unit
+that we need as much data points as we have constants
+in order for regression to work properly.
+So how can we make sure that we have the proper amount,
+and these amounts match?
+Well, in this vertex form, what do we know about h and k?
+Well, we know that h and k are actually just the x-coordinate of the vertex
+and the y-coordinate of the vertex.
+So all we could do is we can actually substitute these values in
+since we know their values.
+So h is equal to 4 and k is equal to 85.
+Notice how that's just the values right here that the question gave us earlier.
+So what we can actually do now is actually remove these values right here
+because now we only have one constant and one data point.
+So we notice now how this function is opening downwards,
+and it indeed has the vertex at 4,85 and a starting point at 0,5.
+So now this equation is correct.
+So all we need to do now, the question is asking us,
+when will the projectile return to a height of 5 meters?
+So all we need to do is graph when y equals 5 meters
+and find when that occurs again.
+And that occurs at 8 seconds.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Nonlinear Functions - Vertical & Horizon.txt
+--------------------------------------------------------------------------------
+Let's talk about vertical shifts. Vertical shifts move the entire graph up or down. The key thing to
+remember here is that vertical shifts happen in the same direction as the shift. Now what does this
+mean? Because f is just a fancy way of just saying y, adding a number to the outside of the
+function changes the y value directly. So what does this look like? The big rule to remember is when
+you add a value to the function of f , this directly moves the graph up by k units. See,
+this is what we mean by same direction as the shift. Adding k shifts upwards, so adding leads to the same
+direction aka in a positive direction. If we subtract k from the outside of the function, it directly
+moves the graph down by k units. For example, if f equals x squared and this vertex occurs at 0, 0,
+then if g of x equals x squared plus 5, this moves that vertex to 0, 5. See how in this case, because
+it is a vertical shift, the shift is happening on the outside of the function, not on the inside of
+a function such as within these parentheses, we only shift the y value by whatever that shift is. In this
+case, we're adding 5, so we shift it in the same direction. For vertical shifts, every single y
+coordinate shifts by the k value. The x values stay the same, but the y values all move by the shifted amount.
+Now let's talk about horizontal shifts. Horizontal shifts are the counter-intuitive shifts. What we mean
+by this is that horizontal shifts happen inside the parentheses. This means it affects the x value before
+the rest of the function does its work. This is where most students get tricked because the direction is
+backwards. Similarly, when we solve the vertex, remember switch, keep, switch and keep, this also applies
+kind of to horizontal shifts. So for example, this is the rule. When the function f of x, we make a shift
+within the parentheses of minus h, this actually moves the graph to the right by h units. So the shift is the
+opposite of the opposite of the sign. How we identify whether something is a horizontal shift is if we are
+making changes to the function inside of the parentheses. For example, as we see here, if the function is f of x equals x squared,
+and the shift that we want to make is inside of the function, which in this case would be changing f of x
+to if we were to change it here, the equation is now x plus 3 squared instead of what it normally was.
+So if we're doing the change to the inside of the function, this is a horizontal shift. Remember, if it's
+happening to the outside of the function, such as in these examples, then it is a vertical shift. So on the
+flip side, if we add h, this shifts the graph directly to the left by h units. So remember, key thing for horizontal
+shifts is the actual shift is the opposite direction of the sign. So let's take a look at this example to
+illustrate a little bit more clearly. If f of x equals x squared and its vertex is at 0, 0, then if g of x equals
+f of x plus 3, then g of x's vertex is left 3 units. So instead of 0, 0, it is shifted to the left 3 units.
+So it is negative 3, 0. Another example, just to show this a little bit more, is if g of x equals f
+f of x minus 4, notice how this is occurring inside the function and not outside of the function,
+if it was outside to be a vertical shift, then g of x would be f of x, but all the values are shifted
+4 units to the right. Remember, opposite of this sign. Let's practice. The graph passes through the points
+negative 2, 0, 0, 0, -3, and 3, 6. The graph will be translated up 4 units, which of the following
+describes the resulting graph. Okay, in this case we know because it has been translated up 4 units,
+all we need to do is add 4 to these y values. So this becomes 4, this becomes 1, and this one becomes 10.
+So x values stay the same, y values just increase by 4. So let's see which one of these answers
+surely satisfies. Negative 2, 4, which is correct, 0, 1, which is correct, and 3, 10. So our answer is A.
+We can check all the other ones, but we see this one, we subtracted 4, which is not correct. This one,
+we see it messed with the x value, which is not correct. And then this one, it also messed with the x value,
+so that's also incorrect. So the answer is A. Let's solve this question on Desmos. The question tells us
+that a graph passes through the points negative 2, 0, 0, -3, and 3, 6. And then it tells us the graph
+will be translated up 4 units. So all we need to do is plot each of these points and then move them up
+4 units and figure out what the resulting point is. So -2, 0, moving that up 4 units leads us to -2, 4.
+Looking at the answer choices, there's actually only one answer choice that includes this first point.
+So the answer must be A. And we can do the same with each of the rest of the points.
+Now let's do this question. The function f is given. Which table of values represents
+y = f of x - 2? Note here what is going on. This is the function f of x. The translation or the shift
+that we are doing is outside of the function. Therefore, this is a vertical shift. Because it is a vertical
+shift. The shift happens directly to it. So we are indeed decreasing all y values by -2.
+Now let's take a look at the answer choices real quick. What we will notice that is consistent between
+all of these x values on the left side is they are all the same. Now do we notice anything? We actually
+notice that the solutions to this equation right here is x = -4, x = -1, and x = 3. And at these solutions, these are actually
+the x-intercepts. At all of these, these lead to y or this function equaling to 0. So at each of these values, x = -4, the function is equal to 0. So y = 0.
+So the points that we already know is this. These three points here.
+And so with this, we now know this is the original function. Now we know that the shift is just subtracting
+2 or a vertical shift downwards for all the y values. So these become the same x values just with a 2
+in the y spot. Or -2, sorry. -2 because it's a -2 shift. So let's look at the answer choices.
+-4, -1, all these are the same. Now we're looking for -2 all across the board. And that only leaves answer choice a.
+And answer choice a is correct. Let's solve this question using Desmos. So the question asks us,
+which table represents y = f -2? So all we need to do in Desmos is write out the function f itself first.
+Then what we need to do is we need to go to a separate line and write the function that we are
+now looking for. So f -2. We want to make sure that we write it exactly how the question gives us.
+Because if we write this -2 inside, it actually becomes a horizontal translation. Writing it exactly how
+it is. It's a vertical translation. So as we can see here, the red line is the new line that we are
+focused on. So let's only focus on the red line. So look at the answer choices. All the x values are
+the same. -4, -1, and 3. -4, -1, and 3. And then so on and so forth. So let's graph x = -4. And let's
+find the y value at this point. So the intersection is -4, -2. So as we can see, only answer choice a and c satisfy this first point. -4, -2.
+So b and d are automatically incorrect. Now let's test the next point. So x = -1. At this point, the coordinate is -1, -2. So -1, -2, -1, -1. So c is incorrect because it does not include the point. So therefore, the answer is a.
+Now let's do another question. In the given function f, a is a constant. The graph of function f in the xy plane, where y = f is translated down two units and five units to the left to produce the graph of y = g . Which equation defines g . So this time, all we need to do is apply these translations to get g . And the answer choices are all what g . So let's start with the easier one. Let's start with the vertical translation. When something is just being translated down.
+apply these translations to get g of x and the answer choices are all what g of x could possibly
+equal to. So let's start with the easier one. Let's start with the vertical translation. When
+something is just being translated down to units, all we need to do is take f of x and subtract 2.
+That's all that's going on here. So because all of this is f of x, if we subtract 2 from this,
+all that it does is affect this constant right here. So it becomes plus 1. So after applying the
+vertical translations, we now have that f prime of x, this is just a slightly altered version of it,
+equals a minus 10 over x plus 1 because we combine these two like terms. Now we applied the vertical
+translation. Now how do we do this horizontal translation? This has five units to the left.
+Well remember, because it is opposite of what happens, because we're going to the left,
+inside of here, when we are applying a horizontal translation, all we are doing is taking this,
+see how this is to the left, we want to flip the sign, so we would have to add 5 inside the function
+in order to make it shift 5 units to the left. So what does that mean in this equation right here?
+Well, instead of there being x as the x value, now x is substituted for x plus 5. So all we need to do to go
+from here to get g of x is g of x equals a minus 10, and then this x value instead of it being x, we just substitute in x plus 5.
+Because we know that x plus 5 will lead to a translation of 5 units to the left. Remember, horizontal translations are the opposite direction.
+So x plus 5 and then we keep that plus 1 because horizontal translations don't affect these constants out here, it only affects the x.
+So this is our equation for g of x. Now let's see which one of the answer choices correctly represents this. And that only leaves answer choice a, which is the correct answer.
+Now let's do another question. In the xy plane, when the graph of f equals 2x squared plus 1, where x is greater than or equal to 0, is shifted up 6 units,
+the resulting graph is defined by function g. Okay, if the graph of g passes through the points k, 25, where k is a constant, where is the value of k?
+Okay, so in order to solve this question, we must first identify what the function of g even is. Then we can plug in 25 for g of x and solve for what k is.
+Okay, perfect. So what is the relationship? Well, it says that the function g is simply the function f of x shifted up 6 units. So what does that mean?
+It means that f of x shifted up 6 units, remember same direction, vertical shifts are the same direction, equals g of x. So let's do that. Let's just plug in what we know.
+2x squared plus 1 plus 6 equals g of x. After combining like terms, this is simply 2x squared plus 7 equals g of x. Beautiful. Now that we know this, if the graph of g passes through the point k, 25, what is the value of k? Okay, well all we need to do now is plug in 25 for g of x and then solve for k. Easy enough. Okay, let's do it. So 2x squared plus 7
+equals 25. Okay, now let's move the 7 to the other side. 2x squared equals 18. x squared equals 9. And x equals plus or minus 3. Well notice here it says x is greater than or equal to 0. So we don't have to worry about this negative side. We only have to worry about 3. So the value of k is 3. Because plugging in 3 into g of x gives us 25.
+And 3 is indeed the correct answer. Now let's solve this question using desimals. The sequential tells us the original graph of f of x is equal to 2x squared plus 1, where x is greater than or equal to 0. This is shifted up 6 units. And now it is defined by the function g. It tells us that g passes through k, 25, where k is the constant. What is the value of k? So let's first graph f of x. Now it tells us that g of x is simply
+shifted up 6 units. So let's define g of x equals f of x plus 6 because this is a vertical translation. So up 6 units. So the resulting graph of g of x is all the way up here. Now the question tells us that g passes through k, negative 25. So we are focusing on the function g of x. So we can ignore f of x. It tells us it passes through k, 25. Therefore g passes through y equals 25. So let's find the x value that occurs when
+y equals 25. As we can see here the x values are negative 3 and positive 3. Well the question tells us that x must be greater than 0. So our answer in this question must be positive 3. Now let's do another problem. The function f is defined by f of x equals g of x minus 4, where g of x equals x squared plus 9. For what value of x does f of x reach its minimum? Okay, so we know the function g of x. We want to
+find f of x's minimum. Okay, so why don't we first figure out what the function of f of x even looks like. Then we can figure out the minimum, which is just the vertex of f of x. So let's see here. It says that f of x is equal to g of x with the inside minus 4. So this is actually super simple. All we need to do to find f of x is just plug in what this is. So let's do it. f of x equals this g of x.
+g of x with x value being substituted in as x minus 4. Easy enough. We just substitute it in. And now we have f of x. Now the question is, for what value of x does f of x reach its minimum? Well this is just vertex form and in order to find h comma k, which is the vertex, which also shows the minimum because once again, the a value here is positive or it's technically just a 1 that's just sitting right here. It's just a 1. So the
+the parabola opens upwards. So find h comma k, we take the inside and we switch it. So we switch the sign, which is 4 comma 9. So the x value in which f of x reaches minimum is 4. And that is correct. Let's solve this question using Desmos. The question tells us that the function f is defined by f of x equals g of x minus 4, where g of x equals x squared plus 9. For what value of x does f of x reach its minimum? So all we need to do is graph g of x
+g of x and define that within Desmos. And then define f of x, which is simply equal to g of x minus 4. So now this question asks us, for what value of x does f of x reach its minimum? So right now we're not focused on g of x. So let's get rid of it so we don't focus on the wrong thing. Ask us what is f of x's minimum and what is the x value at that point? And so as we can see here, the x value at the minimum is 4.
+Thank you.
+

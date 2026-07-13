@@ -1,0 +1,507 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: PSDA
+SKILL: 1 Variable data
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data - Box Plot Interpretation-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data distribution and measures of center and spread. More specifically,
+let's talk about box plot interpretation. A box plot, or in other words a box and whisker plot,
+provides a visual summary of how data is distributed across its range. It displays
+five values: the minimum, the first quartile q1, the median, the third quartile q3, and the maximum.
+As you can see, we have a box plot shown. The whiskers are the horizontal lines extending
+from the box and they represent the minimum and the maximum. So in this image right here,
+we have the whiskers which are the ending data points and 15 would be the minimum, 90 would be
+the maximum. The central rectangle represents the middle 50% of the data. The width of this box is
+called the interquartile range. The beginning of this box is q1, the middle of this box is the median,
+and the ending part of this box is q3. With q1 representing the 25th percentile of the values,
+and q3 representing the 75th percentile of the values. This is why the box represents the middle 50%
+because it's 75% minus 25% giving us 50% of the values. And this range q3 minus q1 is also called the
+interquartile range. Now that we know a little bit more about box plots, let's go ahead and try a practice
+problem. The depths and feet of 11 lakes in a state park system are summarized in the box plot above.
+Which of the following is closest to the median depth and feet? I know that the median depth is
+simply just the middle line in the box. So I'm identifying that middle line right here. Now I need
+to see what the value actually is. I'm noticing that it's between 4,000 and 6,000, but that also the middle
+value right here is probably around 5,000. It is more closely in between 5,000 and 6,000. So we need a
+value that is between 5,000 and 6,000. Let's go ahead and see which answer choice satisfies that. Answer
+choice A is too low, answer choice B is perfect, answer choice C is too high, and answer choice D is too high.
+So the best answer here would be answer choice B. Now let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data - Histogram and Dot Plot Interpretation-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data distributions and measures of center and spread. More specifically, let's talk about histogram and dot plot interpretation. Histogram and dot plots both show the spread, aka the standard deviation of data. Each individual column or stack of dots can be counted for frequency. Now that we know the basics of histograms and dot plots, let's go ahead and try a practice problem. Researchers measure the length to the near centimeter of caterpillars found in a garden. The dot plot gives the length of each caterpillar. Based on the dot plot, how many caterpillars had the length to the near centimeter of caterpillars found in a garden. The dot plot gives the length of each caterpillar. Based on the dot plot, how many caterpillars had the length to the near centimeter of caterpillars found in a garden. The dot plot gives the length of each caterpillar. Based on the dot plot, how many caterpillars had the length to the near centimeter of caterpillar.
+the nearest centimeters of five centimeters. So looking at this problem, we can see that the dot plot shows that there are a certain number of caterpillars that have a length of five centimeters right here. Now what we do is we simply add up the dots to calculate the frequency. We have one, two, three, four, five, six dots. So the amount of caterpillars that have a length of five centimeters is six. So answer choice B would be best here. Now let's go ahead and see if that's right. And it is. Before we do this question,
+go ahead and try it for yourself. Dataset P has nine values and is represented by the dot plot shown. Dataset Q is created by adding eight to each of the values in dataset P, which of the following correctly compares the medians and the ranges of dataset P and Q.
+So first what we need to do is we need to recognize what happens if we add eight to each of these values. Let's go ahead and just try it on the smallest and the biggest values. If we add eight to this value, well, we're going to have a value of 11 and this is going to be dataset Q. And if we add eight to this ending value, we are going to get 18. So this is going to be dataset Q and this is going to be dataset P. Now we need to compare the medians and the ranges. First, let's talk about the medians. Does the median change? Well, since the
+median is the middle value and it's somewhere in the middle. And since these values aren't affected at all, we know that we need to find what the median is. So since there are nine values, I know that the median is going to be the fifth value. So if I count one, two, three, four, five. So the median value is going to be six. If I add eight to this, which is what dataset Q does, it adds eight to every single number. It's going to give me 14. So does the median change? Yes. The median does change because it goes from six to 14.
+Now let's talk about range. Range is the maximum value minus the minimum value. For dataset P, we had a range of 10 minus three, which is equal to seven. But for dataset Q, we have 18 minus 11, which is also equal to seven. Therefore, the range does not change. So we need an answer that says that the median does change, but the range does not. And so choice A says the median of dataset Q is greater than the median of dataset P. This is true.
+The median went from 14 to six. The median went from six to 14. And the range of dataset Q is equal to the range of dataset P. Yes, answer choice A is factually correct. So we can circle this answer choice. But let's go ahead and check the others to make sure that they're wrong.
+The median of dataset Q is greater than the median of dataset P. And the range of dataset Q is greater than the range of dataset P. Well, the ranges are equal. So this is wrong. The median of dataset Q is equal to the median of dataset P. The medians are not equal. This is wrong. The median of dataset Q is equal to the median of dataset P. The medians are not equal. This is wrong.
+So our best answer choice here would be answer choice A. Now let's go ahead and see if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+The histogram summarizes dataset A, which represents the number of points scored per game by players on a team. All values in dataset A are greater than 10. A new player scores two points. And this value is added to create dataset B, which of the following must be true.
+So the first option says the median number of points per game for dataset B is less than the median for dataset A. So how do we calculate median? Well, first we need to understand what these two datasets are. The first one would be dataset A, which is shown by the histogram.
+Let's calculate the median of dataset A. As you can see, we have four plus six, which is 10 plus five, which is 15 plus three, which is 18 plus two, which is 20. So there are 20 total values.
+So we are going to do 20 plus one divided by two, which is the median shortcut. And we are going to get 10.5, which means that the median of dataset A is in between the 10th and 11th values.
+Now let's see what the 10th and 11th values are. We have the 10th value, which is four plus six. So the 10th value would fall under the 21 to 30 category. And the 11th value would be a number between the 31 to 40 category.
+So the median value of dataset A is somewhere between the range of 21 to 30 and 31 to 40. Now let's calculate the median for dataset B. And I'm going to go ahead and draw out what dataset B does so that I can calculate this a little bit easier.
+I know that a new player scores two points. So I'm going to go ahead and add it to this part of the histogram. And it only happens one time. And I know that it has a value of two. Now looking at this, I can go ahead and recalculate the median.
+I know that the median is going to be 21 since we added another value plus one divided by two. This is going to give 11. So we know the median of dataset B is the 11th value.
+And what is the 11th value? Well, the 11th value is going to be one plus four, which is five and then plus six, which is 11. So the 11th value is going to be in the range of 21 to 30.
+Based off of this, we know that the median of A is going to be in between 21 to 30 and 31 to 40. And we know that the median of B is just 21 to 30. So this is showing that the median of A is going to be greater than the median of B because medium of B, the maximum value can only be 30. But in the median of A, it can be something greater than 30. And specifically in between the ranges of 21 to 30 and 31 to 40.
+So the median of A is greater than the median of B. The first option says the median number of points for dataset B is less than the median for dataset A. This is true based off of what we solve for. So the first option is right. Now let's check the second option. The mean number of points per game for dataset B is less than the mean for dataset A. Well, for this one, we can just think about it conceptually. If the mean of B added a really low number, naturally, this number is going to do
+drag the mean of B is less than the mean of B is less than the mean of A. This is because the lower number for the dataset B is pulling down the mean. So now let's check the statement. The mean number of points per game for dataset B is less than the mean number for dataset A. This is also a correct statement based off of what we found.
+So the correct answer is right. Now let's go ahead and see if this is right. And it is. In histograms, each bar represents a range of values. Therefore, if a bar spans from 1 to 10 and the frequency is 2, that means that there could be two numbers and their values could be from 1 to 10. So for example, if we had a bar and it said the values were from 1 to 10 and the frequency happened twice, this means that the values were from 1 to 10.
+that we could have 1 and 3. But it also means that we could have 2 and 4. But it also means that we could have 3 and 7. We just simply don't know from the histogram what these two values are. But we know that it's in the range. Before we do this question, go ahead and try it yourself.
+2. Two datasets of 10 integers are each summarized in the histograms. For dataset J, the intervals represent integers greater than or equal to 10 but less than 20, greater than or equal to 20 but less than 30, and so on. For dataset K, the intervals represent integers greater than or equal to 0 but less than 10, greater than or equal to 10 but less than 20, and so on.
+2. What is the smallest possible difference between the mean of dataset J and the mean of dataset K? So what we need to first understand is what are we looking for? We are looking for the smallest possible difference. And what does that mean?
+So conceptually, we need to first understand which mean is bigger, the mean of dataset J or the mean of dataset K? As you can see, the mean of dataset J starts with values from 10. And in the mean of dataset K, there could be values from 0 to 10. So obviously, dataset J is just dataset K but moved over 1.
+Because of this, we know that dataset J has higher values over all, which means that the mean of dataset J is going to be greater than the mean of dataset K. Now, we are looking for the smallest possible difference between the means.
+So, what would that be? Well, I know that dataset J and dataset K both don't have specific values. Rather, they have ranges of values. If we took a range of values from here, 10 to, well, it says for dataset J, it's equal to 10 and less than 20, we know that the smallest number that could be in this range is 10.
+And the highest number that could be in this range of values is 19. Same thing for dataset K. The smallest number in this range could be 0. And the highest number in this range could be 9. So there are possible numbers that this could be.
+That's why this question is asking for the smallest possible difference, because it knows that the mean could be a range of different possibilities, but we want the smallest difference. So how do we do that?
+What we would do is since the mean of dataset J is bigger than the mean of dataset K, we would want the smallest mean of J and we would want to subtract that from the largest mean of K.
+This makes it so that we have the smallest possible difference between the two numbers. So how do we find the smallest mean of J? Going back to what we talked about earlier, there is a range of values.
+So we would want to find the smallest number possible for each of these bars. In that case, we would have 10. 10 would be the smallest value here and we would multiply that by the frequency of 2.
+Here, we would have 20 and we would multiply that by the frequency of 4. We would have 30 in this bar and we would multiply that by a frequency of 3. And we had 40 in this bar and multiply that by a frequency of 1.
+Same thing over here, but instead on dataset K, we are looking for the largest values possible. So here we would take 9 and we would multiply that by a frequency of 2.
+We would take 19 and we would multiply that by a frequency of 4. We take 29, multiply that by a frequency of 3. And we would take 39 and multiply that by a frequency of 1.
+So now let's go ahead and calculate out both of these means. If we input into the calculator, we're going to get that J is equal to the smallest possible number from 10 to 20, which would be 10 times 2 plus the smallest possible number 20 times 4 plus 30 times 3 plus 40 times 1.
+And we would divide that by the total number of integers, which is 10. So this is the smallest possible mean for dataset J. Now let's calculate the largest possible mean for dataset K.
+In order to do this, we're going to find the largest number in this range, which would be 9. Multiply that by the frequency of 2. Add that to the largest possible number of the next bracket, 19.
+Multiply that by 4. Add that to 29 multiplied by 3 and 39 multiplied by 1. We would divide this also by 10.
+So the largest possible mean for dataset K is going to be 22. So the smallest mean of J is 23, subtracted by the largest mean of K, 22. And that is going to give us a smallest possible difference of means of 1.
+So our best possible answer here would be answer choice A. Now let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data - Mean, Median, Mode, etc.-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data: distribution and measures of center and spread. More specifically, let's talk about mean, median, mode, range, and maximum and minimum values.
+The maximum is the highest value in a data set. The minimum is the lowest value. Range is the spread of the data and is the maximum minus the minimum value.
+Mode is the value that appears most often. The mean is the total sum of all the values divided by the total number of all the values.
+The median is the middle value of an ordered data set from least to greatest.
+Now that we know a little bit more about these measurements, let's go ahead and try it on a practice problem.
+What is the median of the seven data values shown? I know that I have 1, 1, 1, 5, 6, 6, and 13.
+The median is simply just the middle number. So I'm going to go ahead and cross out one number on both sides until I reach the exact middle of this data set.
+I can cross out 1 and 13, 1 and 6, 1 and 6 until I'm left with 5, which is the middle value, and this is the median.
+So answer choice B would be our best answer here. What would be the maximum, minimum, range, mode, and mean?
+Let's go ahead and calculate these as well. The maximum is the highest value in the data set.
+Out of all these numbers, I see that 13 is the highest value. So I'm going to write 13 for the maximum.
+The minimum is going to be the lowest. That's going to be 1. The range is going to be the maximum minus the minimum.
+So my maximum is 13. My minimum is 1 and that's going to give me a range of 12. This is the range of the data set.
+The mode is the number that appears the most. Out of all these numbers, I see that 1 appears 3 times, which is the most.
+So the mode is going to be 1. The mean is going to be the value of all these numbers divided by the number of times that they appear.
+If we go ahead and enter this into the calculator, we are going to get 1 plus 1 plus 1 plus 5 plus 6 plus 6 plus 13 divided by 7 data values.
+This is going to give us 4.71. So our mean is going to be 4.71.
+Now let's go ahead and see if the answer choice that we got for the median is right. And it is.
+Alternatively, you can solve some of these values using their functions in Desmos. Specifically, you can solve for maximum, minimum, mean, and median using their Desmos functions.
+For example, if I type in max, I'm going to get the maximum function and I simply type in this data set 1, 1, 1, 5, 6, 6, and 13.
+This is automatically going to output the maximum value. If I wanted the minimum, I would simply type the minimum value, which is min.
+That is going to give us the minimum, which is 1. I can also type in the mean, which is going to give us the mean value, 4.71.
+And I can also type in median, which is going to give us the middle value.
+This is another way to solve for certain parts of this question.
+Now let's go ahead and see if our answer is right. And it is.
+For median, order values from least to greatest if they are out of order.
+If there is an even number of values, take the middle two numbers.
+There will not be a single middle number if there is an even number of values.
+And then you can take the average of the two middle values.
+Before we do this question, go ahead and try it for yourself.
+First, I'm noticing that this data set is out of order.
+So let me order it from least to greatest.
+3, 6, 9, 10, 14, 17, 21, and 21.
+Now that it's ordered from least to greatest, I can do my canceling out method until I'm left with the last middle number or the last two middle numbers.
+So I'm crossing out 3 and 21, 6 and 21, 9 and 17.
+And I'm left with my two middle numbers, 10 and 14.
+Now I'm going to take the average of these two numbers, which is going to be 10 plus 14 divided by 2.
+And that is going to give us 12.
+So the median of our data set is going to be answer choice B, 12.
+Now let's go ahead and see if this is right.
+And it is.
+Alternatively, you can solve this on Desmos using the median function.
+When you put in the median function, you actually don't need to set them in order.
+Desmos will automatically understand what to do even with a data set that is not put in order.
+As you can see, Desmos still correctly calculates that the middle number is 12.
+So this is a much faster way of calculating the median.
+For median, sometimes you need to focus on the frequency, AKA the number of values in the data set.
+If there are nine values, you know that the median is the fifth value because that is the middle value.
+There are exactly four values on each side of the fifth value.
+Now let me give a demonstration.
+Let's say there are nine values.
+One, two, three, four, five, six, seven, eight, nine.
+Notice how we know that the median value is the fifth value because if we took the four on one side and we cross them out and we took the four on the other side and cross them out, we are only left with one value.
+And this is the fifth value.
+Before we do this question, go ahead and try it for yourself.
+First, a library organizes books into three sections.
+Eight books with fewer than 200 pages are in section A.
+Thirteen books with 200 to 400 pages are in section B.
+Ten books with more than 400 pages are in section C.
+Which of the following could be the median number of pages of these 31 books?
+First, what we need to do is we need to understand what the middle value is.
+Technically, we could calculate this manually writing out all 31 values and crossing them out.
+But actually, there is a shortcut.
+This is called the median shortcut.
+And the median shortcut, I'm going to call it the median shortcut, is equal to n plus one divided by two.
+In other words, we take the total number of books that there are, which is 31, then we add one, and then we divide it by two.
+This is going to give us 32 over two, or in other words, 16.
+This means that the median number of books in this data set is going to be the 16th book.
+Now we need to sort out what types of books that they give us.
+The books with fewer than 200 pages.
+So these books are less than 200 pages.
+We have eight of those.
+And then 13 books have 200 to 400 pages.
+The second category would be 200 to 400.
+And this would be 13 books.
+And then the third category, section C, would be 10 books with more than 400 pages.
+So more than 400 pages.
+And we are going to have 10 of those.
+Now, if we know that the median is the 16th value, we simply just need to look at the frequency of these books.
+So first we have our first eight books.
+Well, that's not going to be the 16th value.
+If we go to the next 13 books, yes, our 16th value is going to be somewhere in these 13 books.
+So we know that the median number of pages of these 31 books is somewhere between 200 to 400.
+Now let's go ahead and look at the answer choices to see which one would match up with that.
+150 is too little.
+280 is perfect.
+410 is too much.
+And 475 is too much.
+So the best answer choice here would be answer choice B.
+Now let's go ahead and see if that's right.
+And it is.
+Recall that the mean formula is the total sum of all the values divided by the total number of all the values.
+Sometimes the SAT will not give you a value in a data set.
+For example, they might give 2, 4, 6, and x.
+In these scenarios, they will give you the mean and you will have to solve for x.
+Let's say we know that the mean is 20.
+We know that there are 4 values.
+Then we can set up an equation like this.
+2 plus 4 plus 6 plus x divided by 4, which is the number of values, is equal to 20, which is the mean.
+Watch out!
+The SAT will test this missing value from the mean a lot and will put certain twists to questions.
+Before we do this question, go ahead and try it for yourself.
+Dataset A consists of 10 positive integers, each less than 60.
+The list shows 9 of these integers.
+The mean of these 9 integers is approximately 33.4.
+If the mean of dataset A is an integer greater than 35, what is the value of the largest integer in dataset A?
+So, we are given a lot of information here.
+Let's go ahead and break this down.
+We know these 9 values.
+And we also know that there is a 10th missing value and we'll call that a value x.
+For these 9 values, the mean is going to be 33.4.
+So, what does that mean?
+Well, we can find the total value of these 9 integers added up.
+If the value of all the integers added up, so let's just say value of the 9 integers divided by 9 is equal to 33.4.
+Then we also know that 33.4 times 9, because we're multiplying 9 by both sides, is equal to the value of the 9 integers.
+So, let's go ahead and find the total value of the 9 integers.
+After putting this into the calculator, we get 300.6.
+We know that the total value of these 9 integers added up is approximately 300.6.
+Now, what we need to do is add the 10th integer x.
+So, this is the 10th integer that we don't know.
+And then we need to divide that by 10 values, because we are going to have this new dataset with 10 integers,
+where we add our missing integer that we don't know.
+But this needs to be greater than 35.
+So, let's first just set this equal to 35.
+So, we know what x has to be greater than.
+If we do a little bit of arithmetic, we can multiply 35 by 10.
+So, we get 300.6 plus x is equal to 350.
+And if we subtract 306 from both sides, we get that x equals 49.4.
+So, what does this mean?
+This means that when the 10th value, the 10th integer is 49.4, we are going to get a mean value of 35.
+However, we need an integer value greater than 35.
+Therefore, our x needs to be greater.
+I'll put it right here.
+Our x needs to be greater than 49.4 in order for our mean to be greater than 35.
+Now, it's asking, what is the value of the largest integer in dataset A?
+Well, if it just needs to be greater than 49.4, can't we just put it at 1000 and that would work?
+Not quite, because the problem also tells us something else.
+Dataset A consists of 10 positive integers, each less than 60.
+So, we know that x cannot be greater than 60.
+So, x actually has to be less than 60.
+So, the value of the largest integer in dataset A satisfying that it needs to be less than 60 and satisfying that the mean has to be greater than 35 would be 59.
+Because 59 is less than 60 and is the largest integer greater than 49.4.
+So, in this scenario, x would be 59.
+Now, let's go ahead and see if that's right.
+And it is.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data -Bar Graph Interpretation-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data, distribution, and measures of center and spread.
+More specifically, let's go over bar graph interpretation.
+A bar graph compares different categories of data.
+The x-axis will show the categories being compared.
+For example, years, types of fruit, or the names of cities.
+And the y-axis usually will show the value or frequency of those categories.
+The height or length of each bar shows the specific value for that category.
+Now that we know the basics of a bar graph, let's go ahead and try a problem.
+The bar graph shows the distribution of the number of students in each of the four sports clubs at a middle school.
+How many more students are in swimming than in track?
+First, we need to notice that we have four different categories.
+These are our categorical variables for the bar graph.
+Then on the y-axis, we have the frequency of how many times these certain categories appear.
+So as you can see, swimming appears 45 times, track appears 20 times, volleyball appears 35, and gymnastics appears 30.
+The question is, how many more students are in swimming than in track?
+So there are 45 students in swimming, and there are 20 students in track.
+So we take 45, and we subtract it from 20, and we get 25.
+There are 25 more students in swimming than in track.
+Our best answer choice would be answer choice A.
+Now let's go ahead and see if that's right.
+And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data -Comparing Multiple Data Sets-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data, distribution, and measures of center and spread. More specifically,
+let's go over comparing multiple data sets and change in data sets. If we had a data set and we
+added a low value, adding this new data point would significantly lower the current values and
+will always pull the mean down, meaning the mean would decrease. If we added a high value, this
+would pull the mean up and it would make the mean increase. This is because the mean is the weighted
+average and it takes into account how big the values actually are. Adding low and high values do not
+change the median. It will only change the median if it causes the middle number to shift. Take the
+data set 66777. What would happen to the mean if you added 50 as the last number in the data set? Take
+some time to think about this. The mean would dramatically increase. This also means the mean
+would dramatically decrease if low numbers were added. Did the median change? No, because it is
+just the middle and how big a number is doesn't matter. However, median could still change when a large or
+small number is added for a different reason. What would be an example of that? Take some time to
+think about this. If the number added shifts the median over to a different number. How does adding or
+changing a number affect standard deviation and range? If a different number is added on the end,
+the range would drastically change because the maximum and minimum values are changed. Standard deviation would
+also change because the spread of the data would be different. Now that we understand these concepts a
+little bit more, let's go ahead and try on a practice problem. Dataset A and dataset B each contain
+five numbers. If the mean of dataset A is equal to the mean of dataset B, what is the value of x? So I know
+that the mean of A and B are equal. Therefore, 80 plus 82 plus 84 plus 86 plus 88, these are the values in data set A,
+divided by five. This is going to be equal to a certain number. So let's go ahead and calculate the
+mean of dataset A. When we enter that into the calculator, we get 84 as the mean. So this is the
+mean of dataset A. We know that this mean is equivalent to the mean of dataset B. So we can set up a second
+equation. We can say that 70 plus 75 plus 88 plus 95 plus x divided by 5 is equal to 84 because the means
+are equal. Now, if we do some arithmetic multiplying 84 by 5 and then subtracting all these other values,
+let's go ahead and do that in the calculator right now. 84 times 5. We're going to take that value and
+subtract it from 70, 75, 88, and 95. We are going to get 92. So our x value in dataset B is going to be 92
+because when x is 92, then dataset B's mean is 84, which is equivalent to the mean of dataset A. So our
+best answer choice that matches up with this is answer choice C. Now let's go ahead and see if this is
+right. And it is. Alternatively, you can solve this in Desmos using regression. For example, if we knew that
+the mean of dataset A is equal to the mean of dataset B, we can set up an equation. We know that dataset A,
+which is 80 plus 82 plus 84 plus 86 plus 88 divided by 5 is equal to, and we'll set up the regression
+formula, another fraction, 70 plus 75 plus 88 plus 95 plus x1, which is the regression parameter that
+we're looking for, divided by 5. Automatically, we can see that regression will calculate that x is equal
+to 92. So this is a much faster way of solving this problem. Before we do this question, go ahead and try it for yourself.
+Five oak trees have a recorded height. The table shows the original dataset of heights in feet. The sixth tree
+with a height of 12 feet is added to create a new dataset. Which of the following correctly compares the means of the two
+datasets? If we can imagine that this is the old dataset right here. Old. And then we have a new dataset with a sixth tree with a height of 12.
+So imagine adding a sixth tree here with a height of 12. And this dataset is going to be our new dataset.
+What do we know about these two datasets? Well, if we just look at the first five trees, we notice that
+their mean seems to hover around the 40s to the 50 range because the smallest value is 48 and everything
+else seems to be around the 50s and the 60s. So we know that the mean is going to be somewhere there.
+However, for our new dataset where we add 12, well, 12 is a significantly lower number. So what it's going
+to do is it's going to drag our mean down and it's going to make the mean decrease. So for the new dataset,
+the mean is going to be less than the original dataset. So let's see which answer choice matches up with what
+we discovered conceptually. Answer choice A says the mean of the original dataset is greater than the mean of the new dataset.
+This is true because the mean of the new dataset is going to be less because it added a small number 12.
+So this is right. Answer choice B says the mean of the original is less than the mean of the new.
+This is wrong. Both means are equal. This is wrong. And there's not enough information. This is also wrong.
+So the correct answer choice here would be answer choice A. Now let's go ahead and see if that's right.
+And it is. Before we do this question, go ahead and try it for yourself. The running times in minutes
+for 12 marathon runners were recorded and the mean, median range and standard deviation were found.
+The runner with the fastest time was found to actually have finished three minutes faster than
+recorded. What value remains unchanged when recalculated with the corrected time?
+So first one I know is that we have 12 marathon runners. So let's go ahead and write that out.
+We have one, two, three, four, five, six, seven, eight, nine, 10, 11, 12 marathon runners.
+And we know that the first marathon runner actually finished three minutes faster. So I'm going to
+set up some theoretical numbers just to help me out. Let's just say that the fastest marathon runner
+finished the marathon in 10 minutes. That would be a pretty fast marathon, but we're just using these
+numbers as an example. And let's say the slowest marathon runner finished in 20 minutes. So what we
+discovered is that the fastest marathon runner actually finished three minutes faster than recorded.
+So what you would do is you would take 10 and subtract three. So actually the fastest marathon runner
+actually finished in seven minutes. Now we're asking what value remains unchanged. Will the mean change?
+Yes, the mean will change because one of the actual values of one of the marathon runners change.
+So that's going to change the weighted average. So the mean would change. Would the median change?
+The median would not change. The median is somewhere between the sixth and seventh value right here and
+changing the first value from 10 to seven does nothing to the median. So we know that the median would
+stay the same. So we can go ahead and circle that. Would the range change? Yes, the range would change
+because the maximum value is 20 and the minimum value is seven, but it was originally 10. So the range would
+also change. What about standard deviation? The standard deviation would also change because we can imagine that
+the standard deviation is the spread of the data points from the mean. If something on the endpoints
+changed, then the spread would look slightly different from the original. So standard deviation would also
+change. So the correct answer here would be answer choice B. Now let's go ahead and see if this is right.
+And it is. Before we do this question, go ahead and try it for yourself. A data set of 25 different
+numbers has a mean of 50 and a median of 50. A new data set is created by adding 4 to each number greater
+than the median and subtracting 4 from each number less than the median. Which of the following measures
+does not have the same value in both data sets? So let's just set up a theoretical scenario again. I know
+that there's 25 different numbers, but I don't want to write out 25. So let's just say we have 1, 2, 3, 4, 5, 6,
+and the median is going to be somewhere between the third and the fourth values. So this line here
+indicates the median. We know that the values above the median add 4. So the values above the median go
+ahead and add 4. And we know that the values below the median, well, they're going to be subtracted by 4.
+Now we want to know which of the following measures does not have the same value. First,
+let's go ahead and check median. Will the median have the same value? Well, let's just set up some
+theoretical numbers. Let's say that the median is between 10 and 10. But now in our new data set,
+we added 4 to one number and we subtracted 4 to the other number. So this is going to make it so that
+one value is 14 and the other value is 6 because we're subtracting 4 and adding 4. Let's go ahead
+and calculate the median of both. The median of 10 and 10 is just 10. The median of 6 and 14 would be 6 plus 14,
+which is 20, divided by 2, which is 10. So the median does not change. So we can cross out answer choice A.
+Now let's try answer choice B. What about the mean? Let's just take these two points again. Even though
+these two points only represent the median, since there's an even split between the ones that are
+subtracted by 4 and the ones that are added by 4, we can use this to generalize to the data set of 25
+numbers. We can use these two values to test how the mean works instead of having to add up all the
+numbers. So for example, let's say we had two values 10 and 10. How do we find the mean? Well, we add 10,
+and then we add another 10, and then we divide by 2. This is going to give us a mean of 10. Now what
+about our new data set with 6 and 14? If we add 6 and we add 14, and then we divide that by 2, that is
+also going to give us 10. So the mean is also still going to stay the same. So we can cross out answer
+choice B. Now what about the sum of the numbers? If we take these hypothetical numbers for example again,
+we can see that 10 plus 10 is equal to 20. That's the sum of the numbers. 6 plus 14 is also equal to 20.
+That's the sum of the numbers. So the sum of the numbers does not change. What about the standard
+deviation? Well, if we imagine this conceptually, let's say that first we had a distribution that
+looked like this with the mean in the middle right here. But when we add and subtract 4 to each number
+greater and below the median, what we are doing is we are spreading out these numbers farther apart from
+the mean. So adding and subtracting 4, what that would do is that it would actually drag out our
+standard deviation curve so that our values are more spread out. It would go from this first diagram
+in which the points are more concentrated on the mean to the second diagram where they are spread out
+farther apart from the mean. So the best answer choice here would be answer choice D, standard deviation,
+because this does change when you add 4 to the values greater than the median and subtract 4 from the
+values less than the median. Now let's go ahead and see if this answer is right. And it is.
+Before we do this question, go ahead and try it for yourself.
+Data set A consists of the prices of 40 items and has a mean of 55. Data set B consists of the prices
+of 60 items and has a mean of 35. Data set C consists of all items from data set A and B. What is the mean
+price in dollars of data set C? So what we need to do is we need to find the total value of how much the items cost for data set C. And then we need to divide that by the total number of items.
+So the total value of data set C divided by the total number of items in C. How do we calculate this? Well, we know that data set C consists of all items from data set A and B.
+So that means data set C will have 100 total items. Now we need to find the numerator, which is the total value of the items in C. We know that data set A consisted of 40 items and had a mean of 55. So data set A had some value of number. And when you divided it by 40, it would give you a mean of 55. Data set B had something similar. Data set B had some value. And when you divided it by 60, you would get a mean of 35.
+Notice how if we just multiply 40 by 55 and 60 by 35, we will get the values of A and B. And then when we add A and B together, we will get the total value for C. So let's go ahead and do this. 40 times 55 for A plus 60 times 35 for B.
+So the total value is going to be 4,300. Now that we have the total value for C divided by the total number of items in C, we have 4,300 divided by 100, which means that the mean for C would be 43. Now let's go ahead and see if this is right. And it is.
+So let's go ahead and see if this is right. And it is. So let's go ahead and see if this is right. And it is. So let's go ahead and see if this is right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data -Frequency-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data distribution and measures of center and spread. More specifically, let's go over frequency.
+Frequency is the amount of times something appears in a data set. In graphs, it is usually on the y-axis. Now that we know this, let's go ahead and try on a problem.
+The bar graph shows the distribution of the number of marbles per bag for bags at a craft store. How many of these bags of marbles contain exactly 52 marbles? First, on the x-axis, we can see the different number of marbles per bag. We have 50 marbles, 51, 52, and 53. So how many of the marbles contain exactly 52? If we look at the frequency on the y-axis, we can see that there are six bags that contain 52 marbles. So our best answer choice here would be answer choice B.
+An important note to note here is that the x-axis is showing the value and the y-axis is showing the frequency, which is the amount of times that it happened.
+These two are very different and you need to be able to distinguish them on graphs. Now let's go ahead and check if this answer choice is right.
+And it is.
+When calculating mean, frequency is important to pay attention to. When you're calculating the mean, you need to multiply the value by the frequency and then divide it by the frequency.
+For example, if I had two marbles with a value of two, three marbles with a value of four, and four marbles with a value of one, I can't just add two plus three plus four marbles and divide by nine.
+I would have to multiply each by the value. So two times the value of two, three times the value of four, and four times the value of one. And then finally, I would divide that by nine.
+Before we do this question, go ahead and try it for yourself.
+The table shows the distribution of quiz scores for 18 students. Which of the following gives the correct order of the mean, median, and mode of the scores?
+First, let's calculate the mode because that's the easiest to get with this frequency chart. We know that the mode is the value that appears the most amount of times.
+And the score that appears the most amount of times is the score of 10 with a frequency of five. So in this data set, the mode is equal to five.
+Next, let's calculate the median. The median is going to be the middle number of these values. How do we find the middle number?
+Well, we know that we can use the median shortcut. N plus one divided by two, where N is the total number of items in a data set.
+In this case, we have 18 total students. So we are going to do 18 plus one divided by two. This is going to give us 19 over two, which is the same thing as 9.5.
+What is this saying? This means that our median is going to be in between the 9th and the 10th value. Now, how do we calculate what exactly that number is?
+If we go to the frequency, we can see that the 9th value, the first five are 10, and then the 9th value is going to be 11.
+So our 9th value is 11, and then our 10th value is going to be 12. So it's between 11 and 12, therefore meaning that the median is going to be 11.5.
+Now let's calculate mean. I know for mean, I need to multiply the score by the frequency, and I need to do that for all the values and divide by the total number of students that I have.
+So let's go ahead and do this in the calculator. We have a score of 10 that appeared five times, plus a score of 11 that appeared four times, plus a score of 12 that appeared three times, and so forth and so forth.
+When we finish entering that into the fraction, we can divide it by the total number of students, 18, and this is going to give us 12.2.
+So our mean is going to be 12.2.
+Now we can see that mean is the greatest, mode is the smallest. Let's see which answer choice supports that.
+Answer choice A is that the mode is the smallest, the median is the middle number, and the mean is the greatest.
+This follows the progression of our numbers, so answer choice A would be right.
+Now let's go ahead and see if this is right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data -Standard Deviation-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data distribution and measures of center and spread. More specifically,
+let's talk about standard deviation. Standard deviation tells you how far the other numbers are
+from the mean. A higher standard deviation means that points are more spread out aka farther from
+the mean. A low standard deviation means data points are very close to the mean clustered around
+the center. Here's a question: which one has the lower standard deviation? Which one has the higher
+standard deviation? Take some time to think about this problem. If we know that the one with the lower
+standard deviation is going to be clustered around the mean, then we know that the spread is going to
+be closer to the mean and it's going to have a pointed peak like this. If we know that the standard
+deviation is more spread out, then we know that it's going to have a higher standard deviation and
+it's going to look more spread out like this. Therefore, the lower standard deviation is on the
+right and the higher standard deviation is on the left. Now that we know a little bit more about
+standard deviation, let's go ahead and try a problem. The results of two independent plant growth
+experiments are shown in the table. Which statement is true based on the table? First, I'm noticing that
+I have group X and group Y. The sample sizes are the same, the means are the same, however, the standard
+deviations are different. The standard deviation of group Y is bigger than the standard deviation of group
+X. What does this mean? Well, when there's a higher standard deviation, we know that the points deviate more
+from the mean, which means that the points are more spread out. This means that group Y is going to look
+like this, something like this because it's more spread out. Group X is going to look like this because
+it's less deviated from the mean. Now let's go ahead and see which answer choice supports what we discovered.
+The group X dataset was identical to the group Y. This is not true. The group Y contained the tallest plant. We can't even discover that from this. So that's not true. The growth measurements for group Y had a larger spread than for group X. Does group Y have a larger spread? Yes, it does. So we know that answer choice C is right. Let's check answer choice D. The median growth for group Y is larger than the median growth for group X. We don't even know the median from this chart. So we can go ahead and cross that out. Now let's go ahead and check if this is the right answer.
+And it is. Before we do this question, go ahead and try it for yourself. The histograms summarize the distributions of daily sales in units for bakery A and bakery B over the same period. Which statement best compares the standard deviations of daily sales?
+So we actually have a dot plot and this shows the actual distribution. So we could draw a curve that kind of represents this distribution. Over here we have the distribution of A and then over here we have the distribution of B. So based off of how these images look, I'm automatically thinking that bakery B has more standard deviation because it is more spread out. The points are more spread out and are farther from the mean. As you can see the endpoints, there are more points farther from the mean. And over here there are less points farther from the mean.
+less points farther from the mean but there are a lot of points clustered in the center. Therefore,
+bakery B has a higher standard deviation. Let's see which answer choice matches with what we found.
+The standard deviation for bakery A is less than that for bakery B. Yes, this is true because A
+deviates less, there are more points clustered around the mean. Anter choice A would be right.
+Let's check the other answer choices. The standard deviation for bakery A is greater than that for
+bakery B. This is wrong. The standard deviation for bakery A is equal. This is also wrong. There's not
+enough information to compare standard deviations. This is also wrong. So our best answer choice would
+be A. Now let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 1 Variable data -Useful Tip-E.txt
+--------------------------------------------------------------------------------
+Let's talk about one variable data, distribution, and measures of center and spread.
+More specifically, let's talk about how we can plug in numbers to help us solve equations.
+When presented with variables, plug in simple numbers to make questions easier.
+Let's go ahead and try this on a practice problem.
+If A is the mean and B is the median of seven consecutive integers,
+what is the value of the absolute value of A minus B?
+So first, I'm noticing a lot of variables.
+But if I wanted to instead make this question easier, I could just plug in simple numbers.
+Well, I know that we have seven consecutive integers.
+So let me just come up with seven theoretical consecutive integers.
+I could simply do one, two, three, four, five, six, and seven.
+Now I can just calculate the mean and the median and take the absolute value and subtract them.
+First, let me calculate the mean.
+The mean is going to be one plus two plus three plus four plus five plus six plus seven
+divided by the total number, which is seven.
+That is going to give us four.
+So we know that we have a mean that is equal to four.
+Now let's go ahead and calculate the median.
+If we cross out both numbers from both sides, we are going to be left with the middle number,
+which is also four.
+So the median is also four.
+Since A is the mean and B is the median, we simply are going to do A, the mean, which is four,
+minus B, the median, which is also four, and take the absolute value.
+So four minus four is zero, the absolute value of zero is zero.
+So our correct answer would be zero.
+Now let's go ahead and see if this is right.
+And it is.
+Here's the explanation in case you want to understand how to solve this without plugging in numbers
+and instead use only variables.
+Before we do this question, go ahead and try it for yourself.
+The frequency distribution summarizes a data set where B is a positive integer.
+How much greater is the mean of the data set than the median?
+So first, I'm seeing a lot of variables, but I know I can make my life easier if I just plug in a simple number for B.
+If B is a positive integer, well, I can just say that B is equal to one.
+And if B is equal to one, then I can actually put some values to these frequencies.
+So I know that for the value of two, there's going to be a frequency of one.
+And then for this one, it's going to be a frequency of two because it's just two times B and B is one.
+For this one, it's going to be a frequency of three, a frequency of two, and a frequency of one.
+So now I've gotten a bunch of theoretical frequencies if B was one.
+Now we need to just calculate the mean and the median and see how much greater the mean is than the median.
+So first, I need to calculate the mean.
+And how I'm going to do this is I'm going to find the weighted average,
+which means that I need to multiply the value by the frequency and then divide by the frequency.
+So that's going to be two times one plus three times two plus four times three plus five times two plus six times one.
+And I'm going to divide that by the total number of values, which is nine.
+That is going to give me a mean of four.
+So in this case, the mean would be equal to four.
+Now I need to see what the median is.
+So how do I find the median?
+Well, I know that there's a total of nine values and in nine values, the middle number is going to be the fifth value.
+So let me go ahead and find what the fifth value is.
+It's going to be one, two, three, four, five right here.
+So the fifth value is going to have a numerical value of four.
+This means that my median is going to be four.
+And this is all when B equals one.
+So I'm getting a theoretical mean and medium when B is one.
+But this is going to work with whatever B is.
+So it doesn't matter.
+Now I can simply subtract the mean from the median because we're seeing how much greater is the mean from the median.
+So four minus four is equal to zero.
+So the best answer choice for what I got is answer choice A.
+Now let's go ahead and see if this is right.
+And it is.
+If you want to know a quick conceptual trick on how to get the answer fast, go ahead and read this rationale.
+out.
+

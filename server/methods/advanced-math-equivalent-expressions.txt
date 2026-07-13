@@ -1,0 +1,415 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Advanced Math
+SKILL: Equivalent Expressions
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math - Equivalent Expressions - Exponent Rules .txt
+--------------------------------------------------------------------------------
+Let's talk about exponent rules and equivalent expressions. So please refer to the Foundations unit to review or learn the quotient rule, product rule, and the other rules associated with exponents.
+In this chart is a quick review of these rules if you just need a quick refresher.
+So let's practice. Which expression is equivalent to x^3 times y^2 times x^2 times y^4, where x, y, and z are positive?
+Okay, so to this question, all we need to do is add the exponents with the same base. So x^3 plus 2 times y^2 plus 4.
+This gives us x^5 times y^6. This gives us answer b.
+Let's solve this question using decimals. So to solve this question using decimals, all we need to do is graph the original function and then graph each of the answer choices
+and see which one of the answer choices is perfectly equivalent to what the question gives us. In order to know if they're perfectly equivalent, we just look for if the line that is graphed, whether or not that line is exactly overlapping with what the question gives us.
+And one key thing to know is that when we are graphing this original function, we must set it equal to y. Same with the answer choices.
+Now what we can do is that we can test each of the answer choices by themselves and see which one of them perfectly overlaps with what the question originally gives us. So let's test answer choice A. As we can see, it does not perfectly overlap because there is an additional line right here that is green.
+Now let's test answer choice B. As we can see, answer choice B perfectly overlaps with the original function that the question gives us. So therefore the correct answer is B. But let's test C and D just in case.
+C, as we can tell, is slightly different because it doesn't perfectly overlap and cover the original expression, unlike what B does. It perfectly covers it. So C is incorrect as well.
+And lastly, D is completely different. As we can tell, it draws a completely different line similar to answer choice A. Therefore the answer is B.
+Let's do another question. Which of the following expressions is equivalent to the cube root of x to the 6 times y to the 9?
+So in this case, all we need to do is divide by 3 since this is the square root of these variables right here. So x to the 6 over 3 times y to the 9 over 3.
+This gives us x to the 2 times y to the 3. Which is answer choice B.
+Let's solve this question using Desmos. So to solve this question using Desmos, all we need to do is graph the original expression, set it equal to y, and then also do the same with the answer choices.
+And see which one of the answer choices perfectly overlaps this original expression.
+So let's check each of these answer choices. Ancetroise A as we tell is completely different. Ancetroise B as we tell perfectly overlap the original expression. Ancetroise C is a completely different line. Ancetroise D is also different because it doesn't encompass all of the original expression.
+So therefore, the correct answer is answer choice B.
+Now in some cases, there may be a coefficient in front of the variable. For example, square root of 144 x to the power of 4 times y to the power of 10.
+Just like every time you need to do operations, make sure that you take the square root of every single term inside of the square root.
+So square root of 144 times x to the power of 4 times y to the power of 10 is just the same as taking the square root of each of the terms.
+So square root of 144 and then times the square root of x to the power of 4 times the square root of y to the power of 10.
+Which gives us this and then simplifying that down gives us 12x squared times y to the power of 5.
+Let's do this medium question. If x does not equal 0, which of the following expressions is equivalent to this function right here?
+Okay, well firstly what we need to do is simplify this numerator. So let's do it. Let's distribute this square root to all the terms present here.
+So square root of 25 times square root of x to the 6, which after we distribute this square root, all we need to do is divide this x exponent by 2.
+So x to the 6 over 2 and then same with this y because imagine the square root just has a 2 there.
+It is y to the power of 8 divided by 2 divided all of this by x to the power of 4.
+Now what we need to do is simplify this down. So 5 times x to the power of 3 times y to the power of 4 all divided by x to the 4th.
+Well x to the 4th only applies to this one right here because they have the same base.
+So 5 times x to the power of and then 3 minus 4 is equivalent to negative 1 times y to the 4th.
+This is equal to answer choice D. Now what we could also do if we wanted to simplify this a little bit more is to move this negative 1 to its proper place and make it positive.
+When we have a negative exponent, all we need to do is move this base to the opposite side and then reverse this sign in front of the exponent.
+So this is also equal to 5 times y to the power of 4 over x to the power of 1, which is just x.
+Let's solve this question using Desmos. So to solve this question using Desmos, all we need to do, similar to the previous questions, is set this equal to y, graph it, and then do the same with the answer choices and see which one of the answer choices perfectly overlaps with this original expression.
+Now let's test each of the answer choices. When we check answer choice A, we see that this is not overlapping, answer choice B is not overlapping, answer choice C is also not overlapping, but answer choice D is kind of overlapping.
+Now, it may look like that none of the answers are correct. However, when we look at the original question, we see that there is actually a square root here.
+And as we all know, we cannot have a negative number in the square root. Therefore, for this question, x cannot be negative.
+So for this question, we must only look at the positive side of the x values. As we can tell, on the positive side, answer choice D perfectly overlaps with the original question.
+So therefore, the correct answer is answer choice D.
+Now let's do another medium question. Which of the following is equivalent to this function right here, where x is greater than 0?
+Well, when we look at this question, we should actually notice something. This is actually a perfect square trinomial.
+If you need a more thorough review on perfect square trinomials, please refer back to the foundations unit in which we talk about perfect square trinomials, how to recognize it and its properties.
+So, knowing its properties, we know that this simplifies down to x plus 5 squared. So all this is, is the fourth root of x plus 5 squared.
+Now taking the fourth root, this just means that we are dividing the exponent by 4. So x plus 5 to the power of 1/2. That is answer choice D.
+Let's solve this question using Desmos. To solve this question using Desmos, we must follow the same procedure as we did the previous questions.
+We must simply graph this expression, set it equal to y, and then test which one of the answer choices perfectly overlaps with it.
+For this question, once we test all of the answer choices, what we will find is that answer choice D is the only one that perfectly overlaps with this question.
+However, in this question it tells us where x is greater than 0. So although D only covers half of this expression right here as we can tell, we are only concerned about the portion that is greater than 0.
+So once again, we are only looking at this portion right here. So therefore, the answer is D.
+Testing all of the other answer choices, we will find that the graphs look completely different and do not overlap with this expression.
+Now let's practice a hard question. For all positive values of x, given this function, what is the value of a over b?
+Well we notice here how a over b is simply the exponent in x. So if we simplify this left part and just have x to the power of something,
+then we should get the value of a, b, whatever that exponent is equal to. So let's do it.
+So this top part is x to the power of 7, and we see how it is being cubed root? That means that we divide it by 3,
+and then over x to the power of 3 divided by 2, since remember the square root has an imaginary 2 sitting right there.
+So with this being said, because they have the same base, we can move this to the other side and just subtract.
+So this is equal to x to the power of 7 over 3 minus 3 over 2.
+Now these do not have the same denominators, so now we need to create a common denominator, that way we can subtract these exponents.
+So let's do it. The least common denominator would be 6. For this first fraction, we would have to multiply by 2 over 2,
+and for the second fraction, we must multiply by 3 over 3. So let's do it.
+So for this first one, this would be equivalent to x to the power of 14 over 6 minus 9 over 6.
+Now subtracting these, we get x to the power of 5 over 6. So therefore, the value of a over b is equal to 5 over 6.
+Let's solve this hard question using Desmos. So to solve this hard question using Desmos, we must use regression.
+So all we need to do is plug in this expression into our Desmos calculator and replace the equal sign with a tilde sign and assign x as x1.
+Now, however, what we'll notice is that x1 is in the regression parameters.
+However, we are only concerned with figuring out what a and b equal to. So therefore, we must set some parameters for what x1 equals to.
+Because x1, in the context of this question, is simply x, or the input, let's assign it some numbers so that x1 can actually have some parameters.
+Now, as we can see, a is equal to this number right here and b is equal to this number right here.
+So therefore, a divided by b is equal to 0.83 repeating. Converting that to a fraction, we get 5 over 6.
+Now let's do another hard question. For what value of n is the square root of this function right here, all of this, equivalent to n to the power of n times x to the power of 8 over 3, where x is greater than 0.
+So as we see here, this is simply simplified down version of this. We should get a coefficient in front of x to the power of 8 over 3.
+So let's simplify this down. So first let's distribute this square root inside the parentheses and then we can deal with this exponent on the outside.
+So we get the ninth root of 27 times x to the power of 4 also to the ninth root. And then all of this to the power of 6.
+So let's simplify this down some more. Well, we know that 27 is simply 3 times 3 times 3 times 3, which is equal to 3 to the power of 3.
+And we also know that when something is taken to some sort of root, we just simply divide by that. So 3 to the power of 3 divided by 9 times x to the 4 divided by 9.
+All of this taken to this power of 6. So let's simplify this down some more. 3 to the 1/3 times x to the 4 over 9 to the power of 6.
+Now we can distribute this 6 out. Now because we are taking it to the exponent, we are now multiplying by 6. So 3 to the power of 6 over 3 is just 2 times x to the power of 24 over 9.
+Now 24 over 9 simplifies to 3 squared x to the power of 8 over 3. So this 3 squared just equals 9. So 9 x to the power of 8 over 3.
+Now looking at it, we now have equivalent expressions. So n is simply equal to 9.
+Let's solve this question using Desmos. So to solve this question using Desmos, we must set up a regression and solve for n.
+Now as we can see here, x1 is in the regression parameters. However, the question asking us for just the value of n. So therefore we must assign values to x1.
+Now we see that n is equal to 9. And because we followed all the conditions that the question gave us, namely that x is greater than 1, and we set up a regression with the equals sign in x1, value of n equals 9.
+Now let's do another hard question. The expression, this right here, where x is greater than 1 and y is greater than 1, is equivalent to which of the following?
+Okay, so we take a quick look at the answer choices and we see that all the answer choices, these x values and the y values all have positive exponents.
+So let's manipulate this. With negative exponents, all we do is take the reciprocal, so move it to the other side, and flip the sign of the exponent.
+So let's do that real quick. In the numerator, we would move this y to the negative square to the opposite side.
+So remember, we flip it over, so y over here, and then for the exponent, we just take the positive amount.
+So right here, as such.
+And then for the denominator, we move this one over, so we first bring the base over, and then we take the positive of that exponent, as such right here.
+And then we keep what's already in there.
+So, now this is an equivalent expression.
+Well, looking over at the answer choices, we don't quite see this answer choice anywhere here.
+However, what we do notice is that this one looks mighty familiar.
+Why? Because y to the power of 1, 3 is equivalent to the cube root of y.
+Because imagine a 3 here, and imagine 1 there.
+And then same with this x to the power of 1/2.
+x to the 1/2 is equal to the square root of x.
+And if you look here, that perfectly matches with answer choice d.
+Let's solve this hard question using Desmos.
+So to solve this hard question using Desmos, all we need to do is set this top expression equal to y,
+and see which one of the answer choices perfectly overlaps with that expression.
+After testing the answer choices, we will find that answer choice d is the only one that perfectly overlaps with the original expression that is given.
+All of the other answer choices create different graphs that don't perfectly overlap with the original expression.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Equivalent Expressions - Perf Square Trinom.txt
+--------------------------------------------------------------------------------
+Let's talk about perfect squared trinomials. Now perfect squared trinomials is simply a shortcut.
+It looks like this: a plus b squared simply equals to this right here on the left.
+a minus b squared simply equals to a squared minus 2ab plus b squared. Now if you want a more thorough
+review on the applications of this and how to recognize this, please refer back to the foundations
+unit. We'll cover this more in depth. So here is a quick overview of how to look at perfect
+squared trinomials and how it works. Let's practice. Which of the following is a factor of 9x squared plus
+30xy plus 25y squared? So this first term is a perfect square. The perfect square is 3x. On the right side
+it's also a perfect square and it is 5y. Now let's check if this middle term follows the rule of perfect
+squares, which is this one right here. Because we see this plus in the middle, we know that this, if
+anything, has to follow this rule up top. The a plus b squared. Okay, so this middle one must be 2ab.
+a is this right here, b is this right here. So 2 times 3 times 5 does indeed get us 30. And then x times y
+does indeed equal xy. So this does follow the rule of perfect square trinomials. Therefore this is a perfect
+square trinomial. So let's write this out. This is simply 3x plus 5y squared. So a factor of this must be 3x plus 5y. That is n-stores b.
+Now let's talk even further about perfect square trinomials. So these rules can also be used to quickly expand a function in the form of this right here.
+So what we just practiced was recognizing an expression in the form of this left side. So a squared plus 2ab plus b squared.
+But if we also see a function like this, we can easily follow this rule on the left side and to expand it out quickly instead of having to manually foil it in the combined like terms.
+So let's practice. If p squared equals r plus s and q squared equals r plus t, which of the following is equal to p squared minus q squared and then everything squared? So let's plug in what we know inside the parentheses and then simplify first.
+So let's do it. p squared equals r plus s and then we are subtracting r plus t. Make sure here to not get tripped up by this negative sign and by this q squared.
+Because this whole thing is q squared, we must make sure that this negative applies to this whole thing within the parentheses. Now everything is squared.
+Now let's distribute this negative sign. So r plus s minus r minus t and everything here is now squared.
+So combining like terms, we get these r's cancel out and we get s minus t squared.
+Now normally to solve this, we could use foil and manually foil it out.
+However, knowing the rule of perfect square trinomials, we can distribute this out much quicker.
+We know that this is equivalent to a squared minus 2ab plus b squared. So let's do this.
+a squared is just s squared minus 2st and then plus b squared, which is plus t squared.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+So the cell solution right here. And that is answer choice b.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Equivalent Expressions - Adding Different Denominators - Video.txt
+--------------------------------------------------------------------------------
+Let's talk about adding rational expressions with different denominators. In order to add expressions with different denominators, we must get each term to have the same denominator first.
+Similar to basic arithmetic, where we cannot add 1/3 and 1/4 directly, we cannot do this for algebraic functions either.
+In order to get a common denominator, we must multiply the top and bottom of each fraction, the numerator and the denominator, by an equivalent thing.
+So, that means I'm multiplying this by 1/1, but in this case, because these two, I'm obviously not just multiplying this by 1, I need to multiply these two to get the same denominator.
+So, what is the most common shared denominator that is the least? It is 3 times 4, which is 12.
+So, for this first fraction, I have to multiply by 4/4, and the second fraction I have to multiply by 3/3.
+As you can see, this is just multiplying by 1, so it doesn't change this value, but it creates the denominators to be alike, that way we can add them together.
+Now, please refer to the foundations unit if you want to learn this concept more in depth, or to review this concept.
+In the meantime, let's practice. Which expression is equivalent to 3/x plus x/x plus 2, where x is not equal to 0 and x is not equal to negative 2?
+Okay, awesome. So, the first most common alike denominator would be multiplying these two together.
+So, x times x plus 2.
+So, what is this first fraction missing?
+This first fraction is missing x plus 2. The second one is missing x.
+So, let's multiply the top and bottom of the first fraction by x plus 2. So, 3/x times x plus 2 over x plus 2.
+And remember, all we're doing is multiplying this by 1, so we're actually not changing the value of this first fraction.
+Plus, and then the second fraction is missing x over x, because the denominator just needs to have this least common factor.
+So, x times x plus 2. So, let's multiply this out. 3x plus 6 over x times x plus 2.
+And then, plus x squared over x times x plus 2.
+Now, because these share the same denominators, we can simply add the numerators together.
+So, we get the numerator is x squared plus 3x plus 6, which gives us d.
+Let's solve this question using Desmos.
+So, to solve this question using Desmos, what we can do is set this original expression equal to y, and then test which one of the answer choices after doing the same and setting these equal to y perfectly overlap with the original expression.
+After testing all of the answer choices, what you'll end up seeing is that only answer choice d perfectly overlaps with the original expression.
+As we can see by this graph right here, the blue perfectly covers up the red.
+Testing any of the other answer choices, we'll find that it graphs a completely different graph.
+So the correct answer is answer choice D.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Equivalent Expressions - Difference of S.txt
+--------------------------------------------------------------------------------
+Let's talk about the difference of squares. So the difference of squares is as such.
+a squared minus b squared equals a plus b times a minus b.
+If you want a more thorough review of the difference of squares, please refer to the foundations unit in which we cover this more in detail.
+So let's practice. In the expression above, a and c are positive integers.
+If the expression is equivalent to x plus b and x does not equal b, which of the following could be the value of c?
+Okay, so let's actually set this equal to x plus b. What we'll notice is, okay, I don't quite know exactly what to do yet.
+So let's at least try to make everything into the numerator. So x squared minus c equals x plus b times x minus b.
+Oh wait, this looks awful familiar. This is simply in the form of difference of squares.
+The difference of squares, once again, is a squared minus b squared equals a plus b times a minus b.
+And that is the case over here.
+So what we now know is that c must be a perfect square here.
+So c must be just equal to b squared.
+So c must be a perfect square.
+Real quick, before we look at the answer choices, the question tells us that b and c are positive integers.
+Therefore, c must be a perfect square that is indeed a positive integer.
+So looking here, the only answer choice that is a perfect square that's also a positive integer is a.
+Because with a, we get x squared minus 9 equals x plus 3 times x minus 3.
+Which is correct and follows the conditions given to us in the question that b and c are positive integers.
+If it didn't tell us they were positive integers, any of these could possibly be correct.
+Because if we had x squared minus 12, this would still be a difference of perfect squares.
+It would just look a little bit different.
+It could be x plus square root of 12 times x minus square root of 12.
+And the same applies to these.
+However, because this question asks that b and c are positive integers, only a 9 has a perfect square.
+That is a positive integer, which is 3.
+Let's talk even more about the difference of squares.
+This is an important thing that I just mentioned earlier, is that we can have an irrational difference of squares.
+The two terms do not have to look nice.
+So, for example, if we have x squared minus 7, we can still write this out as a difference of squares.
+It would simply look like x squared minus square root of 7 squared, which we know that this is just equivalent to eliminating the two, which just gives us x squared minus 7.
+So this is the same as this right here.
+So this factors out to, following the rule of different squares, x plus square root of 7 times x minus square root of 7.
+This also extends to expressions like x squared minus k squared, which appears in many SAT problems where you must identify valid values of k.
+So let's practice.
+Which of the following expressions is equivalent to x squared minus 7?
+Well, because we know that 7 is also equal to square root of 7 squared, we know that this can also be written out as a difference of squares.
+So, x squared minus square root of 7 squared can be written out as x plus the square root of 7 times x minus the square root of 7.
+And this gives us answer choice C.
+Let's solve this question using Desmos.
+So to solve this question on Desmos, all we need to do is graph the original expression and also graph all of the answer choices.
+After graphing and setting each of them equal to y, we can check which one of these answer choices perfectly overlaps with the expression that the question gives us.
+Now, after graphing each of the answer choices, all we need to do is check which one of the answer choices perfectly overlaps with the original expression.
+As we can see, answer choice A does not overlap with the original expression.
+Answer choice B also does not.
+Answer choice C does.
+And answer choice D does not.
+So the correct answer is answer choice C.
+Let's solve this hard question.
+If A equals C minus D, which of the following is equivalent to expression x squared minus C squared plus 2CD minus D squared?
+Okay, so let's look for anything we can use to simplify this down.
+Well, initially we see negative C squared minus D squared.
+This looks like it could be difference of squares.
+The problem is all the answer choices involve substituting A in.
+Well, we can't exactly do that yet because we don't have any C minus D.
+So let's try to simplify this down another way.
+Well, we notice here how this actually looks like a perfect square trinomial.
+If we factor out a negative 1 from these terms, we get x squared minus C squared minus 2CD plus D squared.
+Now this inside can be written as a perfect square trinomial, which is C minus D squared.
+If you want to review on perfect square trinomials, please refer to the foundations unit in which we cover this more in detail.
+So this can be written as x squared minus C minus D squared.
+Now we see that we can substitute in A here.
+So x squared minus A squared equals this expression right here.
+Now this looks like a difference of squares.
+So with this, we know that this is equal to x plus A times x minus A.
+So the correct answer is C.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Equivalent Expressions - Factoring.txt
+--------------------------------------------------------------------------------
+Let's talk about factoring. To factor, we use the x-cross method. Please refer to the foundations
+unit if you need to learn or refresh on how to factor using the x-cross method. But here's a
+quick review. Your goal here is to guess and check numbers that add together to get b and multiply
+together to get a and c. Step one is to draw an x. The numbers on the left side must multiply together
+to get a. The numbers on the right side must multiply together to get c. And then multiplying
+diagonally, so following the cross and then adding the two products must result in b. So here's an
+example question that was done in the foundations unit. So either pause the screen and review this,
+or refer back to the foundations unit. So let's practice. Which of the following expressions is
+equivalent to x squared minus 7x plus 10? So first step, draw a cross. And then on the left side, 1
+times 1 gives us 1. In order to multiply together to get 10, we must have negative 5 and negative 2,
+because these two add together to get us negative 7. So negative 5, negative 2. Now we move from left
+to right to write out the factors. So this left side is x, so x minus 5 times x minus 2. And that is our answer.
+Let's solve this question using Desmos. So to solve this question using Desmos, all we need to do is
+graph the original expression, setting it equal to y, and see which one of the answer choices, setting them
+also equal to y, perfectly overlaps with the original expression's graph. As we can see, graphing
+answer choice A, we find that answer choice A's graph perfectly overlaps with the original expression's graph.
+So therefore, answer choice A is correct. Graphing all of the other answer choices, we will see that these
+graphs do not perfectly overlap with the original expression's graph. As we can see, this graph is
+completely different. In testing n square c and n square d, we will get a similar result. So the correct answer is n square a.
+Now let's try this medium question. Which of the following expressions is a factor of 5x squared plus 17x minus 40? So looking at the two factors that we are given, we see that, okay, this just looks like factored form.
+So let's factor this out. So using x-grass method, we know 5 times 1 has to give us 5. Now to get negative 40, there are a couple of factors that we can use.
+We can use 8, we can use 5, we can use 20, and we can use 2. So there are a couple of others, but let's just try these first. Well, because there's a negative 40, we know
+that there must be a negative sign in front of one of these combinations. Now, looking at this, in order for us to add to 17, we can try using a negative sign here and then using this over an x cross. So we put 5 here, and then negative 8 here.
+multiplying along the diagonals gives us 25 minus 8, which does indeed equal 17. So this is our correct combination right here.
+Now remember, as you practice this method more, you will be able to do this more in your head and then do this process quicker.
+Instead of having to guess and check negative 5 here and then positive 8 here, or like throwing a 20 here and then putting a 2 here,
+you can do some quick math and see, okay, I need to have some sort of positive thing that's not way too positive.
+Like for example, 20 times 5 would be way too positive. So this combination makes the most sense.
+So now that we have the factors, we move from left to right. 5x minus 8 times x plus 5.
+And this means that only statement 2 or factor number 2 is correct. So therefore, it's b2 only.
+Now let's do this hard question. Which of the following expressions has a factor of x plus b,
+where b is a positive integer constant. Okay, so we need to see which one of these factor out to have a x plus b. So x plus something.
+Well, take a look at these answer choices just really quick. Let's see how we can factor these out.
+So in this case, look at this. Well, we know that the front has to be 1 and 1 for a. So let's just solve a first real quick.
+1 and 1. However, to multiply together to negative 5, all we can possibly do is negative 5, 1, or negative 1, 5.
+But the problem here is that neither of these adding together gives us positive 3. So this answer choice a,
+we probably have to solve using the quadratic formula. Now take a look at b, we get the exact same scenario.
+7 is prime. So we would have to use either negative 7, 1, or 7, negative 1. But none of these add together to give us negative 2.
+So this one would also have to use quadratic formula. Now looking at c, the same thing applies.
+We also cannot get positive 5. So c is incorrect. But now looking at d, if we all solve this, this is a lot
+similar to the question we saw earlier. So the factors of 10 is 5 and 2. And as we can see, 5 and 2 do add
+together to 7. So 5 and 2. So in this case, we do get factors x plus 5 times x plus 2. And both of these can
+be written as x plus b, where b is a positive integer constant. So the answer is d.
+Now let's practice this whole question. One of the factors of 3x squared plus 60x squared plus 297x is x plus b,
+where b is a positive constant. What is the smallest possible value of b? Okay, so in this question,
+we see that this is actually rather complex. It's not written in the form ax squared plus bx plus c. It's
+actually way too much in the exponent. But what we do find is that we can pull out a greatest common factor.
+So let's do that. So let's take out in this, the greatest common factor is 3x. So take out a 3x in front.
+So we are left with x squared plus 20x plus 99. Okay, so now with this, let's try to factor this out.
+So in this inside, let's do the x cross. So what are some possible factors of 99? We have 33 times 3,
+but these do not add together to get us 20. What about 9 times 11? Well, 9 times 11 does indeed get us 20.
+So on this left side, because there's no 8 term, we know this is 1 and 1. Now we know that it is on the right
+side, 9 and 11. Because 9 times 11 multiplies to get us 99. And multiplying along the cross, 9 plus 11,
+these two products does indeed get us 20. So 3x times x plus 9 times x plus 11. So what is the smallest
+possible value of b? Where b is a positive constant, where we see we have 9 and we have 11, the smaller
+of which is 9. So the answer is 9. Let's talk about factoring higher degree expressions by substitution.
+Some expressions that look complicated are actually just quadratics in disguise. The SAT will hand you a
+fourth degree expression, such as x to the power 4, and expect you to recognize that if you treat x squared
+as a single unit, the whole thing follows the exact same factoring rules as a regular standard quadratic.
+So what does this actually mean? Let's take a look at this example. Given 3x to the power of 6 plus 14x to the power of 3 plus 8,
+let's say this question asks us to factor it. Well, initially looking at this, we're like, whoa,
+I don't know how to do this because all I'm familiar with is something in the form of ax squared plus bx plus c.
+Well, we can actually turn this into a form that looks like that.
+All we need to do is see, okay, if we were to set some imaginary variable, for example,
+u equal to x to the power of 3, then we can actually rewrite this expression like 3u squared plus 14u plus 8.
+Now looking at this, this looks a lot more familiar. Just instead of x, we have u. So now we can factor
+this like a standard quadratic. And then once we factor it, we will get something, but in terms of u. So we have
+u in place here instead of what we normally have x. Then all we need to do is replace u with what it actually is,
+which is x to the power of 3.
+So what does this actually look like? Let's practice. Which of the following is equivalent to x to the power of 4 minus 2x squared minus 8?
+Okay, well in this question, what we could do is we can substitute x squared for u. So u equals 2x squared.
+Well, knowing this, we can actually rewrite this expression as such.
+u squared minus 2u minus 8. This simply follows the exponent rules.
+Okay, so now we can factor this standard quadratic. So using the x cross method, 1 and 1, and then the two
+numbers I multiplied to get negative 8 and add to get negative 2 would be negative 4 and 2. Now that this
+satisfies all the conditions, let's move left to right. So now writing this out, we get u plus 2 times u minus 4. Now remember, u simply means x squared. So let's plug that in. x squared plus 2 times x squared minus 4. So factoring this out simply equals to this right here.
+x squared plus 2 times x squared minus 4. So that is answer choice b.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Equivalent Expressions - GCF.txt
+--------------------------------------------------------------------------------
+Let's talk about greatest common factor. So factoring out a greatest common factor just means
+pulling out the largest shared term out to the front. A simple example looks like this: 8x squared
+plus 4x. In order to factor out the greatest common factor, we would see based on these coefficients
+what is the greatest shared factor. So that is 4. So we take out the 4 and then based on the x's,
+we see that the greatest thing that we can take out is an x. So we take out the 4x in front and
+then leave what's left on the inside. The two terms share 4x in common. They also share 2x,
+just 2 by itself, they share x and they share 4. But 4x is the greatest, the most that they share,
+and can therefore be factored out in front. Now how do we find the greatest common factor?
+First we find the largest number that divides evenly into every coefficient. Then find the lowest power
+of each shared variable across all terms. Keep in mind this is the lowest power of each shared variable
+across all terms. So looking back at this example, we have x to the power of 2 and x to the power of 1.
+Well the lowest shared one would be x to the power of 1. Now we multiply those two together,
+so the two factors that we took out from steps 1 and 2, and that is our greatest common factor.
+Then we divide each term by the greatest common factor and write the results inside the parentheses.
+So let's practice. Example, 18 times m to the power of 4, n to the power of 2, plus 12mn. Greatest common factor of these two coefficients, 18 and 12, is 6.
+Now taking a look at the variables, we look at m first, this appears as m to the power of 4 and m to the power of 1.
+Well taking the lowest possible one there, we get n to the power of 1. Now n appears as n squared and n to the power of 1.
+Taking the lowest, once again we get n. So now multiplying these two greatest common factors together,
+6 and then this m right here, and then this n right here, we get 6mn as our greatest common factor.
+Now dividing the first term by this greatest common factor, we get this right here. And dividing the second term
+by the greatest common factor, we get 2. So the result is 6mn, our greatest common factor, times 3m to the power of 3 times n, plus 2.
+So as you can see here, actually by distributing this out, we once again get this original expression.
+So this is equivalent to this right here. Let's practice. Which expression is equivalent to 20x to the power of 3,
+y to the power of 2, plus 15xy. Okay, so with both of these, let's start with the coefficients.
+Well 20 and 15, the greatest common factor we can take out is a 5. So let's start with the 5 in front.
+Then let's look at the x's. This is x to the power of 3, this is x to the power of 1. The lowest exponent one is just x itself, x to the power of 1.
+And then we have y squared and y. So we just take the y out, because that is the lowest one as well.
+Now, seeing what we have left, divide this 20x to the power of 3, y to the power of 2, by 5xy.
+This just means subtracting the exponents and then dividing this 20 by 5. So 20 divided by 5 is 4. And then subtracting the exponents, 3 minus 1 is x to the power of 2. And then 2 minus 1 is just 1. Plus, now we do the same here. 15 divided by 5 is 3.
+So x divided by x just gives us nothing. And then y divided by y gives us nothing. So this is our solution. And the correct answer is b.
+Now if you want to check, all you need to do is distribute this back out and make sure that it is equivalent to this original expression.
+Let's solve this question using Desmos. To solve this question on Desmos and define which expression is equivalent to this one, all we need to do is graph each of these equations and set them equal to y and see which one of these answer choices perfectly overlaps with the original expression's graph.
+Now, testing each of the answer choices, we can see that answer choice a does not perfectly overlap with the original expression. Answer choice b, however, does perfectly overlap with the original expression. Answer choice c does not. Answer choice d also does not. So therefore, the correct answer is answer choice b.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced math- Equivalent Expressions - Polynomial Long.txt
+--------------------------------------------------------------------------------
+Let's talk about polynomial long division. When dividing a polynomial by another polynomial, keep in mind, not a monomial but a polynomial, you cannot simply split the fraction.
+Instead, the result is a whole expression plus a leftover remainder, just like log division with arithmetic, or division with numbers.
+For example, in arithmetic, 17 divided by 5 equals 3 remainder 2, which is equal to 3 plus 2 over 5.
+In algebra, x squared minus 4x minus 7 divided by x minus 5 also equals some quotient, which in this case in arithmetic is 3, plus some remainder divided by the divisor.
+Now the setup and process of polynomial long division is very similar to arithmetic long division. So let's practice.
+Which of the following expressions is equivalent to x squared minus 4x minus 7 divided by x minus 5?
+So to set this up, it is the same way as arithmetic. We put the denominator on the outside, so x minus 5, and then we put the numerator on the inside.
+So this outside is the divisor, and this is what we are dividing it into.
+So let's start.
+So in order to do this, we want to only first pay attention to these first terms present.
+We do not want to look at everything else here. That is irrelevant to us right now. We're only paying attention to this first part.
+Now what we need to look for is, what do we need to multiply this first term by on the outside to get to this first term on the inside?
+In this case, it is x. So we write x on top. Another way to do this, if you have a hard time looking at this left side and thinking, what do I need to multiply this by to get to this?
+Is you can simply take the first term on the inside and divide it by the terminal outside. This is the more systematic approach.
+x squared divided by x equals x. Remember this is just 2 minus this exponent on top. These are exponent rules. If you need a quick refresh on this, please return to the foundations unit in which we talk about exponent rules.
+So whatever this answer is, we write this on top. Now in order to move to the next step, just like in arithmetic long division, we need to subtract.
+So what do we need to subtract by? In this case, we multiply this x times this divisor on the outside. So we subtract x squared minus 5x.
+Now be very careful with the signs. Make sure you keep the signs and then put parentheses so that this negative distributes out. So let's subtract.
+x squared minus x squared equals 0 and then negative 4 minus negative 5 is the same as negative 4 plus 5. So that equals just x alone.
+And then we carry down this negative 7 because there is nothing being subtracted. So there's just negative 7 minus 0. So minus 7.
+Now we repeat this process again. So let's do the multiplication idea first. So x times what gives us x? Well, that's just 1.
+So write that on top. The other way is take this inside divided by the outside one. So x over x equals 1.
+See, both of these give us the same solutions. So if this one makes more sense to you, you want to do this dividing thing to figure out what number to put on top.
+But if you are comfortable with finding out multiplying this outside divisor by what gives us this x, this first term on the inside, you can do that as well.
+Okay. So now let's distribute this 1 times these and subtract it. So minus 1 times x minus 5 is just x minus 5. So x minus 5. Now let's solve.
+So subtracting it, we get x minus x is 0 and then negative 7 plus 5. Notice how negative, we're subtracting a negative number, so that's plus.
+Negative 7 plus 5 gives us negative 2. So now it is not possible for us to multiply this x by anything in order to get a negative 2.
+So we are done. This is our remainder. So what is this equal to? So this is equal to, we take this top part, so x plus 1 minus this remainder divided by the divisor.
+So the answer is D. And that is correct. Let's solve this hard question using Desmos. So to solve this hard question using Desmos, all we need to do is graph the original expression along with the original expression.
+along with each of the answer choices. Then we need to see which one of these answer choices' graphs perfectly overlaps with the original expression.
+Now all we need to do is check each of the answer choices and see which one of the answer choices' graphs perfectly overlaps with the original expression.
+Checking answer choice A, we can see that answer choice A's graph does not overlap with the original expression. Same happens with B, same happens with C.
+So lastly we see that D, the function x plus 1 minus 2 over x minus 5, perfectly overlaps with the original expression.
+So therefore, D is an equivalent expression.
+Thank you.
+

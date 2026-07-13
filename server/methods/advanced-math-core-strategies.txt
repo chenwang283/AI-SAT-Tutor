@@ -1,0 +1,47 @@
+Let's talk about advanced math. So first we're going to cover some core strategies for you to
+keep in mind as you tackle SAT math questions. For math, first read the entire passage in its
+entirety. Then second, take a glance at the answer choices and look for patterns. Lastly,
+solve the question. Now why do we tell you to first, after reading the passage, take a glance
+at the answer choices? This is because sometimes the question may sound super complex and then to
+solve it you're thinking oh my gosh there's so many steps but the answer choices actually just require
+you to manipulate the question just a little bit. Maybe put it into a different form and that will
+be your answer. So by taking a glance at the answer choices and looking for similarities or tricks or
+mathematical patterns in order to solve it more efficiently then you realize oh I'll save way more
+time and the SAT isn't actually testing me on x thing it is testing me on y. Now next there is no
+special trick or time saving method for reading the passage. What this means is that you should
+absolutely not skip or skim any parts of the passage because all parts of the passage are actually
+trying to give you information that's pretty valuable in solving the question. Next and this is super
+important I'm sure you guys have heard this all the time in school but always skip questions that you
+feel unsure about and prioritize the ones that you are confident in first. Big emphasis on confident in
+first because let's say that you are not confident in question five but the questions afterwards if you
+spent so much time on question five and then you add to six seven to eight you find out oh my gosh I
+could have done six seven to eight in so much less time. Let's say you did spend too much time on the
+questions you're unconfident in you actually will end up having to guess on questions that you were
+confident in. So always make sure that you skip the questions that you feel unsure prioritize the ones that
+you're confident in. Next Desmos is absolutely your best friend just like how when you do math with the
+calculator it speeds up your process versus having to do long division or exponents by hand you should
+absolutely learn how to abuse Desmos. Next check your answers mathematically as well as logically what
+this means is that you should always plug your answer choices back in. Now when you're going through the
+SAT the first thing you actually want to do is make it through all the questions before you actually go
+back to check because in the first place you might as well get as many questions that you can write
+and then try to optimize and get the questions that you maybe felt a little bit more unsure about
+or the questions that you flagged and check those make sure you got those right to maximize your score.
+Now next if you go to a question and you don't know how to solve it which is actually pretty common
+because it ends up happening we recommend that you work backwards and try your best to plug answers
+into the question. We like to call this brute forcing the question. So this means if you don't know the
+mathematical concept ways to try to solve it then you should try to do anything possible to find
+similarities between the question and the answer choices. Plug answers in whenever you can and find
+which one answer choice best aligns with the question. Next when you are reading through the word problems
+make sure you highlight information that is crucial in these word problems and as you read them write down information that you're given and write what you need to find.
+By doing this this actually makes it easier for you to see okay I have this information right here and then this information I'm looking for blah blah blah over here.
+And by writing this out you can actually see similarities in terms of okay I probably need to use this equation first and then use this equation next and this will get me towards my goal answer.
+And it helps you visualize similarities versus just reading the answer or sorry reading the question and seeing just a whole bunch of text with a whole bunch of random numbers laid out.
+Taking it and putting in a more logical flow makes it much easier for your brain to comprehend.
+Next before you actually get your final answer this final bit make sure that you reread what the question is asking for.
+Because often times you may be solving for x in your calculations but the question is actually asking you for x times y.
+And so if you were to pick x because the SAT knows that normal people just saw for x they will actually put the value of x as the answer choice like a.
+But x y is actually c.
+So make sure that you do reread what the question is asking for.
+Next make sure that you use scratch paper.
+So what this means is that just like how I told you earlier to write out information that you were given when you do need to draw something out or the question is describing a figure is super beneficial to you to make a very bad quick doodle to show a relationship or draw a shape or diagram whenever possible.
+because this makes it so much easier to visualize information and then solve easier.

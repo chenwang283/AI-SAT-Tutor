@@ -1,0 +1,841 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Geometry
+SKILL: Lines, Angles, and Triangles
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - All Triangle Angle Sum.txt
+--------------------------------------------------------------------------------
+Let's talk about triangles. The big idea is that all the angles in a triangle must add to 180 degrees.
+However, different types of triangles require different amounts of information in order to figure out all angles of that triangle.
+For example, in a scalene triangle, we need to know two angles in order to find the third.
+This is because all the side lengths and all of the angles in a scalene triangle are different.
+Next, with an isosceles triangle, we need to know one angle in order to find the rest.
+This is because in an isosceles triangle, we know that two sides are the same length.
+So in this case, let's say that these two sides are the same length, which is shown by the dashed line right here.
+If we know this angle, we know that these two must be equal to each other.
+And so, if this is 50, we can easily figure out 180 minus 50 equals the addition of these two angles.
+So we can solve for the other one.
+Same if we know this angle right here.
+If this one's 50, we know the other one is also 50, and then that last one is just 180 minus 50 plus 50.
+Lastly, with an equilateral triangle, we need to know zero angles in order to know all the angles.
+This is because in an equilateral triangle, all angles and all sides are the same measurement.
+Therefore, all the angles are 60 degrees.
+Let's practice.
+In triangle RST, RS equals RT, and RU equals RT, which statement is sufficient to prove that triangle RST is equilateral.
+Okay, so let's draw a diagram to know what this looks like.
+So, the question is asked to prove if it's equilateral.
+So let's draw an equilateral triangle.
+Let's label it RST.
+And the question tells us that RS is equal to RT.
+Okay, and that RU equals RT.
+And this info right here doesn't even matter because we do not have a U anywhere in this question.
+So, let's figure out what we actually need to know in order to make this an equilateral triangle.
+So, what are the properties of an equilateral triangle?
+Well, for an equilateral triangle to exist, we know that all three sides must be equal to each other,
+but also all three angles must be equal to each other.
+So, if either of those conditions are true, then this is an equilateral triangle.
+So, let's check the answer choices.
+ST equals RT. ST equals RT.
+If that is the case, then all three of these sides would be the same.
+So, it could be A.
+Angle RST, so RST right here, equals RTS.
+The problem is, even if these two are equal, we don't know if the third one is also equal.
+This could still be an isosceles triangle, so it does not be.
+We need to know all three angles are the same.
+RS equals RU, where there's not even RU.
+And lastly, angle SRT equals 60.
+Well, if we know this is 60, it doesn't necessarily 100% prove that these two angles are also 60.
+So, D is also incorrect.
+Let's practice another question.
+In triangle MNP, the measure of angle M is 124 degrees.
+Which of the following could be the measure in degrees of angle N?
+Okay, so let's draw this out.
+So, it tells us that triangle MNP, MNP, the measure of angle M is 124 degrees.
+So then it asks us what could be the angle of angle N?
+Okay, so we're being asked for this angle right here.
+So, we know that all the degrees of a triangle add up to 180.
+So 124 plus angle, that we're trying to solve for angle N, plus angle P equals 180.
+So we know that angle N plus angle P must equal 180 minus 124, which is 56.
+So, therefore taking a look at the answer choices, it is impossible for angle N to be greater than 56.
+Because then that would mean that the sum of the angles in this triangle would be greater than 180.
+Which is not possible.
+So, this is incorrect, this is incorrect, incorrect.
+Answer choice A is the only possible correct answer.
+Because if N equals 55, then P would equal 1.
+Which satisfies the conditions for the angle, which satisfies the condition for the total degrees of a triangle.
+Now, let's practice another easy question.
+In the given triangle, AC equals AB.
+Okay, AB equals AC.
+And angle ABC has a measure of 65 degrees.
+So, ABC has a measure of 65 degrees.
+What is the value of X?
+Well, X is the measure of angle BAC.
+So, this question tells us that AB equals AC.
+As a result, we know that this triangle is already an isosceles triangle.
+Well, what do we know about isosceles triangles?
+Well, we know that the angle corresponding to the equivalent sides must also be equal.
+So, the angle corresponding or the angle opposite of AC is angle B, and the angle opposite of side AB is angle C.
+So, angle C must be equivalent to angle B because these two sides are equivalent.
+So, this is also 65 degrees.
+So, because we know that the total sum of the angles in a triangle is equal to 180 degrees,
+we can solve 65 plus 65 plus X equals 180 degrees.
+So, X must equal 50 degrees.
+Let's practice a medium question.
+In triangle ABC, the measure of angle A is 40.
+If triangle ABC is isosceles, which of the following is not a possible measure of angle B?
+Okay, so let's draw this triangle out.
+We know that it is isosceles.
+So, let's draw an isosceles triangle.
+Well, it tells us the measure of angle A is 40 degrees.
+Well, we actually don't know where angle A is.
+Angle A could be here, so we look like this.
+Or, angle A could be right here, so this is our triangle.
+And lastly, angle A could be right here.
+So, which one is it?
+Well, because this question doesn't actually tell us, let's test all three scenarios.
+If angle A is right here and this is 40,
+well, we know that these two are equal because this is the isosceles diagram that we drew.
+So, this one must also be 40.
+And as a result, this last angle is 100 because 100 plus 40 plus 40 equals 180.
+Now, let's say that this angle is 40.
+Well, we know that 180 minus 40 will give us the sum of the two remaining angles.
+So, 180 minus 40 is 140.
+So, therefore, each of these angles must be 70 and 70 because now all of this adds to 180.
+And with this last scenario, if angle A equals 40, then we know that angle B equals 40 as well because this is an isosceles triangle and this last angle must be 100.
+So, this question asks us which of the following is not a possible measure of angle B.
+So, let's take a look at angle B because we have all the scenarios laid out here.
+In this case, angle B is 100.
+So, 100 can be the measure of angle B.
+So, C is incorrect.
+Like over here, angle B is 70 degrees.
+So, angle B can be 70.
+So, therefore, B is incorrect.
+And lastly, angle B is 40 degrees.
+So, it can be 40 degrees.
+So, the only measure of angle B that is not possible is D.
+Let's practice a hard question.
+Triangles PQR and STU are graphed in the XY plane.
+Triangle PQR has vertices P, Q, and R at 2, 1, 2, 5, and 6, 1 respectively.
+Triangle STU has vertices STU at 2, 1, 2, 1 plus N, and 2 plus N, 1 respectively, where N is a positive constant.
+If the measure of angle P or Q is 45 degrees, what is the measure of angle S, U, T?
+Okay, so let's start by drawing a diagram because just like this blurb of text, it is pretty hard to figure out exactly what these triangles look like and how to find the angle of S, U, T without an actual triangle drawn.
+Let's draw it out.
+So, XY plane.
+So, we know that triangle PQR has vertices PQR at 2, 1.
+So, 2, 1, this is P.
+2, 5, 2, 5, which is Q.
+And then, 6, 1, which is R.
+So, drawing this together, we can actually see that this is a right triangle with the right angle right here because these lines are perpendicular to each other.
+With that being said, we can also see what is the length of these couple of sides.
+Well, let's not figure out the length of diagonal yet because that one's a little harder.
+Let's figure out the length of these side ones to test if this is an isosceles triangle.
+So, from P to Q, from P to Q, we see the difference is just 5 minus 1, which is 4.
+So, 4 units.
+And then, from P to R, P to R, we see that the difference is 6 minus 2 because these y values are the same.
+So, we only move right a distance of 4.
+So, it's also 4.
+So, we can see that triangle PQR is an isosceles triangle.
+Now, let's draw out triangle STU.
+So, triangle STU has vertices at the point .
+So, as we can tell, this is the same as P.
+So, 2, 1.
+This is S.
+And then, T is 2, 1 plus N.
+So, 2, 1 plus N.
+So, whatever this is.
+And we realize the distance from S over to T is just U units.
+Because all we did was move from 2, 1 up N amount of units.
+Now, looking at vertices U, we see that U is at 2 plus N, 1.
+So, 2 plus N, wherever that's at, 1.
+So, somewhere over here.
+And we also know that the distance from point S right here to point U is a distance of lowercase U units.
+So, as we can tell with this triangle as well, it is also a right triangle because these two are perpendicular to each other.
+And it is an isosceles triangle.
+So, because of isosceles triangles, we know that both of these are isosceles triangles.
+Okay.
+So, if the measure of angle P or Q is 45.
+So, P or Q is 45 degrees.
+What is the measure of angle S U T?
+S U T.
+Well, we know that both of these isosceles triangles and both of these have a right angle in the quarter.
+So, therefore, both of these angles must be 45 and 45.
+Because 45 plus 45 plus 90 equals 180.
+So, the answer is B.
+Let's practice another question.
+In the figure, I K equals I F.
+So, I K equals I F.
+Notice how these don't look exactly the same because the figures are not drawn to scale.
+The SAT draws figures sometimes to trick you, not to show you exactly what it looks like and make your life easier.
+They check if you actually understand what is going on.
+The measure of angle H J I is 40.
+So, H J I is 40 degrees.
+And the measure of angle K I F, K I F is equal to 112 degrees.
+What is the value of angle X?
+Okay, so let's see what we do know.
+Well, firstly what we know is that triangle I F K is an isosceles triangle.
+Because these two sides are equal to each other.
+So, therefore, these two angles must be equal to each other as well.
+Because these are the corresponding angles to the corresponding sides that are equivalent to each other.
+So, these must be equal.
+So, we know that 112 plus these two angles are equal.
+So, let's just label it Y plus 2Y equals 180.
+So, 2Y equals 68.
+So, Y equals 34.
+So, this is 34 and this is 34.
+Now, let's see what else we can figure out.
+So, what we can see here is that these two angles are supplementary angles.
+Meaning that they add together to 180 degrees because they sit on the same straight line.
+So, 112 plus this angle right here.
+So, plus something equals 180.
+So, this missing angle must be 68.
+So, now we know these two angles in this triangle.
+So, we can figure out the last remaining angle.
+68 plus 40 plus this question mark angle that we don't know yet equals 180.
+So, subtracting on both sides, we get that this missing angle is equal to 72.
+So, this angle is equal to 72.
+Now, what do we know about these two angles?
+Well, we can see that they're just two lines that pass each other.
+And as a result, based on the rule of vertical angles, we know that this angle and this angle are vertical angles.
+Because they're crossing each other and they are created from two lines that cross each other.
+So, this angle is also equal to 72 degrees.
+Now, we have all the angles in this small triangle and we can solve for this last triangle right here.
+So, 72 plus 34 plus X equals 180.
+So, after subtracting from both sides, we get that X equals to 74.
+Let's talk about right triangles.
+A triangle that contains exactly one 90 degree angle shown by a square in one corner is called a right triangle.
+So, it would look something like this.
+This means that because one angle is already locked at 90 degrees, the other two angles must add up to 90 degrees.
+Since if this one is equal to 90 and we know that the total angle sum of all angles in a triangle is 180 degrees, then these two angles must add up to 90 degrees.
+For example, a right triangle has one angle measuring 35 degrees.
+Find the third angle.
+Okay, so because we know we have a right triangle, we know that one angle is 90 degrees.
+So, the two remaining ones must add up to 90 degrees.
+So, we can set up the equation 35 plus X equals 90.
+Therefore, the last remaining angle is 55.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - Polygon Angle Sum.txt
+--------------------------------------------------------------------------------
+Let's talk about angle sum within polygons. So a flat two-dimensional closed shape formed by three
+more straight lines is a polygon. So let's go over the sum of all of the angles in a polygon.
+So for a triangle, there is a total of 180 degrees. In a quadrilateral, there's a total of 360 degrees.
+In a pentagon, there's a total of 540 degrees. And in a hexagon, there's 720 degrees. So on and so forth.
+Do you see the pattern here though? You may notice is that for every increase in the sides by one,
+the total angle increases by 180 degrees. So this can actually be written into a formula. So the total
+sum of interior angles of a polygon is equal to 180 times the number of sides minus two. So let's
+practice this real quick. For a quadrilateral, we have 180 degrees, a part of the formula, times the
+amount of sides minus two. So times two, which gives us that there's 360 degrees total in a quadrilateral,
+which is indeed correct. And you can test this for triangles, you can test this for pentagons,
+so on and so forth. Now this formula is very easy to memorize because it's very short. However,
+it's better that you understand it so that if you ever forget it, you can easily derive this formula.
+So let's practice. A polygon has exactly 99 sides. What is the sum of all of the interior angles of this
+polygon? So remember, let's just plug into the formula. So we have 180 times 99 minus 2. So this gives us
+the sum of all of its interior angles of this polygon is 180 times 97, which is equal to 17,460.
+Now let's practice. In convex pentagon PQRST, segment PQ is parallel to segment ST. The measure of angle Q is 128 degrees,
+and the measure of angle S and the measure of angle S is 169 degrees. What is the measure in degrees of angle R?
+So let's draw out this pentagon. So PQRST. So it tells us that PQ is parallel to ST. So let's say that this is PQ and this is ST.
+So therefore, let's label PQRST. So therefore, these two lines are parallel.
+Now it tells us that angle Q is 128 degrees, so 128 degrees, and the measure of angle S is 169 degrees.
+So this is 128, and this is 169. So the question asks us, "What is the degrees of angle R?" So we're being asked for this angle right here.
+So first, let's figure out the total sum of the interior angles of a pentagon. So we have 180 times, there's five sides in the pentagon, so 5 minus 2.
+Therefore, this is 180 times 3, which is equal to 540 degrees total. Now let's see what we can do with this question.
+Well, what can we figure out about angles P and angles T? Well, because we know that we have two parallel lines,
+eventually at some point, we will have to have turned 180 degrees to go from this line right here to get to this line right here.
+So in this diagram, it looks like that these two angles are both right angles, but they could also look like this.
+Because if this is what our pentagon looked like, it would still satisfy the condition that PQ is parallel to ST.
+So what do we know about these two angles? Well, what we do know is that we will have to turn 180 degrees in order for us to turn from this line to this line.
+So therefore, P plus T must equal to 180 degrees. So therefore, we know that the total angle sum of QRS must equal to 580 minus 180.
+So therefore, angle Q plus angle R plus angle S must equal to 360 degrees.
+So we can plug in all the numbers and solve for angle R. So 128 plus angle R plus 169 equals to 360.
+So subtracting from both sides, we get that angle R equals to 63 degrees.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - Similarity - Altitude.txt
+--------------------------------------------------------------------------------
+Let's talk even further about similarity, specifically altitudes to the hypotenuse.
+So this is similarity within right triangles.
+So when you draw a line from the 90 degree corner of a right triangle straight down to
+the hypotenuse, which by the way forms a right angle with the hypotenuse, we split the original
+triangle into two smaller right triangles.
+So as you can see here, triangle ACB is a big right triangle.
+Now if we draw a line that goes from the right angle over to the hypotenuse and it forms
+a right angle with the hypotenuse, then we get two smaller right triangles.
+Now all three triangles in the figure, the original large triangle and the two smaller triangles,
+are similar to each other.
+Now why is this?
+This is because each of the smaller triangles share one angle with the big triangle, and
+each of them also have a 90 degree angle.
+So by angle-angle similarity, all three triangles must be similar.
+So let's take a look at these just to prove it.
+So we have triangle ACB, which is the big triangle, and then triangle ADC.
+So how are these similar?
+So first of all, we know that both of them have a right angle.
+So angle D and angle C right here means that they both already share one angle.
+And then they also share angle A, so that is the second angle similarity.
+Same applies to this smaller triangle on the right side.
+So let's practice.
+In the figure above, NQ equals 12 and MQ equals 9.
+What is the length of QP?
+So let's label everything out.
+NQ equals 12 and MQ equals 9.
+And the question asks us, what is the length of QP?
+So we're being asked for this length right here.
+Therefore, let's figure out which of these triangles are similar to each other and in what orientation.
+So of course we know that the big right triangle is similar to both smaller right triangles by angle angle similarity.
+Now the question is, which one of these sides actually corresponds so that we can set up the proportion and make sure that the proportion is actually equal to each other.
+So let's dissect this.
+The easiest way to figure out which one of the sides correspond to each other is first to match the angles and then find which one of the sides correspond to which one of the angles.
+So let's do this process.
+So we know that P is this angle right here and we know that M is this angle right here.
+Well, because this is the right angle, let's take a look at this smaller right triangle on the left side.
+So what must N be equal to? So this angle N right here.
+Well, if we know these two angles, this last angle must actually just equal to the exact same thing that P is equal to.
+And this is because look at the big right triangle present. Triangle M, N, P. For M, N, P, we know angle N, which is this right angle, and we know angle P, which is this right here.
+So let's take a look at the big right triangle M, N, P. So we know the angles N, which is the right angle, and then we know the angle M, which is this double angle right here.
+So the last remaining angle must be equal to this. So if we do labels, it'd be easier to understand. So let's say this is 50. So 50 plus 90 equals 140. So the last remaining angle for P must also be 40.
+Now taking a look at triangle M, Q, N, we find that once again we get the exact same relationship with the angles. We get 50, 90. So the last one must be 40.
+And taking a look at this triangle over here, so triangle N, Q, P, we get that this angle, angle N, must be 50. That's the remaining angle.
+So now that we know all the angles for all three of these triangles, we can now determine which angles correspond to each other, and therefore which one of the sides correspond to each other as well.
+So M, N, P is 50 degree, 90 degree, 40 degree. So let's write that same relationship out for this smaller triangle on the left side. So this is similar to triangle M, Q, N. And this is similar to triangle N, Q, P. Now with this written out, we know which sides correspond to each other. Because we know that M, N corresponds to M, Q, which corresponds to N, Q. And then we can also do the same for N, P.
+Q, Q, N, Q, Q, N, Q, P. So now this is written out, and all of these angles correspond to each other respectively in the order that they are written.
+So let's solve this question. In the figure above, N, Q equals 12, M, Q equals 9, what is the length of Q, P? So we can now set up the proportion. So for our proportion, let's do the triangle on the left over the triangle on the right.
+So let's do the longer leg first. So 12 over this triangle on the right side. The longer leg corresponds to the 50 degree angle as well. So that is X. And now on the other side, once again, let's take the triangle on the left side over the right side. So the side corresponding to 40 degrees is 9. And then the side corresponding to 40 degrees on this right side triangle is 12.
+So cross-multiplying we get 144 equals 9x. So we get the x equals 16. So therefore QP equals 16.
+Let's practice this hard question. In triangle PQR, the measure of angle Q is 90 degrees and QS is an altitude of the triangle.
+The length of PQ is 12 and the length of PR is 25 greater than the length of PQ. What is the value of QR over QS?
+So let's draw a right triangle so we can visualize this information that's being given to us.
+So it tells us that angle Q is 90 degrees and it also tells us that PQ is 12. So let's label the rest of the triangle PQR.
+So PQ is equal to 12. Then it tells us the length of PR which is 25 greater than PQ. So 12 plus 25 equals to 37.
+Then the question tells us QS is an altitude of the triangle. So remember what does altitude mean?
+Altitude is simply a line drawn from the right angle over to the hypotenuse and then it must create two right angles.
+So the question asks us what is the value of QR over QS? So this side over the altitude.
+So what do we know about these three triangles that are made after drawing an altitude?
+We know that all three are similar. So let's try to find a relationship.
+So QR right here we see is actually the hypotenuse of this smaller triangle right here, QSR.
+So what about this side right here, QS? Well as we can see QS is actually the corresponding leg to angle R.
+Well in the big triangle we also know the corresponding leg to angle R.
+So therefore we can set up a proportion. So let's do the big triangle over the smaller triangle.
+So 37 which is the hypotenuse of the big triangle over the corresponding side of the small triangle which is QR equals to 12 which is the leg of the bigger triangle over the corresponding leg of that smaller triangle which is QS.
+Now after cross multiplying we get that 37 QS equals to 12 QR.
+So how do we manipulate this equation to look like the value of QR over QS?
+So all we need to do is divide both sides by QS first. So 37 equals 12 QR over QS.
+And now dividing both sides by 12 we get that 37 over 2 equals to QR over QS.
+Which is our answer.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - Straight Line.txt
+--------------------------------------------------------------------------------
+Let's talk about straight angles. A straight angle is formed when two or more angles sit together on a single straight line. Think of a straight angle as a flattened out angle, so literally a straight line. A straight line, this angle right here, measures exactly 180 degrees. So any angles that share that line must add up to fill that 180 degree space. This is called a linear pair, when there are exactly two angles forming that line.
+For example, if one angle on a straight line measures 130 degrees, find the other angle. So let's draw this out. This is a straight line right here, and then one of the angles is 130 degrees. So what is the measure of this angle right here? So how do we solve it? Well we know that the two add up to 180. So 130 degrees plus the unknown angle equals 180. So the unknown angle is equal to 50 degrees.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - Transv & Paral.txt
+--------------------------------------------------------------------------------
+Let's talk about transversals and parallel lines. In order for us to talk about them and also dive
+into their properties, we must define what both of them are. A transversal is simply a line that
+goes through two or more lines. These lines that it goes through doesn't need to be parallel or
+anything. It's just a line that goes through two or more lines. Now, parallel lines are two lines
+that do not touch and will never intersect no matter how long you draw them out for. Parallel
+lines are shown with little arrows that show that they will continue to go and never intersect each
+other. So these are parallel lines and this is a transversal. So there are four main properties
+that you need to know about transversals and parallel lines. When there is a transversal crossing two
+parallel lines, we get vertical angles, supplementary angles, corresponding angles, and also alternate
+interior and exterior angles. So what are all of these? Well vertical angles are just angles that sit
+directly across from each other. So this angle sits across from this one so they are equivalent and then
+this angle sits across from this one so they are equivalent. And then same over here. This angle sits across from
+this angle so it's equivalent. This angle right here sits across from this angle so it's equivalent. And this
+one is also equivalent to this one. So those are vertical angles. Supplementary angles are just angles that add up
+to 180 degrees and are sitting next to each other on a straight line. So for example, these two right
+here, this angle right here, and this angle right here are supplementary angles because adding them together we get 180 degrees. Now right here we also have supplementary angles because this angle and this angle add together to 180 degrees. And so on and so forth. There are a bunch of supplementary angles on this graph. Next, corresponding angles are the same. So angles that correspond with the exact same thing.
+In a different scenario. Because these two are parallel lines, the lines are practically identical. So a corresponding angle looks like this. This angle corresponds with this angle. Because these two lines are parallel, imagine if we were to split this paper in half. We would see that this diagram right here looks exactly identical to this intersection right here. So these two angles are corresponding and therefore they're equal. Now the same applies right here. These are also corresponding angles and they are equal.
+corresponding angles and they are equal. This angle right here is corresponding to this angle
+right here and this angle right here is corresponding to this angle right here.
+Notice how this also follows the properties of vertical angles. And lastly, alternate interior
+angles and alternate exterior angles. Alternate interior angles are equal. So that would be
+this angle right here and this angle right here. Notice how they're just inside the two parallel
+lines and they are alternating. So one's on the left side and one's on the right side and they're
+equal. That's where the name alternate interior angles come from. So alternate interior angles are equal.
+Exterior angles are similar. Instead of looking inside of these two parallel lines, so in this area
+right here we look outside of the parallel lines. So this angle is an alternate exterior angle to this
+angle. Notice how they are outside of the parallel lines, hence the exterior and alternating. So one's
+on the left side and one's on the right side, hence alternate. So in summary, vertical angles are angles
+across from each other that are the exact same angle. Supplementary angles add together to 180 degrees
+total. Supplementary angles add together to 180 degrees total. Corresponding angles are equivalent.
+Alternate interior angles are equivalent. And alternate exterior angles are also equivalent. So this is all that's summarized in one place. Vertical angles on the left,
+supplementary angles are right here, corresponding angles are right here, and alternate interior angles are right here, along with alternate exterior angles shown by the doubles.
+So if you want a quick review or just review this real quick, feel free to pause the video and look at these a little longer.
+So let's practice. In the figure shown, segment AB is parallel to segment CD. Line T passes through points D and B. The measure of angle DBA is 52 degrees. What is the value of angle BDC?
+Okay, so let's start and dissect what we are given. It tells us that AB is parallel to segment CD. We also see that line T passes through D and B. So what we know here is that we have two parallel lines along with the transversal that goes in between them. So because we know this, we can actually ignore these other two lines because they're simply there to distract us from what this question is asking us. This question is testing us whether or not we know the properties of transversals and parallel lines. So let's solve this one.
+ignore these other two lines because they're simply there to distract us from what this
+question is asking us. This question is testing us whether or not we know the properties of
+transversals and parallel lines. So let's solve this question. This question is asking
+us about the relationship between what we already know, ABD and BDC. So we can see here
+because we have two parallel lines with one transversal going through it, these two angles
+right here are actually alternate interior angles, and we know that alternate interior
+angles are equal. So since DBA is 52 degrees and BDC is an alternate interior angle to that
+angle, it is also equal to 52 degrees. Let's practice another question. In the given figure,
+PR extends to point S, and the measure of angle QRS is 130 degrees. If the measure of angle QPR
+is equal to the measure of angle QRP, what is the value of X, where X is the measure of angle PQR? Okay, so know that the measure of angle QPR is equal to the measure of QRP, so these two are equivalent. So because we know the value of QRS, and we can see that this angle along with this angle are simply supplementary angles, we know that 180 degrees minus 130 degrees will give us this remaining bit. Because we know these two angles are equal to the measure of QRP. So these two are equivalent. So because we know the value of QRS, and we can see that this angle along with this angle are simply supplementary angles, we know that 180 degrees minus 130 degrees will give us this remaining bit.
+Because we know these two added together equals 180 degrees. So this missing angle QRP equals 50 degrees. And because we know that QPR is equal to the measure of QRP, we know that this one is also 50 degrees. Now, what do we know about triangles? Well, we know that in triangles, the total added degrees is 180 degrees. So 180 equals this missing X plus 50
+plus 50. So, x has to equal 80 degrees. Let's practice even further. In the figure, two lines
+intersect at a point, forming vertical angles measuring 2n plus 18 and 4n minus 6. What is the
+value of 2n plus 18? Okay, so this question tells us that these two angles are vertical angles, so
+it's testing whether or not we understand what a vertical angle means and what the property of it is.
+So, we know that vertical angles are equal to each other, so we can therefore set these two angles
+equal to each other. 4n minus 6 equals 2n plus 18. Now, we can solve for n. So, moving 2 to this side
+and 6 to the other side, we get 2n equals 18 plus 6 equals 24, so n equals 12. Now, do not get tricked
+by the question. Just because we solved for n, we got 12, so we might be tempted to pick a and just move
+on. But, this is an easy mistake that SAT catches students on. The question actually asks for the
+value of 2n plus 18, so we need to make sure we evaluate this question all the way. 2 times 12 plus 18
+equals 24 plus 18. This gives us 42. Now, let's practice a medium question. In the figure, lines S and T are
+parallel. If C equals 3B plus 5 and D equals 5B minus 9, what is the value of E? Okay, so let's take a look at this real quick.
+This line and this line are just two lines that cross each other, and they're both straight lines.
+We know that line S and T are parallel, and we know that there's one transversal. So, we know that D and E are
+vertical angles. So, we can set them equal to each other, just like the previous question. 3B plus 5 equals 5B minus 9.
+Solving for B, so moving 3B to this side and the 9 to the other, we get 5 plus 9 equals 14 equals 5 minus 3 is 2B. So, B equals 7. So, what is the value of E?
+So, what is the value of E? Now, it's really testing us. So, in this question now, it's asking us to solve for E over here. So, what can we figure out? Well, what we do know is that E plus this angle sitting right here add up to 180 degrees.
+We also know that this angle C is a corresponding angle to this one, since this question is two parallel lines with one transversal, and therefore, this angle right here is a corresponding angle to C.
+So, we know that 180 degrees equals angle E plus this angle down here, which is equivalent to angle C. Now, we know angle C is equal to 3B plus 5, and we know B is 7.
+So, let's plug in and solve. 180 equals E plus 3 times 7 is 21 plus 5. So, subtracting both of these to the other side, we get that E equals 154.
+Let's practice this hard question. A line intersects two parallel lines forming four acute angles and four obtuse angles. The measure of one of these eight angles is W. The sum of the measures of four of the eight angles is S. Which of the following could not be equivalent to S for all values of W?
+Okay, so let's start this question by drawing out what we know. We know that we have a line intersecting two parallel lines. Therefore, we know that all the properties of a transversal and crossing two parallel lines applies with this question.
+So, let's figure out exactly how to label this question. So, we know that one of the eight angles is W. So, let's just assign a random one to W. Let's say this one is equal to W.
+So, because we know that this angle is vertical to this angle, it is also equal to W. We also know that this angle right here is an alternate interior angle to this angle right here. So, it's also equal to W.
+It's also corresponding here. So, there are multiple ways that we can prove all the angle similarities or angle congruencies. So, this angle is vertical in this angle. So, it's also equal to W.
+So, this angle right here is supplementary to this angle W because it falls on the same straight line as it. So, W plus this angle equals 180. That also means that this angle equals 180 minus W. So, let's say that W equals the acute angle. So, acute equals W. And the obtuse angle equals 180 minus W. So, here are the obtuse angles. These are also all the same because the same properties we just use.
+to prove that these acute ones are equal. They are vertical angles and then they are corresponding angles and then these are also vertical angles.
+They are also alternating exterior angles, so on and so forth. Multiple ways to prove it all.
+Now, the question says the sum of the measures of four of the eight angles is S. Which of the following cannot be a combination of S or cannot be equivalent to S?
+So, let's find all the possible combinations of choosing four. We can either have four acute angles, zero obtuse, three acute angles, one obtuse, two acute angles, two obtuse, one acute angle, three obtuse, or zero acute angles, four obtuse.
+So, now let's plug in each of these combinations and see what we get. So, four acute angles is just four times W. So, that's four W.
+With this one, we get three times W is just three W plus one plus 180 minus W. So, plus one times 180 minus W is just plus 180 minus W. So, this equals to two W plus 180.
+Now, two acute and two obtuse, let's just plug it in. So, we get two W plus two times 180 minus W. Distributing this out, we get that these two W's cancel out because two W minus two W equals zero and then all we're left with is 360.
+And now, moving on, one acute and three obtuse angles is just W because there's one acute and then plus three times 180 minus W. So, after simplifying this out, we get negative two W plus 540.
+Now, lastly, for obtuse angles, we get four times 180 minus W, which is simply negative four W plus 720. So, the only answer choice that does not exist as a possible combination is answer choice A.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - Triangle - Congruence.txt
+--------------------------------------------------------------------------------
+Let's talk about congruent shapes. What are congruent triangles? Well, two triangles are congruent if they are exactly the same, meaning that they are the same size and the same shape. Think about this as copy and pasting. For two triangles to be congruent, all three corresponding angles must be equal and all three corresponding side lengths must be equal. For example, if triangle ABC is congruent to triangle DEF, this means that angle A, which is corresponding to angle D, is equal to angle D, angle B is
+equal to angle E, and angle C is equal to angle F. And side lengths AB is equal to DE, notice how AB and DE are corresponding, so they are at the same spot. Line BC is equal to line EF, so BC equals EF, and AC equals to DF. AC equals to DF. So let's talk about triangle congruence rules. So in order for two triangles to be congruent, they must satisfy any one of these conditions. If you know any of these information to be true, then the triangles
+are proven to be congruent. This first example is side side side side. This means that if we know that this side is equal to this side, this side is equal to this side, and this side is equal to this side, we know that these two triangles are congruent. Now, for side angle side, in order for us to know that two triangles are congruent, they must have the same side length, and then another side length, but the angle in between must also be the same.
+So this side length must be equal to this side length, this side length must be equal to this side length, and then the angle in between must also be congruent. This also applies over here. If we have that this side length and this side length are the same, and then this side length and this side length are the same, then this angle, if it is congruent, then these two are congruent.
+So, side angle side, and it must be the angle in between the two sides, in order for the triangles to be congruent. The next rule is angle side angle. For angle side angle, this is similar idea to side angle side. We must know two angles are the same as two angles on another triangle, and then we must know that the side length in between those two angles are the same. This is proving triangles are congruent by angle side angle. And lastly, we have angle angle side. Angle angle side. Angle angle side.
+So, the side works when we know two angles and then the side following that. So, if we were to see that on the other triangle, it must also be like this. Angle angle, meaning these two corresponding ones are equal, these two corresponding ones are equal, and then the next side is equal to the other corresponding side of the other triangle. So this is angle angle side. Now, hypotenuse leg applies only to right triangles. This one is pretty self-explanatory. If we have two right triangles that both have the same lengths in the same length,
+hypotenuse and leg, because the Pythagorean theorem, let's say that this is 3, let's say this is 4, and let's say that this is 3, this is 4, well obviously by the Pythagorean theorem, the length of the third side must be 3 squared plus 4 squared equals this last side squared.
+So this would be 5. By taking the exact same numbers over here on this triangle, this one would also be the exact same number, which is also 5. C would equal 5, or this last length would equal 5. So obviously these two are congruent. They are exactly the same because all the side lengths are the same.
+Let's practice. Triangles ABC and XYZ are congruent, where AB and C correspond to XYZ. So notice how A corresponds to X, B corresponds to Y, and C corresponds to Z. Respectively, the measure of angle A is 38 degrees, and the measure of angle B is 64 degrees. What is the measure of angle Z?
+Okay, so let's draw Z. Okay, let's draw Z. Okay, let's draw Z. Okay, well let's draw this out. So we know that these two triangles are congruent. So let's draw a triangle A, B, C, and let's draw a triangle X, Y, Z. So A, B, C, and X, Y, Z. Notice how I labeled the vertices in the exact same direction, because we know that A corresponds to X, B corresponds to Y, and C corresponds to Z, as we can see in this diagram.
+So, the measure of angle A is 38 degrees, so this one's 38, and the measure of angle B is 64. So 64. So it is asking us, what is the measure of angle Z? Well, because we know these are congruent, we know that the measure of angle X is also 38, and we know that the measure of angle Y is also 64. So, in order to find this last angle, all we need to do is take 180 and subtract these two.
+So 180 minus 64 minus 38. And this gives us 78. Let's practice a hard question. In triangles A, B, D, and E, F, G, angles A and E each have a measure of 42 degrees, and angles B and F each have measure 68 degrees.
+Which additional piece of information is sufficient to determine whether triangle A, B, D is congruent to triangle E, F, G? So this question asks us to prove congruence.
+In order to actually be able to do this question, we must remember all of the ways to prove congruence, and see which one of these answer choices gives us sufficient information to prove congruence.
+So, the different ways to prove congruence we must memorize. This is S, S, S, S, A, S, A, A, S, and A, S, A. So, let's test each of these. Let's see what we have right now.
+So, let's draw a diagram. We have triangles A, B, D, and triangles E, F, G. So, let's label them A, B, D, E, F, G. So, we know that A and E are corresponding. So, A and E are corresponding. We know these two. And then, we know that B and F each have a measure of 68. So, D is also the same.
+Now, looking at the rules that we have, we know two angles. So, of course, we cannot prove by S, S, S, S. And maybe we could prove by S, A, S. The answer choice would have to give us two sides being exactly equivalent.
+And then, we have A, A, S, and A, S, A. It's most likely going to be one of these rules. Because all we need to know is that a side after these angles, in this case for A, A, S, we would either need to know B, D, or A, D, along with F, G, or E, G.
+Because if we knew B, D, and F, G, this would be angle, angle, side. Or if we knew E, G, we'd be able to work backwards and go angle, angle, side.
+So, let's see each of these answer choices and see which one gives us sufficient information. So, if we know the measure of angle D, we would know, okay, we would know this right here.
+But, this would tell us that this angle over here, G, is also equivalent, which we already knew. But this is angle, angle, angle. This does not prove congruence. So, we disregard A.
+You'll later learn, or you may already know, that A, A, A proves similarity. Okay, B tells us the length of side A, B. So, A, B is right here. So, this could tell us A, S, A.
+However, it doesn't tell us that E and F are the same. So, we do not know congruence by A, S, A.
+We need to be given both A, B, and E, F. And we must know that both of those are equivalent.
+So, let's take a look at C. If we know the lengths of A, B, and E, F, so right here and right here, and we are told that they are equivalent, that could give us enough information for triangle A, B, D to be congruent to triangle E, F, G.
+So, C is possibly correct, and no additional information necessary is absolutely wrong, because we need more information. So, answer is C.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - Triangles - Similar Triangles.txt
+--------------------------------------------------------------------------------
+Let's talk about similar triangles. Two triangles are similar if they have the exact same shape, but are just different sizes.
+So think about similar triangles like a photo and a zoomed-in version of that same photo. The shape is identical, but one is scaled larger or smaller than the other.
+So for two triangles to be similar, all three corresponding angles must be equal so that the shape is preserved.
+But the corresponding sides only need to be of the same proportion. They don't need to be equal.
+That proportion is called the scale factor. If one triangle's sides are all twice as long as the other, the scale factor is 2.
+This also means if one triangle is all side lengths equal to 1, but the other one is all side lengths equal to 2, as long as all of the sides are being multiplied by the exact same factor, so 1 1 1 and 2 2 2, we can obviously see that for this triangle, all of the sides are indeed being multiplied by one single scale factor.
+This makes two triangles similar because the angles remain the same.
+Now one key insight to remember is that every congruent pair is also a similar pair. So if you have two triangles that are exactly the same, these are similar.
+Because all of the angles are the same angle and the sides are actually the same, so basically it's two triangles with a scale factor of 1.
+But not every similar pair is congruent because obviously as you can see here, these are not congruent. They are not copy-paste. They do not look exactly the same. So what does this actually look like?
+Mathematically, if triangle ABC is similar to triangle DEF, then angle A is equal to angle D, angle B is equal to angle E, and then angle C is equal to angle F.
+And also, this is where it's very important we can see the scale factor. Taking AB divided by DE, so AB over DE, and as we can tell these are the corresponding sides right here.
+Taking those gives us some sort of scale factor, so let's call that K. Taking BC divided by EF, so BC divided by EF, we should also get the exact same scale factor. BC over EF should also give us K.
+Because the difference between the two should just be a factor of K. And lastly, AC divided by DF should also give us the exact same scale factor. And if that is the case, then indeed we know that these two triangles are similar. So, what is the minimum amount of information that we need to know in order to prove that two triangles are similar? So there are three rules that we can use. Firstly, starting with AA similarity. So if we know that two corresponding angles in each other, we can use the same.
+corresponding angles in triangles are exactly the same. Then, we know that the third one is also the same because all angles in a triangle add to 180 degrees. So, if we are given information like this, we know that B is equal to E and A is equal to D, then we know that these two triangles are similar.
+As long as we are given two angles in a triangle, and we know that it is the same to its corresponding angle, then we know that these triangles are similar by AA. Now let's talk about the second rule, SSS. Unlike triangle congruence and proving that, with SSS, these do not need to be equal to each other. All we must know is that taking one side over its corresponding side gives us the scale ratio. And then by doing the same with all of the other sides, we still get that consistent scale ratio. Now, let's move on to SA.
+So, similar to SA. So, if we are given a triangle, we are given a triangle, and we know that it is the same to its corresponding angle, then we know that these triangles are similar by AA.
+the second rule, SSS. Unlike triangle congruence and proving that, with SSS, these do not need
+to be equal to each other. All we must know is that taking one side over its corresponding
+side gives us the scale ratio, and then by doing the same with all of the other sides,
+we still get that consistent scale ratio. Now, let's move on to SAS. So, similar to SSS,
+SAS is kind of a combination. So, we must be given two sides. So, for example, this side is proportional
+to this side by some factors. So, let's say, for example, this is 1 and this is a length of 2. So, obviously, 2 divided by 1 equals 2. And let's say over here, this is 1 and this is 0.5. So, dividing 1 by its corresponding side gives us 1 divided by 0.5, which also equals 2. So, if we are given
+side length is proportional to side length, and this side length is proportional to this side length, the last thing we need to know is that the angle in between are congruent to each other. So, the three ways to prove triangle similarity are AA, SSS, and SAS. Notice how in this case, when we're talking about similarity, they just must be proportional. They don't have to be congruent. So, with triangle similarity, let's talk about setting up proportions. Because, once we know that two triangles are similar, we can use that ratio or the scale ratio between the corresponding sides to
+to solve for the unknown side lengths. For example, if triangle ABC is similar to triangle DEF, then AB divided by DE equals BC over EF. Notice how we got this. AB corresponds to DE and BC corresponds to EF. So, in order to solve this, we can just cross multiply. In schools, some teachers like to call this the butterfly method. So, if these two ratios are equal to each other, AB over DE equals BC over EF,
+All we need to do is multiply like a butterfly. So multiply these two together and multiply these two together and set them equal to each other.
+So AB times EF, so AB times EF equals BC times DE.
+And if you are given three of these lengths, for example, then you can solve for the last one.
+So let's practice. Two similar triangles are given. Triangle 1 has sides 4 and 6.
+Triangle 2 has a side of 12 that corresponds to the side of 4 in triangle 1.
+So let's draw this out real quick. Triangle 1 has sides 4 and 6. So let's say 4 and 6.
+Now it tells us that triangle 2 has a side length of 12 that corresponds to the side of 4 in triangle 1.
+So the side that corresponds to triangles 1, 4 is right here. So it'd be 12.
+And then the question asks us to find the side in triangle 2 that corresponds to the 6. So that'd be this angle right here.
+So what we need to do is we need to set up a proportion. So let's put one triangle over the other triangle.
+It doesn't matter which side we choose. So let's just practice the smaller triangle over the bigger triangle.
+So we must keep it consistent. So smaller triangle corresponding side is 4 and the corresponding side is 12 over 12 equals 6 and its corresponding side is question mark.
+So 6 over question mark. So 6 over question mark. Now let's perform the butterfly method and multiply and we should get 12 times 6 equals 4 question mark.
+So 72 equals 4 question mark. So dividing by 4 we get that question mark equals 18. So this missing side length is 18.
+Let's practice. Right triangles J, K, L and S, T, U are similar. Where J corresponds to S and angles K and T are right angles.
+If the measure of angle J is 58 degrees, what is the measure of angle U?
+Okay, so we're being asked for one of the missing angles. So let's draw a diagram to help us out.
+We know the right triangles J, K, L and S, T, U are similar. Okay, so we can draw them out and we know that they are simply scale factors of one another.
+So here are two triangles and let's label them. J, K, L is similar to S, T, U. Notice how I labeled them in the exact same direction so we know which angle corresponds to which angle.
+So J corresponds to S. So we know that J corresponds to S and K and T are both right angles. So actually our diagram is incorrect. So let's redraw this diagram to make sure that it is factually accurate.
+So redraw the two triangles and then we know that triangles K and T are the right angles. So K and T and then we can fill in the rest.
+So J, K, L, J, K, L and S, T, U. S, T, and U. Okay, so now this diagram is correct. This may happen to you. As you're drawing, you realize your diagram is wrong.
+So you must redraw your diagram to make sure it's accurate so you don't get tripped up. So it tells us that K and T are right angles.
+Well, because K and T are right angles, we know that they are corresponding angles because both of them are equal to 90 and we already told that the two triangles are similar.
+And we also know J corresponds to S. So J is equal to S. So we know that L is equal to U. So the question asks us for angle U.
+Well, we don't know the angle of U yet, but what we do know is J. We know that J is 58 degrees. So we know that S, because it is the corresponding angle and they are both similar, it is also 58 degrees.
+So in order to solve this, we know that these two angles added together, angle U and angle S, add up to 90 degrees. So 58 degrees plus angle U equals 90 degrees. So angle U equals 32 degrees.
+Let's practice another question. In the figure shown, triangle L, J, N is similar to triangle L, K, M. The measure of angle L, K, M is 41 degrees. And J, N equals 19 K, M. What is the measure of angle L, K, M?
+What is the measure of angle L, J, N? Okay, so let's label everything that we know. Okay, so in the figure shown, we know that triangle L, J, N, so this big triangle is similar to triangle L, K, M. Okay, cool. So we know which ones are corresponding. L is corresponding to L because obviously they're also equal. J is corresponding to K and N is corresponding to M.
+So let's plug in everything we know. The measure of angle L, K, M. So L, K, M is equal to 41. 41. And because we know that these two triangles are equal, the corresponding angle is also equal to 41.
+Next, it tells us that J, N equals 19 K, M. So J, N is 19 times as big as K, M. So we could just set some numbers. So 19 and 1. The question asks us, what is the measure of L, J, N? So L, J, N.
+Well, we already know this. It's 41. Let's practice this medium question. Triangles J, K, L, and P, Q, R are shown.
+The relationship between the side lengths of the two triangles is such that J, K over P, Q equals K, L over Q, R equals J, L over P, R equals 5.
+If the measure of angle J, K, L is 43 degrees, what is the measure in degrees of angle P, Q, R?
+So let's figure out what this question is actually giving us. So it tells us some information about the relationship between the two triangles.
+Well, let's check this information. J, K, okay, J, K is right here, over P, Q. Okay, P, Q is right here.
+So it tells us this ratio is equal to 5. It also tells us the ratio of K, L over Q, R is also has a ratio of 5.
+So this one over this one also has a ratio of 5. And J, L over P, R also has a ratio of 5.
+What does this tell us about these two triangles? Well, it actually tells us that these two triangles are similar because of S, S, S.
+We know that all of the corresponding sides of the proportions are equal to 5. Therefore, this is proven through S, S, S.
+So now that we know that these two triangles are similar, we know that all the corresponding angles have exactly the same degree.
+So if the measure of J, K, L is 43, so J, K, L right here is 43, what is the measure in degrees of P, Q, R? P, Q, R.
+Oh, these are actually just corresponding angles. Therefore, K is equal to Q. And that is correct.
+Let's practice another medium question. Triangle ABC is similar to EFC.
+The lengths represented by lines EF, line AB, line BC, and line AC in the figure are 18, 12, 24, 30 respectively.
+What is the length of EC?
+Okay, so let's label everything we know. We know that EF is 18, AB is 12, BC is 24, and AC is 30.
+So, EF is 18. So, EF is 18. So, EF is 18. AB is 12. BC is 24. And lastly, that AC is 30. So, AC is 30.
+So, this question is asked about the length of EC. So, EC right here. This is what we're being asked.
+So, let's label this as X actually. So, because we know that these two triangles are similar, we know that corresponding angles divided by each other have the same proportion.
+So, we can set up a proportion. So, let's use these two numbers and these two numbers.
+So, let's do this bigger triangle over the smaller triangle. Notice how in this drawing, it tells us the figure is not drawn to scale.
+And these corresponding lines, we can actually see that EF is actually bigger than AB.
+So, actually triangle EFC is actually bigger than ABC. But it's just drawn to trick us and make people doubt their decision.
+So, let's solve this question. So, let's take the bigger triangle over the smaller triangle.
+18 over 12, because 12 is the corresponding angle to 18, equals X over 30. Remember, we follow the same order.
+So, X over 30. Now, we can do the butterfly or cross multiplication and get 12X equals 18 times 30.
+So, multiplying this out and dividing it by 12, we get X equals 18 times 30 over 12. So, we get the X equals 45.
+So, let's practice this hard question. In the figure shown, HL and GK intersect at point J.
+KJ equals 64. So, KJ equals 64. HJ equals 48. HG equals 27. And GJ equals 90.
+So, the question asks us, "What is the length of KL?" So, KL right here.
+So, once again, this question is asking us something quite similar to the previous question.
+However, we can't solve this question without knowing whether or not these two triangles are similar.
+Because if they're not, we know no relationship between the two and this is just arbitrary.
+So, let's try to figure out if these triangles are similar.
+So, the triangle on the left is triangle JHG. And the second triangle on the right is triangle JKL.
+And so, we don't know if they're similar yet, but let's try to prove it.
+So, what are the ways that we can prove that two triangles are similar?
+Well, for this question, we can prove it through AA.
+Because notice how we know that H is the same as angle K because they're both equal to B.
+And also, we have a pair of vertical angles right here. So, these two angles are also the same.
+Therefore, we know that H and K are corresponding angles and J are obviously corresponding.
+So, therefore, these last two G and L must be corresponding and they're similar because of AA.
+So, now we can solve this question because we know that two similar triangles are simply a proportion of one each other or a scale factor of one each other.
+Because we know that two similar triangles are simply a scale factor of one another.
+So, let's set up a proportion.
+So, in this case, we know that J_H's corresponding side is J_K.
+So, we can set these over each other.
+So, let's do J_H_G over J_K_L.
+So, 48 over 64 equals, and then let's choose another side that corresponds with K_L.
+Well, K_L is right here.
+So, the one that corresponds is H_G.
+Notice how they are at the same place.
+So, remember we take the left one over the right one because that's the rule that we set up for ourselves.
+It is perfectly okay to flip them.
+So, H_G equals 27 over X.
+Now, we can do butterfly method and we get 48X equals 64 times 27.
+Now, dividing both sides by 48, we get X equals 64 times 27 over 48.
+And lastly, we get X equals 36.
+Let's do another hard question.
+In triangles ABC and DEF, angles A and D each have a measure of 55.
+AB equals 12 and D equals 36.
+Which additional piece of information is sufficient to prove that triangle ABC is similar to triangle DEF?
+Okay, so we want to prove similarities.
+Remember, there are three ways.
+There's angle angle, meaning these must be congruent.
+Or we have SSS and SAS.
+But for both of these, they must be proportional.
+So, to solve this question, let's start by drawing a diagram so we know what information we do have.
+So, we know triangles ABC is similar to DEF.
+So, ABC and DEF.
+So, we know that the measures of angles A and D equals 55.
+So, these are equal to each other.
+And we know that AB is 12.
+So, this one's 12.
+And we know that DE equals 36.
+Okay, so let's see the answer choices and see what we have.
+So, looking at answer choice A, it tells us BC equals 8 and EF equals 8.
+Okay, so if we did know this side length and this side length right here, it wouldn't satisfy any of these similarity rules that we know to prove that two triangles are similar.
+We don't know two angles.
+We don't know three sides proportional.
+And we definitely don't know side angle side.
+We know angle side side or side side angle, which is not the same as side angle side.
+So, A is incorrect.
+B does the same thing.
+It tells us BC and tells us EF.
+But it does not follow these rules.
+So, it is not B.
+Now, C tells us the measures of angle B and E are 65 and 55 respectively.
+So, let's test this.
+Let's say that B is equal to 65.
+And let's say that E is equal to 55.
+Well, this doesn't make any sense because these angles aren't even congruent.
+So, this makes no sense.
+These angles have to be congruent to prove angle angle.
+And there's no other like angle side angle.
+That would prove congruence.
+So, this is not right.
+So, now let's take a look at D.
+The measures of angle B and F are 65 and 60 respectively.
+So, initial reaction, oh, these are not the same.
+But, let's actually label it.
+Make sure we label it in our graph.
+So, B is 65.
+But it tells us F is 60.
+So, let's ignore this 55 because that was from n to c and label this as 60.
+Now, let's solve for E and we can see whether or not E is equal to angle B.
+So, we know that angle D is 55.
+So, 55 plus 60 plus angle E should equal to 180.
+So, what does angle E equal to?
+Angle E actually equals to 65.
+Therefore, we know that these two triangles are similar because of angle angle.
+Let's talk even further about similarity.
+Specifically, nested similar triangles.
+So, inside complex figures, there are often smaller similar triangles hidden within a larger triangle.
+You can find them by spotting parallel lines or vertical angles.
+One of the most common setups on the SAT is a line drawn parallel to one side of a triangle,
+which cuts through two other sides.
+That parallel lines creates a smaller triangle inside the bigger one.
+And as a result, the two triangles are similar.
+So, this is an example right here.
+We have big triangle ABC and then we have a line that's parallel to BC that cuts it off.
+And now we have two triangles.
+We have the big triangle and then we have this small triangle right here.
+Now, how and why are these two triangles similar?
+Take a moment to pause this video and try to figure out for yourself.
+The reason why these two triangles are similar is because of AA similarity.
+Well, of course we know that they share the vertex A.
+So, of course ABC and this smaller triangle, let's say DE, ADE also shares A.
+So, we have one angle that is already similar.
+Now, the second angle we get from knowing the properties of a transversal going through two parallel lines.
+Think about if we extended this line out and we extended this line out, we would have AB be the transversal that's cutting through lines DE and BC.
+So, because of corresponding angles, we know that this angle is equivalent to this angle as well.
+So, we have AA similarity.
+Let's practice.
+The area of triangle ABC is above at least 16 but no more than 28.
+Lines DE and BC are parallel.
+If Y is an integer, what is one possible value of X?
+So, let's see all the information that we're given in this question.
+We're being told that the area of ABC is above at least 16 but no more than 28.
+So, ABC, the area of this triangle is in between these two values.
+Okay, so what can we get with this information?
+Well, we could solve for Y.
+Okay, but the question asks us about X.
+What do we know about X?
+Well, because these two lines are parallel and there's just one line cutting a big triangle ABC,
+then this small triangle ADE is similar to triangle ABC because of angle-angle similarity.
+They both share this angle right here and they both have a right angle.
+So, based on similarity, if we know Y, then we could get the possible value of X.
+Okay, so let's solve this question.
+So, it tells us the area is above at least 16 but no more than 28.
+So, let's set this up.
+So, at least 16 and then no more than 28.
+So, it could be 28.
+It just cannot be more than 28.
+And then what is the area of ABC?
+Well, area of a triangle equals 1/2 base times height.
+Well, what is the base of this question?
+It is 3 plus 5 because we are talking about triangle ABC.
+So, 1/2, 3 plus 5 is 8 times Y, which is the height.
+Okay, so now let's distribute out this 1/2 and let's multiply every side by 1/2.
+So, 32 is less than or equal to 8.
+Y, which is less than or equal to 56.
+Now, we can divide everything by 8.
+So, 4 is less than or equal to Y, which is less than or equal to 7.
+So, we know that Y must be in between 4 and 7.
+Now, the question asks us for what is one possible value of X?
+For Y, we can set it equal to any of these values in between.
+However, we know that Y is an integer.
+So, let's set it to an integer that's easy.
+So, maybe 5 for example.
+So, let's put a 5 here for Y.
+Okay, so now we can set up a portion because we know that these two triangles are similar.
+Triangle ADE and ABC.
+So, let's do it.
+So, let's do the big triangle of the small triangle.
+So, let's first start with the side on the right side.
+So, the leg.
+So, Y over X equals and then this whole leg over just a small leg.
+So, 3 plus 5 is 8 over 3.
+So, now let's plug in Y.
+Let's just say that Y is 5 because we know that Y is in between these two values.
+So, 5 over X equals 8 over 3.
+So, 8X equals 15.
+All we did here was multiply across.
+Now, X equals 15 over 8.
+So, this is one of our possible answers.
+We could also plug in Y equals 4 or Y equals 6 or Y equals 7 which would all give us possible values of X.
+Let's practice another hard question.
+In a right triangle PQR, angle Q is the right angle and QR equals 141.
+Point S on side PR is connected by a line segment with point T on side PQ such that line segment ST is parallel to side QR.
+And QT equals 2PT.
+What is the length of line segment ST?
+What is the length of line segment ST?
+Okay, so this question is very, very loaded.
+So, let's draw a diagram so that it's much easier for us to see what this question is telling us.
+Okay, so we are being told that we have a right triangle.
+We know that angle Q is the right angle.
+So, let's put Q as the right angle and then let's label the rest.
+So, PQR.
+Now, it tells us QR equals 141.
+So, the length of QR equals 141.
+And we know point S is on side PR which is connected by line segment with point T on side PQ.
+So, T is somewhere on PQ.
+S is on PR such that ST, so connecting these two is parallel to QR.
+So, we can draw like this.
+Point S is right here.
+Point T is right here such that connecting them makes QR parallel to TS.
+And it tells us QT equals 2PT.
+So, QT equals 2PT.
+So, if PT is equal to PT, so let's label this PT length.
+So, we know it's as long as PT.
+QT just equals to 2PT.
+Okay, let's solve this question.
+The question asks us what is the length of line segment ST?
+ST right here.
+So, let's start with recognizing a relationship.
+Well, in this case, we know that we are using a right triangle.
+And we know that because these are nested triangles, they both share the vertices P.
+So, both triangles PTS and PQR have one angle in common.
+Well, what other angle do they have in common?
+Actually, they also have this right angle right here.
+So, therefore, they are similar based on angle, angle similarity.
+But as we also know, just so that you guys know, is that there is also a transversal passing through parallel lines.
+We can see that line TS and QR are parallel.
+And line PR is actually passing through.
+So, therefore, angle S and angle R are actually corresponding angles.
+So, we can also prove angle-angle similarity this way.
+So, let's solve this question.
+So, we can set up a proportion in order to solve for TS is equal to.
+So, let's do big over small.
+So, PQ is equal to 3PT.
+So, we'll set PQ over PT equal to QR over TS.
+Because these are the corresponding angles and we know that the proportions must therefore be equal.
+Well, the scale factor in between must therefore be equal.
+So, PQ is equal to 3PT because it's 2PT plus PT over PT equals QR equals 141 over TS.
+Because the top and bottom both have PT, we can cancel them out.
+So, 3 equals 141 over TS.
+Therefore, TS equals 141 divided by 3.
+So, TS equals 47.
+Let's talk even further about similarity.
+Specifically, real-world similar triangles.
+Two objects standing upright in the sun at the same time of day will cast shadows that form similar triangles.
+Now, why is this?
+This is because the sun's rays hit both objects at the exact same angle.
+Because the sun is so far away, its rays are essentially parallel.
+Its rays are essentially parallel.
+Both objects also stand at 90 degrees to the ground.
+Now, how does this make them similar?
+This gives us angle-angle similarity.
+Because one of the matching angles comes from the sun and the other matching angle comes 90 degrees from the ground.
+So, let's practice so we can see what this looks like.
+In this scenario, a 6 foot tall person casts a 4 feet shadow.
+So, this person is 6 feet tall and it casts a 4 feet shadow.
+At the same time, a nearby flagpole casts a 20 foot shadow.
+So, a big flagpole casts a 20 foot shadow.
+How tall is the flagpole?
+Okay, so we know the person is 6 feet tall, there's a 4 feet shadow and the length of the shadow is 20 feet.
+Well, in this case, because we know that the sun is so unimaginably far away, the rays that it casts are going to be approximately parallel.
+So, we can draw the right triangles as such.
+We know that because these lines are parallel, we know that the angle that it creates must be the same.
+Because we have a vertical line with the exact same line coming out of it.
+Because we have a vertical line and then a line with the exact same slope coming out of it.
+So these two angles must be the same.
+In addition, because the human and the flagpole standing upright and the ground is perpendicular to that, we know the right angle here.
+So, we have angle angle similarity.
+So, now we must set up a proportion because we know that the scale factors are consistent.
+So, let's do big over small.
+So, 20 over 4 equals, we'll call this x, x over 6.
+So, cross multiplying, we get 20 times 6 equals 4x.
+So, we get 120 equals 4x.
+So, we get that x equals 30.
+And that is our answer, that the flagpole is 30 feet tall.
+So, let's practice.
+Two nearby poles are perpendicular to the ground, which is flat.
+One of these poles is 18 feet tall and has a shadow of 24 feet.
+At the same time, the shadow of the other pole is 40 feet long.
+How tall in feet is the other pole?
+So, let's draw this out.
+Two poles are perpendicular to the ground, which is flat.
+Awesome.
+So, we know that they are perpendicular so they create right angles.
+So, one of the poles is 18 feet tall and has a shadow of 24.
+At the same time, the shadow of the other is 40 feet long.
+Okay, so let's draw this out.
+The big one has a shadow of 40 feet long and the smaller one has a shadow of 24 feet long.
+And the smaller one has a height of 18 feet.
+So, 18 right here.
+So, what is the height of the bigger one?
+Okay, so firstly, we know that these two triangles are similar because of what we discussed earlier.
+They have angle angle similarity.
+So, let's solve this question.
+Let's do bigger over small.
+So, we are solving for the unknown x height of the flagpole.
+So, let's do x over 18 equals 40 over 24.
+Cross multiplying, we get 24x equals 40 times 18.
+So, x equals 40 times 18 over 24.
+So, x equals 30.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Lines, Angles, and Triangles - Vertical Ang.txt
+--------------------------------------------------------------------------------
+Now let's talk about vertical angles.
+When two straight lines cross each other, they create four angles.
+The angles that sit directly across from each other, not next to each other, are called
+vertical angles.
+Vertical angles are always equal to each other.
+This is because each one shares a straight line with the same neighbor angle, so they
+must both equal 180 minus that neighbor, making them identical.
+This is a direct property of a straight angle, or a linear pair.
+Vertical angles always come in pairs.
+When two lines cross, you get two pairs of vertical angles.
+So what does this actually mean?
+So when we have two straight lines that cross each other, we get two pairs of vertical angles.
+So let's take a look at these that sit across from each other.
+Why are these equal?
+Well remember, think about this straight line.
+So just focus on this single straight line right here.
+Let's say that this angle right here is 130 degrees.
+Well what is the value of this angle on the left side?
+It is simply equal to 180 minus this linear pair.
+So 180 minus 130 equals 50 degrees.
+Now this other one right here, look, it also shares this straight line with this angle right here.
+So the value of this missing angle is 180 minus 130, which gives us as well 50.
+And so as a result, this one right here, because it is sharing a straight line right here and a straight line right here, in both instances, in order to find the measure of this angle, all we do is take 180, which is the total degrees right here, subtract 50, to get the same.
+missing part, which we get 130 degrees. This is how vertical angles are proved and this is why this
+rule exists. So mathematically, if two straight lines intersect and form angles A and B directly
+across from each other, then A equals B. So if they cross each other and they form angles directly
+across A and B, these two are equal. Equal angles are represented by these lines that have the same
+amount of lines. So these would be equal and then these would be equal. Notice how these have two
+lines so they show that these two are congruent to each other. For example, two lines cross and one
+angle is labeled 70 degrees. So 70 degrees. Find the angle directly across from it. So because we know
+that these are two lines that cross each other, the angle crossed is simply equivalent. So it is 70 degrees.
+

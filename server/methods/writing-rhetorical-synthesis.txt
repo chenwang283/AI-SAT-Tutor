@@ -1,0 +1,154 @@
+Let's talk about rhetorical synthesis. In rhetorical synthesis, we have two main problem types.
+First, we're going to go over the skip the notes problem type, and this is your most common problem
+type appearing around 95% of the time. For a vast majority of these questions, you can find the
+correct answer using only the question stem and answer choices. As the name suggests, the notes
+are a waste of time and are simply there to just make you burn time on the SAT. How do we actually
+go about solving these problem types? Well, first, we always read the question stem and we skip the
+notes. Rhetorical synthesis always involves a specific goal, like emphasizing a similarity or
+introducing the research to an audience unfamiliar with the topic. These goals are your entire job
+and you need to focus on what the question is asking. Now, once you focus on the goal, go straight to the
+answer choices and don't look at the notes. The correct answer must literally do what the question
+asks. Nothing more and nothing less. Third, you need to eliminate the choices that don't match with the
+rhetorical goal. If it's a skip the notes problem type, you should be left with the correct answer from
+here. Now, let's go ahead and try this process on a question. While researching a topic, a student has
+taken the following notes. Automatically, I see notes and I see these bulleted points and I know that this
+is a rhetorical synthesis question. So, what do I do? The first step is to read the question stem. So, I
+automatically skip the notes and go directly to the question. The student wants to emphasize a similarity
+between two specimens. Which choice most effectively uses relevant information from the notes to accomplish
+this goal? So, now I am identifying the specific goal. What is the specific goal that the question is asking? Well,
+it wants me to emphasize a similarity and it has to be between two specimens. So, now this is step two and I
+understand this goal. Now, let's go to step three. We need to eliminate all answer choices that do not
+accomplish this goal. Let's go to answer choice A. The Natural History Museum where Pearl is housed is located in
+London, England. Well, this is just talking about where Pearl is housed and it doesn't show a similarity between two
+specimens. So, we can eliminate answer choice A. Atlas is the nickname of a blue whale skeleton housed at the
+Australian Museum in Sydney, Australia. I'm still not noticing a similarity and it's not comparing it
+between two specimens. So, we can eliminate answer choice B. The whale skeleton specimens Pearl and Atlas,
+I'm noticing two specimens, are both members of the species Baleona petra musculus, commonly known as the blue whale.
+Well, now I'm noticing that we have two specimens Pearl and Atlas and that they are both members of the
+species this. Which means that what is this answer choice doing? It is emphasizing a similarity between
+Pearl and Atlas and it is showing that. So, we could know that answer choice C is our best answer so far.
+While Pearl is housed at the Natural History Museum, Atlas is housed at the Australian Museum. While this is
+comparing the two specimen, it is not showing a similarity, rather it is showing a difference. So, we know that
+this answer choice is not right. So, our best guess for the correct answer here is answer choice C. Let's see if that's correct.
+And it is. Before we do this question, go ahead and try it for yourself.
+While researching a topic, a student has taken the following notes. I look at the bullet points,
+I know this is rhetorical synthesis. Let's do step one, which is to skip the notes entirely and go
+directly to the question. The student wants to present the study to an audience already familiar with biochar.
+Which choice accomplishes this goal? Now, I'm moving on to step two, identifying a specific goal. So,
+the student wants to present the study to an audience already familiar with biochar. So,
+what are the two things that my goal has to accomplish? What does my answer choice have to do?
+Well, it has to present the study. Okay, that's one thing. And it has to do it to an audience already
+familiar with biochar. What does this mean? Well, this probably means that we don't go into depth on what
+biochar specifically is, because our audience already knows what it is. So, we don't need to go into the
+specifics of it. So, let's find an answer choice that does that. Now, we're on to step three, eliminating the ones
+that don't accomplish the goal. Priya Menta's team applied biochar to degraded farmland in Maharashtra,
+India, and found a 38% increase in crop yield compared to untreated plots. Well, actually, this is
+presenting the study. The study says that they found a 38% increase in crop yield compared to untreated
+plots. So, this part is presenting the study, which is great. And is it doing so with an audience already
+familiar with biochar? Well, answer choice A merely states that the team applied biochar and it doesn't
+go into detail on what it is. So, this answer choice satisfies the goal and could be the right answer.
+But let's move on to the other answer choices. Applying biochar to soil can improve fertility and
+increase crop yields on degraded agricultural land. Well, this is just going into depth on what biochar does
+and we have an audience already familiar with that. So, this is not accomplishing the goal. So, this is
+the wrong answer choice. Researchers found biochar or charcoal-like material produced by burning organic
+matter improve crop yields. Okay, I can just stop there. This is already going in depth on what biochar
+is and we don't need that. Priya Menta's team applied biochar. That is a charcoal-like substance
+burned in low oxygen conditions. I can stop there as well because I know that this is going in depth on
+what biochar is, but we have an audience familiar with biochar. So, this is the wrong answer choice.
+So, based off of this, our best guess at the right answer is answer choice A.
+And let's see if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+While researching a topic, a student has taken the following notes. I know this is rhetorical
+synthesis. I'm going to implement step one, which is to skip the notes and read the question directly.
+The student wants to make a generalization about deep sea submersibles. Which choice most effectively uses
+relevant information from the notes to do this? Well, now let's move on to step two, which is identifying the
+specific goal. The goal is to make a generalization and this generalization has to be about deep sea
+submersibles. Now let's move on to step three, which is eliminating all answer choices that don't satisfy
+this. Examples of deep sea submersibles include the Alvin, which dives to 6,500 meters and the limiting
+factor, which dives to 11,000 meters. Well, this is not a generalization. This is actually going in
+depth and in detail on what the Alvin and limiting factor are. And it is not giving a broad summary of what these
+things do. So we know that answer choice A is wrong. A standard submersible operates below 200 meters, but
+the limiting factor at 11,000 meters dives far deeper. This is making a comparison and it is also going
+into too much detail. So we know that this is wrong. Deep sea submersibles vary considerably in their maximum
+depth capacity from thousands to tens of thousands of meters. Well, this is doing both. It's making a
+generalization, right? About deep sea submersibles. And what is the generalization about? It's about their maximum depth
+capacity, which ranges from thousands to tens of thousands of meters. It's not giving a specific
+number. Rather, it is generalizing the deep sea submersibles maximum depth capacity. So this would
+satisfy our goal. Now let's move on to answer choice D. While the Alvin is operated by the Woods Hole Oceanographic
+Institution, the limiting factor is operated by Inkfish. This is making a comparison and it is not satisfying
+what the goal of this rhetorical synthesis is. So we can eliminate that and we are left with answer choice C.
+And let's go ahead and see if that's correct. And it is. Now let's move on to hard rhetorical synthesis.
+So this is going to be around 5% of questions. It is definitely rare, but it definitely does appear on the SAT. What does this mean? It means that two or more answer choices will fulfill the rhetorical goal, but one will be factually incorrect. Now the notes will become the tiebreaker. So what do we need to do for these
+do for these harder questions. We need to read the question first. We need to identify what the
+question wants, right? For example, it could be a similarity, it could be a generalization,
+and then we eliminate answer choices. This is the exact same process as the skip the notes problem
+type. However, in this hard rhetorical synthesis, you will find multiple answer choices that satisfy
+the question stem. Okay, so what do we do? After we recognize that multiple answer choices satisfy
+the question requirement, we read the notes to identify the correct one. The wrong answer choices
+will have information that don't match up with the notes. As I was saying previously, we will have
+factually incorrect information in the wrong answer choices. Let's go ahead and try this out in a
+question. While researching a topic, a student has taken the following notes. I know this is a rhetorical
+synthesis. Now I'm going to do the same method I did before, skip the notes in the beginning, because
+we technically don't know if we are looking at the SAT from a completely blind perspective. We technically
+don't know whether this is a hard rhetorical synthesis question, or we can just skip the notes. So we always
+start with just skipping the notes. Now let's go ahead and implement step one, which is to read the
+question directly. The student wants to describe how freeze drying preserves food, which choice
+accomplishes this goal? Okay, so now I need to know the goal, which is describing how freeze drying preserves food.
+So let's go to the answer choices and see which ones don't do this, which is step three. In freeze drying,
+food is frozen and then placed in a vacuum chamber where sublimation converts the ice directly to
+vapor, which is removed. The dried food is then sealed in airtight packaging. Well, this is looking
+like it's describing how freeze drying preserves food. So let's move on to answer choice B. Freeze drying
+preserves food by placing it in a vacuum chamber that freezes its water content into ice, which is then
+sublimated and captured by a condenser before the food is sealed. This also seems like it's describing how
+freeze drying preserves food. Let's go to answer choice C. In freeze drying, food is first frozen
+solid. The frozen food is then sublimated in condenser, converted ice to vapor, and finally
+packaged in a vacuum chamber to prevent moisture. Okay, I can just stop right here because I'm noticing a
+pattern, which is that all of these answer choices seem to be describing how freeze drying preserves food.
+So how do we tell what the correct answer choice is? Well, now we have to look at the notes and actually read the notes
+to tell which ones are saying factually correct things and which ones are saying factually incorrect
+things. And this is why this rhetorical synthesis is quote unquote, a hard rhetorical synthesis question,
+because you have to do a little bit more digging into the question. Let's go ahead and read the bullet
+points. Freeze drying or life of filization is a preservation method that removes moisture from
+food to extend its shelf life. Okay. Step one, the food is frozen solid. Okay. At a very low temperature,
+turning its water content into ice. Step two, the frozen food is placed in a vacuum chamber,
+which lowers the surrounding pressure. Step three, under low pressure, the ice in the food
+converts directly to water vapor through a process called sublimation, bypassing the liquid phase. Okay.
+The water vapor is captured by a condenser and removed leaving behind a dry lightweight food product.
+The dried food is sealed in airtight packaging to prevent moisture from reheating. Sealed in airtight
+packaging. Okay. So now we read these steps and we understand how freeze drying preserves food.
+Let's see which answer choice is factually correct and matches up with the notes. In freeze drying,
+food is frozen. Okay. Step one, that's true. And then placed in a vacuum chamber. That's also true.
+Placed in a vacuum chamber where sublimation converts the ice directly to vapor. Okay. Under low pressure,
+food converts directly to water vapor through a process called sublimation. That's correct. Which is removed.
+Okay. The water vapor is captured by a condenser and then removed. This part is also right.
+The dried food is sealed in airtight packaging. So it looks like answer choice A actually satisfies all
+these steps and shows how freeze drying preserves food. So answer choice A is factually correct.
+Let's move on to answer choice B. Freeze drying preserves food by placing it in a vacuum chamber that freezes
+its water. Okay. Let's just stop there because placing it into a vacuum chamber, it lowers the surrounding
+pressure. It does not freeze the water content. So this is already factually incorrect, but we can eliminate this.
+In freeze drying food is first frozen solid. Okay. That's true. The frozen food is then sublimated in a condenser.
+No, it's sublimated in a vacuum chamber and then the water vapor is captured by a condenser. So this is saying something factually incorrect.
+So we can eliminate that. Freeze drying removes moisture from food by freezing it. We can just already stop here. Freeze drying removes moisture from food by freezing it. No, the moisture is removed by condenser. But let's keep going to check as well.
+Lowering pressure until the ice sublimates into vapor and then refreezing the vapor. Well, refreezing. This is saying refreezing. Do any of these steps mention refreezing? None of them mention refreezing. So we know that this is also factually incorrect. And the best answer choice here would be A. Now let's see if that's correct. And it is.
+Before we do this question, go ahead and try it for yourself. While researching a topic, a student has taken the following notes. I know that this is rhetorical synthesis. The student wants to present the findings of the study. Which choice effectively does this? So let's go through our step by step process.
+In teaching a topic, a student has taken the following notes. I know that this is rhetorical synthesis. The student wants to present the findings of the study. Which choice effectively does this? So let's go through our step by step process. First, we skip the notes, read the question directly. And we already did that. Next, we identify the specific goal. What's the specific goal? The student wants to present the findings. Okay, so now that I know that I'm going to move on to step three, which is to eliminate the answer choices that don't do this. Let's read the answer choices.
+The authors concluded that kelp farming was commercially viable, having produced 780 kilograms of harvestable kelp per hectare in the 2022 study. Well, this is actually presenting the findings. So this is okay. Let's move on to answer choice B. In a 2022 study, Nguyen and colleagues found that kelp farms sequestered 40% more harvestable kelp per hectare than the open ocean control site. Well, this is also a finding. But now I have a discrepancy. Answer choice A is saying a finding. Answer choice B is also saying a finding. But these answer choices are different.
+So now we know that this is a hard rhetorical synthesis problem type because we are going to need to read the notes to find out which is the correct answer choice. So let's go ahead and read the notes.
+In a 2022 study, marine ecologist Darren Nguyen and colleagues tested kelp farming in offshore waters near Santa Barbara, California. Kelp farms are underwater structures used to cultivate giant kelp for commercial and environmental purpose.
+Finding. Okay. This is the finding. So let me focus on this kelp farms sequestered 40% more carbon per hectare than open ocean control site. Okay. Oh, now I recognize that there are actually two findings in this research topic. So my answer choice needs to mention both. The farms yielded 780 kilograms of harvestable kelp per hectare. The authors concluded that kelp farming showed strong potential as both a carbon offset strategy and a commercially viable aquaculture practice. So now going back to answer choice.
+And B we see that both of these mentioned one finding, but they don't mention both. So we can actually eliminate both of these. We need an answer choice that presents the findings plural of the study.
+Newin and colleagues found that kelp farms not only sequester significantly more carbon than the control site, but also yielded 780 kilograms of harvestable help kelp per hectare. Well, this answer choice is doing exactly what we need to do. It is satisfying the goal of rhetorical synthesis, and it is presenting both of the findings in the study. So answer choice C is good right now.
+Kelp farms, Newin and colleagues found sequestered 40% of total carbon from the water. I can just stop there. The finding does not say the kelp sequestered 40% of total carbon. It says that the kelp farms sequestered 40% more carbon than open ocean control sites. So answer choice D is saying something factually incorrect. So we can eliminate that. And our best answer choice for this section would be answer choice C. And let's see if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+While researching a topic, a student has taken the following notes. I know that this is rhetorical synthesis. Let me do step one, which is to skip the notes and to read the question directly. The student wants to explain how the mundanium organized the world's knowledge, which choice most effectively uses relevant information to accomplish this? Well, I know step two is to identify the specific goal that this question has in mind, which is to explain how the mundanium organized the world's knowledge, which choice most effectively uses relevant information to accomplish this? Well, I know step two is to identify the specific goal that this question has in mind, which is to explain how the mundanium
+organized the world's knowledge. So let's go ahead and read the answer choices to see which
+one does this. The Mundanium was known for amassing documents, photographs, and publications
+from countries across the globe, including contributions from Europe, Asia, and the Americas.
+Is this explaining how the Mundanium organized the world's knowledge? It just says they amassed
+documents, but it doesn't say how the Mundanium did so and how they organized the knowledge. So
+this is wrong. Founded in Belgium in 1910, the Mundanium employed Paul Outlet and Henry LaFontaine
+as its lead catalogers and administrators. This is not explaining how the Mundanium organized the
+knowledge. So this is wrong. Documents from a vast range of subjects and countries were cataloged at
+the Mundanium, which had indexed more than 15 million items by 1934. Well, this is saying how many items
+that they cataloged, but this is not saying how they organized the knowledge. This is wrong. The
+Mundanium organized the world's knowledge by collecting documents from around the world,
+summarizing them on standardized index cards, and classifying those cards by subjects so users
+could search for information. Now this is explaining how, keyword how, the Mundanium organized the world's knowledge. So answer choice D would be our best answer here. Let's go ahead and see if that's right. And it is.

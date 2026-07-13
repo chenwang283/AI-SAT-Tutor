@@ -1,0 +1,251 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: PSDA
+SKILL: Inference
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - Inference-MOE-E.txt
+--------------------------------------------------------------------------------
+Let's talk about inference from sample statistics and margin of error.
+More specifically, let's talk about margin of error.
+Remember how samples are estimates of populations?
+Margin of error quantifies how much a sample is expected to differ from the population.
+The formula is the estimate plus or minus the margin of error.
+What does this mean?
+If in the sample the estimate is three books and the margin of error is one book,
+then the true population will be between two to four books because three minus one is two and three plus one is four.
+This is the margin of error.
+It is giving leeway and it's showing that when we go from a sample to a population,
+we may or may not get the actual right number.
+So we're going to generate a range, two to four.
+Now that we understand this, let's go ahead and apply it to a practice problem.
+A publisher produces textbooks and wants to estimate the mean weight of the textbooks printed on a particular day.
+A sample of the textbooks printed that day was selected at random.
+Based on the sample, it is estimated that the mean weight of all textbooks printed on that day is 3.2 pounds
+with an associated margin of error, associated margin of error of 0.4 pounds.
+Based on this estimate and associated margin of error, which of the following is the most plausible conclusion?
+Now, first, what I'm going to do is I'm going to check what my margin of error is.
+So I know my margin of error is the estimate plus or minus the margin of error.
+And I know this is my range of plausible values.
+So this is going to be the estimate, which is 3.2 plus or minus my margin of error, which is 0.4.
+And this is going to give me a range from 3.2 minus 0.4, which is 2.8, all the way to 3.2 plus 0.4, which is 3.6.
+So 2.8 to 3.6 is my range.
+Now let me check the answer choices.
+Answer choice A says the mean weight of all textbooks printed on that day is between 2.8 and 3.6 pounds.
+Well, this range is correct.
+Now, can we generalize to the mean weights?
+Yes, we can because we measured the mean weight of all textbooks in the sample.
+So answer choice A would be a good answer.
+Now let's check answer choice B.
+The actual weights of all textbooks printed on that day are between 2.8 and 3.6 pounds.
+Even though the range of values is right and it goes from 2.8 to 3.6, we cannot generalize for the actual weights.
+This part is wrong because we only measured the mean weights.
+So answer choice B is wrong.
+Answer choice C says the actual weights of all textbooks from the sample are between 2.8 pounds and 3.6 pounds.
+This is wrong because it's talking about of the sample.
+We are looking for the population.
+So answer choice C is wrong.
+The mean weight of all textbooks printed on that day is exactly 3.2 pounds.
+This is wrong and definitely wrong because we know that when we're generalizing from a sample to a population, we cannot ever give an exact number.
+It always is an estimate.
+So answer choice D is wrong.
+So answer choice A would be our best answer.
+Let's go ahead and see if that's right.
+And it is.
+Before we do this problem, go ahead and try it yourself.
+A company that manufactures light bulbs wants to estimate the percent of light bulbs produced in a typical week that are defective.
+A random sample of light bulbs produced in a certain week were inspected.
+Based on the sample, it is estimated that 9% of all light bulbs produced by a company that week are defective with an associated margin of error of 3%.
+Based on the estimate and the associated margin of error, which of the following is the most appropriate conclusion about all light bulbs produced by the company during the week?
+So we are looking for a generalization to the population.
+Now let's go ahead and find out the range of values for the population.
+It's going to be the estimate plus or minus the margin of error.
+And our estimate is 9% plus or minus a margin of error of 3%.
+So this is going to give us a range from 6% to 12%.
+So let's look out for this range of values.
+Exactly 9% of the light bulbs are defective.
+Answer choice A is wrong because we know it can only be a range and we can never generalize to an exact number.
+It is plausible that between 6% and 12% of the light bulbs are defective.
+This would work with our margin of error.
+So answer choice B is right.
+Now I'm going to check answer choice C and D.
+Exactly 3% of the light bulbs are defective.
+Again, we cannot do a specific number.
+This is wrong. It is possible that more than 50% of the light bulbs are defective.
+This is not in our range of values for margin of error.
+So this would be wrong.
+So the best answer choice here would be answer choice B.
+Now let's go ahead and see if that's right.
+And it is.
+Before we do this problem, go ahead and try it yourself.
+A jar containing 8,000 marbles of assorted colors is purchased from a toy store.
+To estimate the percent of blue marbles in the jar, a sample of marbles is selected at random.
+The percent of blue marbles in the jar was estimated to be 20%.
+With an associated margin of error of 3%.
+If B is the actual number of blue marbles in the jar, which of the following could be a plausible value of B?
+We know that our associated margin of error or the range of values it could be is the estimate plus or minus the margin of error.
+Using what we know from the equation, we know that the percent is 20% and the margin of error is plus or minus 3%.
+In other words, this range of values goes from 17% to 23%.
+Now, is this our answer?
+No, because as you can see, our answer choices have it in the actual number of blue marbles.
+So we need to find out what the total number of blue marbles is.
+The total number is 8,000 as it says in the problem.
+So we can take 17% of 8,000 and that would be our lower bound for B.
+And then we can also take 23% of 8,000 and that would be our higher bound for B.
+So let's go ahead and do that.
+We take 17% of 8,000 and we also have 23% of 8,000.
+So this means that B needs to be between 1,360 and 1,840.
+And the best answer choice that aligns with that is answer choice B.
+Now let's go ahead and see if that's right.
+And it is.
+Anything outside the range of the estimate plus or minus the margin of error is highly unlikely to happen.
+A smaller margin of error means greater precision and more confidence in the estimate.
+If the margin of error is less, that means that what could be wrong is less, which is better.
+On the other hand, a larger margin of error means less precision and less confidence in the estimate.
+Sample size also affects margin of error.
+Larger random samples have smaller margins of error, whereas smaller samples have larger margins of error.
+Why is this?
+If we gathered 1,000 data points versus 2, the 1,000 is going to have less error since we are picking more data points and getting a fuller picture of the data.
+That is why larger samples have smaller margins of error.
+Before we do this problem, go ahead and try it for yourself.
+In a study of social media habits, 900 randomly selected U.S. teens were asked how frequently they use social media and about their daily screen time.
+The data is summarized in the table below.
+Based on the data from the study, an estimate of the percent of U.S. teens who are heavy social media users is 35% and the associated margin of error is 4%.
+Which of the following is a correct statement based on the given margin of error?
+So we know that the given margin of error is 4%.
+Let's look at the answer choices.
+Approximately 4% of the teens in the study who are classified as heavy social media users are not really heavy users.
+This is wrong.
+This is not what the margin of error is saying.
+The margin of error is saying that we give leeway to the estimate that 35% of U.S. teens are heavy social media users.
+So this would be the incorrect application of margin of error.
+It is not possible that the percent of all U.S. teens who are heavy social media users is less than 31%.
+No, this is technically still possible.
+Even though this is the lower bound of the margin of error, there is still a possibility that you can get something outside the bounds of the margin of error.
+So this is completely possible, which means that this is wrong.
+The percent of all U.S. teens who are heavy social media users is 39%.
+Again, we cannot predict specific percentage points.
+We can only offer a range.
+So answer choice C is wrong.
+It is doubtful that the percent of all U.S. teens who are heavy social media users is 42%.
+This is a true statement.
+It is doubtful.
+It's not saying that it's impossible, but it is highly unlikely.
+And this is true because our margin of error is from 35% and it's plus or minus 4%, which means that the high bound of our margin of error is 39%.
+So if it's 42%, then that means it is a very, very rare percentage of U.S. teens.
+So this is going to be our best answer choice.
+Now let's go ahead and see if answer choice D is right.
+And it is.
+Before we do this problem, go ahead and try it yourself.
+The results of two random samples of votes for a ballot measure are shown below.
+The samples were selected from the same population and the margins of error were calculated using the same method.
+Which of the following is the most appropriate reason that the margin of error for sample P is greater than the margin of error for sample Q?
+So we're analyzing why the margin of error for Q is greater than the margin of error for Q.
+Let's check the answer choices.
+Answer choice A says, sample P had a smaller number of votes that could not be recorded.
+Is this a reason that sample P is greater?
+No, margin of error has nothing to do with the size of the number of votes that could not be recorded.
+Rather, margin of error has to do with sample size.
+So answer A is wrong.
+Answer B says, sample P had a higher percentage of favorable responses.
+It has nothing to do with the higher percentage of favorable responses.
+Margin of error has everything to do with sample size.
+So answer choice B is wrong.
+Sample P had a larger sample size.
+This does have to do with sample size, but is our sample size going to be larger or smaller?
+Well, it says sample P has a greater margin of error, which means that there is more error, which means that there are inaccurate points, which probably means that it has a smaller sample size because a smaller sample size is less representative of the full picture.
+So answer choice C would be wrong.
+And answer choice D would be our best answer.
+Sample P has a smaller sample size.
+Now let's go ahead and see if that's right.
+And it is.
+Congratulations on completing SAT problem solving and data analysis.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - Inference-Sample Generalization (Calc)-E.txt
+--------------------------------------------------------------------------------
+Let's talk about inference from sample statistics and margin of error. More specifically, let's talk
+about sample generalization with calculations. Now that we understand sample generalization
+conceptually, this is a reference to our previous video with evaluating statistical claims and our
+conceptual review of sample generalization there. So if you want to do a review, go ahead and watch
+that video. How do we calculate it? There is one simple rule. The sample ratio is approximately
+equal to the population ratio. What does this mean? Well, if one out of four kids in a sample
+liked chocolate and there were 16 kids in the total population, around four would like the
+chocolate in the population. This makes sense because since the sample can generalize, meaning
+the ratio of the sample will approximately equal the ratio of the population, that means that in this
+case, one out of four is equal to four out of 16. We know conceptually that samples are approximately
+equal to the population. However, with sample generalization calculation, the ratios are usually
+directly proportional and equal. That's okay. You can still choose that answer because the question will
+usually say something like the best estimate, which basically is saying the best approximation,
+or in other words, the direct proportion. Now that we understand this, let's go ahead and try a practice
+problem. A school district has 60 school board members. A journalist polled a random sample of 15
+school board members and found that four of those polled supported a new after-school program proposal.
+Based on the sample, which of the following is the best estimate of the number of school board members
+in the district who supported the proposal. So we know that we have a random sample and we know that
+out of 15 school board members, four of them supported the after-school program. This is asking us how many
+out of the entire school district with 60 board members would support the proposal. So we are going to set
+this sample ratio equal to the population ratio, which is going to be X because we don't know the amount
+that would support out of 60, which is the total number of school board members. Now we can simply do
+cross multiplication. This is going to give us 240 is equal to 15 X, divide both sides by 15, and we are
+going to get X equals 16. So the best answer choice that matches up with what we got is answer choice C.
+Now let's go ahead and see if that's right. And it is. Alternatively, you can solve this problem in
+Desmos using regression. If we know that the sample population is four out of 15, we can set that
+approximately equal to the total population, which is X out of 60. We'll call this X one out of 60. Notice how it
+gives us the regression parameter of 16, just like that. This is a faster way of calculating numerical sample
+generalization. And just to preface, this Desmos strategy works for all the subsequent practice
+problems that we are about to take on. So you can always apply regression to any of these practice
+problems. Before we do this problem, go ahead and try it yourself. A random sample of 500 town voters were
+asked if they plan to vote for candidate X or candidate Y for the mayor. The results were sorted by gender
+and shown in the table below. The town has a total of 5000 voters. Based on the table, what is the best
+estimate of the number of voters who plan to vote for candidate X? I can see that there are 265 females and
+45 males that plan to vote for candidate X. So that's going to be 265 plus 45, or in other words, 310
+total voters that plan on voting for candidate X. Now this is out of a random sample of 500 voters. So
+this is going to be 310 out of 500. And this is going to be the random sample amount of people that vote
+for candidate X. We are going to set this random sample ratio equal to the population ratio, which is going
+to be the amount of people that vote for candidate X, which is an X amount out of 5000. Now that we have
+this, we can simply cross multiply, or we can set up a regression model. Since I want to save myself some
+time, I'm going to go ahead and just enter this as regression. So this is going to become 310 out of 500.
+It's approximately equal to X1 over 5000. Here I can see that my regression parameter is 3100. So the number
+of people in the population that plan to vote for candidate X is equal to 3100. Now let's go ahead
+and see if that answer is right. And it is. Before we do this problem, go ahead and try it yourself.
+In state Y, Ms. Rivera's sixth grade class consisting of 30 students was surveyed and about 40% of the
+students reported that they own a pet. The average sixth grade class size in the state is 30. If the
+students in Ms. Rivera's class are representative of students in the state's sixth grade classes and there
+are 2200 sixth grade classes in the state, which of the following best estimates the number of sixth
+grade students in the state who do not own a pet. So let's first break down this sample. Out of the 30
+students in the sample, we know that 40% own a pet. So 30 times 0.4, that is going to give us 12. So we
+know that 12 out of 30 own a pet in the sample, but we are looking for the amount of sixth grade students
+who do not own a pet. So we know that if 12 out of 30 own a pet, we're going to have 60% or in other words,
+18 out of 30 who do not own a pet. And this makes sense because 12 plus 18 adds up to 30. So 18 out of
+30 is our sample of the students in Ms. Rivera's sixth grade class who do not own a pet. And since this
+is representative of the entire population, we can set this equal to the population ratio. Now the population
+ratio, we are looking for this number of students who do not own the pet. So that's going to be x. Out of
+the number of sixth grade students, there are 2200 sixth grade classes. However, we can't just put 2200
+there. We need to look back at a previous part of the problem that says the average sixth grade class
+size in the state is 30. So we actually need to multiply 30, which is the amount of students in every class
+by 2200 to get our total population. Doing this, what we need to do is cross multiply. I'm going to go ahead
+and take a shortcut on Desmos and enter it through regression. I'm going to type 18 over 30 is
+approximately equal to x1 over 30 times 2200. This is going to give us that x1 is equal to 39,600. And
+that is going to be the amount of sixth grade students in the state who do not own a pet. So the answer
+choice that best matches up with that is answer choice C. Now let's go ahead and see if that's right.
+And it is. Before we do this problem, go ahead and try it yourself.
+The table shows the results of a poll. A total of 400 voters selected at random were asked which of the
+candidates they would vote for in the upcoming election. According to the poll, if 10,000 people
+vote in the election, by how many votes would Maya Chen be expected to win? First, what we need to do is we
+need to set up our ratio. We know that the sample population out of the 400 voters, we know 260 would
+vote for Maya Chen. We need to set that equal to the population. So out of the population, there's going to be
+10,000 people and we are looking for how many people would vote for Maya Chen. So we can go ahead and
+cross multiply. I'm going to enter this into Desmos so that regression can solve it really fast. We have
+260 over 400 is approximately equal to x over 10,000. That is going to give us a regression parameter of
+6,500. Meaning that 6,500 people in the population would vote for Maya Chen. So is this our answer?
+Well, not quite. Because the question is asking by how many votes would Maya Chen be expected to win?
+What this means is that we actually need to calculate how many people in this pool would vote for Jordan
+Lee. And then we need to find the difference between the two and that's how many votes Maya Chen would be
+expected to win by. If 6,500 are expected to vote for Maya Chen, then we know 3,500 are going to vote for
+Jordan Lee. Because 6,500 plus 3,500 is going to equal our total of 10,000. Therefore, Maya Chen is going to
+win by 6,500 votes minus 3,500 votes, which is the difference between the amount of votes of the two
+candidates. And this is going to give us 3,000 votes. So our best answer choice that supports what we got
+is answer choice B. Now let's go ahead and see if that's right. And it is.
+

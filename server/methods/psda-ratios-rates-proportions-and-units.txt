@@ -1,0 +1,310 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: PSDA
+SKILL: Ratios, rates, proportions, and units
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - Ratios, rates, proportions and units -Rates-E.txt
+--------------------------------------------------------------------------------
+Let's talk about ratios, rates, proportional relationships, and units.
+More specifically, let's talk about rates.
+A rate is a ratio that compares two different kinds of units, such as miles per hour or days per orbit.
+We can use dimensional analysis to solve for the unknown.
+For example, if it gives us 20 miles per hour and 5 hours, we would need to solve for miles.
+Now, how do we do this?
+If we have 20 miles per hour and we need to solve for miles, we can simply just cancel out hours using dimensional analysis.
+We can put 5 hours on the top and put that over 1.
+When we multiply these two, the hours are going to cancel out and we are left with the amount of miles, which is 20 times 5, which is 100 miles.
+Now that we understand a little bit more about rates, let's go ahead and try on a problem.
+The population density of Riverdale is 3,200 people per square mile.
+Riverdale has a population of 128,000 people.
+What is the area in square miles of Riverdale?
+I know that we have a population of 128,000 people.
+I'm going to go ahead and put that over 1.
+I also know that we have a population density of 3,200 people per square mile, and we are looking for the square miles.
+So what we can do is we can use the conversion factor to solve for square miles.
+If we multiply 128,000 people by 3,200 people so that the peoples cancel out per 1 square mile.
+And notice how when we do this, both the people are going to cancel out and we are only left with what the square miles are.
+We'll get 128,000 divided by 3,200.
+And once we plug that into the calculator, that is going to give us 40 square miles.
+So our best answer is going to be answer choice A.
+Now let's go ahead and see if that's right.
+And it is.
+An important note is that this question can be presented in different forms.
+For example, it could have instead given area and you would have had to need to find the population.
+Before we do this problem, go ahead and try it for yourself.
+The population density of Norway and people per square kilometer, so people per square kilometer, of land area increased from 12.4 in 1990 to 14.8 in 2020.
+During this time period, the land area of Norway was 304,282 square kilometers.
+By how many people did Norway's population increase from 1990 to 2020?
+So first, I'm noticing that we have a change in people per square kilometer of land area.
+And this is from going from 12.4 to 14.8.
+So let's go ahead and find that change.
+We do 14.8.
+We subtract that from 12.4.
+We are going to get 2.4, which is the population density change.
+Or in other words, the people per square kilometer.
+Now we know that we can set up a conversion factor in order to isolate for Norway's population.
+If we have 304,282 square kilometers, we can multiply that by the one square kilometer being equivalent to 2.4 people.
+And this is going to let the square kilometers cancel out and we are only going to be left with Norway's population.
+This is the same thing as 304,282 times 2.4.
+And when we enter this into the calculator, we get 730,277.
+And the best answer choice that matches what we got is answer choice B.
+Now let's go ahead and see if this is right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+A sample of granite has a density of 2,691 kilograms per cubic meter.
+The sample is in the shape of a cube, where each edge has a length of 0.4 meters.
+To the nearest whole number, what is the mass in kilograms of this sample?
+So first, I'm noticing that we have a density of 2,691 kilograms per cubic meter.
+So I'm just going to go ahead and write meters cubed.
+Now we are also given that the sample is a shape of a cube, with each length being 0.4 meters.
+If I multiply 0.4 times 0.4, which gives us the area, times 0.4, which gives us the volume in meters cubed,
+we are going to get 0.064 meters cubed.
+We can go ahead and turn that into a conversion factor to find the kilograms.
+If we multiply the density by 0.064 meters cubed over 1, the meters cubed are going to cancel,
+and we are left with the amount of kilograms in the sample.
+This is going to be 2,691 times 0.064.
+When we enter that into the calculator, we are going to get 172.224, or in other words, 172 as our answer.
+And the closest answer in the answer choices that match up with that is answer choice A.
+Now let's go ahead and see if that's right.
+And it is.
+An important note is that this question can be presented in different forms.
+For example, it could have given you the mass and the density, and if it did so, you would need to find the length.
+What are multivariable rates?
+Some rates are defined by the product of two different values.
+For example, mass times newtons.
+These rates are the same as ratio rates.
+Just remember dimensional analysis rules.
+Usually, we might have a normal rate, which is 20 miles per hour.
+Notice how one rate is being divided by another.
+These rates are special because instead of being divided, they are being multiplied.
+So this would be 20 kilograms times newtons.
+So this is a special rate, and it's called a multivariable rate, but it is still a rate nonetheless, and you can still use dimensional analysis to solve the problem.
+Before we do this question, go ahead and try it for yourself.
+For an electric field passing through a flat surface perpendicular to it, the electric flux is the product of the electric field's strength and the area of the surface.
+A flat surface consists of two adjacent squares, where the side length of the larger square is three times the side length of the smaller square.
+An electric field with strength 120 volts per meter passes uniformly through the surface.
+If the total electric flux through the surface is 12,000 volts times meters, what is the electric flux in volts times meters through the larger square?
+This question has a lot of information and a lot to unpack, so let's go ahead and break it down sentence by sentence.
+For an electric field, the electric flux is the product of the electric field's strength and the area of the surface.
+So let's first write down this equation. We know that the electric flux, I'm going to call it EF, is equal to the product, which just means multiplying, the electric field strength, so we'll call that field strength, multiplied by the area of the surface.
+So field strength times area. A flat surface consists of two adjacent squares, where the side length of the larger square is three times the side length of smaller squares.
+So let's draw this out. We have two adjacent squares. We have a smaller square and we have a larger square.
+The smaller square has side lengths that are three times smaller. So let's just say that the smaller square has a side length of X and the larger square has a side length of 3X since it's three times the side length.
+An electric field with strength 120 volts per meter passes uniformly through the surface. The electric field strength is equal to 120. If the total electric flux through the surface is 12,000 volts times meters, what is the electric flux in volts times meters through the larger square?
+It is also giving us the total electric flux. So we'll call this total electric flux. And this is equal to 12,000. Well, notice how it's giving us total electric flux and it's giving us the field strength. Based off of this equation, we can calculate the total area. If we divide 12,000 by 120, we are going to get 10. And 10 meters is going to be the total area of this surface.
+However, we need to find the area of the larger square and not the area of the total thing. So how do we find the area of the larger square? What is this area? This total area? We know that the smallest square area is X times side length X. And the larger square area is 3X times side length 3X. So in other words, the total area of this shape is X times X plus 3X times 3X. And this is going to be equal to 10. So in other words, the total area of this shape is X times X plus 3X times 3X. And this is going to be equal to 10.
+10, which is the total area. Now we can go ahead and simplify this even more. This is equivalent to X squared plus 9X squared equal to 10. In other words, 10X squared is equal to 10. This means that X when we divide by 10 and we take the square root is going to be equal to 1. So X is equal to 1. Let's go ahead and circle that because that's pretty important. Now we can plug in X to the larger square to find out the area of the larger square.
+Well, if we plug in X, we're going to get 3X times 1. And then we're going to get 3X1 for the other side. And we know that the area is just the length times the width. And for a square, it's the same. So it's going to be 3X3, which is 9. So the area of the larger square is 9. And the area of the smaller square, well, since it's just 1, it's going to be 1X1, which is 1. And this makes sense because 9 plus 1 is 10, which is the total area.
+Now that we know the area of the larger square, let's go ahead and put that back into this equation over here to find the total electric flux of the larger square. We are looking for electric flux. We need to multiply that by the field strength. Well, the field strength was actually given over here.
+So 120 and it remains the same throughout. So we have the same field strength, 120, multiplied by the area of the larger square, which is 9. So that is going to give us 120 times 9. And if we enter that into the calculator, we are going to get 1080.
+So the electric flux of the larger square in volts times meters is 1080. Now let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - Ratios, rates, proportions -Proportional Relationships-E.txt
+--------------------------------------------------------------------------------
+Let's talk about ratios, rates, proportional relationships, and units. More specifically,
+let's talk about proportional relationships. Proportional relationships are defined by the
+formula y equals kx, where k is the constant of proportionality or the unit rate. For example,
+if we had y equals 20x, this would be a proportional relationship, because whatever x is,
+y is going to be a proportional amount to that, but just either bigger or smaller. In this case,
+y is 20 times bigger than x. Now that we know a little bit more about proportional relationships,
+let's try it on a practice problem. The weight of an object on Mars is approximately two-fifths of
+its weight on Earth. The weight of an object on Saturn is approximately 19-fifths of its weight on
+Earth. If an object weighs 200 pounds on Earth, approximately how many more pounds does it weigh
+on Saturn than it weighs on Mars? First, let's set up our proportional relationships. We know that on
+Mars, the weight of an object is approximately two-fifths of its weight on Earth. This is going to look like
+two-fifths times 200, because 200 is how much the object weighs on Earth. This is for Mars. Let's label
+this M. For Saturn, an object is going to weigh 19-fifths times 200. So, in both of these scenarios,
+we have a proportional relationship. Earth is equal to two fifths times 200 of Mars and Earth is also
+equal to 19 fifths times 200 of Saturn in terms of weight. Now we need to find out how many more
+pounds does it weigh on Saturn than it weighs on Mars. So we simply just take the weight of the
+200 pound object on Saturn and we subtract that from the weight of the 200 pound object on Mars.
+When we plug that into the calculator, we are going to get 680. So answer choice A, B, and D are wrong,
+680 would be our best answer. And let's go ahead and see if that's right. And it is.
+Before we do this question, go ahead and try it for yourself.
+For a certain rectangular region, the ratio of its length to width is 5 to 2. If the width of the
+rectangular region increases by four units, how must the length change to maintain this ratio?
+First, we need to identify what our proportional relationship is. We know that we need to have a
+relationship that looks like y equals k times x. In this case, the problem states that the ratio of
+the length to the width, so the length to the width, is equal to 5 over 2. Well, what is this the same
+thing as? This is the same thing as saying if we multiply w on both sides of this equation, length is
+equal to 5 halves of w. And as you can see, this is similar to our proportional equation right here,
+y equals kx. So now we have an equation of proportionality. Now I want us to know what's
+going to happen to the length of the rectangular region if the width increases by four units.
+So we can go ahead and just plug it into our proportional equation. We know that l is equal to
+5 halves w. Now if our width increases by four, we know that l is going to be equal to 5 halves
+times w plus four, since the width increases by four. If we multiply this out, we're going to get
+length is equal to 5 halves of the width plus 20 over two, which is the same thing as length is equal to
+5 halves of the width plus 10. Therefore, when the width increases by four, the length will increase
+by 10. So we are looking for an answer choice that says that the length must increase by 10. The only
+answer choice that says that is not answer choice A. Answer choice B is right. Answer choice C and answer
+choice D are both wrong. Now let's go ahead and see if this is right. And it is. Some proportional problems
+involve a value that doubles or triples repeatedly over time. This is a form of exponential proportionality.
+For example, in our original proportional equation, we have y equals kx. However, in the special form of
+exponential proportionality, rk is being multiplied over and over again, and it's showing an exponential
+function. In this example, we have y equals 2 cubed times x. This means that y is equal to 2 times 2 times
+2 times x and is showing that exponential relationship. Before we do this problem, go ahead and try it for yourself.
+keisha deposited x dollars in her investment account on january 1st 2010 the amount of money
+in the account tripled each year tripled each year until keisha had a thousand eighty in her
+investment account on january 1st 2013 what is the value of x so i know that we have an equation
+of proportionality which is y equals kx we start with x dollars in our investment account so we
+don't know what this amount is and this is the amount that we're looking for the amount of money
+in our account tripled each year this is going to be our k number so x times three and that is going
+to be equal to a thousand eighty because a thousand eighty is what we are left in the investment
+account after three years because we started on january 2010 and we ended on 2013 so it's been three
+years but each year it's tripled so we need to cube this three to represent the three years that it's
+been tripling now we have an equation 27x because 3 cubed is 27 equals 1080 and solving for x we get
+40 as our answer so 40 was the initial amount of deposited dollars in her investment account now let's
+go ahead and see if this is right and it is alternatively we can solve this completely on
+desmos using regression first we know that keisha deposited x amount of dollars into her investment
+account so this is what we are looking for we are going to call this variable x1 the amount of money
+in the account tripled each year so we know that we need to multiply this by three until keisha had a
+thousand eighty in her investment account on january 1st 2013 since it goes from 2010 to 2013 we know that
+we've tripled for three years so we need to put three to the third power then we need to set this
+approximately equal to a thousand eighty through regression and using regression we can automatically
+calculate what the initial amount of dollars in her investment account was as you can see the
+regression parameters outputted 40 which is also the correct answer
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - Ratios, rates, proportions, and units -Ratios-E.txt
+--------------------------------------------------------------------------------
+Let's talk about ratios, rates, proportional relationships, and units. More specifically,
+let's go into ratios. A ratio is a comparison of two quantities, often expressed as a fraction,
+like a over b, which shows how much of one thing exists compared to another. When two ratios are
+equal, you can set them up as an equation, a over b equals c over d, to solve for a missing value.
+Then, what you can do after you set up these proportions is use cross multiplication.
+To solve for the variable in the proportion, multiply both sides by the denominator to
+isolate your unknown value. Here we can see an example of setting up a proportion. We know that
+2 blue over 3 orange is equal to 10 blue over x orange. What we do is we cross multiply the 2 blue
+and the x orange by the 3 orange and the 10 blue, which will give us 30 is equal to 2x. And then our
+x, when we solve it, x is going to be 15, and that is going to be our unknown variable. Now that we know
+a little bit more about setting up proportions and cross multiplication, let's go ahead and try this
+on a practice problem. For a person m miles from a flash of lightning, the length of the time interval
+from the moment the person sees the lightning to the moment the person hears the thunder is k
+seconds. The ratio of m to k can be estimated to be 1 to 4. According to this estimate, the person is how
+many miles from the flash of lightning if the time interval is 32 seconds. So I automatically am noticing
+a ratio. I can set up the ratio of n to k, which is 1 to 4. And this is going to be equal to another
+ratio, which is m miles over our time interval, 32 seconds. Now that I've set up this ratio, I can go
+ahead and cross multiply to find my missing value. If I cross multiply these two numbers, I'm going to get
+1 times 32, which is 32. And this is going to be equal to the other side I cross multiplied by
+4 times m, which is 4m. If I divide both sides by 4, I'm going to get m is equal to a. So out of a, b, c,
+and d, d would be our best answer. And let's go ahead and see if that's right. And it is. Alternatively,
+you could solve this on Desmos using regression. First, I noticed that the ratio of m to k could be
+estimated to be 1 to 4. So I'm setting up my first ratio, 1 to 4. Then I'm going to set up my regression
+equation and set this approximately equal to how many miles over the time interval. So m miles,
+which is what we're looking for, over 32 seconds. As you can see, the regression outputs m automatically,
+and this is the correct answer. Before we do this question, go ahead and try it for yourself.
+The table above shows the amount of protein in two foods and the cost of each food. Based on the table,
+what is the ratio of the cost per gram of protein in almonds to the cost per gram of protein in walnuts?
+So first we need to set up the ratio. The ratio of the cost per gram of protein is 0.48 divided by 6,
+because there are 6 grams of protein and the cost per gram would be 0.48 divided by 6. And we need to set this
+equal to the cost per gram of protein in walnuts. In walnuts, there are 4 grams and the cost is 0.32.
+So we need to put that as 0.32 over 4. If we go ahead and do the math, we are going to get 0.48 divided
+by 6, which is 0.08 and 0.32 divided by 4, which is also 0.08. So now we know that this amount, 0.08, is also equal to 0.08.
+In other words, this ratio is 1 to 1. So our best answer choice here would be answer choice A. Now,
+let's go ahead and see if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+Carlos created a batch of pink paint by mixing 3 ounces of red paint with 5 ounces of white paint. He must mix a
+second batch using the same ratio of red and white paint as the first batch. If he uses 9 ounces of red
+paint for the second batch, how much white paint should Carlos use? I'm noticing that I can set up a ratio.
+If I put 3 ounces of red paint to 5 ounces of white paint for the first batch. In the second batch, I need
+to use the same ratio of red to white paint. I use 9 ounces of red paint and I don't know the amount of
+ounces of white paint that I should use. I can solve this ratio. If I cross multiply this fraction, I'm
+going to get 45 is equal to 3x or dividing both sides by 3, I get x is equal to 15. Going to the answer choices,
+I'm noticing that none of these say 15. So let's go ahead and read what they mean.
+Answer choice A says exactly 9 ounces. That's wrong. We need exactly 15.
+5 ounces more than the amount of white paint used in the first batch.
+Well, the amount of white paint used in the first batch is 5. And if we add 5 to that, that's 10, which is also not 15.
+So that's wrong. 1.67 times the amount of white paint used in the first batch.
+Let's go ahead and check that. The amount of white paint used in the first batch is 5.
+And if we multiply that by 1.67, we are going to get 8.35, which is the wrong number.
+Now let's go ahead and check answer choice D. 1.67 times the amount of red paint used in the second batch.
+We go ahead and multiply it by the amount of red paint used in the second batch, which is 9.
+We are going to get 15.03. And that is the closest number to x being 15.
+So answer choice D would be the right answer. Now let's go ahead and see if that's right.
+And it is. Alternatively, you can solve this in Desmos using regression.
+If we know that the ratio of red to white is 3 to 5, then we can go ahead and set up a regression equation.
+We know that 3 ounces of red paint over 5 ounces of white paint is approximately equal to the same ratio of 9 ounces of red paint over what we are looking for.
+We can go ahead and just call that x1. As you can see, the regression parameters automatically output 15.
+And once we go through all the answer choices, we will realize 9 times 1.67, which is the amount of red paint, multiplied by 1.67 is closest to our regression parameter of 15, which is the right answer.
+So this is another way we can solve this problem.
+Ratios still stay the same with only variables. Just remember to manipulate the equation.
+Let's go ahead and try this on a practice problem.
+The ratio of P to Q is equivalent to the ratio of R to S.
+When R is equal to 3P, what is the value of S in terms of Q?
+Well, we know that the ratio of P over Q is equivalent to the ratio of R over S.
+When R is equal to 3P, so we can replace R right here with 3P, what is the value of S in terms of Q?
+So we know that P over Q is equal to R, which is also 3P over S.
+And now we need to find the value of S.
+If we multiply both sides by S, we are going to get 3P is equal to S times P over Q.
+If we multiply both sides by Q over P, we are going to get 3PQ over P is equal to S.
+Or, in other words, 3Q is equal to S.
+So the best answer choice here would be answer choice A.
+Now let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Rectangle P has a length 12 and width W. Rectangle Q has a length 16 and the same length to width ratio as Rectangle P, which had a length of 12 and a width of W.
+What is the width of Rectangle Q in terms of W? So we know that Rectangle P has a length of 12 and a width of W. Rectangle Q has a length of 16 and the same length to width ratio as Rectangle P.
+So if these have the same length to width ratio, we know that 12 over W is equal to 16 over W.
+Now what is the width of Rectangle Q? Rectangle Q would be this fraction right here, 16 over W.
+If we multiply both sides by W, we are going to get W times 12 over W equals 16.
+Then when we multiply both sides by W over 12, we are going to get W is equal to 16 over 12 W.
+Or in other words, W is equal to 4/3 W. The width of Rectangle Q is 4/3 times the width of Rectangle P.
+Out of all these answer choices, answer choice A best fits what we solve for.
+Now let's go ahead and see if this is right. And it is.
+Before we do this question, go ahead and try it for yourself.
+If 5a is equal to 3b and 4b is equal to 7c, what is the value of a over c?
+First, what we need to do is we need to find what a over c is. 5a, we know that 5a is equal to 3b.
+Now what we need to do is we need to find a way to connect the variable a to the variable c,
+because we are looking for the value of a over c. So let's see what we can do to manipulate this first
+equation. Let me just isolate for a. I know that 5a is equal to 3b. And I
+also know if we divide both sides by 5, we're going to get a is equal to 3/2 b. Now let's check this
+other equation. I know that 4b is equal to 7c. I also know that if we divide both sides by 4,
+we're going to get b equals 7/4 c. Now I can simply plug in b to the first equation so that we can relate
+a to c. If we do that, we are going to get a is equal to 3/5 times the amount of b, which is equivalent
+to 7/4 of c. Doing some math, we get a equals 21 because 3 times 7 is 21 over 5 times 4, which is 20,
+21 over 20c. If we divide c by both sides, we are going to get a over c is equal to 21 over 20. Therefore, the value of a over c is equal to 21 over 20.
+Therefore, the value of a over c is 21 over 20. Now let's go ahead and see if that's right. And it is.
+So let's see if we divide the value of a over c is equal to 21 over 20. Now let's go ahead and see if that's right. And it is.
+So let's see if we divide the value of a over c is equal to 21 over 20. Now let's go ahead and see if that's right. And it is.
+So let's see if we divide the value of a over c is equal to 21 over 20. Now let's go ahead and see if that's right. And it is.
+So let's see if we divide the value of a over c is equal to 21 over 20. Now let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - Ratios, rates, proportions, and units -Units-E.txt
+--------------------------------------------------------------------------------
+Let's talk about SAT problem solving and data analysis. More specifically, let's talk about
+ratios, rates, proportional relationships, and units. What is the goal of dimensional analysis?
+Well, first, what we need to recognize is that many word problems are actually just unit conversion
+questions in disguise. If we follow the units, the math will solve itself. Dimensional analysis
+is the process of using conversion factors to change the units of a rate without changing its
+actual value. A conversion factor is a numerical ratio or fraction equal to one that is used to
+convert a measurement from one unit to another. These are some common conversion factor examples.
+We have 12 inches to a foot, 100 centimeters to one meter, and one mile to 1.609 kilometers.
+For unit questions, we always need to start with dimensional analysis. And for dimensional analysis,
+let's remember to turn conversion factors into fractions. For example, what is one kilogram in
+grams, with the conversion factor being a thousand grams is equal to one kilogram? We start with what
+we are given. We are given one kilogram. Then we multiply it by the conversion factor,
+and place the unit that we want to get rid of in the opposite position. If the unit starts on the top
+of the fraction, put it on the bottom of the next fraction so that they cancel out. So we can see
+this process being exemplified in this picture. First, we start with what we are given. We are given
+one kilogram. Then we multiply this by the conversion factor of one kilogram is equal to a thousand grams.
+Because we do this, we are able to cancel out the kilograms because one kilogram is on the numerator
+and another kilogram is on the denominator. That is how we convert from kilograms to grams. And we are left
+with one kilogram equaling a thousand grams. Now that we know a little bit more about dimensional
+analysis and conversion factors, let's go ahead and try this on a problem. A research submarine is used for
+deep ocean exploration. When the submarine is at a depth of nine leagues, what is the submarine's depth in
+kilometers? With one league equaling 5.556 kilometers. Let's start with what we are given. We know that we are currently at a depth of nine leagues. Let's go ahead and put this over one.
+So we can more clearly see the fraction. We also know that we have a conversion factor, which is that one league is equal to 5.556 kilometers. And notice how I'm putting the league on the bottom of the fraction so that the leagues will cancel out. Once we do that, the leagues in the numerator and the league in the denominator cancel out. And we are left with the submarine's depth in kilometers. This is equal to nine multiplied by 5.556. If we go ahead and put that in the calculator,
+we are left with 50. So the submarine's depth in kilometers is approximately 50. Now let's go ahead and see if this answer is right. And it is. Sometimes we can do dimensional analysis multiple times in a row if needed. For example, if we need to go from gallons to teaspoons, we need to first convert gallons to cups and then cups to teaspoons. So it's a multi-step process. This would look like chaining fractions. Setting up one continuous horizontal
+equation where each unit cancels out the one before, leaving only the desired final unit at the very end. Before we do this question, go ahead and try it for yourself. How many teaspoons are equivalent to five gallons? With one gallon equaling 16 cups and one cup equaling 48 teaspoons. First, let's start with what we are given. We are given five gallons. Let's go ahead and put this over one to make the fraction more clear. Next, we are going to multiply it by the conversion factor. One gallon is equal to 16 cups.
+This is going to make it so that our gallons cancel and we are left with cups. However, we want teaspoons. We also know that one cup is equal to 48 teaspoons. So this is where I start chaining fractions. I can go ahead and put one cup on the denominator so that it cancels with the cups in the numerator. And then I'm going to put 48 teaspoons. In this scenario, the cups are also going to cancel and I'm going to be left with my final desired unit of teaspoons. This is the same thing as five times 16 times 48. If we go ahead and enter that into the calculator, we are going
+to get 3840 as our answer. Now let's go ahead and see if that's right. And it is. When converting area square units or volume cubic units, you must square or cube the conversion factor itself. This is a square conversion example. If one foot is equal to 0.348 meters, then one square foot is equal to 0.3048 times 0.3048 square meters. Here in this picture,
+we can see this process being exemplified. Notice how with one foot squared, we cannot just multiply it by one foot. We also need to multiply it by a conversion factor of one foot squared. And that is what this exponent is doing here. However, because we are squaring the foot, we also need to square the meters. Now we get 0.3048 squared. So this process is the same thing as one foot squared being multiplied by 0.09 meters squared. Before we do this question, go ahead and try it for yourself.
+The area of the area of the area of a rectangular garden is increasing at a rate of 500 square feet per hour. Which of the following is the closest to this rate in square meters per minute with one foot equaling 0.3048 meters. Let's start with what we are given. We are given that a rectangular garden is increasing at the rate of 500 square feet per hour. Now we need to find this rate in square meters per minute. Notice how we need to get to square meters and minutes. So both sides of our fraction
+need to change. So we're going to need to do a lot of converting. First, what we need to do is we can multiply it by the conversion factor of one hour being equivalent to 60 minutes. This will get our result in minutes. Doing this, I can cancel out the hours. Now I need to find a way to get it to square feet. I know that my conversion factor is one foot is equal to 0.3048 meters. But this is only a foot by itself. If I want to get rid of square feet, I need to multiply it by a conversion factor that also has square meters.
+So I know that I need to have 0.3048 meters squared on the bottom. So I know that I need to have 0.3048 meters squared on the top. But everything in this fraction is squared. So I also know that I need to square 0.3048. I can cancel out the feet squared. And I'm going to be left with my answer. This is the same thing as 500 times 0.3048 squared divided by
+60. Putting that into the calculator. Putting that into the calculator, we get 0.77419, which is approximately equal to 0.775. Our best answer choice then would be answer choice A. Answer choice B, C, and D are all off. Now let's go ahead and see if this is the right answer. And it is.
+

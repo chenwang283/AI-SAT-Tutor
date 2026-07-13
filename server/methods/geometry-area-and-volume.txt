@@ -1,0 +1,231 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Geometry
+SKILL: Area and Volume
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Area and Volume - Cones & Pyramids.txt
+--------------------------------------------------------------------------------
+Let's talk about the volume of cones and pyramids. Now cones are simply one-third the volume of a cylinder with the same dimensions as said cone, and pyramids are simply one-third of the volume of their respective prism.
+So let's practice. A right circular cone has a height of 15 centimeters and a base with a diameter of 8 centimeters. The volume of this cone is n times pi centimeters cubed. What is the value of n?
+Okay, so let's solve this question. So what is the volume of a cone? The volume of a cone is one-third base times height.
+Now in this question, we know that the height equals to 15. So height equals 15. Now we know that the base of a cone is a circle. So the base equals a circle.
+But in this question, it tells us the base of the diameter of 8. So we know that the radius is equal to half of that. So radius equals 4.
+So the base equals pi r squared with the radius equaling to 4. So let's plug everything in that we know.
+Volume equals one-third pi 4 squared times 15. Now let's solve this out. So one-third of 15 is 5. So volume equals pi, and then 4 squared is 16. So 16 times pi times 5.
+So volume equals 80 pi. So volume equals 80 pi. And because the volume of this cone is n pi, we know that n equals to 80.
+Let's talk even further about cones, specifically the slant height. The slant height of a cone is the distance between the tip of the cone down along its slanted side to the edge of the base. So if we have a cone like this, the slant height would be from the tip all the way down to the base. So this length right here and this length right here.
+Now between the triangle formed between the height, slant height, and radius is a right triangle. So imagine if we had the height right here and we had the radius of the circle right here. This triangle that I just drew is actually a right triangle because a vertical line and a horizontal line has a right triangle in between. So right here between the height and the radius.
+Because that triangle has a right triangle between the height and the radius, the Pythagorean theorem applies. Please refer to the right triangle's geometry unit to learn or review right triangles, specifically the Pythagorean theorem, if you want to refresh or to review on it.
+So mathematically, because this is just a right triangle, the Pythagorean theorem applies. R squared plus H squared equals S squared, aka A squared plus B squared equals C squared, because the slant height is the hypotenuse.
+This is because it is the longest side, opposite of the right angle. So the problem gives you any of the two, R or H, you can solve for the third one, for example S.
+So let's practice. A right circular cone has a volume of 48,000 pi cubic centimeters, and the area of its base is 3,600 pi square centimeters. What is the slant height in centimeters of this cone?
+Okay, so let's write out what we know. We know that the volume of a circular cone equals 1/3 base times height. Well, what is the base in this case? Well, it tells us that the area of the base is 3,600 square centimeters.
+The base equals, because it's a circle, the area of a circle is pi R squared. Well, we know that the base is equal to 3,600 pi, which is equal to pi R squared.
+So, canceling out the pi's, we get that R squared equals 3,600. So R equals the square root of 3,600, which is 60. Now, knowing this information, we can plug everything that we know in here and solve for the height.
+Because remember, in order to get the slant height, we must know the height and the radius. So we need to solve for the height since we already have R.
+Now, let's plug everything in so we can solve for that. So we know that the volume equals 48,000 pi, which is equivalent to 1/3, the base, 3,600 pi times the height. And we need to solve for height. So let's solve this. Let's distribute this out first.
+We get that 48,000 pi is equivalent to 1,200 pi h. And now, after dividing both sides by the coefficient in front of h, we get that h equals 40.
+Now we can finally solve this question. We know that h is 40, and we know that the radius is 60. So now we have a right triangle. So now let's solve this question.
+We use the pi-diagonal theorem now. A squared plus b squared equals c squared. So 40 squared plus 60 squared equals the slant height squared. So slant height squared.
+So, the square root of 40 squared plus 60 squared equals the slant height. All I did was take the square root of both sides. Now, slant height equals the square root of 5,200.
+Now, look at these answer choices. It is obviously not a, not b, and not c, because this isn't a perfect square.
+If we were to put this in the calculator and see what 20 root 13 and square root of 5,200 is equal to, those two values will be equal to each other.
+So the answer is d. However, if you wanted to just simplify this without looking at the answer choice, you'd have to recognize that 5,200 is equivalent to 400 times 13.
+And then, because there's a square root on the outside, we can take the square root of 400, which leads us to 20 root 13. And that is d.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Area and Volume - Cube and Sphere.txt
+--------------------------------------------------------------------------------
+Let's talk even more about volume. The volume of a cube is simply the length of one side cubed.
+This means that the volume of a cube is equal to side cubed.
+So if we're given the length of one side of the cube, the volume of that cube would be 4 times 4 times 4, which gives us 16.
+A cube is basically the 3D version of a square, so the same side length applies.
+Now let's talk about the volume of a sphere.
+For the volume of a sphere, you can just refer to the formula chart or plainly memorize the formula of a sphere, which is 4/3 pi r cubed.
+So let's practice these two concepts. A cube has an edge length of 54 inches. A solid sphere with a radius of 27 inches is inside the cube, such that the sphere touches the center of each face of the cube.
+To the nearest cubic inch, what is the volume of the space in the cube not taken up by the sphere?
+Okay, so first let's visualize what's going on. So we have a cube, and then inside of this cube, we have a sphere that is perfectly embedded,
+so that each of the sides of the sphere is touching the center of the cube. So the question is asking us, what is the volume of the space in the cube not taken up by the sphere?
+So this area right here, this area right here, this area right here, and the area hanging over here that we cannot see. So how do we solve this question? Well, we need to find the volume of both of these shapes.
+And then what we can do is we can take the volume of the cube minus the volume of the sphere, and that would give us the empty space. So what is the volume of a cube?
+The volume of a cube is equal to side cubed. And the volume of a sphere, and we can refer to the formula chart, or we can plainly memorize this, is 4/3 pi r cubed.
+So let's plug in and let's solve. So the side length is 54 inches, so 54 cubed minus 4/3 pi, and in this case the radius is 27 cubed. So let's evaluate. So 54 cubed, after putting in the calculator, is 157,464, minus 4/3 pi times 27 to the third.
+Now after we put this into the calculator as well, we get that the volume of the sphere equals approximately 82,448. So we need to take these two numbers and subtract them from one another. Taking 157,464 minus 82,448, we get approximately 75,016. And that is A.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Area and Volume - Perimeter & Circum.txt
+--------------------------------------------------------------------------------
+Let's talk about perimeter. Imagine that we have a rectangle. The perimeter is simply the length of
+the outside edge of the shape. So for this rectangle, we have the width and we have the length. To get
+the perimeter, we simply need to add all of the sides up. This means adding width plus length plus
+width plus length. Now this is how the perimeter works for all shapes. All we need to do is add up
+the length of every single side. Let's practice. A rectangle has a length of 17 and a width of 9.
+What is the perimeter of the rectangle? So given this question, let's first start off by drawing a
+diagram. So let's draw this rectangle. Now we need to label the length as 17 and the width as 9.
+Now adding up all the sides of this rectangle, we know that this width is 9. This side is also 9.
+We know that the length is 17. This length is also 17. So adding it all together, we get 17 plus 17
+plus 9 plus 9. This is 34 plus 18, which gives us 52. So the answer is C.
+Now let's talk about circumference. When the SAT asks about the circumference of a circle, just remember
+that this is just asking for the perimeter of a circle. So circumference is just a fancy way to say
+perimeter, but specifically for a circle. The circumference is merely the length of the outside
+shape of a circle. So imagine like this. Imagine taking a circle and rolling it out until the outside
+becomes a straight line. That is what the circumference is measuring. To understand circumference, we need
+to understand the radius and the diameter of a circle. The radius is simply the distance from the center of
+the circle to the edge of the circle, illustrated right here. Notice how we have the middle of the circle
+with a straight line drawn out to the edge. And the diameter is the distance straight across the center
+of a circle from one edge to another. Now the circumference of a circle is equivalent to 2 pi r, or in other words, pi d.
+2 pi r means 2 times pi times the radius, or in other words, pi times the diameter. Now note here how the
+diameter is actually just two radiuses added together. So the diameter equals 2 times the radius. So in this
+equation to understand this we see that, oh, this pi d, if we substitute it in what d is equal to, it would
+just simply equal 2 pi r. So let's practice. The three points shown to find a circle. The circumference of
+this circle is k times pi, where k is a constant. What is the value of k? Okay, so we know that the circumference
+of the circle is equal to k pi. Well, this looks like one of the formulas that we recognize for the circumference of a circle.
+So k pi looks a lot like pi d, or pi times the diameter. So in this question, we know that k equals the diameter.
+So looking over at this graph, all we need to do for this circle is find the diameter. Well, we know that the diameter is just the
+distance from one of the points on one edge all the way to the opposite point that crosses the center. Okay,
+because these three points define a circle and we see that these are opposite from each other, we know that
+from this point to this point, that is the diameter. So right here is 11 and right here is 1. So the distance between these two is 11 minus 1, which equals 10. So the diameter equals 10. Therefore, k in this circumference of the circle is also equal to 10.
+So the answer is b.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Area and Volume - Scale Factor .txt
+--------------------------------------------------------------------------------
+Let's talk about scale factor. A scale factor tells us how much a figure has been enlarged or reduced. If every side is multiplied by the same number, the shape keeps its form. That means that the figures are similar. For example, if we have a triangle that looks like this, and we multiplied every side by a scale factor of 2, then the resulting shape would look like this, and these two figures would be similar.
+If the scale factor is equal to 1, the figures are exactly the same, and they are the exact same size and the exact same shape. The name for this is congruent.
+So, to figure out the scale factor, we need to set up a ratio. We need to choose an order and then put one number over the other. Like for example, small over big. In this example, we take the small over the big. So 10 over 15. We can also reverse it and do big over small too.
+Note that a proportion is just an equation showing that two ratios are equal. For example, right here, this is a proportion. It just shows that these two ratios are equal.
+So, here are the steps to find out the scale factor. Step 1, find two sides that correspond. In order for these two sides to correspond, the figures must be similar.
+In this case, let's just say we were told that these figures were similar. We know that these two bases correspond with each other. So then we can choose small over big.
+So now, step 2, we choose an order. Like for example, small over big. And step 3, use that same order that we just chose in order to put the small over the big one to figure out the scale factor.
+So, let's practice. For these two triangles shown, the small base equals 10 and then the large base equals 15. In order to find the scale factor
+to get from the small to the large triangle, we need to put the large over small. So, in this case, 15 over 10. And this tells us the scale factor is 3 over 2, which is equivalent to 1.5. That means that the larger triangle is 1.5 times as large as the smaller one.
+We can also go in reverse. In order to find the scale factor from the large to the small, we just flip the ratio. So, we put small over big. So, we get 2/3. This means that the smaller triangle is 2/3 of the larger one. Now, the scale factor depends on which figure we are talking about. If we are talking about the small one going over to the big one, we would say that the scale factor or the ratio between them is a 1.5 times difference. If we were referring to the big one and we were trying to figure out the big one, we would say that the scale factor or the ratio between them is a 1.5 times difference.
+If we were referring to the big one and we were trying to go back to the small one, we would say that the small one is 2/3 as big as the big one.
+Now, here is a very, very, very important property of scale factors that the SAT loves testing you on. If a shape's sides are multiplied by k, its area is then multiplied by k^2. For instance, doubling side lengths k=2 increases the area by a factor of 4. So really, really, really hammer this relationship into your head.
+Now, this also applies to volume. If the side lengths of the figure are multiplied by k, the area scales by k^2, but the volume scales by k^3. Remember, this rule only applies if all the sides of the figure is multiplied by that same ratio of k. So always try to find the scale factor or ratio between side lengths first.
+Especially if the question tells you that the two shapes are similar, then you know that there must be a scale factor. And knowing that scale factor helps you know the relationship between their area and their volume.
+So, let's practice. Square A has side lengths that 135 times the length of square B. The area of square A is k times the area of square B. What is the value of k?
+Okay, so knowing that square A is 135 times as big as square B. This is referring to the side lengths. So we know that the scale factor is 135.
+So, what do we know about the relationship between the scale factor and the area? We know that if two shapes are similar or that all of their sides are being multiplied by the exact same scale ratio, then the relationship between the area of one of the figures and the other one is just that scale factor squared.
+So, in this case the question asks you is the area of square A is how many times the size of area of square B. So in this case it would be 135 squared times as big. So this gives us 18,225.
+Now before we move on, let's actually take a moment to prove the rule that I just told you earlier about scale factor and how scale factor affects area by a factor of k squared. Let's prove it.
+So let's set imaginary values to square A and square B and see how this works. So square A just needs to have a side length that is 135 times as great as the side length of square B.
+So let's just say that side length A has a value of 270 and let's say B has a value of 2. So side length of square A is indeed 135 times as great as side length of square B.
+Now let's solve for the area. The area is just a side length squared. So 270 squared and 2 squared. Well, we know that 270 is actually 2 times 135. And 2 is obviously just 2 squared.
+Now if we want to distribute out this exponent, we get 2 squared times 135 squared. And notice how here the only difference between these two areas is literally this 135 squared here, which is our k value.
+It is the scale factor that we multiply both sides by. This is where this rule comes from. Let's practice a much harder question. Right rectangular prism X is similar to right rectangular prism Y.
+The surface area of right rectangular prism X is 50 centimeters. So surface area of X is 50. And the surface area of right rectangular prism Y is 800. So surface area of Y equals 800.
+The volume of right rectangular prism Y is 2048. So volume of Y equals 2048. What is the sum of the volumes in centimeters cubed of right rectangular prism X and right rectangular prism Y?
+So we need to solve for the volume of right rectangular prism X in order to add these two numbers together. So what relationships do we know? Well, it tells us they are firstly similar. So we know that every side was multiplied to get from X to get to Y. The sides were multiplied by a scale factor.
+So let's figure out the scale factor. Well, what do we know about the relationship between these two? We know that Y is K squared bigger than surface area of X because we are talking about area. So we know that 800 equals 50 times K squared because that's the ratio in which Y is bigger than X. So now we can solve for this scale factor.
+factor. K squared equals 16, so 800 divided by 50 equals 16, so K equals 4. Now we need to
+figure out the relationship between the volumes. Well in this question, we know that the volume of
+rectangular prism y equals to the volume of x times that scale factor cubed. So let's plug in what we know.
+2048 equals V of x, K to the power of 3. So V of x equals to 2048 divided by K to the power of 3. Well we know K is equal to 4, so 4 cubed is 64. So 2048 divided by 64. So the volume of rectangular prism x is equal to 32. So adding together the volumes 2048 plus 32,
+equals 2080. So just a quick summary of what we did and how we got here. We were told in the question that these two shapes were similar to each other. So because they're similar to each other, we now know that there is a scale factor between the two. Now given the area and the volume, we know both of the areas. So therefore we're able to figure out exactly what the scale factor is. We know that the bigger one equals to the smaller one times that scale factor squared because of the property that we just learned.
+With that we can solve for what that scale factor is. Then with the volumes, we can do a similar process but this time we know that K is being cubed and we know the value of K, we just don't know V of x. So we can plug in everything we do know and isolate for V of x. So adding those two together we get 2080.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Area and Volume - Surface Area.txt
+--------------------------------------------------------------------------------
+Let's talk about surface area. So the bad way to remember surface area is simply to memorize every single one of the formulas for every single one of the shapes. Like for example, oh the formula for a cylinder is 2 pi r squared plus 2 pi r h, and then you would have to memorize the formula for a rectangular prism, and then you have to memorize the formula for a cone, so on and so forth.
+That is a bad way to remember the surface area of any shape because it relies on pure memorization, and if you forget one of them, you're basically done for. So instead of plainly memorizing every single one of the formulas, it is better to understand where they come from. The surface area is simply turning or unfolding all of the sides of a 3D shape into 2D flat sheet, like a sheet of paper. So imagine this cylinder, if we had to take it apart, there would be two circles, and then this area right here would be folded out into a sheet of paper.
+paper like this, like a rectangle. Now with this, we are able to find the individual areas of each of these shapes. The areas of a circle are pi r squared, and then the rest of the cylinder would be able to be turned into a rectangle, in which the length is the perimeter of the circle, or also known as the circumference, and the width being the height.
+So, with that being said, let's test ourselves. These formulas are not for you to memorize, these are for you to get familiar with, and try to understand and explain where each component of each of these formulas come from. So take a moment to look through these formulas, and try to derive how we would get this by turning the shape into a 2D sheet of paper, and then deriving each formula.
+each formula. Okay so let's talk about each one of them. So let's start with the
+cube. A cube is pretty straightforward because a cube is simply this right here
+with six sides that are all squares. So it is simply the area of a square which
+is s squared or the side squared and because there are six of them we have six
+times s squared. That's the volume of a square. Now let's talk about the
+rectangular prism. So in order for us to get the volume of a rectangular prism,
+let's start by drawing it out and understanding where these come from. So, so
+here's our rectangle. Given this rectangle we know that the sides opposite to each
+other are congruent. So this side is opposite to the side sitting right here
+that we can't see. This top right here is congruent to the opposite side, the
+rectangle sitting underneath and this side right here is opposite and congruent to
+the same base on this side. So there are two of each type of rectangle. Now each of
+these rectangles means something different. This is the length, this is the width and
+this is the height of this rectangle. So the area of these two rectangles, this one
+and the one in the back, is width times length. So there's two of width times length. Then, looking at this rectangle right here, we know that this one is congruent to the one that we can't see on this side.
+And this rectangle is width right here times height. So plus two width times height. And lastly, the rectangle sitting on top and on bottom is height times length. So two times height times length. And we will see that all this is, is the area of all the rectangles that are present in this rectangular prism.
+So memorizing this plainly would be a little bit difficult. But knowing where this formula comes from makes the job a whole lot easier. Now we already covered how to get this volume of a cylinder. So I'm not going to cover it again. Now let's take a look at this pyramid. Now this pyramid is a little bit different. Because this is where it gets a little bit tricky. This is actually the volume of the pyramid once you combine all the like terms and simplify it the most mathematical way possible. So let's draw a pyramid and see how this works.
+works. Here is our pyramid and now if we were to lay this out into 2D shape we would see that there
+are four triangles and one base. Now this base could be a rectangle and it could be a square so
+in this case let's just say that it is a rectangle. So let's pretend that this is length and this is
+width and that they are different. So how do we get the surface area of this pyramid? Remember it
+is the area of all the shapes added together. So let's start with the base because that's the most
+straightforward. The base is simply width times length which in this formula as we can see is just
+the base with the base being whatever this is. Then we would have to add together all four of these
+triangles. Well what is the area of these triangles? Let's start with this one right here. Well the area
+of this triangle out in front so I'm going to label this triangle one right here this one right in front
+of us is one half base times height. Now what is the height in this question? Well we don't know it but
+we know it is h. But we do know the base in this triangle would be l. So for this one it is one half
+l times h. Now let's move on to triangle number two. So this triangle on the side or this triangle on the
+side. We see that they both share the same base which in this case is w and of course they share the same
+height which is this slant height. So for triangle two right here which is on this left side facing
+let's write out the formula. One half base times height. Remember height in this case is not the
+height of the pyramid it is the slant height because we are looking at the triangle as if we drew it out
+in 2d and we laid it out on a sheet of paper. So for this the area would be one half width times that
+slant height. So let's actually label it as still h. But when we say h right now we really mean slant height. Now let's move on to the third triangle back here. What we notice is because the base is the same and the height is also that slant height, the area of this third triangle back here would be the equivalent to the area of this first one. And what we'll notice is that the area of the fourth triangle is also equivalent to this one right here. So if we were to write this out in long form, we would get one half length times height plus one half.
+Now let's move on to the third triangle back here. What we notice is because the
+base is the same and the height is also that slant height, the area of this third
+triangle back here would be the equivalent to the area of this first one.
+And what we'll notice is that the area of the fourth triangle is also equivalent to this one right here.
+So if we were to write this out in long form, we would get 1/2 length times height plus 1/2 length times height plus 1/2 width times height, or slant height, these are all slant height, plus 1/2 width times height.
+1/2 width times slant height. Now with all this being said, we can actually factor out something because they're all shared within all of these. We can actually factor out 1/2 times h, and then we keep the 2l plus 2w. Now what we actually notice is that this 2l plus 2w is actually just the perimeter of the base. Isn't the perimeter of this rectangle just 2w times 2l? So simplifying this down here, we're going to get the base.
+down some more. We get 1/2 h times perimeter. And that is where this formula comes from. To get the surface area of the pyramid, we first take the area of the base, which is just width times length. And then we add 1/2 slant height times p. So that is why the pyramid is written like this. Of course, when you are deriving this formula yourself, you're probably going to go through this process. And your equation is probably going to look like this.
+however, the correct answer may give it to you in this form right here, plus the base. So just be wary that these two are the same thing. Now, sadly, the volume of a sphere must be memorized. Because to prove this, you probably need a lot more than just basic proving. Because it is hard for you to lay out and to get a perfect sphere and turn that into a flat sheet of paper. So let's practice. The length of each edge of a box is 21 inches. Each side of the box is in the shape of a square.
+The box does not have a lid. What is the exterior surface area in square inches of this box without a lid? So this question tells us that each side of the box is in the shape of a square. This is super important because it means that this shape is actually a cube. So that makes this question much easier. We know that each side is 21 inches. So what is the surface area of a cube? Well, normally the surface area of the cube is 6 times the area of each side.
+which is just side squared. But because this question tells us that the box does not have a lid, we actually do not need to account for one of these squares. So we don't need to account for the top one. So we can subtract one of the squares. So the surface area or the exterior surface area of this box is actually 5s squared. So 5 times 21 squared equals 2205. Now let's practice a hard question. A right
+So the right rectangular prism has a length of 22 centimeters, a width of 11 centimeters, and a height of 14 centimeters. What is the surface area in centimeters squared of the right rectangular prism? Okay, so this is asking us the surface area of a right rectangular prism. So remember what this looks like. This looks like this, and we now have a bunch of different rectangles in which we need to get the areas of. And remember, this rectangle is equivalent to this rectangle in the back. This one is equivalent to this one on the left side. And this
+top one is equivalent to the one on the bottom side. Now we can put the labels together and then easily solve this question. So the length is 22 centimeters. So 22. The width is 11. And the height is 14. Now let's find all the possible configurations so that we know all the different rectangles added together. Let's start with this front one. Because there are two of them, we know the first part is 2 times, these measurements are 11 times 22. So 2 times 11 times 22.
+Now we need to add the next set of rectangles. So let's do this right one. For this rectangle on the right, we have 14 times 11. So 2 times 14 times 11. And lastly, the rectangle on top and the rectangle on bottom. For those, it is 14 times 22. So plus 2 times 14 times 22. Now after putting this into the calculator and evaluating, we get 1408. Let's practice a
+very hard surface area question. Two identical rectangular prisms. Each have a height of 135 centimeters. So we know that there are two identical rectangular prisms. Let's start by drying those out. So you know these are identical. The base of each prism is a square. Okay, so we know these are squared. So these are just side length, side length, side length, side length. And the surface area of each prism is k centimeters cubed. If the prism
+are glued together along a square base, the resulting prism has a surface area of 92 over 47 k cm squared. What is the side length in cm of each square base? Okay, so we're looking for the side length. Let's take a look at what we are given. We are being told that the surface area of each prism is k. So surface area in total equals k. We also know that the height of each prism is 135 centimeters.
+So 135 centimeters. It also tells us if the two prisms are glued together along the square base, the resulting prism has a surface area of 92 over 47 k. Okay, so let's figure out everything that we can do with this question. So let's start with setting up the surface area of the two when they are glued together. We know that at first, the total surface area, if we were to just combine the two surface areas of both of these, is 2 k. Since the surface area of 1 equals k. So 2 k.
+So 2 k minus the two squares that end up getting glued together because when we glue them together, two of these are now not showing. And now the two rectangular prisms look like this. So they're head butted into each other. We no longer account for this middle in between. So these two are 2 times s squared. Because one of the areas is s squared. And since we're getting rid of two of them, that's this right here. Equals, and we're being told, that is 92 over 47 k. Now in order to evaluate this, let's create a color.
+common denominator so we can actually combine like terms. So 2k is equivalent to multiplying its top and bottom by 47 over 47 because this is just 1. So we get 94 over 47k minus 2s squared equals 92 over 47k. Now subtracting this 92 over 47k to this side and then adding 2s squared to both sides we get
+2 over 47k equals 2s squared. Now multiplying both sides by this reciprocal 47 over 2 times 47 over 2 we get that k equals 47s squared. Okay so k also equals 47s squared. Now what other information do we have in order for us to actually figure out what s is equal to? Well we can find the
+surface area of one of these rectangular prisms. So what is the surface area of one of these rectangular prisms?
+I'm going to erase this work so we have more space to work with. So the surface area of one of these rectangular prisms equals k but it also equals the addition of all of these sides together. Well it's really easy to figure out the surface area of just these squares themselves because it is 2 times s squared. Now we have to add the rectangles here as well. Well we know that all of these rectangles have
+a height of 135 and we also know that they all share s. So we have 4 times 135 s. We have 4 because there are 4 rectangles and then 135 times s is the area of each of the rectangles. So now that we have this equation we actually know what k is equal to because we just solved for that. We know k is equal to 47s squared. So we can plug in what we know and then solve for s. So 47s squared equals 2s squared.
+plus and then combining like terms multiply these together we get 540s. Now moving 47s squared to the other side we get 0 equals -45s squared plus 540s. Now we can take out an s and we get 0 equals s times -45s plus 540. Now setting both of these equal to 0 we get that s can either equal 0 or s
+So s can either equal -45s plus 540 equals 0. Adding the -45s to both sides we get 540 equals 45s and we get the s equals 12. So s can equal 12. Well in this question we know that the side length obviously cannot be 0 because then the figure wouldn't exist at all. So the side length of the square is 12. So the side length of the square is 12.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Area and Volume - Volume - Prism and Irreg 3D .txt
+--------------------------------------------------------------------------------
+Now let's talk about volume. Volume is also given to you on the formula chart. However, some of them you should memorize, some of them you should understand conceptually. That way you have a foundational knowledge on what volume is and you don't only rely on your memory. So volume of a prism can be understood in a similar way to how we understood area. So let's start with the actual volume of a prism. The volume of a prism is volume equals base times height. Notice how base has a capital B, not a
+lowercase b. There's a reason for this. Now the volume of a prism is stacking bases on top of each other h times. Hence the volume formula is the area of the base capital B times the height of the prism. So think about it like this. If we had this rectangular prism, then we are taking rectangles and stacking them on top of each other over and over and over until we cover up the entire volume of this prism.
+shape. That is where we get the formula base times height equals the volume of a prism. Because the big goal is that we take up all the space within this shape. Now why is the B a capital B and not a lowercase b? This is because the base is equal to the volume of the base, which changes depending on the kind of prism you have. For example, we can have triangular prisms, square prisms, or rectangular prisms. Cylinders are also similar. More on that later. But firstly, what is a prism? A prism is
+just when the faces of the 3D shape is two of the same shape. For example, let's look at a triangular prism. We draw two triangles and then a prism just means that we connect all of the vertices together. And now this is a triangular prism. For a square prism, this is actually just a cube. And lastly, rectangular prism is what we already know right here. So let's talk about a cylinder. A cylinder is a great example of the concept we just illustrated on how the volume
+formula comes to be. Although by technicality in mathematical terms, a cylinder is not technically a prism, its volume is still equivalent to B times H. However, in this case, the base isn't linked times width since the base is not a rectangle. Instead, the base is calculated by finding the area of a circle because the base is a circle. So the volume of this cylinder is equal to base times height. Well, because we're not just memorizing the volume of the cylinder, the volume of the cylinder is equal to base times height. Well, because we're not just memorizing the volume of the cylinder, the volume of the cylinder is equal to base times height.
+of a cylinder, we know that the area of the cylinder is just the area of a circle. Now the area of a circle, you should have this memorized, is pi r squared. So substituting that in, we get the volume of a cylinder equals to pi r squared h. Now you should know how to come up with these formulas even if you forget the exact V equals whatever this corresponding shape is. For prisms, you just note that the volume equals big B times H.
+And you now know how to derive this. You know it is stacking a bunch of those bases, for example in the cylinder, each amount of times until you eventually get the whole cylinder. So all you need to do whenever you are given a prism is you need to identify what that base is. If it's a rectangle, you know the area of the rectangle. And if it's a triangle, you also know the area of a triangle. Let's practice. A right rectangular prism has a length of 9 meters, a width of 5 meters, and a height of 12 meters. What is the volume in cubic meters of the radius?
+the prism. Okay, so we know that the universal formula for the volume of the
+prism is volume equals big B times H. Well what is the base in this question? We
+know that the base of this prism is a rectangle, so the area of the rectangle is
+length times width. So now we can plug everything in and solve for volume. So
+volume equals length times width times height. Plugging everything in we get
+volume equals 9 times 5 times 12. Now volume equals 45 times 12, so volume equals 540. Now let's practice another question. A triangular prism has a height of 12 centimeters and a volume of 360 cubic centimeters. What is the area B of the base of the prism? Okay, so for this question we're being asked for the area of the base. So we know that the universal volume of a prism is volume.
+volume equals big B times height. Well we already know two of these values, so we can just plug in and solve. 360 equals big B times H. Well 360 equals big B times 12. Dividing both sides by 12, we get that big B equals 30. Now let's practice a medium question. The circumference of the base of a right circular cylinder is 30 pi meters, and the height of the cylinder is 8 meters. What is the volume in cubic meters?
+of the cylinder. Okay, so in this question we're being asked about the volume of a cylinder. So what is the volume of a cylinder? Well let's start with the universal rule. Volume equals base times height. Remember this is only for prisms or cylinders. Now in this case the base is a circle. As it says here, the area of a circle equals pi r squared. So plugging this in we get that volume equals pi r squared h. Well in order to solve this question we need to know that
+the radius. But this question doesn't tell us the radius. But this question doesn't tell us the radius. It tells us the height. But what it does tell us is the circumference. So the circumference of a circle is equal to 2 pi r. And it tells us in the question that the circumference of the base of the cylinder is 30 pi. So now getting rid of the pi's and then dividing both sides by 2, we get that r equals 15. So we can just plug everything in now and solve for the volume. Volume equals pi times 15 squared h. Which is
+8. The height is 8. The height is 8 in this question. So volume equals 225 pi times 8. And this is equal to volume equals 1800. Now let's practice a hard question. The figure shown is a right circular cylinder with the radius of r and a height of h. A second right circular cylinder, which is not shown, has a volume that is 294 times as large as the volume of the cylinder shown.
+So which of the following could represent the radius r in terms of r and the height of the second cylinder? Okay, so we're being asked for the volume of the second cylinder. Well, we know the relationships. But first let's figure out the volume of this first cylinder. So volume equals base times height of a prism or of a cylinder. And in this case, the base equals pi r squared. This is the area of a circle. So let's plug in what we know. Volume equals pi r squared.
+Because the radius is equal to r squared because the radius is equal to r times h. Okay, so what is the volume of the second circular cylinder? Well, the second one is equal to 294 times this one. So 294 times pi r squared h. So therefore, all we need to do is test these combinations and see which one of these combinations yield us this volume. So let's go ahead and test them. So volume equals pi. And in this case,
+big r is equal to 6r squared times 7h. So multiplying this out, we get 36 pi r squared times 7h. And this is equal to 252 pi r squared h. However, 252 is not equivalent to 294. So a is wrong. Then looking over at b, let's test this. So once again, in this case, we get 6 r squared.
+So we get 6 r squared times 49h. Well, we get 6 r squared times 49h. Well, multiplying this by 7 again, because that's the difference between these two, we know that this b answer choice is going to be way too big. So let's move on to c and test that. So for c, volume equals pi, or in this case is 7r squared times 6h. Now multiplying this out, we get that volume equals 49 pi r squared.
+6 h. So therefore, c is our answer. And we take a look at d real quick. 49 squared is obviously way too big, way bigger than 294. So d is way too big as well. So the answer is c. Notice the process that we did in this question. We first found the volume of the first cylinder. Then we found the volume of the second cylinder. And then we tested which combination leads to the volume of the
+second cylinder. Now let's do another hard question. A manufacturer determined the right cylindrical containers with a height that is 6 inches longer than the radius offer the optimal number of containers to be displayed on a shelf. Which of the following expresses the volume in cubic inches of such containers where r is the radius in inches? Okay. So in this question, we know that height is 6 inches longer than the radius. So height equals radius plus 6.
+We know that the radius is just equal to 6. We know that the radius is just equal to radius. So let's plug in. Well the volume of a cylinder is equal to capital B times H. Plugging in base as the area of a circle, we get volume equals pi r squared times h. So let's plug in what we know and solve. Volume equals pi r squared times r plus 6. Now let's distribute this out. Volume equals pi r cubed plus 6 pi r squared. So the answer
+is D. Let's talk about the volume of 3D shapes not on the formula chart. Sometimes the SAT will give you wacky shapes or big 3D figures that you've never seen before and also not on your formula chart. Usually these questions will give you the formula or other information that is necessary and needed to solve these questions. Now what does this look like? The best way to show you is to do an example. So let's practice. The glass pictured above can hold a maximum volume of 600 meters.
+121 cubic centimeters, which is approximately 21 fluid ounces. What is the value k in centimeters? Okay so let's take a look at this figure real quick. Well this doesn't really look like anything we know. This could be a cone but something's cut off at the bottom and it's obviously not a cylinder so we actually don't know the volume.
+However, this question actually tells us the volume. It also tells us the numerical value of the volume. And we notice that there's only one variable in here. And the question asks us for that variable in centimeters. And so we see that the units of the volume and also the units of k are the same or relatively the same. One is cubic, of course, because it's talking about volume. And the other one is just talking about normal length. So this information here is actually extraneous. We don't care about how many fluid ounces that is. So let's solve for k. So 621 equals
+7 pi k to the third over 48. Now multiplying both sides by 48 we get 29,808. And this is equivalent to 7 pi k to the third. Now dividing both sides by this coefficient right here we get 29808 divided by 7 pi equals k to the third. Now taking the cube root of both sides we get that k equals
+the cube root of 29808 over 7 pi. And so k after plugging this into the calculator we get k is approximately equal to 11.07. And this is d. So we get that k is approximately equal to 11.07. And this is d. So we get that k is approximately equal to 11.07. And this is d.
+

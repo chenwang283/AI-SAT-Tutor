@@ -1,0 +1,601 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Geometry
+SKILL: Circles
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Circles - Circle Standard Form Equation.txt
+--------------------------------------------------------------------------------
+Let's talk about the standard equation of a circle. So the big concept we need to know is that every
+circle is drawn on the xy plane can be described by one specific equation. This equation tells us
+exactly where the center is located and also how big the circle actually is. So the standard
+equation of a circle is x minus h squared plus y minus k squared equals r squared. This equation
+absolutely must be memorized and understood how to interpret it. So how do we interpret it? Well
+h comma k is the center of the circle and r is the radius. Now note here how in this equation,
+the right side of the equation is equal to r squared, not r. So normally if we see this equation,
+we would see x minus h squared plus y minus k squared equals for example 16. 16 is not the radius. To get
+the actual radius, we must take the square root of r squared and find out that the radius
+is equal to 4. So now let's practice on this example. For the circle x plus 4 squared plus y minus 7 squared
+equals 81. Let's find the radius and the center. So remember the center is equal to h comma k. But notice
+how standard form is x minus h plus y minus k. So in this case, in order for the inside to be equal to x plus 4, h must
+equal to x equals negative 4. Because if h equals negative 4, then this inside is written as x minus negative 4, which is equal to x plus 4.
+If we forgot about this rule in which there's a minus sign in the middle, then we may say that h equals 4. However, if h was 4, the equation inside of this first parenthesis would actually be x minus 4 squared.
+So we would be saying that the center is at the center is at the wrong point. The same can be said about k.
+Because the standard equation is y minus k. In this case, y minus 7 equals y minus k. So k must equal 7.
+Notice how for circles, in order to find h comma k, all we need to do is take the number inside of the
+parenthesis and take the opposite of the sign that it gives us. So this says x plus 4, so h equals negative 4.
+We just take the opposite sign. And this says y minus 7. So k equals positive 7. We just take the opposite sign.
+And then the radius is just the square root of whatever is on the right side. So the square root of 81 is 9.
+Therefore, the center is at negative 4 comma 7 and the radius is 9. Let's practice. A circle in the xy plane has the equation x minus 2 squared plus y plus 9 squared, which equals to 49. Which of the following gives the center of the circle and its radius?
+Okay, so let's interpret this. Remember, this equation is y minus h squared plus y minus k squared equals r squared. So let's solve the easiest one first.
+Well, we know that r squared equals 49. Therefore, r equals 7. So we can immediately eliminate c and d because these are to trick people who forget about this rule that we just stated.
+Now, to find the coordinates of the center, remember all we do is take the opposite sign of whatever's in here. So h equals 2 and
+k equals negative 9. So the correct answer is a. Now let's talk about going in reverse. So if the question gives us the center and the radius,
+we can simply use the standard equation template and plug in the values and then get the standard form equation of that circle. So let's practice. In the xy plane, a circle with radius 4 has a center 3 comma negative 5.
+Which of the following is an equation of the circle. So let's write out the standard form of the circle, which is x minus h squared plus y minus h squared equals r squared.
+equals r squared. So we know r. So r equals 4. Therefore, r squared equals 16. So we already know what this right side is equal to. It's equal to 16. Now let's just plug in
+h and k. So in this case, don't get tripped up. There's no reason for us to flip the sign in front of this because this is h in itself and this is k in itself.
+So what we need to do is plug into the equation. So x minus 3 squared plus y minus negative 5 squared, which this second part simplifies down to y plus 5 squared. And now writing everything else out, we get x minus 3 squared plus y plus 5 squared equals 16. So the correct answer is b.
+So, the correct answer is B. Now let's expand on one of the properties of the
+standard equation of a circle. So there are a range of coordinates that fall
+within the circle. The circle stretches out from its center by exactly one
+radius in every direction. So meaning from the circle, in order to actually
+identify this circle, we just go out radius amount in every single direction
+and then we just connect the lines and that gives us that circle. So the y
+coordinates of the points on the circle live in a specific window and so do the
+x coordinates. So the lowest possible y on the circle is simply this k value minus
+the radius because this is the lowest possible y value as we can tell right
+here. It is literally the lowest possible point on this circle and the highest
+possible y value on the circle is the center point k, the y value of it, plus r.
+So all the way up here. And the same logic applies for the x. The lowest possible x
+coordinate would be the center point h minus r, so over here, and then the highest would be this x coordinate plus r, so over here. So let's practice. For the circle x plus 1 squared plus y minus 3 squared equals 100, let's identify the range of the y coordinates for this circle. So let's first start by finding the center and then we find the radius and then we figure out the maximum range. So because we're only concerned about the y in this case, we need to figure out the y coordinate of the y.
+the y-coordinates for this circle. So let's first start by finding the center, and then we find the
+radius, and then we figure out the maximum range. So because we're only concerned about the y in this
+case, we need to figure out the y-coordinate of the center. The center, remember, is h, k, and the
+equation says minus h and minus k. So we just flip the signs. So h equals 2, negative 1, and k
+equals 3. Now moving on, because we know that r squared is equal to 100, we know that the radius
+of the y-coordinates. So therefore, from this center point, negative 1, positive 3, we can go 10 in all directions in order to create this circle. So it looks something like this. Now, the greatest possible y-value must be 10 units greater than the center point. So this is 3 plus 10. And then the lowest possible point must be 3 minus 10. So therefore, the range of y-values in which points can lie on this circle must be between.
+negative 7, the center value, and 13. So we cannot go below negative 7, and we cannot go greater than 13. Otherwise, we leave the circle. So let's practice. The graph of x plus 1 squared plus y minus 3 squared equals 100 is a circle in the xy plane. The point a comma b lies on the circle. Which of the following is a possible value for b? So it tells us a comma b lies on the circle. Therefore, if we were to draw this out, we know that the center, this is actually
+a similar scenario to what we just saw. The center is at negative 1 comma 3 and the radius equals to 10. So negative 1 comma 3 and the radius equaling to 10. It tells us that the point a and b lies on the circle. So let's figure out the points left, right, up, and down on this circle. So as we identified earlier in the example, the range of y-values right here is negative 7, right here is 13. And then if we add 10 to the x-value, we know that the least possible value is negative 11.
+Because this is the center point negative 1 minus 10. So going left 10. And then on the other side, this must be 9 because that's the center value negative 1 plus 10. So let's see which one of these answer choices is possible in terms of the point being in the circle. So let's check these answer choices. Well, this question is first asking for b only. So it's only talking about the y-coordinate.
+So we know it must be between negative 7 and 13. So let's check these answer choices. Negative 8 is outside of the range because negative 8 is right here. 8 is indeed within this range. 14 is out of this range and negative 15 is out of this range. Therefore, the correct answer is b.
+Let's expand on this a little bit further and see a little bit more practice. So a point lies inside of a circle if its distance from the center is strictly less than the radius. We actually saw this in this question that we just practiced.
+Because 8 would occur somewhere around here, which is indeed inside of the circle. So if the distance from a point to the center is less than r, then we are indeed inside the circle. If the distance from a point to the center is equal to r, then we are on the circle on the edge. And if the distance from a point to the center is greater than r, we are outside of the circle.
+So let's practice. A circle in the xy plane has equation x minus 4 squared plus y plus 2 squared equals 36. Which of the following points does not lie in the interior of the circle?
+So to solve this question, we actually need to use distance formula because we need to check each of these points and see its distance from this point to the center and see whether that's less than the radius, equal to the radius, or outside of the radius. So let's start by identifying the center.
+So the center of this circle is 4, negative 2. And the radius is equal to 6 because it's the square root of 36. So if you need a refresher on the distance formula, please refer to the geometry unit in which we talk about distance formula.
+So let's check all of these points. Well, this answer is actually just the center of the circle. So of course it's going to lie in the interior of the circle. So it cannot be b.
+So let's just draw a diagram so we can visualize what's going on in this question. So we have a circle and the center is at 4, negative 2 and we know that the radius is 6.
+So this is approximately what our circle looks like. Now we want to check which one of these points is inside it and which one of the points is outside.
+Whichever point is outside is the correct answer because that's what the question is asking. So let's check each answer choice at a time. We must use the distance formula. So just a quick refresher. The distance formula is equal to...
+The distance formula is equal to square root of x2 minus x1 squared plus y2 minus y1 squared.
+So let's assign this center to be x2 comma y2. That way we don't get lost which one of the coordinates is x1, x2, y1. So let's do answer choice at a first. So square root of x2 is 4 minus 4 squared plus... and then y2...
+negative 2 minus 3 squared. So this equals to... this inside is 0 so 0 plus... negative 2 minus 3 is 5 and 5 squared. So the square root and this square cancel out so we get 5. So the distance from the center to this point is just 5. Therefore it does lie on the interior because it is less than the radius. So a is incorrect.
+Now let's just take a quick look at d real quick. Because d looks a lot bigger than c. So if d is outside of it then we don't even need to check c.
+Because there's a 10 right here. So let's try d real quick. So square root of x2 which is 4 minus 10 squared plus... and then y2 is negative 2 minus 1 because this is y1 squared.
+Simplifying this down we get square root of 4 minus 10 equals negative 6 squared plus negative 2 minus 1 equals negative 3 squared.
+And so simplifying this down some more we get square root of 36 plus 9. And we know that this is greater than 6 because 6 is equal to square root of 36. And this is already greater than square root of 36. So therefore, point d is more than 6 units away from the center. Therefore, d lies not on the interior of the circle.
+Now let's talk about shifting a circle or translations happening to a circle. So shifting a circle on a graph doesn't change its size at all. It just moves the center to a new location. The radius stays the same unless the question tells us that the radius changes.
+So to shift a circle right by some units, all we need to do is add that amount to the x-coordinate of the center. To shift it left by some units, all we need to do is subtract that amount from the x-coordinate of the center. To shift a circle up, all we need to do is add that amount to the y-coordinate of the center. And then to shift it down, we need to subtract that amount from the y-coordinate of the center.
+So let's practice. The equation x plus 3 squared plus y minus 1 squared equals 25 represents circle A. Circle B is obtained by shifting circle A right 4 units in the x-y plane. Which of the following equations represents circle B?
+Okay, so all we need to do is shift it right by 4 units. So shifting it right only affects the horizontal side, which is the x unit. So let's figure out the center first.
+The center is negative 3 comma 1. And the radius equals to 5. Well, radius doesn't matter in this case. We're not changing the radius.
+Now because this question is asking us to just shift the circle right 4 units, all we need to do is add 4 to the x-coordinate of the center of this circle.
+So after adding 4 to negative 3, we get 1 comma 1 with the radius still equaling to 5. So writing this new equation out, we get x minus h, which in this case h is 1. So x minus 1 squared plus y.
+plus y minus 1 squared equals, and then this original thing because we did not change anything about the radius or the size of the circle. So it equals 25. Therefore, the correct answer is A.
+Let's practice a little more challenging question. Circle A shown is defined by the equation x minus 1 squared plus y plus 2 squared equals 16.
+Circle B, which is not shown, is the result of shifting circle A up 3 units and increasing the radius so that the radius of circle B is 2 times the radius of circle A. Which equation defines circle B?
+So let's look at this equation and let's find out what the center is and what the radius is so we can make these changes.
+So the center is 1 comma negative 2 and the radius is equal to the square root of 16 which is 4. So in order to shift this graph up 3 units, all we need to do is add 3 to the y-coordinate or the vertical coordinate of the circle.
+So negative 2 plus 3 equals to 1 and then it says that the second circle is 2 times the radius of the first circle. Therefore the radius equals to 8.
+So to write out circle B's standard equation of its circle, we need to just plug in these values into the standard form or the template form. So x minus h squared plus y minus k squared equals r squared.
+So let's plug everything in. x minus 1 squared plus y minus 1 squared equals 8 squared. And so we get equals 64 and then this left side stays the same.
+So look at these answer choices, we get answer choice A. The key thing here that the SAT is trying to trick students on is by telling us that the radius of circle B is 2 times the radius of circle A.
+Some students will look at this and say, "Okay, 16 is the radius. So all I need to do is multiply 16 by 2." But that is incorrect because 16 is not the radius. The radius is actually 4.
+Next, let's talk about advanced circle questions. Sometimes a circle's equation isn't given in the clean standard form. Instead, it shows up expanded. So all the square terms multiplied out. And it looks like this.
+Something like x squared plus y squared minus 10x plus 4y minus 7 equals 0. Now, we can't see the center or the radius from this messy form. This is because it's not written in the form that easily lets us identify h and k.
+So to find them, we need to convert the equation back into standard form for circles in this form that we are more familiar with. So the tool or the mathematical concept that we must use is called completing the square.
+What completing the square actually does is it allows us to take a piece of information like this and turn it into a perfect square trinomial, which can be written as something like this.
+So if you want a more thorough review of how to complete the square, please refer to the Advanced Math Foundations Unit in which we talk about it in depth.
+This is a quick overview and it's not going to teach you exactly how to do it if you've never seen it before.
+So make sure you refer to the Foundations Unit in Advanced Math to learn how to complete the square.
+So let's cover this real quick. Firstly, we want to group the x terms together and the y terms together.
+Then we want to move any constants or plain numbers or numbers with no variables to the right side of the equation.
+Then for each variable group, we want to take the coefficient of the middle term, the one in the middle with just an x or just one y, divide that coefficient by 2, square the result, and then add it to both sides of the equation to keep the equation balanced.
+Then rewrite the left side as a perfect square trinomial, which looks something like this.
+So this may seem confusing if you don't know how to complete the square, but if you do, this will make sense.
+So let's practice it.
+In the xy-plane, the graph of x squared plus y squared minus 10x plus 4y minus 7 equals 0 is a circle.
+What is the length of the circle's radius?
+So let's do the steps in completing the square.
+So let's first move all the x terms together and all the y terms together.
+So we get x squared minus 10x plus y squared plus 4y equals 7.
+So now that we group the terms with the same variable together and move the constant to the opposite side, now let's start completing the square.
+So let's write this together in one bracket.
+x squared minus 10x plus some constant plus y squared plus 4y plus some constant equals to 7.
+Now let's complete the square.
+To complete the square, we must take b over 2 squared and add that to the inside and also the outside on the opposite side.
+So negative 10 divided by 2 equals negative 5.
+Screwing that we get 25.
+So x squared minus 10x plus 25 plus...
+And now let's complete the square on this side.
+But remember, to keep this equation balanced, we must add 25 on this side.
+So let's not forget that.
+So equals 7 plus 25 plus something else.
+So to complete this side, we once again take b over 2 squared.
+So 4 divided by 2 squared is equal to 4.
+So y squared plus 4y plus 4.
+And then add 4 to the other side as well to keep both sides in balance.
+Now, this term and this term are both perfect square trinomials.
+So if you want a more thorough review of perfect square trinomials, how to recognize them, and how to convert between this form and a perfect square trinomial form that looks something like this,
+please refer to the Advanced Math Foundations Unit in which we cover it more in detail.
+So this first term can be factored to be x minus 5 squared.
+And then the second can be converted to y plus 2 squared.
+And then this right side can be added together.
+So 25 plus 4 is 29 plus 7 equals 36.
+So the question asks us, what is the length of the circle's radius?
+Well now that we have this form in standard circle equation form, it's much easier for us to see the radius.
+The radius squared equals 36.
+So the radius equals 26.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Circles - Foundations.txt
+--------------------------------------------------------------------------------
+Let's talk about circles. A circle is a closed round shape made up of all the points that are one exact distance away from one central point.
+So in order to define something as a circle, it must have one central point and then whatever this distance away, let's say this distance is one, we just go one out from all sides and then combine this together.
+So this shape that we create is a circle with a radius of one.
+Now every circle contains exactly 360 degrees of arc all the way around.
+So normally, for example a triangle, it would have an arc right here of maybe for example 30 degrees and this would give us a triangle.
+Now for a circle, we go from this middle and we turn 360 degrees and that becomes our circle.
+So the total inside degrees is 360 degrees.
+For example, if you spin in a first circle one time, you've rotated 360 degrees.
+And if you spin halfway around, you've rotated 180 degrees.
+And this right here, if you rotate only halfway around, it's just a straight line.
+So the angle degree measure is 180 degrees.
+Let's talk about diameter.
+A diameter is any straight line that passes through the exact center of a circle and connects two points on two opposite sides of the circle.
+So think about it as cutting a pizza directly in half.
+The cut goes right through the middle.
+A diameter is always equal to twice the length of the radius because it goes from one edge through the center through the other edge.
+And normally a radius is simply from the center to one of the edges.
+So the diameter is just both of those.
+So it is R plus R. So the diameter equals 2R.
+Let's talk about the circumference.
+The circumference is the full distance around the outside edge of the circle.
+It's basically the perimeter of a circle.
+So if you took a piece of string, wrapped it around the circle exactly one time, and then straightened the string out, the length of that string would be the circumference.
+So mathematically, the circumference equals 2piR, where R is the radius.
+This is a formula that must be memorized.
+Equivalently, the circumference is also equal to piD, where D is the diameter.
+Now remember, because D equals 2R, these two are interchangeable within the formula of circumference.
+So for example, if a circle has a radius of 5, then the circumference is 2piR, which is equal to 10pi.
+That means if you walked all the way around that circle one time, you'd walk 10pi units total.
+And by the way, if you don't know what pi is, pi is an infinitely long number, but it is approximately equal to 3.14159265.
+However, usually in questions, when we are to approximate it, we just use 3.14.
+Let's talk about central angle.
+The central angle is an angle whose vertex, the pointy corner, sits exactly at the center of a circle.
+So, you can think about the central angle kind of like the pointy part of a slice of pizza.
+The crust would be the arc on the outside, and the tip of the slice, so looking like this, this would be the central angle.
+So mathematically, all the central angles around the center point must add up to 360 degrees, because together they form one rotation around the center.
+So imagine we have a circle like this, and we have multiple segments.
+So this right here would be one of those slices, and this would be a central angle.
+This would also be a central angle for this specific chunk of the circle, and this one as well.
+All these central angles added together must equal 360 degrees.
+Now let's talk about arc length.
+An arc is a curved section of the circumference.
+It's just a piece of the circle's edge.
+So think about our pizza analogy once again.
+Let's say we have this slice of pizza.
+The arc length would be the length of this portion of the pizza's crust, which is just a piece of the circle's edge.
+So, any two points on a circle split the circumference into two arcs.
+We have a minor arc, so the smaller arc, and we have the major arc, so this big arc that's formed.
+If a minor arc and a major arc share the same two endpoints, together they make up the entire circle,
+which we see over here.
+Let's just imagine my diagram is a little bit better, and this pointy part is actually the center of the circle.
+Because these two share the same endpoints, these two arcs make up the entire circle.
+Therefore, the minor arc, so the length of this small arc, plus the length of the big arc,
+must add together to give us the total perimeter, or circumference, of the circle.
+Now the big concept we want to keep in mind is the length of an arc is a specific fraction of the entire circumference.
+The size of that fraction is decided by the central angle that opens up to that arc.
+So think about it like this.
+If we have a central angle that covers a big chunk of the 360 degrees around the center, then its arc will be a big chunk of the circumference.
+So mathematically, arc length equals to that central angle divided by 360 degrees times the circumference.
+So all we're doing here is imagine we do have a pizza slice, and let's say that this pizza slice is divided into eight sections.
+So one of these pizza slices, the central angle would just be 360 divided by eight, which gives us 45 degrees.
+So in order to find the arc length of this pizza slice, so the length of the crust, we would take 45 divided by 360 times the total circumference, so whatever that circumference length is.
+So let's imagine a circle with a circumference of 48 and a central angle of 90 pointing to an arc.
+The arc takes up 90 out of the 360 degrees.
+So therefore, in order for us to find the arc length, we know that this arc is simply 90 over 360.
+So that is the fraction that this arc takes up times the total circumference, 48.
+So 90 divided by 360 times 48 equals 1/4 times 48, which gives us an arc length of 12.
+So this arc length is just a portion of the circumference.
+The question is, you know, how big of a portion?
+It is simply 90 over 360, because 360 is the total, and 90 is the portion of that arc's central angle.
+Let's practice.
+The circle above, where center O has a circumference of 48.
+What is the minor arc of PQ?
+Well, this question seems awfully similar to our example earlier.
+We know that circumference equals 48.
+And then it asks us, what is the length of minor arc PQ?
+So that is this right here.
+Well, in order to solve this, we need to know the central angle divided by 360 degrees,
+because that is the total, times the circumference, which we know is 48.
+So let's plug everything in.
+Well, we know the central angle is 90 degrees marked by this square in the corner.
+So 90 divided by 360 times 48.
+This gives us 12.
+Let's practice another question.
+Points X, Y, and Z lie on the circle shown.
+On this circle, minor arc X, Y has a length of 9 pi centimeters, and major arc X, Y has a length of 15 centimeters.
+What is the circumference in centimeters of these circles shown?
+So, we know that there are three points that are on the circle, and it tells us minor arc X, Y.
+So X to Y, let's label these X, Y, has a length of 9 pi.
+And then, major arc X, Y, so the same thing, but on the other side, has a length of 15 pi.
+Because we've realized that these are both X, Y, and one of them is just a minor, and one of them is a major,
+we know that there are simply two lines that connect these two.
+So, if there are just two crusts that exist here, the total circumference must be these two arc lengths added together.
+So 15 pi plus 9 pi, which gives us 24 pi.
+Let's practice this medium question.
+The circle shown has center O, circumference 24 pi, and diameters EF and GH.
+The length of arc EG, so EG, is three times the arc length of GF.
+Okay, what is the length of arc GF?
+Okay, so what do we know about this question?
+Well, it tells us the length of arc EG is three times as big as the length of GF.
+So let's label this as 3X, and let's label this as X.
+So that EG is three times as big as GF.
+Now we know the total circumference is 24 pi.
+We also are told that EF is a diameter.
+What does that mean?
+That means that it splits this circle perfectly into two portions.
+That also means that this central angle of EF is 180 degrees.
+So we can actually find the arc length of EF, of this whole thing right here.
+And then we can fill out these specific segments.
+So the arc length of EF equals the central angle, which is 180, over the total, which is 360, times the circumference, which is 24 pi.
+So this is half of 24 pi, which gives us 12 pi.
+Now 12 pi equals the arc length of EF.
+So in order for us to find EG and then GF, and the question is asking for GF, let's add it together.
+So because we know that EG plus GF add together to give us the arc length of EF, we can write that out.
+EG plus line GF equals line EF.
+So 3X plus X equals 12 pi.
+Therefore, 4X equals 12 pi.
+Therefore, X equals 3 pi.
+However, I do want to know here, these are actually aren't lines, these are arcs.
+These should be arcs.
+So we know that GF equals 3 pi.
+Let's practice a hard question.
+The circle above has center O.
+The length of arc PQR is 4 pi.
+So PQR is 4 pi.
+And Y equals 80 degrees.
+What is the length of arc PSR?
+Okay, so we know the small one is equal to 4 pi.
+Well, let's set up the equation that we know.
+In order to find the arc length of PQR, we get that we must take the fraction of the central angle,
+so 80 over 360 times the circumference, which gives us the arc length, which we know is 4 pi.
+So let's solve for the circumference.
+Because once we get the circumference, then we know the total perimeter around the whole thing,
+then we can just subtract 4 pi and it'll give us the arc PSR.
+So let's do it.
+80 over 360 is just 8 over 36, which simplifies even further down to 2 over 9.
+So times circumference equals 4 pi.
+Now let's multiply both sides by the reciprocal of this so we can move this to the other side.
+So 9 over 2 times 9 over 2.
+So we get the circumference equals, these cancel out, so here's a 2, and then equals 18 pi.
+So therefore the total circumference equals 18 pi.
+So in order for us to get arc length PSR, we must take 18 pi minus 4 pi, which gives us 14 pi.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Circles - Radians to Degrees Conversion.txt
+--------------------------------------------------------------------------------
+Let's talk about radians. Radians are just another way to measure angles. So exactly like how inches and centimeters are just two different ways to measure length, degrees and radians measure the same thing, which is an angle, but just with different units.
+So the reason why radians exist is that they connect angle measurement directly with the circle itself. They use pi, which is built into circle math. You don't need to worry so much about this stuff, just know that there is a reason why it exists.
+There are pi radians in 180 degrees. What this means is that just like how converting from inches to centimeters, there's a conversion which is about 2.54. To convert from radians to degrees, pi radians equals to 180 degrees.
+So because of that, a full circle, which is 360 degrees, is also equal to 2 pi radians. So mathematically, in order to go from degrees to radians, we must multiply by pi over 180.
+In reverse, to go from radians to degrees, we must multiply by 180 over pi. But memorizing this makes it pretty confusing because sometimes it's really easy to get tripped up and forget which way to reverse it because all it is is a simple flip.
+So the best way for you to convert from radians to pi is simply set up a proportion. So let's practice what this looks like. So given this example, how many radians are in 720 degrees? Let's set up a proportion. So let's start with the conversion rate.
+So we know it's pi radians to get to 180 degrees. So now to set up this proportion, we just make sure that the radians and the degrees are labeled on the same side. So because we put degrees on the bottom, let's put this degrees on the bottom as well, 720. And because we are solving for radians, let's put radians as the variable that we are solving for. So after cross multiplication, we get that 720 pi equals 180 r.
+So r equals 4 pi. Therefore, 700 degrees is equal to 4 pi radians. By the way, when you're setting up a proportion, it doesn't matter if you do pi over 180 or 180 over pi. What matters is that the proportions remain the same. So if you do set up this question as 180 over pi, you must make sure that the 720 sits on top.
+Because you want to make sure that both of the corresponding units sit on the same side. So radians would have to sit on the bottom. Alternatively, you could memorize this and you could just multiply it like these steps are here. However, that often trips students up more than it helps them. Because if they mess up one time on the SAT, that's automatically one question wrong. So it's better to just remember in terms of proportions. Let's practice. The number of radians in a 540 degree angle can be written as a pi. Where a is a constant.
+What is the value of a? What is the value of a? Okay, so all we need to do is to make sure that both of the corresponding units sit on the same side. So radians would have to sit on the bottom.
+Alternatively, you could memorize this and you could just multiply it like these steps are here. However, that often trips students up more than it helps them. Because if they mess up one time on the SAT, that's automatically one question wrong. So it's better to just remember in terms of proportions.
+Let's practice. The number of radians in a 540 degree angle can be written as a pi. Where a is a constant. What is the value of a? Okay, so all we need to do is convert 540 degrees to radians. So let's do it. Let's set up the proportion.
+So we know that pi radians converts to 180 degrees. So let's make sure we set this up properly. We make sure that the 540 is on the same side as the 180. So 540 equals and then the radians go on top. So we're solving for that.
+So let's cross multiply and then solve. 180r equals 540 pi. So dividing both sides by 180, we get that r equals 3 pi. So a equals 3.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Circles - Tangents & External Point.txt
+--------------------------------------------------------------------------------
+Let's talk about intersections, tangents, and triangles within circles. So what is a tangent line? A tangent line is a line that just barely touches a circle at exactly one point. So think about this like a road that gently bumps the edge of a roundabout without crossing and going over it, but it just overlaps it. At the spot where the tangent touches the circle, this is called the point of tangency, the tangent line is always perpendicular to the radius drawn to that exact point.
+So what does this look like? Well let's just draw a circle and let's draw a tangent line. As we can tell, this line passes a circle at exactly one point. Well now we know that when this happens, this tangent line is always exactly perpendicular to the radius. And remember, perpendicular just means a 90 degree angle formed by two lines. So why does this matter? This matters because if a question gives you a circle and a tangent line, you can find
+the slope of the tangent line by finding the slope of the radius, so taking the slope formula from the center to the point of tangency, and then taking the negative reciprocal of that slope. If you need a review on what perpendicular lines mean and their properties, please refer to the algebra section of the course models in which we talk about parallel and perpendicular lines. But just a quick review, when two lines are perpendicular, their slopes are simply a negative reciprocal of one another. Negative reciprocal means, for
+for example, if the slope of one of those lines is a over b, the slope of the perpendicular line
+would be negative b over a. So we flip the fraction and add a negative. Let's practice.
+A circle in the xy plane has its center at . Line l is tangent to the circle at the point
+. Which of the following points also lies on line l? So let's draw this out and visualize it.
+So a circle lies in the xy plane has its center at . Line l is tangent to this
+circle at the point . So we can draw this circle and we know because line l is
+tangent to this circle at this point, it means that this line l only touches the circle exactly
+at that point. So line l would look something like this. In which it touches this point exactly one
+time here. Therefore, this line, because it is tangent to the circle at this point, it is also
+perpendicular to the radius. So the question asks us which of the following points also lies on line l.
+In order for us to solve this question, we must know the slope of line l. How do we find the slope of line l?
+Well, what we do know is we know the points at the center and we know the point at the point of tangency.
+And using the slope formula, we can figure out the slope of the radius and the relationship between the
+slope of the radius and slope of the tangent line is just the negative reciprocal. So let's use the slope formula,
+which is y2 minus y1 over x2 minus x1. So let's just say at the point of tangency, this is x2 comma y2.
+And let's say that at the center we have x1 comma y1. So now let's find the slope at this point. So 9 minus 6 over 6 minus 2. This gives us
+3 over 4. So therefore the slope of the radius is 3 over 4. That means that the slope of the line tangent or perpendicular must be the negative reciprocal. So the slope of line l equals to the reciprocal, negative 4 over 3.
+Now the question asks us which of the following points also lies on line l. So which one of these answer choices is correct must exist on this line somewhere. Well, in order to know which one of these points exists on this line, what we could do is simply test which one of these points has the same slope as line l.
+So in order to find the slope, we must use the answer choice and the point that we are given because if the answer choice does form a line, we will get the same slope.
+So let's do a first. Let's find the slope of it. 11 minus 9 over 3 minus 6. This gives us 2 over negative 3, which is not equal to negative 4 over 3. So let's try answer choice b.
+So for answer choice b, we get 12 minus 9 over 10 minus 6. So therefore we get 3 over 4, which is also not correct. Now let's try answer choice c.
+So for c, we get 5 minus 9 over 9 minus 6, which equals to negative 4 over 3, which is indeed correct. Now let's just test d just in case. So for d, we get 11 minus 9 over 0 minus 6, which equals to 2 over negative 6, which is equal to negative 1 third, which is not the same as this slope of line l. So our answer is c.
+Let's talk even further about tangent lines. When we draw two tangent lines to a circle from a single external point, the two tangent segments from the external point to the point of tangency are always going to be the same length.
+So let's combine this with another rule that we already know. A tangent line is perpendicular to the radius at the point of tangency. So whenever we connect a center to the external point and then a point of tangency, we actually create a right triangle.
+As a result, we can use the Pythagorean theorem to find missing length.
+So what does this actually look like? So let's say we have a circle right here that has a center and one external point. From this one external point, we can draw two tangent lines to the circle that cross the circle at exactly one point. So for this, it would be right here. And for this tangent line, it would be right here.
+Now we know that from the external point to the point of tangency, these two lines are exactly the same length. So this line is the same as this line.
+Now, combined with another rule we already know, the tangent line is perpendicular to the radius. So if the radius is right here and right here, then this is perpendicular.
+So therefore we have two right triangles because if we connect from the center to this external point, we have perfectly two right triangles.
+As a result, we are able to use Pythagorean theorem to find any missing link given that we know the radius and also this line right here.
+So let's practice. A circle has center O and points C and D lie on the circle. So let's draw this. A circle has center O and C and D lie on the circle.
+We don't know where yet, so let's wait a little bit. Line segments E and C are tangent to the circle at points C and D.
+Okay, so we know C and D are some tangent points. So let's put C here and let's put D here.
+Because we know that EC and ED are tangent, so E must be an external point. So E exists right here.
+Because we know these two are tangent, let's draw this out. So let's connect C and E, let's connect D and E.
+So these are tangent lines. If the radius of the circle is 12 millimeters, so the radius is 12, the radius right here is also 12,
+and the perimeter of the quadrilateral O, C, E, D is 56 millimeters. What is the distance in millimeters between E and O?
+So we are trying to figure out E and O. Well this question tells us the perimeter of this quadrilateral is 56.
+So because we know the two radiuses are 12, and we know that these two lines must be the same length, we can set up an equation to figure out the length of these two lines.
+So 12 plus 12 plus EC plus DE equals 56. And because we know both of these are equal to each other, we can write this as 12 plus 12, by the way these are just the two radiuses, plus 2X equals 56.
+So 2X equals 32. So X equals 16. So the length of these tangent lines from the external point to the point of tangency is 16.
+And because we know that we have two right triangles, we can use the Pythagorean theorem to solve for what we need. The points between E and O.
+So A squared plus B squared equals C squared. So 12 squared plus 16 squared equals C squared, which is E and O.
+So C squared equals C equals C equals 20, which is the length of E and O.
+Let's talk about triangles within circles. So whenever we create a triangle inside of a circle using two radis as two of its sides, that triangle is automatically an isosceles triangle.
+By the way, an isosceles triangle is a triangle with exactly two equal sides. So this should say exactly.
+Now, why is this property true? This is because every radius of the same circle has the exact same length.
+So therefore, of course, two sides of the triangle, since they're both radiuses, they must be equal.
+So what does this look like? So let's say we do have a circle and then we create a triangle within this circle in which we connect from the center over to the side.
+So therefore, these are radiuses. Now if we turn this into a triangle, this triangle must be an isosceles triangle.
+Now let's add on to this concept. If the central angle of this triangle has a 90 degree angle or a right angle, this triangle is both an isosceles triangle and a right triangle.
+This actually makes it a special right triangle. We can find missing side lanes quickly using Pythagorean theorem or the distance formula, but also we can apply the rule of special right triangles since this is a 45-45-90 special right triangle.
+If you want a more thorough review on special right triangles, please refer to the geometry unit in which we talk about special right triangles.
+So let's practice. Circle M has center M and points S and T lie on the circle. So let's draw this. Circle M has a center of M and S and T lie on the circle.
+We don't know where yet, so let's not draw it yet. In triangle MST, the measure of angle SMT is 72 degrees.
+Okay, so what does this tell us? This tells us that we have a triangle MST. We know that S and T lie on the circle, but now we know that SMT is 72 degrees.
+So S and then T right here, this angle in between is 72 degrees. So this is S and this is T.
+So the question asks us, what is the measure of angle MTS in degrees? So MTS, this angle right here.
+So what do we know about this triangle? Well, because we know that two of the sides are simply the radiuses, we know it must be the same.
+So this triangle is indeed an isosceles triangle. So what do we know about the angle measures of an isosceles triangle?
+We know that two of the angles must be the same. And because 72 is the corresponding angle to the lone side that is not equal to these two right here,
+they're the same sides, we know that angle S and angle T must be equal because they are corresponding to the two sides that are the same length.
+Because the total degrees of a triangle add to 180 degrees, we know that 72 plus X plus X is equal to 180 degrees.
+So therefore, 2X equals to 108 degrees. So therefore, X equals 54 degrees. So therefore, the measure of angle MTS and also MST equals 54 degrees.
+So let's practice another question. In the XY plane, a circle has center N with coordinates . Points A and B lie on the circle.
+Point A has coordinates and angle A and B is a right angle. What is the length of AB? So let's draw this out.
+So let's draw this out. In the XY plane, we know that we have a circle that has a center N at the coordinates . So . This is .
+Points A and B lie on the circle where point A has coordinates . So . So . So right around here. And angle A and B is a right angle.
+So first, let's draw out what this circle actually looks like. So we know that this is point A. And we know that A and B, wherever B is at, is a right angle.
+So let's just draw this out. And let's pretend I drew this a little bit better. So there is indeed a right angle here. And this is point B. So the question asks, what is the length of AB? So this angle right here.
+So what do we know about this triangle? Because this is a triangle inside of a circle, and AN and BN are both radiuses of the circle since they connect from the edge over to the exact center, we know that these two lengths are equal.
+And now, because we know that this is a 90 degree, we know that these two angles must add also to 90 degrees. And because this is 90 degree, and these two sides are the same, the corresponding angles must also be equivalent.
+So this is a 45, 45, 90 special right triangle. Meaning that the side lengths follow the ratio x, x, x root 2. With x root 2 being the corresponding side length to the hypotenuse.
+So, we can figure out the length of the radius because we know the center point and also the point on the circle. So let's use the distance formula to find this distance.
+So the distance formula is x2 minus x1 squared plus y2 minus y1 squared. So let's plug in what we know. Let's say that this one is x2 comma y2.
+And let's say that this one is x1 comma y1. So let's plug everything in that we know. So the distance between these points must be square root of 6 minus 2 squared plus 4 minus 1 squared.
+So distributing this out, we get 4 squared plus 3 squared. So therefore, the square root equals to square root of 25. So therefore, the radius equals to 5.
+Now, the question asks us not about the radius, because that would be a_n or b_n, it asks about a_b. So what do we know about the relationship? We know that because these legs are 5, we know that the hypotenuse is simply 5 root 2.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Circles - Unit Circle.txt
+--------------------------------------------------------------------------------
+Let's talk about the unit circle. The unit circle is a circle with two specific features. Firstly, its center is at the origin of the xy plane. The second feature is that its radius is exactly 1. Now this is super, super important. Because the radius is exactly 1, that means that every point on the unit circle is exactly 1 unit away from its center.
+Now, why does this matter? This matters because when the radius is 1, all of the trigonometry math gets clearer. So sine, cosine, and tangent gets easier. Distances on the circle directly equal sine and cosine values. This may not make much sense right now, but it will begin making sense later as we dive even deeper into the unit circle.
+So, in order for us to understand the unit circle, we must understand how angles are even measured. So, angles are measured starting at the point 1, 0. So that is, imagine we have the xy plane and we have the unit circle right here. That is the right edge of the circle. So 1, 0.
+And then rotating counterclockwise, so against the direction of a normal clock to create whatever angle. So, rotating different amounts lands us on different points on the circle. To move 45 degrees on the unit circle, that would happen right here.
+Because at this point right here, we are at 90 degrees. As you can see, there's a right angle right here. So 45 degrees would just be halfway through there. And then for example, 60 degrees would be right here.
+So, don't get overwhelmed by this, but this is the unit circle when it's fully filled out. Now this may be really confusing when you first look at it, so let's break it down little by little so you can understand it.
+But in order for us to break it down, make sure that you have a good understanding of SOHCAHTOA or sine, cosine, and tangent. And also, review special right triangle properties because you need to know this in order to understand how the unit circle works.
+So, let's begin to dissect this and break it down, and then we'll come back and it'll begin to make much more sense to you.
+So we know that a unit circle is just the xy plane with a circle that has a radius of 1. So let's draw that out so we can begin to understand it.
+So firstly, we know that we start with the x-axis and then we rotate counterclockwise to know the degrees that we are talking about. So let's start with a line at a 45 degree angle. So this is 45 degrees.
+Now with that, we can draw a right triangle right here. So draw a straight line down here. And this is our right triangle.
+So what do we know about our special right triangle that is a 45, 45, 90 degree triangle?
+Well, if the radius is equal to 1, we know that the ratio for this triangle is x, x, x root 2. With x root 2 being the ratio of the hypotenuse.
+So if the hypotenuse is equal to x root 2, then the leg would be equal to x. Or the hypotenuse divided by x root 2. So therefore, the legs of this triangle would be 1 divided by root 2.
+So therefore, the x and y values of this point is we moved right 1 over root 2 and we moved up 1 over root 2. So therefore, the x and y coordinates are 1 over root 2, comma 1 over root 2.
+So now let's talk about a different scenario. So once again, we have the unit circle and we draw the circle with the radius of 1. But let's say this time we have a ray that has a degree of 30 degrees.
+Well, now this, if we created a right triangle, we know that this angle is 90 degrees because it is perpendicular to the x axis. We know that this last angle is equal to 60 degrees.
+So we know that this triangle follows the properties of a special right triangle that is 30, 60, 90. So we know that the hypotenuse is equal to 1.
+And with a special right triangle that is 30, 60, 90, we know that the ratio is x to x root 3 to 2x. And this is the side corresponding with 30 degrees. This is the side corresponding with 60 degrees. And this is the hypotenuse or the side corresponding with the 90 degree angle.
+So what do we know about this triangle? Well, we know that the hypotenuse is equal to 1. So we know 2x is equal to 1. So what is x equal to?
+x just equals to 1/2 for that. And now the side corresponding to 60 degrees must be root 3 over 2. So we can plug everything in here and write it in.
+So this x value right here is root 3 over 2 and this y value is 1/2. So therefore this coordinate point must be root 3 over 2 comma 1/2.
+Now with that being said, let's try another scenario. So let's say in this case, instead of us going 30 degrees and instead of us going 45 degrees, we went 60 degrees.
+So what would happen with this special right triangle? So because this one right here is 60 degrees, we know that this is a right angle. We know that this last one is 30 degrees.
+So as we said earlier with this 30, 60, 90 triangle, this one was root 3 over 2 comma 1/2. If we go through this process again with this special right triangle that is also 30, 60, 90, we will find that the coordinates are actually just reversed.
+1 over root 2 comma root 3 over 2. So just memorizing one of these helps us no longer have to prove it every single time. And then we know that at 60 degrees, we simply have to flip the two x and y coordinates.
+Now if a question asks us, what is the sine of 60 degrees? Well, because we know the unit circle, let's take a look at what sine of 60 degrees would equal to.
+So normally we're looking at sine, we would say okay, sine is equal to opposite over hypotenuse.
+So the opposite side to the 60 degree would be this y value, so root 3 over 2, so root 3 over 2, over the hypotenuse, which is just equal to 1,
+because we know the radius of the circle is 1. So over 1 just leaves this by itself.
+So therefore the sine of 60 degrees is simply equal to the y value on the unit circle, so root 3 over 2.
+If we were to do the same and do sine 30 degrees, we would find that at sine 30 degrees, we would have opposite, which is 1/2,
+divided by the hypotenuse, which is just 1, so divided by 1.
+So therefore sine of 30 also equals to just the y-coordinate of its corresponding unit circle value.
+So on the unit circle, sine is simply equal to the y value that exists at whatever coordinate is on this coordinate plane.
+And on the flip side, cosine of some angle would therefore equal to the x value of its corresponding point on the unit circle.
+And you can test this for yourself if you'd like.
+So let's practice just a little bit.
+So what is cosine of 45 degrees?
+Well, we know that at 45 degrees, the x and y values are simply 1 over root 2, comma 1 over root 2.
+So cosine of 45 degrees would just equal to the x value at 45 degrees on the unit circle, which is 1 over root 2.
+If we were asked for sine of 60 degrees, we would get the y value of the unit circle at 60 degrees.
+So that's root 3 over 2.
+Now what if we were asked the sine of 90 degrees?
+Well, we know that at 90 degrees, we are now at the y axis.
+Because this is just the radius, we are at 0, comma 1.
+So sine of 90 just equals the y value at 90 degrees.
+So therefore equals to 1.
+And if we ask cosine at 0 degrees, then the value here would be 1, comma 0.
+So cosine of 0 would be equal to 1 as well.
+Now we have fully talked about quadrant 1 of the unit circle.
+But notice here how at 45 degrees, it is standardized and written as root 2 over root 2.
+Instead of what we wrote earlier, 1 over root 2.
+The reason for this is because 1 over root 2, in order to rationalize the denominator,
+what that means is not leave a square root in the denominator,
+we just need to multiply both sides by root 2 over 2.
+Which is the same as, you know, just multiplying by 1.
+So we get root 2 over 2.
+So that's where we get this from.
+Now let's talk about how to fill in the rest of the unit circle.
+Well, let's take a look at this 30 degree angle.
+Well, if we are to go from this 0 degree, so from the x-axis, and rotate 150 degrees,
+we would notice how we land over here.
+And what we notice is that this is actually another 30 degree angle,
+this time from the negative x-axis.
+So therefore, because of 30-60-90 triangle, the x and y values will look very similar to what they look like over here.
+However, because we are on the negative x-axis now, we are in quadrant 2,
+the x value is simply a negative value this time.
+So look at the similarities.
+And the same would apply to 135 degrees.
+Notice how that is simply 45 plus 90.
+So all we did was rotate to the exact same place, but just in the negative quadrant.
+So in quadrant 2.
+So at 135 degrees, we have negative root 2 comma 2 comma root 2 over 2.
+And then same for 120 versus 60 degrees.
+So that is an easy way to remember the coordinates when you rotate just to the opposite side,
+or rotate to a different quadrant.
+So let's practice that a little bit.
+So let's say we are given a coordinate plane with the unit circle.
+And we know that at 30 degrees, the coordinates are root 3 over 2 comma 1/2.
+And let's say we are being asked, "What is the sine of 210 degrees?"
+So in order to figure this out, let's figure out where exactly this point is at.
+So at 30 degrees, reflected over the y-axis, we would be at this point right here.
+Which is at 150 degrees.
+And then in order for us to have another 30 degree angle, we would only have to add 60 degrees here.
+So that we are at 210 degrees.
+So at 210, what is going on and what is the difference?
+Well now we are in quadrant 3.
+So therefore, both the x and the y value must be negative.
+Because we are in the negative x-axis and also the negative y-axis.
+So our values are negative root 3 over 2 comma negative 1/2.
+So sine of 210 must equal the y-coordinate at 210 degrees.
+So sine of 210 degrees is equal to negative 1/2.
+Most of the time when SAT questions ask about the unit circle,
+they actually don't ask it in terms of degrees.
+They actually like to talk about it in terms of radians.
+So let's draw out an x-y plane with a unit circle, which is just a circle with a radius of 1.
+So at 0 degrees, we know that obviously 0 degrees equals 0 radians.
+At 180 degrees, this would just be equal to pi.
+Because 360 degrees or a full rotation around a circle is 2 pi.
+So at 90 degrees, we must be at pi over 2 radians.
+That means that at 45 degrees, we are at pi over 4 radians.
+And at 60 degrees, we are at pi over 3 radians.
+And at 30 degrees, we are at pi over 6 radians.
+And so on and so forth.
+So now, looking back at this unit circle, please take a moment to look at all of it and try to figure out exactly where all of these numbers come from.
+And try to understand how did we get to where we are.
+Hopefully now, this big unit circle isn't as overwhelming and it begins to make a little bit more sense.
+Just some quick tips to help you out, to help you memorize this a little bit more.
+Every time we increase by 30 degrees, we are adding pi over 6 radians.
+So at 30 degrees, we have pi over 6.
+At 60 degrees, this is actually equivalent to 2 pi over 6.
+And then adding another 30 degrees, so getting to 90 degrees, we actually add 3 pi over 6.
+And then adding another 30 degrees, all we're doing is adding pi over 6.
+And then going from 0 to 45 degrees, every time we add 45 degrees, we're simply adding pi over 4 radians.
+Definitely take some time to get familiar with the unit circle, because if you are asked a question and you have to derive or try to come up with everything,
+it takes a lot more time versus having this memorized.
+In your geometry class, you should go a lot more depth into the unit circle and have had a lot of practice to do with this.
+The big thing to remember is that sine of an angle or sine of some radians is simply equal to the y value at that point on the unit circle.
+And cosine of some radians or some degrees is simply the x value at that corresponding point.
+Now let's talk about coterminal angles within the unit circle.
+So when you rotate around the circle, going around one full time is 2 pi radians, because this is just rotating around the circle 360 degrees.
+This lands you right back at the exact same spot.
+So what that means is that if we start here and we go one full rotation around the circle, we actually rotate around 360 degrees,
+which is equivalent to 2 pi radians, and we end at the exact same place that we started.
+So what this means is that adding or subtracting full rotations of 2 pi doesn't change where we end on the circle.
+So what does this mean? This means that the cosine of pi would be equal to the cosine of 3 pi.
+Because at cosine of pi, we are right here, and then going around a whole nother loop of 2 pi means we stop at the exact same place.
+So it's literally asking us what is cosine of right here, which is the x value right at this point.
+This also means that if we have something like cosine of 0, and we add the relationship with cosine of 2 pi,
+this just means starting here, and then cosine 2 pi is this exact same spot because we go one full circle round.
+It is also the x value at this place.
+So let's do one quick example to see exactly what this looks like.
+This question asks us what is sine of 32 pi over 3.
+Now this is a huge angle, so what we need to do is keep subtracting full rotations of 2 pi,
+which equals to 6 pi over 3, until we get a small manageable angle that actually falls onto the unit circle.
+So after subtracting 6 pi over 3 over and over,
+the first angle that we get that's actually on the unit circle is 2 pi over 3, which occurs at 120 degrees right here.
+So at the angle 120 degrees or 2 pi over 3 radians,
+the x and y coordinates are -1/2 comma root 3 over 2.
+So therefore sine of 2 pi over 3 or sine of 120 degrees is equal to the y value at this point on the unit circle,
+which is root 3 over 2.
+Let's practice this hard question about the unit circle.
+So point P lies on a unit circle in the xy plane, it has coordinates 1 comma 0.
+Point O is the center of the circle and has coordinates 0,0.
+Point Q also lies on the circle and has coordinates c comma d, where d is a constant.
+Which of the following could be the positive measure of angle P O Q in radians if d equals -1?
+Okay, so let's draw out this question.
+So we know that point P lies on the unit circle, so let's first start by drawing the unit circle.
+Then it tells us that point P has coordinates 1 comma 0, which is right here.
+This is at 0 degrees.
+And it says that point O is the center of the circle at the origin.
+So this is point O, and it tells us point Q lies on the circle and has coordinates c comma d.
+But then it tells us if d equals -1.
+So if d equals -1, that means the y-coining equals -1.
+Therefore, if it lies on the unit circle, it has to exist here because this is the only point on the unit circle in which the y-coining is -1.
+So this is 0 comma -1.
+And this is point Q.
+So the question asks us, which of the following could be the positive measure of angle P O Q?
+So P O Q.
+So this is the positive measure, so it is counterclockwise.
+If we are to go clockwise, this would actually be the negative measure.
+So let's do this question.
+First of all, what is the radiance at this point?
+Well, this is 0.
+This is pi over 2.
+This is pi.
+So this is 3 pi over 2.
+So let's take a look at the answer choices.
+Well, none of these have 3 pi over 2.
+But what do we know about the unit circle?
+We know that going 2 pi around, or 360 degrees, just makes us land at the same point.
+So for these answer choices, let's subtract 2 pi to see which one of these end up landing us at 3 pi over 2.
+Well, 4 pi and 2 pi subtracting 2 pi over and over just leads us to 0.
+So it's equivalent to point P.
+So these are obviously not right.
+So let's try b and c.
+Well, these have a denominator of 2.
+So 4 pi over 2 is equal to 2 pi.
+So let's subtract 4 pi over 2 from these.
+So from answer choice b, subtracting 4 pi over 2, we get pi over 2.
+But pi over 2 is actually this point right here, which is not point Q which we are looking for.
+So b is incorrect.
+Now let's test c just to be sure.
+So 7 pi over 2 minus 4 pi over 2 gives us 3 pi over 2, which is indeed the point Q that we have identified.
+Let's practice another quad question.
+This question is asking us what is the value of sin 33 pi divided by 4.
+So because this number is far greater than 2 pi, which with the same denominator this would be 8 pi over 4, we must continue to subtract 8 pi over 4 until we get this number to be less than 2 pi and greater than 0.
+So let's do it.
+So 33 pi over 4 minus 8 pi over 4 the first time gives us 25 pi over 4.
+This is still greater than 2 pi.
+So let's subtract another 8 pi over 4.
+We get 17 pi over 4.
+That's still greater.
+So let's subtract again.
+We get 9 pi over 4.
+This is still greater than 8 pi over 4.
+This is still greater than 8 pi over 4.
+So let's subtract one more time and we get pi over 4.
+So on the unit circle, at pi over 4, this is at 45 degrees.
+So right here.
+And at this point, the coordinate is root 2 over 2 comma root 2 over 2.
+Therefore, sin of 33 pi over 4, which is equivalent to sin of pi over 4, which also just means just the y coordinate at this point must be root 2 over 2.
+over two.
+

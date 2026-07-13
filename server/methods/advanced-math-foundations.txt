@@ -1,0 +1,407 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Advanced Math
+SKILL: Foundations
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Absolute Value .txt
+--------------------------------------------------------------------------------
+Let's talk about absolute value. So the absolute value simply represents a distance away from zero. Think about it like this. If you take the absolute value of negative 18, this is represented by straight vertical bars, by the way. The absolute value of 18, this is equal to 18. Why? Because negative 18, if we think about it on a number line with zero being right here, negative 18 is simply 18 units away from zero.
+So the absolute value of negative 18 is equal to 18. On the flip side, the value 18 itself, the absolute value of 18 is also equal to 18 because 18 is 18 units away from zero.
+Also, another funny way to think about it is no matter whether you're taking the absolute value of a positive number or a negative number, it's always just going to be equal to the positive value.
+So, let's do an example. So solve for x and absolute value of x minus 9 equals 18. So remember, all we are looking for is that, remember, the absolute value of something has to equal 18. We know that whether the number is negative or positive 18, we will get the absolute value equal to 18.
+So, the number within the absolute value can be equal to either 18 or negative 18 since both are 18 away from zero. Therefore, what we can do to solve this is split this into two equations. One for the inside to equal 18 and one for the inside to equal negative 18.
+So, if x minus 9 equals 18 and x minus 9 equals negative 18, both of these that are taking the absolute value would equal 18.
+So, let's solve it. So, x minus 9 equals 18. So, add 9 to both sides, we get x equals 27. In this case, x minus 9 equals negative 18. So, we add 8 to both sides, x equals negative 9.
+So, these would be our two solutions that would make this equation above true.
+Let's practice. What is the positive solution to the equation 2x plus 3 equals 11?
+So, remember, in this case, inside this absolute value can either equal negative 11 or equal 11 because both of these, taking the absolute value just means that it is indeed 11 units away from zero.
+So, let's break it up into two equations. 2x plus 3 equals negative 11 and 2x plus 3 equals 11.
+So, let's solve for the positive solution. Obviously, looking at this initially, we don't know which one is a positive solution.
+So, we'll just choose one to do first and then see if that gives us the positive solution.
+So, remember PEMDAS. So, first we subtract 3. 2x equals negative 14. And divided by 2, x equals negative 7.
+On this side, this is the negative one. So, it's probably not right. It's asking for the positive solution. These are going to be wrong.
+And then on this side, subtracting 3 from both sides. 2x equals 8. x equals 4. So, the positive solution to this question is x equals 4. That gives us A.
+Now, to solve this question in Desmos, all we would have to do is graph the function and then find where the function crosses the x axis.
+In this case, we easily see that it crosses at negative 7 right here and at positive 4. So, our answers are simply negative 7 and 4.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Common Denom..txt
+--------------------------------------------------------------------------------
+Let's talk about adding batchional expressions with different denominators.
+Adding fractions with different denominators in algebra works exactly the same way as adding
+fractions with different denominators in arithmetic. You cannot add the numerators until the
+denominators are identical. So let's take a look at arithmetic first, which we are already familiar
+with. So if we ought to try to add 1 half plus 1 fourth, we are not directly able to just say,
+okay, 1 plus 1 equals 2, and then put 2 over something. We must make sure the denominators
+are the same. So in this case, the least common denominator would be 4. So we want to multiply
+the top and bottom of this 1 half by 2 over 2. That way, we get a common denominator. So we get
+2 over 4 plus 1 fourth. Now that the denominators are the same, we're able to directly add the
+numerators. So 2 plus 1 equals 3. So we get 3 fourths. The same applies to algebra. The denominators
+So not just two, they may be for example x plus 3 in the denominator. Now we must
+multiply each fraction by the missing piece that the other fraction has so that
+both denominators end up identical. The tricky part is identifying what each
+fraction is missing. So let's take this example. For 4 divided by x minus 3 plus
+5 divided by x plus 4, let's find how to add these together. So it's actually kind
+of tricky to look at in this format, so let's write it in a format that looks
+easier to interpret for our eyes. So 4 over x minus 3 plus 5 divided by x plus 4. Now we can more easily see that fraction 1 has x minus 3 but is missing x plus 4. Meanwhile fraction 2 has x plus 4 but is missing x minus 3. So to solve this we can multiply the first fraction by x plus 4 divided by x plus 4.
+And notice how this, when you actually divide it, it's actually equal to 1. So all we're doing is multiplying this by 1. So we multiply this by x plus 4 divided by x plus 4. And then with the second fraction, we must multiply it by x minus 3 divided by x minus 3. Notice how after we do this, we actually find that now both of the denominators contain x plus 4 times x minus 3.
+And on this side, x plus 4 times x minus 3. And on this side, x plus 4 times x minus 3. With that being said, now we can directly add the numerators together because the denominators are the same. So in this case, we could actually distribute this and then this 5 distributed across here and then add the numerators. So let's practice. Which expression is equivalent to 3 over x plus x over x plus 2 where x is not equal 0 and x is not equal negative 2? Okay, awesome. So
+let's solve this. First thing we do is take a look at the answer choices and we find that, okay, all we're looking for is an expression to actually be able to combine these two. Okay, because these are all one term or one fraction, meanwhile over here we have two fractions. So let's solve. So 3 over x plus x over x plus 2. So from this side, in order to get these two denominators the same, we find that the easiest way to do so is to have x times x plus 2.
+So for this first fraction, in order to achieve this common denominator, we must multiply by x plus 2. So let's do it. x plus 2 over x plus 2. And over here on this side, we must multiply by x over x. Awesome. So now let's actually distribute it out. So 3 times x plus 2 over x, x plus 2, plus x squared,
+over x times x plus 2. Now that our denominators are equal, we can actually take a glance at the answer choices just to see if we're kind of on the right track. We can clearly see that a couple of answer choices does have this as a common denominator.
+So now all we need to do is make sure we distribute these numerators and add them together. So this 3 times x plus 2 just equals to 3x plus 6. And then we see this x squared. So we add the x squared.
+And we know that the denominator is just this that we made out earlier, these 3 right here. So x times x plus 2. So this right here is our answer. Let's see which answer choice matches that. So x squared plus 3x plus 6. That is d. And d is correct.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Completing the Squar.txt
+--------------------------------------------------------------------------------
+Let's talk about completing the square. So with completing the square, we want to turn part of an equation. This equation refers to a quadratic in the standard form. So ax squared plus bx plus c into a perfect square trinomial plus something else. Perfect square trinomial is just a fancy way of saying something like x plus b squared or x minus b squared with b being interchangeable as any constant. So how do we complete the square? To complete the square for a function that looks like x plus b squared,
+x squared plus bx, all we need to do is add half of b and square that. So this may not make a lot of sense right now, but let's go through the steps and it will begin to make sense. All you need to know right now is that this is very important to complete the square. So there is a three-step process when completing the square for a standard quadratic with a equaling 1. So in this case, you can tell. Let's use this example. y equals x squared minus 6x plus 10. We want to convert this into vertex form. Vertex form is just the name
+that goes with a function with a perfect square trinomial plus something else. So in this case, step one is to move the constant term, this 10 right here, to the side to make room for completing the square. So this is what it looks like. So all we want to do is bracket off this a term and the b term and then leave room for another constant. This is where we complete the square and then bring the constant to the outside.
+Next, to actually complete the square, this is where we use this b over 2 squared right here. So we take the middle term, which in this case is negative 6, we want to divide that by 2 and then square it and then add that to this blank right here.
+So that's exactly what we do. Take half of the middle term, negative 6, which is negative 3, square that, which gives us 9, and then add that inside the parentheses.
+Now the big thing to keep in mind here, and this often leads students to make a simple mistake, is because all we are doing is finding an equivalent way to express the exact same function, we need to make sure that this function is actually equal to what we create at the end.
+So because we are adding 9 inside the parentheses, outside we must also subtract 9. This way these two cancel out and overall the function is still the same. So that's what we do right here. We add b over 2 squared on the inside and we subtract that same thing on the outside.
+Lastly, we want to find the perfect square trinomial. If you don't remember or just need a review on what a perfect square trinomial is, please refer to the foundations unit that talks about perfect square trinomials.
+So, an easy way to remember how to simplify this function right here inside the parentheses is taking x plus half of b and then putting a square over that.
+So, half of this b term is negative 6 is 3, so this right here simplifies down to x minus 3 squared. If this is a little bit confusing to you, you can try literally just taking this and foiling it out or using the perfect square trinomial property and you will find that this is equivalent to this right here.
+So, that's where this comes from. And lastly, to fully simplify this, now we want to combine like terms on the outside of the parentheses. So, 10 minus 9 equals 1. So, the final vertex form or the final equivalent expression with a perfect square trinomial is y equals x minus 3 squared plus 1.
+So, this right here is equivalent to this original function that we have. It is simply expressed in a different form. This is called standard form while this is called vertex form.
+You will learn more about what this vertex form and some properties mean a little bit later. For now, you just need to know that this contains a perfect square trinomial.
+Now, let's practice. Which of the following is an equivalent form of the function f of x equals x squared plus 6x plus 2 with a perfect square trinomial?
+Keep in mind, once again, it's mentioning a perfect square trinomial. If for some reason you forgot what exactly this means when you're taking the SAT, remember, step 2 after reading the question is to take a quick look at the answer choices.
+As we can see, all of the answer choices are in the form of this right here, in vertex form, with a perfect square trinomial.
+x plus 3 squared, x plus 3 squared, x plus 6 squared, and x minus 3 squared. Okay, awesome. So, now we know we must complete this square. So, let's go through the steps.
+Firstly, we want to separate this constant term to the outside. So, we have parentheses, x squared plus 6x plus something. This is that b squared over 2 squared.
+Remember, b squared over 2. Oh, sorry, b over 2 squared. Plus this constant on the outside. So, 2 right here.
+Next, we actually want to use this equation. So, 6 divided by 2 squared gives us 9. So, we add 9 on the inside and then we subtract this on the outside, remember, because we want to keep these two equal.
+And now, we want to actually take this and turn this into a perfect square trinomial. Remember that in order to convert this into a perfect square trinomial, all it is equal to is x plus half of b and take all that squared.
+So, x plus half of b, 6 divided by 2 is 3 squared. And then, all we want to do is combine these outside terms. So, this is actually plus minus 7, which is equal to minus 7.
+So, we have x plus 3 squared minus 7. And that is a. And answer choice a is correct. Awesome. Now, let's talk about completing the square when the value of a is not equivalent to 1.
+So, the coefficient in front of a can be different. So, for example, in our earlier case, we used ax squared plus bx plus c when a equals 1. So, how do we do it when a is not equal 1?
+So, when a quadratic has a number in front of the x squared, completing the square requires an extra layer of balancing.
+This may not make a lot of sense right now, but it will make sense in just a second when we go through an example.
+And if you don't account for the leading coefficient in the front, you will get an unequivalent expression every single time.
+And you'll never get an answer choice. Or the SAT will actually put the wrong answer choice there.
+So, step 1 is now different. The first thing we want to do is actually factor out the a term.
+So, we look at the terms with an x in front of them, in this case being these two right here, and factor out the leading number from them.
+The big thing, keep in mind here, is leave the constant at the end alone.
+Because this actually creates a workspace inside the parentheses where the x squared is now by itself, along with the x.
+So, what does this look like?
+So, let's take this example. 3x squared plus 12x plus 5. Step 1 is to factor out the leading coefficient from the ones with x.
+So, let's look at that. We have 3 and we have 12. What is the greatest common factor that we can find between these two?
+If you said 3, that would be correct. Because we can take out 3 from here, which changes this a coefficient to 1.
+And then we take out 3 from here, which changes it to 4. Our big goal here is just to get this to factor out this a in the front.
+So, let's do it. So, real quick. First thing, remember, we move the constant to the outside, and then we create this little workspace right here.
+So, this actually skips a step, but basically what we get is when we factor out 3 from both of these, we take the 3 on the outside, and then we put whatever is remaining on the inside.
+Remember, we do not take out a factor from the constant. We just move that on the outside.
+Now, moving on to step 2, we want to complete the square as we normally would.
+So, inside the parentheses, once again, find the number that creates a perfect square. This is that b over 2 squared.
+We do this by taking the middle number, cutting in half, and square it. That is this b squared over 2 right here. So, right here.
+So, let's do this. So, for our example, b over 2 squared is 4 divided by 2 squared, which is just 4 divided by 2, which is 2, and then squaring that is 4.
+So, we add a 4 right here, and we subtract 4 on the outside. But wait. Here's the tricky part.
+It's that when we add 4 on the inside, we're actually not just adding 4. Because remember, there is a 3 sitting here on the outside. And when you distribute this, it actually gets distributed to this constant term 2.
+So, unlike what we did when a equals 1, we are not able to just put minus 4 on the outside. Because we are adding 12 on the inside. And because of that, we must do the same on the outside to keep it balanced.
+So, therefore, even though we are adding 4 on the inside, in reality, because it's being distributed by this 3 that we factored out, we are actually adding 12. So, on the outside, we must subtract 12.
+Now, all we need to do is combine like terms and then factor the perfect square trinomial. So, simply rewrite the parentheses as a squared group and combine the numbers at the end to show the vertex 4.
+So, x squared plus 4x plus 4 becomes x plus 2 squared. Remember, this is because after you complete the square correctly, the perfect square trinomial is in the form x plus b over 2 squared.
+Now, lastly, adding the two constants at the end, 5 minus 12, gives us negative 7. So, our final form is f of x equals 3x plus 2 squared minus 7.
+Remember, this is equivalent to this original question that we were given, right here.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Difference of Square.txt
+--------------------------------------------------------------------------------
+Let's talk about the difference in squares. The difference of squares states that a squared
+minus b squared equals a plus b times a minus b. This is simply a trick or another trick to simplify
+or find equivalent expressions. But let's verify that this is true. a plus b times a minus b gives
+us a squared minus ab plus ab minus b squared. This comes from expanding out this using the for
+method. If you don't know or want to review the for method, please check out the for method
+foundations module. Now after combining like terms and removing these two because they are equivalent,
+we get a squared minus b squared. So indeed a plus b times a minus b does indeed give us this expression
+right here. That is where this comes to be. So how do we recognize when something is a difference of
+square? So we recognize them when we see that there are exactly two terms and we see that these two
+terms are being subtracted. Next we must see that both of these terms a squared and b squared are indeed
+perfect squares. So what that means is that they can be written as something squared. So what does that
+actually look like? Well let's do an example. Which of the following is equivalent to x squared minus 9?
+Okay, so first we notice there are d two terms and the two terms are being subtracted. Now we must see if
+these terms are perfect squares. Okay, so we see that x squared, all that means is
+that is x squared. And then to get 9, we take 3 and then square that. So awesome,
+this can be indeed written as a difference of squares. So let's write it
+out. So as you saw earlier, this is equal to a plus b times a minus b. So x plus
+3 times x minus 3. And these two are equivalent. So our answer we get is a.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Exponent Rules.txt
+--------------------------------------------------------------------------------
+Let's talk about exponent rules. There are a couple of rules that you must keep in mind in order to solve exponent questions.
+The first one is the product rule. This is when x to the power of a is multiplied to x to the power of b. All this equals to is x to the power of a plus b.
+Notice how this is a plus in between and not a multiplying. An example of this is x to the third times x to the fourth.
+Instead of doing 3 times 4, what you do is you add 3 plus 4. So this gives you x to the 7.
+Now, the opposite is the quotient rule. This is when x to the a is divided by x to the b. Instead of taking a divided by b, you subtract the two exponents.
+So this gives you x to the a minus b. An example of this is if you have x to the power of 8 divided by x to the power of 2, you get x to the power of 6.
+This 6 just comes from 8 minus 2. Now, something super important to keep in mind is that these rules only apply if the bases are the same.
+So these rules do not stand if, for example, this base is y. So y to the 8 divided by x to the 2.
+Because these bases are not the same, this is the most simplified version you could get. You are not able to take this and go, oh, somehow this is to the 6, or you put a y to the x, or you put an x to the 6, or a y to the 6.
+You simply cannot do it because the bases are not the same. All of this is incorrect.
+Now let's practice. So which of the following is equivalent to the expression 2x to the 3rd times 4x to the 5th divided by 2x to the 4th for all x greater than 0?
+So clearly here we see that all the bases are the same. So we now know that the exponent rules do apply. So let's write this out.
+2x to the 3rd times 4x to the 5th divided by 2x to the 4th.
+Well, why don't we start with the numerator and combine this together. So with the coefficients, all we do is multiply these together as normal. 2 times 4 equals 8.
+Then with the exponents, remember when we are multiplying two exponents with the same bases, we simply add the exponents.
+So 3 plus 5 equals 8. So 8x to the 8 divided by 2x to the 4th. Now, so for this, with coefficients, once again we do normal operations. So division. So 8 divided by 2 equals 4.
+Now, because these are dividing, for this we subtract the exponents. So 8 minus 4 gives you 4. Positive 4. And that is our answer. So that gives us a. And a is correct.
+Now to solve this question in Desmos, all we need to do is similar to what we did with the previous question that was equivalent expressions or was asking for something equivalent.
+We would graph this function, this as a function, and then it would give us some sort of line. So I'm just going to draw a random line.
+And then we are going to graph each of these and see which one of these functions or these answer choices ends up overlapping the exact same line.
+So for example, if we graph a and it looks like this, then, or sorry, if we graph b and b looks like this line, we know that they are not overlapping, so b is not correct.
+But if we graph a and a perfectly overlaps with the function right here, then we know that a is the correct answer.
+The next exponent that we need to know is the exponent rule. This is when x to the power of a is taken to the power of b.
+This gives us x to the power of a times b. Notice how this time it is a times b and not a plus b, because we are taking it to the power of another.
+So an example of this would be x cubed to the power of 4. This gives us x to the power of 12, because 3 times 4 equals 12.
+Now the next rule is power over root. So this is when x to the power of a is taken to the b root.
+This gives us x to the power of a divided by b. An example of this would be x to the power of 6 times y to the power of 6, and all this is taken to the cube root.
+The best way to evaluate this is to think about these split in half, and then take these individually.
+So make sure that we are taking the cube root of each term within the actual question.
+So this would be equal to x times 6, x to the power of 6 divided by 3 times y to the power of 6 divided by 3.
+This gives us x squared times y squared. Notice how once again this is just this right here divided by the root.
+So this may be a little bit confusing, so here are a couple of examples to break this down even more.
+So the square root of x is equivalent to x to the power of 1/2. Notice how in square roots this is equivalent to just there being a 2 hidden in this corner.
+So x to the power of 1/2. Taking the cube root is x to the power of 1 divided by 3. So 1 divided by 3.
+The fourth root of x is equivalent to x to the power of 1/4. The square root of x cubed is equivalent to x to the power of 3 over 2.
+And the cube root of x to the power of 5 is equivalent to x to the power of 5/3. Notice how it's just 5 divided by 3, 3 divided by 2, 1 divided by 4, and so on.
+Now in some cases there will be a coefficient in front of the variable. So when you see something like this, do not get scared.
+All you need to do is think about taking the square root of each of the individual terms that are present here.
+So in this case, we would take the square root of all three of these terms. So what does this actually look like?
+All you need to do is split them up. So taking the square root of 144, what is that? That is 12. Taking the square root of x to the 4th, that is just x to the 4th divided by 2.
+So right here. And then taking the square root of y to the power of 10 is just 10 divided by 2.
+So that gives you 12 times x squared times y to the 5th. Now let's do an example of this. Which expression is equivalent to the cube root of 27 times p to the 6 times q to the 9th?
+So once again in order to do this, we just want to split this up into the three terms present. So we want to take the cube root of 27 times the cube root of p to the 6 times the cube root of q to the 9th.
+So evaluating these one at a time, this is just equivalent to 3. This is equivalent to p to the 6th divided by 3, which 6 divided by 3 is just equal to 12, times q to the 9 divided by 3, which is 9 divided by 3.
+Which is 9 divided by 3 gives you 3. And this gives us b. And that is correct.
+Now the last rule that we need to know is the negative exponent rule. So whatever base has a negative exponent, all we need to do is move that base to the opposite side.
+So for example, if that base was in the denominator with the negative exponent, we want to move that base to the numerator. Same with vice versa.
+And then we change the exponent to positive. So for example, if we have x to the power of negative a,
+all this is equivalent to x to the power of negative a, this is just equivalent us to first flipping the base.
+So instead of putting in the numerator, we put it in the denominator, and then we take the positive of the exponent. So to the a.
+So this is just equivalent to 1 over x to the a. And same vice versa. If we have 1 over x to the negative b, the first thing we do once again is we flip the base into the opposite side.
+So we have x over 1. And then this exponent, instead of having it be negative, we just flip it to positive. So to the b. So this is just equivalent to x to the b.
+These are both listed out right here.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Factoring.txt
+--------------------------------------------------------------------------------
+Let's talk about factoring. So given the function f = ax^2 + bx + c, we want to turn the quadratic into factored form.
+Factor form looks like x - q times x + b. Now notice, because of the rules of FOIL, when we multiply the first terms, that is what gives us this ax^2 right here.
+And if, for example, this term a, this coefficient a was 2, then obviously x times x wouldn't give us this 2 right here.
+So front of these x's right here, we can indeed have a coefficient in front. Also this doesn't have to be in the form of minus. This minus and plus can be interchanged.
+So how do we factor a quadratic? Well we are looking for two sets of numbers that pass three tests at the same time.
+Two of the sets, one of the sets of number must multiply to give you a, the other set must multiply to give you c, and then adding the two sets of numbers must give you b.
+Now this is overall pretty confusing just telling you like this. So let's illustrate it by using the cross method.
+So using the cross method, let's factor 3x^2 + 14x + 8.
+So the goal here is to guess and check numbers that add to b and multiply to a and c. So step one is for you to draw an x.
+Then the numbers on the left side must multiply to give you a. So we're just going to be throwing numbers here in a little bit that multiply to give you a.
+The numbers on the right side must multiply to give you c. Then multiplying the numbers diagonally and following the x right here and adding the two results must yield in b.
+So what does this actually look like when we are looking to factor 3x^2 + 14x + 8? Well first of all let's actually label it to put it in a form that we are familiar with.
+Because we know that these must follow these rules right here in order to all be satisfied and to factor it properly.
+So let's start. Step one is to simply draw an x. Step two is find factors that multiply to 3 and then also find a second set of numbers that multiply to 8.
+So to find 3 we know that 3 times 1 gives you 3 and that's the only possible way. Or if we were to flip it like this. And for 8 we have a couple of different options. So let's try some of them.
+So in this first instance we are checking 3 and 1 on the left side and 4 on 2 on the right side. So let's check it. So 3 times 1 obviously equals 3. 4 times 2 gives you 8. The one we are most concerned about and usually the trickiest is making sure that these two sets of numbers actually multiply across and then add to the number.
+So let's try it. 3 times 2 gives you 6. 1 times 4 gives you 4. Notice how we follow the curve right here diagonally and multiply. Then adding these two numbers gives us 10. But notice that 10 is not equal to b. So the numbers multiply diagonally and then adding the two results does not equal b in this first instance. Because 10 does not equal 14. So let's try another set or another combination. So in this case we notice how
+this number is 2 is 2 small. And we notice how there's a 3 here. 3 times 2 is pretty small. But what if we moved the 4 down here and we have the 2 here. Because now, let's look at it right now again. So 3 times 1 obviously equals 3. 2 times 4 obviously equals 8. So we passed 2 of the test. Let's go diagonally again. So 3 times 4 gives us 12. And 1 times 4 equals 2. Now adding these two terms, 2 plus 4, does indeed give us 14.
+So now that we know that we know that we pass 2. So now that we know that we know that these sets of numbers pass all the tests, all we need to do is move from left to right to give us the factored form. So imagine there being an x in front of these. So what we get is 3x plus 2, which is right here, 3x plus 2, times 1x plus 4. So 1x plus 4. So this is how we factor 3x squared plus 14x plus 8.
+So just a key summary. Make sure that these two terms are here. Multiply to give you the first term, a. Then make sure that the two sets of numbers on the right side. Multiply to give you b. And then once you multiply diagonally, and then you add together those two answers, it must combine to give you the term bx right here.
+Now at first this process makes it tedious because you actually keep guessing and checking. But as you do these questions more and more, you will become very efficient to where most likely your first attempt at making a combination is actually correct.
+Because as you are thinking through the possible factors, you know that okay, this number is obviously going to be too small. Because you'll do it in your head, and you may not need to draw the cross out completely. So as you get more practice with this method, it becomes way quicker.
+So let's practice. Which of the following is equivalent to x squared plus 7x plus 12? Okay, so in this case, let's take a brief look at the answer choices. We notice that all the answer choices are in factored form. So we must factor.
+So step one, let's draw a cross. Now we know that a, in this case, is equivalent to 1. Because we see that the coefficient here is 1. So the left side is easy. We know that both of them are 1.
+Now let's move on to the right side. So remember, now we need a set of numbers that multiplies to 12, but also these numbers must add to 7.
+So in this case, what do we possibly have? We have 12 times 1, we have 3 times 4, and then we have 6 and 2.
+Actually, you don't even need to look at the multiplication in this case. We just know that these multiplied together gives us 12.
+Now which one of these sets adds to 7? If you said this one, you would be correct. So in this case, we would just throw a 3 or a 4 here.
+And now we know that 1 times 1 does indeed equal 1, 3 times 4 does indeed equal 12, and multiplying diagonally, 1 times 4 plus 1 times 3 gives us 3 plus 4, which equals 7.
+So we know that this is correct. So let's write this out. We want to move from left to right like this. So x plus 3 times x plus 4.
+So the factored form of x squared plus 7x plus 12 is equivalent to x plus 3 times x plus 4. And that gives us answers to us a.
+Now something I do want to note that if you were to switch these two places, that is absolutely okay and it gives you the same result.
+All that means is that these two expressions are flipped, which just equals the exact same thing.
+So this would be x plus 4 times x plus 3, which is the same as this function right here.
+function right here.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - FOIL.txt
+--------------------------------------------------------------------------------
+Let's talk about the FOIL method. To expand x+3 times x-5, we must follow the FOIL method, which stands for First Outer Inner Last.
+So what this means is that we first multiply the first terms, the outer terms, the inner terms, and then the last terms. So let's do it.
+First, we multiply the first term in each group. So x times x equals x squared.
+Next, we multiply the outer terms. x times -5 gives us -5x.
+Next, for the inner terms, 3 times x gives us 3x. And lastly, the outer terms. 3 times -5 gives us -15.
+Next, what we want to do is we want to combine like terms. Now that we have done the FOIL, First Outer Inner Last, we now need to combine the four results that we have.
+In this case, because these two are the same bases, we are able to combine them. This is x squared, this is a constant, so we are not able to combine these two.
+But we can combine the middle two. So what this gives us is -5 plus 3 gives us -2.
+So our final result is x squared minus 2x minus 15. So originally we had x plus 3 times x minus 5. And after expanding and distributing, we now have x squared minus 2x minus 15.
+Now let's practice. So which of the following is equivalent to x plus 3 times x plus 5?
+So once again, remember, we need to follow the FOIL method. So let's do it. So let's take the first terms, x times x, this is equal to x squared.
+Next, the outer. So x times 5 gives us 5x. Next for the inner, we have 3 times x, which gives us 3x. And lastly, the last, 3 times 5 gives us 15.
+Now remember, the next step is to combine like terms. So x squared plus 8x plus 15. And this is answer choice A.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Like Terms Conceptual.txt
+--------------------------------------------------------------------------------
+Let's talk about SAT foundational knowledge.
+So first we're going to talk about like terms.
+What is a like term?
+A like term is a part of an expression that has an identical base and exponent.
+And to simplify an expression, you only add or subtract the coefficients of these matching terms.
+Now, what does this mean?
+Think about like sorting laundry.
+You can only combine items of the same type.
+Socks go with socks, shirts go with shirts, and you cannot fold a sock and a shirt together into one item.
+In math, this is the same way.
+3x squared and 7x squared are the same type of laundry.
+What we mean by this is this x squared.
+The identical base and exponent must be the same for them to be the same type.
+They have the same base and can combine.
+But 3x squared and 7x are different types.
+They cannot be combined.
+As you can see here, this one is x squared and one has x.
+So they are different and cannot be combined.
+The rule to combine like terms is to add and subtract only the coefficients, so the numbers in front.
+The variable and the exponent stay exactly the same.
+You never touch them.
+So for example, if you have 7x squared plus 4x squared, you never touch the bases nor the exponents.
+You just want to add the coefficients in front of the base.
+So what this yields you is 11x squared.
+Now let's practice.
+So let's first start by reading the question.
+Which expression is equivalent to 4x squared plus 3x minus 5 plus 2x squared minus x plus 7?
+So we see equivalents.
+So we want to find equivalents.
+And then now let's take a quick glance at the answer choices.
+Okay, all of them are in a similar format and it looks like all we need to do is just combine like terms.
+So how do we do this?
+So first we look for the ones that are the same type.
+We have x squared and x squared.
+We have the x's and then we have just constants.
+So let's combine them.
+So 4x squared plus 2x squared equals 6x squared.
+Remember, all we do is combine the coefficients in front.
+Next we look at the next one.
+We have 3x minus x.
+So 3x minus x equals, remember, use the coefficients only, so 2x.
+And then we combine the constants, which everyone should know how to do.
+It's just adding numbers.
+So negative 5 plus 7 equals 2.
+So our answer is 6x squared plus 2x plus 2.
+When we look at the answer choices, we have, and that is b.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Order of Op. Concept.txt
+--------------------------------------------------------------------------------
+Let's talk about order of operations. So when solving an equation, we use the order of operations, PEMDAS, also known as GEMDAS.
+When we are isolating for x, we use the reverse order of operations, also known as reverse PEMDAS or reverse GEMDAS. PEMDAS and GEMDAS are the same.
+So what is GEMDAS or PEMDAS? In GEMDAS, the G stands for grouping. In PEMDAS, the P stands for parentheses, which is the same thing.
+The E stands for evaluating exponents, then multiplying and dividing, and then adding and subtracting. Do note that when evaluating exponents, this also means square roots, so the inverse function.
+So when we solve an equation, we use PEMDAS. We go from left to right. When we are isolating for x, we use the reverse operation, so we go from right to left.
+Now, what does this actually look like? So when we are evaluating, we plug in x and then follow the order of operations.
+So this is the math you've been doing all of algebra 1, and before algebra 1, when you were just doing basic math.
+So, let's solve this function. f of x equals x squared plus 5. Evaluate f of 3.
+First, we plug in f of 3 here, and then we follow PEMDAS.
+So, we go from left to right. First, we start with any parentheses or grouping. Well, that does not exist here.
+So, now let's move on to exponents. We find that there is indeed exponents, so we want to evaluate that first. So, 3 squared plus 5.
+So, we evaluate this. This equals to 9 plus 5. Now, we look for any multiplication or division, and this does not exist. And then, we go to addition and subtraction.
+Which, right here, we see that there is 9 plus 5. So, we evaluate this. That gives us the answer of 14.
+Now, to solve for one variable, we use reverse PEMDAS. So, the reverse order of operations. We add and subtract first, then multiply and divide, then exponents, then do the grouping or parentheses.
+So, as you can tell, it goes from right to left. And it always helps, if you are new to this concept, to write out the order of operations, so you don't lose track of the order in which you are going.
+So, the example we are going to be looking at is isolating for x and solving for x in this example.
+So, firstly, we want to do addition and subtraction. So, we add or subtract to isolate x. So, in this case, we want to move the 3 over to the other side. So, we add 3 to both sides. So, this now gets erased. And then, over here, we add 3. So, that gives us this right here. 4 times x plus 3 equals 8.
+Next, we want to look at multiplication and division. So, here we see that there is a 4 multiplying over here that we can move to the other side. So, we divide both sides by 4. This gives us x plus 3 equals 2. So, this 4 cancels out and then this is 8 divided by 2. And then, second and lastly, we check for exponents. In this case, we see that there are no exponents. There's just x plus 3. And so, because of that, we pass over the exponents.
+And then, we work inside of the parentheses moving on to grouping. Inside of this grouping, we want to follow the same reverse order of operations. So, we start with adding and subtracting. And right here, all that's left is x plus 3 equals 2. So, to move that, we just subtract 3 from both sides. So, that gives us x equals negative 1. Now, let's do some practice over the order of operations. If f of x equals this function right here, what is the value of f of 6? So, all this question is asking us is what is the value of f of x when x equals 6?
+x equals 6. Okay, let's solve it. So all we need to do is plug in x or 6 for x. So let's do it.
+So 6 over 2 minus 3, 6 divided by 6 minus 4 squared plus 10. Now let's solve it from here. So let's
+follow the order of operations. I'm going to write it out above so we can reference it and not forget
+where we're at. So first let's start with parentheses or grouping. So we only have one grouping or one
+parentheses right here. So 6 minus 4 is 2. So 6 over 2 minus 3 and then 6 minus 4 is 2 squared plus 10.
+So that is done with parentheses. Now let's move on to exponents. So in this function that we have right
+now, all we have left is one pair of exponents. So let's evaluate that. 6 over 2 minus 3 and then 2
+squared is 4 plus 10. So that is done with exponents. Now let's move on to multiplication and division.
+So here we have 6 divided by 2 and we have 3 times 4. So let's evaluate that. So I'm going to move on to
+this right side. 6 divided by 2 is 3 minus 4 times negative 3 is negative 12 plus 10. And now let's
+evaluate the addition and subtraction. So 3 minus 12 plus 10 gives you 1. So the correct answer is b.
+And b is indeed correct. Now let's take a look at another question in which we have to use the order
+of operations. The equation k equals something expresses the theoretical constant k in terms of
+variable x, where x is greater than 2. Which of the following correctly expresses x in terms of k?
+So what is this question asking for? What does this question mean? In this equation right here, we actually
+see k expressed in terms of x. All this means that k equals something with x being in there, also with constants and coefficients. In this case, now we want to find the opposite. We want to find x equals something with k in there. So this means that we need to isolate for x. So in order to do this, we need to use reverse order of operations.
+So first let's write out the order of operations so we can begin this question. So when doing reverse order of operations, we want to move from right to left. So let's start with addition and subtraction. So in this equation, we see k equals something plus 4 over here. So first thing we want to do is addition and subtraction. And we want to move this 4 over to the k side. Okay.
+So here we want to subtract 4 from both sides. So k minus 4 equals 5x minus 2 squared over 3. Now we are done with addition and subtraction. Now we want to move on to multiplication and division. So we see on the right side, there is still division by 3. So what we want to do is multiply both sides by 3.
+So that way we can get rid of multiplication and division. So 3k minus 4 equals 5x minus 2 squared. Now we see here that we still have multiplication right here. So the reverse operation is division. So we want to do that now.
+So we want to divide both sides by 5 to cancel out on the right side and then add a division on this side. So this is what it looks like now. So I'm just going to rewrite it below.
+Okay. So now all that's left is exponents and then grouping. So first we want to look at the exponent. So clearly here we have the exponent here. So we do need to do this step.
+So in order to get rid of the exponent, we just need to take the square root of both sides. So take the square root of this side, take the square root of that side.
+And now what we have is square root of 3k minus 4 over 5 equals x minus 2. So lastly, we want to evaluate the grouping or the parentheses. So all that's in this grouping is minus 2.
+So to move this to the other side, all we do is add 2 to this side. So these cancel out and then add 2 right here.
+So with everything written out, now we have x on one side and we have what x is equal to in terms of k. So what we get is 3 times k minus 4 over 5 plus 2.
+So now let's look at the answer choices and see which one matches what we got. 3k minus 4 divided by 5 plus 2. A looks correct.
+And then these are not correct. These are not the same as what we evaluated. So the answer should be A. And the answer is indeed A.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Perfect Square Trino.txt
+--------------------------------------------------------------------------------
+Let's talk about perfect square trinomials. So normally when we are given a plus b squared, we think, okay, how do I expand this? Because it is squared, we know that it is just the same as taking this inner term multiplied by itself one time. So this is a plus b times a plus b. And normally in order to expand this, we would use foil like you learned previously in the foundations unit, taking the first outer inner last. However, there's actually a trick to this. This is where perfect square trinomials come into play.
+So a plus b squared is actually equivalent to a squared plus 2ab plus b squared. So this makes it much simpler because instead of having to expand it out and manually do the foil and then combining the middle two terms, we know that it actually looks like this. And same applies to subtracting in between. So a minus b and taking all of it squared is equivalent to a squared minus 2ab plus b squared. Now, how is this useful? First, let's say that a question actually gives you something
+like this. What you can obviously do is instead of having to do this process, you just remember this formula and then you can easily expand this out. On the flip side, if you are given an equation in this form, you can also easily convert it into this form right here because you recognize that, okay, this first term is just something squared. This last term is also something squared. So it's a perfect square. And then with that, you can see that if taking the square root of the first term and the last term and then multiplying that by 2 gives you this middle term
+right here. And if it does match, now you can easily convert from this form right here over to the perfect square trinomial form by dropping the middle term entirely and then connecting the two square roots, the square root of a and the square root of this b term with the sign of the middle term. So if it's a plus right here, what I mean by this is we drop this middle term right here and then we take the square root of this term, square root of this term, and then keep the sign. So a plus b squared. And then same applies to this side.
+If we see that indeed taking the square root of this first term and taking the square root of the second term gives us a and b and by subtracting them, we do indeed get this right here. Then we can drop the middle term entirely. We keep this subtraction sign right here, get rid of the two square roots, and then we get a minus b squared. And we know that that is equivalent to this function right here because it fits this test. This actually, this concept right here, actually, if you were to just try to prove it, it actually aligns
+directly with FOIL. So it's nothing extra special. If we were to expand our FOIL, it would actually end up looking like this as well.
+well. So let's practice. Which of the following is a factor of 4x squared plus 20xy plus 25y squared?
+So firstly we want to take a look at the answer choices and see what we have here.
+Okay so it looks like all they did was factor this out. So there are two methods we could go about it.
+Firstly we could do the x cross and try to find the factors that end up giving us this, and this
+is actually what normally people would have to do when they see this question, or of course use
+desmos. But another method that we just learned is oh there's actually a shortcut to this question.
+Because maybe you wouldn't notice at first but the more you get exposed to questions like this you
+would actually notice this is a perfect square trinomial. Now remember what does that look like?
+So first of course we see this plus in the middle. So if anything it's going to look like this one right
+here. This rule right here. So this. Now what does this actually factor into? Remember it's a squared plus
+2ab plus b squared. So how does that apply here? So let's check the first and the last terms to see
+if these are perfect squares. So taking the square root of this first term, the square root of 4 is 2.
+And we know that 2x times 2x gives us 4x squared. With this last term we see 25. Okay 25 is also a perfect square.
+So 5y. So 5y. So 5y squared gives us 25y squared. And then 2x and squaring that gives us 4x squared.
+Now we need to check if this is the a term and this is the b term, does taking 2ab give us 20xy?
+So 2 times 2x times 5y. So 2 times 5 is 10, so 10xy, and then multiplied by 2. So this is 20xy.
+So indeed, this right here is a perfect square trinomial. So now how do we factor it? Remember,
+just like the steps we said previously, if the first and last terms are perfect squares,
+then we take the square root of the first and last term. And remember, multiplying that by 2
+did indeed give us the middle term. So what do we do? We drop the middle term entirely, so in this case
+we drop the middle term, and then we connect the two square roots with the sine of the middle term
+and square the whole group. So we take the two square roots right here, we keep this middle sign,
+and then we take the whole thing and we throw a square root on top. And this is all equivalent to 2x plus 5y, and all of it squared.
+So we know that this is a factor. So looking at the answer choices, that gives us b.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Advanced Math - Foundations - Vieta_s Formula.txt
+--------------------------------------------------------------------------------
+Let's talk about the sum and product of the roots or the solutions of a quadratic,
+also known as Viera's formula. If the question asks for the sum of the solutions to ax squared
+plus bx plus c, you do not need to solve or factor the equation. Actually there's a shortcut.
+The sum is always strictly equal to negative b over a, so negative b divided by a. At the same
+time the product of the solutions is always equal to c divided by a. So let's practice. With this
+example x squared plus 5x plus 6. Normally for us to solve this and it asks us for the sum of the roots,
+firstly we would have to factor this. So using the x cross method we would get 1 1 and then 3 2. So
+this would give us x plus 3 times x plus 2. And then with this we know that the roots after setting
+each of these equal to 0, we get that the roots is x equals negative 2 and x equals negative 3.
+Then to add them together we get negative 5 and multiplying negative 2 and negative 3 we get 6.
+However, using Viera's formula we can actually shortcut this method. The sum is always strictly
+equal to negative b over a. So negative 5 over 1 equals negative 5 and then c over a is the product. So
+6 divided by 1 equals 6. So the Viera's formula is simply a quicker way to solve something by using a
+formula or the properties of a quadratic versus going through the whole process of factoring every single
+time. So let's practice. If r and s are the roots of the quadratic, x squared minus 8x plus 12 equals 0,
+what is the value of r plus s? So r and s are the roots of the quadratic, meaning they are the solutions.
+So we're looking for the sum of the product, sum of the solutions. So the sum of the solutions once again is
+equal to negative b over a. These two should and could be memorized although it's not mandatory to
+memorize Viera's formula. You can still go through this normal process. But let's practice it. So the sum
+is always strictly equal to negative b over a. So in this case b is equal to negative 8. So 8 divided by 1
+equals 8. So the value of r plus s or the sum of the roots is equal to 8. If you're going to
+

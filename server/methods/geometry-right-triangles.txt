@@ -1,0 +1,447 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: Geometry
+SKILL: Right Triangles
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Right Triangles - Right Triangles and Pythagorean Theorem.txt
+--------------------------------------------------------------------------------
+Let's talk about right triangles. A right triangle is a triangle that contains exactly one 90 degree
+angle. That single right angle is what gives the shape its name and forces the other two angles
+to behave in a predictable way. The two sides that form the 90 degree corner are called
+legs. So this line AB and side BC, both of these are called legs. The side directly across from the
+90 degree angle, also known as the longest side, is called the hypotenuse. So the hypotenuse is the
+corresponding side to the right angle. Now in any right triangle, the square of the two legs add
+together to the square of the hypotenuse. So mathematically, this is where A squared plus B
+squared equals C squared comes from, where A and B are the legs and C is the hypotenuse. Remember,
+the hypotenuse is the side opposite of the right angle. What's important to keep in mind is C is
+always the hypotenuse in this equation. So make sure you never plug in a value of a leg for C. So let's
+practice. The lengths of the legs of a right triangle are shown. Which of the following is closest to the
+length of the triangle's hypotenuse? Okay, we know that this is a right triangle and we are given
+the two legs. Therefore, we can apply Pythagorean theorem. Pythagorean theorem states that A squared
+plus B squared equals C squared, where A and B are the legs and C is the hypotenuse. So let's plug in and solve. 9 squared plus 40 squared equals C squared. So C equals the square root,
+the square root of 81 plus 1,600. So C equals 41.
+Let's practice a medium question. For the triangle shown, which expression represents the value of P?
+Okay, so let's take a look at the triangle. Well, we see a right angle. So immediately, we know that this
+triangle is a right triangle. Therefore, the side lengths are predictable. It follows A squared plus B squared equals C squared.
+Now let's plug in everything that we know. Well, we know that the side opposite of the right angle is the hypotenuse, which is C. So we can plug
+everything in. We know that one of the leg lengths is P. So P squared plus 15 squared, this is the other leg, equals 17 squared. So P squared equals 17 squared minus 15 squared. So P equals the square root of 17 squared minus 15 squared.
+Therefore, the correct answer is A.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Right Triangles - SOHCAHTOA - Complementary R.txt
+--------------------------------------------------------------------------------
+Let's talk about the complementary rule. So the complementary rule states that sine x equals cosine of 90 minus x.
+Or that cosine of x equals sine of 90 minus x. So the sine of any acute angle equals the cosine of its complement.
+So just a reminder, complementary angles are just two angles x and y that add up together to 90.
+So angle x's complementary angle would be angle y. That's what this refers to.
+This is the big rule connecting sine and cosine in a right triangle.
+Now conceptually, from one acute angle's perspective, the opposite leg is just the other acute angle's adjacent leg.
+So the same two sides just get relabeled. That is why sine and cosine swap roles between the two acute angles.
+So one byproduct of this is whenever you see that sine a equals sine b and angles a and b are complements,
+meaning they add together to 90 degrees in a problem. That is simply the SAT screaming that a plus b equals 90 degrees.
+So let's try to understand why this works. So in this right triangle, we have angle a with angle b.
+So obviously we know that angle a and angle b must add together to 90 degrees because the total angle sum in a triangle is 180 degrees.
+So what is the sine of a? Well sine of a equals opposite over hypotenuse, which in this case we would have this side.
+So let's say this is side a, this is side b, and this is side c. So sine of a equals opposite over hypotenuse, which is a over c.
+Now if we take the cosine of angle b, which is the cosine of its complement, well cosine equals to adjacent over hypotenuse.
+Well the adjacent in this case to b would be a. So cosine of angle b equals to a over c.
+Remember adjacent over hypotenuse. So that is where this rule comes from.
+These two simply equal each other because of SOCOTOA and trigonometry. That is where the complementary rule comes from.
+So let's practice. In a right triangle PQR, the sum of the measures of angle P and angle Q is 90 degrees.
+The value of sine of P is square root of 3 divided by 2. What is the value of cosine of Q?
+So this isn't a question about the complementary rule. Because we know that these two angles add up together to 90 degrees,
+that also means that sine of angle P equals to cosine of angle Q. Because Q simply equals to 90 minus P.
+Which, plugging this in, is indeed the complementary rule right here. So these two are equal to each other.
+Therefore the value of cosine of Q is square root of 3 divided by 2.
+Let's practice another question. For two acute angles, A and B, sine of A,
+A equals cosine of angle B. The measures in degrees of angle A and B are 3A plus 6 and A plus 10 respectively.
+What is the value of A? So let's look at what we are given. Sine of A equals cosine of angle B.
+Therefore, because this is actually a byproduct of the complementary rule, we know that A plus B must equal 90 degrees.
+So let's plug in what we know. 3A plus 6 plus A plus 10 equals 90 degrees. So let's solve for A.
+4A plus 16 equals 90 degrees. So subtracting 16 from both sides, we get 4A equals 74 and A equals 18.5.
+Let's practice this hard question. Which of the following expressions is equivalent to sine of 32
+degrees times cosine of 58 degrees plus cosine of 32 degrees times sine of 58 degrees?
+Okay, so what do we actually notice about these? We notice this looks an awful lot like the complementary rule.
+But what do we know about this? Because of the complementary rule, adding these two angles together,
+we must check if they're equal to 90 degrees. 32 plus 58 does indeed equal to 90 degrees. And same case over here.
+Therefore, these two are equal to each other based on the complementary rule. So sine of 32 degrees equals to cosine of 58 degrees.
+Over on this side, cosine of 32 degrees is also equal to sine of 58 degrees. So let's look at the answer choices real quick. In the answer choices, it actually combines this first portion in terms of cosine of 58 degrees. So let's substitute in cosine of 58. So cosine of 58.
+cosine of 58 times cosine of 58. That is equivalent to this first portion right here. And now for the second portion, we know that cosine of 32 degrees is equal to sine of 58 degrees. So we can also plug in. So the second portion right here is equal to cosine of 32 degrees times cosine of 32 degrees. So therefore, the equivalent expression is cosine of 58.
+is cosine of 58 degrees times cosine of 58 degrees. There are also a bunch of other ways we could write this. This first part could also be sine of 32 degrees times sine of 32 degrees. This right side could also be sine of 58 degrees times sine of 58 degrees. So let's see which one of the answer choices aligns with what we said. That is answer choice C because sine of 58 degrees squared is just equal to this and cosine of 32 degrees squared is just equal to this second.
+term.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Right Triangles - SOHCAHTOA.txt
+--------------------------------------------------------------------------------
+Let's talk about some trigonometry, specifically SOCOTOA. So what is SOCOTOA? Well SOCOTOA is just
+a mnemonic or easy way for us to remember what sine, cosine, and tangent are equal to in a right
+triangle. So let's break this down. So sine equals opposite over hypotenuse, cosine equals adjacent
+over hypotenuse, and tangent equals opposite over adjacent. Now what is this referring to? This is
+referring to an angle. So the sine of this angle would be equal to the length of the opposite side
+divided by the length of the hypotenuse's length. The cosine of this angle would be equal to the
+adjacent divided by the hypotenuse. And lastly, the tangent of this angle would be equal to the
+opposite length over the adjacent length. Now some things to keep in mind is that the hypotenuse is
+the side across from the 90 degree angle, which never changes. The opposite is the leg directly
+across the triangle from the angle that we are referring to. So we want to stand at the angle
+and look across. That would be the opposite side. And lastly, adjacent is the leg touching the angle
+that isn't the hypotenuse. The big thing to keep in mind here is that the adjacent is never going to be
+the hypotenuse. So let's practice. What is the value of tangent of x? Okay, so let's write out SOCOTOA to help us remember.
+SOCOTOA. So what is tangent equal to? Well, according to SOCOTOA, tangent is equal to opposite over adjacent.
+So we are looking at angle x. So let's look at the opposite of angle x, which is 12, and the adjacent,
+remember adjacent is the side next to it that is not the hypotenuse. So we are looking at 5. So 12 over 5. So the tangent of angle x,
+the tangent of angle x equals to 12 over 5. Now if a problem tells you a trig ratio like cosine of angle p is equal to 5 over 13,
+it's actually telling you the proportions of 2 sides. Knowing this, the third side can then be found with the Pythagorean theorem. And from there, any other trig ratio can be calculated.
+So conceptually, a trig ratio like 5 over 13 doesn't necessarily mean that the sides are literally 5 and 13. It simply means that they are in that proportion.
+Because if, for example, cosine of p equals 2 and then the silence are 10 and 26, then this will simplify down to 5 over 13. But for the purpose of building a triangle and
+finding the third side, we can just treat the two sides that are corresponding to cosine, which is opposite over hypotenuse, as 5 and 13, and the ratios will work out the same. So let's practice. This question tells us that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So let's practice.
+This question tells us that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p is equal to 5 over 13. So we must find that cosine of p. Okay, so what does cosine mean? So let's write out SOCOTOA just so it makes this easier. SOCOTOA. So cosine equals adjacent over hypotenuse.
+So in this question, as we can see, this is angle p. Well, the adjacent to angle p that is not the hypotenuse is right here. So this leg is 5. Well, the hypotenuse is 13. Now in order to find sine p, we know that sine equals to opposite over adjacent. So we need to know this last remaining length right here. Well, because we know the ratio between adjacent and hypotenuse is 5 and 13, we can actually label these as
+5 and 13. Now in order to find the third side, all we need to do is use the Pythagorean theorem. So let's do it. Pythagorean theorem is a squared plus b squared equals c squared with a and b being the legs. So 5 squared plus this missing b squared equals 13 squared. Now solving everything out, isolating for b, we get that b equals 12. So therefore, this last remaining side is equal to 12. So sine of p equals opposite over half
+hypotenuse. So sine of p equals 12 over 13. Now sometimes the problem gives us a trig ratio and one real side length and asks us for another real side length. Now remember, the trig ratio only tells us the proportion. The given side length will tell us the scale. So the idea behind this is we want to set up the ratio using Sokotawa but introduce a scale factor k. For example, if cosine of angle k equals 4 over 5, then the adjacent to the
+adjacent would equal to 4k, and the hypotenuse would equal to 5k, which is the same ratio.
+So taking cosine of k, which is adjacent over hypotenuse, 4k over 5k equals to 4 over 5.
+So we get the same ratio, but it's simply scaled by k.
+Now we want to use the real sightling that we are given to solve for k is equal to.
+Once we know k, we can plug it into the expression and solve for the sight that we want.
+So let's practice what this looks like.
+In this example, in triangle KLM, angle M is equal to 90 degrees, km is equal to 40, and cosine of k equals 4 over 5.
+So find KL.
+So because we know that angle M is the right angle, we know that the side opposite, side length KL, is the hypotenuse.
+So we know that cosine of angle k equals 4 over 5.
+Well real quick, what does cosine equal again?
+Remember in Sokotoa, it's CAH.
+So cosine equals adjacent over hypotenuse.
+So looking at angle K, because this is the angle that we are talking about, the adjacent is 40, and we need to figure out what is the hypotenuse?
+What is KL?
+Well, we know that the ratio is equal to 4 over 5.
+So what we can do is we can set KM, which is the adjacent equal to 4K, and KL equal to 5K.
+And then solve for that scale factor to figure out what H is actually equal to.
+Well, we know that KM is equal to 40.
+So 4K equals to 40.
+Because we know the adjacent is 4, or at least that's the proportion.
+So 4K equals 40.
+So therefore, K equals 10.
+So therefore, because KL is equal to 5K, and we know that K is 10, then KL equals to 50.
+So now we can check if this is correct.
+Cosine of K should equal to 4 over 5.
+Remember, this is adjacent over hypotenuse.
+So in this example, the adjacent is 40 and the hypotenuse is 50.
+So cosine of K equals 40 over 50, which simplifies down to 4 over 5.
+So we know that these side lanes are correct.
+The key takeaway we need to remember is that we cannot get tricked into thinking that the
+side lanes are given to us as the numbers themselves.
+Rather, they are the ratio numbers, and they are proportional to the actual real side lanes.
+So let's talk even more about Sokotoa.
+Specifically, hypotenuse from the side lanes.
+So when a right triangle is given with no diagram, and we are given just three side lanes,
+we can still identify which side is the hypotenuse.
+The hypotenuse is always the longest side.
+This is because it corresponds to the opposite of the largest angle in a right triangle, which is the 90 degree angle.
+So why does this matter for Trig with similar triangles?
+Well, once we know which side is a hypotenuse, we can then also figure out which sides are opposite
+and which sides are adjacent relative to each acute angle.
+Knowing this, we can then apply Sokotoa.
+Now the next thing we know is that the corresponding angles in similar triangles will also have the exact same trig ratios.
+Now this may be a little bit confusing, so let's really illustrate what this last point looks like.
+So let's say that we have two right triangles that are similar, and one is two times as big as the other one.
+So let's say that this triangle is triangle A, B, C, and this triangle is triangle D, E, F.
+So because these two triangles are similar, we know that the corresponding angles are exactly the same.
+So angle A is equal to angle D, angle B is congruent to angle E, which are both 90 degree angles,
+and angle C is congruent to angle F.
+So this statement tells us that corresponding angles in similar triangles will have the exact same trig ratios.
+So let's prove this.
+Let's say, and just throw some labels, this is 4, this is 3, this is 5, and then over here we have 6, 8, and 10.
+Notice how these are similar because all I did was multiply this triangle by a ratio of 2.
+If you want a more thorough review of similar triangles, please refer to the geometry module in which we talk about similar triangles and properties of them.
+So let's say now we were to take the cosine of angle A.
+So cosine of angle A equals to, remember cosine, equals to adjacent over hypotenuse.
+So 3 over 5.
+Now cosine of angle D, so the corresponding angle in a similar triangle, equals to 6 over 10.
+So as we can clearly tell, these two ratios give us the exact same trig ratios.
+And think about it, doesn't this make sense?
+Because since these two angles are exactly the same, this is the same as saying, let's just say this angle is angle X.
+This is just the same as saying, angle X equals something, and then over here, angle X, of course is going to equal the exact same thing.
+Because we're literally taking the cosine of the exact same number. We're not changing anything.
+So of course the ratios are going to be the same.
+Let's practice. Triangle ABC is similar to triangle DEF, where angle A corresponds to angle D, and angles C and F are right angles.
+If cosine of B equals 0.75, what is the value of cosine of E?
+Okay, so let's see what this triangle gives us.
+Well it tells us that these true triangles are similar to one another.
+It tells us that angle A corresponds to angle D, and it tells us C and F are right angles.
+So therefore they're both the same and they also correspond.
+So, that means that angles B and E must therefore also correspond.
+So this question tells us that cosine of B equals 0.75.
+And because angle B is equal to angle E, because they are similar triangles, then the value of cosine of E must equal the same.
+So this is just saying cosine of some angle equals 0.75.
+And so this is literally asking the same thing.
+So what is cosine of that exact same angle?
+So it must be 0.75 as well.
+So let's practice.
+The side lengths of right triangle ABC are given.
+Triangle ABC is similar to triangle DEF, where B corresponds to E and C corresponds to F.
+What is the value of tangent of F?
+Okay, so let's draw out this triangle ABC so we can label everything.
+So let's draw a right triangle because the question tells us it's a right triangle.
+And then let's find the longest side because that's the hypotenuse.
+So the longest side is 53.
+And we know this is sides C and A.
+So let's label C and A.
+So we know this last angle is B.
+So B is the right angle here.
+So this is 90 degrees.
+Now we know that AB equals 45.
+And we know that BC equals 28.
+Okay, awesome.
+Now it tells us triangle ABC is similar to DEF.
+So let's draw out triangle DEF.
+Well, we know that A corresponds to D.
+So D must go in the same spot.
+And then B corresponds to E.
+So E must be the right angle as well.
+And then lastly, C does correspond to F.
+So we label F in the same spot as C.
+Okay, so the question asks us what is the value of 10F?
+Well, F is right here.
+But we know that as we said earlier,
+the corresponding angles in similar triangles will have the exact same trig ratios.
+And because these two triangles are similar,
+we know that angle F is the same as angle C.
+So if we found the tangent of angle C,
+we also know the tangent of angle F because they are the same angle.
+So what is the tangent of angle F?
+Remember, tangent equals opposite over adjacent.
+So tangent of angle C equals to 45 over 28.
+So therefore, because tangent F is the exact same angle,
+tangent of angle F is also equal to 45 over 28.
+So let's practice a hard Sokotoa question.
+In triangle RST, the measure of angle S is 90 degrees.
+Point U lies on segment RT.
+And segment SU is perpendicular to segment RT.
+The length of segment RU is 16.
+And the length of segment SU is 12.
+What is the value of 10R?
+Okay, so this is a whole lot of information.
+So let's draw this out so that it makes more sense.
+Triangle RST, the measure of angle S is 90 degrees.
+So we know that triangle RST is a right triangle.
+Angle S is 90 degrees.
+So S is right here.
+And then let's label the rest.
+RST.
+Now that's the point U lies on segment RT.
+So somewhere on here.
+And segment SU is perpendicular to RT.
+So S over to this U is perpendicular.
+Therefore, this is an altitude with the right angle right here.
+The length of segment RU is 16.
+So this is U and here is 16.
+And the length of segment SU is 12.
+So SU is 12.
+What is the value of 10R?
+So we're being asked for the tangent of this angle right here.
+We know that tangent equals opposite over adjacent.
+So because we know that splitting this triangle into three segments creates three similar triangles,
+we know that we can just use this smaller triangle to find tangent R.
+So because tangent equals opposite over adjacent,
+we know the side opposite to R is 12.
+And we know the side adjacent is 16.
+So 12 over 16 equals 3 over 4.
+So tangent of angle R equals 3 over 4.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - Geometry - Right Triangles - Special Right Triangles.txt
+--------------------------------------------------------------------------------
+Let's talk about special right triangles. The first triangle that we want to cover is a 45-45-90 isosceles right triangle.
+So this 45-45-90 refers to the angle measures of said triangle. So if a right triangle has two 45 degree angles, it is a special right triangle.
+This means that they have special properties and that two of the legs are exactly equal, making it an isosceles right triangle.
+And as a result as well, these side ratios are completely predictable.
+So mathematically, this is the ratio that you should memorize. For a 45-45-90 degree triangle, the side ratio to memorize is x, x, x times root 2.
+This means that if each leg has a length of x, then the hypotenuse is simply x times root 2.
+But going backwards, if we know that the hypotenuse is x, we know that the difference between the hypotenuse to the legs is simply a ratio of square root 2.
+So you have to divide x by square root of 2 to find the length of each leg. So what does this actually look like?
+Well, let's say that we are given a right triangle that has two 45 degree angles.
+So we know that this is a special right triangle, specifically a 45-45-90 degree triangle.
+So if the question tells us that one leg is equal to 7 and it asks us to find the other leg and hypotenuse, how do we do it?
+So because we know this is a special right triangle, we know that the rule to memorize is x, x, x root 2.
+So the second leg is simply equal to the same thing because it is x and x.
+So the second leg is just equal to 7.
+So if one of these is 7, the other one is also equal to 7.
+And lastly, the hypotenuse is simply equal to the leg times root 2.
+So this leg would be 7 root 2.
+The second special right triangle that you need to know is a 30-60-90 triangle.
+So if we are given a right triangle that has the angles of 30 degrees, 60 degrees, and 90 degrees,
+the sides always follow a fixed ratio, similar to 45-45-90 degree triangles.
+Except in this case, the ratio is different.
+But memorizing this saves time and avoids you having to do the Pythagorean theorem entirely
+because it's much easier.
+This should also be on your formula chart, so you don't have to memorize it.
+But memorizing it makes your process go much quicker.
+So mathematically, you want to memorize this ratio.
+The shortest side, so the side opposite of 30 degrees, is x.
+Now the side opposite of 60 degrees, so the second largest side, is x root 3.
+And lastly, the side opposite of the 90 degree, the hypotenuse is 2x.
+So we have x, x root 3, 2x, as you can see here.
+So the easiest way to memorize where each of these ratios go is to think about it in terms of the angle measurements.
+So, x is the smallest one, so it goes corresponding with the smallest angle.
+x root 3 is the second smallest one, so it corresponds with 6 degrees.
+And lastly, 2a, or 2x, is the largest ratio.
+So, that goes opposite of the 90 degree.
+Now conceptually, there are three key relationships.
+This means that the hypotenuse is always double of the shortest side, given that we have a 30-60-90 triangle.
+Next, the medium leg, the side opposite of the 60 degree angle, is the shortest side, times root 3.
+And lastly, the shortest side is always opposite of the smallest angle, that's 30 degrees.
+So, let's practice this example.
+Let's say that we are given a triangle that has a hypotenuse of 14.
+We are asked to find the side opposite of the 30 degree angle.
+So, let's solve this question.
+Well, we know that the hypotenuse is just 2x, with x being the length of the shortest side.
+So, since the hypotenuse is 2a, and the shortest side, the side opposite of the 30 degree angle, is x.
+Then, the length of the shortest side is just 14 divided by 2, which gives us 7.
+Something that this question isn't asking for, but it's good for us to know,
+is that we know that the side opposite of the 60 degree would just be equal to 7 root 3.
+Because all it is, is x root 3.
+Now, both of these are given to you on the formula chart.
+So, it's better for you to understand it, you don't need to memorize it.
+However, eventually you'll do it so many times that it becomes a part of your memory.
+So, let's practice.
+In the triangle shown, what is the value of x?
+Well, we notice here how this is a right triangle with a 45 degree and another 45 degree.
+So, therefore, this triangle is a 45, 45, 90 special right triangle.
+So, since x is just one of the legs, and we know one of the other legs,
+we know this ratio is x, x, x root 2.
+So, the value of the other leg is just 7.
+Let's practice another question.
+In the right triangle shown above, what is the length of jk?
+So, jk is right here, and we know jk is the side opposite of the smallest angle.
+Therefore, this corresponding side is also the smallest side length, or the shortest side length.
+So, what is the relationship between the hypotenuse and the smallest side length?
+Well, we know that the ratio of a 30, 60, 90 triangle is simply x, x root 3, and 2x.
+So, therefore, the relationship between these two is simply half.
+So, 14 divided by 2 equals 7.
+Let's practice a hard question.
+A triangle with angle measure 30, 60, 90 has a perimeter of 12 plus 4 root 3.
+So, what is the length of the longest side of the triangle?
+So, in this question we are dealing with a 30, 60, 90 special right triangle.
+So, we know that all of the lengths must follow this ratio.
+x, x root 3, and 2x.
+So, the perimeter of this triangle would simply be all of these added together.
+And then we can solve for what x equals, and lastly, solve for actually what the question
+is asking for, the longest side which is 2x.
+So, we know that x plus x root 3 plus 2x equals 12 plus 4 root 3.
+So, 3x plus x root 3 equals 12 plus 4 root 3.
+Now, we can set the 3x and 12 equal to each other to solve for x,
+and then we can set these two equal to each other to solve for x as well.
+So, 3x equals 12, and x root 3 equals 4 root 3.
+Therefore, x equals 4, and also on this side we also find that x equals 4.
+Perfect. So, this is kind of double checking.
+Now, we know that x equals 4.
+So, the question asks, what is the length of this longest side of the triangle?
+So, the longest side is 2 times x.
+So, 2 times 4 equals 8.
+Let's practice another hard question.
+A square is inscribed in a circle.
+So, a square is inscribed inside of a circle.
+The radius of the circle is 5 root 2 inches.
+So, the question asks, what is the side length in inches of the square?
+Okay, so it tells us the radius is 5 root 2.
+So, from the center of the circle all the way to the edge, we know that it is 5 root 2.
+So, the question asks us, what is the side length in inches of the square?
+So, if we were to draw out the diameter so that it extends all the way through, we would know that this diameter is simply twice the radius.
+So, the diameter equals 10 root 2.
+Now, if we do cut this in half, what do we know about these two triangles that end up being formed?
+Well, if you cut a square perfectly in half along the diagonal, we actually know that these two angles must be 45 degree angles.
+Because we split the diagonals perfectly in half, so we split 90 degrees in half.
+Therefore, this triangle right here follows a 45-45-90 special right triangle.
+And the ratio therefore is x, x, x root 2.
+So, we know the relationship between the longest side, the hypotenuse, and the leg is simply a difference of root 2.
+So, if x root 2 is equal to 10 root 2, because that's the diameter, and we divide both sides by root 2, we get that x equals 10.
+Therefore, the length of the legs is 10.
+Let's practice another hard question.
+Triangle ABC is similar to triangle DEF, where A corresponds to D and C corresponds to F.
+Angles C and F are right angles.
+If tangent of A equals root 13, and DF equals AD, what is the length of DE?
+Okay, so let's draw two triangles, and then label them, and then try to solve this question.
+So, we know that ABC is similar to DEF.
+We also know that A corresponds to D, C corresponds to F, and C and F are right angles.
+So, let's draw the right angles in first.
+We know that C and F are the right angles.
+And then let's label in the rest.
+So, A corresponds to D, and then C corresponds to F.
+We already know that.
+Okay, so let's draw in the last bit, is B and E.
+We are being told that tangent of A equals to root 13.
+So, what is tangent again?
+Tangent equals opposite over adjacent.
+So, it equals CB over AC.
+So, tangent of angle A equals CB over AC.
+And this equals to root 3.
+Well, in what scenario would this be equal to root 3?
+Let's think about it.
+Doesn't root 3 seem kind of familiar with something we know?
+We know that in a 30-60-90 triangle, that the ratio is x, x root 3, and 2x.
+So, if we were to label these, and opposite over adjacent were to equal root 3,
+what would these specific sidelines equal to?
+CB could be x root 3, and then AC could be x.
+That way, taking x root 3 divided by x, or opposite over adjacent, we get root 3.
+So, therefore, this triangle is a special right triangle.
+Specifically, a 30-60-90 special right triangle.
+Therefore, we know that the longest side must be 2x.
+So, this question tells us that DF equals 80.
+So, let's plug that in. DF equals 80.
+It asks us what is the length of DE.
+So, we know the relationship between DF and FE.
+Because we are told that these two are similar, we know that DEF is also a special right triangle.
+A 30-60-90 special right triangle.
+So, to go from DF to get to DE, all we need to do is multiply by 2.
+Therefore, DE equals 160, because it is 2x.
+Let's practice this hard question.
+The perimeter of an equilateral triangle is 18 root 3 centimeters.
+The three vertices of the triangle lie on a circle.
+What is the radius of the circle in centimeters?
+Okay, so to do this question, let's start by drawing it out so it makes more sense.
+So, let's draw this equilateral triangle.
+Well, what do we know about equilateral triangles?
+We know that all sides of an equilateral triangle are the same.
+So, 3 times S would give us the perimeter, because this is simply adding together all three sides.
+And we know that this equals 18 root 3.
+So, therefore, each side equals 6 root 3 centimeters.
+So, each side is 6 root 3.
+Now, the question tells us that all three vertices of the triangle lie on a circle.
+So, that means that this triangle is inscribed inside of a circle.
+And the question is asking us, what is the radius of the circle?
+So, let's just say that the midpoint of this circle is M.
+And let's draw from M to the edge of the circle as the radius.
+Now, how can we figure out this question?
+Well, if we are drawing from M all the way until the edge of the circle, we can draw multiple ways.
+We can draw like this.
+We can also draw like this.
+Now, which one of these could actually help us figure out what M is equal to?
+Let's think about it.
+Well, obviously, if we use this line right here, we have nothing to go off of.
+There's no way for us to just magically pull this out of the air.
+If we draw M from the middle all the way to the vertices of the triangle, we actually notice that we are simply splitting this angle in half.
+So, we're creating two 30 degree angles on both sides.
+Now, we have a 30 degree angle right here.
+Is there any way for us to create a special right triangle?
+Yes, there is.
+If you draw a line down from M to the middle of this side right here, we actually create ourselves a special right triangle.
+Because right here, it is perpendicular and right here is 60 degrees.
+So, we have a 30, 60, 90 special right triangle.
+Now, the question is asking us for the radius.
+Well, all we need is one of these side lengths and then we can find the radius.
+Well, we don't know this side length nor this side length.
+But what we do know is 2 times this side length.
+Because that is the side of one of the equilateral triangles.
+So, in order to find one of these sides right here, all we need to do is divide this side length by 2.
+So, the side length of this small triangle is equal to 3 root 3.
+Now, remember this is the side length that corresponds to the angle of 60.
+And remember the ratio is x, x root 3, 2x.
+So, what is the value of x?
+Because x root 3 is equal to 3 root 3, we know that x is equal to 3.
+So, this is 3, this one is x root 3.
+And now, the hypotenuse of the triangle, also known as the radius of the circle, must be 2x.
+So, the radius equals 6.
+

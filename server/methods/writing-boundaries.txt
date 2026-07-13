@@ -1,0 +1,646 @@
+STITCHED TRANSCRIPT
+SECTION: Writing
+TOPIC: Standard english conventions
+SKILL: Boundaries
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Boundaries -Apostrophes-E.txt
+--------------------------------------------------------------------------------
+Let's talk about boundaries. More specifically, let's talk about apostrophes in punctuation.
+So what does an apostrophe do? It is used to show possession and usually it's paired with an S.
+In this scenario, we see that the boy's bicycle was broken. When we add apostrophe S to the noun
+boy, we are able to show possession. So this is showing that the boy owns the bicycle. If the noun
+is plural and it already ends with an S, just add an apostrophe. For example, the boy's is bicycles
+were broken. In this case, boys is plural. But since this already has an S at the end, if we were to add
+another apostrophe S, the S's would look redundant. Therefore, we just add an apostrophe to the end
+to show possession with plural nouns. So this is showing that all the boys own their respective
+bicycles. But this is a plural noun. That's why we only add an apostrophe. Now I can use the of the
+test. If you can rephrase a sentence using of the, the laptop of the tutor versus the tutor's laptop,
+then the noun is possessive and needs an apostrophe. For proper nouns ending in S like Chris, Chris's is
+correct. In this scenario, it is different from the scenario above because in this one, the noun is
+plural. However, for names like Chris, Chris is singular. Therefore, you can still add an apostrophe
+S. And this is going to look like a double S. But that's okay, since the name just ends with an S.
+A quick note is that once a possessive apostrophe is added, the subject of the sentence is the noun
+after the possessive apostrophe. Now, what does this mean? The boy's bicycle was broken. The same as the
+bicycle of the boy. The subject is the bicycle and it is not the boy. This can be used as a trap on
+subject modifier placement. So remember to be careful. So in this sentence, maybe initially you think, oh,
+the subject is the boy, but it's actually the boy's bicycle. So the bicycle is the subject. Let's talk
+about apostrophes in pronoun. The main rule is that apostrophe S does not show possession in pronouns.
+Here we have it apostrophe S. In other words, it is versus it's. This is a contraction. It is is
+equivalent to it is and does therefore not indicate possession. For example, it is going to be a sunny day.
+It's without an apostrophe shows possession. For example, the dog wagged its tail. In this scenario,
+the dog owns its own tail. Now let's go over who apostrophe S. In other words, who is versus whose.
+Whose is possessive. Whose car is this? Who owns the car? This is showing possession. Who apostrophe S
+is also known as who is. And this is no possession. It's simply a contraction. Who is going to the party
+tonight? Now let's go over their, their, and they apostrophe R E. In these three scenarios,
+their is possessive. This is used for ownership. For example, their car. They own the car. Their indicates a
+location or a specific point in space and time. Are we there yet? That is a location. They apostrophe R E
+acts as a contraction for they are. For example, they are running in circles. This does not show possession.
+Now that we've gone a little bit over what apostrophes are, let's go over the strategy on how to actually
+solve these questions. So our first step is to read that question and answer choices to see what the
+question is testing. If you see apostrophes, then it is most likely testing apostrophes. Next,
+we're going to read the passage and focus on identifying the subject and seeing whether it is plural or
+singular and whether it is showing possession. The third step is to choose the correct answer that
+doesn't or does show possession. Now that we know how to tackle these questions, let's go ahead and try
+to apply it to a problem. Our first step is to read the question. Which choice completes the text so
+that it conforms to the conventions of standard English? I know that this is a grammar question.
+Now I'm going to read the answer choices to see what type of grammar question it is. I'm noticing a
+difference between apostrophes. So now I know that this is an apostrophe question. Now I'm going to read
+the passage, making sure to focus on possession and whether the noun is plural or singular. For over a
+century, the lighthouse on Pelican Point has guided ships safely through the rocky strait. The lighthouse's
+rotating beam can be seen from more than 20 miles out to sea. I can go ahead and stop right here
+because we are simply focusing on the lighthouse, which is the subject and whether it's plural or
+singular. If we look earlier in the passage, we see that it says the lighthouse singular. So we know that
+this is going to be a singular subject. We also know that the lighthouse has a rotating beam. The lighthouse
+owns this rotating beam. It possesses this beam. Therefore, we are going to need an apostrophe s.
+When it's singular and we need to show possession, we need just a single apostrophe s. Now which answer
+choice does this? Answer choice A does not do this. And choice B is singular lighthouse and it adds
+possession by showing apostrophe s. Lighthouses, this is showing multiple lighthouses that have possession.
+This is wrong. And D is just normal lighthouses. So the correct answer choice here would be answer
+choice B. Now let's go ahead and see if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question. Which choice completes the text so that it conforms to the conventions of standard English?
+This is a grammar question. Now let's look at the answer choices to see what type of grammar question it is.
+I'm noticing a difference between apostrophes. So this must be an apostrophe question. Now let's go to the passage and look out for the subject and whether the subject is showing possession and whether the subject is plural or singular.
+Scholars of Baroque music have long debated the origins of several unsigned keyboard works found in the Lipzig archive. While the two composers' manuscripts' handwriting styles differ markedly, the archives curator argues that both sets of manuscripts were composed during the same decade and may have been intended as companion pieces.
+Well now I am identifying the subject. So in this case, what is the subject? Well, the subject is actually the manuscripts themselves. So why do we have composers in the beginning? Well, actually, these composers, they own the manuscripts.
+And how do we know whether the composers are singular or plural? Well, there are multiple composers, right? So we know that composers is plural, but it also needs an apostrophe. So answer choice C satisfies that and so does answer choice D. We have plural composers showing possession. Now we just need manuscripts. Now do the manuscripts own anything? No, the manuscripts do not own anything. But the manuscripts are plural in number. Therefore, we need to add an S to the end and only an S.
+Therefore, the best answer choice out of A, B, C, and D would be answer choice D. A, B, and C all do not match up with the right apostrophe use. Now let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Boundaries -Appositives and Essen vs. Nonesen-E.txt
+--------------------------------------------------------------------------------
+Let's talk about boundaries. More specifically, let's talk about appositives. What is an impositive? An appositive is a noun, pronoun, or noun phrase that explains the noun it is next to. The singer, a 19-year-old girl, is on stage. In this case, we have a noun, the singer, and we also have a noun phrase, the 19-year-old girl. This is an explaining and going into more depth on what the singer is. Notice the commas? This also works with imdashes.
+So this phrase, a 19-year-old girl, is the appositive. And imdashes can also separate this appositive. Right now, it's being separated with two commas. It can also be separated with two imdashes. There are two types, restrictive and non-restrictive appositives. Restrictive appositives are necessary to the meaning of the sentence. Your sister, Sarah, adopted two cats. There are no commas because the name is important to the meaning of the sentence. In here, we have Sarah as the appositive. The normal noun in the sentence would be
+your sister. But we are specifying that it's our sister, Sarah. And this is essential to the meaning of the text because without knowing that it's Sarah, we don't know which sister it is. So we will lose the meaning of the text.
+Restrictive is an appositive that does not change the meaning of the sentence. Therefore, we can remove it. For example, I'm going to Paris, the city of love. This is an appositive, the city of love, because we can remove it and the meaning of the sentence will still stay the same. I'm going to Paris.
+The city of love is simply just extra information describing what Paris is. But if we take it out, the meaning of our sentence stays the same. We can see that in this example as well. Paris, the city of love, hosted the 2024 Olympics. And here we see the two hyphens separating the appositive.
+As I said earlier, it simply adds more details, but the overall meaning of the sentence doesn't change. This is the strategy. Take out the phrase before, surrounded, or after the comma. And if the sentence still makes sense without it, the phrase is non-restrictive. When the appositive is non-restrictive, use commas, em dashes, or parentheses to set it apart from the rest of the sentence.
+So here, Paris, the city of love, as you can see, we separated this case with two em dashes, but we can also separate it, if we wanted to, with two commas. And we can also separate it with two parentheses. All are interchangeable and all work. Now, how does this tie into the SAT? We have essential and non-essential clauses on the SAT. And restrictive appositives are actually just essential clauses. And non-restrictive appositives are basically non-essential clauses. Essential clauses are information
+that is required for the sentence to make sense or to identify which specific thing you are talking about. Essential clauses never get commas, dashes, or parentheses. On the SAT, phrases that start with the word that are almost always essential and should not be surrounded by commas. For example, students that study every day usually see the biggest score increases. Notice how there is no punctuation. This is because this entire phrase, that study every day, is an essential clause. It is essential to the meaning of the sentence.
+If we removed it and we said students usually see the biggest score increases. Well, what type of students? It's only the students that study every day. Therefore, we cannot remove this from the sentence because it changes the meaning. Now, a non-essential clause is information that provides extra description, but isn't needed for the sentence's core logic. You can remove the entire phrase and the sentence still makes perfect sense if it's non-essential. For example, Joe, a high school student loves to eat ice cream. What is the meaning of the sentence? Well, the main goal of the sentence is to explain
+how Joe loves to eat ice cream. But if we add a high school student, this is merely just extra information. And if we remove this completely from the sentence, it would not take away from the meaning of the sentence, which is that Joe really loves to eat ice cream. These must be surrounded by a pair of matching punctuation marks. As we explained earlier, it can either be two commas, two dashes, or two parentheses. You cannot start a non-essential clause with a comma and end it with a dash. This is mixing and matching and this is definitely wrong. Do not
+do this on the SAT. If a non-essential clause comes at the very end of a sentence, the second punctuation mark is replaced by a period. For example, I am going to get ice cream with Joe, my friend from school. Notice how this at the end is a non-essential clause. However, it is not separated by two commas. That's because this non-essential clause is placed at the end of the sentence. So when we get to the end of the sentence, we merely just place a period at the end. We don't have to fit another comma. The two comma rule is only for when the non-essential clause is in the
+middle of a sentence. Now that we know a little bit more about essential versus non-essential clauses, let's go ahead and go into the strategy on how we actually solve these problem types. First, we are going to read the question and answer choices to see what the question is testing. If we see different placements of commas, it could be a non-essential versus essential clause question. However, these are a little bit more difficult to spot because when we see different placements of commas, sometimes there's also different punctuation. And this could be initially seen as a punctuation or sentence
+structure question, but you'll just have to find out while you're reading it. Read that passage and identify what the non-essential or essential information is. If you have deduced that is a non-essential versus essential clause question, choose the correct answer that pairs the right grammar with the essential or non-essential information. Now that we know how to do this, let's go ahead and implement it into a question. Our first step is to read the question. Which choice completes a text so that informs the conventions of standard English? This is a grammar question. Now let's look at the answer choices. I see that there are different
+differences between where commas are placed. So I know that this could be an essential versus non-essential clause question. Now let's read the passage with the idea in mind to identify the essential or non-essential clause. When heat builds up beneath Earth's crust, it causes material in the mantle to rise and fall in slow repeating loops. This type of circular heat driven movement, which is known as convection, can be observed in both planetary interiors and boiling pots of water. When I read this altogether, immediately something is standing out to me. Heat driven
+If we had just said this type of circular heat driven movement, which is known as convection, this is an additive phrase which could be removed from the sentence. If we had just said this type of circular heat driven movement can be observed in both planetary interiors and boiling pots of water, the meaning of the sentence would stay the same. However, when we add which is known as convection, we are adding an additive phrase, or in other words, a non-essential clause. Therefore, we need to separate this non-essential clause with two commas. The only answer choice that I see out of all four of these answer choices that does this is
+is answer choice B. Answer choice A, C, and D all do not have two commas separating the non-essential clause. Now let's go ahead and see if this is right. And it is. Before we do this question, go ahead and try it for yourself.
+Let's first read the question. Which choice completes the text so that it conforms to the conventions of standard English? This is a grammar question. Now let's read the answer choices. Looking at the answer choices, I see differences in punctuation. Okay, so I know that this might be a punctuation or sentence structure
+question or it could be an essential versus non-essential clause question, but I'm not sure yet. So let's go ahead and just read the question. Nikola Tesla is perhaps best known for his contributions to alternating current electrical systems, but he also devoted himself to the study of electromagnetism, the science of fields, producing more than 700 technical drawings of the electromagnetic phenomenon he observed in laboratory experiments and submitted multiple patents to the United States patent office. I'm immediately noticing that electromagnetism and then
+the phrase after that the science of fields, right? This entire phrase is additive. Therefore, it's a non-essential clause. If we removed the science of fields from the sentence, the meaning of the sentence would still stay the same. Therefore, we are going to need to separate the science of fields with two commas since it is a non-essential clause. I noticed that before the beginning, the science of fields begins with a comma, but it's going to need to end with a comma. The only answer choice that ends fields with a comma is answer choice D. So we
+So we can eliminate A, B, and C and go with answer choice D. Now let's go ahead and see if that's right. And it is. Before we do this question, go ahead and try it for yourself. Our first step is to read the question. Which choice completes the text so that it conforms to the conventions of standard English? This is a grammar question. Now let's look at the answer choices. I see differences between commas and also differences between fanboys. So this could be testing sentence structure, but it could also be testing essential versus non-essential clauses.
+Now let's go ahead and look at the question. Showcasing works by designers Gerd Lafert and Beatrice Sarlo, the 2023 Retrospective Design Without Borders set out to provide a comprehensive survey of graphic design movements across Latin America from the 1960s through the 1990s. And given the exhibition scope of more than 200 original prints and posters, its efforts were widely praised. I'm noticing automatically that the second half after the sentence, given the exhibition scope of more than 200 original prints and posters, its efforts were widely praised.
+This is a complete thought. This is an independent clause. And beforehand, I'm noticing that showcasing works by designers Gerd Lafert and Beatrice Sarlo, and while it's talking about a, in later, a comprehensive survey of graphic design movements across Latin America from the 1960s through the 1990s, this is also a complete independent clause and is also essential information. In this scenario, it is testing essential versus non-essential information, but also whether you can separate two independent clauses. And we know that
+we can separate two independent clauses using a comma and a fanboy. Therefore, our best answer choice here would not be answer choice B, it would not be answer choice C or answer choice D, but answer choice A. This is the only one that can separate two complete independent clauses. Now let's go ahead and see if that's right. And it is. Before we do this question, go ahead and try it for yourself. Let's read the problem. Voice choice completes the text so that it conforms to the conventions of standard English. Now I know that this
+is a grammar question. Let me read the answer choices to see what type of question it is. I'm noticing a difference between commas. So I'm thinking that this could be an essential versus a non-essential clause question. Now let me go read the question with the idea in mind of identifying what is the essential clause. What is the non-essential clause? The Indo-European language family includes Hindi, Spanish and roughly 400 other languages across Europe and Asia, making it one of the most geographically widespread language families in the world. And of particular interest to linguist Joanna Nichols of the
+of California, Berkeley. Okay, now I'm going to identify which one is the essential and which
+one's the non-essential clause. I'm noticing that linguist Joanna Nichols. Now, is it any type of
+linguist that is interested in the Indo-European language family? No, it is linguist Joanna Nichols
+specifically. If we remove Joanna Nichols, the meaning of our sentence would be changed because
+we don't know what linguist it is. But in this scenario, we are specifying that it is linguist
+Joanna Nichols and no one else. Therefore, this is essential information to our sentence and
+therefore is an essential clause. What this means is that linguist Joanna Nichols must not have any
+commas separating it because it is essential information. So already we can see answer choice
+A is wrong because it is separating it with two commas. So this is treating it as non-essential
+information, but that's wrong. It is definitely essential information to the passage. The second
+choice just has one comma, which is wrong. The third choice does not have any punctuation showing
+that it is an essential clause and this is the right way to use punctuation here, which is to use
+no punctuation. And answer choice D uses a colon, which is wrong. So answer choice C will be our best answer here.
+Now, let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Boundaries -Sentence Structure and Punc Pt. 2-E.txt
+--------------------------------------------------------------------------------
+Let's talk about boundaries. More specifically, let's go into more detail about sentence structure. This video is a continuation of the previous video, so if you haven't watched sentence structure part one, go ahead and watch that as well. But now, to fully understand how to join these independent and dependent clauses, we need to understand punctuation thoroughly.
+Now, there are four ways of joining two independent clauses. The first way is using a period. This completely separates two independent ideas into two sentences, and this is the most common case you will see in English writing. Now, the second way we can separate two independent clauses is through the semicolon. This connects two closely related independent clauses. These are grammatically identical to a period.
+The third way is through a comma and a coordinating conjunction. Use a comma followed by a fanboy. Fanboys are for, and, nor, but, or, yet, and so. If we add a comma and then we put and, or we add a comma and then put but, we can join two independent clauses.
+The fourth way is through a colon. This is used when the second independent clause explains, defines, or expands upon the first independent clause. An important caveat to note about the colon is that you must have an independent clause before a colon. Now that we understand the four ways to connect two independent clauses, let's go into more detail about punctuation. First, we're going to talk about semicolons and periods. A period ends a complete sentence with an independent clause.
+For example, I need sleep, period. I have work tomorrow. These are two independent clauses and they are being separated by a period. A semicolon joins two related independent clauses. I need sleep, semicolon. It helps me think clearly the next day. These are two independent ideas and since they are more closely related, you can use a semicolon to separate them. But in theory, they work the exact same as periods. This is an SAT hack. If a period and semicolon are both answer choices,
+both are wrong on the SAT they have the same purpose they both separate two
+independent clauses therefore if you see two answer choices that have both of
+them well it can't be both so both of them are going to be wrong now let's
+talk about a special use for the semicolon if a list has descriptors or
+definitions within the list item and already uses commas then sometimes
+semicolons will separate the individual items look at the other list items to
+see if you should use semicolons or not for example we read Romeo and Juliet a
+romance Macbeth a tragedy and twelfth night a comedy this is heavily tested on
+SAT so remember this rule as you can see from the example we have Romeo and
+Juliet which is one idea a romance which is describing what the genre of the book
+is then we have my Beth which is the book and then a tragedy a genre twelfth night
+and a comedy notice how this is following the same structure and the semicolon is
+separating it at the same exact points the reason we use semicolons here and not
+just commas is if we put a bunch of commas here it'll get kind of confusing to
+read so by using a semicolon we can separate the list out and it will be
+easier for the reader to comprehend now let's talk about colons colons must come
+after a complete sentence or independent clause colons are used for many things they
+can be used to introduce a list Joe packed the essentials for his move to his dorm a
+laptop a desk lamp and a mountain of textbooks this is introducing a list and
+this is also a dependent clause colons also provide an explanation elaboration or
+definition the co-founders of next step SAT had one primary goal simplifying the
+path to a high SAT score notice how next step SAT and primary goal is vague but once
+you add a colon the second half elaborates on what that goal is this is
+showing an elaboration which is another use of the colon colons can also join two
+independent clauses if the second independent clause explains or summarizes
+the first the exam was surprisingly easy colon every question focused on basic
+grammar rules the second part talking about every question on the exam is
+elaborating more on the first half which is saying how the exam was easy notice how in B and in C they both show a similar use of the colon which is for elaboration.
+was easy. Notice how in B and in C, they both show a similar use of the colon, which is for
+elaboration or explanation. However, in the first one, the second half of the sentence
+is a dependent clause. And in the second one, the second half is an independent clause. So this is
+showing how colons can be an independent and a dependent clause, but also an independent and
+an independent clause. Now let's talk about joining a dependent clause to an independent clause.
+The first way to do this is the comma. If a sentence starts with a dependent clause,
+a comma is required before the independent clause begins. The second way to separate these two is a
+dash. It can also be used to set off an introductory dependent clause, though this is less common than
+the comma on the SAT. The error is the run-on. Never join a dependent clause and an independent
+clause with a semicolon or a period. Now let's talk about commas. Use commas to separate items in a list.
+I bought apples, bananas, and grapes. This is a list. You can also use commas before a coordinating
+conjunction. I was tired, but I kept working. This but is a coordinating conjunction, and when you pair
+it with a comma, you are able to separate independent clauses. So the independent clause,
+I was tired, and the independent clause, I kept working, is joined by a comma and a fanboy.
+You can also use commas after introductory words or phrases and dependent clauses.
+After the show, we went home.
+A hard worker, Joshua studied day and night.
+These are both independent clauses and are introductory words and phrases that elaborate more on the rest of the sentence.
+You can also use commas around non-essential information.
+For example, I'm going to New York, which is a very cold place.
+My brother, who lives in Chicago, is visiting.
+In the second example, we can see that commas are separating non-essential information.
+In the first example, we can also see this.
+The comma is separating which is a very cold place, which is non-essential information.
+When in doubt, ask yourself, if I remove the words between the commas, do I lose the main meaning of the sentence?
+And we are going to learn more about non-essential information in a different video.
+Now, here are places where you don't want to use commas.
+You don't want to use it between the subject and the verb.
+Boy ran to school.
+Notice, boy is the subject.
+Ran is the verb.
+Never put a comma in between those two.
+Between two fully independent clauses.
+This is a comma slice.
+I turned on the TV.
+I watched the news.
+These are both independent.
+But they must be separated by either a period, semicolon, colon, or comma and fanboy.
+Simply putting a comma here is not enough and this is called a comma splice.
+When the second idea doesn't have a subject.
+The girl wanted blue but chose green.
+Also, don't use commas before or after a preposition.
+I'm going to the movie theater with my friends.
+This is wrong.
+This preposition needs to be connected with the rest of the sentence without any comma.
+If there is a that or implied that.
+I read a book, comma, that was very confusing.
+This is wrong because that is essential information.
+This book, what about this book?
+This book was very confusing.
+So we need to know this part of the sentence to understand the entirety of the sentence.
+Therefore, we do not need a comma here.
+The groceries you need to buy are written down here.
+Again, there is an implied that here and this information is essential.
+So we do not need a comma in between these words.
+Now let's talk about em dashes and parentheses.
+An em dash adds dramatic interruption, emphasis, or non-essential information.
+There is one thing I know.
+I'm not ready.
+So this is emphasizing the I'm not ready part and is adding a dramatic interruption as well.
+He was late, as usual, and missed the train.
+As usual here is non-essential information and it is separated by two hyphens.
+It is important to note that it can also be separated by two commas or two parentheses.
+For parentheses, it has less emphasis than em dash but also adds side thoughts and commentary.
+In the same way, it's adding non-essential information.
+The author who won several awards died last year.
+This is non-essential information and if we remove it, would not take away from the meaning
+of the sentence.
+Let's talk about some rules for em dashes and parentheses.
+The first rule is that they can be used for emphasis.
+And the second rule is you can use two em dashes in the middle of a sentence to insert a technically
+irrelevant idea to the meaning of the sentence.
+This is similar to commas.
+Here, they have the same purpose.
+For example, we can use dash, non-essential information, and then we can have another dash.
+We can also do parentheses, non-essential information, parentheses.
+We can also do comma, non-essential information, comma.
+These are all valid ways of separating out non-essential information and they are all interchangeable.
+Now, let's go over the strategy on how to tackle these sentence structure questions.
+First, what we're going to do is we're going to read the question and answer choices to see
+what the question is testing.
+Next, we're going to read the passage and focus on identifying phrases before and after the
+blank to see whether they are dependent or independent clauses.
+And our final step is we're going to choose the correct punctuation that can separate those clauses.
+Now that we know more about the strategy, let's go ahead and try to tackle a problem.
+Our first step is that we're going to read the question.
+Which choice completes the text so that it conforms to the conventions of standard English?
+I know that this is a grammar question.
+Now, I'm going to look at the answer choices to see what type of grammar question it is.
+I see writes, writes with a semicolon, writes with a colon, and writes with a comma.
+This means that this is testing punctuation.
+So I'm going to go ahead and read the passage now, keeping in mind what is an independent
+and what's a dependent clause.
+Queen Nzinga ruled the kingdoms of Ndongo and Matamba in southern Africa during the 17th century.
+She is remembered for establishing a governance code that promoted the protection of prisoner
+rights, the fair distribution of trade goods, and the right of women to serve as military commanders.
+So, automatically, what I'm noticing is that she is remembered for establishing a governance
+code that promoted the protection of prisoner rights.
+That is an independent clause.
+Now, I'm noticing that the second half has a list.
+The fair distribution of trade goods and the right of women to serve as military commanders.
+There are three things.
+Protection of prisoner rights, distribution of trade goods, and the right of women to serve
+as military commanders.
+Because this is a list, we actually know from that information that we can use a comma.
+In this place right here, we can see that a comma is separating the ideas.
+So, therefore, we would also need a comma here to separate the ideas of the list.
+So, answer choice A is wrong.
+There is no comma.
+Answer choice B is wrong.
+Answer choice C is wrong.
+And answer choice D would be our best guess for this question.
+Now, let's go ahead and see if it's right.
+And it is.
+Before we do this question, go ahead and try it yourself.
+Our first step is to read the problem.
+Which choice completes the text so that it conforms to the conventions of standard English?
+This is a grammar problem.
+Now, I look at the answer choices.
+Advance with a comma.
+Advance without a comma.
+Semicolon and.
+This is testing punctuation and or sentence structure.
+Now, I'm going to read the passage and identify the independent and dependent clauses.
+A short-range economic forecast attempts to project market conditions one to three months in advance.
+Its projections are therefore more immediately than those of the long-range forecast,
+which attempts to anticipate economic trends more than a year in advance.
+Well, the first half of this sentence, a short-range economic forecast,
+attempts to project market conditions one to three months in advance.
+This is a complete thought and a complete sentence.
+So, therefore, that's an independent clause.
+For the second half, its projections are therefore more immediate than those in the long-range forecast,
+which attempts to anticipate economic trends more than a year in advance.
+This is also an independent clause.
+We know that if we have two independent clauses,
+we can either separate it through a semicolon, a period, a colon, or a fanboy and a comma.
+For all these answer choices, none of these meet the criteria of separating two independent clauses except for answer choice C.
+Let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it yourself.
+My first step is to read the question.
+Which choice completes the text so that it conforms to the conventions of standard English?
+I know that this is a grammar question.
+Now, I'm going to take a look at the answer choices to see what type of question it is.
+I see a colon, a comma, no punctuation, and a hyphen.
+I know this is testing either punctuation or sentence structure.
+Now, I'm going to read the passage to identify the independent and dependent clauses.
+After the colonial land surveys of the 1800s disrupted indigenous record keeping across the Pacific, many oral histories were transcribed and stored in government repositories.
+In one instance, recordings blank a series of Polynesian navigational chants dating to the 1400s were discovered, stored in a mislabeled crate at a Wellington archive.
+Well, here's what I know.
+For this first half, in one instance, this is a dependent clause.
+And then the second part, recordings from a series of Polynesian navigational chants, this part is an independent clause.
+Now we need to understand what exactly goes in this blank.
+If we look closely at what from is doing, from is actually a prepositional phrase in this scenario.
+And it is describing the recordings, the recordings from a series of Polynesian navigational chants.
+And because this is a preposition, we don't need any punctuation in between it.
+So we can eliminate answer choice A, answer choice B, and answer choice D.
+Answer choice C would be the only one that makes sense because a prepositional phrase should not be separated out by punctuation.
+Now let's go ahead and see if that's right.
+And it is.
+Before you do this question, go ahead and try it for yourself.
+Step one is to read the question.
+I know that the question is asking for conventions of standard English.
+This is grammar.
+Now I'm going to look at the answer choices.
+There's difference between punctuation.
+This is testing sentence structure and/or punctuation.
+Now I'm going to read the passage.
+In 2010, Chef Marcus Samuelson, himself a recipient of numerous culinary awards, sought to expand access to fine dining in underserved New York City neighborhoods.
+He launched the Harlem Eat Up Festival, an annual community event that for over a decade has celebrated the food, art, and culture of Harlem.
+Automatically, I'm noticing that this first half talking about Marcus Samuelson and how he sought to expand access to fine dining in underserved New York City neighborhoods.
+This is a complete thought.
+So, the second half, he launched the Harlem Eat Up Festival, an annual community event.
+This second half is also a complete thought.
+In order to separate two independent clauses, we either need a period, a semicolon, a colon, or a comma and a fanboy.
+In this case, none of these answer choices satisfy that, except for answer choice D.
+This is the only one that can separate two independent clauses.
+Now let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question.
+We know that the question is asking for the conventions of standard English so that this is a grammar problem.
+We also know that the answer choices are testing differences in punctuation, so we know that this is a sentence structure or punctuation question.
+Now let's go ahead and read the passage and look out for independent and dependent clauses.
+The ancient Indus Valley of Mohenodaro featured a remarkably sophisticated urban sanitation system.
+Constructed around 2500 BCE, Mohenodaro supplied its residents as many as 40,000 by some estimates,
+with covered drainage channels running beneath nearly every major street.
+Now we're going to look to see what's dependent and what's independent.
+So this first half right here, constructed around 2500 BCE, is dependent.
+Mohenodaro supplied its residents.
+We can skip this parentheses by some estimates, with covered drainage channels running beneath nearly every major street.
+This is an independent clause, and this comma is correctly separating that dependent and independent clause.
+Okay, but now let's look at where the blank is, because the blank is not over here.
+It's actually by the parentheses.
+And when we look at this, we can see that the parentheses starts open, but it never closes out.
+And we know that for non-essential information, it needs to be closed out by two parentheses, one on each side.
+So therefore, we know that answer choice C and D are wrong, and either answer choice A or B are going to be right.
+But how do we know whether we need a comma or not?
+We can look and read the sentence without the non-essential information.
+Mohenodaro supplied its residents with covered drainage channels running beneath nearly every major street.
+Since this is one connecting thought, and there doesn't need to be any comma in between what was said,
+we know that we can pick answer choice A. And answer choice B would not be right here,
+because the comma is not separating the items correctly.
+Now, let's go ahead and see if answer choice A is right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question.
+It's asking for conventions of standard English.
+This is grammar.
+Now we're going to the answer choices.
+We see differences in punctuation.
+This is a punctuation question.
+Now we're going to the passage to figure out the independent and dependent clause.
+Gathering accurate data on migratory bird populations in North America is challenging
+because of the continent's thousands of distinct flyway routes,
+and the fact that the altitude and speed of birds at any given location
+can vary drastically across seasons.
+First, we know that the first half is a complete sentence.
+The second half, however, is a dependent sentence.
+The fact that the altitude and speed of birds at any given location can vary drastically across seasons
+is not a complete thought.
+So we are going to need something that can connect the independent clause with the dependent clause.
+Since the dependent clause is happening after the independent clause,
+we actually don't need any punctuation here.
+An AND would be the perfect way to connect this independent idea with the dependent idea.
+For answer choice A, this is wrong.
+Answer choice B is also wrong.
+Answer choice C is also wrong.
+All for the same reasons.
+We don't need any commas separating this independent and dependent clause.
+So answer choice B would be the best answer.
+And let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+First, we read the question.
+Once we read the question, we know that this is testing for grammar.
+Now we look at the answer choices.
+The answer choices differ in punctuation, so this is testing punctuation.
+Now we are going to read the passage and try to figure out the independent and dependent clauses.
+Ocean Vuong is one of the most celebrated poets of his generation.
+His debut collection, Night Sky with Exit Wounds: A Meditation on War and Memory,
+Grief and Longing, earned him the T.S. Eliot Prize and cemented his reputation as a defining voice in contemporary American poetry.
+Now we need to know what the first half is and what the second half is.
+Well, for this one, we might not even need to focus on the independent or dependent clauses.
+Because what do we notice?
+We already know that there is a hyphen right here.
+And we know that when there's non-essential information, we need to separate a hyphen out with two hyphens on each side.
+However, the closing part of this non-essential information does not have a hyphen.
+Therefore, we need a hyphen in our blank.
+So the only one that offers a hyphen is answer choice D.
+So we know that answer choice A, B, and C are all wrong.
+Answer choice D is right because it separates the non-essential information correctly with two hyphens on each end.
+Now let's go ahead and see if this is right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+First, we're going to read the question.
+The question asks for the conventions of standard English.
+This is grammar.
+Now we look at the answer choices.
+They differ by punctuation.
+So this is a sentence structure or punctuation question.
+Now we're going to identify the independent and dependent clauses in the passage.
+How do historians determine what goods were traded by ancient civilizations such as the Phoenicians?
+In the past, researchers were limited to studying the physical artifacts found at archaeological dig sites.
+But in 2019, a team led by Sofara Lorenco of the University of Lisbon tried something new.
+Analyzing the chemical residues left inside ancient ceramic storage vessels.
+So now what we need to do is we need to understand the independent and dependent nature of both of these parts.
+The first part is a complete thought.
+It is talking about how Sofia Lorenco tried something new with a study.
+And the second half is actually going into more depth on what Sofia Lorenco tried and what the new thing was.
+Therefore, the best way to separate these two thoughts would be a colon because a colon is used when the second half elaborates on the first.
+And in this case, the second half is definitely elaborating on the idea of the first half.
+So we know that we need a colon.
+For answer choice A and answer choice C, we see a colon.
+So we can immediately eliminate B and D.
+Now, how do we decide between answer choice A and answer choice C?
+Well, we know that the first independent clause ends when it talks about Sofia Lorenco of the University of Lisbon trying something new.
+That is where the independent clause is separated from the dependent clause.
+Therefore, we need the colon exactly there.
+For this one, there's a comma and then there's another colon, which is not right.
+So answer choice C would be wrong.
+Answer choice A would be our best answer for this question.
+Now, let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question.
+Which choice completes the text so that it conforms to standard English?
+This is a grammar question.
+Looking at the answer choices, we see differences between punctuation.
+This is a punctuation or sentence structure question.
+Now we're going to go to the passage and identify the independent and dependent clauses.
+Recent analysis of 1L O-MAMWA, an elongated object that passed through the inner solar system in 2017,
+has determined its trajectory to be unlike that of any known comet or asteroid,
+suggesting an interstellar origin.
+Such conclusions are ultimately speculative though.
+The object's unusual path may have been an incidental result of outgassing,
+gravitational interactions, or observational bias, rather than the evidence of its true origin.
+First, I am noticing this.
+Such conclusions are ultimately speculative though.
+That is one complete idea and that is one independent thought.
+Therefore, that's an independent clause.
+Now, the second half.
+The object's unusual path may be incidental result of outgassing, gravitational interactions,
+or observational bias, rather than evidence of its true origin.
+That is also a complete thought.
+So I know that I have two independent clauses.
+This is the first one.
+The second one happens after the blank.
+So, what can separate two independent clauses?
+I know it can either be a period, a colon, a semicolon, or a comma and a fanboy.
+Looking through these answer choices, there's two that could separate an independent clause
+with another independent clause.
+And that would be answer choice B and C because they both have semicolons.
+So we can cross out answer choice A and we can cross out answer choice D.
+However, in order to answer this part, we need to know which part this though belongs to,
+which is an adverb.
+Does it belong to the first half of the sentence or the second half?
+When we were reading it, it was natural to say, "such conclusions are ultimately speculative though."
+This adverb forms a complete thought with the first half of the sentence.
+Therefore, it's going to go before the semicolon.
+And the only one where the adverb goes before the semicolon is answer choice B.
+So answer choice C is wrong.
+Answer choice B would be the right answer for this scenario.
+And let's see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Which choice completes the text so that it conforms to standard English?
+This is a grammar question.
+Now, looking at these answer choices, we see differences in punctuation.
+So this is going to be a sentence structure or punctuation question.
+Let's identify the independent and independent clauses in the passage.
+Philosopher Susan Langer was a pioneer figure in the philosophy of art.
+As by her belief that functions as a symbolic form expressing human feeling rather than simplicity
+representing the external world, Langer's approach to aesthetics was decidedly symbolist.
+So automatically what I'm noticing is that this sentence is kind of special because this entire idea,
+blank by her belief that the art functions as a symbolic form representing human feeling
+rather than simply representing the external world.
+This is all an entire modifier to Langer's approach.
+Because of that, we know that this modifier is the start of the sentence.
+And the end of the sentence would be the first half,
+which is philosopher Susan Langer was a pioneering figure in the philosophy of art, period.
+That is a complete thought.
+So we need to separate these two complete thoughts out.
+Ending with the first half and starting with the modifier.
+Answer choice A has no punctuation, so that's wrong.
+Answer choice B has only and but not a comma.
+And we need a comma to make it so that this can separate two independent clauses,
+so this is wrong.
+Answer choice C only has a comma but it doesn't have an and.
+We need an and to separate two independent clauses.
+And answer choice D is properly separating two independent clauses.
+Now let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question, which conforms to standard English?
+This is a grammar question.
+Looking at the answer choices, I see differences in punctuation.
+This is a punctuation or sentence structure grammar question.
+Now let's go to the passage and figure out the independent and dependent clauses.
+Leanne Hilton, director of the Language Revitalization Initiative at the University of California, Berkeley,
+helped produce a groundbreaking series of Karuk language resources, including an audio phrase book,
+Karuk Basics in 2011, a community radio program Karuk Voices in 2014,
+and a fully accredited university language course in Karuk in 2018.
+Now what we need to do is we need to be able to separate these properly.
+I'm already noticing that in the second half, there is a comma and then there's a semicolon.
+So I'm automatically thinking that this is the special way of using semicolons to separate lists.
+Now we must follow the format.
+Notice how the semicolon goes after 2014 and then a comma separates it before.
+Therefore, in our answer choice, we need a comma that separates before the year,
+and we need a semicolon after the year.
+The only one in our answer choices that does this is not answer choice A,
+is not answer choice B, is answer choice C, and is not answer choice D.
+So this is following the same format of saying the name, and then the year, and then colon.
+If we go up here, we see the name, the year, colon, and then name, year, colon.
+So this is following the pattern.
+So our best guess for the right answer here would be answer choice C.
+Now let's go ahead and see if that's right.
+And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Boundaries -Sentence Structure Pt. 1-E.txt
+--------------------------------------------------------------------------------
+Let's talk about boundaries. Specifically in boundaries, let's go over sentence structure.
+So, what is a clause? A clause is a group of words with a subject and a verb. Now,
+there are two types of clauses. There are independent and dependent clauses. For both
+types of these clauses, they both contain a subject and verb. An independent clause is a
+complete thought that can stand alone as a sentence, hence the name independent. For example,
+the student studied. This is a complete thought and it can stand alone as a sentence. Therefore,
+it is an independent clause. A dependent clause is an incomplete thought that cannot stand alone.
+In order to tell what a dependent clause is, we can apply the wait what test. If you say a dependent
+clause out loud and it leaves the listener waiting for more information, then it is dependent.
+Example, because the student studied. Wait, what? As you can see, this is dependent because it's
+incomplete and we need more information to complete the thought. This is a rule that you should know.
+Every correct sentence on the SAT and improper English grammar must contain at least one independent
+clause. Why is that? If a sentence only contains dependent clauses, it wouldn't even be considered
+a sentence because the thought was never finished. Let's go over subordinating conjunctions. These
+words turn an independent clause into a dependent clause. Common subordinating conjunctions are
+because, although, while, if, since, though, and unless. Let's put this into practice. For example,
+let's say I had the sentence, the boy studied. If I put because in front of the boy studied,
+it'll turn into because the boy studied. Now, this is a dependent clause because it is an incomplete
+thought. We are wondering what happened because the boy studied. We don't know, so therefore,
+it's a dependent clause. Relative pronouns often start with essential or non-essential descriptions.
+Common markers include who, which, that, whom, and whose. So the formula is if you add a marker
+and you add a subject and you add a verb, this creates a dependent clause. This one is a complete
+sentence. The SAT is hard. However, with a marker, we add although to the front and then it becomes
+although the SAT is hard, dot, dot, dot, we need to complete the sentence and therefore,
+it has turned into a dependent clause. Dependent clauses can sometimes come after the independent
+clause. So we'll have an independent clause first and then we'll have the dependent clause. When they do,
+there is no comma before the subordinating conjunction. For example, I didn't eat until 10pm
+because I had meetings all day. Notice how this is one complete sentence and it flows through without any
+punctuation at all. This is because the independent clause came first and then the dependent clause
+because I had meetings all day came afterwards. So there is no need for a comma. However, if the
+dependent clause comes first, you must use a comma. For example, because I had meetings all day, comma,
+I didn't eat until 10pm. Notice how the position of the dependent and independent clauses are flipped.
+Now that we know a little bit more about dependent and independent clauses, let's go over the strategy
+for sentence structure. First, what we're going to do is we're going to read the question and answer
+choices to see what the question is testing. If you see differences in punctuation in the answer
+choices, then this is testing punctuation and or sentence structure. Next, we're going to focus on the
+passage before and after the blank and we're going to see whether they are dependent or independent
+clauses. Finally, we're going to choose the correct punctuation that can separate those clauses.
+Now that we know a little bit more about the strategy, let's go ahead and try to apply it to a
+question. Our first step is to read the question. Which choice completes the text so that it conforms to
+the conventions of standard English? I know that this is a grammar question. Now I'm going to look at the
+answer choices to see what it's testing for. I see not photosynthesis and then I see a period,
+a comma, and a semicolon. So this is testing either punctuation and or sentence structure. Either way,
+we're going to have to know the dependent and independent clause structure in the sentence. So
+now I'm going to read the passage and identify what's a dependent clause and what's an independent
+clause. While one requires sunlight and one does blank, photosynthesis and chemosynthesis are both
+processes by which organisms convert raw materials into usable chemical energy. Okay, let's look at the
+sentence before the blank. While one requires sunlight and one does not, that entire phrase right there is a
+dependent clause because it's making us want to know more. One requires sunlight and one does not. What
+about that? So this is a dependent clause. Now let's look at the other section. Photosynthesis and chemosynthesis
+are both processes by which organisms convert raw materials into usable chemical energy. That can stand
+alone by itself as a sentence. So we know that we have a dependent clause and we have an independent
+clause. And the way you can separate a dependent and independent clause is through a comma. So out of all
+these answer choices, we would not pick answer choice A because one, the first part is dependent,
+so it needs a comma supporting it. The second is a period. The third is a comma. So that would be our best
+answer choice here. And the fourth is a semicolon, which is also wrong. Let's go ahead and see if this is
+correct. And it is. Before we do this question, go ahead and try it for yourself. Our first step is to read the
+question. Which choice completes the text so that it conforms to the conventions of standard English? This is a
+grammar question. Now we're going to look at the answer choices. I see world and then I see a colon, a
+semicolon, and a comma. So I know this is testing either punctuation or sentence structure. Now I'm going to
+the passage to identify the independent and dependent clauses. A visionary architect and urban theorist
+celebrated by both the engineering community and the contemporary art world, Zaha Hadid became the first
+woman to receive the Pritzker Architecture Prize, widely regarded as the highest honor in the field. Okay, so now I'm
+noticing that the part before, a visionary architect celebrated by both engineering community and the
+contemporary art world, well, that leaves me a little bit unsure of what the sentence is trying
+to convey. So this is a dependent clause because we want to know who is this visionary architect. So
+because we know that, we know that the first half of this is a dependent clause. Let's read the second
+half. Zaha Hadid became the first woman to receive the Pritzker Architecture Prize, widely regarded as the
+highest honor in the field. If we took this part by itself, we would know this section by
+itself is an independent clause, it can stand on its own. So we have a dependent clause and then an
+independent clause. In order to separate these, we would need a comma. So answer choice A would be wrong,
+this is not a comma. Answer choice B is wrong, that's a colon. Answer choice C is wrong, that's a semicolon. And answer choice D would correctly separate the dependent and the independent clause. Let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Writing - Standard english conventions - Boundaries -Statement v. Question-E.txt
+--------------------------------------------------------------------------------
+Let's talk about boundaries. More specifically, let's talk about statement versus question.
+How do we know the difference between these two? Well, it's simple. A statement ends with a period,
+and a direct question ends with a question mark. How do we tell which phrase should be a statement
+and which phrase should be a question? We run the question test. Read the phrase beforehand. A
+sentence is only a question if it directly asks for an answer. Everything else is a statement. So,
+if the phrase does not need an answer, you do not need a question mark. Therefore,
+it's a statement. Now that we understand this, let's go ahead and try to apply this to a problem.
+My first step is to read the question. Which choice completes the text so that it conforms to the
+conventions of standard English? I know that this is a grammar question. Now, let me read the answer
+choices. Does a suspension design require for maximum safety? I notice a question mark. In the
+second answer choice, I notice a period. In the third, I notice a question mark. In the fourth,
+I notice a period. So, automatically, I know that this is testing statement versus question. Now,
+I know that I need to run the question test. Let me read the first statement. Structural engineer
+Priya Nair was hired by a city transit authority to determine what gauge of steel cable does the
+suspension design require for maximum safety? That sounds a little bit off. Let's go ahead and add
+something else. Let's add answer choice B. Does the suspension design require for maximum safety? Well,
+this sounds like it needs a question mark, but it actually doesn't. Now, let me read the third answer
+choice. Structural engineer Priya Nair was hired by a city transit authority to determine what gauge of
+steel cable the suspension design requires for maximum safety. That sounds more grammatically
+correct. Now, the question is not between A and B, but it is between C and D, and we need to run the
+question test. If I said this to somebody else, does it need an answer? Well, it is simply talking about
+determining the gauge of steel cable the suspension design requires for maximum safety. This does not
+need an answer. Therefore, it does not need a question mark, and it is a statement. Now, let's go
+ahead and see if that's right. And it is. Before we do this question, go ahead and try it for yourself.
+Our first step is to read the question. Which choice completes the text so that it conforms to the
+convenience of standard English? This is a grammar question. When I look at the answer choices, I'm
+immediately noticing that there are periods and question marks. So, this is a statement versus
+question question. Now, let me read the question. Where did the word serendipity come from? Notice how,
+when I said that, I automatically switched to a questioning tone. But let's make sure that first,
+the statement works. Where did the word serendipity come from? Sounds like it flows. Now,
+let's go to answer choice B. Where the word serendipity did come from? That sounds completely
+grammatically incorrect, so we can go ahead and eliminate B. And the other answer choice that looks
+like that is D. So, we can eliminate that as well. Now, we are left between which one is a question and
+which one is a statement. So, we can go ahead and run the question test. Where did the word serendipity
+come from? Does this statement need an answer? Yes, it does. Because we have to respond, "Well,
+serendipity came from blah blah blah." Therefore, we know that this needs to have a question mark at the
+end. So, answer choice C would be the best. And answer choice A would be wrong because it's not a
+statement. Now, let's go ahead and see if that's right. And it is. Great job on completing SAT writing.
+Thank you.
+

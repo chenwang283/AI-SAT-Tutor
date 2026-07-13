@@ -1,0 +1,415 @@
+STITCHED TRANSCRIPT
+SECTION: Math
+TOPIC: PSDA
+SKILL: 2 Variable data
+Generated: 2026-07-13
+Original transcript files were not modified.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 2 Variable data -Exp Eq and Graphs-E.txt
+--------------------------------------------------------------------------------
+Let's talk about two variable data, models, and scatter plots.
+More specifically, let's go over exponential equations and graphs.
+Unlike linear functions that increase by a set amount, exponential functions curve upward or downward because the rate of change is constantly increasing or decreasing.
+An exponential growth graph, which is when the rate of change is increasing, starts with a slow climb and becomes progressively steeper as x increases.
+An exponential decay graph, which is when the rate of change is decreasing, starts with a sharp drop and then flattens out as it approaches the x axis.
+Exponential functions are represented by the equation y equals a times b to the x.
+a is the coefficient, b is the base.
+And these are very important to remember, b being the base and a being the coefficient because the SAT will often have questions that give information and say that this number is the coefficient, this number is the base.
+And you have to be able to understand and relate these terms to the actual equation.
+So be sure to memorize these.
+The variable a represents the y-intercept, the value of y when x equals 0 because b to the 0 is 1, which is just a.
+Now, what does this mean?
+When we plug in x equals 0 to this equation, we get y equals a times b to the 0.
+Or in other words, y equals a times b to the 0, which is just 1.
+So the y-intercept is a.
+If b is greater than 1, the model represents increasing exponential growth.
+If b is in between 0 and 1, the model represents decreasing exponential decay.
+Now that we understand a little bit more about exponential equations and graphs, let's go ahead and try a practice problem.
+The graph of the function g is shown where x is greater than or equal to 0.
+Which of the following best describes the function g?
+First, what I'm noticing is that we have an exponential function.
+And how do I know that?
+It's because our rate of change starts flat and then it gets steeper.
+This means that our rate of change is not consistent.
+It's constantly changing.
+So we have an exponential function.
+Now, is my rate of change increasing or decreasing?
+I know that my rate of change is increasing because at first it starts flattened out and then it gets steeper, which means that my rate of change is increasing in magnitude.
+Therefore, we have an increasing exponential function.
+Now, out of all these answer choices, answer choice b would be best.
+Now, let's go ahead and see if answer choice b is right.
+And it is.
+Before we do this question, go ahead and try it yourself.
+Which of the following is true about the values 2 to the x and 2x plus 8 for x greater than 0?
+Now, at first, this may seem kind of complicated because we have two very different equations.
+But all you need to do is recognize that 2 to the x is exponential and 2x plus 8 is linear.
+What does this mean?
+This means that we are comparing an exponential versus a linear trend.
+So, if I were to draw out a graph, it would be like this.
+The exponential would start really flat, but then curve upward and the linear would be at a constant rate consistently.
+This is showing the relationship and it's showing that how in the beginning, increasing by a linear amount may make it greater than the exponential amount.
+However, the more that the time increases, the more the exponential will get bigger than the linear amount because the exponential's rate of change is constantly increasing.
+Now, let's find which answer choice best supports this conceptual conclusion that we made.
+For all x is greater than 0, it is true that 2 to the x is less than 2x plus 8.
+This is not true because at some point, 2 to the x is going to overtake 2x plus 8 because 2 to the x is exponential.
+So, this is wrong.
+For all x is greater than 0, it is true that 2 to the x is greater than 2x plus 8.
+This is also not true.
+We can simply plug in x equals 1 to disprove this inequality.
+So, answer choice B is wrong.
+There is a constant c such that if x was greater than 0 and less than c, then 2 to the x would be less than 2x plus 8.
+But, if x is greater than c, then 2 to the x would be greater than 2x plus 8.
+So, some constant c.
+When it's below this constant, the exponential function is going to be less than the linear.
+When it's greater than this constant, then 2x is going to be greater than the linear.
+And, as you can see from our graph, this is definitely true because the linear function starts bigger than the exponential.
+But, eventually, the exponential will take over the linear.
+The exponential starts less than, but then, eventually, it surpasses the linear and goes greater than.
+So, answer choice C would correctly explain this concept.
+Now, let's check answer choice D.
+There's a constant c such that if 0 is less than x, which is less than c, then 2 to the x is greater than 2x plus 8.
+But, if x is greater than c, then 2 to the x is less than 2x plus 8.
+Well, this is flipping the relationship.
+When we start, the exponential is less than the linear.
+But, in the end, the exponential would be greater than the linear.
+So, this has the relationship flipped.
+So, answer choice D is wrong.
+So, let's go ahead and see if answer choice C is right.
+And, it is.
+Before we do this question, go ahead and try it yourself.
+The scatter plot shows the relationship between two variables, x and y.
+An equation for the exponential model shown can be written as y equals a times b to the x,
+where a and b are positive constants, which of the following is closest to the value of b.
+So, we know b to the x, with b being the base.
+And, we know that when the b is greater than 1, we know that this is an exponentially increasing function.
+Increasing.
+But, we know that when b is in between 1 and 0, we know that is an exponentially decreasing function.
+Looking at the graph, we can tell that this is an exponentially decreasing function, because it's going down.
+So, we would need b, our base, to be in between 0 and 1.
+And, the only answer that is in between 0 and 1 is answer choice A, 0.85.
+Now, let's go ahead and see if that answer choice is right.
+And, it is.
+And, it is.
+Sometimes, the SAT will give real examples of linear versus exponential situations.
+And, oftentimes, this comes in the form of money.
+For example, simple interest is a linear relationship.
+It's adding a fixed dollar amount every year.
+For example, $30 per year.
+However, compound interest is an exponential relationship.
+It is increasing a value by a fixed percentage.
+For example, 8% annual interest every year.
+This is an exponential relationship because you are earning interest on your interest.
+For example, if I had $1 and it was earning 8% annual interest, then by the end of the year, I would have $1 plus an extra 8 cents.
+So, $1.08.
+But, then the next year, I would have $1.08.
+And, I would take 8% of the $1.08.
+So, actually, the second year, I would earn more than the first year.
+And, this is how compound interest works.
+You're earning interest on your interest.
+And, this is an exponential relationship.
+Before we do this question, go ahead and try it yourself.
+Two investments were made as shown in the table above.
+The interest in account X is compounded once per year.
+Which of the following is true about the investments?
+So, I know that account X initially had $400 invested into the account.
+And, I also know that this is compounded at 8% annual interest.
+So, the first year, it's going to be multiplied by 1.08.
+And, that is going to be the gain on this account.
+Next, I also know that account Y starts with the interest.
+It starts at 600.
+And, it is gaining $30 per year.
+So, this is linear interest.
+Account X is compound interest.
+While, account Y is simple interest.
+So, this would be 600 plus 30.
+Meaning that, at the end of the year, we have $630.
+What about for account X?
+At the end of the year, account X is going to have $432.
+Now that we know this and understand these relationships, let's go ahead and look at the answer choices.
+Account X always earns more money per year than account Y. Is this true?
+Well, at the end of the first year, how much did account X make?
+It went from $400 to $432.
+Meaning that it earned $32.
+And, for account Y, how much did it make?
+Well, it added $30.
+So, that means that it made $30.
+So, account X, although it's compound and it's going to start slow and then eventually increase.
+Even at its starting point, it's making $32.
+Which is still more than account Y.
+Therefore, account X will always earn more money per year than account Y.
+So, answer choice A is right.
+But, let's go ahead and check the other answer choices.
+Account X always earns less money per year than account Y.
+We just disproved that by proving that account X always earns more.
+So, this is wrong.
+Account X earns more money per year than account Y at first, but then eventually earns less.
+This is also wrong.
+Account X always earns more.
+Account X earns less money than account Y at first, but eventually earns more.
+Account X always earns more.
+This is also wrong.
+Account X always earns more.
+So, the correct answer choice would be answer choice A.
+Now, let's go ahead and see if that's right.
+And, it is.
+How do we compare exponential and linear graphs?
+A relationship is linear if the value changes by a specific constant number for every fixed time period.
+A relationship is exponential if the value changes by a percentage of its previous value, rather than a flat number.
+Before we do this question, go ahead and try it yourself.
+A freight train slows from a speed of 80 miles per hour to a complete stop at a constant rate of 4 miles per hour per minute.
+What type of function best models the relationship between the train speed and time?
+Well, notice that it slows from a speed of 80 to come to a complete stop at a constant rate of 4 miles per hour.
+This means that we are having a constant rate, which means that we have a linear rate, because an exponential rate would increase or decrease the rate of change.
+Now, let's go ahead and see if it's increasing or decreasing.
+Well, the freight train is slowing down.
+Therefore, we know that it's decreasing.
+So, this function would be a decreasing linear function.
+So, answer choice B would be the best answer for that.
+Now, let's go ahead and see if that's right.
+And, it is.
+An important note is that this could come in the form of a table giving a bunch of x and y variables.
+So, be aware that this could be presented in a different format.
+Before we do this question, go ahead and try it yourself.
+Each year, the population of a bacteria colony increases by 35% of its population the previous year.
+Which of the following functions best models how the population of the colony changes over time?
+We know that each year, it is increasing by an amount of the population of the previous year.
+For example, if we had a hundred bacteria in a colony, and then at the end of the year, it increased by 35%.
+That means that we would add 35.
+So, it would increase to 135.
+But then the next year, we would take 35% of 135 and add that on.
+And that's obviously going to be a larger number than what we took the first year.
+Therefore, we know that this rate of change is increasing.
+Which means that it's exponential.
+And we also know that the amount of bacteria is increasing.
+So, we know that it's increasing.
+Therefore, we know that the correct answer is answer choice C.
+Increasing exponential.
+And answer choice B, A, and D are all wrong.
+Let's go ahead and see if that's right.
+And it is.
+Before we do this question, go ahead and try it yourself.
+For x is greater than or equal to zero, the function h is defined as follows.
+h of x equals 5/3 of x.
+Which of the following could best describe this function?
+To me, initially, I'm thinking maybe this could be exponential.
+Because I'm going to be multiplying 5/3 by x.
+If x is bigger, I'm going to multiply 5/3 by a bigger number.
+But let's go ahead and write this out to check.
+5/3 times x.
+Let's call it 1.
+And this is going to be equal to 5/3.
+Now, what if I had 2?
+Well, this would be 5/3 times 2.
+Which would be equal to 10/3.
+Well, what if I had x equals 3?
+This would be 5/3 times 3.
+Which would be x equals 15/3.
+Notice the pattern.
+Each one is increasing by 5/3.
+So actually, although initially I thought this would be exponential because I'm multiplying by a change in x.
+What actually matters is that the base or the multiple is increasing.
+But every time this is being multiplied by 5/3.
+Therefore, there's going to be a constant difference in the outputs.
+And the difference every time is 5/3.
+So therefore, we know that this is an increasing linear function.
+Answer choice D would be the best answer.
+Now, let's go ahead and see if that's right.
+And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 2 Variable data -Graph Interpretation and Prediction-E.txt
+--------------------------------------------------------------------------------
+Let's talk about two variable data models and scatter plots. More specifically, let's talk about
+graph interpretation and prediction. If you are given an x value, you can plug it into the equation
+or look at the graph to find the y value. Now that we know this, let's go ahead and try on a problem.
+The scatter plot above shows the high temperature on a certain day and the elevation of eight
+different locations in Rocky Mountain National Park. A line of best fit for the data is also shown.
+What temperature is predicted by the line of best fit for location in Rocky Mountain National Park with
+an elevation of 9,000 feet? First, I know that I have an elevation of 9,000 feet and I'm trying to get
+the temperature. If I go to my feet, I see that at an elevation of 9,000, we are going to be at a 36
+degree temperature. So I know that the high temperature when the elevation is 9,000 feet is going to be 36
+degrees. So answer choice B would be the best answer. Now let's go ahead and see if that's right. And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 2 Variable data -Linear Eq and Graphs-E.txt
+--------------------------------------------------------------------------------
+Let's talk about two variable data, models, and scatter plots. More specifically, let's go over
+linear equations and graphs. First, we need to talk about what is a line of best fit. A line of best
+fit is a line drawn through a scatter plot to summarize the relationship between two variables.
+It represents the overall trend, even if individual data points do not fall exactly on the line.
+The equation of the line is y equals mx plus b, where m is the slope and b is the y-intercept.
+If y equals 3x plus 2, then the slope is 3 and the y-intercept is 2. The slope, or in other words,
+m of a line is the rate of change that the line is experiencing. Therefore, if the slope is 3,
+this means that for every increase in 1 of x, y will increase by 3, meaning that the graph is rising by 3.
+And if we go ahead and input y equals 3x plus 2 into Desmos, we can see that this conceptual concept
+of the rate of change where for every 1 increase in x, right, we have a 1 increase in x here,
+y is going to rise by 3. As we can see, y is going up from 0 to 1, y is going up 1, 2, 3.
+The formal equation of the slope of a line is y2 minus y1 over x2 minus x1. Think about it. If slope is the rate of change,
+then what this equation is doing is that it is taking the point x1, y1 and the point x2, y2 and
+finding the change in the rise, how much it changes vertically, over the change in the run, how much it is
+changing horizontally. And we can see this process depicted in this diagram right here. We can see the
+second point x2, y2 and the first point x1, y1. And we notice that the rise is the change in the y
+value, so y2 minus y1, over the run, the change in the x values, x2 minus x1. The y-intercept is when x
+equals 0. It will always be the point on the y-axis. In this picture right here, we can see the y-intercept
+clearly depicted along the y-axis. And in this case, the y-intercept is 2. In a real-world context, the y-intercept
+represents the starting value, or initial amount, when x is 0. Now that we understand a little bit
+more about linear equations and graphs, let's go ahead and try a problem. The scatter plot shows the
+relationship between two variables, x and y. A line of best fit is also shown. Which of the following
+equations best represents the line of best fit shown? First, what we need to do is remember our linear
+equation, y equals mx plus b, where m is the slope and b is the y-intercept. What do we notice about this
+line? Well, first, I'm noticing that the slope is negative. So I know that we need to have a negative
+m. Secondly, I know that b, otherwise known as the y-intercept, is when the value of x is 0. So when
+the value of x is 0, y is 15. So I know that b has to equal 15. And I know that my slope needs to be
+negative. Now let's look at our answer choices and see which one satisfies that. A has a positive slope,
+that's wrong. b and c have a negative slope, so it passes that test. But d has a positive slope,
+that's wrong. Now out of b and c, only b has the answer choice where the y-intercept is 15.
+So b would be the correct answer and c would be wrong. Now let's go ahead and see if our answer
+choice is right. And it is. What if you are not given the line of best fit and only the scatter plot?
+Take the starting and ending points of the scatter plot to find the overall slope. Before we do this
+question, go ahead and try it for yourself. Each dot in the scatter plot above represents the weekly
+exercise hours x and the number of miles run in a week y. Recorded for each person in a group of 20
+participants, the graph of which of the following equations is a line that most closely fits the data.
+First, what I'm noticing is that we do not have a line of best fit. So we need to take the starting
+and ending points to calculate the slope. I'm noticing a starting point right here. I'm also
+noticing an ending point right here. Now that we've identified the starting and ending points,
+we can use the slope formula, which is y2 minus y1 over x2 minus x1. The y value of the ending point
+is around 21 and the y value of the starting point is 0. So we're going to do 21 minus 0 over the x value
+of the ending point, which is around 5, and the x value of the starting point, which is around 1. This is
+going to give us 21 minus 4, or in other words, 5.25. Now, as you can see, this slope doesn't exactly
+match up with any of our answer choices. However, we know that if we had taken two different points,
+maybe the slope could have been closer to 4.2 instead of 0.82. We know that 0.82 is definitely
+not the right slope. So we can eliminate a and b. Now we need to go and check which one of these could be
+the y-intercept. If we draw an approximate line of best fit, we will notice that when x is 0,
+y is around -2.5. Therefore, we know that the y-intercept needs to be -2.5. And out of c and d,
+only c would make sense for this. So c would be our best estimate for the line that closely fits the
+data and answer choice d would be wrong. Now let's go ahead and see if this is right. And it is.
+Since the line of best fit is theoretical and shows prediction, it has the predicted values. The
+scatterplot points are the actual values. Before we do this question, go ahead and try it for yourself.
+The scatterplot shows the relationship between two variables x and y. A line of best fit is also shown.
+For how many of the data points is the actual y-value greater than the y-value predicted by the line of best
+fit? First, what I know is that I know that the y-value predicted by the line of best fit is the line. And I
+know that the actual y-values are the ones in the scatterplots. So scatterplots are the actual values. The
+line is the predicted value. So how many of the actual ones - so the scatterplot points - are greater than the line?
+So all we need to do is count the number of points above the line, which is 1, 2, 3, 4, 5. So our best
+answer choice would be answer choice b, 5. Now let's go ahead and see if that's right. And it is.
+Be careful. Sometimes the graph shown is different from the one the question is looking for.
+Before we do this question, go ahead and try it for yourself. The scatterplot shows the relationship
+between two variables x and y for data set e. A line of best fit is shown. Data set f is created by
+multiplying the y-coordinate of each data point from the data set e by 3. Which of the following could be
+an equation of the line of best fit for data set f? I know that I'm given data set e. First, let's try to
+estimate what the line of data set e would be. I'm going to say y equals mx plus b because I know that's
+the equation of a line. Let's calculate the slope of data set e. If I take two random points on this line,
+I'm going to take the point right here and the point right here. I can see that I can calculate my
+slope using the slope formula y2 over y1 8 minus 6 over x2 minus x1 10 minus 6 is equal to the slope.
+And this is 2 over 4 or in other words, 1/2. So I know that my slope is 1/2. Now let me calculate b,
+the y-intercept. If I look, when x is 0, it's somewhere right here. And this is right in the middle between
+2 and 4. So my y-intercept is around 3. So I know that an equation that would work for this data set is
+y equals 1/2 x plus 3. Now is this my answer? No. And be careful because answer choice d right here has the exact same answer.
+But we are looking for data set f, which is created by multiplying the y-coordinate from the data set e by
+3. So let's multiply the y-coordinate by 3. 3 times y. And what we do to one side, we need to do to the
+other side. So we're going to go ahead and multiply the entire other side by 3. This is going to be 3 times
+1/2 x plus 3. Or in other words, 1.5 x plus 9. 3y is equal to 1.5 x plus 9. And this is the equation of when we multiply the y-coordinate of data set e. Or in other words, this is the equation of data set f. So we know that the correct answer choice
+needs to say 1.5 x plus 9. And out of all these answer choices, the best answer choice would be answer choice a. Now let's go ahead and see if this is right. And it is.
+Thank you.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 2 Variable data -Quadratic Eq and Graphs-E.txt
+--------------------------------------------------------------------------------
+Let's talk about two variable data models and scatter plots. More specifically, let's go into quadratic equations and graphs.
+How do we determine the shape of graphs?
+We need to look at the overall flow of the data points to determine if a relationship is linear, quadratic, or exponential.
+For quadratic models, if the dots form a U shape or parabola, the best model would be a quadratic equation in the form of Y equals AX squared plus BX plus C.
+An upward opening parabola, like a smile, must have a positive leading coefficient, A, while a downward opening one must have a negative coefficient.
+For the Y-intercept, observe where the data trend intersects the vertical axis when X is 0.
+For the vertex, and this is specifically for quadratic equations, find the peak or valley of the data set, and then use the X-coordinate of this point to find the Y and see if the equation matches the graph.
+Now that we understand a little bit more about quadratics, let's go ahead and try this on a problem.
+Of the following, which is the best model for the data in the scatter plot?
+First, what I'm going to do is look at the flow of the data points.
+To me, this looks like a smile.
+So I am leaning towards a parabola, which means that I am leaning towards a quadratic model.
+I know that the quadratic model is Y equals AX squared plus BX plus C.
+What I need to do is I need to find a model that correctly represents all this information.
+I know that in my equation, A has to be positive because this is an upward opening parabola.
+It's a smile.
+I also know that the Y-intercept, or in other words, C, when X is 0, Y is 20.
+So C has to be equal to 20.
+I know that I need to have a positive A, and I know that C needs to be equal to 20.
+Now let's see which one of these answer choices satisfies this.
+Out of A, B, C, and D, they all have positive A's.
+So it satisfies the equation in that regard.
+But if we take a look at their Y-intercepts, we'll notice that there's negative 15, negative 4, and positive 4.
+And only one has positive 20 as the Y-intercept.
+So that means answer choice B would be the best answer.
+Now let's go ahead and see if this is right.
+And it is.
+
+--------------------------------------------------------------------------------
+SOURCE: Math - PSDA - 2 Variable data -Rate of Change-E.txt
+--------------------------------------------------------------------------------
+Let's talk about two variable data models and scatter plots. More specifically, let's go over
+the rate of change. We calculate the average rate between two points by using the slope formula,
+y2 minus y1 over x2 minus x1. On a curve graph, a steeper slope indicates a faster and greater
+rate of change. A flatter section of the curve indicates a slower and smaller rate of change.
+Now that we understand the basic concepts of rate of change, let's go ahead and try a practice
+problem. In an experiment, a heated bowl of tomato soup is removed from a stove and the bowl is then
+left in a room kept at a constant temperature. The graph above shows the temperature in degrees
+Fahrenheit of the soup immediately after being removed from the stove and at 10 minute intervals
+thereafter. During which of the following 10 minute intervals does the temperature of the soup decrease
+at the greatest average rate? What I know is that the slope of this graph is equal to the rate of change.
+And I know that when the slope is flatter, that means the rate of change is less. And I know that
+when the slope is steeper, that means the rate of change is more. If we look at the bottom half of
+this curve, we can see that the slope is kind of like this line, which is a slower rate of change.
+But if we look at the top of this curve, we can see that the slope is decreasing at a faster rate,
+which means that there is a faster rate of change. Therefore, the slope, or in other words,
+the temperature of the soup is decreasing at the greatest average rate during the beginning when the
+slope is steeper. Out of all these answer choices, the best answer choice to pick would be answer
+choice A because between zero and 10 minutes, this is still the beginning interval when the slope is
+steepest. So answer choice B, C, and D would be wrong. Now let's go ahead and see if this is right.
+And it is. In the real world, speed is a common rate of change because it is distance over time.
+The rate at which distance changes over time. When speed, which is a rate of change, is on the y axis of a graph,
+it must be interpreted differently than a normal line graph. A normal line graph gives y over x, which is a rate of change.
+Speed is already a rate of change, distance over time. So when it is on the y axis, it is actually y over x over x,
+which sounds a little confusing, but it makes sense. If we already have a rate of change on the y axis,
+then that would become y over x. And then we would have to put that over the x axis again. So it's the
+rate at which the rate is changing. Therefore, if you are looking at a speed graph where speed is on
+the y axis and speed is a flat line, this doesn't necessarily mean that speed is zero. Rather, speed is
+held at a constant rate or staying the same. Here we can see a picture that depicts the conceptual idea
+of not only rate of change, but speed when it's on the y axis. Before we do this problem, go ahead and try it yourself.
+Marcus rode a bicycle for 30 minutes and his time and speed are shown on the graph above. According to the graph,
+which of the following statements is not true concerning Marcus's ride? First, what I'm noticing is that speed is on the y axis, which means that a rate of change is on the y axis. This means that we need to interpret it a little differently from a normal graph, which might just have a basic number on the y axis. Let's look at the answer choices.
+Marcus wrote at a constant speed for five minutes. Do we see that happening anywhere on the graph? Yes, I'm noticing that from x equals five to x equals 10, the speed is staying the same at seven miles per hour. So Marcus wrote at a constant speed for five minutes. This is true, which means that this answer choice is wrong because we are looking for what is not true. Marcus's speed was increasing for a longer period of time than it was decreasing. Let's see when the speed was increasing. The speed was increasing from zero to five. So that time was five minutes. And then
+speed was also increasing from 20 to 25. That's another five minutes. So the time that the speed was increasing is 10 minutes. Now let's look at how long the speed was decreasing. The speed was decreasing right here. It's at a constant rate. It's decreasing from 10 to 20. So this is 10 minutes. And it's also decreasing from 25 to 30. So this is another five minutes. So speed is decreasing for 15 minutes. This is saying that Marcus's speed was increasing longer than it was decreasing. But this answer choice actually has the reality flipped. Marcus's speed was
+decreasing longer than it was increasing. So therefore answer choice B is right because it is not true. Now let's go ahead and check answer choice C and D. Marcus's speed decreased at a constant rate during the last five minutes. If we look at the last five minutes, do we see Marcus's speed decreasing at a constant rate? Yes, because the rate of change is not moving around. It is a straight line. Therefore, it's going at a constant rate. Answer choice D says Marcus's speed reached its maximum at minute 20. At minute 20, this is not a maximum. It
+would have been right if it said Marcus's speed reached its maximum at minute 25 because this is the point at which Marcus's speed was the highest. Answer choice D is wrong. Now let's go ahead and see if our answer is right. And it is. Sometimes the SAT only wants the rate of change over a specific interval. When this interval is stated, only calculate the slope for that interval. Before we do this question, go ahead and try it for yourself. The graph shows the kinetic energy P of T
+in joules of a ball T seconds after it started moving for zero is less than or equal to T less than or equal to 10. What is the average rate of change in joules per second in the kinetic energy of the ball from T equals three to T equals seven. So notice we are only looking for the average rate of change in a specific section when T is three to T is seven. So let's go ahead and identify that on the graph. When T is three, my point is right here. When T is seven, my point is right here. So now I'm going to find the rate of change just
+in this subsection. I know that my slope or the rate of change is y2 minus y1 over x2 minus x1.
+I see that y2 is 20 and we're going to subtract that from y1 which is around 8. Now we're going
+to divide that by x2 minus x1. The x when the time is 7 seconds well is 7 seconds and then the x when
+the time is 3 seconds is 3 seconds. So this is going to give us a rate of change of 12 over 4
+which is equal to 3 joules per second. So our answer is going to be 3. Now let's go ahead and see if this
+is the correct answer and it is. Before we do this question go ahead and try it for yourself.
+The scatter plot shows the relationship between the length of time t and hours a certain bird spent in
+flight and the number of days after March 1st. Number of days after March 1st. What is the average rate
+of change in hours per day of the length of time the bird spent in flight from March 3rd to March 9th?
+So we know that on our x-axis this is the number of days after March 1st. If we have x equals 2 that means
+that it is two days after March 1st. Therefore it would be March 3rd. Now we are looking for the average
+rate of change from March 3rd to March 9th. So when it's March 3rd as we just calculated this is two days
+after March 1st. So it's going to be when x is 2. Now when x is 8 we know that this is going to be March 9th
+because this is eight days after March 1st. Now we're going to take these two points and we're going
+to calculate the rate of change. We know that the rate of change is y2 minus y1 over x2 minus x1. So
+we're going to take our y2 which is 20 and we are going to subtract that from our y1 which is 2. We're
+going to put that over our x2 which is 8 and we're going to subtract that from our x1 which is 2. This is
+going to give us 18 over 6 or in other words 3. So the average rate of change in hours per day of this
+bird from March 3rd to March 9th is 3. Now let's go ahead and see if 3 is the right answer. And it is.
+Before we do this question go ahead and try it for yourself. Each dot in the scatter plot above represents
+the temperature and the number of people who visited a public library in Madison, Wisconsin on one of 11
+different days. The line of best fit for the data is also shown. The line of best fit has a slope of
+approximately 40. According to this estimate, how many additional visitors per day, additional visitors
+per day, are predicted to visit the library for each 4 degrees Celsius increase in average temperature. So we are
+looking for how many additional visitors come when the temperature increases by 4. So we can honestly just pick
+any part of this line. I'm going to go ahead and select the interval of 16 to 20 because this is a 4 degree
+increase in the average temperature. Since it already tells me that the slope is approximately 40, I know
+that y equals 40x plus b. And if there's a 4 degree increase, I know that I can just input 4 for x.
+That is going to mean 40 times 4. Which means that for every 4 degree increase in average temperature, y or the number of visitors is going to increase by 160. Now let's go ahead and see if that answer is right. And it is.
+
