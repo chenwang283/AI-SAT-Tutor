@@ -172,14 +172,6 @@ function protectMath(markdown) {
       (_, prefix, expression) => `${prefix}${addExpression(expression, true)}`
     )
     .replace(/\\\(([\s\S]+?)\\\)/g, (_, expression) => addExpression(expression, false))
-    .replace(
-      /\(([^()\n]*(?:\\[a-zA-Z]+|[=_^])[^()\n]*)\)/g,
-      (_, expression) => addExpression(expression, false)
-    )
-    .replace(
-      /\(([A-Z]{1,2}|[a-z](?:\d+)?|\d+[a-zA-Z]?)\)/g,
-      (_, expression) => addExpression(expression, false)
-    )
     .replace(/(?<!\\)\$([^\n$]+?)\$/g, (_, expression) => addExpression(expression, false));
 
   return { expressions, markdown: protectedMarkdown };
