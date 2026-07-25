@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reset password · AI SAT Tutor</title>
+    <link rel="stylesheet" href="/auth.css">
+  </head>
+  <body>
+    <main class="auth-card">
+      <p class="eyebrow">AI SAT Tutor</p>
+      <h1>Choose a new password</h1>
+      <form id="reset-form">
+        <label for="password">New password</label>
+        <input id="password" name="password" type="password" autocomplete="new-password" required>
+        <label for="password-confirm">Confirm password</label>
+        <input id="password-confirm" name="passwordConfirm" type="password" autocomplete="new-password" required>
+        <button type="submit">Update password</button>
+      </form>
+      <p id="message" class="message" role="status"></p>
+    </main>
+    <script src="/auth-reset.js"></script>
+  </body>
+</html>

@@ -290,6 +290,47 @@
     return tags.length ? tags : null;
   }
 
+  function extractSource() {
+    const selectors = [
+      '[data-testid*="assignment" i]',
+      '[data-testid*="set-title" i]',
+      '[aria-label*="assignment" i]',
+      'nav [aria-current="page"]',
+      "main h1",
+      "main h2",
+    ];
+    const ignored = /^(tags|your answer|correct answer|correct response|explanation)$/i;
+
+    for (const selector of selectors) {
+      for (const element of document.querySelectorAll(selector)) {
+        if (element.closest('[id^="question_text"]')) continue;
+        const text = (element.textContent || "").replace(/\s+/g, " ").trim();
+        if (text && text.length <= 160 && !ignored.test(text)) return text;
+      }
+    }
+
+    return (document.title || "")
+      .replace(/\s*[|–—-]\s*(?:StudySpaces|Next Step SAT).*$/i, "")
+      .trim() || null;
+  }
+
+  function extractQuestionNumber() {
+    const explicit = document.querySelector(
+      '[data-question-number], #question_number, [aria-label^="Question " i]'
+    );
+    const explicitValue =
+      explicit?.getAttribute("data-question-number") ||
+      explicit?.getAttribute("aria-label") ||
+      explicit?.textContent ||
+      "";
+    const explicitMatch = String(explicitValue).match(/(?:question\s*)?(\d+)/i);
+    if (explicitMatch) return explicitMatch[1];
+
+    const pageText = document.body?.innerText || document.body?.textContent || "";
+    const pageMatch = pageText.match(/\b(?:Question|Q)\s*#?\s*(\d+)(?:\s+of\s+\d+)?\b/i);
+    return pageMatch?.[1] || null;
+  }
+
   function extractMCQ() {
     const optionEls = [...document.querySelectorAll('[id^="options_"]')];
     if (!optionEls.length) return null;
@@ -386,6 +427,10 @@
 
     return {
       questionId: getQuestionId(),
+      source: extractSource(),
+      questionNumber: extractQuestionNumber(),
+      pageTitle: document.title || null,
+      pageUrl: globalThis.location?.href || null,
       phase: detectPhase(),
       questionType: mcq ? "multiple_choice" : "free_response",
       stem: mathAwareText(stemEl),

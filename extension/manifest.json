@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "AI SAT Tutor",
-  "description": "AI SAT Tutor side panel for StudySpaces questions.",
-  "version": "0.0.1",
+  "description": "Student-led SAT mistake logging, tutoring, and scheduled question redos.",
+  "version": "0.1.0",
   "permissions": [
     "sidePanel",
     "scripting",

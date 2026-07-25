@@ -116,4 +116,11 @@ assert.equal(
   "The extractor file and invocation must both run in the page's MAIN world."
 );
 
+assert.match(source, /source:\s*extractSource\(\)/, "Extractor should return the detected source.");
+assert.match(
+  source,
+  /questionNumber:\s*extractQuestionNumber\(\)/,
+  "Extractor should return the displayed question number."
+);
+
 console.log("studyspacesExtractor math regression tests passed");

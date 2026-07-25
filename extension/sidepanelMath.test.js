@@ -3,7 +3,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const vm = require("node:vm");
 
-const sidepanelPath = path.join(__dirname, "sidepanel.js");
+const sidepanelPath = path.join(__dirname, "rendering.js");
 const source = fs.readFileSync(sidepanelPath, "utf8");
 const functionStart = source.indexOf("function protectMath");
 const functionEnd = source.indexOf("function createMathElement", functionStart);

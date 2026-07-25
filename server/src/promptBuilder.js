@@ -9,43 +9,42 @@ async function readPromptFile(fileName) {
 }
 
 function formatConversation(conversation) {
+  if (!conversation.length) return "(Tutoring has not started yet.)";
   return conversation
-    .map((message) => {
-      const label = message.role === "assistant" ? "Tutor" : "Student";
-      return `${label}: ${message.content}`;
-    })
+    .map((message) => `${message.role === "assistant" ? "Tutor" : "Student"}: ${message.content}`)
     .join("\n\n");
 }
 
-function getLatestStudentMessage(conversation) {
-  return [...conversation].reverse().find((message) => message.role === "student")?.content || "";
-}
-
-function hasThinStudentThinking(message) {
-  const normalized = message
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
-  const wordCount = normalized ? normalized.split(/\s+/).length : 0;
-
-  return (
-    wordCount <= 3 ||
-    /^(idk|i don t know|i do not know|not sure|no idea|help|please help|i guessed|guessed|stuck|i m stuck|im stuck)\b/.test(
-      normalized
-    )
+function formatStudentReview(review, reviewStage) {
+  return JSON.stringify(
+    {
+      reviewStage: reviewStage || "initial",
+      section: review.section,
+      difficulty: review.difficulty,
+      source: review.source,
+      questionNumber: review.questionNumber,
+      clockMode: review.clockMode,
+      whereWrong: review.whereWrong,
+      preventionRule: review.myRule,
+      mistakeTag: review.tag,
+      mistakeTagDefinition: review.tagDefinition,
+      originalOutcome: review.originalOutcome,
+    },
+    null,
+    2
   );
 }
 
-async function buildTutorPrompt({ question, teachingMethod, conversation, method }) {
-  const [baseInstructions, mistakeClassification] = await Promise.all([
-    readPromptFile("base-instructions.txt"),
-    readPromptFile("mistake-classification.txt"),
-  ]);
-
-  const studentTurns = conversation.filter((message) => message.role === "student").length;
-  const isFirstTurn = studentTurns === 1;
-  const latestStudentMessage = getLatestStudentMessage(conversation);
-  const thinStudentThinking = isFirstTurn && hasThinStudentThinking(latestStudentMessage);
+async function buildTutorPrompt({
+  question,
+  teachingMethod,
+  conversation,
+  method,
+  studentReview,
+  reviewStage,
+}) {
+  const baseInstructions = await readPromptFile("base-instructions.txt");
+  const isFirstTurn = conversation.length === 0;
 
   return [
     baseInstructions.trim(),
@@ -53,38 +52,34 @@ async function buildTutorPrompt({ question, teachingMethod, conversation, method
     "THE QUESTION (captured):",
     JSON.stringify(question, null, 2),
     "",
-    "OUR TEACHING METHOD for this concept (use this):",
+    "THE STUDENT'S COMPLETED SELF-REVIEW:",
+    formatStudentReview(studentReview, reviewStage),
+    "",
+    "OUR TEACHING METHOD for this concept (use this as a private roadmap):",
     method?.title ? `Method title: ${method.title}` : "",
     teachingMethod.trim() ||
-      "(No method provided. Tell the student we do not have a saved method for this topic yet, then give conservative help from the captured question without pretending it is OUR method.)",
+      "(No saved method fits this topic. Say that plainly and give conservative help from the captured question without pretending it is OUR method.)",
     "",
-    "CONVERSATION SO FAR:",
+    "TUTORING CONVERSATION:",
     formatConversation(conversation),
     "",
-    thinStudentThinking
-      ? "The student's explanation is very limited. Do not pretend to know their reasoning; briefly orient them, then ask one concrete diagnostic question or explain the first decision they should make."
-      : "",
-    thinStudentThinking ? "" : "",
     isFirstTurn
-      ? "This is the first tutor turn. Do this, grounded in the student's own words:"
-      : "This is a follow-up turn. Answer the student's latest message directly, using the original question, prior conversation, and OUR method as context.",
+      ? "This is the first teaching turn after the student completed the mistake log."
+      : "This is a follow-up teaching turn.",
     isFirstTurn
-      ? "1. Pinpoint the specific place their reasoning broke. If they did not say enough, say exactly what you would ask; do not invent reasoning."
-      : "1. Do not restart the full explanation unless the student asks for that.",
+      ? "Do not ask for the student's prior thought process. Do not diagnose, classify, or restate the mistake as an AI conclusion."
+      : "Answer the student's latest message directly without restarting diagnosis or the full solution.",
     isFirstTurn
-      ? "2. Teach the fix using OUR method above and show how the method applies here."
-      : "2. Keep the answer focused on the latest confusion or follow-up question.",
+      ? "Treat the self-review as the starting point. If it concretely contradicts the captured answer, question, or its own rule, ask exactly one short clarification about that contradiction and stop. Do not conduct a diagnostic interview."
+      : "The one-time contradiction clarification is no longer available. Continue teaching from the saved self-review and this conversation.",
     isFirstTurn
-      ? "3. Classify the mistake using this list:"
-      : "3. If a mistake classification is useful, reference it briefly.",
-    isFirstTurn ? mistakeClassification.trim() : "",
-    "",
-    isFirstTurn
-      ? "4. End with one short follow-up question testing the same skill."
-      : "End with one short next question only if it naturally helps the student continue.",
-    "",
-    "Keep it tight and conversational, like you are talking directly to the student.",
+      ? "If there is no concrete contradiction, begin teaching immediately at the smallest missing piece indicated by the saved tag, explanation, and rule."
+      : "Keep the response on the smallest missing piece the student needs now.",
+    "Use the teaching method privately. Help the student identify the next move before asking them to execute it.",
+    "Usually write 1-4 short sentences, introduce at most one new fact, ask exactly one clear question, and stop.",
+    "Never reveal a multi-step solution or ask multiple future-step questions in one turn.",
+    "When the student reaches the answer, verify that it matches the exact task before briefly summarizing the concept, efficient method, and general SAT pattern.",
   ].join("\n");
 }
 
-module.exports = { buildTutorPrompt };
+module.exports = { buildTutorPrompt, formatStudentReview };
