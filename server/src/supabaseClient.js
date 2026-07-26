@@ -12,7 +12,8 @@ function getSupabaseConfig() {
   const publishableKey = process.env.SUPABASE_PUBLISHABLE_KEY?.trim();
 
   if (!url) throw configError("SUPABASE_URL is not set.");
-  if (!publishableKey) throw configError("SUPABASE_PUBLISHABLE_KEY is not set.");
+  if (!publishableKey)
+    throw configError("SUPABASE_PUBLISHABLE_KEY is not set.");
   return { url, publishableKey };
 }
 
@@ -57,7 +58,10 @@ async function requireAuthenticatedUser(req, res, next) {
     const { data, error } = await supabase.auth.getUser(accessToken);
     if (error || !data?.user) {
       return res.status(401).json({
-        error: { code: "INVALID_SESSION", message: "Your session has expired. Sign in again." },
+        error: {
+          code: "INVALID_SESSION",
+          message: "Your session has expired. Sign in again.",
+        },
       });
     }
 
