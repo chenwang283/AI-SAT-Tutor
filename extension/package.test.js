@@ -28,5 +28,10 @@ const sidePanelSource = fs.readFileSync(path.join(extensionRoot, "sidepanel.js")
 assert.match(sidePanelSource, /method:\s*"PATCH"/);
 assert.match(sidePanelSource, /reviewChange:\s*appState\.pendingReviewChange/);
 assert.match(sidePanelSource, /respondToPendingReviewChange/);
+assert.match(sidePanelSource, /function renderMessages\(scrollMode = "bottom"\)/);
+assert.match(sidePanelSource, /renderApp\(\{ scrollMode: "top" \}\)/);
+assert.match(sidePanelSource, /\.focus\(\{ preventScroll: true \}\)/);
+assert.match(sidePanelSource, /window\.scrollTo\(\{ top: 0, behavior: "auto" \}\)/);
+assert.match(sidePanelSource, /window\.scrollTo\(\{ top: document\.body\.scrollHeight, behavior: "smooth" \}\)/);
 
 console.log("extension package reference tests passed");

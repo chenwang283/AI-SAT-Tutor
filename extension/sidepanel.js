@@ -399,7 +399,7 @@ function renderReviewTranscript() {
   if (draft.step === "confirm") rendering.addMessage(messages, "assistant", promptForStep("confirm"));
 }
 
-function renderMessages() {
+function renderMessages(scrollMode = "bottom") {
   messages.textContent = "";
   if (appState.mode === "review" && appState.draft) {
     renderReviewTranscript();
@@ -423,6 +423,11 @@ function renderMessages() {
     );
   }
   requestAnimationFrame(() => {
+    if (scrollMode === "top") {
+      messages.scrollTop = 0;
+      window.scrollTo({ top: 0, behavior: "auto" });
+      return;
+    }
     messages.scrollTop = messages.scrollHeight;
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
   });
@@ -863,8 +868,8 @@ async function toggleReviewEditor() {
     }
     appState.editingReview = true;
     await saveAppState();
-    renderApp();
-    reviewEditControls.querySelector("textarea")?.focus();
+    renderApp({ scrollMode: "top" });
+    reviewEditControls.querySelector("textarea")?.focus({ preventScroll: true });
   } catch (error) {
     setStatus(error.message || "Unable to load the saved mistake log.", "error");
   } finally {
@@ -909,8 +914,8 @@ function renderModeControls() {
   explainButton.textContent = "Send follow-up";
 }
 
-function renderApp() {
-  renderMessages();
+function renderApp({ scrollMode = "bottom" } = {}) {
+  renderMessages(scrollMode);
   renderReviewControls();
   renderReviewEditControls();
   renderModeControls();
