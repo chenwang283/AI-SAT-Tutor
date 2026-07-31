@@ -28,6 +28,9 @@ const messages = document.querySelector("#messages");
 const reviewEntry = document.querySelector("#review-entry");
 const reviewButton = document.querySelector("#review-button");
 const reviewControls = document.querySelector("#review-controls");
+const reviewEditRegion = document.querySelector("#review-edit-region");
+const reviewEditButton = document.querySelector("#review-edit-button");
+const reviewEditControls = document.querySelector("#review-edit-controls");
 const redoControls = document.querySelector("#redo-controls");
 const checkRedoButton = document.querySelector("#check-redo-button");
 const tutorForm = document.querySelector("#tutor-form");
@@ -52,6 +55,9 @@ function createEmptyState() {
     reviewId: null,
     reviewStage: null,
     draft: null,
+    savedReview: null,
+    editingReview: false,
+    pendingReviewChange: null,
     redo: null,
   };
 }
@@ -118,6 +124,12 @@ async function loadAppState() {
     reviewId: typeof stored.reviewId === "string" ? stored.reviewId : null,
     reviewStage: [3, 14].includes(Number(stored.reviewStage)) ? Number(stored.reviewStage) : null,
     draft: stored.draft && typeof stored.draft === "object" ? stored.draft : null,
+    savedReview: stored.savedReview && typeof stored.savedReview === "object" ? stored.savedReview : null,
+    editingReview: Boolean(stored.editingReview),
+    pendingReviewChange:
+      stored.pendingReviewChange && typeof stored.pendingReviewChange === "object"
+        ? stored.pendingReviewChange
+        : null,
     redo: stored.redo && typeof stored.redo === "object" ? stored.redo : null,
   };
 }
@@ -671,6 +683,195 @@ function renderReviewControls() {
   }
 }
 
+function editableReviewValues(review) {
+  return {
+    whereWrong: typeof review?.whereWrong === "string" ? review.whereWrong : "",
+    myRule: typeof review?.myRule === "string" ? review.myRule : "",
+    tag: typeof review?.tag === "string" ? review.tag : "",
+  };
+}
+
+function buildReviewChange(before, after) {
+  const changedFields = ["whereWrong", "myRule", "tag"].filter(
+    (field) => before[field] !== after[field]
+  );
+  return {
+    changedFields,
+    before: Object.fromEntries(changedFields.map((field) => [field, before[field]])),
+    after: Object.fromEntries(changedFields.map((field) => [field, after[field]])),
+  };
+}
+
+function showReviewEditError(message) {
+  let error = reviewEditControls.querySelector(".field-error");
+  if (!error) {
+    error = document.createElement("p");
+    error.className = "field-error";
+    reviewEditControls.append(error);
+  }
+  error.textContent = message;
+}
+
+async function respondToPendingReviewChange() {
+  let pending;
+  try {
+    const question = await getLiveQuestionForCurrentState();
+    pending = rendering.addMessage(messages, "assistant", "Updating my response...", "pending");
+    setStatus("Updating the tutor with your revised mistake log...");
+    const data = await requestTutorReply(question);
+    appState.method = data.method || appState.method;
+    appState.messages = [...appState.messages, { role: "assistant", content: data.reply }];
+    appState.pendingReviewChange = null;
+    await saveAppState();
+    renderApp();
+    setStatus(appState.method?.title ? `Ready. Method: ${appState.method.title}.` : "Ready.");
+  } catch (error) {
+    const message = error.message || "The review was saved, but the tutor could not respond yet.";
+    if (pending) rendering.updateMessage(pending, message);
+    else rendering.addMessage(messages, "assistant", message);
+    setStatus(`${message} Your changes will be included in the next tutor response.`, "error");
+  }
+}
+
+async function saveReviewEdits(form) {
+  const before = editableReviewValues(appState.savedReview);
+  const after = {
+    whereWrong: form.elements.whereWrong.value.trim(),
+    myRule: form.elements.myRule.value.trim(),
+    tag: form.elements.tag.value,
+  };
+  if (!after.whereWrong || !after.myRule || !after.tag) {
+    showReviewEditError("Complete the diagnosis, rule, and tag before saving.");
+    return;
+  }
+
+  const reviewChange = buildReviewChange(before, after);
+  if (!reviewChange.changedFields.length) {
+    appState.editingReview = false;
+    await saveAppState();
+    renderApp();
+    setStatus("No changes to save.");
+    return;
+  }
+
+  setBusy(true);
+  setStatus("Saving your updated mistake log...");
+  try {
+    const data = await apiRequest(`/reviews/${encodeURIComponent(appState.reviewId)}`, {
+      method: "PATCH",
+      body: { diagnosis: after },
+    });
+    const hasTutorResponse = appState.messages.some((message) => message.role === "assistant");
+    appState.savedReview = data.review;
+    appState.editingReview = false;
+    appState.pendingReviewChange = hasTutorResponse ? reviewChange : null;
+    await saveAppState();
+    renderApp();
+
+    if (hasTutorResponse) await respondToPendingReviewChange();
+    else setStatus("Mistake log updated. The tutor will use it in the first response.");
+  } catch (error) {
+    setStatus(error.message || "Unable to update the mistake log.", "error");
+    showReviewEditError(error.message || "Unable to update the mistake log.");
+  } finally {
+    setBusy(false);
+    renderModeControls();
+  }
+}
+
+function renderReviewEditControls() {
+  reviewEditControls.textContent = "";
+  const isOpen = appState.mode === "teaching" && appState.editingReview;
+  reviewEditControls.hidden = !isOpen;
+  reviewEditButton.textContent = isOpen ? "Close editor" : "Edit answers";
+  if (!isOpen || !appState.savedReview) return;
+
+  const values = editableReviewValues(appState.savedReview);
+  const form = document.createElement("form");
+  form.className = "review-form";
+
+  const diagnosisLabel = document.createElement("label");
+  diagnosisLabel.htmlFor = "edit-where-wrong";
+  diagnosisLabel.textContent = "Where I went wrong";
+  const diagnosis = document.createElement("textarea");
+  diagnosis.id = "edit-where-wrong";
+  diagnosis.name = "whereWrong";
+  diagnosis.required = true;
+  diagnosis.value = values.whereWrong;
+
+  const ruleLabel = document.createElement("label");
+  ruleLabel.htmlFor = "edit-my-rule";
+  ruleLabel.textContent = "My rule for next time";
+  const rule = document.createElement("textarea");
+  rule.id = "edit-my-rule";
+  rule.name = "myRule";
+  rule.required = true;
+  rule.value = values.myRule;
+
+  const tagLabel = document.createElement("label");
+  tagLabel.htmlFor = "edit-mistake-tag";
+  tagLabel.textContent = "Mistake tag";
+  const tag = document.createElement("select");
+  tag.id = "edit-mistake-tag";
+  tag.name = "tag";
+  tag.required = true;
+  reviewFlow.getAllowedTags(reviewConfig, appState.savedReview.section).forEach((option) => {
+    const element = document.createElement("option");
+    element.value = option.value;
+    element.textContent = `${option.label}: ${option.description}`;
+    tag.append(element);
+  });
+  tag.value = values.tag;
+
+  const actions = document.createElement("div");
+  actions.className = "form-actions";
+  const cancel = document.createElement("button");
+  cancel.type = "button";
+  cancel.className = "secondary-button";
+  cancel.textContent = "Cancel";
+  cancel.addEventListener("click", async () => {
+    appState.editingReview = false;
+    await saveAppState();
+    renderApp();
+  });
+  const save = document.createElement("button");
+  save.type = "submit";
+  save.textContent = "Save changes";
+  actions.append(cancel, save);
+
+  form.append(diagnosisLabel, diagnosis, ruleLabel, rule, tagLabel, tag, actions);
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    await saveReviewEdits(form);
+  });
+  reviewEditControls.append(form);
+}
+
+async function toggleReviewEditor() {
+  if (appState.editingReview) {
+    appState.editingReview = false;
+    await saveAppState();
+    renderApp();
+    return;
+  }
+
+  setBusy(true);
+  try {
+    if (!appState.savedReview) {
+      const data = await apiRequest(`/reviews/${encodeURIComponent(appState.reviewId)}`);
+      appState.savedReview = data.review;
+    }
+    appState.editingReview = true;
+    await saveAppState();
+    renderApp();
+    reviewEditControls.querySelector("textarea")?.focus();
+  } catch (error) {
+    setStatus(error.message || "Unable to load the saved mistake log.", "error");
+  } finally {
+    setBusy(false);
+  }
+}
+
 function renderDueReviews() {
   dueSummaryText.textContent = dueState.count
     ? `${dueState.count} review${dueState.count === 1 ? "" : "s"} due · ${dueState.overdueCount} overdue`
@@ -702,6 +903,7 @@ function renderModeControls() {
   const needsTutorStart = appState.mode === "teaching" && !appState.messages.length;
   reviewEntry.hidden = !(appState.mode === "idle" || needsTutorStart);
   reviewButton.textContent = needsTutorStart ? "Start tutoring" : "Review this question";
+  reviewEditRegion.hidden = !(appState.mode === "teaching" && appState.reviewId);
   redoControls.hidden = appState.mode !== "redo";
   tutorForm.hidden = !(appState.mode === "teaching" && appState.messages.length > 0);
   explainButton.textContent = "Send follow-up";
@@ -710,8 +912,10 @@ function renderModeControls() {
 function renderApp() {
   renderMessages();
   renderReviewControls();
+  renderReviewEditControls();
   renderModeControls();
   renderDueReviews();
+  if (isBusy) setBusy(true);
 }
 
 function ensureQuestionMatchesState(question) {
@@ -796,6 +1000,7 @@ async function saveCompletedReview() {
       questionKey: data.review.questionKey,
       question: stripCapturedFigureData(question),
       reviewId: data.review.id,
+      savedReview: data.review,
     };
     await saveAppState();
     await loadDueReviews();
@@ -818,6 +1023,7 @@ async function requestTutorReply(question) {
       reviewStage: appState.reviewStage,
       question,
       conversation: appState.messages,
+      reviewChange: appState.pendingReviewChange || undefined,
     },
   });
 }
@@ -831,6 +1037,7 @@ async function startTutor(question) {
     const data = await requestTutorReply(question);
     appState.method = data.method || null;
     appState.messages = [...appState.messages, { role: "assistant", content: data.reply }];
+    appState.pendingReviewChange = null;
     await saveAppState();
     renderApp();
     setStatus(data.method?.title ? `Ready. Method: ${data.method.title}.` : "Ready.");
@@ -859,6 +1066,7 @@ async function sendTutorFollowup(studentMessage) {
     const data = await requestTutorReply(question);
     appState.method = data.method || appState.method;
     appState.messages = [...appState.messages, { role: "assistant", content: data.reply }];
+    appState.pendingReviewChange = null;
     await saveAppState();
     messageInput.value = "";
     renderApp();
@@ -930,6 +1138,7 @@ async function checkRedoResult() {
         question: stripCapturedFigureData(question),
         reviewId: data.review.id,
         reviewStage: Number(appState.reviewStage),
+        savedReview: data.review,
       };
       await saveAppState();
       await loadDueReviews();
@@ -1033,6 +1242,7 @@ dueSummaryButton.addEventListener("click", () => {
 });
 
 reviewButton.addEventListener("click", beginQuestionReview);
+reviewEditButton.addEventListener("click", toggleReviewEditor);
 checkRedoButton.addEventListener("click", checkRedoResult);
 resetButton.addEventListener("click", resetQuestionState);
 

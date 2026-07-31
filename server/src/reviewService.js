@@ -209,6 +209,24 @@ function normalizeReviewInput(body, studentId) {
   };
 }
 
+function normalizeReviewUpdate(body, currentRow) {
+  const diagnosis = body?.diagnosis;
+  if (!diagnosis || typeof diagnosis !== "object" || Array.isArray(diagnosis)) {
+    throw requestError(400, "INVALID_REVIEW", "Updated diagnosis, rule, and tag are required.");
+  }
+
+  const tag = cleanString(diagnosis.tag, "Tag", 2).toUpperCase();
+  if (!isAllowedTag(currentRow.section, tag)) {
+    throw requestError(400, "INVALID_REVIEW", "The selected tag does not match the question section.");
+  }
+
+  return {
+    where_wrong: cleanString(diagnosis.whereWrong, "Where you went wrong", 4000),
+    prevention_rule: cleanString(diagnosis.myRule, "Your rule", 4000),
+    mistake_tag: tag,
+  };
+}
+
 function serializeReview(row) {
   if (!row) return null;
   return {
@@ -263,6 +281,19 @@ async function getOwnedReview(supabase, id) {
   if (error) throw databaseError(error, "Unable to load the question review.");
   if (!data) throw requestError(404, "REVIEW_NOT_FOUND", "Question review not found.");
   return data;
+}
+
+async function updateReview(supabase, id, body) {
+  const currentRow = await getOwnedReview(supabase, id);
+  const update = normalizeReviewUpdate(body, currentRow);
+  const { data, error } = await supabase
+    .from("question_reviews")
+    .update(update)
+    .eq("id", id)
+    .select("*")
+    .single();
+  if (error) throw databaseError(error, "Unable to update the question review.");
+  return serializeReview(data);
 }
 
 function deriveDueItem(row, today) {
@@ -362,9 +393,11 @@ module.exports = {
   deriveQuestionResult,
   sanitizeQuestionSnapshot,
   normalizeReviewInput,
+  normalizeReviewUpdate,
   serializeReview,
   createReview,
   getOwnedReview,
+  updateReview,
   getDueReviews,
   buildDueSummary,
   completeRedo,

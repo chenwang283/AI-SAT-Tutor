@@ -1,5 +1,25 @@
 const assert = require("node:assert/strict");
-const { app } = require("./server");
+const { app, getRequestConversation, getRequestReviewChange } = require("./server");
+
+const reviewChange = getRequestReviewChange({
+  reviewChange: {
+    changedFields: ["myRule"],
+    before: { myRule: "Be careful." },
+    after: { myRule: "Write the target before solving." },
+  },
+});
+assert.deepEqual(reviewChange.changedFields, ["myRule"]);
+assert.throws(
+  () => getRequestConversation({ conversation: [{ role: "assistant", content: "Previous reply" }] }),
+  /must end with a student message/
+);
+assert.deepEqual(
+  getRequestConversation(
+    { conversation: [{ role: "assistant", content: "Previous reply" }] },
+    { allowAssistantTail: true }
+  ),
+  [{ role: "assistant", content: "Previous reply" }]
+);
 
 async function run() {
   const server = app.listen(0);

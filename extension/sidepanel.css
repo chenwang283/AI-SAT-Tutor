@@ -184,6 +184,24 @@ button:disabled { cursor: not-allowed; opacity: 0.58; }
 .due-card strong { display: block; margin-bottom: 4px; color: #263447; font-size: 13px; }
 .due-card button { width: 100%; min-height: 34px; margin-top: 8px; padding: 7px 10px; font-size: 12px; }
 
+.review-edit-region {
+  border: 1px solid #ccd9dd;
+  border-radius: 10px;
+  background: #f9fcfd;
+}
+.review-edit-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 11px 12px;
+}
+.review-edit-header strong { display: block; color: #263447; font-size: 13px; }
+.review-edit-header p { margin: 3px 0 0; color: #64748b; font-size: 11px; line-height: 1.4; }
+.review-edit-controls { border-top: 1px solid #ccd9dd; padding: 12px; }
+.review-edit-controls textarea { min-height: 78px; }
+.review-edit-controls select { width: 100%; }
+
 .messages {
   display: flex;
   flex: 1;

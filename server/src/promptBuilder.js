@@ -45,14 +45,32 @@ async function buildTutorPrompt({
   method,
   studentReview,
   reviewStage,
+  reviewChange,
 }) {
   const baseInstructions = await readPromptFile("base-instructions.txt");
-  const isFirstTurn = conversation.length === 0;
+  const isReviewUpdateTurn = Boolean(reviewChange);
+  const isFirstTurn = conversation.length === 0 && !isReviewUpdateTurn;
   const { explanation, ...questionWithoutExplanation } = question;
   const answerExplanation =
     typeof explanation === "string" && explanation.trim()
       ? explanation.trim()
       : "(No StudySpaces answer explanation was captured.)";
+  const turnInstructions = isReviewUpdateTurn
+    ? [
+        "This response was triggered because the student edited the saved mistake log after an earlier tutor response.",
+        "Begin with one brief sentence recognizing the specific field or idea that changed. Then run the same audit-or-reinforce workflow below using the edited review as the new source of truth.",
+        "If the edited review passes, follow the acknowledgement with the one-sentence Next time reminder. If it still needs work, follow the acknowledgement with exactly one neutral audit question. If it identifies a concept gap, acknowledge it, teach the concept briefly, and give the reminder.",
+      ].join("\n")
+    : isFirstTurn
+      ? [
+          "This is the first tutor response after the student saved the mistake log.",
+          "Privately audit the saved diagnosis and rule, then choose exactly one workflow branch below.",
+        ].join("\n")
+      : [
+          "This is a follow-up turn. Use the conversation to determine whether an audit is still underway, the student has reached a clearer root cause or rule, or the audit already ended.",
+          "If an audit is underway, continue only that workflow. If the student has now articulated a materially better diagnosis or rule than the saved review, direct them to update it with Edit answers before giving the final reminder.",
+          "If the audit already ended and the latest message is an ordinary tutoring question, answer it directly and concisely without restarting the audit.",
+        ].join("\n");
 
   return [
     baseInstructions.trim(),
@@ -66,40 +84,33 @@ async function buildTutorPrompt({
     "THE STUDENT'S COMPLETED SELF-REVIEW:",
     formatStudentReview(studentReview, reviewStage),
     "",
+    "MOST RECENT EDIT TO THE SELF-REVIEW:",
+    reviewChange
+      ? JSON.stringify(reviewChange, null, 2)
+      : "(The student has not edited the saved self-review since the last tutor response.)",
+    "",
     "OUR TEACHING METHOD for this concept (use this as a private roadmap):",
     method?.title ? `Method title: ${method.title}` : "",
     teachingMethod.trim() ||
-      "(No saved method fits this topic. Say that plainly and give conservative help from the captured question without pretending it is OUR method.)",
+      "(No saved method fits this topic. Do not invent one. Mention this limitation only if the selected branch requires teaching a missing concept, then give conservative help from the captured question.)",
     "",
     "TUTORING CONVERSATION:",
     formatConversation(conversation),
     "",
-    isFirstTurn
-      ? "This is the first response after the student completed the mistake log. Give a hyper-personalized skill explanation, not a lesson transcript."
-      : "This is a follow-up teaching turn.",
-    isFirstTurn
-      ? "Do not ask for the student's prior thought process. Do not rediagnose or classify the student; treat their self-review as the evidence for what they need."
-      : "Answer the student's latest message directly without restarting diagnosis or the full solution.",
-    isFirstTurn
-      ? "Treat the self-review as the starting point. If it concretely contradicts the captured answer, question, or its own rule, ask exactly one short clarification about that contradiction and stop. Do not conduct a diagnostic interview."
-      : "The one-time contradiction clarification is no longer available. Continue teaching from the saved self-review and this conversation.",
-    isFirstTurn
-      ? "If there is no concrete contradiction, compare the question, official answer explanation, our method, and the self-review to name the smallest transferable skill gap that actually caused this miss. Do not merely repeat the mistake tag."
-      : "Keep the response on the smallest missing piece the student needs now.",
-    isFirstTurn
-      ? "Distinguish recognition from knowledge. If the student knew a required concept but did not notice that it was needed, focus on recognizing every required concept or method: point out the specific cue in this question and give one repeatable recognition check. Do not reteach a concept they say they know."
-      : "Use the teaching method privately. Help the student identify the next move before asking them to execute it.",
-    isFirstTurn
-      ? "If the student did not know a required concept, briefly teach that exact concept using our method, then connect it directly to the missed question and the official explanation. If the gap was interpretation, execution, or efficiency instead, target that exact skill rather than forcing a concept lesson."
-      : "Usually write 1-4 short sentences, introduce at most one new fact, ask exactly one clear question, and stop.",
-    isFirstTurn
-      ? "Name one main skill. Add a secondary skill only when the self-review and solution both show that it materially contributed. Explain the question-specific evidence and give one concrete action for next time."
-      : "Do not repeat material the student has already demonstrated.",
-    isFirstTurn
-      ? "STRICT FIRST-RESPONSE FORMAT (unless asking the contradiction clarification): at most 80 words and no more than 4 short sentences. Start with 'The skill to work on is'. In order, state the skill, cite the question-specific evidence, give the brief repair, and give one concrete next-time action. Note: the repair and concrete action should be generalizable to problems of the same type (skill/subskill). Do not give repairs and actions that only apply to this one question; combine sentences when possible. Use plain prose with no headings, bullets, numbered steps, generic praise, or full solution. Do not ask a closing question. If clarification is required, ignore this format and ask only the one short question described above."
-      : "Keep the response concise and focused on the student's latest need.",
-    "Never reveal a multi-step solution or ask multiple future-step questions in one turn.",
-    "When the student reaches the answer, verify that it matches the exact task before briefly summarizing the concept, efficient method, and general SAT pattern.",
+    "TURN CONTEXT:",
+    turnInstructions,
+    "",
+    "AUDIT-OR-REINFORCE WORKFLOW (follow in order):",
+    "1. Audit the diagnosis privately. A usable diagnosis names the concrete event or missing knowledge at or before the first point the work diverged, explains the miss, and fits the question and official explanation. A feeling or label such as 'I rushed,' 'I was careless,' or 'I got confused' is not yet a root cause. Blaming wording or structure is not specific until the student identifies the exact phrase, condition, representation, or answer-choice feature that caused the difficulty. Treat the mistake tag only as supporting context; the tag alone cannot make a vague diagnosis pass.",
+    "2. If the diagnosis clearly says the student did not know a required concept or method, do not ask an audit question. Briefly teach only that missing concept from our method, connect it to the cue in this question, and finish with the transferable Next time reminder described below. Do not reveal the full solution.",
+    "3. If the diagnosis is a feeling, label, unsupported wording complaint, symptom, contradiction, or otherwise too vague, ask exactly one short, neutral question that helps the student inspect what concretely occurred. Do not tell them what is wrong with their input, suggest the answer, list possible causes, audit the rule yet, teach, or give a reminder in that turn.",
+    "4. Once the diagnosis is usable, audit the prevention rule privately. A usable rule names one observable action, occurs at or before the root-cause point, clearly prevents that cause, and transfers to other questions of the same type.",
+    "5. If the rule is generic (for example, 'read carefully' or 'check my work'), unclear, merely says it helps, has no clear link to preventing the root cause, or fixes a downstream consequence, ask exactly one short, neutral question about what the student would do differently at the exact point the mistake began and how that action would stop the same error. Do not explain the weakness or propose replacement wording.",
+    "6. If a follow-up answer is still vague, wandering, or only says the rule helps, ask one deeper neutral question and stop. Never ask more than one question per response.",
+    "7. When the student identifies a materially better root cause or rule in conversation, briefly recognize the insight in their own terms and tell them to use Edit answers to update the saved mistake log, then stop. Do not write the replacement diagnosis or rule for them. After they save, re-audit the edited review.",
+    "8. If both the saved diagnosis and saved rule are already usable, do not give an audit, evaluation, praise, explanation, or question. Output exactly one sentence beginning 'Next time,' with one concrete action tied to the cue and mistake in this question but reusable for other questions of the same skill or subskill. Use at most 35 words. On a review-edit turn only, the required brief change acknowledgement may appear before this sentence.",
+    "9. On a concept-teaching branch, write at most 4 short sentences and 70 words total. End with a sentence beginning 'Next time,' that gives the transferable action.",
+    "Use plain prose with no headings, bullets, numbered steps, generic praise, or multi-step solution in the student-facing response.",
   ].join("\n");
 }
 

@@ -4,6 +4,7 @@ const {
   deriveQuestionResult,
   sanitizeQuestionSnapshot,
   normalizeReviewInput,
+  normalizeReviewUpdate,
   buildDueSummary,
 } = require("./reviewService");
 
@@ -64,6 +65,30 @@ assert.equal(normalized.difficulty, "medium");
 assert.equal(normalized.original_outcome, "incorrect");
 assert.equal(normalized.redo_3_due_on, "2026-07-27");
 assert.equal(normalized.redo_14_due_on, "2026-08-07");
+
+const normalizedUpdate = normalizeReviewUpdate(
+  {
+    diagnosis: {
+      whereWrong: "I missed the required answer form.",
+      myRule: "I will label the requested form before solving.",
+      tag: "1",
+    },
+  },
+  { section: "math" }
+);
+assert.deepEqual(normalizedUpdate, {
+  where_wrong: "I missed the required answer form.",
+  prevention_rule: "I will label the requested form before solving.",
+  mistake_tag: "1",
+});
+assert.throws(
+  () =>
+    normalizeReviewUpdate(
+      { diagnosis: { whereWrong: "Mistake", myRule: "Rule", tag: "A" } },
+      { section: "math" }
+    ),
+  /does not match/
+);
 
 assert.throws(
   () =>

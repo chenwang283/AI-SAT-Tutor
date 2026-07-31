@@ -12,6 +12,7 @@ const authService = require("./authService");
 const {
   createReview,
   getOwnedReview,
+  updateReview,
   getDueReviews,
   completeRedo,
   serializeReview,
@@ -123,15 +124,45 @@ function cleanConversationMessage(message) {
   return { role, content };
 }
 
-function getRequestConversation(body) {
+function getRequestConversation(body, { allowAssistantTail = false } = {}) {
   if (!Array.isArray(body?.conversation)) {
     throw requestError(400, "INVALID_REQUEST", "Request body must include a conversation array.");
   }
   const conversation = body.conversation.map(cleanConversationMessage).filter(Boolean);
-  if (conversation.length && conversation.at(-1).role !== "student") {
+  if (conversation.length && conversation.at(-1).role !== "student" && !allowAssistantTail) {
     throw requestError(400, "INVALID_REQUEST", "A follow-up conversation must end with a student message.");
   }
   return conversation;
+}
+
+function getRequestReviewChange(body) {
+  if (body?.reviewChange == null) return null;
+  const value = body.reviewChange;
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    throw requestError(400, "INVALID_REQUEST", "reviewChange must be an object.");
+  }
+
+  const allowedFields = new Set(["whereWrong", "myRule", "tag"]);
+  const changedFields = Array.isArray(value.changedFields)
+    ? [...new Set(value.changedFields.filter((field) => allowedFields.has(field)))]
+    : [];
+  if (!changedFields.length) {
+    throw requestError(400, "INVALID_REQUEST", "reviewChange must name at least one changed field.");
+  }
+
+  const before = {};
+  const after = {};
+  for (const field of changedFields) {
+    for (const [source, target] of [[value.before, before], [value.after, after]]) {
+      const text = typeof source?.[field] === "string" ? source[field].trim() : "";
+      if (!text || text.length > 4000) {
+        throw requestError(400, "INVALID_REQUEST", `reviewChange ${field} is missing or too long.`);
+      }
+      target[field] = text;
+    }
+  }
+
+  return { changedFields, before, after };
 }
 
 function summarizeImages(images) {
@@ -235,6 +266,14 @@ app.get(
     res.json({ review: serializeReview(row) });
   })
 );
+app.patch(
+  "/reviews/:id",
+  requireAuthenticatedUser,
+  asyncRoute(async (req, res) => {
+    const review = await updateReview(req.auth.supabase, req.params.id, req.body);
+    res.json({ review });
+  })
+);
 app.post(
   "/reviews/:id/redos/:stage/complete",
   requireAuthenticatedUser,
@@ -268,7 +307,10 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
     const preparedQuestion = prepareQuestionForTutor(question);
     questionForLog = preparedQuestion.question;
     imagesForLog = preparedQuestion.images;
-    const conversation = getRequestConversation(req.body);
+    const reviewChange = getRequestReviewChange(req.body);
+    const conversation = getRequestConversation(req.body, {
+      allowAssistantTail: Boolean(reviewChange),
+    });
     conversationForLog = conversation;
 
     const teachingMethod = await lookupTeachingMethod(preparedQuestion.question);
@@ -280,6 +322,7 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
       method: teachingMethod,
       studentReview,
       reviewStage,
+      reviewChange,
     });
     const reply = await getTutorReply({ prompt, images: preparedQuestion.images });
 
@@ -336,4 +379,9 @@ if (require.main === module) {
   app.listen(port, () => console.log("AI SAT Tutor server listening on http://localhost:" + port));
 }
 
-module.exports = { app, prepareQuestionForTutor, getRequestConversation };
+module.exports = {
+  app,
+  prepareQuestionForTutor,
+  getRequestConversation,
+  getRequestReviewChange,
+};

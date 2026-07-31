@@ -17,6 +17,7 @@ const instrumentedSource = source.replace(
     readRenderedMath,
     formatMathForText,
     replaceMathNodes,
+    extractSource,
   };
   ${exportMarker}`
 );
@@ -30,7 +31,7 @@ const sandbox = {
 };
 vm.runInNewContext(instrumentedSource, sandbox, { filename: extractorPath });
 
-const { normalizeMathUnicode, readRenderedMath, formatMathForText, replaceMathNodes } =
+const { normalizeMathUnicode, readRenderedMath, formatMathForText, replaceMathNodes, extractSource } =
   sandbox.globalThis.__extractorTestHooks;
 
 function makeElement({
@@ -108,6 +109,20 @@ replaceMathNodes(clonedStem, "math-field", ["t", equation], true);
 assert.deepEqual(replacements, ["\\(t\\)", `\\(${equation}\\)`]);
 
 assert.equal(formatMathForText("", true), "[math expression unavailable]");
+
+const questionSetTitle = makeElement({
+  textContent: "A - Linear Equations in One Variable - Number of Solutions - Hard ",
+});
+questionSetTitle.closest = () => null;
+sandbox.document.querySelectorAll = (selector) =>
+  selector === "span.block.text-lg.font-semibold.overflow-hidden.whitespace-nowrap.text-ellipsis"
+    ? [questionSetTitle]
+    : [];
+sandbox.document.title = "Your Answer (incorrect)";
+assert.equal(
+  extractSource(),
+  "A - Linear Equations in One Variable - Number of Solutions - Hard"
+);
 
 const sidepanelSource = fs.readFileSync(sidepanelPath, "utf8");
 assert.equal(

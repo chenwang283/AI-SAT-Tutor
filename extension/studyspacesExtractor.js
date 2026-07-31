@@ -292,6 +292,7 @@
 
   function extractSource() {
     const selectors = [
+      "span.block.text-lg.font-semibold.overflow-hidden.whitespace-nowrap.text-ellipsis",
       '[data-testid*="assignment" i]',
       '[data-testid*="set-title" i]',
       '[aria-label*="assignment" i]',
