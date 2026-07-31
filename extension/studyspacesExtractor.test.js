@@ -122,5 +122,10 @@ assert.match(
   /questionNumber:\s*extractQuestionNumber\(\)/,
   "Extractor should return the displayed question number."
 );
+assert.match(
+  source,
+  /explanation:\s*mathAwareText\(document\.querySelector\("#explanation"\)\)/,
+  "Extractor should return the StudySpaces answer explanation."
+);
 
 console.log("studyspacesExtractor math regression tests passed");
