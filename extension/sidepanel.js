@@ -51,6 +51,7 @@ function createEmptyState() {
     questionKey: null,
     question: null,
     messages: [],
+    tutorContextStartIndex: 0,
     method: null,
     reviewId: null,
     reviewStage: null,
@@ -115,11 +116,19 @@ async function loadAppState() {
   const result = await chrome.storage.session.get(STATE_STORAGE_KEY);
   const stored = result[STATE_STORAGE_KEY];
   if (!stored || typeof stored !== "object") return;
+  const storedMessages = cleanMessages(stored.messages);
+  const storedContextStartIndex = Number.isInteger(stored.tutorContextStartIndex)
+    ? stored.tutorContextStartIndex
+    : 0;
   appState = {
     mode: ["idle", "review", "teaching", "redo"].includes(stored.mode) ? stored.mode : "idle",
     questionKey: typeof stored.questionKey === "string" ? stored.questionKey : null,
     question: stored.question && typeof stored.question === "object" ? stripCapturedFigureData(stored.question) : null,
-    messages: cleanMessages(stored.messages),
+    messages: storedMessages,
+    tutorContextStartIndex: Math.max(
+      0,
+      Math.min(storedContextStartIndex, storedMessages.length),
+    ),
     method: stored.method && typeof stored.method === "object" ? stored.method : null,
     reviewId: typeof stored.reviewId === "string" ? stored.reviewId : null,
     reviewStage: [3, 14].includes(Number(stored.reviewStage)) ? Number(stored.reviewStage) : null,
@@ -769,6 +778,7 @@ async function saveReviewEdits(form) {
     const hasTutorResponse = appState.messages.some((message) => message.role === "assistant");
     appState.savedReview = data.review;
     appState.editingReview = false;
+    if (hasTutorResponse) appState.tutorContextStartIndex = appState.messages.length;
     appState.pendingReviewChange = hasTutorResponse ? reviewChange : null;
     await saveAppState();
     renderApp();
@@ -1021,13 +1031,17 @@ async function saveCompletedReview() {
 }
 
 async function requestTutorReply(question) {
+  const conversation = reviewFlow.getTutorConversation(
+    appState.messages,
+    appState.tutorContextStartIndex,
+  );
   return apiRequest("/teach", {
     method: "POST",
     body: {
       reviewId: appState.reviewId,
       reviewStage: appState.reviewStage,
       question,
-      conversation: appState.messages,
+      conversation,
       reviewChange: appState.pendingReviewChange || undefined,
     },
   });

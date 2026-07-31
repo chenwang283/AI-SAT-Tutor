@@ -76,6 +76,14 @@
     return { draft: { ...draft, step: next || draft.step }, error: null };
   }
 
+  function getTutorConversation(messages, startIndex = 0) {
+    if (!Array.isArray(messages)) return [];
+    const index = Number.isInteger(startIndex)
+      ? Math.max(0, Math.min(startIndex, messages.length))
+      : 0;
+    return messages.slice(index);
+  }
+
   const api = {
     REVIEW_STEPS,
     createReviewDraft,
@@ -84,6 +92,7 @@
     getAllowedTags,
     validateReviewStep,
     advanceReviewDraft,
+    getTutorConversation,
   };
 
   globalThis.aiSatTutorReviewFlow = api;

@@ -1,5 +1,10 @@
 const assert = require("node:assert/strict");
-const { app, getRequestConversation, getRequestReviewChange } = require("./server");
+const {
+  app,
+  getRequestConversation,
+  getRequestReviewChange,
+  prepareQuestionForTutor,
+} = require("./server");
 
 const reviewChange = getRequestReviewChange({
   reviewChange: {
@@ -20,6 +25,23 @@ assert.deepEqual(
   ),
   [{ role: "assistant", content: "Previous reply" }]
 );
+
+const emptyFigureQuestion = prepareQuestionForTutor({
+  stem: "What is x?",
+  figures: [{ src: null, alt: null, width: null, height: null }],
+  hasFigure: true,
+});
+assert.equal(emptyFigureQuestion.question.hasFigure, false);
+assert.deepEqual(emptyFigureQuestion.question.figures, []);
+assert.deepEqual(emptyFigureQuestion.images, []);
+
+const describedFigureQuestion = prepareQuestionForTutor({
+  stem: "What is x?",
+  figures: [{ src: null, alt: "A triangle", width: null, height: null }],
+  hasFigure: true,
+});
+assert.equal(describedFigureQuestion.question.hasFigure, true);
+assert.equal(describedFigureQuestion.question.figures[0].alt, "A triangle");
 
 async function run() {
   const server = app.listen(0);

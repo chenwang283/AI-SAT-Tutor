@@ -44,4 +44,14 @@ assert.deepEqual(flow.REVIEW_STEPS, ["metadata", "whereWrong", "myRule", "clock"
 assert.deepEqual(flow.getAllowedTags(config, "math").map((tag) => tag.value), ["V", "1"]);
 assert.equal(flow.previousReviewStep("tag"), "clock");
 
+const visibleMessages = [
+  { role: "assistant", content: "Old audit question" },
+  { role: "student", content: "Old answer" },
+  { role: "assistant", content: "Response after the saved edit" },
+  { role: "student", content: "New answer" },
+];
+assert.deepEqual(flow.getTutorConversation(visibleMessages, 2), visibleMessages.slice(2));
+assert.deepEqual(flow.getTutorConversation(visibleMessages, 99), []);
+assert.deepEqual(flow.getTutorConversation(visibleMessages, -4), visibleMessages);
+
 console.log("review flow tests passed");

@@ -65,7 +65,7 @@ async function getTutorReply(promptOrOptions) {
     model,
     input: buildResponseInput(prompt, images),
     temperature: 0.3,
-    max_output_tokens: 1200,
+    max_output_tokens: 400,
   });
 
   const reply = extractText(response);

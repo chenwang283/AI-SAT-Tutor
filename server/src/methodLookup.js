@@ -2,6 +2,55 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 
 const METHODS_DIR = path.resolve(__dirname, "..", "methods");
+const METHOD_NOTES_MAX_CHARS = 5000;
+const METHOD_NOTES_MAX_PARAGRAPHS = 14;
+const SEARCH_STOP_WORDS = new Set([
+  "about",
+  "after",
+  "again",
+  "answer",
+  "are",
+  "because",
+  "before",
+  "being",
+  "correct",
+  "could",
+  "does",
+  "from",
+  "find",
+  "given",
+  "have",
+  "has",
+  "into",
+  "its",
+  "just",
+  "more",
+  "must",
+  "not",
+  "one",
+  "question",
+  "should",
+  "student",
+  "than",
+  "that",
+  "the",
+  "their",
+  "then",
+  "there",
+  "these",
+  "they",
+  "this",
+  "value",
+  "use",
+  "uses",
+  "using",
+  "what",
+  "when",
+  "where",
+  "which",
+  "with",
+  "would",
+]);
 
 const METHOD_REGISTRY = [
   {
@@ -498,6 +547,12 @@ function normalizeTag(value) {
     .replace(/\s+/g, " ");
 }
 
+function searchTokens(value) {
+  return normalizeTag(value)
+    .split(" ")
+    .filter((token) => token.length >= 3 && !SEARCH_STOP_WORDS.has(token));
+}
+
 function getQuestionTagLabels(question) {
   if (!Array.isArray(question?.tags)) {
     return [];
@@ -531,6 +586,84 @@ function findMethodForQuestion(question) {
   return bestMethod;
 }
 
+function getMethodQuery(question) {
+  const weights = new Map();
+  const tagPhrases = getQuestionTagLabels(question).map(normalizeTag).filter(Boolean);
+
+  function addTerms(value, weight) {
+    for (const token of searchTokens(value || "")) {
+      weights.set(token, Math.max(weight, weights.get(token) || 0));
+    }
+  }
+
+  tagPhrases.forEach((tag) => addTerms(tag, 4));
+  addTerms(question?.stem, 2);
+  addTerms(question?.explanation, 1);
+  return { weights, tagPhrases };
+}
+
+function uniqueMethodParagraphs(content) {
+  const seen = new Set();
+  return content
+    .split(/\r?\n+/)
+    .map((paragraph) => paragraph.trim().replace(/\s+/g, " "))
+    .filter(Boolean)
+    .filter((paragraph) => {
+      const key = normalizeTag(paragraph);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
+function scoreMethodParagraph(paragraph, query) {
+  const normalized = normalizeTag(paragraph);
+  const tokens = new Set(searchTokens(paragraph));
+  let score = 0;
+  for (const token of tokens) score += query.weights.get(token) || 0;
+  for (const phrase of query.tagPhrases) {
+    if (phrase.length >= 5 && normalized.includes(phrase)) score += 12;
+  }
+  return score;
+}
+
+function truncateAtWord(text, maxChars) {
+  if (text.length <= maxChars) return text;
+  const slice = text.slice(0, Math.max(0, maxChars - 1));
+  const boundary = slice.lastIndexOf(" ");
+  return (boundary >= Math.floor(maxChars * 0.6) ? slice.slice(0, boundary) : slice).trimEnd() + "?";
+}
+
+function selectTeachingNotes(content, question, maxChars = METHOD_NOTES_MAX_CHARS) {
+  const paragraphs = uniqueMethodParagraphs(content);
+  if (!paragraphs.length || maxChars <= 0) return "";
+  const query = getMethodQuery(question);
+  const scored = paragraphs.map((paragraph, index) => ({
+    paragraph,
+    index,
+    score: scoreMethodParagraph(paragraph, query),
+  }));
+  const relevant = scored.filter((item) => item.score > 0);
+  const selected = (relevant.length ? relevant : scored)
+    .sort((left, right) => right.score - left.score || left.index - right.index)
+    .slice(0, METHOD_NOTES_MAX_PARAGRAPHS)
+    .sort((left, right) => left.index - right.index);
+
+  const notes = [];
+  let usedChars = 0;
+  for (const item of selected) {
+    const separatorChars = notes.length ? 2 : 0;
+    const available = maxChars - usedChars - separatorChars;
+    if (available <= 0) break;
+    const paragraph = truncateAtWord(item.paragraph, available);
+    if (!paragraph) break;
+    notes.push(paragraph);
+    usedChars += separatorChars + paragraph.length;
+    if (paragraph.length < item.paragraph.length) break;
+  }
+  return notes.join("\n\n");
+}
+
 async function lookupTeachingMethod(question) {
   const method = findMethodForQuestion(question);
 
@@ -547,8 +680,11 @@ async function lookupTeachingMethod(question) {
   return {
     key: method.key,
     title: method.title,
-    content,
+    content: selectTeachingNotes(content, question),
   };
 }
 
-module.exports = { lookupTeachingMethod };
+module.exports = {
+  lookupTeachingMethod,
+  selectTeachingNotes,
+};

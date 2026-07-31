@@ -28,6 +28,12 @@ const sidePanelSource = fs.readFileSync(path.join(extensionRoot, "sidepanel.js")
 assert.match(sidePanelSource, /method:\s*"PATCH"/);
 assert.match(sidePanelSource, /reviewChange:\s*appState\.pendingReviewChange/);
 assert.match(sidePanelSource, /respondToPendingReviewChange/);
+assert.match(sidePanelSource, /tutorContextStartIndex:\s*0/);
+assert.match(sidePanelSource, /appState\.tutorContextStartIndex = appState\.messages\.length/);
+assert.match(
+  sidePanelSource,
+  /reviewFlow\.getTutorConversation\(\s*appState\.messages,\s*appState\.tutorContextStartIndex/,
+);
 assert.match(sidePanelSource, /function renderMessages\(scrollMode = "bottom"\)/);
 assert.match(sidePanelSource, /renderApp\(\{ scrollMode: "top" \}\)/);
 assert.match(sidePanelSource, /\.focus\(\{ preventScroll: true \}\)/);
