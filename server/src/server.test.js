@@ -3,6 +3,7 @@ const {
   app,
   getRequestConversation,
   getRequestReviewChange,
+  getRequestWorkflow,
   prepareQuestionForTutor,
 } = require("./server");
 
@@ -14,6 +15,35 @@ const reviewChange = getRequestReviewChange({
   },
 });
 assert.deepEqual(reviewChange.changedFields, ["myRule"]);
+assert.equal(
+  getRequestWorkflow(
+    {
+      workflow: {
+        state: "awaiting_rule_edit",
+        turnType: "field_edit",
+        editedField: "myRule",
+      },
+    },
+    [{ role: "student", content: "My new rule" }],
+    reviewChange,
+  ).state,
+  "awaiting_rule_edit",
+);
+assert.throws(
+  () =>
+    getRequestWorkflow(
+      {
+        workflow: {
+          state: "awaiting_diagnosis_edit",
+          turnType: "field_edit",
+          editedField: "myRule",
+        },
+      },
+      [],
+      reviewChange,
+    ),
+  /does not match/i,
+);
 assert.throws(
   () => getRequestConversation({ conversation: [{ role: "assistant", content: "Previous reply" }] }),
   /must end with a student message/

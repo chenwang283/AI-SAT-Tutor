@@ -2,9 +2,25 @@ const express = require("express");
 const dotenv = require("dotenv");
 const path = require("node:path");
 const { randomUUID } = require("node:crypto");
-const { getTutorReply } = require("./openaiClient");
+const { getStructuredResponse } = require("./openaiClient");
 const { lookupTeachingMethod } = require("./methodLookup");
-const { buildTutorPrompt } = require("./promptBuilder");
+const {
+  buildAssessmentRequest,
+  buildResponseRequest,
+} = require("./promptBuilder");
+const {
+  ACTIONS,
+  STATES,
+  decideReviewAction,
+  formatTutorReply,
+  getPriorAuditQuestions,
+  nextStateForAction,
+  normalizeWorkflow,
+  requestedFieldForAction,
+  shouldLoadMethodForChat,
+  validateTutorContent,
+  validateWorkflowTurn,
+} = require("./tutorWorkflow");
 const { appendExchangeLog, ensureExchangeLogDir } = require("./exchangeLogger");
 const { REVIEW_CONFIG } = require("./reviewConfig");
 const {
@@ -232,6 +248,15 @@ function getRequestReviewChange(body) {
   return { changedFields, before, after };
 }
 
+function getRequestWorkflow(body, conversation, reviewChange) {
+  const workflow = normalizeWorkflow(body?.workflow, {
+    hasConversation: conversation.length > 0,
+  });
+  const error = validateWorkflowTurn(workflow, reviewChange);
+  if (error) throw requestError(400, "INVALID_TUTOR_WORKFLOW", error);
+  return workflow;
+}
+
 function summarizeImages(images) {
   return images.map((image) => ({
     source: image.source,
@@ -250,6 +275,9 @@ function buildLogRecord({
   conversation,
   method,
   images,
+  workflow,
+  assessment,
+  action,
   reply,
   error,
 }) {
@@ -263,6 +291,9 @@ function buildLogRecord({
     conversation: conversation || [],
     method: method || null,
     images: summarizeImages(images || []),
+    workflow: workflow || null,
+    assessment: assessment || null,
+    action: action || null,
     reply: reply || null,
     error: error
       ? {
@@ -272,6 +303,60 @@ function buildLogRecord({
         }
       : null,
   };
+}
+
+async function generateTutorContent({
+  action,
+  question,
+  studentReview,
+  reviewStage,
+  assessment,
+  conversation,
+  teachingMethod,
+  method,
+  images,
+}) {
+  let validationError = null;
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    const request = buildResponseRequest({
+      action,
+      question,
+      studentReview,
+      reviewStage,
+      assessment,
+      conversation,
+      priorAuditQuestions: getPriorAuditQuestions(conversation),
+      teachingMethod,
+      method,
+      validationError,
+    });
+    const output = await getStructuredResponse({
+      ...request,
+      images:
+        [ACTIONS.TEACH, ACTIONS.ANSWER].includes(action) ? images : [],
+      maxOutputTokens: action === ACTIONS.ANSWER ? 500 : 300,
+    });
+    validationError = validateTutorContent({
+      action,
+      content: output?.content,
+      conversation,
+      studentReview,
+      question,
+    });
+    if (!validationError) return output.content.trim();
+  }
+  throw requestError(
+    502,
+    "AI_RESPONSE_CONTRACT",
+    validationError || "The tutor response did not match its required format.",
+  );
+}
+
+function lastStudentMessage(conversation) {
+  return [...conversation]
+    .reverse()
+    .find((message) => message.role === "student")
+    ?.content;
 }
 
 app.get("/health", (req, res) => res.json({ ok: true }));
@@ -393,6 +478,9 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
   let conversationForLog = [];
   let methodForLog = null;
   let imagesForLog = [];
+  let workflowForLog = null;
+  let assessmentForLog = null;
+  let actionForLog = null;
 
   try {
     if (!reviewId)
@@ -416,23 +504,89 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
       allowAssistantTail: Boolean(reviewChange),
     });
     conversationForLog = conversation;
+    const workflow = getRequestWorkflow(req.body, conversation, reviewChange);
+    workflowForLog = workflow;
 
-    const teachingMethod = await lookupTeachingMethod(
-      preparedQuestion.question,
-    );
-    methodForLog = { key: teachingMethod.key, title: teachingMethod.title };
-    const prompt = await buildTutorPrompt({
-      question: preparedQuestion.question,
-      conversation,
-      teachingMethod: teachingMethod.content,
-      method: teachingMethod,
-      studentReview,
-      reviewStage,
-      reviewChange,
-    });
-    const reply = await getTutorReply({
-      prompt,
-      images: preparedQuestion.images,
+    let assessment = null;
+    let action;
+    let reasonCode;
+    const isTagOnlyEdit =
+      workflow.turnType === "manual_edit" &&
+      reviewChange.changedFields.every((field) => field === "tag");
+
+    if (isTagOnlyEdit) {
+      action = ACTIONS.ACKNOWLEDGE;
+      reasonCode = "tag_updated";
+    } else if (workflow.turnType === "chat") {
+      action = ACTIONS.ANSWER;
+      reasonCode = "student_question";
+    } else {
+      const ruleOnly =
+        workflow.turnType === "field_edit" &&
+        workflow.state === STATES.RULE;
+      const assessmentRequest = buildAssessmentRequest({
+        question: preparedQuestion.question,
+        studentReview,
+        reviewStage,
+        workflowState: workflow.state,
+        ruleOnly,
+      });
+      assessment = await getStructuredResponse({
+        ...assessmentRequest,
+        images: preparedQuestion.images,
+        maxOutputTokens: 600,
+      });
+      const decision = decideReviewAction({
+        assessment,
+        studentReview,
+        ruleOnly,
+      });
+      action = decision.action;
+      reasonCode = decision.reasonCode;
+    }
+
+    assessmentForLog = assessment;
+    actionForLog = action;
+
+    let teachingMethod = null;
+    const needsMethod =
+      action === ACTIONS.TEACH ||
+      (action === ACTIONS.ANSWER &&
+        shouldLoadMethodForChat(lastStudentMessage(conversation)));
+    if (needsMethod) {
+      teachingMethod = await lookupTeachingMethod(preparedQuestion.question);
+      methodForLog = {
+        key: teachingMethod.key,
+        title: teachingMethod.title,
+      };
+    }
+
+    const content =
+      action === ACTIONS.ACKNOWLEDGE
+        ? ""
+        : await generateTutorContent({
+            action,
+            question: preparedQuestion.question,
+            studentReview,
+            reviewStage,
+            assessment,
+            conversation,
+            teachingMethod: teachingMethod?.content || "",
+            method: teachingMethod,
+            images: preparedQuestion.images,
+          });
+    const requestedEditField = requestedFieldForAction(action);
+    const noticeField =
+      requestedEditField &&
+      !workflow.shownAuditNotices[requestedEditField]
+        ? requestedEditField
+        : null;
+    const nextWorkflowState = nextStateForAction(action, workflow.state);
+    const reply = formatTutorReply({
+      action,
+      content,
+      noticeField,
+      manualEdit: workflow.turnType === "manual_edit",
     });
 
     await appendExchangeLog(
@@ -446,11 +600,22 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
         conversation: conversationForLog,
         method: methodForLog,
         images: imagesForLog,
+        workflow: workflowForLog,
+        assessment: assessmentForLog,
+        action: actionForLog,
         reply,
       }),
     );
 
-    res.json({ reply, method: methodForLog });
+    res.json({
+      reply,
+      action,
+      reasonCode,
+      nextWorkflowState,
+      requestedEditField,
+      noticeField,
+      method: methodForLog,
+    });
   } catch (error) {
     await appendExchangeLog(
       buildLogRecord({
@@ -463,6 +628,9 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
         conversation: conversationForLog,
         method: methodForLog,
         images: imagesForLog,
+        workflow: workflowForLog,
+        assessment: assessmentForLog,
+        action: actionForLog,
         error,
       }),
     );
@@ -500,4 +668,5 @@ module.exports = {
   prepareQuestionForTutor,
   getRequestConversation,
   getRequestReviewChange,
+  getRequestWorkflow,
 };

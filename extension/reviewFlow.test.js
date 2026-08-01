@@ -47,11 +47,41 @@ assert.equal(flow.previousReviewStep("tag"), "clock");
 const visibleMessages = [
   { role: "assistant", content: "Old audit question" },
   { role: "student", content: "Old answer" },
+  { role: "notice", content: "Mistake log updated." },
   { role: "assistant", content: "Response after the saved edit" },
   { role: "student", content: "New answer" },
 ];
-assert.deepEqual(flow.getTutorConversation(visibleMessages, 2), visibleMessages.slice(2));
+assert.deepEqual(flow.getTutorConversation(visibleMessages, 2), [
+  { role: "assistant", content: "Response after the saved edit" },
+  { role: "student", content: "New answer" },
+]);
 assert.deepEqual(flow.getTutorConversation(visibleMessages, 99), []);
-assert.deepEqual(flow.getTutorConversation(visibleMessages, -4), visibleMessages);
+assert.deepEqual(
+  flow.getTutorConversation(visibleMessages, -4),
+  visibleMessages.filter((message) => message.role !== "notice"),
+);
+
+const tutorWorkflow = flow.createTutorWorkflowState();
+assert.equal(tutorWorkflow.state, flow.TUTOR_STATES.EVALUATE);
+assert.equal(tutorWorkflow.composerMode, "chat");
+assert.equal(
+  flow.requestedFieldForState(flow.TUTOR_STATES.DIAGNOSIS),
+  "whereWrong",
+);
+assert.equal(flow.requestedFieldForState(flow.TUTOR_STATES.RULE), "myRule");
+assert.equal(flow.composerModeForField("whereWrong"), "edit_where_wrong");
+assert.equal(flow.fieldForComposerMode("edit_my_rule"), "myRule");
+assert.deepEqual(
+  flow.normalizeTutorWorkflowState({
+    state: flow.TUTOR_STATES.RULE,
+    composerMode: "edit_my_rule",
+    shownAuditNotices: { whereWrong: true },
+  }),
+  {
+    state: flow.TUTOR_STATES.RULE,
+    composerMode: "edit_my_rule",
+    shownAuditNotices: { whereWrong: true, myRule: false },
+  },
+);
 
 console.log("review flow tests passed");

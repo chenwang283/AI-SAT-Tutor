@@ -224,6 +224,13 @@ button:disabled { cursor: not-allowed; opacity: 0.58; }
 .message.pending .message-body { color: #64748b; }
 .label { display: block; margin-bottom: 6px; color: #236271; font-size: 12px; font-weight: 800; }
 .message-body { margin: 0; color: #263447; font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; }
+.review-update-notice {
+  margin: 0;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+}
 
 .review-entry,
 .redo-controls {
@@ -268,6 +275,34 @@ button:disabled { cursor: not-allowed; opacity: 0.58; }
 .field-error { margin: 0; color: #a33f24; font-size: 12px; }
 
 .composer { display: flex; flex-direction: column; gap: 9px; border-top: 1px solid #d7dde8; padding-top: 12px; }
+.composer-edit-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid #8eb8c1;
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: #185b69;
+  background: #eef8fa;
+  font-size: 12px;
+}
+.composer-edit-close {
+  width: 28px;
+  min-height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  color: #185b69;
+  background: transparent;
+  font-size: 19px;
+  line-height: 1;
+}
+.resume-edit-button {
+  width: 100%;
+  border: 1px solid #8eb8c1;
+  color: #185b69;
+  background: #eef8fa;
+}
 
 .message.assistant .message-body > :first-child { margin-top: 0; }
 .message.assistant .message-body > :last-child { margin-bottom: 0; }

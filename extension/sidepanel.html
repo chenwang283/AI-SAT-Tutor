@@ -82,7 +82,17 @@
         </section>
 
         <form class="composer" id="tutor-form" hidden>
-          <label for="student-message">Message</label>
+          <div class="composer-edit-banner" id="composer-edit-banner" hidden>
+            <strong id="composer-edit-label"></strong>
+            <button
+              type="button"
+              class="composer-edit-close"
+              id="cancel-composer-edit"
+              aria-label="Pause mistake log editing"
+            >?</button>
+          </div>
+          <button type="button" class="resume-edit-button" id="resume-composer-edit" hidden></button>
+          <label for="student-message" id="student-message-label">Message</label>
           <textarea
             id="student-message"
             name="studentMessage"

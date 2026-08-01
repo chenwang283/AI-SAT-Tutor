@@ -120,11 +120,28 @@
     return message;
   }
 
+  function addNotice(container, text) {
+    const notice = document.createElement("p");
+    notice.className = "review-update-notice";
+    const emphasis = document.createElement("em");
+    emphasis.textContent = text;
+    notice.append(emphasis);
+    container.append(notice);
+    return notice;
+  }
+
   function updateMessage(message, text, extraClass = "") {
     const body = message.querySelector(".message-body");
     if (body) setMessageContent(body, "assistant", text);
     message.className = ["message", "assistant", extraClass].filter(Boolean).join(" ");
   }
 
-  globalThis.aiSatTutorRendering = { protectMath, createMathElement, setMessageContent, addMessage, updateMessage };
+  globalThis.aiSatTutorRendering = {
+    protectMath,
+    createMathElement,
+    setMessageContent,
+    addMessage,
+    addNotice,
+    updateMessage,
+  };
 })();

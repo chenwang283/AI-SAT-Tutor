@@ -19,6 +19,9 @@ const sidePanelHtml = fs.readFileSync(path.join(extensionRoot, manifest.side_pan
 assert.match(sidePanelHtml, /id="review-edit-region"/);
 assert.match(sidePanelHtml, /id="review-edit-button"/);
 assert.match(sidePanelHtml, /id="review-edit-controls"/);
+assert.match(sidePanelHtml, /id="composer-edit-banner"/);
+assert.match(sidePanelHtml, /id="cancel-composer-edit"/);
+assert.match(sidePanelHtml, /id="resume-composer-edit"/);
 const assetReferences = [...sidePanelHtml.matchAll(/(?:src|href)="([^"]+)"/g)].map((match) => match[1]);
 for (const asset of assetReferences) {
   assert.equal(fs.existsSync(path.join(extensionRoot, asset)), true, `Missing side-panel asset: ${asset}`);
@@ -29,7 +32,10 @@ assert.match(sidePanelSource, /method:\s*"PATCH"/);
 assert.match(sidePanelSource, /reviewChange:\s*appState\.pendingReviewChange/);
 assert.match(sidePanelSource, /respondToPendingReviewChange/);
 assert.match(sidePanelSource, /tutorContextStartIndex:\s*0/);
-assert.match(sidePanelSource, /appState\.tutorContextStartIndex = appState\.messages\.length/);
+assert.match(sidePanelSource, /tutorWorkflow:\s*reviewFlow\.createTutorWorkflowState/);
+assert.match(sidePanelSource, /turnType:\s*"field_edit"/);
+assert.match(sidePanelSource, /Mistake log updated\./);
+assert.match(sidePanelSource, /rendering\.addNotice/);
 assert.match(
   sidePanelSource,
   /reviewFlow\.getTutorConversation\(\s*appState\.messages,\s*appState\.tutorContextStartIndex/,
@@ -39,5 +45,21 @@ assert.match(sidePanelSource, /renderApp\(\{ scrollMode: "top" \}\)/);
 assert.match(sidePanelSource, /\.focus\(\{ preventScroll: true \}\)/);
 assert.match(sidePanelSource, /window\.scrollTo\(\{ top: 0, behavior: "auto" \}\)/);
 assert.match(sidePanelSource, /window\.scrollTo\(\{ top: document\.body\.scrollHeight, behavior: "smooth" \}\)/);
+
+const serverRoot = path.resolve(extensionRoot, "..", "server");
+assert.equal(
+  fs.existsSync(path.join(serverRoot, "prompts", "base-instructions.txt")),
+  false,
+);
+const serverSource = fs.readFileSync(path.join(serverRoot, "src", "server.js"), "utf8");
+assert.match(serverSource, /buildAssessmentRequest/);
+assert.match(serverSource, /buildResponseRequest/);
+assert.match(serverSource, /action === ACTIONS\.TEACH/);
+const teachRouteSource = serverSource.slice(serverSource.indexOf('app.post("/teach"'));
+assert.ok(
+  teachRouteSource.indexOf("assessment = await getStructuredResponse") <
+    teachRouteSource.indexOf("teachingMethod = await lookupTeachingMethod"),
+  "The review must be assessed before the teaching method is loaded",
+);
 
 console.log("extension package reference tests passed");

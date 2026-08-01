@@ -1,20 +1,83 @@
-const fs = require("node:fs/promises");
-const path = require("node:path");
+const TUTOR_BASE_INSTRUCTIONS = [
+  "You are an SAT tutor helping one student review a missed question.",
+  "Use short, common words at or below a sixth-grade reading level.",
+  "Do not write or suggest a diagnosis or prevention rule for the student.",
+  "Do not reveal the full solution unless the current task is concept teaching or the student directly asks for it.",
+  "Follow the supplied output schema exactly. Return no text outside it.",
+].join("\n");
 
-const BASE_INSTRUCTIONS_PATH = path.resolve(
-  __dirname,
-  "..",
-  "prompts",
-  "base-instructions.txt",
-);
-let baseInstructionsPromise;
+const ASSESSMENT_INSTRUCTIONS = [
+  TUTOR_BASE_INSTRUCTIONS,
+  "Assess only the saved fields in the JSON input. Return evidence, not a tutor message.",
+  "Copy every evidence value exactly from its saved field. Use null when the words are not present.",
+  "A diagnosis is specific when it names the step, detail, or trigger and the exact wrong action, belief, interpretation, or result.",
+  "A clear wrong-versus-correct comparison is complete. Do not demand why the slip happened or how it later produced the final answer.",
+  "A named concept gap passes only when the student clearly says a specific concept or method was not known.",
+  "A feeling or label alone is insufficient. A wording complaint needs the exact wording feature and what it caused the student to do.",
+  "A rule is acceptable when it gives a specific trigger and a new action at or before the mistake that can prevent it on similar questions.",
+  "If the task is rule_only, do not reassess the diagnosis.",
+].join("\n");
 
-function readBaseInstructions() {
-  if (!baseInstructionsPromise) {
-    baseInstructionsPromise = fs.readFile(BASE_INSTRUCTIONS_PATH, "utf8");
-  }
-  return baseInstructionsPromise;
-}
+const NULLABLE_STRING = { type: ["string", "null"] };
+
+const DIAGNOSIS_SCHEMA = {
+  type: "object",
+  properties: {
+    status: {
+      type: "string",
+      enum: ["specific_root_cause", "named_concept_gap", "insufficient"],
+    },
+    stepOrTrigger: NULLABLE_STRING,
+    wrongActionOrResult: NULLABLE_STRING,
+    correctContrast: NULLABLE_STRING,
+    namedConcept: NULLABLE_STRING,
+    missingDetail: {
+      type: "string",
+      enum: [
+        "none",
+        "step_or_trigger",
+        "wrong_action_or_result",
+        "causal_root",
+        "wording_effect",
+        "named_concept",
+      ],
+    },
+  },
+  required: [
+    "status",
+    "stepOrTrigger",
+    "wrongActionOrResult",
+    "correctContrast",
+    "namedConcept",
+    "missingDetail",
+  ],
+  additionalProperties: false,
+};
+
+const RULE_SCHEMA = {
+  type: "object",
+  properties: {
+    status: {
+      type: "string",
+      enum: ["acceptable", "insufficient", "not_evaluated"],
+    },
+    trigger: NULLABLE_STRING,
+    newBehavior: NULLABLE_STRING,
+    preventionLink: NULLABLE_STRING,
+    missingDetail: {
+      type: "string",
+      enum: ["none", "trigger", "new_behavior", "root_prevention"],
+    },
+  },
+  required: [
+    "status",
+    "trigger",
+    "newBehavior",
+    "preventionLink",
+    "missingDetail",
+  ],
+  additionalProperties: false,
+};
 
 function compactValue(value) {
   if (Array.isArray(value)) {
@@ -34,13 +97,16 @@ function compactValue(value) {
   return value == null ? undefined : value;
 }
 
-function selectQuestionContext(question) {
-  const tagLabels = Array.isArray(question.tags)
+function tagLabels(question) {
+  return Array.isArray(question?.tags)
     ? question.tags
         .map((tag) => (typeof tag === "string" ? tag : tag?.label))
         .filter((tag) => typeof tag === "string" && tag.trim())
     : [];
-  const figureDetails = Array.isArray(question.figures)
+}
+
+function figureDetails(question) {
+  return Array.isArray(question?.figures)
     ? question.figures.map((figure) => ({
         alt: figure?.alt,
         width: figure?.width,
@@ -48,147 +114,229 @@ function selectQuestionContext(question) {
         capturedImage: figure?.capturedImage,
       }))
     : [];
+}
 
+function selectAuditQuestionContext(question) {
+  const options = Array.isArray(question?.options)
+    ? question.options.map((option) => ({
+        letter: option?.letter,
+        value: option?.value,
+        text: option?.text,
+      }))
+    : undefined;
   return (
     compactValue({
-      questionType: question.questionType,
-      stem: question.stem,
-      options: question.options,
-      selectedLetter: question.selectedLetter,
-      correctLetter: question.correctLetter,
-      freeResponse: question.freeResponse,
-      tags: tagLabels,
-      hasFigure: question.hasFigure,
-      figures: figureDetails,
+      questionType: question?.questionType,
+      stem: question?.stem,
+      options,
+      correctLetter: question?.correctLetter,
+      correctFreeResponse: question?.freeResponse?.correctAnswer,
+      tags: tagLabels(question),
+      hasFigure: question?.hasFigure,
+      figures: figureDetails(question),
     }) || {}
   );
 }
 
-function formatConversation(conversation) {
-  if (!conversation.length)
-    return "(No messages in the current review context.)";
-  return conversation
-    .map(
-      (message) =>
-        (message.role === "assistant" ? "Tutor" : "Student") +
-        ": " +
-        message.content,
-    )
-    .join("\n\n");
+function selectChatQuestionContext(question) {
+  return (
+    compactValue({
+      ...selectAuditQuestionContext(question),
+      selectedLetter: question?.selectedLetter,
+      freeResponse: question?.freeResponse,
+    }) || {}
+  );
 }
 
-function formatStudentReview(review, reviewStage) {
-  return JSON.stringify(
+function selectStudentReview(review, reviewStage) {
+  return (
     compactValue({
       reviewStage: reviewStage || "initial",
-      section: review.section,
-      difficulty: review.difficulty,
-      clockMode: review.clockMode,
-      whereWrong: review.whereWrong,
-      preventionRule: review.myRule,
-      mistakeTag: review.tag,
-      mistakeTagDefinition: review.tagDefinition,
-    }),
-    null,
-    2,
+      section: review?.section,
+      difficulty: review?.difficulty,
+      clockMode: review?.clockMode,
+      whereWrong: review?.whereWrong,
+      preventionRule: review?.myRule,
+      mistakeTag: review?.tag,
+      mistakeTagDefinition: review?.tagDefinition,
+    }) || {}
   );
 }
 
-function buildTurnContext({ conversation, reviewChange }) {
-  if (reviewChange) {
-    return [
-      "EDIT TURN: The student just saved changes to the review.",
-      "Briefly recognize the changed field or idea. Treat the edited saved review as the source of truth.",
-      "The active conversation starts after the save; do not revive an earlier audit.",
-    ].join("\n");
-  }
-  if (!conversation.length) {
-    return "FIRST TURN: Audit the saved diagnosis, then the saved rule.";
-  }
-  return [
-    "FOLLOW-UP TURN: Use only the active conversation below.",
-    "If it supplies a better diagnosis or rule than the saved review, ask the student to save that field with Edit answers.",
-    "If the review process already ended and the student asks a normal tutoring question, answer it briefly without restarting the audit.",
-  ].join("\n");
+function assessmentFormat(ruleOnly = false) {
+  const properties = ruleOnly
+    ? { rule: RULE_SCHEMA }
+    : { diagnosis: DIAGNOSIS_SCHEMA, rule: RULE_SCHEMA };
+  return {
+    type: "json_schema",
+    name: ruleOnly ? "rule_assessment" : "review_assessment",
+    strict: true,
+    schema: {
+      type: "object",
+      properties,
+      required: Object.keys(properties),
+      additionalProperties: false,
+    },
+  };
 }
 
-const TUTOR_POLICY = [
-  "DECISION FLOW (use the first matching branch):",
-  "1. Check the saved diagnosis. It passes if it names the relevant step, question detail, or missing concept and states the specific wrong action, interpretation, or result. A clear wrong-versus-correct comparison passes. Slang, spelling, and grammar do not make a clear diagnosis fail.",
-  "2. If the saved diagnosis says a concept or method was unknown, teach only that gap from the method notes. Use at most 4 short sentences and 70 words. End with the general Next time reminder from step 7.",
-  "3. If the saved diagnosis is vague, check all student messages in the active conversation together. If they now meet step 1, say only: 'You found the mistake. Update \"Where I went wrong\" in Edit answers.' Do not ask why, what happened before or after, or for a fuller process.",
-  "4. If the diagnosis is still vague, ask for only the next missing detail. A feeling or label needs the action it caused. A wording complaint needs the exact words or feature and what the student did because of it. A named step needs the specific wrong action or result.",
-  "5. After the saved diagnosis passes, check the saved rule. It passes if it names one action at or before the mistake and clearly shows how that action prevents the same mistake on similar questions.",
-  "6. If the saved rule is vague, check the active conversation. If it now meets step 5, say only: 'Your rule is now clear. Update \"My rule\" in Edit answers.' Otherwise ask for one action at the mistake point or how the stated action prevents the mistake.",
-  "7. When both saved fields pass, output one sentence beginning 'Next time,' with one action that applies to the same skill or question type. Use at most 25 words. Do not include values, variables, expressions, answer choices, equation sides, or wording unique to this question.",
-  "",
-  "AUDIT RESPONSE CONTRACT:",
-  "- The first time a field needs work, use its notice, then one question: 'Your \"Where I went wrong\" answer needs more detail.' or 'Your rule needs more detail.'",
-  "- Show each field notice once in the active conversation. Later replies about that field contain only the question.",
-  "- Ask exactly one 7-to-14-word question. Request one detail and use one short anchor from the student's words or the broad task.",
-  "- Start the question with What, Where, Which, or How. Do not use 'and' or 'or', parentheses, em dashes, answer choices, suggested causes, or solution hints.",
-  "- Never repeat a prior tutor question. If the requested detail was not answered, ask for the same detail in shorter words.",
-  "- Never write, rewrite, suggest, quote, or paraphrase text for the student to paste into either field.",
-  "- Use plain prose with no headings, bullets, numbered steps, generic praise, or full solution in the student-facing response.",
-].join("\n");
+function responseFormat() {
+  return {
+    type: "json_schema",
+    name: "tutor_message",
+    strict: true,
+    schema: {
+      type: "object",
+      properties: { content: { type: "string" } },
+      required: ["content"],
+      additionalProperties: false,
+    },
+  };
+}
 
-async function buildTutorPrompt({
+function buildAssessmentRequest({
   question,
-  teachingMethod,
-  conversation,
-  method,
   studentReview,
   reviewStage,
-  reviewChange,
+  workflowState,
+  ruleOnly = false,
+  validationError,
 }) {
-  const baseInstructions = await readBaseInstructions();
-  const explanation =
-    typeof question.explanation === "string" && question.explanation.trim()
-      ? question.explanation.trim()
-      : "(No StudySpaces answer explanation was captured.)";
-  const sections = [
-    baseInstructions.trim(),
-    "",
-    "TURN:",
-    buildTurnContext({ conversation, reviewChange }),
-    "",
-    "QUESTION:",
-    JSON.stringify(selectQuestionContext(question), null, 2),
-    "",
-    "OFFICIAL ANSWER EXPLANATION:",
-    explanation,
-    "",
-    "SAVED STUDENT REVIEW:",
-    formatStudentReview(studentReview, reviewStage),
-  ];
+  const input = compactValue({
+    task: ruleOnly ? "rule_only" : "diagnosis_then_rule",
+    workflowState,
+    question: selectAuditQuestionContext(question),
+    officialAnswerExplanation:
+      typeof question?.explanation === "string" && question.explanation.trim()
+        ? question.explanation.trim()
+        : "No StudySpaces answer explanation was captured.",
+    savedReview: selectStudentReview(studentReview, reviewStage),
+    correction: validationError,
+  });
+  return {
+    instructions: ASSESSMENT_INSTRUCTIONS,
+    input: JSON.stringify(input, null, 2),
+    format: assessmentFormat(ruleOnly),
+  };
+}
 
-  if (reviewChange) {
-    sections.push(
-      "",
-      "SAVED REVIEW CHANGE:",
-      JSON.stringify(reviewChange, null, 2),
-    );
+const ACTION_INSTRUCTIONS = {
+  request_diagnosis_edit: [
+    "Write exactly one question that helps the student replace their full diagnosis.",
+    "Use 7 to 14 words. Start with What, Where, Which, or How.",
+    "Ask for exactly one missing detail. Use one short anchor only from fieldText or broadTask.",
+    "Do not use and, or, parentheses, an em dash, answer choices, suggested causes, or suggested wording.",
+    "Return only the question in content. Do not include the field warning.",
+  ],
+  request_rule_edit: [
+    "Write exactly one question that helps the student replace their full prevention rule.",
+    "Use 7 to 14 words. Start with What, Where, Which, or How.",
+    "Ask for exactly one missing trigger, new action, or prevention link.",
+    "Do not use and, or, parentheses, an em dash, suggested actions, or suggested wording.",
+    "Return only the question in content. Do not include the field warning.",
+  ],
+  conclude: [
+    "Write one sentence beginning exactly with 'Next time,'.",
+    "Use at most 25 words and give one action that generalizes to the same question type.",
+    "Do not include values, variables, expressions, answer choices, equation sides, or wording unique to this question.",
+  ],
+  teach_concept: [
+    "Teach only the named concept gap using the selected teaching notes and official explanation.",
+    "Use at most 4 short sentences and 70 words. Relate it to the missed question without giving a full worked solution.",
+    "End by inviting the student to ask a follow-up question. Do not audit the rule or add a Next time sentence.",
+  ],
+  answer_question: [
+    "Answer the student's latest question briefly and directly.",
+    "Do not restart or advance a paused review audit.",
+    "Use the selected teaching notes only when they are present.",
+  ],
+};
+
+function buildResponseRequest({
+  action,
+  question,
+  studentReview,
+  reviewStage,
+  assessment,
+  conversation,
+  priorAuditQuestions,
+  teachingMethod,
+  method,
+  validationError,
+}) {
+  const review = selectStudentReview(studentReview, reviewStage);
+  let input;
+  if (action === "request_diagnosis_edit") {
+    input = {
+      action,
+      fieldText: review.whereWrong,
+      broadTask: tagLabels(question),
+      missingDetail: assessment?.diagnosis?.missingDetail,
+      priorAuditQuestions,
+      correction: validationError,
+    };
+  } else if (action === "request_rule_edit") {
+    input = {
+      action,
+      acceptedDiagnosis: review.whereWrong,
+      fieldText: review.preventionRule,
+      broadTask: tagLabels(question),
+      missingDetail: assessment?.rule?.missingDetail,
+      priorAuditQuestions,
+      correction: validationError,
+    };
+  } else if (action === "conclude") {
+    input = {
+      action,
+      questionType: question?.questionType,
+      skills: tagLabels(question),
+      acceptedDiagnosis: review.whereWrong,
+      acceptedRule: review.preventionRule,
+      correction: validationError,
+    };
+  } else if (action === "teach_concept") {
+    input = {
+      action,
+      namedConcept: assessment?.diagnosis?.namedConcept,
+      question: selectAuditQuestionContext(question),
+      officialAnswerExplanation: question?.explanation,
+      savedDiagnosis: review.whereWrong,
+      selectedTeachingMethod: method?.title,
+      selectedTeachingNotes: teachingMethod,
+      correction: validationError,
+    };
+  } else {
+    input = {
+      action: "answer_question",
+      question: selectChatQuestionContext(question),
+      officialAnswerExplanation: question?.explanation,
+      savedReview: review,
+      conversation,
+      selectedTeachingMethod: method?.title,
+      selectedTeachingNotes: teachingMethod,
+      correction: validationError,
+    };
   }
 
-  sections.push(
-    "",
-    "SELECTED TEACHING NOTES:",
-    method?.title ? "Method: " + method.title : "",
-    teachingMethod.trim() ||
-      "(No matching teaching notes were found. Give conservative help only if a concept must be taught.)",
-    "",
-    "ACTIVE CONVERSATION:",
-    formatConversation(conversation),
-    "",
-    TUTOR_POLICY,
-  );
-
-  return sections.filter((section) => section !== "").join("\n");
+  return {
+    instructions: [
+      TUTOR_BASE_INSTRUCTIONS,
+      ...(ACTION_INSTRUCTIONS[action] || ACTION_INSTRUCTIONS.answer_question),
+    ].join("\n"),
+    input: JSON.stringify(compactValue(input) || {}, null, 2),
+    format: responseFormat(),
+  };
 }
 
 module.exports = {
-  buildTutorPrompt,
+  TUTOR_BASE_INSTRUCTIONS,
+  ASSESSMENT_INSTRUCTIONS,
+  assessmentFormat,
+  buildAssessmentRequest,
+  buildResponseRequest,
   compactValue,
-  formatStudentReview,
-  selectQuestionContext,
+  responseFormat,
+  selectAuditQuestionContext,
+  selectChatQuestionContext,
+  selectStudentReview,
 };

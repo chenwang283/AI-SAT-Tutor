@@ -35,7 +35,12 @@ const redoControls = document.querySelector("#redo-controls");
 const checkRedoButton = document.querySelector("#check-redo-button");
 const tutorForm = document.querySelector("#tutor-form");
 const messageInput = document.querySelector("#student-message");
+const messageInputLabel = document.querySelector("#student-message-label");
 const explainButton = document.querySelector("#explain-button");
+const composerEditBanner = document.querySelector("#composer-edit-banner");
+const composerEditLabel = document.querySelector("#composer-edit-label");
+const cancelComposerEditButton = document.querySelector("#cancel-composer-edit");
+const resumeComposerEditButton = document.querySelector("#resume-composer-edit");
 
 let authMode = "signin";
 let authSession = null;
@@ -59,6 +64,8 @@ function createEmptyState() {
     savedReview: null,
     editingReview: false,
     pendingReviewChange: null,
+    pendingTutorTurn: null,
+    tutorWorkflow: reviewFlow.createTutorWorkflowState(),
     redo: null,
   };
 }
@@ -91,7 +98,9 @@ function cleanMessages(value) {
     .map((message) => {
       const role = message?.role;
       const content = typeof message?.content === "string" ? message.content.trim() : "";
-      return ["student", "assistant"].includes(role) && content ? { role, content } : null;
+      return ["student", "assistant", "notice"].includes(role) && content
+        ? { role, content }
+        : null;
     })
     .filter(Boolean);
 }
@@ -139,6 +148,11 @@ async function loadAppState() {
       stored.pendingReviewChange && typeof stored.pendingReviewChange === "object"
         ? stored.pendingReviewChange
         : null,
+    pendingTutorTurn:
+      stored.pendingTutorTurn && typeof stored.pendingTutorTurn === "object"
+        ? stored.pendingTutorTurn
+        : null,
+    tutorWorkflow: reviewFlow.normalizeTutorWorkflowState(stored.tutorWorkflow),
     redo: stored.redo && typeof stored.redo === "object" ? stored.redo : null,
   };
 }
@@ -422,7 +436,10 @@ function renderMessages(scrollMode = "bottom") {
     if (!appState.messages.length) {
       rendering.addMessage(messages, "assistant", "Your mistake log is saved. Start tutoring when the question is open.");
     } else {
-      appState.messages.forEach((message) => rendering.addMessage(messages, message.role, message.content));
+      appState.messages.forEach((message) => {
+        if (message.role === "notice") rendering.addNotice(messages, message.content);
+        else rendering.addMessage(messages, message.role, message.content);
+      });
     }
   } else {
     rendering.addMessage(
@@ -716,6 +733,34 @@ function buildReviewChange(before, after) {
   };
 }
 
+function applyTutorResponse(data) {
+  appState.method = data.method || appState.method;
+  if (Object.values(reviewFlow.TUTOR_STATES).includes(data.nextWorkflowState)) {
+    appState.tutorWorkflow.state = data.nextWorkflowState;
+  }
+  if (["whereWrong", "myRule"].includes(data.noticeField)) {
+    appState.tutorWorkflow.shownAuditNotices[data.noticeField] = true;
+  }
+  if (["whereWrong", "myRule"].includes(data.requestedEditField)) {
+    appState.tutorWorkflow.composerMode = reviewFlow.composerModeForField(
+      data.requestedEditField,
+    );
+  } else if (
+    appState.tutorWorkflow.state === reviewFlow.TUTOR_STATES.COMPLETE ||
+    data.action !== "answer_question"
+  ) {
+    appState.tutorWorkflow.composerMode = "chat";
+  }
+  if (typeof data.reply === "string" && data.reply.trim()) {
+    appState.messages = [
+      ...appState.messages,
+      { role: "assistant", content: data.reply.trim() },
+    ];
+  }
+  appState.pendingReviewChange = null;
+  appState.pendingTutorTurn = null;
+}
+
 function showReviewEditError(message) {
   let error = reviewEditControls.querySelector(".field-error");
   if (!error) {
@@ -732,10 +777,11 @@ async function respondToPendingReviewChange() {
     const question = await getLiveQuestionForCurrentState();
     pending = rendering.addMessage(messages, "assistant", "Updating my response...", "pending");
     setStatus("Updating the tutor with your revised mistake log...");
-    const data = await requestTutorReply(question);
-    appState.method = data.method || appState.method;
-    appState.messages = [...appState.messages, { role: "assistant", content: data.reply }];
-    appState.pendingReviewChange = null;
+    const data = await requestTutorReply(
+      question,
+      appState.pendingTutorTurn || { turnType: "manual_edit" },
+    );
+    applyTutorResponse(data);
     await saveAppState();
     renderApp();
     setStatus(appState.method?.title ? `Ready. Method: ${appState.method.title}.` : "Ready.");
@@ -778,8 +824,17 @@ async function saveReviewEdits(form) {
     const hasTutorResponse = appState.messages.some((message) => message.role === "assistant");
     appState.savedReview = data.review;
     appState.editingReview = false;
-    if (hasTutorResponse) appState.tutorContextStartIndex = appState.messages.length;
     appState.pendingReviewChange = hasTutorResponse ? reviewChange : null;
+    appState.pendingTutorTurn = hasTutorResponse
+      ? { turnType: "manual_edit", editedField: null }
+      : null;
+    if (
+      hasTutorResponse &&
+      reviewChange.changedFields.some((field) => ["whereWrong", "myRule"].includes(field))
+    ) {
+      appState.tutorWorkflow.state = reviewFlow.TUTOR_STATES.EVALUATE;
+      appState.tutorWorkflow.composerMode = "chat";
+    }
     await saveAppState();
     renderApp();
 
@@ -914,6 +969,38 @@ async function loadDueReviews() {
   renderDueReviews();
 }
 
+function renderTutorComposer() {
+  const editField = reviewFlow.fieldForComposerMode(
+    appState.tutorWorkflow.composerMode,
+  );
+  const requestedField = reviewFlow.requestedFieldForState(
+    appState.tutorWorkflow.state,
+  );
+  const isEditing = Boolean(editField);
+  const fieldLabel =
+    editField === "whereWrong" ? "Where I went wrong" : "My rule";
+
+  composerEditBanner.hidden = !isEditing;
+  composerEditLabel.textContent = isEditing ? `Editing: ${fieldLabel}` : "";
+  resumeComposerEditButton.hidden = !requestedField || isEditing;
+  if (requestedField && !isEditing) {
+    resumeComposerEditButton.textContent =
+      requestedField === "whereWrong"
+        ? "Resume diagnosis edit"
+        : "Resume rule edit";
+  }
+
+  messageInputLabel.textContent = isEditing ? `New ${fieldLabel}` : "Message";
+  messageInput.placeholder = isEditing
+    ? `Write your full new ?${fieldLabel}? answer...`
+    : "Answer the tutor's question or ask a follow-up...";
+  explainButton.textContent = isEditing
+    ? editField === "whereWrong"
+      ? "Update diagnosis"
+      : "Update rule"
+    : "Send follow-up";
+}
+
 function renderModeControls() {
   const needsTutorStart = appState.mode === "teaching" && !appState.messages.length;
   reviewEntry.hidden = !(appState.mode === "idle" || needsTutorStart);
@@ -921,7 +1008,7 @@ function renderModeControls() {
   reviewEditRegion.hidden = !(appState.mode === "teaching" && appState.reviewId);
   redoControls.hidden = appState.mode !== "redo";
   tutorForm.hidden = !(appState.mode === "teaching" && appState.messages.length > 0);
-  explainButton.textContent = "Send follow-up";
+  renderTutorComposer();
 }
 
 function renderApp({ scrollMode = "bottom" } = {}) {
@@ -1030,11 +1117,20 @@ async function saveCompletedReview() {
   }
 }
 
-async function requestTutorReply(question) {
+async function requestTutorReply(question, turn = null) {
   const conversation = reviewFlow.getTutorConversation(
     appState.messages,
     appState.tutorContextStartIndex,
   );
+  const currentTurn =
+    turn ||
+    appState.pendingTutorTurn || {
+      turnType:
+        appState.tutorWorkflow.state === reviewFlow.TUTOR_STATES.EVALUATE
+          ? "start"
+          : "chat",
+      editedField: null,
+    };
   return apiRequest("/teach", {
     method: "POST",
     body: {
@@ -1043,6 +1139,12 @@ async function requestTutorReply(question) {
       question,
       conversation,
       reviewChange: appState.pendingReviewChange || undefined,
+      workflow: {
+        state: appState.tutorWorkflow.state,
+        turnType: currentTurn.turnType,
+        editedField: currentTurn.editedField || null,
+        shownAuditNotices: appState.tutorWorkflow.shownAuditNotices,
+      },
     },
   });
 }
@@ -1053,10 +1155,8 @@ async function startTutor(question) {
   const pending = rendering.addMessage(messages, "assistant", "Thinking…", "pending");
   setStatus("Using your mistake log to start the lesson…");
   try {
-    const data = await requestTutorReply(question);
-    appState.method = data.method || null;
-    appState.messages = [...appState.messages, { role: "assistant", content: data.reply }];
-    appState.pendingReviewChange = null;
+    const data = await requestTutorReply(question, { turnType: "start" });
+    applyTutorResponse(data);
     await saveAppState();
     renderApp();
     setStatus(data.method?.title ? `Ready. Method: ${data.method.title}.` : "Ready.");
@@ -1077,15 +1177,14 @@ async function sendTutorFollowup(studentMessage) {
   try {
     const question = await getLiveQuestionForCurrentState();
     appState.messages = [...appState.messages, { role: "student", content: studentMessage }];
+    appState.pendingTutorTurn = { turnType: "chat", editedField: null };
     await saveAppState();
     renderApp();
     pending = rendering.addMessage(messages, "assistant", "Thinking…", "pending");
     setStatus("Asking the tutor…");
 
-    const data = await requestTutorReply(question);
-    appState.method = data.method || appState.method;
-    appState.messages = [...appState.messages, { role: "assistant", content: data.reply }];
-    appState.pendingReviewChange = null;
+    const data = await requestTutorReply(question, appState.pendingTutorTurn);
+    applyTutorResponse(data);
     await saveAppState();
     messageInput.value = "";
     renderApp();
@@ -1096,6 +1195,77 @@ async function sendTutorFollowup(studentMessage) {
     setStatus(error.message || "Unable to continue tutoring.", "error");
   } finally {
     setBusy(false);
+  }
+}
+
+async function submitTutorFieldEdit(studentMessage) {
+  const editedField = reviewFlow.fieldForComposerMode(
+    appState.tutorWorkflow.composerMode,
+  );
+  if (!editedField) return sendTutorFollowup(studentMessage);
+
+  setBusy(true);
+  setStatus("Saving your updated mistake log...");
+  let pending;
+  try {
+    const question = await getLiveQuestionForCurrentState();
+    const isRetry =
+      appState.pendingTutorTurn?.turnType === "field_edit" &&
+      appState.pendingTutorTurn?.editedField === editedField &&
+      appState.pendingReviewChange?.after?.[editedField] === studentMessage;
+
+    if (!isRetry) {
+      const before = editableReviewValues(appState.savedReview);
+      const after = { ...before, [editedField]: studentMessage };
+      const reviewChange = buildReviewChange(before, after);
+      if (
+        reviewChange.changedFields.length !== 1 ||
+        reviewChange.changedFields[0] !== editedField
+      ) {
+        throw new Error("Write a new answer before updating your mistake log.");
+      }
+      const data = await apiRequest(
+        `/reviews/${encodeURIComponent(appState.reviewId)}`,
+        {
+          method: "PATCH",
+          body: { diagnosis: after },
+        },
+      );
+      appState.savedReview = data.review;
+      appState.messages = [
+        ...appState.messages,
+        { role: "student", content: studentMessage },
+        { role: "notice", content: "Mistake log updated." },
+      ];
+      appState.pendingReviewChange = reviewChange;
+      appState.pendingTutorTurn = {
+        turnType: "field_edit",
+        editedField,
+      };
+      await saveAppState();
+      renderApp();
+    }
+
+    pending = rendering.addMessage(messages, "assistant", "Thinking...", "pending");
+    setStatus("Checking your updated mistake log...");
+    const tutorData = await requestTutorReply(question, appState.pendingTutorTurn);
+    applyTutorResponse(tutorData);
+    messageInput.value = "";
+    await saveAppState();
+    renderApp();
+    setStatus(
+      appState.method?.title
+        ? `Ready. Method: ${appState.method.title}.`
+        : "Ready.",
+    );
+  } catch (error) {
+    const message =
+      error.message || "The change was saved, but the tutor could not respond yet.";
+    if (pending) rendering.updateMessage(pending, message);
+    setStatus(message, "error");
+  } finally {
+    setBusy(false);
+    renderModeControls();
   }
 }
 
@@ -1264,6 +1434,22 @@ reviewButton.addEventListener("click", beginQuestionReview);
 reviewEditButton.addEventListener("click", toggleReviewEditor);
 checkRedoButton.addEventListener("click", checkRedoResult);
 resetButton.addEventListener("click", resetQuestionState);
+cancelComposerEditButton.addEventListener("click", async () => {
+  appState.tutorWorkflow.composerMode = "chat";
+  messageInput.value = "";
+  await saveAppState();
+  renderModeControls();
+  messageInput.focus();
+});
+resumeComposerEditButton.addEventListener("click", async () => {
+  const field = reviewFlow.requestedFieldForState(appState.tutorWorkflow.state);
+  if (!field) return;
+  appState.tutorWorkflow.composerMode = reviewFlow.composerModeForField(field);
+  messageInput.value = "";
+  await saveAppState();
+  renderModeControls();
+  messageInput.focus();
+});
 
 tutorForm.addEventListener("submit", async (event) => {
   event.preventDefault();
@@ -1274,7 +1460,11 @@ tutorForm.addEventListener("submit", async (event) => {
     messageInput.focus();
     return;
   }
-  await sendTutorFollowup(studentMessage);
+  if (reviewFlow.fieldForComposerMode(appState.tutorWorkflow.composerMode)) {
+    await submitTutorFieldEdit(studentMessage);
+  } else {
+    await sendTutorFollowup(studentMessage);
+  }
 });
 
 document.addEventListener("visibilitychange", () => {

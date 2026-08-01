@@ -1,5 +1,12 @@
 (function () {
   const REVIEW_STEPS = ["metadata", "whereWrong", "myRule", "clock", "tag", "confirm"];
+  const TUTOR_STATES = Object.freeze({
+    EVALUATE: "evaluate_review",
+    DIAGNOSIS: "awaiting_diagnosis_edit",
+    RULE: "awaiting_rule_edit",
+    COMPLETE: "complete",
+  });
+  const TUTOR_COMPOSER_MODES = new Set(["chat", "edit_where_wrong", "edit_my_rule"]);
 
   function createReviewDraft(metadata = {}) {
     return {
@@ -81,18 +88,73 @@
     const index = Number.isInteger(startIndex)
       ? Math.max(0, Math.min(startIndex, messages.length))
       : 0;
-    return messages.slice(index);
+    return messages
+      .slice(index)
+      .filter((message) => ["student", "assistant"].includes(message?.role))
+      .map((message) => ({ role: message.role, content: message.content }));
+  }
+
+  function createTutorWorkflowState() {
+    return {
+      state: TUTOR_STATES.EVALUATE,
+      composerMode: "chat",
+      shownAuditNotices: {
+        whereWrong: false,
+        myRule: false,
+      },
+    };
+  }
+
+  function normalizeTutorWorkflowState(value) {
+    const fallback = createTutorWorkflowState();
+    const state = Object.values(TUTOR_STATES).includes(value?.state)
+      ? value.state
+      : fallback.state;
+    return {
+      state,
+      composerMode: TUTOR_COMPOSER_MODES.has(value?.composerMode)
+        ? value.composerMode
+        : "chat",
+      shownAuditNotices: {
+        whereWrong: Boolean(value?.shownAuditNotices?.whereWrong),
+        myRule: Boolean(value?.shownAuditNotices?.myRule),
+      },
+    };
+  }
+
+  function requestedFieldForState(state) {
+    if (state === TUTOR_STATES.DIAGNOSIS) return "whereWrong";
+    if (state === TUTOR_STATES.RULE) return "myRule";
+    return null;
+  }
+
+  function composerModeForField(field) {
+    if (field === "whereWrong") return "edit_where_wrong";
+    if (field === "myRule") return "edit_my_rule";
+    return "chat";
+  }
+
+  function fieldForComposerMode(mode) {
+    if (mode === "edit_where_wrong") return "whereWrong";
+    if (mode === "edit_my_rule") return "myRule";
+    return null;
   }
 
   const api = {
     REVIEW_STEPS,
+    TUTOR_STATES,
     createReviewDraft,
+    createTutorWorkflowState,
     nextReviewStep,
     previousReviewStep,
     getAllowedTags,
     validateReviewStep,
     advanceReviewDraft,
     getTutorConversation,
+    normalizeTutorWorkflowState,
+    requestedFieldForState,
+    composerModeForField,
+    fieldForComposerMode,
   };
 
   globalThis.aiSatTutorReviewFlow = api;
