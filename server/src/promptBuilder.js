@@ -6,16 +6,22 @@ const TUTOR_BASE_INSTRUCTIONS = [
   "Follow the supplied output schema exactly. Return no text outside it.",
 ].join("\n");
 
-const ASSESSMENT_INSTRUCTIONS = [
+const REVIEW_INSTRUCTIONS = [
   TUTOR_BASE_INSTRUCTIONS,
-  "Assess only the saved fields in the JSON input. Return evidence, not a tutor message.",
-  "Copy every evidence value exactly from its saved field. Use null when the words are not present.",
-  "A diagnosis is specific when it names the step, detail, or trigger and the exact wrong action, belief, interpretation, or result.",
-  "A clear wrong-versus-correct comparison is complete. Do not demand why the slip happened or how it later produced the final answer.",
-  "A named concept gap passes only when the student clearly says a specific concept or method was not known.",
-  "A feeling or label alone is insufficient. A wording complaint needs the exact wording feature and what it caused the student to do.",
-  "A rule is acceptable when it gives a specific trigger and a new action at or before the mistake that can prevent it on similar questions.",
-  "If the task is rule_only, do not reassess the diagnosis.",
+  "Assess only the saved diagnosis and prevention rule in the input.",
+  "Every evidence value must copy exact words from its saved field. Use null when those words are not present.",
+  "A concrete causal root is one exact action, choice, missed detail, or misunderstanding that produced the mistake. Do not require a separate step, trigger, correct comparison, or explanation of why it happened.",
+  "Unknown knowledge passes when the student names an unknown concept or method, or names a specific unknown part of the question, answer, or explanation. Infer a short teaching target for a specific unknown part.",
+  "If both paths appear, use unknown_knowledge so the tutor teaches it.",
+  "A surface label, feeling, vague outcome, or unsupported wording blame is insufficient.",
+  "For an insufficient diagnosis, choose exactly one audit focus: deepen_label for rushed, guessed, careless, or similar labels; identify_unknown_part for a vague knowledge gap; explain_wording_effect for wording blame; identify_concrete_cause otherwise.",
+  "A prevention rule passes only when it gives a specific trigger and a specific new behavior that helps prevent the diagnosed mistake.",
+  "For an insufficient rule, use new_behavior when that behavior is missing, including when both parts are missing. Use trigger only when the new behavior is already specific.",
+  "Choose the proposed action in this order: teach unknown knowledge; audit an insufficient diagnosis; audit an insufficient rule; otherwise conclude.",
+  "For an audit, write one short question with 5-14 simple words that asks for only the selected missing piece. Do not give an answer, a suggested edit, a cause, a concept name, or a rule. Do not use topic tags as an anchor, problem values not in the audited field, or a prior audit question.",
+  "For a rule trigger, ask when or where the student will use the rule. For a rule behavior, ask what they will do at that point.",
+  "For a conclusion, begin with 'Next time,' and give one short action for similar questions. Do not use values, variables, answer choices, or wording unique to this question.",
+  "For teaching handoff, content must be null.",
 ].join("\n");
 
 const NULLABLE_STRING = { type: ["string", "null"] };
@@ -25,31 +31,28 @@ const DIAGNOSIS_SCHEMA = {
   properties: {
     status: {
       type: "string",
-      enum: ["specific_root_cause", "named_concept_gap", "insufficient"],
+      enum: ["concrete_causal_root", "unknown_knowledge", "insufficient"],
     },
-    stepOrTrigger: NULLABLE_STRING,
-    wrongActionOrResult: NULLABLE_STRING,
-    correctContrast: NULLABLE_STRING,
-    namedConcept: NULLABLE_STRING,
-    missingDetail: {
+    causalRootEvidence: NULLABLE_STRING,
+    unknownKnowledgeEvidence: NULLABLE_STRING,
+    teachingTarget: NULLABLE_STRING,
+    auditFocus: {
       type: "string",
       enum: [
         "none",
-        "step_or_trigger",
-        "wrong_action_or_result",
-        "causal_root",
-        "wording_effect",
-        "named_concept",
+        "deepen_label",
+        "identify_unknown_part",
+        "explain_wording_effect",
+        "identify_concrete_cause",
       ],
     },
   },
   required: [
     "status",
-    "stepOrTrigger",
-    "wrongActionOrResult",
-    "correctContrast",
-    "namedConcept",
-    "missingDetail",
+    "causalRootEvidence",
+    "unknownKnowledgeEvidence",
+    "teachingTarget",
+    "auditFocus",
   ],
   additionalProperties: false,
 };
@@ -57,24 +60,19 @@ const DIAGNOSIS_SCHEMA = {
 const RULE_SCHEMA = {
   type: "object",
   properties: {
-    status: {
+    status: { type: "string", enum: ["acceptable", "insufficient"] },
+    triggerEvidence: NULLABLE_STRING,
+    newBehaviorEvidence: NULLABLE_STRING,
+    missingRequirement: {
       type: "string",
-      enum: ["acceptable", "insufficient", "not_evaluated"],
-    },
-    trigger: NULLABLE_STRING,
-    newBehavior: NULLABLE_STRING,
-    preventionLink: NULLABLE_STRING,
-    missingDetail: {
-      type: "string",
-      enum: ["none", "trigger", "new_behavior", "root_prevention"],
+      enum: ["none", "trigger", "new_behavior"],
     },
   },
   required: [
     "status",
-    "trigger",
-    "newBehavior",
-    "preventionLink",
-    "missingDetail",
+    "triggerEvidence",
+    "newBehaviorEvidence",
+    "missingRequirement",
   ],
   additionalProperties: false,
 };
@@ -95,14 +93,6 @@ function compactValue(value) {
     return text || undefined;
   }
   return value == null ? undefined : value;
-}
-
-function tagLabels(question) {
-  return Array.isArray(question?.tags)
-    ? question.tags
-        .map((tag) => (typeof tag === "string" ? tag : tag?.label))
-        .filter((tag) => typeof tag === "string" && tag.trim())
-    : [];
 }
 
 function figureDetails(question) {
@@ -131,7 +121,6 @@ function selectAuditQuestionContext(question) {
       options,
       correctLetter: question?.correctLetter,
       correctFreeResponse: question?.freeResponse?.correctAnswer,
-      tags: tagLabels(question),
       hasFigure: question?.hasFigure,
       figures: figureDetails(question),
     }) || {}
@@ -144,6 +133,7 @@ function selectChatQuestionContext(question) {
       ...selectAuditQuestionContext(question),
       selectedLetter: question?.selectedLetter,
       freeResponse: question?.freeResponse,
+      tags: Array.isArray(question?.tags) ? question.tags : undefined,
     }) || {}
   );
 }
@@ -163,13 +153,34 @@ function selectStudentReview(review, reviewStage) {
   );
 }
 
-function assessmentFormat(ruleOnly = false) {
-  const properties = ruleOnly
-    ? { rule: RULE_SCHEMA }
-    : { diagnosis: DIAGNOSIS_SCHEMA, rule: RULE_SCHEMA };
+function reviewFormat(ruleOnly = false) {
+  const properties = {
+    rule: RULE_SCHEMA,
+    proposedAction: {
+      type: "string",
+      enum: ruleOnly
+        ? ["request_rule_edit", "conclude"]
+        : [
+            "request_diagnosis_edit",
+            "request_rule_edit",
+            "teach_concept",
+            "conclude",
+          ],
+    },
+    targetField: {
+      type: ["string", "null"],
+      enum: ["whereWrong", "myRule", null],
+    },
+    responseType: {
+      type: "string",
+      enum: ["audit_question", "conclusion", "teaching_handoff"],
+    },
+    content: NULLABLE_STRING,
+  };
+  if (!ruleOnly) properties.diagnosis = DIAGNOSIS_SCHEMA;
   return {
     type: "json_schema",
-    name: ruleOnly ? "rule_assessment" : "review_assessment",
+    name: ruleOnly ? "rule_review_response" : "full_review_response",
     strict: true,
     schema: {
       type: "object",
@@ -194,12 +205,13 @@ function responseFormat() {
   };
 }
 
-function buildAssessmentRequest({
+function buildReviewRequest({
   question,
   studentReview,
   reviewStage,
   workflowState,
   ruleOnly = false,
+  priorAuditQuestions = [],
   validationError,
 }) {
   const input = compactValue({
@@ -211,37 +223,20 @@ function buildAssessmentRequest({
         ? question.explanation.trim()
         : "No StudySpaces answer explanation was captured.",
     savedReview: selectStudentReview(studentReview, reviewStage),
+    acceptedDiagnosis: ruleOnly ? studentReview?.whereWrong : undefined,
+    priorAuditQuestions,
     correction: validationError,
   });
   return {
-    instructions: ASSESSMENT_INSTRUCTIONS,
+    instructions: REVIEW_INSTRUCTIONS,
     input: JSON.stringify(input, null, 2),
-    format: assessmentFormat(ruleOnly),
+    format: reviewFormat(ruleOnly),
   };
 }
 
 const ACTION_INSTRUCTIONS = {
-  request_diagnosis_edit: [
-    "Write exactly one question that helps the student replace their full diagnosis.",
-    "Use 7 to 14 words. Start with What, Where, Which, or How.",
-    "Ask for exactly one missing detail. Use one short anchor only from fieldText or broadTask.",
-    "Do not use and, or, parentheses, an em dash, answer choices, suggested causes, or suggested wording.",
-    "Return only the question in content. Do not include the field warning.",
-  ],
-  request_rule_edit: [
-    "Write exactly one question that helps the student replace their full prevention rule.",
-    "Use 7 to 14 words. Start with What, Where, Which, or How.",
-    "Ask for exactly one missing trigger, new action, or prevention link.",
-    "Do not use and, or, parentheses, an em dash, suggested actions, or suggested wording.",
-    "Return only the question in content. Do not include the field warning.",
-  ],
-  conclude: [
-    "Write one sentence beginning exactly with 'Next time,'.",
-    "Use at most 25 words and give one action that generalizes to the same question type.",
-    "Do not include values, variables, expressions, answer choices, equation sides, or wording unique to this question.",
-  ],
   teach_concept: [
-    "Teach only the named concept gap using the selected teaching notes and official explanation.",
+    "Teach only the selected missing concept using the teaching notes and official explanation.",
     "Use at most 4 short sentences and 70 words. Relate it to the missed question without giving a full worked solution.",
     "End by inviting the student to ask a follow-up question. Do not audit the rule or add a Next time sentence.",
   ],
@@ -259,64 +254,33 @@ function buildResponseRequest({
   reviewStage,
   assessment,
   conversation,
-  priorAuditQuestions,
   teachingMethod,
   method,
   validationError,
 }) {
   const review = selectStudentReview(studentReview, reviewStage);
-  let input;
-  if (action === "request_diagnosis_edit") {
-    input = {
-      action,
-      fieldText: review.whereWrong,
-      broadTask: tagLabels(question),
-      missingDetail: assessment?.diagnosis?.missingDetail,
-      priorAuditQuestions,
-      correction: validationError,
-    };
-  } else if (action === "request_rule_edit") {
-    input = {
-      action,
-      acceptedDiagnosis: review.whereWrong,
-      fieldText: review.preventionRule,
-      broadTask: tagLabels(question),
-      missingDetail: assessment?.rule?.missingDetail,
-      priorAuditQuestions,
-      correction: validationError,
-    };
-  } else if (action === "conclude") {
-    input = {
-      action,
-      questionType: question?.questionType,
-      skills: tagLabels(question),
-      acceptedDiagnosis: review.whereWrong,
-      acceptedRule: review.preventionRule,
-      correction: validationError,
-    };
-  } else if (action === "teach_concept") {
-    input = {
-      action,
-      namedConcept: assessment?.diagnosis?.namedConcept,
-      question: selectAuditQuestionContext(question),
-      officialAnswerExplanation: question?.explanation,
-      savedDiagnosis: review.whereWrong,
-      selectedTeachingMethod: method?.title,
-      selectedTeachingNotes: teachingMethod,
-      correction: validationError,
-    };
-  } else {
-    input = {
-      action: "answer_question",
-      question: selectChatQuestionContext(question),
-      officialAnswerExplanation: question?.explanation,
-      savedReview: review,
-      conversation,
-      selectedTeachingMethod: method?.title,
-      selectedTeachingNotes: teachingMethod,
-      correction: validationError,
-    };
-  }
+  const input =
+    action === "teach_concept"
+      ? {
+          action,
+          teachingTarget: assessment?.diagnosis?.teachingTarget,
+          question: selectAuditQuestionContext(question),
+          officialAnswerExplanation: question?.explanation,
+          savedDiagnosis: review.whereWrong,
+          selectedTeachingMethod: method?.title,
+          selectedTeachingNotes: teachingMethod,
+          correction: validationError,
+        }
+      : {
+          action: "answer_question",
+          question: selectChatQuestionContext(question),
+          officialAnswerExplanation: question?.explanation,
+          savedReview: review,
+          conversation,
+          selectedTeachingMethod: method?.title,
+          selectedTeachingNotes: teachingMethod,
+          correction: validationError,
+        };
 
   return {
     instructions: [
@@ -329,13 +293,13 @@ function buildResponseRequest({
 }
 
 module.exports = {
+  REVIEW_INSTRUCTIONS,
   TUTOR_BASE_INSTRUCTIONS,
-  ASSESSMENT_INSTRUCTIONS,
-  assessmentFormat,
-  buildAssessmentRequest,
   buildResponseRequest,
+  buildReviewRequest,
   compactValue,
   responseFormat,
+  reviewFormat,
   selectAuditQuestionContext,
   selectChatQuestionContext,
   selectStudentReview,

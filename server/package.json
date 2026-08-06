@@ -6,13 +6,16 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "check": "node --check src/server.js && node --check src/openaiClient.js && node --check src/promptBuilder.js && node --check src/tutorWorkflow.js && node --check src/methodLookup.js && node --check src/exchangeLogger.js && node --check src/supabaseClient.js && node --check src/authService.js && node --check src/reviewConfig.js && node --check src/reviewService.js && node --check ../extension/reviewFlow.js && node --check ../extension/sidepanel.js && node --check ../extension/studyspacesExtractor.js && node src/reviewService.test.js && node src/openaiClient.test.js && node src/promptBuilder.test.js && node src/tutorWorkflow.test.js && node src/methodLookup.test.js && node src/server.test.js && node ../extension/reviewFlow.test.js && node ../extension/sidepanelMath.test.js && node ../extension/studyspacesExtractor.test.js && node ../extension/package.test.js"
+    "check": "node --check src/server.js && node --check src/openaiClient.js && node --check src/promptBuilder.js && node --check src/tutorWorkflow.js && node --check src/tutorReviewGraph.js && node --check src/methodLookup.js && node --check src/exchangeLogger.js && node --check src/supabaseClient.js && node --check src/authService.js && node --check src/reviewConfig.js && node --check src/reviewService.js && node --check ../extension/reviewFlow.js && node --check ../extension/sidepanel.js && node --check ../extension/studyspacesExtractor.js && node src/reviewService.test.js && node src/openaiClient.test.js && node src/promptBuilder.test.js && node src/tutorWorkflow.test.js && node src/tutorReviewGraph.test.js && node src/methodLookup.test.js && node src/server.test.js && node ../extension/reviewFlow.test.js && node ../extension/sidepanelMath.test.js && node ../extension/studyspacesExtractor.test.js && node ../extension/package.test.js"
   },
   "dependencies": {
+    "@langchain/core": "^1.2.5",
+    "@langchain/langgraph": "^1.4.9",
     "@supabase/supabase-js": "^2.110.8",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "openai": "latest"
+    "openai": "latest",
+    "zod": "^4.4.3"
   },
   "engines": {
     "node": ">=22"

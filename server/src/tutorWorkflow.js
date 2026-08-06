@@ -15,7 +15,19 @@ const ACTIONS = Object.freeze({
 });
 
 const VALID_STATES = new Set(Object.values(STATES));
-const VALID_TURN_TYPES = new Set(["start", "chat", "field_edit", "manual_edit"]);
+const VALID_TURN_TYPES = new Set([
+  "start",
+  "chat",
+  "field_edit",
+  "manual_edit",
+]);
+const DIAGNOSIS_AUDIT_FOCUSES = new Set([
+  "deepen_label",
+  "identify_unknown_part",
+  "explain_wording_effect",
+  "identify_concrete_cause",
+]);
+const RULE_MISSING_REQUIREMENTS = new Set(["trigger", "new_behavior"]);
 
 function normalizeText(value) {
   return String(value || "")
@@ -34,48 +46,51 @@ function evidenceAppears(source, evidence) {
 
 function diagnosisAccepted(assessment, studentReview) {
   const diagnosis = assessment?.diagnosis;
-  const source = studentReview?.whereWrong;
-  if (diagnosis?.status !== "specific_root_cause") return false;
-  const hasWrongAction = evidenceAppears(source, diagnosis.wrongActionOrResult);
-  const hasStep = evidenceAppears(source, diagnosis.stepOrTrigger);
-  const hasContrast = evidenceAppears(source, diagnosis.correctContrast);
-  return hasWrongAction && (hasStep || hasContrast);
+  return (
+    diagnosis?.status === "concrete_causal_root" &&
+    evidenceAppears(studentReview?.whereWrong, diagnosis.causalRootEvidence)
+  );
 }
 
-function namedConceptGap(assessment, studentReview) {
+function unknownKnowledgeGap(assessment, studentReview) {
   const diagnosis = assessment?.diagnosis;
   return (
-    diagnosis?.status === "named_concept_gap" &&
-    evidenceAppears(studentReview?.whereWrong, diagnosis.namedConcept)
+    diagnosis?.status === "unknown_knowledge" &&
+    evidenceAppears(
+      studentReview?.whereWrong,
+      diagnosis.unknownKnowledgeEvidence,
+    ) &&
+    typeof diagnosis.teachingTarget === "string" &&
+    diagnosis.teachingTarget.trim().length > 0
   );
 }
 
 function ruleAccepted(assessment, studentReview) {
   const rule = assessment?.rule;
-  const source = studentReview?.myRule;
   return (
     rule?.status === "acceptable" &&
-    evidenceAppears(source, rule.trigger) &&
-    evidenceAppears(source, rule.newBehavior)
+    evidenceAppears(studentReview?.myRule, rule.triggerEvidence) &&
+    evidenceAppears(studentReview?.myRule, rule.newBehaviorEvidence)
   );
 }
 
 function decideReviewAction({ assessment, studentReview, ruleOnly = false }) {
   if (!ruleOnly) {
-    if (namedConceptGap(assessment, studentReview)) {
-      return { action: ACTIONS.TEACH, reasonCode: "named_concept_gap" };
+    if (unknownKnowledgeGap(assessment, studentReview)) {
+      return { action: ACTIONS.TEACH, reasonCode: "unknown_knowledge" };
     }
     if (!diagnosisAccepted(assessment, studentReview)) {
       return {
         action: ACTIONS.DIAGNOSIS,
-        reasonCode: assessment?.diagnosis?.missingDetail || "wrong_action_or_result",
+        reasonCode:
+          assessment?.diagnosis?.auditFocus || "identify_concrete_cause",
       };
     }
   }
   if (!ruleAccepted(assessment, studentReview)) {
     return {
       action: ACTIONS.RULE,
-      reasonCode: assessment?.rule?.missingDetail || "new_behavior",
+      reasonCode: assessment?.rule?.missingRequirement || "new_behavior",
     };
   }
   return { action: ACTIONS.CONCLUDE, reasonCode: "review_accepted" };
@@ -84,7 +99,8 @@ function decideReviewAction({ assessment, studentReview, ruleOnly = false }) {
 function nextStateForAction(action, currentState) {
   if (action === ACTIONS.DIAGNOSIS) return STATES.DIAGNOSIS;
   if (action === ACTIONS.RULE) return STATES.RULE;
-  if ([ACTIONS.CONCLUDE, ACTIONS.TEACH].includes(action)) return STATES.COMPLETE;
+  if ([ACTIONS.CONCLUDE, ACTIONS.TEACH].includes(action))
+    return STATES.COMPLETE;
   return currentState;
 }
 
@@ -115,10 +131,56 @@ function normalizeWorkflow(value, { hasConversation = false } = {}) {
   };
 }
 
-function validateWorkflowTurn(workflow, reviewChange) {
-  if (workflow.turnType === "start" && workflow.state !== STATES.EVALUATE) {
-    return "A start turn must begin in evaluate_review.";
+function reviewChangeValidationError(reviewChange, studentReview) {
+  if (!reviewChange) return null;
+  if (
+    !Array.isArray(reviewChange.changedFields) ||
+    !reviewChange.changedFields.length
+  ) {
+    return "A saved review change is required.";
   }
+
+  for (const field of reviewChange.changedFields) {
+    const before = reviewChange.before?.[field];
+    const after = reviewChange.after?.[field];
+    if (
+      typeof before !== "string" ||
+      typeof after !== "string" ||
+      !before ||
+      !after
+    ) {
+      return "Every saved review change must include non-empty before and after values.";
+    }
+    if (before === after)
+      return "A saved review change must contain a new value.";
+    if (after !== studentReview?.[field]) {
+      return "The saved review change does not match the current mistake log.";
+    }
+  }
+  return null;
+}
+
+function validateWorkflowTurn(
+  workflow,
+  reviewChange,
+  { conversation = [], studentReview = {} } = {},
+) {
+  if (workflow.editedField && workflow.turnType !== "field_edit") {
+    return "Only a field-edit turn may name an edited field.";
+  }
+
+  const changeError = reviewChangeValidationError(reviewChange, studentReview);
+  if (changeError) return changeError;
+
+  if (workflow.turnType === "start") {
+    if (workflow.state !== STATES.EVALUATE) {
+      return "A start turn must begin in evaluate_review.";
+    }
+    if (reviewChange)
+      return "A start turn cannot include a saved review change.";
+    return null;
+  }
+
   if (workflow.turnType === "field_edit") {
     const expectedField =
       workflow.state === STATES.DIAGNOSIS
@@ -136,12 +198,24 @@ function validateWorkflowTurn(workflow, reviewChange) {
     ) {
       return "A field-edit turn must include only the requested saved-field change.";
     }
+    return null;
   }
-  if (workflow.turnType === "manual_edit" && !reviewChange) {
-    return "A manual-edit turn requires a saved review change.";
+
+  if (workflow.turnType === "manual_edit") {
+    if (!reviewChange)
+      return "A manual-edit turn requires a saved review change.";
+    return null;
   }
-  if (workflow.turnType === "chat" && workflow.state === STATES.EVALUATE) {
-    return "The saved review must be evaluated before normal chat.";
+
+  if (workflow.turnType === "chat") {
+    if (workflow.state === STATES.EVALUATE) {
+      return "The saved review must be evaluated before normal chat.";
+    }
+    if (reviewChange)
+      return "A chat turn cannot include a saved review change.";
+    if (conversation.at(-1)?.role !== "student") {
+      return "A chat turn must end with a student message.";
+    }
   }
   return null;
 }
@@ -149,84 +223,192 @@ function validateWorkflowTurn(workflow, reviewChange) {
 function getPriorAuditQuestions(conversation) {
   return (conversation || [])
     .filter((message) => message.role === "assistant")
-    .flatMap((message) => String(message.content || "").match(/[^?\n]+\?/g) || [])
+    .flatMap(
+      (message) => String(message.content || "").match(/[^?\n]+\?/g) || [],
+    )
     .map((question) => question.trim());
 }
 
-function wordCount(value) {
-  return String(value || "").trim().split(/\s+/).filter(Boolean).length;
-}
+function validateDiagnosis(diagnosis, studentReview) {
+  if (!diagnosis || typeof diagnosis !== "object")
+    return "Diagnosis is missing.";
+  if (
+    !["concrete_causal_root", "unknown_knowledge", "insufficient"].includes(
+      diagnosis.status,
+    )
+  ) {
+    return "Diagnosis status is invalid.";
+  }
 
-function normalizedQuestionTokens(value) {
-  return new Set(
-    normalizeText(value)
-      .split(" ")
-      .filter((token) => token.length > 2),
+  const hasCausalEvidence = evidenceAppears(
+    studentReview?.whereWrong,
+    diagnosis.causalRootEvidence,
   );
-}
+  const hasUnknownEvidence = evidenceAppears(
+    studentReview?.whereWrong,
+    diagnosis.unknownKnowledgeEvidence,
+  );
 
-function questionsAreSimilar(left, right) {
-  const a = normalizedQuestionTokens(left);
-  const b = normalizedQuestionTokens(right);
-  if (!a.size || !b.size) return false;
-  const overlap = [...a].filter((token) => b.has(token)).length;
-  return overlap / Math.max(a.size, b.size) >= 0.8;
-}
+  if (diagnosis.status === "concrete_causal_root") {
+    if (!hasCausalEvidence)
+      return "Concrete-root evidence is not in the saved diagnosis.";
+    if (diagnosis.unknownKnowledgeEvidence !== null) {
+      return "A concrete-root diagnosis cannot include unknown-knowledge evidence.";
+    }
+    if (diagnosis.teachingTarget !== null) {
+      return "A concrete-root diagnosis cannot include a teaching target.";
+    }
+    if (diagnosis.auditFocus !== "none") {
+      return "A concrete-root diagnosis cannot request an audit focus.";
+    }
+    return null;
+  }
 
-function countSentences(value) {
-  return (String(value || "").match(/[.!?]+(?=\s|$)/g) || []).length || 1;
-}
-
-function validateTutorContent({
-  action,
-  content,
-  conversation,
-  studentReview,
-  question,
-}) {
-  const text = String(content || "").trim();
-  if (!text) return "Content is empty.";
-  if ([ACTIONS.DIAGNOSIS, ACTIONS.RULE].includes(action)) {
-    const words = wordCount(text);
-    if (words < 7 || words > 14) return "The audit question must use 7 to 14 words.";
-    if (!/^(What|Where|Which|How)\b/.test(text)) {
-      return "The audit question must start with What, Where, Which, or How.";
+  if (diagnosis.status === "unknown_knowledge") {
+    if (!hasUnknownEvidence)
+      return "Unknown-knowledge evidence is not in the saved diagnosis.";
+    if (diagnosis.causalRootEvidence !== null) {
+      return "An unknown-knowledge diagnosis cannot include causal-root evidence.";
     }
-    if ((text.match(/\?/g) || []).length !== 1 || !text.endsWith("?")) {
-      return "The audit response must contain exactly one question.";
-    }
-    if (/\b(and|or)\b/i.test(text) || /[()\u2014]/.test(text)) {
-      return "The audit question must request only one detail with simple wording.";
-    }
-    const prior = getPriorAuditQuestions(conversation);
-    if (prior.some((questionText) => questionsAreSimilar(questionText, text))) {
-      return "The audit question repeats a prior question.";
-    }
-    const fieldText =
-      action === ACTIONS.DIAGNOSIS ? studentReview?.whereWrong : studentReview?.myRule;
-    const wrongAnswer = question?.freeResponse?.studentAnswer;
     if (
-      wrongAnswer &&
-      normalizeText(text).includes(normalizeText(wrongAnswer)) &&
-      !normalizeText(fieldText).includes(normalizeText(wrongAnswer))
+      typeof diagnosis.teachingTarget !== "string" ||
+      !diagnosis.teachingTarget.trim()
     ) {
-      return "The audit question introduced the student's final answer instead of auditing the saved field.";
+      return "Unknown knowledge requires a teaching target.";
     }
+    if (diagnosis.auditFocus !== "none") {
+      return "Unknown knowledge cannot request an audit focus.";
+    }
+    return null;
   }
-  if (action === ACTIONS.CONCLUDE) {
-    if (!text.startsWith("Next time,")) return "The conclusion must begin with Next time,.";
-    if (wordCount(text) > 25) return "The conclusion must use at most 25 words.";
-    if (countSentences(text) !== 1) return "The conclusion must be one sentence.";
+
+  if (
+    diagnosis.causalRootEvidence !== null ||
+    diagnosis.unknownKnowledgeEvidence !== null ||
+    diagnosis.teachingTarget !== null
+  ) {
+    return "An insufficient diagnosis cannot include accepted-path evidence.";
   }
-  if (action === ACTIONS.TEACH) {
-    if (wordCount(text) > 70 || countSentences(text) > 4) {
-      return "The concept lesson must use at most 70 words and 4 sentences.";
-    }
-    if (!/\b(ask|want|would|try)\b/i.test(text) || !text.includes("?")) {
-      return "The concept lesson must end with a follow-up invitation.";
-    }
+  if (!DIAGNOSIS_AUDIT_FOCUSES.has(diagnosis.auditFocus)) {
+    return "An insufficient diagnosis needs a valid audit focus.";
   }
   return null;
+}
+
+function validateRule(rule, studentReview) {
+  if (!rule || typeof rule !== "object") return "Rule assessment is missing.";
+  if (!["acceptable", "insufficient"].includes(rule.status)) {
+    return "Rule status is invalid.";
+  }
+
+  const hasTrigger = evidenceAppears(
+    studentReview?.myRule,
+    rule.triggerEvidence,
+  );
+  const hasNewBehavior = evidenceAppears(
+    studentReview?.myRule,
+    rule.newBehaviorEvidence,
+  );
+
+  if (rule.status === "acceptable") {
+    if (!hasTrigger || !hasNewBehavior) {
+      return "An acceptable rule needs exact trigger and new-behavior evidence.";
+    }
+    if (rule.missingRequirement !== "none") {
+      return "An acceptable rule cannot name a missing requirement.";
+    }
+    return null;
+  }
+
+  if (!RULE_MISSING_REQUIREMENTS.has(rule.missingRequirement)) {
+    return "An insufficient rule needs a valid missing requirement.";
+  }
+  if (rule.missingRequirement === "new_behavior") {
+    if (rule.newBehaviorEvidence !== null) {
+      return "A missing new behavior must not include new-behavior evidence.";
+    }
+    if (rule.triggerEvidence !== null && !hasTrigger) {
+      return "Rule trigger evidence is not in the saved rule.";
+    }
+    return null;
+  }
+  if (rule.triggerEvidence !== null) {
+    return "A missing trigger must not include trigger evidence.";
+  }
+  if (!hasNewBehavior) {
+    return "A missing trigger needs exact new-behavior evidence.";
+  }
+  return null;
+}
+
+function expectedResponseShape(action) {
+  if (action === ACTIONS.DIAGNOSIS) {
+    return {
+      targetField: "whereWrong",
+      responseType: "audit_question",
+      content: "string",
+    };
+  }
+  if (action === ACTIONS.RULE) {
+    return {
+      targetField: "myRule",
+      responseType: "audit_question",
+      content: "string",
+    };
+  }
+  if (action === ACTIONS.CONCLUDE) {
+    return { targetField: null, responseType: "conclusion", content: "string" };
+  }
+  return {
+    targetField: null,
+    responseType: "teaching_handoff",
+    content: "null",
+  };
+}
+
+function validateReviewOutput({ output, studentReview, ruleOnly = false }) {
+  if (!output || typeof output !== "object") return "Review output is missing.";
+  if (ruleOnly) {
+    if (Object.hasOwn(output, "diagnosis")) {
+      return "A rule-only response cannot include a diagnosis assessment.";
+    }
+  } else {
+    const diagnosisError = validateDiagnosis(output.diagnosis, studentReview);
+    if (diagnosisError) return diagnosisError;
+  }
+
+  const ruleError = validateRule(output.rule, studentReview);
+  if (ruleError) return ruleError;
+
+  const decision = decideReviewAction({
+    assessment: output,
+    studentReview,
+    ruleOnly,
+  });
+  if (output.proposedAction !== decision.action) {
+    return "The proposed action does not match the deterministic review gate.";
+  }
+
+  const expected = expectedResponseShape(decision.action);
+  if (output.targetField !== expected.targetField) {
+    return "The response target field does not match the selected action.";
+  }
+  if (output.responseType !== expected.responseType) {
+    return "The response type does not match the selected action.";
+  }
+  if (expected.content === "null") {
+    if (output.content !== null)
+      return "Teaching handoff content must be null.";
+  } else if (typeof output.content !== "string" || !output.content.trim()) {
+    return "The selected response needs non-empty content.";
+  }
+  return null;
+}
+
+function validateTutorContent({ content }) {
+  return typeof content === "string" && content.trim()
+    ? null
+    : "Content is empty.";
 }
 
 function shouldLoadMethodForChat(message) {
@@ -235,7 +417,12 @@ function shouldLoadMethodForChat(message) {
   );
 }
 
-function formatTutorReply({ action, content, noticeField, manualEdit = false }) {
+function formatTutorReply({
+  action,
+  content,
+  noticeField,
+  manualEdit = false,
+}) {
   const parts = [];
   if (manualEdit) parts.push("I noticed your saved answers changed.");
   if (noticeField === "whereWrong") {
@@ -243,7 +430,8 @@ function formatTutorReply({ action, content, noticeField, manualEdit = false }) 
   } else if (noticeField === "myRule") {
     parts.push("Your rule needs more detail.");
   }
-  if (action !== ACTIONS.ACKNOWLEDGE && content) parts.push(String(content).trim());
+  if (action !== ACTIONS.ACKNOWLEDGE && content)
+    parts.push(String(content).trim());
   return parts.join(" ");
 }
 
@@ -253,16 +441,18 @@ module.exports = {
   decideReviewAction,
   diagnosisAccepted,
   evidenceAppears,
+  expectedResponseShape,
   formatTutorReply,
   getPriorAuditQuestions,
-  namedConceptGap,
   nextStateForAction,
+  normalizeText,
   normalizeWorkflow,
-  questionsAreSimilar,
   requestedFieldForAction,
+  reviewChangeValidationError,
   ruleAccepted,
   shouldLoadMethodForChat,
+  unknownKnowledgeGap,
+  validateReviewOutput,
   validateTutorContent,
   validateWorkflowTurn,
-  wordCount,
 };

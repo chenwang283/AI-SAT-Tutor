@@ -29,20 +29,19 @@ assert.equal(
   ).state,
   "awaiting_rule_edit",
 );
-assert.throws(
-  () =>
-    getRequestWorkflow(
-      {
-        workflow: {
-          state: "awaiting_diagnosis_edit",
-          turnType: "field_edit",
-          editedField: "myRule",
-        },
+assert.equal(
+  getRequestWorkflow(
+    {
+      workflow: {
+        state: "awaiting_diagnosis_edit",
+        turnType: "field_edit",
+        editedField: "myRule",
       },
-      [],
-      reviewChange,
-    ),
-  /does not match/i,
+    },
+    [],
+    reviewChange,
+  ).editedField,
+  "myRule",
 );
 assert.throws(
   () => getRequestConversation({ conversation: [{ role: "assistant", content: "Previous reply" }] }),

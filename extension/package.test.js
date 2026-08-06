@@ -52,14 +52,14 @@ assert.equal(
   false,
 );
 const serverSource = fs.readFileSync(path.join(serverRoot, "src", "server.js"), "utf8");
-assert.match(serverSource, /buildAssessmentRequest/);
-assert.match(serverSource, /buildResponseRequest/);
-assert.match(serverSource, /action === ACTIONS\.TEACH/);
+assert.match(serverSource, /runTutorReviewGraph/);
+const graphSource = fs.readFileSync(path.join(serverRoot, "src", "tutorReviewGraph.js"), "utf8");
+assert.match(graphSource, /StateGraph/);
+assert.match(graphSource, /buildReviewRequest/);
 const teachRouteSource = serverSource.slice(serverSource.indexOf('app.post("/teach"'));
 assert.ok(
-  teachRouteSource.indexOf("assessment = await getStructuredResponse") <
-    teachRouteSource.indexOf("teachingMethod = await lookupTeachingMethod"),
-  "The review must be assessed before the teaching method is loaded",
+  teachRouteSource.indexOf("runTutorReviewGraph") > 0,
+  "The /teach route must invoke the tutor workflow graph",
 );
 
 console.log("extension package reference tests passed");

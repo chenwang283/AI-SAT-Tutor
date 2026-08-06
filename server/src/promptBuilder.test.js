@@ -1,8 +1,8 @@
 const assert = require("node:assert/strict");
 const {
-  ASSESSMENT_INSTRUCTIONS,
-  buildAssessmentRequest,
+  REVIEW_INSTRUCTIONS,
   buildResponseRequest,
+  buildReviewRequest,
   selectAuditQuestionContext,
   selectChatQuestionContext,
 } = require("./promptBuilder");
@@ -16,20 +16,16 @@ const question = {
     isCorrect: false,
   },
   explanation: "Distribute first, then compare the coefficients.",
-  tags: [
-    { label: "Algebra" },
-    { label: "Linear equations in one variable" },
-  ],
+  tags: [{ label: "Algebra" }, { label: "Linear equations in one variable" }],
   selectedLetter: "A",
   correctLetter: "B",
-  pageUrl: "https://example.com/private",
 };
 
 const studentReview = {
   section: "math",
   difficulty: "hard",
   clockMode: "untimed",
-  whereWrong: "I wrote 5kx when I distributed instead of 2kx.",
+  whereWrong: "I wrote 5kx instead of 2kx.",
   myRule: "Be careful.",
   tag: "1",
   tagDefinition: "Calculation error",
@@ -37,55 +33,42 @@ const studentReview = {
 
 const auditQuestion = selectAuditQuestionContext(question);
 assert.equal(auditQuestion.freeResponse, undefined);
+assert.equal(auditQuestion.tags, undefined);
 assert.equal(auditQuestion.correctFreeResponse, "2");
-assert.equal(auditQuestion.selectedLetter, undefined);
-assert.equal(auditQuestion.pageUrl, undefined);
 assert.doesNotMatch(JSON.stringify(auditQuestion), /4\/5/);
 
 const chatQuestion = selectChatQuestionContext(question);
 assert.equal(chatQuestion.freeResponse.studentAnswer, "4/5");
+assert.deepEqual(chatQuestion.tags, question.tags);
 
-const fullAssessment = buildAssessmentRequest({
+const fullReview = buildReviewRequest({
   question,
   studentReview,
   reviewStage: "initial",
   workflowState: "evaluate_review",
+  priorAuditQuestions: ["What did rushing make you do?"],
 });
-assert.match(ASSESSMENT_INSTRUCTIONS, /wrong-versus-correct comparison is complete/i);
-assert.match(ASSESSMENT_INSTRUCTIONS, /Do not demand why the slip happened/i);
-assert.equal(fullAssessment.format.type, "json_schema");
-assert.equal(fullAssessment.format.strict, true);
-const assessmentInput = JSON.parse(fullAssessment.input);
-assert.equal(assessmentInput.task, "diagnosis_then_rule");
-assert.equal(assessmentInput.savedReview.whereWrong, studentReview.whereWrong);
-assert.doesNotMatch(fullAssessment.input, /4\/5/);
+assert.equal(fullReview.format.type, "json_schema");
+assert.equal(fullReview.format.name, "full_review_response");
+assert.equal(fullReview.format.strict, true);
+assert.equal(fullReview.format.schema.properties.content.type.includes("null"), true);
+assert.match(REVIEW_INSTRUCTIONS, /Do not require a separate step/i);
+assert.match(REVIEW_INSTRUCTIONS, /5-14 simple words/i);
+assert.match(REVIEW_INSTRUCTIONS, /Do not use topic tags as an anchor/i);
+const fullInput = JSON.parse(fullReview.input);
+assert.equal(fullInput.savedReview.whereWrong, studentReview.whereWrong);
+assert.deepEqual(fullInput.priorAuditQuestions, ["What did rushing make you do?"]);
+assert.doesNotMatch(fullReview.input, /4\/5/);
 
-const ruleAssessment = buildAssessmentRequest({
+const ruleReview = buildReviewRequest({
   question,
   studentReview,
   workflowState: "awaiting_rule_edit",
   ruleOnly: true,
 });
-assert.deepEqual(ruleAssessment.format.schema.required, ["rule"]);
-assert.equal(JSON.parse(ruleAssessment.input).task, "rule_only");
-
-const diagnosisResponse = buildResponseRequest({
-  action: "request_diagnosis_edit",
-  question,
-  studentReview,
-  assessment: {
-    diagnosis: { missingDetail: "wrong_action_or_result" },
-  },
-  conversation: [],
-  priorAuditQuestions: ["Where did your work first change?"],
-});
-const diagnosisInput = JSON.parse(diagnosisResponse.input);
-assert.equal(diagnosisInput.fieldText, studentReview.whereWrong);
-assert.deepEqual(diagnosisInput.priorAuditQuestions, [
-  "Where did your work first change?",
-]);
-assert.doesNotMatch(diagnosisResponse.input, /4\/5/);
-assert.match(diagnosisResponse.instructions, /7 to 14 words/);
+assert.equal(ruleReview.format.name, "rule_review_response");
+assert.equal(Object.hasOwn(ruleReview.format.schema.properties, "diagnosis"), false);
+assert.equal(JSON.parse(ruleReview.input).acceptedDiagnosis, studentReview.whereWrong);
 
 const teachingResponse = buildResponseRequest({
   action: "teach_concept",
@@ -95,29 +78,13 @@ const teachingResponse = buildResponseRequest({
     whereWrong: "I did not know the distributive property.",
   },
   assessment: {
-    diagnosis: { namedConcept: "the distributive property" },
+    diagnosis: { teachingTarget: "the distributive property" },
   },
-  conversation: [],
-  priorAuditQuestions: [],
   teachingMethod: "Multiply the outside factor by every term.",
   method: { title: "Linear equations" },
 });
 const teachingInput = JSON.parse(teachingResponse.input);
+assert.equal(teachingInput.teachingTarget, "the distributive property");
 assert.equal(teachingInput.selectedTeachingMethod, "Linear equations");
-assert.match(teachingInput.selectedTeachingNotes, /every term/);
-assert.match(teachingResponse.instructions, /follow-up question/i);
-assert.match(teachingResponse.instructions, /Do not audit the rule/i);
-
-const chatResponse = buildResponseRequest({
-  action: "answer_question",
-  question,
-  studentReview,
-  conversation: [{ role: "student", content: "Why does that work?" }],
-  teachingMethod: "",
-});
-assert.equal(
-  JSON.parse(chatResponse.input).question.freeResponse.studentAnswer,
-  "4/5",
-);
 
 console.log("prompt builder tests passed");

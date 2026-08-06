@@ -2,25 +2,8 @@ const express = require("express");
 const dotenv = require("dotenv");
 const path = require("node:path");
 const { randomUUID } = require("node:crypto");
-const { getStructuredResponse } = require("./openaiClient");
-const { lookupTeachingMethod } = require("./methodLookup");
-const {
-  buildAssessmentRequest,
-  buildResponseRequest,
-} = require("./promptBuilder");
-const {
-  ACTIONS,
-  STATES,
-  decideReviewAction,
-  formatTutorReply,
-  getPriorAuditQuestions,
-  nextStateForAction,
-  normalizeWorkflow,
-  requestedFieldForAction,
-  shouldLoadMethodForChat,
-  validateTutorContent,
-  validateWorkflowTurn,
-} = require("./tutorWorkflow");
+const { normalizeWorkflow } = require("./tutorWorkflow");
+const { runTutorReviewGraph } = require("./tutorReviewGraph");
 const { appendExchangeLog, ensureExchangeLogDir } = require("./exchangeLogger");
 const { REVIEW_CONFIG } = require("./reviewConfig");
 const {
@@ -249,12 +232,9 @@ function getRequestReviewChange(body) {
 }
 
 function getRequestWorkflow(body, conversation, reviewChange) {
-  const workflow = normalizeWorkflow(body?.workflow, {
+  return normalizeWorkflow(body?.workflow, {
     hasConversation: conversation.length > 0,
   });
-  const error = validateWorkflowTurn(workflow, reviewChange);
-  if (error) throw requestError(400, "INVALID_TUTOR_WORKFLOW", error);
-  return workflow;
 }
 
 function summarizeImages(images) {
@@ -303,60 +283,6 @@ function buildLogRecord({
         }
       : null,
   };
-}
-
-async function generateTutorContent({
-  action,
-  question,
-  studentReview,
-  reviewStage,
-  assessment,
-  conversation,
-  teachingMethod,
-  method,
-  images,
-}) {
-  let validationError = null;
-  for (let attempt = 0; attempt < 2; attempt += 1) {
-    const request = buildResponseRequest({
-      action,
-      question,
-      studentReview,
-      reviewStage,
-      assessment,
-      conversation,
-      priorAuditQuestions: getPriorAuditQuestions(conversation),
-      teachingMethod,
-      method,
-      validationError,
-    });
-    const output = await getStructuredResponse({
-      ...request,
-      images:
-        [ACTIONS.TEACH, ACTIONS.ANSWER].includes(action) ? images : [],
-      maxOutputTokens: action === ACTIONS.ANSWER ? 500 : 300,
-    });
-    validationError = validateTutorContent({
-      action,
-      content: output?.content,
-      conversation,
-      studentReview,
-      question,
-    });
-    if (!validationError) return output.content.trim();
-  }
-  throw requestError(
-    502,
-    "AI_RESPONSE_CONTRACT",
-    validationError || "The tutor response did not match its required format.",
-  );
-}
-
-function lastStudentMessage(conversation) {
-  return [...conversation]
-    .reverse()
-    .find((message) => message.role === "student")
-    ?.content;
 }
 
 app.get("/health", (req, res) => res.json({ ok: true }));
@@ -507,87 +433,19 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
     const workflow = getRequestWorkflow(req.body, conversation, reviewChange);
     workflowForLog = workflow;
 
-    let assessment = null;
-    let action;
-    let reasonCode;
-    const isTagOnlyEdit =
-      workflow.turnType === "manual_edit" &&
-      reviewChange.changedFields.every((field) => field === "tag");
-
-    if (isTagOnlyEdit) {
-      action = ACTIONS.ACKNOWLEDGE;
-      reasonCode = "tag_updated";
-    } else if (workflow.turnType === "chat") {
-      action = ACTIONS.ANSWER;
-      reasonCode = "student_question";
-    } else {
-      const ruleOnly =
-        workflow.turnType === "field_edit" &&
-        workflow.state === STATES.RULE;
-      const assessmentRequest = buildAssessmentRequest({
-        question: preparedQuestion.question,
-        studentReview,
-        reviewStage,
-        workflowState: workflow.state,
-        ruleOnly,
-      });
-      assessment = await getStructuredResponse({
-        ...assessmentRequest,
-        images: preparedQuestion.images,
-        maxOutputTokens: 600,
-      });
-      const decision = decideReviewAction({
-        assessment,
-        studentReview,
-        ruleOnly,
-      });
-      action = decision.action;
-      reasonCode = decision.reasonCode;
-    }
-
-    assessmentForLog = assessment;
-    actionForLog = action;
-
-    let teachingMethod = null;
-    const needsMethod =
-      action === ACTIONS.TEACH ||
-      (action === ACTIONS.ANSWER &&
-        shouldLoadMethodForChat(lastStudentMessage(conversation)));
-    if (needsMethod) {
-      teachingMethod = await lookupTeachingMethod(preparedQuestion.question);
-      methodForLog = {
-        key: teachingMethod.key,
-        title: teachingMethod.title,
-      };
-    }
-
-    const content =
-      action === ACTIONS.ACKNOWLEDGE
-        ? ""
-        : await generateTutorContent({
-            action,
-            question: preparedQuestion.question,
-            studentReview,
-            reviewStage,
-            assessment,
-            conversation,
-            teachingMethod: teachingMethod?.content || "",
-            method: teachingMethod,
-            images: preparedQuestion.images,
-          });
-    const requestedEditField = requestedFieldForAction(action);
-    const noticeField =
-      requestedEditField &&
-      !workflow.shownAuditNotices[requestedEditField]
-        ? requestedEditField
-        : null;
-    const nextWorkflowState = nextStateForAction(action, workflow.state);
-    const reply = formatTutorReply({
-      action,
-      content,
-      noticeField,
-      manualEdit: workflow.turnType === "manual_edit",
+    const graphResult = await runTutorReviewGraph({
+      question: preparedQuestion.question,
+      images: preparedQuestion.images,
+      studentReview,
+      reviewStage,
+      conversation,
+      reviewChange,
+      workflow,
     });
+    const response = graphResult.response;
+    assessmentForLog = graphResult.assessment;
+    actionForLog = response.action;
+    methodForLog = response.method;
 
     await appendExchangeLog(
       buildLogRecord({
@@ -603,19 +461,11 @@ app.post("/teach", requireAuthenticatedUser, async (req, res) => {
         workflow: workflowForLog,
         assessment: assessmentForLog,
         action: actionForLog,
-        reply,
+        reply: response.reply,
       }),
     );
 
-    res.json({
-      reply,
-      action,
-      reasonCode,
-      nextWorkflowState,
-      requestedEditField,
-      noticeField,
-      method: methodForLog,
-    });
+    res.json(response);
   } catch (error) {
     await appendExchangeLog(
       buildLogRecord({

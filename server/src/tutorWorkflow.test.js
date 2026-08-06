@@ -6,83 +6,66 @@ const {
   diagnosisAccepted,
   formatTutorReply,
   nextStateForAction,
-  normalizeWorkflow,
-  requestedFieldForAction,
   ruleAccepted,
-  shouldLoadMethodForChat,
+  unknownKnowledgeGap,
+  validateReviewOutput,
   validateTutorContent,
   validateWorkflowTurn,
 } = require("./tutorWorkflow");
 
 const review = {
-  whereWrong: "I wrote 5kx when I distributed instead of 2kx.",
-  myRule: "Be careful.",
+  whereWrong: "I wrote 5kx instead of 2kx.",
+  myRule: "When I distribute, I will multiply each term separately.",
+  tag: "1",
 };
-const diagnosisPass = {
+
+const concreteAssessment = {
   diagnosis: {
-    status: "specific_root_cause",
-    stepOrTrigger: "when I distributed",
-    wrongActionOrResult: "wrote 5kx",
-    correctContrast: "instead of 2kx",
-    namedConcept: null,
-    missingDetail: "none",
+    status: "concrete_causal_root",
+    causalRootEvidence: "I wrote 5kx instead of 2kx.",
+    unknownKnowledgeEvidence: null,
+    teachingTarget: null,
+    auditFocus: "none",
   },
-  rule: {
-    status: "insufficient",
-    trigger: null,
-    newBehavior: null,
-    preventionLink: null,
-    missingDetail: "trigger",
-  },
-};
-
-assert.equal(diagnosisAccepted(diagnosisPass, review), true);
-assert.deepEqual(decideReviewAction({ assessment: diagnosisPass, studentReview: review }), {
-  action: ACTIONS.RULE,
-  reasonCode: "trigger",
-});
-assert.equal(
-  nextStateForAction(ACTIONS.RULE, STATES.DIAGNOSIS),
-  STATES.RULE,
-);
-assert.equal(requestedFieldForAction(ACTIONS.RULE), "myRule");
-
-const acceptedReview = {
-  ...review,
-  myRule:
-    "When I distribute a fraction, I will multiply each term separately before moving on.",
-};
-const bothPass = {
-  ...diagnosisPass,
   rule: {
     status: "acceptable",
-    trigger: "When I distribute a fraction",
-    newBehavior: "multiply each term separately",
-    preventionLink: "before moving on",
-    missingDetail: "none",
+    triggerEvidence: "When I distribute",
+    newBehaviorEvidence: "multiply each term separately",
+    missingRequirement: "none",
   },
+  proposedAction: ACTIONS.CONCLUDE,
+  targetField: null,
+  responseType: "conclusion",
+  content: "Next time, multiply each part before you move on.",
 };
-assert.equal(ruleAccepted(bothPass, acceptedReview), true);
+
+assert.equal(diagnosisAccepted(concreteAssessment, review), true);
+assert.equal(ruleAccepted(concreteAssessment, review), true);
 assert.equal(
-  decideReviewAction({ assessment: bothPass, studentReview: acceptedReview }).action,
+  decideReviewAction({ assessment: concreteAssessment, studentReview: review }).action,
   ACTIONS.CONCLUDE,
 );
+assert.equal(validateReviewOutput({ output: concreteAssessment, studentReview: review }), null);
+assert.equal(nextStateForAction(ACTIONS.CONCLUDE, STATES.EVALUATE), STATES.COMPLETE);
 
-const conceptReview = {
-  whereWrong: "I did not know the distributive property.",
-  myRule: "Be careful.",
-};
 const conceptAssessment = {
+  ...concreteAssessment,
   diagnosis: {
-    status: "named_concept_gap",
-    stepOrTrigger: null,
-    wrongActionOrResult: null,
-    correctContrast: null,
-    namedConcept: "the distributive property",
-    missingDetail: "none",
+    status: "unknown_knowledge",
+    causalRootEvidence: null,
+    unknownKnowledgeEvidence: "I did not know the distributive property.",
+    teachingTarget: "the distributive property",
+    auditFocus: "none",
   },
-  rule: diagnosisPass.rule,
+  proposedAction: ACTIONS.TEACH,
+  responseType: "teaching_handoff",
+  content: null,
 };
+const conceptReview = {
+  ...review,
+  whereWrong: "I did not know the distributive property.",
+};
+assert.equal(unknownKnowledgeGap(conceptAssessment, conceptReview), true);
 assert.equal(
   decideReviewAction({
     assessment: conceptAssessment,
@@ -90,73 +73,85 @@ assert.equal(
   }).action,
   ACTIONS.TEACH,
 );
-assert.equal(nextStateForAction(ACTIONS.TEACH, STATES.EVALUATE), STATES.COMPLETE);
 
-const workflow = normalizeWorkflow({
+const ruleOnly = {
+  rule: {
+    status: "insufficient",
+    triggerEvidence: null,
+    newBehaviorEvidence: null,
+    missingRequirement: "new_behavior",
+  },
+  proposedAction: ACTIONS.RULE,
+  targetField: "myRule",
+  responseType: "audit_question",
+  content: "What will you do at that step?",
+};
+assert.equal(
+  validateReviewOutput({
+    output: ruleOnly,
+    studentReview: { ...review, myRule: "Be careful." },
+    ruleOnly: true,
+  }),
+  null,
+);
+assert.match(
+  validateReviewOutput({
+    output: { ...ruleOnly, diagnosis: concreteAssessment.diagnosis },
+    studentReview: review,
+    ruleOnly: true,
+  }),
+  /cannot include a diagnosis/i,
+);
+
+const workflow = {
   state: STATES.DIAGNOSIS,
   turnType: "field_edit",
   editedField: "whereWrong",
-});
+  shownAuditNotices: { whereWrong: false, myRule: false },
+};
+const reviewChange = {
+  changedFields: ["whereWrong"],
+  before: { whereWrong: "I rushed." },
+  after: { whereWrong: review.whereWrong },
+};
 assert.equal(
-  validateWorkflowTurn(workflow, {
-    changedFields: ["whereWrong"],
-    before: { whereWrong: "I was careless." },
-    after: { whereWrong: review.whereWrong },
-  }),
+  validateWorkflowTurn(workflow, reviewChange, { studentReview: review }),
   null,
 );
 assert.match(
   validateWorkflowTurn(
-    { ...workflow, editedField: "myRule" },
-    { changedFields: ["myRule"] },
+    workflow,
+    {
+      ...reviewChange,
+      after: { whereWrong: "Different saved value." },
+    },
+    { studentReview: review },
   ),
   /does not match/i,
 );
-
-assert.equal(
-  validateTutorContent({
-    action: ACTIONS.DIAGNOSIS,
-    content: "What detail is still missing about how you got 4/5?",
-    conversation: [],
-    studentReview: review,
-    question: { freeResponse: { studentAnswer: "4/5" } },
-  }),
-  "The audit question introduced the student's final answer instead of auditing the saved field.",
-);
 assert.match(
-  validateTutorContent({
-    action: ACTIONS.DIAGNOSIS,
-    content: "What exact step in your work first went wrong?",
-    conversation: [
-      {
-        role: "assistant",
-        content: "What exact step in your work first went wrong?",
-      },
-    ],
-    studentReview: review,
-    question: {},
-  }),
-  /repeats/i,
+  validateWorkflowTurn(
+    {
+      state: STATES.RULE,
+      turnType: "chat",
+      editedField: null,
+      shownAuditNotices: {},
+    },
+    null,
+    { conversation: [{ role: "assistant", content: "Question?" }], studentReview: review },
+  ),
+  /must end with a student message/i,
 );
-assert.equal(
-  validateTutorContent({
-    action: ACTIONS.RULE,
-    content: "What will trigger you to use this rule?",
-    conversation: [],
-    studentReview: acceptedReview,
-    question: {},
-  }),
-  null,
-);
+
 assert.equal(
   formatTutorReply({
     action: ACTIONS.DIAGNOSIS,
-    content: "What part of the step did you do wrong?",
+    content: "What did rushing make you do?",
     noticeField: "whereWrong",
   }),
-  'Your "Where I went wrong" answer needs more detail. What part of the step did you do wrong?',
+  'Your "Where I went wrong" answer needs more detail. What did rushing make you do?',
 );
-assert.equal(shouldLoadMethodForChat("Can you explain this method?"), true);
-assert.equal(shouldLoadMethodForChat("Can I ask something else?"), false);
+assert.equal(validateTutorContent({ content: "This is long, but valid." }), null);
+assert.equal(validateTutorContent({ content: "" }), "Content is empty.");
 
 console.log("tutor workflow tests passed");
